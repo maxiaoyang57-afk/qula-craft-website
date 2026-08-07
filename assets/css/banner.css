@@ -1,0 +1,343 @@
+/* QulaCraft 首页 banner(网站包 V3 证书增强版,2026-07-24 整合;全局 reset 已剥离,只保 .pcraft-* 作用域) */
+:root {
+  --pcraft-ink: #1f2735;
+  --pcraft-subtle: #5d6677;
+  --pcraft-border: rgba(223, 221, 226, 0.72);
+  --pcraft-pink: #ff699a;
+  --pcraft-pink-deep: #f15388;
+  --pcraft-shadow-soft: 0 10px 26px rgba(108, 88, 118, 0.09);
+}
+
+
+.pcraft-hero {
+  position: relative;
+  min-height: auto;
+  overflow: hidden;
+  isolation: isolate;
+  background: #f6ece9;
+}
+
+.pcraft-hero__media,
+.pcraft-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pcraft-hero__media { z-index: -4; }
+.pcraft-hero__bg {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.pcraft-hero__overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background: linear-gradient(90deg,
+    rgba(255, 250, 248, 0.992) 0%,
+    rgba(255, 250, 248, 0.982) 18%,
+    rgba(255, 250, 248, 0.945) 32%,
+    rgba(255, 250, 248, 0.78) 46%,
+    rgba(255, 250, 248, 0.30) 60%,
+    rgba(255, 250, 248, 0.06) 76%,
+    rgba(255, 250, 248, 0) 100%);
+}
+
+.pcraft-hero__soft-glow {
+  position: absolute;
+  z-index: -2;
+  border-radius: 999px;
+  filter: blur(8px);
+  opacity: .55;
+}
+.pcraft-hero__soft-glow--left {
+  left: -120px;
+  bottom: -40px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(255,195,215,.66), rgba(255,195,215,0) 70%);
+}
+.pcraft-hero__soft-glow--right {
+  right: -100px;
+  top: 60px;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(190,190,255,.3), rgba(190,190,255,0) 70%);
+}
+
+.pcraft-hero__wrap,
+.pcraft-bottom-panel {
+  width: min(100% - 56px, 1420px);
+  margin: 0 auto;
+}
+
+.pcraft-hero__wrap { padding: 26px 0 18px; }
+.pcraft-hero__content { width: min(720px, 54%); }
+
+.pcraft-kicker {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border-radius: 999px;
+  color: #7e6175;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.56);
+  border: 1px solid rgba(255,255,255,.82);
+  box-shadow: var(--pcraft-shadow-soft);
+  backdrop-filter: blur(10px);
+}
+
+.pcraft-hero h1 {
+  max-width: 720px;
+  margin: 8px 0 0;
+  color: #1e2533;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 3.6vw, 52px);
+  line-height: .98;
+  letter-spacing: -0.043em;
+  text-wrap: balance;
+}
+
+.pcraft-hero__lead {
+  max-width: 640px;
+  margin: 11px 0 0;
+  color: var(--pcraft-subtle);
+  font-size: clamp(15.5px, 1.1vw, 18px);
+  line-height: 1.48;
+  font-weight: 500;
+  text-wrap: pretty;
+}
+
+.pcraft-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 14px;
+  max-width: 660px;
+  margin-top: 10px;
+}
+
+.pcraft-highlight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: #40495c;
+  font-size: 15px;
+  font-weight: 750;
+  background: rgba(255,255,255,.57);
+  border: 1px solid rgba(255,255,255,.8);
+  box-shadow: var(--pcraft-shadow-soft);
+  backdrop-filter: blur(9px);
+}
+
+.pcraft-dot {
+  width: 11px;
+  height: 11px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(255,255,255,.78);
+}
+.pcraft-dot--mint { background: #43c7c0; }
+.pcraft-dot--lime { background: #99c84b; }
+.pcraft-dot--pink { background: #f46ca2; }
+.pcraft-dot--lavender { background: #ab7ddd; }
+
+.pcraft-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 11px;
+}
+
+.pcraft-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 17.5px;
+  font-weight: 800;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.pcraft-btn:hover { transform: translateY(-2px); }
+.pcraft-btn:focus-visible {
+  outline: 4px solid rgba(169, 107, 215, .22);
+  outline-offset: 4px;
+}
+.pcraft-btn--primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--pcraft-pink) 0%, var(--pcraft-pink-deep) 100%);
+  box-shadow: 0 18px 36px rgba(241, 83, 136, 0.27);
+}
+.pcraft-btn--secondary {
+  color: var(--pcraft-pink);
+  background: rgba(255,255,255,.80);
+  border: 1px solid rgba(255,125,165,.42);
+  box-shadow: var(--pcraft-shadow-soft);
+}
+
+.pcraft-mini-trust {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px 14px;
+  margin-top: 11px;
+  padding-left: 2px;
+  color: #596273;
+  font-size: 14px;
+  font-weight: 750;
+}
+.pcraft-mini-trust__divider {
+  width: 1px;
+  height: 14px;
+  background: rgba(88, 98, 115, 0.30);
+}
+
+.pcraft-bottom-panel { padding: 6px 0 32px; }
+.pcraft-service-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pcraft-service-card {
+  min-height: 96px;
+  padding: 11px 16px 11px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.72);
+  border: 1px solid rgba(255,255,255,.84);
+  box-shadow: var(--pcraft-shadow-soft);
+  backdrop-filter: blur(10px);
+}
+.pcraft-service-card h2 {
+  margin: 0;
+  color: var(--pcraft-pink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  line-height: 1.12;
+}
+.pcraft-service-card p {
+  margin: 7px 0 0;
+  color: #536072;
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.pcraft-cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  margin-top: 18px;
+  padding: 15px 18px;
+  border-radius: 24px;
+  background: rgba(255,255,255,.44);
+  border: 1px solid rgba(255,255,255,.74);
+  box-shadow: var(--pcraft-shadow-soft);
+  backdrop-filter: blur(10px);
+}
+.pcraft-cert-row__text {
+  color: #4f596a;
+  font-size: 17px;
+  font-weight: 800;
+  margin-right: 2px;
+}
+.pcraft-cert-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 18px;
+  border-radius: 999px;
+  color: #3f495c;
+  font-size: 15px;
+  font-weight: 800;
+  background: rgba(255,255,255,.92);
+  border: 1px solid rgba(220, 221, 232, .92);
+  box-shadow: 0 8px 18px rgba(108, 88, 118, 0.08);
+}
+.pcraft-cert-pill::before {
+  content: "✓";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+  background: linear-gradient(135deg, #ff89b4 0%, #b88cff 100%);
+  box-shadow: 0 4px 10px rgba(184, 140, 255, 0.22);
+}
+
+@media (max-width: 1320px) {
+  .pcraft-hero__wrap,
+  .pcraft-bottom-panel { width: min(100% - 44px, 1320px); }
+}
+/* 5 张能力卡保持单行到 1160px:单行(5列)永远比 2行(3列)矮,利于第一屏放下 */
+@media (max-width: 1160px) {
+  .pcraft-service-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 1040px) {
+  .pcraft-hero { min-height: auto; }
+  .pcraft-hero__wrap { padding: 40px 0 30px; }
+  .pcraft-hero__content { width: min(820px, 100%); }
+  .pcraft-hero__overlay {
+    background: linear-gradient(90deg,
+      rgba(255,250,248,.99) 0%,
+      rgba(255,250,248,.975) 50%,
+      rgba(255,250,248,.80) 72%,
+      rgba(255,250,248,.20) 100%);
+  }
+  .pcraft-service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .pcraft-hero__wrap,
+  .pcraft-bottom-panel { width: min(100% - 24px, 680px); }
+  .pcraft-hero__bg { object-position: center center; }
+  .pcraft-hero__overlay {
+    background: linear-gradient(180deg,
+      rgba(255,250,248,.82) 0%,
+      rgba(255,250,248,.76) 18%,
+      rgba(255,250,248,.88) 39%,
+      rgba(255,250,248,.96) 63%,
+      rgba(255,250,248,.99) 100%);
+  }
+  .pcraft-kicker { min-height: 34px; padding: 0 13px; font-size: 11px; }
+  .pcraft-hero h1 { font-size: clamp(38px, 11.6vw, 54px); line-height: .98; }
+  .pcraft-hero__lead { font-size: 17px; line-height: 1.53; }
+  .pcraft-highlights,
+  .pcraft-service-grid { grid-template-columns: 1fr; }
+  .pcraft-actions { flex-direction: column; }
+  .pcraft-btn { width: 100%; min-height: 56px; font-size: 18px; }
+  .pcraft-mini-trust { font-size: 13px; gap: 8px 12px; }
+  .pcraft-mini-trust__divider { display: none; }
+  .pcraft-service-card { min-height: auto; padding: 18px; border-radius: 20px; }
+  .pcraft-service-card h2 { font-size: 20px; }
+  .pcraft-service-card p { font-size: 14px; }
+  .pcraft-cert-row { padding: 16px 14px; gap: 10px; border-radius: 20px; }
+  .pcraft-cert-row__text { font-size: 15px; text-align: center; width: 100%; margin-right: 0; }
+  .pcraft-cert-pill { min-height: 42px; padding: 0 15px; font-size: 14px; }
+  .pcraft-cert-pill::before { width: 20px; height: 20px; font-size: 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pcraft-btn { transition: none; }
+}
