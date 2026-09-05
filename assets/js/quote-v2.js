@@ -131,7 +131,11 @@
       });
 
       try {
-        const response = await fetch(form.action, {
+        const ajaxEndpoint = form.action.includes('/ajax/')
+          ? form.action
+          : form.action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
+
+        const response = await fetch(ajaxEndpoint, {
           method: 'POST',
           body: formData,
           headers: { 'Accept': 'application/json' }
