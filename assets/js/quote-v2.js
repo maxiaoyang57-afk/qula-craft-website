@@ -131,7 +131,11 @@
       });
 
       try {
-        const response = await fetch(form.action, {
+        const ajaxEndpoint = form.action.includes('/ajax/')
+          ? form.action
+          : form.action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
+
+        const response = await fetch(ajaxEndpoint, {
           method: 'POST',
           body: formData,
           headers: { 'Accept': 'application/json' }
@@ -153,7 +157,7 @@
           throw new Error('Submission failed');
         }
       } catch (err) {
-        alert('Sorry, there was an error sending your inquiry. Please try again or email us directly at sale008@sola-craft.com');
+        alert('Sorry, there was an error sending your inquiry. Please try again or email us directly at sales@qulacrafts.com');
         btn.disabled = false;
         btn.innerHTML = originalText;
       }

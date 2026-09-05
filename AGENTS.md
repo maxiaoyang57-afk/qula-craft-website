@@ -2,7 +2,7 @@
 
 ## 🏷 品牌改名(2026-07-15,已全站落地)
 - 品牌显示名 **Qula Craft**(logo `<span>Qula</span> Craft`),域名 **www.qulacrafts.com**(已注册,Vercel 购入)
-- **三个不动**:法定名 Yiwu Sola Craft Co., Ltd.(真实注册公司,版权行/schema legalName 保留)、邮箱 sale008@sola-craft.com(当前唯一可收信,换新邮箱要同步 mailto+formsubmit+schema 三处并重激活)、阿里店 solagarland 链接
+- **三个不动**:法定名 Yiwu Sola Craft Co., Ltd.(真实注册公司,版权行/schema legalName 保留)、邮箱 sales@qulacrafts.com(当前询盘收件地址；换邮箱要同步 mailto+formsubmit+schema 三处并重激活)、阿里店 solagarland 链接
 - 版本 ?v=20260715;包 QulaCraft_独立站网站包_品牌域名版_20260715.zip
 - 本地预览常驻:.claude/serve8101.cmd(**python.exe 别用 pythonw——无 stderr 会让 http.server 响应中断**);开机自启计划任务需管理员,待 Jacken 手动
 
@@ -22,7 +22,7 @@
 
 ## 真实数据(已全站替换,2026-07-06)
 - 域名:**sola-craft.com**(带连字符;旧占位 solacraft.com 已清零)
-- 邮箱:sale008@sola-craft.com
+- 邮箱:sales@qulacrafts.com
 - WhatsApp:+86 186 3202 6595(wa.me/8618632026595)
 - 公司:Yiwu Sola Craft Co., Ltd.,义乌;**TüV 莱茵实地认证**
 - 阿里店铺:https://solagarland.en.alibaba.com/ (footer 有链接,schema sameAs)
@@ -32,7 +32,7 @@
 - 本会话 preview_screenshot 曾坏死:验证用 curl + preview_snapshot/eval,别死磕截图
 
 ## 已完成(07-06 全量优化,审计 50→代码侧打满)
-- 表单 ×4 接 **FormSubmit**(action=formsubmit.co/sale008@...,_captcha=false+蜜罐,成功跳 thank-you.html)
+- 表单 ×4 接 **FormSubmit**(action=formsubmit.co/sales@qulacrafts.com,_captcha=false+蜜罐,成功跳 thank-you.html)
 - GA4 脚手架:`assets/js/analytics.js` — **把 G-XXXXXXXXXX 换成真实 ID 即全站生效**(含 whatsapp_click/email_click/phone_click/generate_lead 事件)
 - canonical/hreflang/og:url/og:site_name/twitter card/theme-color ×17;og:image 全绝对 URL+每页专属图
 - Organization schema 扩充(legalName/TüV/sameAs/E164 电话);4 分类页 ItemList→Product;seasonal 补 CollectionPage
