@@ -14,11 +14,11 @@
 
 ## 上线前 3 步
 1. **GA4**:打开 `assets/js/analytics.js`,第一行 `G-XXXXXXXXXX` 换成真实衡量 ID → 全站生效
-2. **表单激活**:上线后任意表单提交一次,FormSubmit 发激活邮件到 sale008@sola-craft.com(当前收信邮箱),点确认即通
+2. **表单激活**:上线后任意表单提交一次,FormSubmit 发激活邮件到 sales@qulacrafts.com(当前收信邮箱),点确认即通
 3. **收录**:Google Search Console 提交 `sitemap.xml`(30 URL)
 
 ## 邮箱说明(重要)
-当前收询盘邮箱为 **sale008@sola-craft.com**(真实可收信,保持工作)。若在新域名开通邮箱(如 sale@qulacrafts.com),
+当前收询盘邮箱为 **sales@qulacrafts.com**(真实可收信,保持工作)。若在新域名开通邮箱(如 sale@qulacrafts.com),
 需同步替换三处:①各页 mailto 链接 ②formsubmit.co/ 后端地址(换后要重新激活一次) ③Organization schema 联系点。
 
 ## 部署说明

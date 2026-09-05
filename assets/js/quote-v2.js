@@ -153,7 +153,7 @@
           throw new Error('Submission failed');
         }
       } catch (err) {
-        alert('Sorry, there was an error sending your inquiry. Please try again or email us directly at sale008@sola-craft.com');
+        alert('Sorry, there was an error sending your inquiry. Please try again or email us directly at sales@qulacrafts.com');
         btn.disabled = false;
         btn.innerHTML = originalText;
       }
