@@ -5,7 +5,7 @@
 import json, re, html
 from pathlib import Path
 
-SITE = Path(r"E:\Claude\solacraft-site")
+SITE = Path(__file__).resolve().parents[1]
 BASE = "https://www.qulacrafts.com/"
 SM = SITE / "sitemap.xml"
 NS_IMG = 'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'

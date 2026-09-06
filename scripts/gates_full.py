@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
-"""PDP 轮终极闸门:205 页全量"""
+"""PDP 轮终极闸门:全量"""
 import json, re, sys
 from pathlib import Path
 from collections import Counter
 
-SITE = Path(r"E:\Claude\solacraft-site")
+SITE = Path(__file__).resolve().parents[1]
 fails = []
 pages = sorted(SITE.glob("*.html"))
 pdps = sorted(SITE.glob("p-*.html"))
+expected_products = len(json.loads((SITE / "assets/data/pdp-data.json").read_text(encoding="utf-8")))
 print(f"总页数: {len(pages)} PDP: {len(pdps)}")
-if len(pdps) != 172:
-    fails.append(f"PDP 数 {len(pdps)} != 172")
+if len(pdps) != expected_products:
+    fails.append(f"PDP 数 {len(pdps)} != {expected_products}")
 
 disk = {q.name for q in pages}
 titles = Counter()
@@ -72,7 +73,7 @@ flat = [p for c in cat["categories"] for p in c["products"]]
 n_pdp = sum(1 for p in flat if p.get("pdp"))
 n_core = sum(1 for p in flat if p.get("sku") and p.get("title") and p.get("image"))
 print(f"catalog: {len(flat)} 条, 带pdp: {n_pdp}, 核心字段齐: {n_core}")
-if n_pdp != 172 or n_core != 172:
+if n_pdp != expected_products or n_core != expected_products:
     fails.append(f"catalog 异常 pdp={n_pdp} core={n_core}")
 for p in flat:
     if p.get("pdp") and not (SITE / p["pdp"]).exists():

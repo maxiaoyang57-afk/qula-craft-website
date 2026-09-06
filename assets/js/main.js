@@ -48,7 +48,7 @@
   }
 })();
 
-// products hub 实时搜索(172 SKU, 让 WebSite SearchAction 为真)
+// products hub 实时搜索(目录内全部 SKU, 让 WebSite SearchAction 为真)
 (function(){
   const sInput=document.querySelector('[data-catalog-search]');
   if(!sInput)return;
