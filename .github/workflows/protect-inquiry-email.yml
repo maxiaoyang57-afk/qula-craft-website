@@ -25,6 +25,8 @@ jobs:
   production-monitor:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,4 +35,16 @@ jobs:
       - name: Download uncached production homepage
         run: curl --fail --silent --show-error --location --retry 3 --max-time 30 "https://www.qulacrafts.com/?inquiry_guard=${GITHUB_RUN_ID}" --output /tmp/qula-production.html
       - name: Verify production inquiry routing
+        id: verify-production
+        continue-on-error: true
         run: node scripts/check-inquiry-email.mjs --live /tmp/qula-production.html
+      - name: Trigger automatic production restore
+        if: steps.verify-production.outcome == 'failure'
+        run: |
+          git config user.name "QULA inquiry guard"
+          git config user.email "actions@users.noreply.github.com"
+          git commit --allow-empty -m "Auto-restore production inquiry routing"
+          git push origin HEAD:main
+      - name: Record automatic restore
+        if: steps.verify-production.outcome == 'failure'
+        run: echo "Production inquiry routing drift was detected. A new main deployment has been triggered." >> "$GITHUB_STEP_SUMMARY"
