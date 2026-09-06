@@ -1,4 +1,7 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/check-inquiry-email.mjs",
+  "outputDirectory": ".",
   "cleanUrls": false,
   "trailingSlash": false,
   "headers": [

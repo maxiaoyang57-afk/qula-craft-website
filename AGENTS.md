@@ -1,5 +1,11 @@
 # QulaCraft 独立站(qulacrafts.com)
 
+## 🔒 生产询盘邮箱保护（2026-09-06）
+- GitHub `main` 是唯一生产源码；禁止从旧 ZIP、Claude/Codex 临时目录或其他本地副本直接执行 Vercel Production 部署。
+- 唯一询盘地址是 `sales@qulacrafts.com`；旧地址 `sale008@sola-craft.com` 与主邮箱 `monica@qulacrafts.com` 均禁止写入网站表单或 `mailto:`。
+- Vercel 每次构建会运行 `node scripts/check-inquiry-email.mjs`；四个 FormSubmit 表单、全站 `mailto:` 或 AJAX 防护不一致时构建必须失败。
+- GitHub Actions 每 30 分钟检查一次生产首页；检查失败表示生产域名可能被旧部署覆盖，应立即把 GitHub `main` 的最新成功部署重新设为 Production。
+
 ## 🏷 品牌改名(2026-07-15,已全站落地)
 - 品牌显示名 **Qula Craft**(logo `<span>Qula</span> Craft`),域名 **www.qulacrafts.com**(已注册,Vercel 购入)
 - **三个不动**:法定名 Yiwu Sola Craft Co., Ltd.(真实注册公司,版权行/schema legalName 保留)、邮箱 sales@qulacrafts.com(当前询盘收件地址；换邮箱要同步 mailto+formsubmit+schema 三处并重激活)、阿里店 solagarland 链接

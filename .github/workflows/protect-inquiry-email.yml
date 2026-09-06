@@ -1,0 +1,36 @@
+name: Protect inquiry email
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  repository-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Verify inquiry routing
+        run: node scripts/check-inquiry-email.mjs
+
+  production-monitor:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Download uncached production homepage
+        run: curl --fail --silent --show-error --location --retry 3 --max-time 30 "https://www.qulacrafts.com/?inquiry_guard=${GITHUB_RUN_ID}" --output /tmp/qula-production.html
+      - name: Verify production inquiry routing
+        run: node scripts/check-inquiry-email.mjs --live /tmp/qula-production.html
