@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-"""172 个 PDP 生成器(价格口径=只上 From $ 起步价,Jacken 07-24 拍板)
-产出:p-<assetKey>.html ×172 + 分类/季节页卡接链 + main.js 搜索卡接链 + sitemap 203 + llms-full.txt
+"""PDP 生成器(价格口径=只上 From $ 起步价,Jacken 07-24 拍板)
+产出:p-<assetKey>.html + 分类/季节页卡接链 + main.js 搜索卡接链 + sitemap + llms-full.txt
 铁律:零编造——每个字段都来自 pdp-data.json(阿里实抓)或 catalog.json(客户Excel)"""
-import json, re, shutil, statistics
+import json, re, statistics
 from pathlib import Path
 from PIL import Image
 
-SITE = Path(r"E:\Claude\solacraft-site")
-TODAY = "2026-07-24"
-V = "20260724"
+SITE = Path(__file__).resolve().parents[1]
+TODAY = "2026-09-06"
 BASE = "https://www.qulacrafts.com/"
 pdp = json.loads((SITE / "assets/data/pdp-data.json").read_text(encoding="utf-8"))
 for _e in pdp:
@@ -27,15 +26,14 @@ flat = []
 for c in cat["categories"]:
     for p in c["products"]:
         flat.append(p)
-assert len(flat) == 172, len(flat)
+assert len(flat) == len(pdp), f"catalog={len(flat)} pdp={len(pdp)}"
 mis = [(e["ci"], e["sku"], flat[e["ci"]]["sku"]) for e in pdp
        if flat[e["ci"]]["sku"] != e["sku"]]
 assert not mis, f"catalogIndex 错位: {mis[:5]}"
-shutil.copy2(catp, catp.with_name("product-catalog.backup-20260724.json"))
 for e in pdp:
     flat[e["ci"]]["pdp"] = f"p-{e['assetKey']}.html"
 catp.write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
-print("catalog.json 注入 pdp 字段 ✓ (172 对齐)")
+print(f"catalog.json 注入 pdp 字段 ✓ ({len(flat)} 对齐)")
 
 # ---- 标题清洗(与 main.js clean 同源) ----
 ST = {"With", "And", "For", "Of", "The", "A", "An", "In", "On", "Per", "By", "To"}
@@ -147,7 +145,7 @@ def is_noise(v):
     return s in SKIP_VALS or s.lower() in NOISE_VALS
 BAD_TITLE_TAIL = re.compile(r"\s*-\s*Buy.*$", re.I)
 # 实体归一:全站 Organization 用同一 @id(见 index 等核心页的 Organization 节点),
-# PDP 的 manufacturer/seller 指向它 → 172 个产品与品牌实体绑定(GEO)
+# PDP 的 manufacturer/seller 指向它 → 全部产品与品牌实体绑定(GEO)
 ORG_REF = {"@type": "Organization", "@id": BASE + "#organization", "name": "Qula Craft",
            "legalName": "Yiwu Sola Craft Co., Ltd.", "url": BASE}
 
@@ -306,7 +304,7 @@ for e in pdp:
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
     <a class="btn btn-wa-3d" href="{wa}" target="_blank" rel="noopener">Chat on WhatsApp</a>
-    <a class="basket-add" data-sku="{esc(sku)}" data-image="{esc(main_img)}">＋ Add to inquiry list</a>
+    <a class="basket-add" data-sku="{esc(sku)}" data-title="{esc(catrow['title'])}">＋ Add to inquiry list</a>
   </div>
 </div></div></section>
 <section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Every item below is a live stock listing — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
@@ -373,7 +371,7 @@ else:
     mj.write_text(js, encoding="utf-8")
     print("main.js 搜索卡接链 ✓")
 
-# ---- 4) sitemap +172 ----
+# ---- 4) sitemap ----
 sp = SITE / "sitemap.xml"
 sm = sp.read_text(encoding="utf-8")
 nodes = "".join(f"<url><loc>{BASE}p-{e['assetKey']}.html</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n"
@@ -383,7 +381,7 @@ sp.write_text(sm, encoding="utf-8")
 print("sitemap URL:", sm.count("<url>"))
 
 # ---- 5) llms-full.txt + llms.txt 引用 ----
-lines = ["# Qula Craft — full product index (172 live stock items)", ""]
+lines = [f"# Qula Craft — full product index ({len(pdp)} live stock items)", ""]
 for c in cat["categories"]:
     lines.append(f"## {c.get('name', c.get('slug',''))}")
     for prow in c["products"]:
@@ -401,8 +399,10 @@ for c in cat["categories"]:
 (SITE / "llms-full.txt").write_text("\n".join(lines), encoding="utf-8")
 lt = SITE / "llms.txt"
 t = lt.read_text(encoding="utf-8")
+product_heading = f"## Products ({len(cat['categories'])} categories, {len(pdp)} live stock items)"
+t = re.sub(r"## Products \(\d+ categories, \d+ live stock items\)", product_heading, t, count=1)
 if "llms-full.txt" not in t:
-    t = t.replace("## Products (9 categories, 172 live stock items)",
-                  f"Full per-item index with prices and MOQ: {BASE}llms-full.txt\n\n## Products (9 categories, 172 live stock items)")
-    lt.write_text(t, encoding="utf-8")
+    t = t.replace(product_heading,
+                  f"Full per-item index with prices and MOQ: {BASE}llms-full.txt\n\n{product_heading}")
+lt.write_text(t, encoding="utf-8")
 print("llms-full.txt ✓ +", len(lines), "行; llms.txt 引用 ✓")
