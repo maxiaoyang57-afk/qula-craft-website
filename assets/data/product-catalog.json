@@ -3,8 +3,8 @@
  "sourceWorkbook": "D:\\WeChat\\xwechat_files\\wxid_6386293863114_082f\\msg\\file\\2026-07\\7-9网站产品.xlsx",
  "siteRoot": "E:\\Codex\\workspace\\active\\SolaCraft_软陶片_接手优化_20260709",
  "totalCategories": 9,
- "totalProducts": 175,
- "totalImages": 175,
+ "totalProducts": 176,
+ "totalImages": 176,
  "duplicateSkus": [
   "YM109"
  ],
@@ -1369,7 +1369,7 @@
    "name": "Resin Charms",
    "slug": "resin-charms",
    "sourceSheet": "Resin Charms",
-   "productCount": 22,
+   "productCount": 23,
    "noteCount": 0,
    "notes": [],
    "products": [
@@ -1856,6 +1856,28 @@
      "titleShort": "100pcs DIY Resin Drink Jam Jars Charms Hand Made Accessories Fun Fruit Personal Earrings Pendant Material Earrings Finding",
      "titleFull": "100pcs DIY Resin Drink Jam Jars Charms Hand Made Accessories Fun Fruit Personal Earrings Pendant Material Earrings Finding",
      "pdp": "p-rw326.html"
+    },
+    {
+     "category": "Resin Charms",
+     "categorySlug": "resin-charms",
+     "sourceSheet": "RW26740 image upload",
+     "sourceRow": 0,
+     "sortOrder": 23,
+     "sku": "RW26740",
+     "title": "Colorful Cheese-Shaped Resin Charms",
+     "alibabaUrl": "",
+     "cleanAlibabaUrl": "",
+     "alibabaProductId": "",
+     "image": "assets/images/pdp/rw26740/01.webp",
+     "imageAlt": "RW26740 Colorful Cheese-Shaped Resin Charms",
+     "imageWidth": 1000,
+     "imageHeight": 1000,
+     "imageHash": "f7eadd6608235f622f079db28185e745",
+     "status": "ok",
+     "anchorNote": "",
+     "titleShort": "Colorful Cheese-Shaped Resin Charms",
+     "titleFull": "Colorful Cheese-Shaped Resin Charms",
+     "pdp": "p-rw26740.html"
     }
    ]
   },

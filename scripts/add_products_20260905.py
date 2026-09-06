@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Restore the verified 2026-09-05 product upload into the QULA catalog.
+"""Restore the verified September 2026 product upload into the QULA catalog.
 
-The source workbook and ZIP contain three matching SKUs. This migration is
-idempotent and deliberately leaves unknown commercial fields blank.
+The source workbook/ZIP contain three matching SKUs, and RW26740 was supplied
+separately with three verified images. This migration is idempotent and
+deliberately leaves unknown commercial fields blank.
 """
 import hashlib
 import html
@@ -42,6 +43,16 @@ PRODUCTS = [
         "packing": "100PCS/bag",
         "source_row": 4,
     },
+    {
+        "sku": "RW26740",
+        "key": "rw26740",
+        "title": "Colorful Cheese-Shaped Resin Charms",
+        "size": "",
+        "packing": "",
+        "source_row": 0,
+        "source_sheet": "RW26740 image upload",
+        "fetched_at": "2026-09-06T00:00:00Z",
+    },
 ]
 
 
@@ -76,7 +87,7 @@ for product in PRODUCTS:
         resin["products"].append({
             "category": "Resin Charms",
             "categorySlug": "resin-charms",
-            "sourceSheet": "9.5产品上架.xlsx",
+            "sourceSheet": product.get("source_sheet", "9.5产品上架.xlsx"),
             "sourceRow": product["source_row"],
             "sortOrder": len(resin["products"]) + 1,
             "sku": sku,
@@ -101,7 +112,8 @@ for product in PRODUCTS:
         specs = {"Material": "resin"}
         if product["size"]:
             specs["Size"] = product["size"]
-        specs["Packaging"] = product["packing"]
+        if product["packing"]:
+            specs["Packaging"] = product["packing"]
         pdp.append({
             "catalogIndex": 0,
             "assetKey": key,
@@ -117,7 +129,7 @@ for product in PRODUCTS:
             "specs": specs,
             "images": [],
             "imagesLocal": local_images,
-            "fetchedAt": "2026-09-05T00:00:00Z",
+            "fetchedAt": product.get("fetched_at", "2026-09-05T00:00:00Z"),
             "pageTitle": "",
             "pageUrl": "",
         })

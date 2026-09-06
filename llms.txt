@@ -11,7 +11,7 @@
 
 Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.txt
 
-## Products (9 categories, 175 live stock items)
+## Products (9 categories, 176 live stock items)
 - [Slime Charms](https://www.qulacrafts.com/slime-charms.html): Themed charm and sprinkle packs from 30g trial bags to 1000g bulk. (20 stock items)
 - [Polymer Clay Slices](https://www.qulacrafts.com/polymer-clay-sprinkles.html): Fruit, candy, holiday and starry-sky cane slices in 500g wholesale packs. (19 stock items)
 - [Plastic Sequins](https://www.qulacrafts.com/glitter-sequins-fillers.html): Bingsu beads, hollow stars, shells, maple leaves and holographic paillettes. (21 stock items)
