@@ -1,4 +1,4 @@
-name: Protect inquiry email
+name: Protect inquiry email and products
 
 on:
   push:
@@ -21,6 +21,8 @@ jobs:
           node-version: 20
       - name: Verify inquiry routing
         run: node scripts/check-inquiry-email.mjs
+      - name: Verify protected products
+        run: node scripts/check-required-products.mjs
 
   production-monitor:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
@@ -34,17 +36,21 @@ jobs:
           node-version: 20
       - name: Download uncached production homepage
         run: curl --fail --silent --show-error --location --retry 3 --max-time 30 "https://www.qulacrafts.com/?inquiry_guard=${GITHUB_RUN_ID}" --output /tmp/qula-production.html
+      - name: Download uncached production product category
+        run: curl --fail --silent --show-error --location --retry 3 --max-time 30 "https://www.qulacrafts.com/resin-charms.html?product_guard=${GITHUB_RUN_ID}" --output /tmp/qula-products.html
       - name: Verify production inquiry routing
         id: verify-production
         continue-on-error: true
-        run: node scripts/check-inquiry-email.mjs --live /tmp/qula-production.html
+        run: |
+          node scripts/check-inquiry-email.mjs --live /tmp/qula-production.html
+          node scripts/check-required-products.mjs --live /tmp/qula-products.html
       - name: Trigger automatic production restore
         if: steps.verify-production.outcome == 'failure'
         run: |
-          git config user.name "QULA inquiry guard"
+          git config user.name "QULA production guard"
           git config user.email "actions@users.noreply.github.com"
-          git commit --allow-empty -m "Auto-restore production inquiry routing"
+          git commit --allow-empty -m "Auto-restore protected production content"
           git push origin HEAD:main
       - name: Record automatic restore
         if: steps.verify-production.outcome == 'failure'
-        run: echo "Production inquiry routing drift was detected. A new main deployment has been triggered." >> "$GITHUB_STEP_SUMMARY"
+        run: echo "Protected production content drift was detected. A new main deployment has been triggered." >> "$GITHUB_STEP_SUMMARY"
