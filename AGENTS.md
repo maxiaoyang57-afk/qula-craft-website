@@ -1,5 +1,12 @@
 # QulaCraft 独立站(qulacrafts.com)
 
+## 账号接续与当前上架批次（2026-09-09）
+- 两个账号统一使用 `https://github.com/maxiaoyang57-afk/qula-craft-website.git`，生产源码以远程 `main` 为准。仓库拥有者 `maxiaoyang57-afk` 为管理员；协作账号 `mxy20260905` 有写入权限（2026-09-09 已核对）。
+- 开始或继续任务前先核对 `git remote -v`、`git status --short`，再 `git fetch origin`。工作区干净时用 `git switch main` 和 `git pull --ff-only origin main` 同步；有未提交内容或分支分叉时先保留现有工作，不强制覆盖。新改动从最新远程 `main` 创建新分支。
+- 本次上架见 [任务记录](docs/新产品上架任务记录-20260909.md) 和 [PR #5](https://github.com/maxiaoyang57-afk/qula-craft-website/pull/5)：新增 28 个 SKU、28 个详情页、84 张图片。用户已确认预览并授权合并、发布正式站；发布结果以 PR 合并状态及对应 Vercel 部署为准。
+- 用户已确认“RW都归在树脂类里”：本批 12 个 RW SKU 均放在 Resin Charms，包括 RW401、RW22338；源表中的真实标题与材质保留。
+- GitHub 源码与这些记录可供两个账号共同接续；不同 ChatGPT 账号的会话记忆和各自的本地工作区不会因此自动更新，必须先读取远程最新版本。
+
 ## 🔒 生产询盘邮箱保护（2026-09-06）
 - GitHub `main` 是唯一生产源码；禁止从旧 ZIP、Claude/Codex 临时目录或其他本地副本直接执行 Vercel Production 部署。
 - 唯一询盘地址是 `sales@qulacrafts.com`；旧地址 `sale008@sola-craft.com` 与主邮箱 `monica@qulacrafts.com` 均禁止写入网站表单或 `mailto:`。
