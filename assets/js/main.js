@@ -156,8 +156,8 @@
     function syncTa(){
       const list=normalizeList(load());
       if(!ta)return;
-      const block=list.length?('Inquiry list:\n'+list.map(x=>'- '+x.sku).join('\n')+'\n'):'';
-      const rest=ta.value.replace(/^Inquiry list:[\s\S]*?\n(?=\S|$)/,'').replace(/^Inquiry list:[\s\S]*$/,'');
+      const block=list.length?('Inquiry list:\n'+list.map(x=>'- '+x.sku).join('\n')+'\n\n'):'';
+      const rest=ta.value.replace(/^Inquiry list:\r?\n(?:- [^\r\n]*(?:\r?\n|$))*(?:\r?\n)?/,'');
       ta.value=block+rest;
     }
     async function renderPanel(){
