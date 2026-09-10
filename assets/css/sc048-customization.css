@@ -1,0 +1,178 @@
+/* SC048 only: approved product introduction and custom-logo presentation. */
+.sc048-page .sc048-product {
+  padding-bottom: 3.5rem;
+}
+
+.sc048-page .sc048-description h2 {
+  margin: 0 0 .5rem;
+  font: 700 1.5rem/1.2 var(--serif);
+  letter-spacing: -.015em;
+}
+
+.sc048-page .sc048-description p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.sc048-page .sc048-service-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 0;
+  margin: .875rem 0 1rem;
+  list-style: none;
+}
+
+.sc048-page .sc048-service-badges li {
+  padding: .5rem .875rem;
+  border: 1px solid #ceeee4;
+  border-radius: 999px;
+  color: #12664f;
+  background: #eafff7;
+  font-size: .875rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.sc048-page .sc048-service-badges li:last-child {
+  border-color: #f9d3e0;
+  color: #a92650;
+  background: #fff0f6;
+}
+
+.sc048-page .spec-table .sc048-custom-row th,
+.sc048-page .spec-table .sc048-custom-row td {
+  background: #f0fcf7;
+  color: #255448;
+  font-size: .875rem;
+}
+
+.sc048-page .sc048-quotation-note {
+  margin: .625rem 0 1rem;
+  color: #626e7c;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+.sc048-page .sc048-customization {
+  padding: 2.75rem 0;
+  background: linear-gradient(135deg, #fff2f8 0%, #fffafd 42%, #effff9 100%);
+  border-block: 1px solid #f5edf1;
+}
+
+.sc048-page .sc048-custom-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: center;
+}
+
+.sc048-page .sc048-logo-example {
+  min-width: 0;
+  margin: 0;
+  padding: .75rem;
+  border: 1px solid #fff;
+  border-radius: 1.75rem;
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.sc048-page .sc048-logo-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 1.125rem;
+}
+
+.sc048-page .sc048-logo-example figcaption {
+  margin: .625rem .25rem .125rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  color: #626e7c;
+}
+
+.sc048-page .sc048-custom-copy {
+  min-width: 0;
+}
+
+.sc048-page .sc048-custom-copy h2 {
+  margin: .875rem 0;
+  font: 700 clamp(1.875rem, 3vw, 2.625rem)/1.12 var(--serif);
+  letter-spacing: -.025em;
+}
+
+.sc048-page .sc048-custom-copy > p:not(.sc048-quotation-note) {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.sc048-page .sc048-custom-steps {
+  display: grid;
+  gap: .875rem;
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.sc048-page .sc048-custom-steps li {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+  color: #485565;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.sc048-page .sc048-custom-steps span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #f9d3e0;
+  border-radius: 50%;
+  color: #a92650;
+  background: #fff0f6;
+  font-size: .875rem;
+  font-weight: 800;
+}
+
+.sc048-page .sc048-custom-quote {
+  min-height: 3rem;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.sc048-page .sc048-custom-quote:focus-visible {
+  outline: 3px solid #a92650;
+  outline-offset: 4px;
+}
+
+.sc048-page .sc048-custom-copy .sc048-quotation-note {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .sc048-page .sc048-custom-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+
+  .sc048-page .sc048-product {
+    padding-bottom: 2.25rem;
+  }
+
+  .sc048-page .sc048-customization {
+    padding: 2rem 0;
+  }
+
+  .sc048-page .sc048-custom-quote {
+    width: 100%;
+  }
+}
