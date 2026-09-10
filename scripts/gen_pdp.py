@@ -5,6 +5,7 @@
 import json, re, statistics
 from pathlib import Path
 from PIL import Image
+from sc048_customization import apply_sc048_customization
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -309,7 +310,10 @@ for e in pdp:
 </div></div></section>
 <section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Every item below is a live stock listing — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
 """
-    (SITE / slug).write_text(h + body + post_shell, encoding="utf-8")
+    page = h + body + post_shell
+    if e["assetKey"] == "sc048":
+        page = apply_sc048_customization(page)
+    (SITE / slug).write_text(page, encoding="utf-8")
     made += 1
 print(f"PDP 生成 ×{made}")
 
