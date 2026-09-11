@@ -4,12 +4,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const MIN_PRODUCT_COUNT = 176;
+const MIN_PRODUCT_COUNT = 206;
 const REQUIRED = [
   { sku: 'RW967', key: 'rw967' },
   { sku: 'RW474', key: 'rw474' },
   { sku: 'RW326', key: 'rw326' },
   { sku: 'RW26740', key: 'rw26740' },
+  { sku: 'RW26746', key: 'rw26746' },
+  { sku: 'RW26768', key: 'rw26768' },
 ];
 
 function fail(message) {

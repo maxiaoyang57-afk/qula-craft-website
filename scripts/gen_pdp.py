@@ -300,7 +300,7 @@ for e in pdp:
 <div>
   {price_html}
   <table class="spec-table"><tr><th colspan="2">Listed specifications</th></tr>{spec_html}
-  <tr><td><b>Stock status</b></td><td>Live production item</td></tr></table>
+  {f'<tr><td><b>Stock status</b></td><td>{esc(e.get("stockStatus", "Live production item"))}</td></tr>' if e.get("stockStatus", "Live production item") else ''}</table>
   <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
@@ -378,7 +378,7 @@ else:
 # ---- 4) sitemap ----
 sp = SITE / "sitemap.xml"
 sm = sp.read_text(encoding="utf-8")
-nodes = "".join(f"<url><loc>{BASE}p-{e['assetKey']}.html</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n"
+nodes = "".join(f"<url><loc>{BASE}p-{e['assetKey']}.html</loc><lastmod>{(e.get('fetchedAt') or TODAY)[:10]}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>\n"
                 for e in pdp if f"p-{e['assetKey']}.html" not in sm)
 sm = sm.replace("</urlset>", nodes + "</urlset>")
 sp.write_text(sm, encoding="utf-8")
