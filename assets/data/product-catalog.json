@@ -1,10 +1,8 @@
 {
- "generatedAt": "2026-09-09T00:00:00Z",
- "sourceWorkbook": "D:\\WeChat\\xwechat_files\\wxid_6386293863114_082f\\msg\\file\\2026-07\\7-9网站产品.xlsx",
- "siteRoot": "E:\\Codex\\workspace\\active\\SolaCraft_软陶片_接手优化_20260709",
+ "generatedAt": "2026-09-11T00:00:00Z",
  "totalCategories": 9,
- "totalProducts": 204,
- "totalImages": 204,
+ "totalProducts": 206,
+ "totalImages": 206,
  "duplicateSkus": [
   "YM109"
  ],
@@ -1737,7 +1735,7 @@
    "name": "Resin Charms",
    "slug": "resin-charms",
    "sourceSheet": "Resin Charms",
-   "productCount": 35,
+   "productCount": 37,
    "noteCount": 0,
    "notes": [],
    "products": [
@@ -2522,6 +2520,52 @@
      "titleFull": "Wholesale Mixed Christmas Resin Slime Charms with Tree, Reindeer, Snowman and Gingerbread Designs",
      "pdp": "p-rw25863.html",
      "inquiryUrl": "quote.html?product=RW25863%20Wholesale%20Mixed%20Christmas%20Resin%20Slime%20Charms%20with%20Tree%2C%20Reindeer%2C%20Snowman%20and%20Gingerbread%20Designs&sku=RW25863&image=assets/images/pdp/rw25863/RW25863-main-product.jpg"
+    },
+    {
+     "category": "Resin Charms",
+     "categorySlug": "resin-charms",
+     "sourceSheet": "Sheet1",
+     "sourceRow": 1,
+     "sortOrder": 36,
+     "sku": "RW26746",
+     "title": "Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+     "alibabaUrl": "",
+     "cleanAlibabaUrl": "",
+     "alibabaProductId": "",
+     "image": "assets/images/pdp/rw26746/01.webp",
+     "imageAlt": "RW26746 Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+     "imageWidth": 1000,
+     "imageHeight": 1000,
+     "imageHash": "01ad53dcbe00033fe33a3d08d885f1a6",
+     "status": "ok",
+     "anchorNote": "",
+     "titleShort": "Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+     "titleFull": "Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+     "pdp": "p-rw26746.html",
+     "inquiryUrl": "quote.html?product=RW26746%20Wholesale%20Christmas%20Gingerbread%20Box%20Miniatures%20Custom%203D%20Dessert%20Set%20Decorations%20for%20Tabletop%20Holiday%20Scene%20Accessories&sku=RW26746&image=assets/images/pdp/rw26746/01.webp"
+    },
+    {
+     "category": "Resin Charms",
+     "categorySlug": "resin-charms",
+     "sourceSheet": "Sheet1",
+     "sourceRow": 2,
+     "sortOrder": 37,
+     "sku": "RW26768",
+     "title": "Wholesale Christmas Gingerbread Cabochons Custom 3D Holiday Mini Charms for Hair Phone Keychain Accessories",
+     "alibabaUrl": "",
+     "cleanAlibabaUrl": "",
+     "alibabaProductId": "",
+     "image": "assets/images/pdp/rw26768/01.webp",
+     "imageAlt": "RW26768 Wholesale Christmas Gingerbread Cabochons Custom 3D Holiday Mini Charms for Hair Phone Keychain Accessories",
+     "imageWidth": 1000,
+     "imageHeight": 1000,
+     "imageHash": "b11a30466db281728bafa60c38cfd678",
+     "status": "ok",
+     "anchorNote": "",
+     "titleShort": "Wholesale Christmas Gingerbread Cabochons Custom 3D Holiday Mini Charms for Hair Phone Keychain Accessories",
+     "titleFull": "Wholesale Christmas Gingerbread Cabochons Custom 3D Holiday Mini Charms for Hair Phone Keychain Accessories",
+     "pdp": "p-rw26768.html",
+     "inquiryUrl": "quote.html?product=RW26768%20Wholesale%20Christmas%20Gingerbread%20Cabochons%20Custom%203D%20Holiday%20Mini%20Charms%20for%20Hair%20Phone%20Keychain%20Accessories&sku=RW26768&image=assets/images/pdp/rw26768/01.webp"
     }
    ]
   },
@@ -4621,10 +4665,5 @@
     }
    ]
   }
- ],
- "warnings": [
-  "Polymer Clay Slices row 16 SKU YX4108: image anchor adjusted from row 15 to row 16 by row offset.",
-  "Polymer Clay Slices row 17 SKU YM228: image anchor adjusted from row 16 to row 17 by row offset.",
-  "Duplicate SKU across catalog: YM109"
  ]
 }

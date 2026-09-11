@@ -1,0 +1,73 @@
+{
+  "batchId": "qula-20260911-rw26746-rw26768",
+  "target": "QULA",
+  "repository": "maxiaoyang57-afk/qula-craft-website",
+  "baselineBranch": "main",
+  "baselineCommit": "c5b6ee6c5ad68ce06a3c3dd46e85f368082f2e8c",
+  "taskBranch": "pro/qula-new-products-20260911",
+  "mode": "preview",
+  "productionAuthorized": false,
+  "sourceWorkbook": {
+    "name": "9.11.xls",
+    "sheet": "Sheet1",
+    "sha256": "8f8782e5d79e11bb5a2dcf2b8afa3d0fbf736d727ddf2dc9024d5d14a2777465"
+  },
+  "deduplication": {
+    "catalogCountBefore": 204,
+    "batchSkuCount": 2,
+    "duplicateSkusInBatch": [],
+    "duplicateSkusInCurrentCatalog": [],
+    "newSkuCount": 2
+  },
+  "products": [
+    {
+      "sku": "RW26746",
+      "sourceRow": 1,
+      "sourceTitle": "Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+      "category": "Resin Charms",
+      "slug": "p-rw26746.html",
+      "sourceImage": {
+        "name": "RW26746.jpg",
+        "sha256": "64f7ef3be418abb574b1f7a0626efe31f33184b85200a99015ce5b84e1c25be1"
+      },
+      "imageOutputs": [
+        {"path": "assets/images/pdp/rw26746/01.webp", "role": "main", "width": 1000, "height": 1000, "sha256": "c258d6ccdd7b13a95b056b783a908f3bc39febdb6c6854184075e957f458ae93"},
+        {"path": "assets/images/pdp/rw26746/02.webp", "role": "detail", "width": 1000, "height": 1000, "sha256": "7b8bf288f93d6beb88b1585fcd7005ca5556ee54b987434dd605f40d8bfb09ab"},
+        {"path": "assets/images/pdp/rw26746/03.webp", "role": "detail", "width": 1000, "height": 1000, "sha256": "001a7053ae3631f5e2e5695f671ee0820dd4805863a6402d7f4e49942fad1895"}
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26768",
+      "sourceRow": 2,
+      "sourceTitle": "Wholesale Christmas Gingerbread Cabochons Custom 3D Holiday Mini Charms for Hair Phone Keychain Accessories",
+      "category": "Resin Charms",
+      "slug": "p-rw26768.html",
+      "sourceImage": {
+        "name": "RW26768.jpg",
+        "sha256": "05f49909b8b2f28bb9b50bb68066f4cdda0e98a718ee7c2b55e966af0e4eced8"
+      },
+      "imageOutputs": [
+        {"path": "assets/images/pdp/rw26768/01.webp", "role": "main", "width": 1000, "height": 1000, "sha256": "8c8aa49e097e1c3beef6e8af5c7559c5a093ab46606caf5384229672279ba03f"},
+        {"path": "assets/images/pdp/rw26768/02.webp", "role": "detail", "width": 1000, "height": 1000, "sha256": "55a1b19ac9b7a1e74c2e48530fb0f376d043bb23b6792f4b940855bd02630803"},
+        {"path": "assets/images/pdp/rw26768/03.webp", "role": "detail", "width": 1000, "height": 1000, "sha256": "dfec7648c2937b5591778276aefac43436319ba9caba5400a7a6772f11ef1b44"}
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    }
+  ],
+  "unsupportedPublicFieldsOmitted": [
+    "exact material",
+    "dimensions",
+    "weight",
+    "MOQ",
+    "price",
+    "pack quantity",
+    "lead time"
+  ]
+}
