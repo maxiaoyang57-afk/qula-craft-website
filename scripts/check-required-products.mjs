@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const MIN_PRODUCT_COUNT = 206;
+const MIN_PRODUCT_COUNT = 218;
 const REQUIRED = [
   { sku: 'RW967', key: 'rw967' },
   { sku: 'RW474', key: 'rw474' },
@@ -12,6 +12,18 @@ const REQUIRED = [
   { sku: 'RW26740', key: 'rw26740' },
   { sku: 'RW26746', key: 'rw26746' },
   { sku: 'RW26768', key: 'rw26768' },
+  { sku: 'RW370', key: 'rw370' },
+  { sku: 'RW927', key: 'rw927' },
+  { sku: 'RW001078', key: 'rw001078' },
+  { sku: 'RW1394', key: 'rw1394' },
+  { sku: 'RW2445', key: 'rw2445' },
+  { sku: 'RW22405', key: 'rw22405' },
+  { sku: 'RW26637', key: 'rw26637' },
+  { sku: 'RW26692', key: 'rw26692' },
+  { sku: 'YX002', key: 'yx002', categoryFile: 'polymer-clay-sprinkles.html' },
+  { sku: 'YX004', key: 'yx004', categoryFile: 'polymer-clay-sprinkles.html' },
+  { sku: 'YX051', key: 'yx051', categoryFile: 'polymer-clay-sprinkles.html' },
+  { sku: 'YX4138', key: 'yx4138', categoryFile: 'polymer-clay-sprinkles.html' },
 ];
 
 function fail(message) {
@@ -19,8 +31,9 @@ function fail(message) {
   process.exitCode = 1;
 }
 
-function verifyCategoryHtml(content, label) {
-  for (const { sku, key } of REQUIRED) {
+function verifyCategoryHtml(content, label, categoryFile = 'resin-charms.html') {
+  for (const { sku, key, categoryFile: requiredCategory = 'resin-charms.html' } of REQUIRED) {
+    if (requiredCategory !== categoryFile) continue;
     if (!content.includes(`data-sku="${sku}"`)) fail(`${label} has no ${sku} product card`);
     if (!content.includes(`href="p-${key}.html"`)) fail(`${label} has no ${sku} PDP link`);
     if (!content.includes(`assets/images/pdp/${key}/01.webp`)) fail(`${label} has no ${sku} product image`);
@@ -52,6 +65,11 @@ if (liveIndex !== -1) {
     }
   }
   verifyCategoryHtml(fs.readFileSync(path.join(ROOT, 'resin-charms.html'), 'utf8'), 'repository resin category');
+  verifyCategoryHtml(
+    fs.readFileSync(path.join(ROOT, 'polymer-clay-sprinkles.html'), 'utf8'),
+    'repository polymer clay category',
+    'polymer-clay-sprinkles.html',
+  );
 }
 
 if (!process.exitCode) {
