@@ -1,0 +1,501 @@
+{
+  "batchId": "qula-20260912-rw-yx-12-skus",
+  "target": "QULA",
+  "repository": "maxiaoyang57-afk/qula-craft-website",
+  "baselineBranch": "main",
+  "baselineCommit": "b0dd566b65d1546e20a02926d213b0b1ad8124e5",
+  "taskBranch": "pro/qula-new-products-20260912",
+  "mode": "preview",
+  "productionAuthorized": false,
+  "sourceWorkbook": {
+    "name": "9.12上品(1).xlsx",
+    "sheet": "Sheet1",
+    "sha256": "360712d526778b96b3e2a4ae5bf4cf346d0c47eea4b499052a1396c9173746f2"
+  },
+  "deduplication": {
+    "catalogCountBefore": 206,
+    "batchSkuCount": 12,
+    "duplicateSkusInBatch": [],
+    "duplicateSkusInCurrentCatalog": [],
+    "newSkuCount": 12,
+    "exactDuplicateSourceImagesInBatch": []
+  },
+  "products": [
+    {
+      "sku": "RW26692",
+      "sourceRow": 2,
+      "sourceTitle": "Cute Bear Resin Embellishments with Heart and Flower Designs for Hair Clips Bows Scrapbooking Phone Case Decoration",
+      "derivedTitle": "Wholesale Cute Bear Resin Embellishments with Heart and Flower Designs for Hair Clips and DIY Crafts",
+      "category": "Resin Charms",
+      "slug": "p-rw26692.html",
+      "sourceImage": {
+        "name": "RW26692 .jpg",
+        "sha256": "18630e417e1da991929ca35866dc9eb44674af2f3342dc2860dbcd8018b64190"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26692/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8f5c96dc21b059f432b306a36c69d0c56a5749732fc605293d6ed44e91bdcd93"
+        },
+        {
+          "path": "assets/images/pdp/rw26692/02.webp",
+          "role": "detail",
+          "width": 820,
+          "height": 650,
+          "sha256": "aa4ed4e23df7971e74462d5aca7712cf877380aff131e6683c24601dcc11e512"
+        },
+        {
+          "path": "assets/images/pdp/rw26692/03.webp",
+          "role": "detail",
+          "width": 390,
+          "height": 460,
+          "sha256": "5bcd9679586cb62dd67e29f415b8558eddcab6c2e80605aeb1e519350daa3902"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX004",
+      "sourceRow": 3,
+      "sourceTitle": "Wholesale Mixed Candy Dessert Polymer Clay Cabochons for Hair Clips Phone Cases Nail Art and DIY Crafts",
+      "derivedTitle": "Wholesale Mixed Candy and Dessert Polymer Clay Slices for Slime, Nail Art and DIY Crafts",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx004.html",
+      "sourceImage": {
+        "name": "YX004.jpg",
+        "sha256": "a69218fe235ae57d8a0ab2302198f5da9522784a2601ee7eab75df890aeafadc"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx004/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e33b114448bfe61022157fb2a701ef11fce92a9c49fa2e6b00addcf744d7d58f"
+        },
+        {
+          "path": "assets/images/pdp/yx004/02.webp",
+          "role": "detail",
+          "width": 860,
+          "height": 860,
+          "sha256": "ce0da8e855af993db927da1f171494c953ff5b3d1640a7a223e78876d0de7600"
+        },
+        {
+          "path": "assets/images/pdp/yx004/03.webp",
+          "role": "detail",
+          "width": 560,
+          "height": 560,
+          "sha256": "3339ec5d1ec2b4283634e27ab4ade69e57275b5eeb46e9bf3fc027e0631a2b84"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX002",
+      "sourceRow": 4,
+      "sourceTitle": "Wholesale Purple Berry Polymer Clay Cabochons for Hair Clips Phone Cases Scrapbooking and DIY Crafts",
+      "derivedTitle": "Wholesale Mixed Fruit Polymer Clay Slices with Berry, Citrus and Watermelon Designs for Slime and DIY Crafts",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx002.html",
+      "sourceImage": {
+        "name": "YX002.jpg",
+        "sha256": "bf7071ee25d7d98d6886667010def3ed9629ebf956e2a52e83e8eba8a7076f8e"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx002/01.webp",
+          "role": "main",
+          "width": 751,
+          "height": 751,
+          "sha256": "5b04176f22ff48dfec4b3c97d553d880e6794ee9572bc763a14005fa51581ee0"
+        },
+        {
+          "path": "assets/images/pdp/yx002/02.webp",
+          "role": "detail",
+          "width": 645,
+          "height": 645,
+          "sha256": "351ca00462a4116a94bc7280a1f5352ff9042f082b4b971b1d05363751a29204"
+        },
+        {
+          "path": "assets/images/pdp/yx002/03.webp",
+          "role": "detail",
+          "width": 451,
+          "height": 451,
+          "sha256": "5f51bd72add405d2feb6531867117531d1fd21fd7dc84b5f701421975ff32d00"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment",
+      "contentNote": "The source title says purple berry; the supplied image shows a mixed fruit assortment, so the derived listing title follows the image."
+    },
+    {
+      "sku": "YX051",
+      "sourceRow": 5,
+      "sourceTitle": "5mm Banana Slice Fruit Polymer Clay Sprinkles for Plastic Clay Mud Particles Card Making Tiny Cute DIY Sprinkles",
+      "derivedTitle": "Wholesale 5 mm Banana Polymer Clay Slices for Slime, Nail Art and DIY Craft Decoration",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx051.html",
+      "sourceImage": {
+        "name": "YX051.jpg",
+        "sha256": "799aab06aebe5665a8e6d87f551abaf650065d829c93a275364a0c851d81e416"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx051/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3698352074b7a1abb07e04b1d6efc6d52f13d89e8ee9bcfde8ab5119d91cf3b0"
+        },
+        {
+          "path": "assets/images/pdp/yx051/02.webp",
+          "role": "detail",
+          "width": 860,
+          "height": 860,
+          "sha256": "72cb676b18b7e536bf1a2dcaf408e97b5a2c71ef78078713ad4810730c059906"
+        },
+        {
+          "path": "assets/images/pdp/yx051/03.webp",
+          "role": "detail",
+          "width": 560,
+          "height": 560,
+          "sha256": "065146029e9ade643585c14a347c71873d9019a60e8009a8a8cfc3f1f87b3125"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW927",
+      "sourceRow": 6,
+      "sourceTitle": "24mm Kawaii Flat Back Resin Sunflower Charms for DIY Decoration Bag Earring Key Chain Patch Jewelry Making DIY",
+      "derivedTitle": "Wholesale 24 mm Sunflower Resin Cabochons for Hair Accessories, Jewelry and DIY Decoration",
+      "category": "Resin Charms",
+      "slug": "p-rw927.html",
+      "sourceImage": {
+        "name": "RW927.jpg",
+        "sha256": "794c46bb3ee1f208fad114468a68c5cbb7374693cd31154e632b857b330a183c"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw927/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "24e7f3b9e8ee924232dbe5544333bc954f0c0c739d6af99849ce5b7d25de6da6"
+        },
+        {
+          "path": "assets/images/pdp/rw927/02.webp",
+          "role": "detail",
+          "width": 800,
+          "height": 800,
+          "sha256": "60e27999cee32aca485675121840b1b7777c9ba3ef19799e1140a2dd105f876b"
+        },
+        {
+          "path": "assets/images/pdp/rw927/03.webp",
+          "role": "detail",
+          "width": 460,
+          "height": 460,
+          "sha256": "5c42a6dd2696c9fcfe74d5608c4de7d8d8c26336e670f8b9d3d82b0881f5647e"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX4138",
+      "sourceRow": 7,
+      "sourceTitle": "Wholesale Strawberry Polymer Clay Sprinkles Custom Mini Fruit Pieces for Slime Phone Hair Scrapbook Decoration",
+      "derivedTitle": "Wholesale Strawberry Polymer Clay Sprinkle Mix for Slime, Shakers and DIY Craft Decoration",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx4138.html",
+      "sourceImage": {
+        "name": "YX4138.jpg",
+        "sha256": "55a75db5c7b9892cfa6d468dbf3454cdd41efa7664ac3c3f891c1628ca93a1c0"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx4138/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d1f51a39333b0b6e5ef5a36fbb10e327567b64aa4d5ab113c78e7968b4d5f11c"
+        },
+        {
+          "path": "assets/images/pdp/yx4138/02.webp",
+          "role": "detail",
+          "width": 860,
+          "height": 840,
+          "sha256": "19aed45707adad16c171d6c14015efb2b733a83621b630ffdfece36bb82fe504"
+        },
+        {
+          "path": "assets/images/pdp/yx4138/03.webp",
+          "role": "detail",
+          "width": 600,
+          "height": 600,
+          "sha256": "195140ba88145c2bfcc798c5af2c9fa186418b65d0e8d6228d68718644d9f0b1"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW2445",
+      "sourceRow": 8,
+      "sourceTitle": "Wholesale Chocolate Bar Cabochons Custom 3D Mini Dessert Decorations for Hair Accessories Phone Keychain Projects",
+      "derivedTitle": "Wholesale Chocolate Bar Resin Cabochons in Pink, Brown and Cream for Hair Accessories and DIY Crafts",
+      "category": "Resin Charms",
+      "slug": "p-rw2445.html",
+      "sourceImage": {
+        "name": "RW2445.jpg",
+        "sha256": "b1db5417715eea83bcbf82e8be300122f54ba9028ceb965fbb8e8bb2d2c2b693"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2445/01.webp",
+          "role": "main",
+          "width": 800,
+          "height": 800,
+          "sha256": "b3e397062d584314f84a370c700494c4be578b9add66ae305432461a6b42b32a"
+        },
+        {
+          "path": "assets/images/pdp/rw2445/02.webp",
+          "role": "detail",
+          "width": 800,
+          "height": 592,
+          "sha256": "4b32d168f49244acf98db0d26060a351d340f602325d995b244eead165a06224"
+        },
+        {
+          "path": "assets/images/pdp/rw2445/03.webp",
+          "role": "detail",
+          "width": 512,
+          "height": 408,
+          "sha256": "2c7c1f82ff934e9cf60ea7ae3b012fb8ebc2da2ec5850dec40c75e1b936931ab"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW370",
+      "sourceRow": 9,
+      "sourceTitle": "100pcs Resin Creamy Candy Cabochons Flatback for Scrapbook Home Decoration Mini 3D Sweet Food Resin Ornament DIY Slime Charm",
+      "derivedTitle": "Wholesale Pastel Whipped Cream Resin Cabochons for Slime, Scrapbooking and DIY Decoration",
+      "category": "Resin Charms",
+      "slug": "p-rw370.html",
+      "sourceImage": {
+        "name": "RW370.jpg",
+        "sha256": "c527ceca5d65e0b1d87b7165b69e54a07f21a2e8a434820c8ba02ebdc992edff"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw370/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6abbb29f16357b1ae2c7052d801ada4756b43419cdaa87df37eee556ae11a2d1"
+        },
+        {
+          "path": "assets/images/pdp/rw370/02.webp",
+          "role": "detail",
+          "width": 800,
+          "height": 800,
+          "sha256": "cdae246ae6681b89be5e112a303446766b6347e4834f5ae94ea54f233251e790"
+        },
+        {
+          "path": "assets/images/pdp/rw370/03.webp",
+          "role": "detail",
+          "width": 540,
+          "height": 540,
+          "sha256": "f888aa65a5ce7f59df9c1441a165e8967a8d155337862ad7c9b1f13f0a657a7f"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW22405",
+      "sourceRow": 10,
+      "sourceTitle": "100Pcs Cartoon Animal Plate Flatback Resin Fox Banana Duck Bread Egg Charms for Jewelry Making Accessories Earring Keychain Deco",
+      "derivedTitle": "Wholesale Cartoon Animal and Food Resin Cabochon Mix for Jewelry, Keychains and DIY Accessories",
+      "category": "Resin Charms",
+      "slug": "p-rw22405.html",
+      "sourceImage": {
+        "name": "RW22405.jpg",
+        "sha256": "255042b4c1d08bde2b4e7f7280eb43de9203e616620162ded9230066d573afb3"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22405/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a7e3572149d1499d380c80a02d1b458ef3e18cf0497183ab76ebb2d1ffcda90a"
+        },
+        {
+          "path": "assets/images/pdp/rw22405/02.webp",
+          "role": "detail",
+          "width": 760,
+          "height": 800,
+          "sha256": "2046ded26ffcfca588177be53ba3e13add7e203fd3aa30c4896f7c5a6b6395d8"
+        },
+        {
+          "path": "assets/images/pdp/rw22405/03.webp",
+          "role": "detail",
+          "width": 350,
+          "height": 370,
+          "sha256": "307bd65148329885795269eaa867e07e9ef9b0c33be61c84a41c75686b33c80f"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW1394",
+      "sourceRow": 11,
+      "sourceTitle": "100Pcs Mini Mushroom House Figurines Micro Fairy Garden Miniature Forest Terrarium Decor Resin Craft DIY Accessories",
+      "derivedTitle": "Wholesale Mini Mushroom House Resin Figurines for Fairy Gardens, Terrariums and DIY Crafts",
+      "category": "Resin Charms",
+      "slug": "p-rw1394.html",
+      "sourceImage": {
+        "name": "RW1394.jpg",
+        "sha256": "2026b1b2a08adaf136d1d5fdc31143ed2a736fd136a6ddef3276d50421916b0f"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1394/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ec06d3072a717ec584c0027789bf2c9143e2c516fee71d0e5488a5509e7121f7"
+        },
+        {
+          "path": "assets/images/pdp/rw1394/02.webp",
+          "role": "detail",
+          "width": 840,
+          "height": 840,
+          "sha256": "b52b2fc425d700b97b7cf9cba2a683c81dde2fd6c436018a8269d79c23773ba6"
+        },
+        {
+          "path": "assets/images/pdp/rw1394/03.webp",
+          "role": "detail",
+          "width": 440,
+          "height": 440,
+          "sha256": "ac5fcc5a58ba6d598aad18727954a4898854bcb734b8ee69aa544b37d5f5604f"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW001078",
+      "sourceRow": 12,
+      "sourceTitle": "Cute Blue Flat Back Dolphin Resin Scrapbooking DIY Series Handmade Craft Decoration",
+      "derivedTitle": "Wholesale 28 x 20 mm Blue Dolphin Resin Cabochons for Scrapbooking and DIY Decoration",
+      "category": "Resin Charms",
+      "slug": "p-rw001078.html",
+      "sourceImage": {
+        "name": "RW001078.jpg",
+        "sha256": "4adb078aa4dfdceb0f8cdc4104d33b0c6dbb12abf9080eb470a372a431974bb3"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw001078/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a8c0483233a0487e75a9de6f3e81985206f0438e442f7ba3da8b1ab6e3227fbe"
+        },
+        {
+          "path": "assets/images/pdp/rw001078/02.webp",
+          "role": "detail",
+          "width": 900,
+          "height": 620,
+          "sha256": "db9fa0caf0903975861a4e434f80364eab451638ee09363b83cb7838b4d7a181"
+        },
+        {
+          "path": "assets/images/pdp/rw001078/03.webp",
+          "role": "detail",
+          "width": 360,
+          "height": 360,
+          "sha256": "bb64d9a401c882c89cd4c5006def51a7d489c59c5d95ae2fb1f46c5c1975c25a"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26637",
+      "sourceRow": 13,
+      "sourceTitle": "4Pcs Cute Mini Scuba Diver Figurines Cartoon Chibi Diving Dolls with Snorkel Mask Flippers for Kids Toy Cake Topper Party Favor",
+      "derivedTitle": "Wholesale Mini Scuba Diver Resin Figurines in Assorted Colors for Cake Toppers and DIY Decoration",
+      "category": "Resin Charms",
+      "slug": "p-rw26637.html",
+      "sourceImage": {
+        "name": "RW26637.jpg",
+        "sha256": "1a3b29e4c589d18743074ee70c86a21da8198e86c0f10cc8f004782fb6766690"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26637/01.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4a26c27966f8f43e25b0af68edb406d313daa043874a81497aac7a3b1bf396e9"
+        },
+        {
+          "path": "assets/images/pdp/rw26637/02.webp",
+          "role": "detail",
+          "width": 880,
+          "height": 900,
+          "sha256": "5baeb533247bc5d5aa5ce11d5554f8cd475092c559d2b31478ad4081a3b5b08d"
+        },
+        {
+          "path": "assets/images/pdp/rw26637/03.webp",
+          "role": "detail",
+          "width": 470,
+          "height": 580,
+          "sha256": "854fb68723a30a6ececb93cdf263f35486db4fb20e241f4eecfe89c406b5e9fb"
+        }
+      ],
+      "duplicateStatus": "new",
+      "listingStatus": "generated",
+      "validationStatus": "passed",
+      "previewStatus": "pending Git-connected deployment"
+    }
+  ],
+  "unsupportedPublicFieldsOmitted": [
+    "price",
+    "MOQ",
+    "lead time",
+    "weight",
+    "certification specific to this SKU"
+  ]
+}
