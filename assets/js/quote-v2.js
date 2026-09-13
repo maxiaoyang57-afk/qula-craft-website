@@ -1,6 +1,7 @@
 
 (function() {
   const MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024;
+  const THANK_YOU_URL = 'https://qulacrafts.com/thank-you.html';
 
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
@@ -11,6 +12,34 @@
     const fileList = document.getElementById(config.fileListId);
     let attachments = [];
     let attachmentError = '';
+    let submissionFrameReady = false;
+    let submissionPending = false;
+    let submitWhenFrameReady = null;
+
+    const submissionFrameName = `${formId}-submission-target`;
+    const submissionFrame = document.createElement('iframe');
+    submissionFrame.name = submissionFrameName;
+    submissionFrame.hidden = true;
+    submissionFrame.setAttribute('aria-hidden', 'true');
+    submissionFrame.setAttribute('title', 'Inquiry submission');
+    submissionFrame.addEventListener('load', () => {
+      if (!submissionFrameReady) {
+        submissionFrameReady = true;
+        if (submitWhenFrameReady) {
+          const submit = submitWhenFrameReady;
+          submitWhenFrameReady = null;
+          submit();
+        }
+        return;
+      }
+
+      if (submissionPending) {
+        submissionPending = false;
+        window.location.assign(THANK_YOU_URL);
+      }
+    });
+    submissionFrame.src = 'about:blank';
+    form.insertAdjacentElement('afterend', submissionFrame);
 
     const attachmentStatus = document.createElement('p');
     attachmentStatus.className = 'attachment-status';
@@ -182,11 +211,17 @@
 
     function prepareProductionThankYouPage() {
       const nextField = form.querySelector('input[name="_next"]');
-      if (nextField) nextField.value = 'https://qulacrafts.com/thank-you.html';
+      if (nextField) nextField.value = THANK_YOU_URL;
+    }
+
+    function submitThroughHiddenFrame() {
+      form.target = submissionFrameName;
+      submissionPending = true;
+      HTMLFormElement.prototype.submit.call(form);
     }
 
     // FormSubmit's AJAX endpoint accepts the text fields but drops attachments.
-    // Submit through the verified multipart endpoint so every selected file is emailed.
+    // Submit multipart data in a hidden frame, then let QULA own the visible success page.
     form.onsubmit = (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
@@ -209,7 +244,12 @@
 
       btn.disabled = true;
       btn.innerHTML = 'Sending...';
-      HTMLFormElement.prototype.submit.call(form);
+
+      if (submissionFrameReady) {
+        submitThroughHiddenFrame();
+      } else {
+        submitWhenFrameReady = submitThroughHiddenFrame;
+      }
     };
 
     updateAttachmentStatus();
