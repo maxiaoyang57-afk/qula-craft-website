@@ -89,8 +89,11 @@ if (process.argv[2] === '--live') {
   if (!quoteScript.includes('HTMLFormElement.prototype.submit.call(form)')) {
     fail(['assets/js/quote-v2.js is missing verified native multipart submission']);
   }
-  if (!quoteScript.includes("new URL('thank-you.html', window.location.href).href")) {
-    fail(['assets/js/quote-v2.js is missing the same-origin thank-you redirect']);
+  if (!quoteScript.includes("nextField.value = 'https://qulacrafts.com/thank-you.html'")) {
+    fail(['assets/js/quote-v2.js is missing the canonical production thank-you redirect']);
+  }
+  if (quoteScript.includes("new URL('thank-you.html', window.location.href).href")) {
+    fail(['assets/js/quote-v2.js must not derive the thank-you redirect from the www hostname']);
   }
   console.log('Native multipart attachment safeguard passed.');
 }
