@@ -180,9 +180,9 @@
       });
     }
 
-    function prepareSameOriginThankYouPage() {
+    function prepareProductionThankYouPage() {
       const nextField = form.querySelector('input[name="_next"]');
-      if (nextField) nextField.value = new URL('thank-you.html', window.location.href).href;
+      if (nextField) nextField.value = 'https://qulacrafts.com/thank-you.html';
     }
 
     // FormSubmit's AJAX endpoint accepts the text fields but drops attachments.
@@ -199,7 +199,7 @@
 
       try {
         prepareNativeAttachments();
-        prepareSameOriginThankYouPage();
+        prepareProductionThankYouPage();
       } catch (error) {
         updateAttachmentStatus('This browser could not prepare the attachments. Please select the files again or email sales@qulacrafts.com.');
         btn.disabled = false;
