@@ -180,6 +180,11 @@
       });
     }
 
+    function prepareSameOriginThankYouPage() {
+      const nextField = form.querySelector('input[name="_next"]');
+      if (nextField) nextField.value = new URL('thank-you.html', window.location.href).href;
+    }
+
     // FormSubmit's AJAX endpoint accepts the text fields but drops attachments.
     // Submit through the verified multipart endpoint so every selected file is emailed.
     form.onsubmit = (e) => {
@@ -194,6 +199,7 @@
 
       try {
         prepareNativeAttachments();
+        prepareSameOriginThankYouPage();
       } catch (error) {
         updateAttachmentStatus('This browser could not prepare the attachments. Please select the files again or email sales@qulacrafts.com.');
         btn.disabled = false;
