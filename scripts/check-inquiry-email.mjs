@@ -80,8 +80,14 @@ if (process.argv[2] === '--live') {
   checkHtmlDocuments(collectLocalHtml(ROOT), 'repository', EXPECTED_FORM_COUNT);
 
   const quoteScript = fs.readFileSync(path.join(ROOT, 'assets/js/quote-v2.js'), 'utf8');
-  if (!quoteScript.includes("form.action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/')")) {
-    fail(['assets/js/quote-v2.js is missing the FormSubmit AJAX endpoint safeguard']);
+  if (quoteScript.includes('formsubmit.co/ajax/') || quoteScript.includes('fetch(ajaxEndpoint')) {
+    fail(['assets/js/quote-v2.js must not use the FormSubmit AJAX endpoint because it drops attachments']);
   }
-  console.log('FormSubmit AJAX endpoint safeguard passed.');
+  if (!quoteScript.includes('MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024')) {
+    fail(['assets/js/quote-v2.js is missing the 10MB total attachment limit']);
+  }
+  if (!quoteScript.includes('HTMLFormElement.prototype.submit.call(form)')) {
+    fail(['assets/js/quote-v2.js is missing verified native multipart submission']);
+  }
+  console.log('Native multipart attachment safeguard passed.');
 }
