@@ -89,5 +89,8 @@ if (process.argv[2] === '--live') {
   if (!quoteScript.includes('HTMLFormElement.prototype.submit.call(form)')) {
     fail(['assets/js/quote-v2.js is missing verified native multipart submission']);
   }
+  if (!quoteScript.includes("new URL('thank-you.html', window.location.href).href")) {
+    fail(['assets/js/quote-v2.js is missing the same-origin thank-you redirect']);
+  }
   console.log('Native multipart attachment safeguard passed.');
 }
