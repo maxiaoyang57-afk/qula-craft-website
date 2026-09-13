@@ -1,5 +1,7 @@
 
 (function() {
+  const MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024;
+
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
     if (!form) return;
@@ -8,6 +10,38 @@
     const fileInput = form.querySelector('.file-input-multi');
     const fileList = document.getElementById(config.fileListId);
     let attachments = [];
+    let attachmentError = '';
+
+    const attachmentStatus = document.createElement('p');
+    attachmentStatus.className = 'attachment-status';
+    attachmentStatus.setAttribute('role', 'status');
+    attachmentStatus.setAttribute('aria-live', 'polite');
+    attachmentStatus.style.cssText = 'margin:10px 0 0; font-size:13px; color:var(--muted);';
+    if (fileList) fileList.insertAdjacentElement('afterend', attachmentStatus);
+
+    function formatBytes(bytes) {
+      return `${(bytes / (1024 * 1024)).toFixed(2)}MB`;
+    }
+
+    function totalAttachmentBytes(files) {
+      return files.reduce((total, file) => total + file.size, 0);
+    }
+
+    function updateAttachmentStatus(errorMessage) {
+      if (!attachmentStatus) return;
+      if (errorMessage) {
+        attachmentError = errorMessage;
+        attachmentStatus.textContent = errorMessage;
+        attachmentStatus.style.color = '#b42318';
+        return;
+      }
+      attachmentError = '';
+      const total = totalAttachmentBytes(attachments);
+      attachmentStatus.textContent = attachments.length
+        ? `${attachments.length} file${attachments.length === 1 ? '' : 's'} selected · ${formatBytes(total)} of 10MB`
+        : 'Multiple files allowed · 10MB total maximum';
+      attachmentStatus.style.color = 'var(--muted)';
+    }
 
     // --- URL Parameters Auto-fill (Only for specific forms if needed) ---
     if (config.isDedicatedPage) {
@@ -43,6 +77,7 @@
 
     // --- Attachment Handling ---
     function updateFileList() {
+      if (!fileList) return;
       fileList.innerHTML = '';
       attachments.forEach((file, index) => {
         const item = document.createElement('div');
@@ -66,6 +101,7 @@
           e.preventDefault();
           attachments.splice(index, 1);
           updateFileList();
+          updateAttachmentStatus();
         };
         
         item.appendChild(removeBtn);
@@ -74,12 +110,23 @@
     }
 
     function handleFiles(files) {
+      const nextAttachments = attachments.slice();
       Array.from(files).forEach(file => {
-        if (!attachments.some(a => a.name === file.name && a.size === file.size)) {
-          attachments.push(file);
+        if (!nextAttachments.some(a => a.name === file.name && a.size === file.size)) {
+          nextAttachments.push(file);
         }
       });
+
+      const total = totalAttachmentBytes(nextAttachments);
+      if (total > MAX_ATTACHMENT_BYTES) {
+        updateAttachmentStatus(`Files were not added: ${formatBytes(total)} exceeds the 10MB total limit.`);
+        if (fileInput) fileInput.value = '';
+        return;
+      }
+
+      attachments = nextAttachments;
       updateFileList();
+      updateAttachmentStatus();
     }
 
     if (fileInput) fileInput.onchange = (e) => handleFiles(e.target.files);
@@ -116,52 +163,50 @@
       }
     });
 
-    // --- Form Submission ---
-    form.onsubmit = async (e) => {
+    function prepareNativeAttachments() {
+      form.querySelectorAll('[data-native-attachment]').forEach(input => input.remove());
+
+      attachments.forEach((file, index) => {
+        const transfer = new DataTransfer();
+        transfer.items.add(file);
+
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.name = index === 0 ? 'attachment' : `attachment${index + 1}`;
+        input.hidden = true;
+        input.dataset.nativeAttachment = 'true';
+        input.files = transfer.files;
+        form.appendChild(input);
+      });
+    }
+
+    // FormSubmit's AJAX endpoint accepts the text fields but drops attachments.
+    // Submit through the verified multipart endpoint so every selected file is emailed.
+    form.onsubmit = (e) => {
       e.preventDefault();
       const btn = form.querySelector('button[type="submit"]');
       const originalText = btn.innerHTML;
-      
-      btn.disabled = true;
-      btn.innerHTML = 'Sending...';
 
-      const formData = new FormData(form);
-      attachments.forEach(file => {
-        formData.append('attachments[]', file);
-      });
+      if (attachmentError || totalAttachmentBytes(attachments) > MAX_ATTACHMENT_BYTES) {
+        updateAttachmentStatus(attachmentError || 'Please keep all attachments within the 10MB total limit.');
+        return;
+      }
 
       try {
-        const ajaxEndpoint = form.action.includes('/ajax/')
-          ? form.action
-          : form.action.replace('https://formsubmit.co/', 'https://formsubmit.co/ajax/');
-
-        const response = await fetch(ajaxEndpoint, {
-          method: 'POST',
-          body: formData,
-          headers: { 'Accept': 'application/json' }
-        });
-
-        if (response.ok) {
-          form.innerHTML = `
-            <div style="text-align:center; padding:60px 20px;">
-              <div style="font-size:64px; margin-bottom:20px;">✓</div>
-              <h2 style="font-family:var(--serif); font-size:32px;">Inquiry Received</h2>
-              <p style="color:var(--muted); font-size:18px; margin:15px 0 30px;">
-                Thank you for choosing Qula Craft. Our sales team will get back to you within 3-12 hours with a detailed quote.
-              </p>
-              <a href="index.html" class="btn btn-primary">Refresh Form</a>
-            </div>
-          `;
-          window.scrollTo({ top: form.offsetTop - 150, behavior: 'smooth' });
-        } else {
-          throw new Error('Submission failed');
-        }
-      } catch (err) {
-        alert('Sorry, there was an error sending your inquiry. Please try again or email us directly at sales@qulacrafts.com');
+        prepareNativeAttachments();
+      } catch (error) {
+        updateAttachmentStatus('This browser could not prepare the attachments. Please select the files again or email sales@qulacrafts.com.');
         btn.disabled = false;
         btn.innerHTML = originalText;
+        return;
       }
+
+      btn.disabled = true;
+      btn.innerHTML = 'Sending...';
+      HTMLFormElement.prototype.submit.call(form);
     };
+
+    updateAttachmentStatus();
   }
 
   // Initialize both forms
