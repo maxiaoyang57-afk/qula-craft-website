@@ -61,6 +61,23 @@ UNIT_OK = {"bag": "bag", "bags": "bag", "pc": "pc", "pcs": "pcs", "piece": "piec
            "box": "box", "boxes": "box", "roll": "roll", "rolls": "roll"}
 NOISE_CONST = {10.0, 20.0}          # 实测跨 60 个不相关 SKU 反复出现的页面固定元素值,非单价
 BULK_UNITS = {"bag", "box", "set", "roll"}   # 整包单位,单价下限更高
+
+def unit_family(unit):
+    normalized = UNIT_OK.get((unit or "").lower())
+    if normalized in BULK_UNITS:
+        return "pack"
+    if normalized in {"pc", "pcs", "piece", "pieces", "pair"}:
+        return "piece"
+    return None
+
+def moq_family(moq):
+    text = (moq or "").lower()
+    if re.search(r"\b(?:bag|bags|box|boxes|set|sets|roll|rolls)\b", text):
+        return "pack"
+    if re.search(r"\b(?:pc|pcs|piece|pieces|pair|pairs)\b", text):
+        return "piece"
+    return None
+
 def price_min(e):
     """起步价=与 MOQ 匹配的档,否则首档(listing 门面价)。部分 listing 阶梯混入噪声行
     (如 50 bags $0.04),取 min 会把假价上站,故不取最小值。单位仅白名单展示。"""
@@ -111,6 +128,12 @@ def price_min(e):
             break
     if chosen is None:
         chosen = (tiers[0][0], tiers[0][1])
+    # ⑤ Price and MOQ must describe the same sales-unit family. Alibaba source
+    #    pages sometimes expose a per-piece tier beside a bag MOQ (or vice versa).
+    #    Publishing that combination creates a misleading offer, so suppress the
+    #    price until the sales unit is confirmed instead of guessing a conversion.
+    if moq_family(moq) and unit_family(chosen[1]) != moq_family(moq):
+        return None
     return (chosen[0], UNIT_OK[chosen[1].lower()])
 
 def fmt_price(v):
