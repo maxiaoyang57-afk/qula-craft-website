@@ -22,6 +22,12 @@ def clean_title(t):
 
 def esc(s): return html.escape(s or "", quote=True)
 
+def clip_words(text, limit=100):
+    """Keep image titles concise without cutting the final word in half."""
+    if len(text) <= limit:
+        return text
+    return text[:limit + 1].rsplit(" ", 1)[0].rstrip(" —-,:;/")
+
 # ---- 1) PDP 页 → 每页最多 4 张图 ----
 imgs_by_url = {}
 for e in pdp:
@@ -30,7 +36,7 @@ for e in pdp:
     rows = []
     for rel in (e.get("imagesLocal") or [])[:4]:
         if (SITE / rel).exists():
-            rows.append((BASE + rel, f"{e['sku']} — {title}"[:100]))
+            rows.append((BASE + rel, clip_words(f"{e['sku']} — {title}")))
     if rows: imgs_by_url[url] = rows
 
 # ---- 2) 分类页 → 该分类目录图 ----
@@ -42,7 +48,7 @@ for c in cat["categories"]:
     for p in c["products"][:12]:          # 每分类页挂前 12 张,避免单 URL 图过多
         rel = p.get("image")
         if rel and (SITE / rel).exists():
-            rows.append((BASE + rel, f"{p['sku']} — {clean_title(p.get('name') or c.get('name',''))}"[:100]))
+            rows.append((BASE + rel, clip_words(f"{p['sku']} — {clean_title(p.get('name') or c.get('name',''))}")))
     if rows: imgs_by_url.setdefault(page, []).extend(rows)
 
 # ---- 3) 注入 sitemap(先剥旧 image 节点,保证幂等) ----

@@ -1,9 +1,22 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs",
+  "buildCommand": "node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs && node scripts/check-seo.mjs",
   "outputDirectory": ".",
   "cleanUrls": false,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "qulacrafts.com"
+        }
+      ],
+      "destination": "https://www.qulacrafts.com/:path*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
