@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const EXPECTED_EMAIL = 'sales@qulacrafts.com';
 const EXPECTED_ACTION = `https://formsubmit.co/${EXPECTED_EMAIL}`;
+const BACKUP_EMAIL = '64224336@qq.com';
 const FORBIDDEN_EMAILS = ['sale008@sola-craft.com', 'monica@qulacrafts.com'];
 const EXPECTED_FORM_COUNT = 4;
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -31,11 +32,15 @@ function checkHtmlDocuments(documents, label, expectedFormCount) {
       }
     }
 
-    const actions = [...content.matchAll(/action=["'](https:\/\/formsubmit\.co\/[^"']+)["']/gi)];
-    for (const match of actions) {
+    const forms = [...content.matchAll(/<form\b[^>]*\baction=["'](https:\/\/formsubmit\.co\/[^"']+)["'][^>]*>[\s\S]*?<\/form>/gi)];
+    for (const match of forms) {
       formCount += 1;
       if (match[1].toLowerCase() !== EXPECTED_ACTION) {
         errors.push(`${name} submits to ${match[1]} instead of ${EXPECTED_ACTION}`);
+      }
+      const ccFields = [...match[0].matchAll(/<input\b[^>]*\bname=["']_cc["'][^>]*\bvalue=["']([^"']+)["'][^>]*>/gi)];
+      if (ccFields.length !== 1 || ccFields[0][1].toLowerCase() !== BACKUP_EMAIL) {
+        errors.push(`${name} must include exactly one _cc backup field for ${BACKUP_EMAIL}`);
       }
     }
 
@@ -56,7 +61,7 @@ function checkHtmlDocuments(documents, label, expectedFormCount) {
   }
 
   if (errors.length) fail(errors);
-  console.log(`Inquiry email protection passed for ${label}: ${formCount} forms and ${mailtoCount} email links use ${EXPECTED_EMAIL}.`);
+  console.log(`Inquiry email protection passed for ${label}: ${formCount} forms and ${mailtoCount} email links use ${EXPECTED_EMAIL}; all forms copy to ${BACKUP_EMAIL}.`);
 }
 
 function collectLocalHtml(directory) {
