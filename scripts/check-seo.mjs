@@ -10,6 +10,20 @@ const failures = [];
 const titles = new Map();
 const descriptions = new Map();
 const canonicals = new Map();
+const organizationLogo = 'https://www.qulacrafts.com/assets/images/favicon.png';
+
+function validateOrganizationLogos(value, file) {
+  if (Array.isArray(value)) {
+    for (const item of value) validateOrganizationLogos(item, file);
+    return;
+  }
+  if (!value || typeof value !== 'object') return;
+  const logoUrl = typeof value.logo === 'string' ? value.logo : value.logo?.url;
+  if (value['@type'] === 'Organization' && logoUrl !== organizationLogo) {
+    failures.push(`${file}: Organization must reference the verified QULA logo`);
+  }
+  for (const item of Object.values(value)) validateOrganizationLogos(item, file);
+}
 
 function decode(value) {
   return value
@@ -46,6 +60,7 @@ for (const file of files) {
   for (const raw of html.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)) {
     try {
       const data = JSON.parse(raw[1]);
+      validateOrganizationLogos(data, file);
       if (quoteOnly && data['@type'] === 'Product' && data.offers) {
         failures.push(`${file}: quote-only product must not publish an Offer`);
       }
