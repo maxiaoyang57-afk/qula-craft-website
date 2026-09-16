@@ -109,6 +109,15 @@ const hasCanonicalRedirect = (vercel.redirects || []).some((rule) =>
 );
 if (!hasCanonicalRedirect) failures.push('vercel.json: missing non-www to www canonical redirect');
 
+const globalHeaders = (vercel.headers || []).find((rule) => rule.source === '/(.*)')?.headers || [];
+const cspReportOnly = globalHeaders.find((header) => header.key.toLowerCase() === 'content-security-policy-report-only')?.value || '';
+for (const directive of ["default-src 'self'", "object-src 'none'", "form-action 'self' https://formsubmit.co"]) {
+  if (!cspReportOnly.includes(directive)) failures.push(`vercel.json: CSP Report-Only missing ${directive}`);
+}
+if (globalHeaders.some((header) => header.key.toLowerCase() === 'content-security-policy')) {
+  failures.push('vercel.json: CSP must remain Report-Only during the observation phase');
+}
+
 // A replaced product image must update both its manifest fingerprint and the
 // intrinsic dimensions in the PDP. This prevents stale layout metadata from
 // silently shipping after gallery replacements.
