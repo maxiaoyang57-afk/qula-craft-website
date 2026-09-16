@@ -171,7 +171,8 @@ BAD_TITLE_TAIL = re.compile(r"\s*-\s*Buy.*$", re.I)
 # 实体归一:全站 Organization 用同一 @id(见 index 等核心页的 Organization 节点),
 # PDP 的 manufacturer/seller 指向它 → 全部产品与品牌实体绑定(GEO)
 ORG_REF = {"@type": "Organization", "@id": BASE + "#organization", "name": "Qula Craft",
-           "legalName": "Yiwu Sola Craft Co., Ltd.", "url": BASE}
+           "legalName": "Yiwu Sola Craft Co., Ltd.", "url": BASE,
+           "logo": BASE + "assets/images/favicon.png"}
 
 made = 0
 for e in pdp:

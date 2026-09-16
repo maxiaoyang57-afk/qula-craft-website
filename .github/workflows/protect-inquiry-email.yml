@@ -23,6 +23,8 @@ jobs:
         run: node scripts/check-inquiry-email.mjs
       - name: Verify protected products
         run: node scripts/check-required-products.mjs
+      - name: Verify SEO and batch image integrity
+        run: node scripts/check-seo.mjs
 
   production-monitor:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
