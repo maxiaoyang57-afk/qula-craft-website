@@ -5,8 +5,8 @@
   "baselineBranch": "main",
   "baselineCommit": "b0dd566b65d1546e20a02926d213b0b1ad8124e5",
   "taskBranch": "pro/qula-new-products-20260912",
-  "mode": "preview",
-  "productionAuthorized": false,
+  "mode": "production",
+  "productionAuthorized": true,
   "sourceWorkbook": {
     "name": "9.12上品(1).xlsx",
     "sheet": "Sheet1",
@@ -38,27 +38,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "8f5c96dc21b059f432b306a36c69d0c56a5749732fc605293d6ed44e91bdcd93"
+          "sha256": "35d8c18286e06af1f0310c373e41d127c61203371d7ba17c26df9c72c6fe1718"
         },
         {
           "path": "assets/images/pdp/rw26692/02.webp",
           "role": "detail",
-          "width": 820,
-          "height": 650,
-          "sha256": "aa4ed4e23df7971e74462d5aca7712cf877380aff131e6683c24601dcc11e512"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "17f92852e3f5540a6a468cdb2f7967aa674104f43afa893bcbbd28c8675fcad4"
         },
         {
           "path": "assets/images/pdp/rw26692/03.webp",
           "role": "detail",
-          "width": 390,
-          "height": 460,
-          "sha256": "5bcd9679586cb62dd67e29f415b8558eddcab6c2e80605aeb1e519350daa3902"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a0b39b2154fb1ff55725dbc89f60518b5515e7b80eb24817f46fd44a796646e2"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "YX004",
@@ -77,27 +77,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "e33b114448bfe61022157fb2a701ef11fce92a9c49fa2e6b00addcf744d7d58f"
+          "sha256": "56bd08d5ff37f236fb50733cbd5bbaca00c2b51c61d911c0c99b36f0617a2081"
         },
         {
           "path": "assets/images/pdp/yx004/02.webp",
           "role": "detail",
-          "width": 860,
-          "height": 860,
-          "sha256": "ce0da8e855af993db927da1f171494c953ff5b3d1640a7a223e78876d0de7600"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "825416f627cb4dc865114487bd6ac850e6b545a2c581112b29ab0e305a136196"
         },
         {
           "path": "assets/images/pdp/yx004/03.webp",
           "role": "detail",
-          "width": 560,
-          "height": 560,
-          "sha256": "3339ec5d1ec2b4283634e27ab4ade69e57275b5eeb46e9bf3fc027e0631a2b84"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "51260bab6ed88a7490eccbd544341f5bad807b826c887ae582f78b067c977f89"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "YX002",
@@ -116,27 +116,27 @@
           "role": "main",
           "width": 751,
           "height": 751,
-          "sha256": "5b04176f22ff48dfec4b3c97d553d880e6794ee9572bc763a14005fa51581ee0"
+          "sha256": "909bf255922b03768453b92d089b0d8d0c9a72abc6de2cc242facd416504222e"
         },
         {
           "path": "assets/images/pdp/yx002/02.webp",
           "role": "detail",
-          "width": 645,
-          "height": 645,
-          "sha256": "351ca00462a4116a94bc7280a1f5352ff9042f082b4b971b1d05363751a29204"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "97bb43078b1e3773b36b982cb86ba2add3d4487513345c8b2dbeb9cdfc9bdcf6"
         },
         {
           "path": "assets/images/pdp/yx002/03.webp",
           "role": "detail",
-          "width": 451,
-          "height": 451,
-          "sha256": "5f51bd72add405d2feb6531867117531d1fd21fd7dc84b5f701421975ff32d00"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "05bf49bc934ae6c4699ee94f4f84c123165ea052d43517ba0fd08c4d6310f79d"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment",
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9",
       "contentNote": "The source title says purple berry; the supplied image shows a mixed fruit assortment, so the derived listing title follows the image."
     },
     {
@@ -156,27 +156,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "3698352074b7a1abb07e04b1d6efc6d52f13d89e8ee9bcfde8ab5119d91cf3b0"
+          "sha256": "89737b7fcbfdf948f4f9e5b7580c88b01757f474f6435cda95a2daf51700a688"
         },
         {
           "path": "assets/images/pdp/yx051/02.webp",
           "role": "detail",
-          "width": 860,
-          "height": 860,
-          "sha256": "72cb676b18b7e536bf1a2dcaf408e97b5a2c71ef78078713ad4810730c059906"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9db5f1d928c3b9be9454482f76ab487ffbfa28f86338571c2e17353ab875c9d4"
         },
         {
           "path": "assets/images/pdp/yx051/03.webp",
           "role": "detail",
-          "width": 560,
-          "height": 560,
-          "sha256": "065146029e9ade643585c14a347c71873d9019a60e8009a8a8cfc3f1f87b3125"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "727dc2a8168d2dcc753958dbacd25abb43f541a6c75cd04d0a9502afa15c95a4"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW927",
@@ -195,27 +195,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "24e7f3b9e8ee924232dbe5544333bc954f0c0c739d6af99849ce5b7d25de6da6"
+          "sha256": "dee6a7720e0f5578c3acf6f960d7b77979e1e58e89abe85f6921806bc567aeb8"
         },
         {
           "path": "assets/images/pdp/rw927/02.webp",
           "role": "detail",
-          "width": 800,
-          "height": 800,
-          "sha256": "60e27999cee32aca485675121840b1b7777c9ba3ef19799e1140a2dd105f876b"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e241812ed7a7485f53061fea5f33262e86e62986cfd9b8e2e3a308e9c4bcc062"
         },
         {
           "path": "assets/images/pdp/rw927/03.webp",
           "role": "detail",
-          "width": 460,
-          "height": 460,
-          "sha256": "5c42a6dd2696c9fcfe74d5608c4de7d8d8c26336e670f8b9d3d82b0881f5647e"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b5fce9b89a5387ea016b467f0758c842e30990f19fff78992f1437e416226df6"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "YX4138",
@@ -234,27 +234,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "d1f51a39333b0b6e5ef5a36fbb10e327567b64aa4d5ab113c78e7968b4d5f11c"
+          "sha256": "d5ebe6adfc3ee31b182ff0dd178c9398fa570a9f0fcdfcfd8a357dd91604d117"
         },
         {
           "path": "assets/images/pdp/yx4138/02.webp",
           "role": "detail",
-          "width": 860,
-          "height": 840,
-          "sha256": "19aed45707adad16c171d6c14015efb2b733a83621b630ffdfece36bb82fe504"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f19a89e15dcb5c0d835f1fa5f516e1966b5863e2190a8578e25ab9f316542894"
         },
         {
           "path": "assets/images/pdp/yx4138/03.webp",
           "role": "detail",
-          "width": 600,
-          "height": 600,
-          "sha256": "195140ba88145c2bfcc798c5af2c9fa186418b65d0e8d6228d68718644d9f0b1"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "85e0efe6f13949e53862d61ad4dfa28a78ecced0ab7bf7b0ae911d620c2264da"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW2445",
@@ -273,27 +273,27 @@
           "role": "main",
           "width": 800,
           "height": 800,
-          "sha256": "b3e397062d584314f84a370c700494c4be578b9add66ae305432461a6b42b32a"
+          "sha256": "570f235825d9a909b96cad8da0d8634d8b3abb6fa4ec48575ad3b02677ccfd5a"
         },
         {
           "path": "assets/images/pdp/rw2445/02.webp",
           "role": "detail",
-          "width": 800,
-          "height": 592,
-          "sha256": "4b32d168f49244acf98db0d26060a351d340f602325d995b244eead165a06224"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b9452854100b46fd57894fbe6fac646c1a688c7a92e199b59607b0b410bdb704"
         },
         {
           "path": "assets/images/pdp/rw2445/03.webp",
           "role": "detail",
-          "width": 512,
-          "height": 408,
-          "sha256": "2c7c1f82ff934e9cf60ea7ae3b012fb8ebc2da2ec5850dec40c75e1b936931ab"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d59756b28f37456b7ba6d63067e4713f1e01dceb04b418d54af203b6c191c86b"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW370",
@@ -312,27 +312,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "6abbb29f16357b1ae2c7052d801ada4756b43419cdaa87df37eee556ae11a2d1"
+          "sha256": "5a3f8470e72d54a634e41c1f16e687bdd602e1c21e0481f4c3e56868209a521e"
         },
         {
           "path": "assets/images/pdp/rw370/02.webp",
           "role": "detail",
-          "width": 800,
-          "height": 800,
-          "sha256": "cdae246ae6681b89be5e112a303446766b6347e4834f5ae94ea54f233251e790"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e7caa0597667ba41caa4351cb111caec01c9d4c1858f3e0b374d7f8eb9984cf7"
         },
         {
           "path": "assets/images/pdp/rw370/03.webp",
           "role": "detail",
-          "width": 540,
-          "height": 540,
-          "sha256": "f888aa65a5ce7f59df9c1441a165e8967a8d155337862ad7c9b1f13f0a657a7f"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d2829483aeec3aef3c4c49d9c9dd26ee9728f9d5786885534ed63554aa223d2d"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW22405",
@@ -351,27 +351,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "a7e3572149d1499d380c80a02d1b458ef3e18cf0497183ab76ebb2d1ffcda90a"
+          "sha256": "824d33229c94bdc318a044d75ead0a0264dfcfcde029a1e3d80d508c6af00a5d"
         },
         {
           "path": "assets/images/pdp/rw22405/02.webp",
           "role": "detail",
-          "width": 760,
-          "height": 800,
-          "sha256": "2046ded26ffcfca588177be53ba3e13add7e203fd3aa30c4896f7c5a6b6395d8"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6969465a242b5b2c52398305b98f7740163d10298cad61eb8b25e65d15f394a6"
         },
         {
           "path": "assets/images/pdp/rw22405/03.webp",
           "role": "detail",
-          "width": 350,
-          "height": 370,
-          "sha256": "307bd65148329885795269eaa867e07e9ef9b0c33be61c84a41c75686b33c80f"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d6ab53ed0f6ac1328bdf1a643fad237daf2a1904a507e6d86c4fa5072041abb7"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW1394",
@@ -390,27 +390,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "ec06d3072a717ec584c0027789bf2c9143e2c516fee71d0e5488a5509e7121f7"
+          "sha256": "5f0bc84778f3b378cbf8b8ba12d6bc1c7372bc2c35ee8ec9ae45a52709e59744"
         },
         {
           "path": "assets/images/pdp/rw1394/02.webp",
           "role": "detail",
-          "width": 840,
-          "height": 840,
-          "sha256": "b52b2fc425d700b97b7cf9cba2a683c81dde2fd6c436018a8269d79c23773ba6"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "be30633700b157a5dee0a472fe9f9b2afe1b48c1e8e322204c9721d0f6c98195"
         },
         {
           "path": "assets/images/pdp/rw1394/03.webp",
           "role": "detail",
-          "width": 440,
-          "height": 440,
-          "sha256": "ac5fcc5a58ba6d598aad18727954a4898854bcb734b8ee69aa544b37d5f5604f"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "866ded7435a387d5aa9e14e5c5d42ee54ee3a9b4713308b9b6a2bebfcb303f85"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW001078",
@@ -429,27 +429,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "a8c0483233a0487e75a9de6f3e81985206f0438e442f7ba3da8b1ab6e3227fbe"
+          "sha256": "ba31c771c8461985a6ad5a298263831622dff49b321ced4e65d83c9c63192786"
         },
         {
           "path": "assets/images/pdp/rw001078/02.webp",
           "role": "detail",
-          "width": 900,
-          "height": 620,
-          "sha256": "db9fa0caf0903975861a4e434f80364eab451638ee09363b83cb7838b4d7a181"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "78ea38f609873deaa17012ba7fe32a8ea459cc8451a0e2c60026393076b13912"
         },
         {
           "path": "assets/images/pdp/rw001078/03.webp",
           "role": "detail",
-          "width": 360,
-          "height": 360,
-          "sha256": "bb64d9a401c882c89cd4c5006def51a7d489c59c5d95ae2fb1f46c5c1975c25a"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fcfca813a3c0d3381ba2c583bc616fc6e1fe0406578cfcfd2efc7a41e4b205ef"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     },
     {
       "sku": "RW26637",
@@ -468,27 +468,27 @@
           "role": "main",
           "width": 1000,
           "height": 1000,
-          "sha256": "4a26c27966f8f43e25b0af68edb406d313daa043874a81497aac7a3b1bf396e9"
+          "sha256": "0caef902c47d300ed920a548597acd4813e4f9ba3ac33d79230423fcaa12c0a9"
         },
         {
           "path": "assets/images/pdp/rw26637/02.webp",
           "role": "detail",
-          "width": 880,
-          "height": 900,
-          "sha256": "5baeb533247bc5d5aa5ce11d5554f8cd475092c559d2b31478ad4081a3b5b08d"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fe6295ce68eec8e0d7d49d4455227dcb57ea03a7f4aed33391199e91600bc6e2"
         },
         {
           "path": "assets/images/pdp/rw26637/03.webp",
           "role": "detail",
-          "width": 470,
-          "height": 580,
-          "sha256": "854fb68723a30a6ececb93cdf263f35486db4fb20e241f4eecfe89c406b5e9fb"
+          "width": 1000,
+          "height": 1000,
+          "sha256": "38ac1424398b5e5617f60ebd84ef9981bea9ee43785252ebc793827085f5ec98"
         }
       ],
       "duplicateStatus": "new",
       "listingStatus": "generated",
-      "validationStatus": "passed",
-      "previewStatus": "pending Git-connected deployment"
+      "validationStatus": "passed after gallery replacement revalidation",
+      "previewStatus": "production deployed and verified after PR #9"
     }
   ],
   "unsupportedPublicFieldsOmitted": [
@@ -497,5 +497,11 @@
     "lead time",
     "weight",
     "certification specific to this SKU"
-  ]
+  ],
+  "releaseRecord": {
+    "catalogPullRequest": 8,
+    "galleryPullRequest": 9,
+    "status": "deployed and revalidated",
+    "verifiedAgainstMainCommit": "0dfc60b6981ac9344021a80086a505a2db1a8b07"
+  }
 }

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -107,6 +108,32 @@ const hasCanonicalRedirect = (vercel.redirects || []).some((rule) =>
   (rule.has || []).some((condition) => condition.type === 'host' && condition.value === 'qulacrafts.com')
 );
 if (!hasCanonicalRedirect) failures.push('vercel.json: missing non-www to www canonical redirect');
+
+// A replaced product image must update both its manifest fingerprint and the
+// intrinsic dimensions in the PDP. This prevents stale layout metadata from
+// silently shipping after gallery replacements.
+const batchManifestPath = path.join(root, 'docs', 'product-batch-manifest-20260912.json');
+const batchManifest = JSON.parse(fs.readFileSync(batchManifestPath, 'utf8'));
+for (const product of batchManifest.products) {
+  const htmlPath = path.join(root, product.slug);
+  const html = fs.readFileSync(htmlPath, 'utf8');
+  for (const image of product.imageOutputs) {
+    const imagePath = path.join(root, image.path);
+    if (!fs.existsSync(imagePath)) {
+      failures.push(`${product.slug}: missing batch image ${image.path}`);
+      continue;
+    }
+    const digest = crypto.createHash('sha256').update(fs.readFileSync(imagePath)).digest('hex');
+    if (digest !== image.sha256) failures.push(`${image.path}: SHA-256 differs from batch manifest`);
+    const escaped = image.path.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const tag = (html.match(new RegExp(`<img\\b[^>]*src=["']${escaped}["'][^>]*>`, 'i')) || [])[0] || '';
+    if (!tag) failures.push(`${product.slug}: missing gallery image ${image.path}`);
+    else if (!new RegExp(`\\bwidth=["']${image.width}["']`, 'i').test(tag) ||
+             !new RegExp(`\\bheight=["']${image.height}["']`, 'i').test(tag)) {
+      failures.push(`${product.slug}: stale dimensions for ${image.path}`);
+    }
+  }
+}
 
 if (failures.length) {
   console.error(`SEO checks failed (${failures.length}):`);
