@@ -156,6 +156,12 @@ const hasCanonicalRedirect = (vercel.redirects || []).some((rule) =>
 );
 if (!hasCanonicalRedirect) failures.push('vercel.json: missing non-www to www canonical redirect');
 const redirects = vercel.redirects || [];
+// The production edge did not redirect the apex root with the wildcard rule.
+// Keep an explicit host-scoped root rule; a hostless rule would loop on www.
+if (!redirects.some((rule) => rule.source === '/' && rule.destination === base && rule.statusCode === 301 &&
+    rule.has?.some((condition) => condition.type === 'host' && condition.value === 'qulacrafts.com'))) {
+  failures.push('vercel.json: missing explicit apex root 301 redirect');
+}
 if (!redirects.some((rule) => rule.source === '/index.html' && rule.destination === '/' && rule.statusCode === 301 && !rule.has)) {
   failures.push('vercel.json: missing preview-safe index.html to root 301');
 }
