@@ -11,6 +11,37 @@ const titles = new Map();
 const descriptions = new Map();
 const canonicals = new Map();
 const organizationLogo = 'https://www.qulacrafts.com/assets/images/favicon.png';
+const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
+const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
+const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
+
+function validateCatalogSchema(value, file) {
+  if (Array.isArray(value)) {
+    for (const item of value) validateCatalogSchema(item, file);
+    return;
+  }
+  if (!value || typeof value !== 'object') return;
+  const types = [].concat(value['@type'] || []);
+  if (categoryPages.has(file) && types.includes('Product')) {
+    failures.push(`${file}: category must link to PDPs instead of declaring Product rich results`);
+  }
+  if (categoryPages.has(file) && types.includes('ItemList')) {
+    const expected = categoryPages.get(file).products;
+    const items = value.itemListElement || [];
+    if (items.length !== expected.length || value.numberOfItems !== expected.length) {
+      failures.push(`${file}: catalog ItemList count differs from source catalog`);
+    }
+    for (const [index, item] of items.entries()) {
+      const product = expected[index];
+      if (!product || item['@type'] !== 'ListItem' || item.position !== index + 1 ||
+          item.url !== base + product.pdp || item.name !== (product.titleFull || product.title) ||
+          item.image !== base + product.image || item.item) {
+        failures.push(`${file}: catalog ItemList entry ${index + 1} differs from its product`);
+      }
+    }
+  }
+  for (const item of Object.values(value)) validateCatalogSchema(item, file);
+}
 
 function validateOrganizationLogos(value, file) {
   if (Array.isArray(value)) {
@@ -61,6 +92,7 @@ for (const file of files) {
     try {
       const data = JSON.parse(raw[1]);
       validateOrganizationLogos(data, file);
+      validateCatalogSchema(data, file);
       if (quoteOnly && data['@type'] === 'Product' && data.offers) {
         failures.push(`${file}: quote-only product must not publish an Offer`);
       }
@@ -123,6 +155,17 @@ const hasCanonicalRedirect = (vercel.redirects || []).some((rule) =>
   (rule.has || []).some((condition) => condition.type === 'host' && condition.value === 'qulacrafts.com')
 );
 if (!hasCanonicalRedirect) failures.push('vercel.json: missing non-www to www canonical redirect');
+const redirects = vercel.redirects || [];
+if (!redirects.some((rule) => rule.source === '/index.html' && rule.destination === '/' && rule.statusCode === 301 && !rule.has)) {
+  failures.push('vercel.json: missing preview-safe index.html to root 301');
+}
+if (!redirects.some((rule) => rule.source === '/index.html' && rule.destination === base && rule.statusCode === 301 &&
+    rule.has?.some((condition) => condition.type === 'host' && condition.value === 'qulacrafts.com'))) {
+  failures.push('vercel.json: missing single-hop apex index.html redirect');
+}
+for (const rule of redirects) {
+  if (rule.statusCode && 'permanent' in rule) failures.push('vercel.json: statusCode and permanent are mutually exclusive');
+}
 
 // A replaced product image must update both its manifest fingerprint and the
 // intrinsic dimensions in the PDP. This prevents stale layout metadata from

@@ -6,6 +6,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/index.html",
+      "has": [{ "type": "host", "value": "qulacrafts.com" }],
+      "destination": "https://www.qulacrafts.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
       "source": "/:path*",
       "has": [
         {
@@ -14,7 +25,7 @@
         }
       ],
       "destination": "https://www.qulacrafts.com/:path*",
-      "permanent": true
+      "statusCode": 301
     }
   ],
   "headers": [

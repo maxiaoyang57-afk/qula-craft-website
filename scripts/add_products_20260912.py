@@ -11,6 +11,7 @@ import json
 import re
 from pathlib import Path
 from urllib.parse import quote
+from catalog_schema import catalog_list_item
 
 from PIL import Image
 
@@ -320,19 +321,7 @@ def category_card(product, category_name):
 def update_item_list(page, category):
     items = []
     for position, row in enumerate(category["products"], 1):
-        items.append({
-            "@type": "ListItem",
-            "position": position,
-            "item": {
-                "@type": "Product",
-                "name": row.get("titleFull") or row["title"],
-                "sku": row["sku"],
-                "image": BASE + row["image"],
-                "brand": {"@type": "Brand", "name": "Qula Craft"},
-                "category": category["name"],
-                "url": BASE + row["pdp"],
-            },
-        })
+        items.append(catalog_list_item(row, position))
     item_list = {
         "@context": "https://schema.org",
         "@type": "ItemList",
