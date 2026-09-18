@@ -6,6 +6,18 @@
   window.addEventListener('scroll',()=>{if(topBtn)topBtn.classList.toggle('show',window.scrollY>560)},{passive:true});
   if(topBtn){topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));}
 
+  // Official Qula Craft video channel: keep a visible, consistent link on every page.
+  const youtubeChannel='https://www.youtube.com/channel/UCKeqaiZQYSMGdKvRAcLMnJQ';
+  document.querySelectorAll('.footer').forEach(footer=>{
+    const heading=[...footer.querySelectorAll('h4')].find(h=>h.textContent.trim()==='Contact');
+    const contactColumn=heading&&heading.parentElement;
+    if(!contactColumn||contactColumn.querySelector('[data-qula-youtube]'))return;
+    const line=document.createElement('p');
+    line.className='contact-line';
+    line.innerHTML='<b>Video</b><br><a data-qula-youtube href="'+youtubeChannel+'" target="_blank" rel="noopener noreferrer">YouTube</a>';
+    contactColumn.insertBefore(line,contactColumn.querySelector('a.btn')||null);
+  });
+
   // URL 参数预填询盘意向
   const params=new URLSearchParams(location.search);
   const product=params.get('product'); const application=params.get('application');
