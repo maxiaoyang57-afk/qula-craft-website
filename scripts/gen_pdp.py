@@ -301,8 +301,8 @@ for e in pdp:
         srow = flat[s["ci"]]
         simg = (s.get("imagesLocal") or [srow["image"]])[0]
         sw, sh = img_dim(simg)
-        st = clean_title(s["titleFull"])
-        # 标题存完整值(SEO/AI 可读),视觉两行省略交给 CSS .product-info h3 的 line-clamp
+        st = clean_title(srow.get("titleShort") or srow.get("title") or s["titleFull"])
+        # Related-card titles use the catalog's card copy; PDP SEO/H1 still uses titleFull above.
         rel_cards += (f'<article class="product-card"><div class="product-img"><a href="p-{s["assetKey"]}.html" style="display:block">'
                       f'<img loading="lazy" src="{simg}" alt="{esc(s["sku"])} {esc(cut_words(st,40))}" width="{sw}" height="{sh}"></a></div>'
                       f'<div class="product-info"><span class="pill soft">{esc(s["sku"])}</span>'
