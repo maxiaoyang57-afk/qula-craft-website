@@ -34,7 +34,7 @@ function validateCatalogSchema(value, file) {
     for (const [index, item] of items.entries()) {
       const product = expected[index];
       if (!product || item['@type'] !== 'ListItem' || item.position !== index + 1 ||
-          item.url !== base + product.pdp || item.name !== (product.titleFull || product.title) ||
+          item.url !== base + product.pdp || item.name !== (product.titleShort || product.title) ||
           item.image !== base + product.image || item.item) {
         failures.push(`${file}: catalog ItemList entry ${index + 1} differs from its product`);
       }
