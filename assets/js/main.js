@@ -6,6 +6,36 @@
   window.addEventListener('scroll',()=>{if(topBtn)topBtn.classList.toggle('show',window.scrollY>560)},{passive:true});
   if(topBtn){topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));}
 
+  // Official Qula Craft video channel: keep a visible, consistent link on every page.
+  const youtubeChannel='https://www.youtube.com/channel/UCKeqaiZQYSMGdKvRAcLMnJQ';
+  const youtubeIcon='<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.12C19.55 3.58 12 3.58 12 3.58s-7.55 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.07 0 12 0 12s0 3.93.5 5.8a3 3 0 0 0 2.1 2.12c1.85.5 9.4.5 9.4.5s7.55 0 9.4-.5a3 3 0 0 0 2.1-2.12C24 15.93 24 12 24 12s0-3.93-.5-5.8ZM9.6 15.63V8.37L15.87 12 9.6 15.63Z"/></svg>';
+  const youtubeLink=(label,extraClass)=>{
+    const link=document.createElement('a');
+    link.className='youtube-cta '+(extraClass||'');
+    link.dataset.qulaYoutube='true';
+    link.href=youtubeChannel;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    link.setAttribute('aria-label',label+' on Qula Craft YouTube');
+    link.innerHTML=youtubeIcon+'<span>'+label+'</span>';
+    return link;
+  };
+  document.querySelectorAll('.footer').forEach(footer=>{
+    const heading=[...footer.querySelectorAll('h4')].find(h=>h.textContent.trim()==='Contact');
+    const contactColumn=heading&&heading.parentElement;
+    if(!contactColumn||contactColumn.querySelector('[data-qula-youtube]'))return;
+    const line=document.createElement('p');
+    line.className='contact-line youtube-contact';
+    line.append(youtubeLink('Watch Qula Craft Videos','youtube-cta--footer'));
+    contactColumn.insertBefore(line,contactColumn.querySelector('a.btn')||null);
+  });
+  document.querySelectorAll('.pcraft-actions').forEach(actions=>{
+    if(!actions.querySelector('[data-qula-youtube]'))actions.append(youtubeLink('Watch Our Videos','youtube-cta--home'));
+  });
+  document.querySelectorAll('.pdp-cta').forEach(cta=>{
+    if(!cta.querySelector('[data-qula-youtube]'))cta.append(youtubeLink('Watch Product Videos','youtube-cta--pdp'));
+  });
+
   // URL 参数预填询盘意向
   const params=new URLSearchParams(location.search);
   const product=params.get('product'); const application=params.get('application');
