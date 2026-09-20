@@ -1,0 +1,495 @@
+{
+  "batchId": "qula-20260920-rw-yx-13-skus",
+  "target": "QULA",
+  "repository": "maxiaoyang57-afk/qula-craft-website",
+  "baselineBranch": "main",
+  "baselineCommit": "1d316336c81fe4e622e06cd1a8dfca75beddb463",
+  "taskBranch": "codex/qula-products-20260920",
+  "mode": "preview",
+  "productionAuthorized": false,
+  "sourceWorkbook": "9.20标题_独立站产品上架最终版.xlsx",
+  "deduplication": {
+    "catalogCountBefore": 231,
+    "batchSkuCount": 13,
+    "duplicateSkusInBatch": [],
+    "duplicateSkusInCurrentCatalog": [
+      "RW26460",
+      "RW26774",
+      "RW26775",
+      "RW26776",
+      "RW26777",
+      "RW26796",
+      "RW26800",
+      "RW26813",
+      "RW26814",
+      "RW26819",
+      "YX162",
+      "YX3150",
+      "YX3461"
+    ],
+    "newSkuCount": 0
+  },
+  "products": [
+    {
+      "sku": "RW26460",
+      "sourceRow": 12,
+      "sourceTitle": "Wholesale Handmade Model 14x13mm Realistic Mini Resin Fruit Flatbacks Mixed Citrus Kiwi Slices Scrapbooking Christmas Halloween",
+      "derivedTitle": "Wholesale 14 × 13 mm Mixed Citrus and Kiwi Resin Fruit Flatbacks for Scrapbooking and Seasonal Crafts",
+      "category": "Resin Charms",
+      "slug": "p-rw26460.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-mini-fruit-resin-flatbacks-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ff34b24eaab6b8b81616546ea7e1d172d67ebbdc36ab7f03abb639b985cc2ba6"
+        },
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-mini-fruit-resin-flatbacks-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f5abdf73b674cd0382054c53b7ec1ff7497bc8b8bb9da3bb7f3967a37a4c8036"
+        },
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-mini-fruit-resin-flatbacks-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e8f8741a81b54b8cc43e7557d53aed759afa081e0a5ccf4fd60251939cb9e135"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26774",
+      "sourceRow": 11,
+      "sourceTitle": "Custom Wholesale Christmas Cabochon Embellishments for Hair Clips Keychains Scrapbooking and Seasonal Decor",
+      "derivedTitle": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooking and Seasonal Decor",
+      "category": "Resin Charms",
+      "slug": "p-rw26774.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26774/rw26774-christmas-resin-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "74182427e07a9f6d4058ff42a5907427a3a1cda63a95878851f92e8cccf7969e"
+        },
+        {
+          "path": "assets/images/pdp/rw26774/rw26774-christmas-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b9be7ef26c7aa5579600265a367a82d6fef6c78350eaa55c1410345d11101612"
+        },
+        {
+          "path": "assets/images/pdp/rw26774/rw26774-christmas-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "38dfbb883c1ca219792e6a72f52cc3cda135045ab397e5361f87d2f77e9299b5"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26775",
+      "sourceRow": 10,
+      "sourceTitle": "Custom Wholesale Christmas Cabochon Embellishments for Hair Clips Keychains Scrapbook and Packaging Decor",
+      "derivedTitle": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Packaging Decor",
+      "category": "Resin Charms",
+      "slug": "p-rw26775.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26775/rw26775-christmas-resin-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "06209ce08074f297942e2346a77380cb6c7f364a6c2a9cea1d255cf93b5baeef"
+        },
+        {
+          "path": "assets/images/pdp/rw26775/rw26775-christmas-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "caf7acc35516388589d6810df290d5d4f8de85a491c73e97bb201774b7a30c44"
+        },
+        {
+          "path": "assets/images/pdp/rw26775/rw26775-christmas-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "f9cdce4886d5c8d4b08eb2bfbcc6300e6f80e4bfd3e0c2d6925fd80c481a9357"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26776",
+      "sourceRow": 9,
+      "sourceTitle": "Custom Christmas Cabochon Embellishments for Hair Clips Keychains Scrapbook Phone Decor Wholesale",
+      "derivedTitle": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Phone Decor",
+      "category": "Resin Charms",
+      "slug": "p-rw26776.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26776/rw26776-christmas-resin-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0dd38bbadea97d9ae90191bef7df3d67aee48e951f17f86175d6406517b24a9f"
+        },
+        {
+          "path": "assets/images/pdp/rw26776/rw26776-christmas-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0af9f6a5ec35808bce584a654a71d5cfa3eccf334fa9d36f3dcf6b6c084000d9"
+        },
+        {
+          "path": "assets/images/pdp/rw26776/rw26776-christmas-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "b11886168af28f23892993d6d1a580b3e81eb8b894b8bd46fcd3cedc3084b6e6"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26777",
+      "sourceRow": 8,
+      "sourceTitle": "Custom Wholesale Christmas Cabochon Embellishments for Hair Clips Keychains Scrapbook and Phone Decoration",
+      "derivedTitle": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Phone Cases",
+      "category": "Resin Charms",
+      "slug": "p-rw26777.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26777/rw26777-christmas-resin-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "773d6964e8e47668c86ad6cef9d577d2b5ed7c2699252a91172b7a53b6496dd5"
+        },
+        {
+          "path": "assets/images/pdp/rw26777/rw26777-christmas-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5171e483e36879525b8d38c723e5d66c727cfef021b2f6b75bd2e846fd938143"
+        },
+        {
+          "path": "assets/images/pdp/rw26777/rw26777-christmas-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "e3e4290499f91d7e25536d5c62a80b505f45b71d971ec9c07c1dfb41d144d1b8"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26796",
+      "sourceRow": 6,
+      "sourceTitle": "Mini Christmas Resin Pieces Mixed Shapes Factory Wholesale Accessories",
+      "derivedTitle": "Wholesale Mixed Christmas Resin Charms for Slime, Crafts and Seasonal Accessories",
+      "category": "Resin Charms",
+      "slug": "p-rw26796.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26796/rw26796-mixed-christmas-resin-charms-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f1856acfe269a9ff37b93c4f1fabcf176fc755ae002e3d8a6beaa3ec2de9843e"
+        },
+        {
+          "path": "assets/images/pdp/rw26796/rw26796-mixed-christmas-resin-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bbccb7436742ce670e132e42de67b54745f06ef3de2d6c50763d907872f90fbe"
+        },
+        {
+          "path": "assets/images/pdp/rw26796/rw26796-mixed-christmas-resin-charms-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "cdda847a28fae86ffa15c1d0143d27842472cfad4e39878cf58531b8fd0233d0"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26800",
+      "sourceRow": 5,
+      "sourceTitle": "Mini Christmas Gingerbread Resin Figures Factory Wholesale Accessories",
+      "derivedTitle": "Wholesale Mini Christmas Gingerbread Resin Figures for Slime, Crafts and Holiday Decorations",
+      "category": "Resin Charms",
+      "slug": "p-rw26800.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26800/rw26800-gingerbread-resin-figures-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "85e35b29864b488bb1d0eb687b1259e156d01a30451c5300768b187e1a378a49"
+        },
+        {
+          "path": "assets/images/pdp/rw26800/rw26800-gingerbread-resin-figures-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aca55e9d57b1823392496a225ffd344bc1ad780e9541856a0df7bf6b1538a7e4"
+        },
+        {
+          "path": "assets/images/pdp/rw26800/rw26800-gingerbread-resin-figures-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "cacf9fcd8364b781bfe3c5ffd7d126064599a06f57c2be7f28c2388becbb241f"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26813",
+      "sourceRow": 4,
+      "sourceTitle": "Christmas Miniature Figurines Mixed Snowman Tree Holiday Figures for Desktop Garden Scene Decoration Custom Wholesale",
+      "derivedTitle": "Wholesale Mixed Christmas Snowman and Tree Resin Miniatures for Holiday Displays and DIY Crafts",
+      "category": "Resin Charms",
+      "slug": "p-rw26813.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "074eb35985a77b37eda6bba08e7e327d1a8023b6a9db663e2bfc78ca999783fa"
+        },
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dc6c5f559b5e0b8da10bc7472cc4d5837292d2dea865045c467b4676dc6d1296"
+        },
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "927beb50a74e9bd8e8172f830960690e39eddf86b61f514e0578ba1f42048ab6"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26814",
+      "sourceRow": 3,
+      "sourceTitle": "Christmas Miniature House 3D Snowy Cottage Ornaments for Holiday Village Garden Desktop Scene Custom Wholesale",
+      "derivedTitle": "Wholesale 3D Christmas Snowy Cottage Resin Miniatures for Holiday Village and Desktop Displays",
+      "category": "Resin Charms",
+      "slug": "p-rw26814.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26814/rw26814-snowy-cottage-resin-miniatures-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8491af018dd5a5dd7536d18b9ab5c05bff933b1fb5aade23314501cabc35b95f"
+        },
+        {
+          "path": "assets/images/pdp/rw26814/rw26814-snowy-cottage-resin-miniatures-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cd12b11d61bd05b1a7699284d1cf27b8a33df6c0e761c7d0cafd6dcf48e4b819"
+        },
+        {
+          "path": "assets/images/pdp/rw26814/rw26814-snowy-cottage-resin-miniatures-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "e4945e6a490a57df51a0f532c2bf354bd6a391e6933960cd2b4bed85993f07f3"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "RW26819",
+      "sourceRow": 2,
+      "sourceTitle": "Wholesale Christmas Resin Appliques Snowman Tree Embellishments for Hair Accessories Bags Cards Custom Bulk Supply",
+      "derivedTitle": "Wholesale Christmas Snowman and Tree Resin Flatback Cabochons for Hair Accessories, Bags and Cards",
+      "category": "Resin Charms",
+      "slug": "p-rw26819.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26819/rw26819-christmas-resin-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "280c12c86acef38760da821eb125792461a7f0ca32749b8cb6deb6204f1399e8"
+        },
+        {
+          "path": "assets/images/pdp/rw26819/rw26819-christmas-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ccc3f77769e94a7144abb6e66235bef84b583aeabdbfc5fd926c51a6cb852df7"
+        },
+        {
+          "path": "assets/images/pdp/rw26819/rw26819-christmas-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "3bff6c521e21a22b66ea0e09c696ca9ff195e9f49bfb9e42a9ff99794addbc30"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX162",
+      "sourceRow": 13,
+      "sourceTitle": "Cute Polymer Clay Candy Cane Cabochons Christmas Decor Candy Cane Charms Miniature Doll House Suppliers",
+      "derivedTitle": "Wholesale Candy Cane Polymer Clay Cabochons for Christmas Crafts and Miniature Displays",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx162.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx162/yx162-candy-cane-clay-cabochons-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "476f0adece4c80e9ff9fded2be2164271f1c2503e6c6439c9f61c0c93a772d72"
+        },
+        {
+          "path": "assets/images/pdp/yx162/yx162-candy-cane-clay-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fe9117f265e56ecbd444f2fd0be8ef2ca1b735f8a3e5b137fc4e87ca68071b20"
+        },
+        {
+          "path": "assets/images/pdp/yx162/yx162-candy-cane-clay-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 720,
+          "height": 720,
+          "sha256": "0c85e8778dcd8a2d9be7eba4f7be188ce319779bff9b87010737332fac48107c"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX3150",
+      "sourceRow": 1,
+      "sourceTitle": "Latest Mixed Christmas Gingerbread Man Pink Peppermind Candy Clay Slices Slime Sprinkles Shaker Bow Filling",
+      "derivedTitle": "Wholesale Christmas Gingerbread, Peppermint Candy and Bow Polymer Clay Slices for Slime and Shakers",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx3150.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3150/yx3150-christmas-clay-slices-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d78dd0c647a6c3bf331fe7f7ea270165807dc07a2062ade8df63b3ba6c37651f"
+        },
+        {
+          "path": "assets/images/pdp/yx3150/yx3150-christmas-clay-slices-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d3ffc16d76307a54544a6ac58b3843241aabfcd2c46dd12fe67a55bf9223fc01"
+        },
+        {
+          "path": "assets/images/pdp/yx3150/yx3150-christmas-clay-slices-detail.jpg",
+          "role": "detail",
+          "width": 720,
+          "height": 720,
+          "sha256": "833bf54cf57def33e2518794c46e5b0a424d1a74fb0462c523b996bcd420946a"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    },
+    {
+      "sku": "YX3461",
+      "sourceRow": 7,
+      "sourceTitle": "Wholesale Mixed Things Christmas Theme Clay Sprinlkes Polymer Clay Slices for Confetti,Slime,Snowglobe Tumbler,Shaker DIY",
+      "derivedTitle": "Wholesale Mixed Christmas Polymer Clay Slices for Slime, Tumblers, Shakers and Confetti",
+      "category": "Polymer Clay Slices",
+      "slug": "p-yx3461.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3461/yx3461-christmas-polymer-clay-slices-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ad56810b5fab9639eae5e4c489cb740e5fa42baf661e429ae8b6b5353f2623c2"
+        },
+        {
+          "path": "assets/images/pdp/yx3461/yx3461-christmas-polymer-clay-slices-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8e29e16823f3ec2258942475f0690e276495d3e64150405efe90c0ca3f6cbc9d"
+        },
+        {
+          "path": "assets/images/pdp/yx3461/yx3461-christmas-polymer-clay-slices-detail.jpg",
+          "role": "detail",
+          "width": 720,
+          "height": 720,
+          "sha256": "4ff55c05578d24a2952d8265c5197388b1275749606750e6c1b5b2ca1b76ab99"
+        }
+      ],
+      "duplicateStatus": "new_in_batch",
+      "listingStatus": "generated",
+      "validationStatus": "repository checks passed on 2026-09-20",
+      "previewStatus": "pending Git-connected deployment"
+    }
+  ],
+  "explicitlySkippedSku": "RW002155",
+  "unsupportedPublicFieldsOmitted": [
+    "price",
+    "delivery date",
+    "certification specific to this SKU"
+  ]
+}
