@@ -1258,3 +1258,571 @@ nav.breadcrumb a:hover{color:#cc3868}
 /* Official video channel: a recognisable YouTube treatment at every buyer touchpoint. */
 .youtube-cta{display:inline-flex!important;align-items:center;justify-content:center;gap:9px;background:#ff0033!important;color:#fff!important;border:1px solid #ff0033;border-radius:999px;padding:11px 16px;font-size:14px;font-weight:900;line-height:1.2;box-shadow:0 9px 20px rgba(255,0,51,.22);transition:transform .2s ease,box-shadow .2s ease}.youtube-cta:hover{transform:translateY(-2px);box-shadow:0 13px 25px rgba(255,0,51,.3)}.youtube-cta svg{flex:0 0 auto}.youtube-contact{margin:13px 0}.youtube-cta--footer{width:100%;max-width:210px}.youtube-cta--pdp{width:100%;max-width:340px}.pcraft-actions .youtube-cta--home{background:#ff0033!important;border-color:#ff0033;color:#fff!important;padding:13px 18px}
 @media (max-width:640px){.youtube-cta--footer,.youtube-cta--pdp{max-width:none}.pcraft-actions .youtube-cta--home{width:100%}}
+
+
+/* QULA PDP mobile hardening — 2026-09-21
+   Keep product detail pages inside the phone viewport, preserve full product imagery,
+   make specifications readable without horizontal scrolling, and give every CTA a
+   full-width touch target. Scoped to pages whose hero is .pdp-hero. */
+@media (max-width:760px){
+  .pdp-hero{
+    padding:16px 0 8px;
+    overflow:hidden;
+  }
+  .pdp-hero .container,
+  .pdp-hero + .section .detail-grid,
+  .pdp-hero + .section .detail-grid > div{
+    min-width:0;
+    max-width:100%;
+  }
+  .pdp-hero .breadcrumb{
+    display:flex;
+    flex-wrap:wrap;
+    gap:3px 6px;
+    max-width:100%;
+    font-size:12px;
+    line-height:1.45;
+    overflow-wrap:anywhere;
+  }
+  .pdp-hero .eyebrow{
+    max-width:100%;
+    white-space:normal;
+    line-height:1.35;
+  }
+  .pdp-hero h1{
+    margin-top:9px;
+    font-size:clamp(21px,6vw,26px);
+    line-height:1.18;
+    overflow-wrap:anywhere;
+    text-wrap:pretty;
+  }
+
+  .pdp-hero + .section{
+    padding-top:18px !important;
+    padding-bottom:42px;
+  }
+  .pdp-hero + .section .detail-grid{
+    grid-template-columns:minmax(0,1fr);
+    gap:22px;
+    width:100%;
+  }
+
+  .detail-grid .gallery-main{
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+    border-radius:22px;
+  }
+  .detail-grid .gallery-main img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    aspect-ratio:1/1;
+    margin:0;
+    border-radius:22px;
+  }
+  .detail-grid .gallery-row{
+    display:flex;
+    justify-content:flex-start;
+    gap:9px;
+    width:100%;
+    max-width:100%;
+    margin-top:10px;
+    padding:2px 1px 8px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type:x proximity;
+    overscroll-behavior-inline:contain;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:thin;
+  }
+  .detail-grid .gallery-row img{
+    width:78px;
+    height:78px;
+    flex:0 0 78px;
+    scroll-snap-align:start;
+    border-radius:13px;
+  }
+
+  .detail-grid .answer-box{
+    max-width:100%;
+    margin:0 0 12px !important;
+    padding:12px 14px;
+    font-size:13.5px;
+    line-height:1.5;
+    overflow-wrap:anywhere;
+  }
+
+  .detail-grid .spec-table{
+    display:block;
+    width:100%;
+    max-width:100%;
+    margin:0 0 10px;
+    overflow:hidden;
+    border-radius:18px;
+    table-layout:fixed;
+  }
+  .detail-grid .spec-table tbody{
+    display:block;
+    width:100%;
+  }
+  .detail-grid .spec-table tr{
+    display:grid;
+    grid-template-columns:minmax(96px,35%) minmax(0,1fr);
+    width:100%;
+  }
+  .detail-grid .spec-table tr:first-child{
+    display:block;
+  }
+  .detail-grid .spec-table th{
+    display:block;
+    width:100%;
+    padding:11px 12px;
+    font-size:13px;
+  }
+  .detail-grid .spec-table td{
+    display:block;
+    min-width:0;
+    width:auto;
+    padding:10px 12px;
+    font-size:13.5px;
+    line-height:1.45;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+  .detail-grid .spec-table td:first-child{
+    background:#fff7fb;
+  }
+  .detail-grid .spec-table tr:last-child td{
+    border-bottom:0;
+  }
+
+  .detail-grid .pdp-cta{
+    width:100% !important;
+    max-width:none !important;
+    gap:10px !important;
+  }
+  .detail-grid .pdp-cta .btn,
+  .detail-grid .pdp-cta .youtube-cta,
+  .detail-grid .pdp-cta .basket-add{
+    width:100% !important;
+    max-width:none !important;
+    min-height:48px;
+    margin:0;
+    white-space:normal;
+    text-align:center;
+    line-height:1.3;
+  }
+  .detail-grid .pdp-cta .basket-add{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 14px;
+    border:1px solid #f3ddb0;
+    border-radius:999px;
+    background:#fffaf1;
+    color:#8a5a10;
+  }
+
+  /* Related items on PDPs stay single-column even when the page has an inline
+     auto-fill grid declaration. */
+  .pdp-hero + .section + .section.section-soft .product-grid{
+    grid-template-columns:minmax(0,1fr) !important;
+    gap:16px;
+  }
+  .pdp-hero + .section + .section.section-soft .product-card{
+    width:100%;
+    min-width:0;
+  }
+
+  /* The expanded mobile navigation is long on product pages; keep it usable
+     instead of letting it run beyond the viewport. */
+  .main-nav.open{
+    max-height:calc(100dvh - 108px);
+    overflow-y:auto;
+    overscroll-behavior:contain;
+  }
+
+  .mobile-cta-bar{
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  body{
+    padding-bottom:calc(52px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width:380px){
+  .pdp-hero h1{
+    font-size:21px;
+  }
+  .pdp-hero + .section .container{
+    width:min(100% - 18px,1220px);
+  }
+  .detail-grid .gallery-row img{
+    width:72px;
+    height:72px;
+    flex-basis:72px;
+  }
+  .detail-grid .spec-table tr{
+    grid-template-columns:minmax(88px,34%) minmax(0,1fr);
+  }
+  .detail-grid .spec-table td{
+    padding:9px 10px;
+    font-size:13px;
+  }
+}
+
+
+/* QULA shared mobile viewport/nav fixes — screenshots 2026-09-21
+   1) prevent category/PDP horizontal overflow from pushing the fixed CTA off screen
+   2) keep the expanded Products submenu fully inside the mobile navigation panel */
+@media (max-width:1060px){
+  html,
+  body{
+    max-width:100%;
+    overflow-x:clip;
+  }
+
+  .site-header,
+  .nav-shell{
+    max-width:100%;
+  }
+
+  .main-nav{
+    left:12px;
+    right:12px;
+    width:auto;
+    max-width:calc(100vw - 24px);
+    box-sizing:border-box;
+    overflow-x:hidden;
+  }
+
+  .main-nav.open{
+    display:flex;
+    max-height:calc(100dvh - 112px);
+    overflow-y:auto;
+    overflow-x:hidden;
+    overscroll-behavior:contain;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .main-nav > *,
+  .nav-has-sub,
+  .nav-sub,
+  .nav-sub-link{
+    min-width:0;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+
+  .nav-has-sub{
+    width:100%;
+    overflow:hidden;
+  }
+
+  .nav-has-sub > .nav-link{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .nav-sub{
+    position:static !important;
+    left:auto !important;
+    right:auto !important;
+    transform:none !important;
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    margin:4px 0 8px !important;
+    padding:4px 4px 4px 12px !important;
+    border:0 !important;
+    border-left:2px solid #ffe0ea !important;
+    border-radius:0 !important;
+    box-shadow:none !important;
+    background:transparent !important;
+    opacity:1 !important;
+    visibility:visible !important;
+    pointer-events:auto !important;
+    overflow:hidden;
+  }
+
+  .nav-sub-link{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content:flex-start;
+    gap:10px;
+    padding:10px 8px;
+    margin:0;
+    white-space:normal;
+    overflow-wrap:anywhere;
+  }
+
+  .nav-sub-link .nav-ico{
+    flex:0 0 18px;
+  }
+
+  .nav-sub-link span{
+    min-width:0;
+    flex:1 1 auto;
+  }
+}
+
+@media (max-width:640px){
+  .container{
+    max-width:100%;
+  }
+
+  .mobile-cta-bar{
+    left:0 !important;
+    right:0 !important;
+    width:100% !important;
+    max-width:100vw !important;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+
+  .mobile-cta-bar a{
+    flex:1 1 50% !important;
+    width:50% !important;
+    min-width:0 !important;
+    max-width:50% !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    box-sizing:border-box;
+  }
+
+  .mcb-quote,
+  .mcb-wa{
+    color:#fff !important;
+  }
+
+  .product-card,
+  .product-info,
+  .card-cta-row{
+    min-width:0;
+    max-width:100%;
+  }
+
+  .card-cta-row > a{
+    min-width:0;
+  }
+}
+
+
+/* QULA mobile navigation scroll correction — 2026-09-21
+   Keep every product category visible and make the full opened menu vertically scrollable.
+   Important: flex children must not shrink, otherwise the Products submenu gets clipped. */
+@media (max-width:1060px){
+  .main-nav.open{
+    position:fixed !important;
+    top:88px !important;
+    right:12px !important;
+    bottom:calc(58px + env(safe-area-inset-bottom)) !important;
+    left:12px !important;
+    width:auto !important;
+    max-width:none !important;
+    height:auto !important;
+    max-height:none !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:stretch !important;
+    justify-content:flex-start !important;
+    overflow-y:auto !important;
+    overflow-x:hidden !important;
+    overscroll-behavior-y:contain;
+    touch-action:pan-y;
+    -webkit-overflow-scrolling:touch;
+    padding:18px 18px 28px !important;
+  }
+
+  /* Do not let flexbox squeeze and clip menu sections. */
+  .main-nav.open > *,
+  .main-nav.open .nav-has-sub,
+  .main-nav.open .nav-sub,
+  .main-nav.open .nav-sub-link{
+    flex-shrink:0 !important;
+  }
+
+  .main-nav.open .nav-has-sub{
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub{
+    display:flex !important;
+    position:static !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+    flex-direction:column !important;
+    gap:2px !important;
+    margin:4px 0 10px !important;
+    padding:5px 4px 6px 12px !important;
+  }
+
+  .main-nav.open .nav-sub-link{
+    display:flex !important;
+    width:100% !important;
+    min-height:42px;
+    align-items:center !important;
+    padding:10px 8px !important;
+  }
+
+  .main-nav.open > .nav-link,
+  .main-nav.open > .nav-has-sub > .nav-link,
+  .main-nav.open > .btn{
+    min-height:46px;
+  }
+
+  /* Leave breathing room above the fixed mobile CTA bar. */
+  .main-nav.open::after{
+    content:"";
+    display:block;
+    flex:0 0 12px;
+  }
+}
+
+
+/* QULA mobile nav final drawer fix — 2026-09-21
+   The sticky header uses backdrop-filter. On some Android browsers that can make
+   fixed descendants size against the header instead of the viewport. Remove that
+   containing-block effect on mobile and give the open menu an explicit viewport
+   height so it cannot collapse to a single row. */
+@media (max-width:1060px){
+  .site-header{
+    background:#fff !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+  }
+
+  .main-nav.open{
+    position:fixed !important;
+    top:104px !important;
+    right:12px !important;
+    bottom:auto !important;
+    left:12px !important;
+    width:auto !important;
+    height:calc(100dvh - 176px - env(safe-area-inset-bottom)) !important;
+    min-height:360px !important;
+    max-height:calc(100dvh - 176px - env(safe-area-inset-bottom)) !important;
+    padding:18px 18px 30px !important;
+    border:1px solid var(--line) !important;
+    border-radius:24px !important;
+    background:#fff !important;
+    box-shadow:0 22px 60px rgba(30,39,51,.18) !important;
+    z-index:59 !important;
+    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+    overscroll-behavior:contain;
+    touch-action:pan-y;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-gutter:stable;
+  }
+
+  .main-nav.open > *,
+  .main-nav.open .nav-has-sub,
+  .main-nav.open .nav-sub,
+  .main-nav.open .nav-sub-link{
+    flex:0 0 auto !important;
+  }
+
+  .main-nav.open .nav-has-sub{
+    display:block !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:max-content !important;
+    max-height:none !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub{
+    display:flex !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:max-content !important;
+    max-height:none !important;
+    flex-direction:column !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub-link{
+    min-height:44px !important;
+  }
+}
+
+@media (max-width:640px){
+  .main-nav.open{
+    top:96px !important;
+    height:calc(100dvh - 164px - env(safe-area-inset-bottom)) !important;
+    min-height:340px !important;
+    max-height:calc(100dvh - 164px - env(safe-area-inset-bottom)) !important;
+    padding:16px 14px 28px !important;
+  }
+}
+
+@media (max-width:380px){
+  .main-nav.open{
+    left:8px !important;
+    right:8px !important;
+    padding-inline:12px !important;
+  }
+}
+
+
+/* QULA PDP specification table mobile width correction — 2026-09-21
+   Native table layout is more reliable than block/grid table internals on Android/WebKit. */
+@media (max-width:760px){
+  .detail-grid .spec-table{
+    display:table !important;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    table-layout:fixed !important;
+    overflow:hidden !important;
+  }
+
+  .detail-grid .spec-table tbody{
+    display:table-row-group !important;
+    width:auto !important;
+  }
+
+  .detail-grid .spec-table tr,
+  .detail-grid .spec-table tr:first-child{
+    display:table-row !important;
+    width:auto !important;
+  }
+
+  .detail-grid .spec-table th,
+  .detail-grid .spec-table td{
+    display:table-cell !important;
+    width:auto !important;
+    min-width:0 !important;
+    max-width:none !important;
+    overflow-wrap:anywhere !important;
+    word-break:break-word !important;
+    white-space:normal !important;
+  }
+
+  .detail-grid .spec-table td:first-child{
+    width:34% !important;
+  }
+
+  .detail-grid .spec-table td:last-child{
+    width:66% !important;
+  }
+
+  .detail-grid .spec-table th[colspan]{
+    width:auto !important;
+  }
+}
