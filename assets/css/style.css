@@ -1692,3 +1692,89 @@ nav.breadcrumb a:hover{color:#cc3868}
     flex:0 0 12px;
   }
 }
+
+
+/* QULA mobile nav final drawer fix — 2026-09-21
+   The sticky header uses backdrop-filter. On some Android browsers that can make
+   fixed descendants size against the header instead of the viewport. Remove that
+   containing-block effect on mobile and give the open menu an explicit viewport
+   height so it cannot collapse to a single row. */
+@media (max-width:1060px){
+  .site-header{
+    background:#fff !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+  }
+
+  .main-nav.open{
+    position:fixed !important;
+    top:104px !important;
+    right:12px !important;
+    bottom:auto !important;
+    left:12px !important;
+    width:auto !important;
+    height:calc(100dvh - 176px - env(safe-area-inset-bottom)) !important;
+    min-height:360px !important;
+    max-height:calc(100dvh - 176px - env(safe-area-inset-bottom)) !important;
+    padding:18px 18px 30px !important;
+    border:1px solid var(--line) !important;
+    border-radius:24px !important;
+    background:#fff !important;
+    box-shadow:0 22px 60px rgba(30,39,51,.18) !important;
+    z-index:59 !important;
+    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+    overscroll-behavior:contain;
+    touch-action:pan-y;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-gutter:stable;
+  }
+
+  .main-nav.open > *,
+  .main-nav.open .nav-has-sub,
+  .main-nav.open .nav-sub,
+  .main-nav.open .nav-sub-link{
+    flex:0 0 auto !important;
+  }
+
+  .main-nav.open .nav-has-sub{
+    display:block !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:max-content !important;
+    max-height:none !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub{
+    display:flex !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:max-content !important;
+    max-height:none !important;
+    flex-direction:column !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub-link{
+    min-height:44px !important;
+  }
+}
+
+@media (max-width:640px){
+  .main-nav.open{
+    top:96px !important;
+    height:calc(100dvh - 164px - env(safe-area-inset-bottom)) !important;
+    min-height:340px !important;
+    max-height:calc(100dvh - 164px - env(safe-area-inset-bottom)) !important;
+    padding:16px 14px 28px !important;
+  }
+}
+
+@media (max-width:380px){
+  .main-nav.open{
+    left:8px !important;
+    right:8px !important;
+    padding-inline:12px !important;
+  }
+}
