@@ -157,5 +157,6 @@ test('Bag Charms applications update fits the current mobile layout', async ({ p
   const fixedBar = page.locator('.mobile-cta-bar');
   await expect(fixedBar).toBeVisible();
 
+  await bag.screenshot({ path: 'test-results/qula-mobile-bag-charms-card.png' });
   await page.screenshot({ path: 'test-results/qula-mobile-bag-charms.png', fullPage: true });
 });
