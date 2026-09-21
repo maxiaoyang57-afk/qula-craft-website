@@ -1614,3 +1614,81 @@ nav.breadcrumb a:hover{color:#cc3868}
     min-width:0;
   }
 }
+
+
+/* QULA mobile navigation scroll correction — 2026-09-21
+   Keep every product category visible and make the full opened menu vertically scrollable.
+   Important: flex children must not shrink, otherwise the Products submenu gets clipped. */
+@media (max-width:1060px){
+  .main-nav.open{
+    position:fixed !important;
+    top:88px !important;
+    right:12px !important;
+    bottom:calc(58px + env(safe-area-inset-bottom)) !important;
+    left:12px !important;
+    width:auto !important;
+    max-width:none !important;
+    height:auto !important;
+    max-height:none !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:stretch !important;
+    justify-content:flex-start !important;
+    overflow-y:auto !important;
+    overflow-x:hidden !important;
+    overscroll-behavior-y:contain;
+    touch-action:pan-y;
+    -webkit-overflow-scrolling:touch;
+    padding:18px 18px 28px !important;
+  }
+
+  /* Do not let flexbox squeeze and clip menu sections. */
+  .main-nav.open > *,
+  .main-nav.open .nav-has-sub,
+  .main-nav.open .nav-sub,
+  .main-nav.open .nav-sub-link{
+    flex-shrink:0 !important;
+  }
+
+  .main-nav.open .nav-has-sub{
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+  }
+
+  .main-nav.open .nav-sub{
+    display:flex !important;
+    position:static !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    overflow:visible !important;
+    flex-direction:column !important;
+    gap:2px !important;
+    margin:4px 0 10px !important;
+    padding:5px 4px 6px 12px !important;
+  }
+
+  .main-nav.open .nav-sub-link{
+    display:flex !important;
+    width:100% !important;
+    min-height:42px;
+    align-items:center !important;
+    padding:10px 8px !important;
+  }
+
+  .main-nav.open > .nav-link,
+  .main-nav.open > .nav-has-sub > .nav-link,
+  .main-nav.open > .btn{
+    min-height:46px;
+  }
+
+  /* Leave breathing room above the fixed mobile CTA bar. */
+  .main-nav.open::after{
+    content:"";
+    display:block;
+    flex:0 0 12px;
+  }
+}
