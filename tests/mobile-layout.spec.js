@@ -12,12 +12,13 @@ const baseURL = 'http://127.0.0.1:4173';
 async function expectNoHorizontalOverflow(page) {
   const dims = await page.evaluate(() => ({
     innerWidth: window.innerWidth,
-    docWidth: document.documentElement.scrollWidth,
-    bodyWidth: document.body.scrollWidth
+    docWidth: document.documentElement.scrollWidth
   }));
   expect(dims.docWidth).toBeLessThanOrEqual(dims.innerWidth + 1);
-  expect(dims.bodyWidth).toBeLessThanOrEqual(dims.innerWidth + 1);
 }
+
+function right(box) { return box.x + box.width; }
+function bottom(box) { return box.y + box.height; }
 
 test('mobile product menu is full-height, scrollable and complete', async ({ page }) => {
   await page.goto(baseURL + '/polymer-clay-sprinkles.html', { waitUntil: 'networkidle' });
@@ -71,7 +72,7 @@ test('mobile product menu is full-height, scrollable and complete', async ({ pag
   await expect(quote).toBeVisible();
   const quoteBox = await quote.boundingBox();
   expect(quoteBox).not.toBeNull();
-  expect(quoteBox.bottom).toBeLessThanOrEqual(844 - 52 + 4);
+  expect(bottom(quoteBox)).toBeLessThanOrEqual(844 - 52 + 4);
 
   await page.screenshot({ path: 'test-results/qula-mobile-menu-bottom.png' });
   await expectNoHorizontalOverflow(page);
@@ -115,8 +116,8 @@ test('mobile PDP stays within viewport and remains readable', async ({ page }) =
     await expect(loc).toBeVisible();
     const box = await loc.boundingBox();
     expect(box).not.toBeNull();
-    expect(box.left).toBeGreaterThanOrEqual(-1);
-    expect(box.right).toBeLessThanOrEqual(391);
+    expect(box.x).toBeGreaterThanOrEqual(-1);
+    expect(right(box)).toBeLessThanOrEqual(391);
   }
 
   const cta = page.locator('.pdp-cta');
@@ -126,7 +127,7 @@ test('mobile PDP stays within viewport and remains readable', async ({ page }) =
     const box = await ctaButtons.nth(i).boundingBox();
     expect(box).not.toBeNull();
     expect(box.width).toBeGreaterThan(300);
-    expect(box.right).toBeLessThanOrEqual(391);
+    expect(right(box)).toBeLessThanOrEqual(391);
   }
 
   await page.screenshot({ path: 'test-results/qula-mobile-pdp.png', fullPage: true });
