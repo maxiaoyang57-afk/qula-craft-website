@@ -1778,3 +1778,51 @@ nav.breadcrumb a:hover{color:#cc3868}
     padding-inline:12px !important;
   }
 }
+
+
+/* QULA PDP specification table mobile width correction — 2026-09-21
+   Native table layout is more reliable than block/grid table internals on Android/WebKit. */
+@media (max-width:760px){
+  .detail-grid .spec-table{
+    display:table !important;
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    table-layout:fixed !important;
+    overflow:hidden !important;
+  }
+
+  .detail-grid .spec-table tbody{
+    display:table-row-group !important;
+    width:auto !important;
+  }
+
+  .detail-grid .spec-table tr,
+  .detail-grid .spec-table tr:first-child{
+    display:table-row !important;
+    width:auto !important;
+  }
+
+  .detail-grid .spec-table th,
+  .detail-grid .spec-table td{
+    display:table-cell !important;
+    width:auto !important;
+    min-width:0 !important;
+    max-width:none !important;
+    overflow-wrap:anywhere !important;
+    word-break:break-word !important;
+    white-space:normal !important;
+  }
+
+  .detail-grid .spec-table td:first-child{
+    width:34% !important;
+  }
+
+  .detail-grid .spec-table td:last-child{
+    width:66% !important;
+  }
+
+  .detail-grid .spec-table th[colspan]{
+    width:auto !important;
+  }
+}
