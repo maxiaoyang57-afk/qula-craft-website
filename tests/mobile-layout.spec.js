@@ -132,3 +132,30 @@ test('mobile PDP stays within viewport and remains readable', async ({ page }) =
 
   await page.screenshot({ path: 'test-results/qula-mobile-pdp.png', fullPage: true });
 });
+
+
+test('Bag Charms applications update fits the current mobile layout', async ({ page }) => {
+  await page.goto(baseURL + '/applications.html', { waitUntil: 'networkidle' });
+  await expectNoHorizontalOverflow(page);
+
+  const cards = page.locator('.applications-v3-card');
+  await expect(cards).toHaveCount(9);
+
+  const bag = page.locator('#bag-charms');
+  await expect(bag).toBeAttached();
+  await bag.scrollIntoViewIfNeeded();
+  await expect(bag).toBeVisible();
+
+  const bagBox = await bag.boundingBox();
+  expect(bagBox).not.toBeNull();
+  expect(bagBox.x).toBeGreaterThanOrEqual(-1);
+  expect(right(bagBox)).toBeLessThanOrEqual(391);
+
+  await expect(bag.locator('h3')).toContainText('Bag Charms');
+  await expect(bag.locator('a.btn')).toHaveAttribute('href', 'quote.html?application=Bag%20Charms');
+
+  const fixedBar = page.locator('.mobile-cta-bar');
+  await expect(fixedBar).toBeVisible();
+
+  await page.screenshot({ path: 'test-results/qula-mobile-bag-charms.png', fullPage: true });
+});
