@@ -145,6 +145,7 @@ test('Bag Charms applications update fits the current mobile layout', async ({ p
   await expect(bag).toBeAttached();
   await bag.scrollIntoViewIfNeeded();
   await expect(bag).toBeVisible();
+  await page.waitForTimeout(1200);
 
   const bagBox = await bag.boundingBox();
   expect(bagBox).not.toBeNull();
