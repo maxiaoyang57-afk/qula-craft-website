@@ -11,6 +11,8 @@ const titles = new Map();
 const descriptions = new Map();
 const canonicals = new Map();
 const organizationLogo = 'https://www.qulacrafts.com/assets/images/favicon.png';
+const analyticsId = 'G-KKT7E44TD2';
+const analyticsPath = path.join(root, 'assets', 'js', 'analytics.js');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
 const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
 const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
@@ -81,11 +83,16 @@ for (const file of files) {
   const title = decode((html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '');
   const description = decode((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '');
   const canonical = (html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || [])[1] || '';
+  const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
   const quoteOnly = /<b>Quoted by pack and quantity<\/b>/i.test(html);
 
   if (!title) failures.push(`${file}: missing title`);
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
+  if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
+  if (/https:\/\/qulacrafts\.com(?:\/|["'])/i.test(html)) {
+    failures.push(`${file}: non-www absolute QULA URL must use the canonical www host`);
+  }
   if (/quantitys\b|\bbagss\b/i.test(html)) failures.push(`${file}: malformed pricing copy`);
 
   for (const raw of html.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)) {
@@ -132,6 +139,14 @@ for (const file of files) {
       failures.push(`${file}: price unit ${price[1]} conflicts with MOQ ${price[2].trim()}`);
     }
   }
+}
+
+const analyticsSource = fs.readFileSync(analyticsPath, 'utf8');
+if (!analyticsSource.includes(`var GA_ID='${analyticsId}'`)) {
+  failures.push(`assets/js/analytics.js: expected QULA measurement ID ${analyticsId}`);
+}
+if (/G-XXXXXXXXXX|\/XXXX\//.test(analyticsSource)) {
+  failures.push('assets/js/analytics.js: placeholder measurement ID or placeholder guard remains');
 }
 
 for (const [label, map] of [['title', titles], ['description', descriptions], ['canonical', canonicals]]) {

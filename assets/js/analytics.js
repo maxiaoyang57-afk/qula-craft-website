@@ -1,7 +1,6 @@
-/* GA4:把下面的 G-XXXXXXXXXX 换成真实衡量 ID,全站自动生效 */
+/* Qula Craft GA4 — property 549323595 / web stream 15412253402 */
 (function(){
-  var GA_ID='G-XXXXXXXXXX';
-  if(/XXXX/.test(GA_ID))return; // 未配置真实 ID 前不加载
+  var GA_ID='G-KKT7E44TD2';
   window.dataLayer=window.dataLayer||[];
   function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
   gtag('js',new Date());gtag('config',GA_ID);
