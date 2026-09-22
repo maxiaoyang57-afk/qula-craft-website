@@ -98,9 +98,11 @@ for (const file of files) {
   }
   if (/quantitys\b|\bbagss\b/i.test(html)) failures.push(`${file}: malformed pricing copy`);
 
+  const productSchemas = [];
   for (const raw of html.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)) {
     try {
       const data = JSON.parse(raw[1]);
+      if (data['@type'] === 'Product') productSchemas.push(data);
       validateOrganizationLogos(data, file);
       validateCatalogSchema(data, file);
       if (quoteOnly && data['@type'] === 'Product' && data.offers) {
@@ -108,6 +110,25 @@ for (const file of files) {
       }
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
+    }
+  }
+
+  if (/^p-.*\.html$/i.test(file) && !noindex) {
+    if (productSchemas.length !== 1) {
+      failures.push(`${file}: expected exactly one Product JSON-LD node, found ${productSchemas.length}`);
+    } else {
+      const product = productSchemas[0];
+      const hasPublishedPrice = /<b>From \$[^<]+<\/b>/i.test(html);
+      if (!product.sku) failures.push(`${file}: Product schema missing sku`);
+      if (!Array.isArray(product.image) || product.image.length === 0) failures.push(`${file}: Product schema missing images`);
+      if (!product.brand) failures.push(`${file}: Product schema missing brand`);
+      if (!product.manufacturer) failures.push(`${file}: Product schema missing manufacturer`);
+      if (product.url !== canonical) failures.push(`${file}: Product schema URL must match canonical`);
+      if (hasPublishedPrice && !product.offers) failures.push(`${file}: published price requires Product offers`);
+      if (product.offers) {
+        if (product.offers.priceCurrency !== 'USD') failures.push(`${file}: Product offers must use USD`);
+        if (product.offers.url !== canonical) failures.push(`${file}: Product offers URL must match canonical`);
+      }
     }
   }
 
