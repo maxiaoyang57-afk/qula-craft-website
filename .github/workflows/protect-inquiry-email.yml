@@ -25,6 +25,8 @@ jobs:
         run: node scripts/check-required-products.mjs
       - name: Verify SEO and batch image integrity
         run: node scripts/check-seo.mjs
+      - name: Verify September 20 product batch SEO and schema
+        run: node scripts/tests/check-20260920-products.mjs
 
 
   mobile-layout:
