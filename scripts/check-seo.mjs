@@ -88,6 +88,9 @@ for (const file of files) {
   const quoteOnly = /<b>Quoted by pack and quantity<\/b>/i.test(html);
 
   if (!title) failures.push(`${file}: missing title`);
+  if (/(?:\\b(?:and|for|of|the|a|an|in|on|per|by|to|with)|[,;:–—-])\\s*(?:\\([^)]+\\))?\\s*\\|/i.test(title)) {
+    failures.push(`${file}: title ends with a dangling connector or punctuation before the suffix`);
+  }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
   if (/https:\/\/qulacrafts\.com(?:\/|["'])/i.test(html)) {
