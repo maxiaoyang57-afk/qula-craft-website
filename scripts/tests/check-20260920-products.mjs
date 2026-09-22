@@ -42,10 +42,10 @@ for (const [sku, categorySlug] of expected) {
   const pagePath = path.join(root, `p-${sku.toLowerCase()}.html`);
   const page = fs.readFileSync(pagePath, 'utf8');
   if (!page.includes(`SKU ${sku}`) || !page.includes(`p-${sku.toLowerCase()}.html`)) throw new Error(`${sku}: PDP identity or canonical missing`);
-  const title = (page.match(/<title>([\\s\\S]*?)<\\/title>/i) || [])[1] || '';
+  const title = (page.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '';
   if (title !== expectedTitles.get(sku)) throw new Error(`${sku}: unexpected SEO title "${title}"`);
   if (!page.includes('<meta name="robots" content="index,follow">')) throw new Error(`${sku}: PDP is not indexable`);
-  const schemas = [...page.matchAll(/<script type="application\\/ld\\+json">([\\s\\S]*?)<\\/script>/gi)]
+  const schemas = [...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)]
     .map(match => JSON.parse(match[1]));
   const productSchema = schemas.find(item => item['@type'] === 'Product');
   if (!productSchema) throw new Error(`${sku}: Product JSON-LD missing`);
