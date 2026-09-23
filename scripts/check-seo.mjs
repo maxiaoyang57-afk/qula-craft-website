@@ -16,6 +16,12 @@ const analyticsPath = path.join(root, 'assets', 'js', 'analytics.js');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
 const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
 const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
+const entityPriorityPages = new Set([
+  'index.html',
+  'resin-charms.html',
+  'acrylic-beads.html',
+  'polymer-clay-sprinkles.html',
+]);
 
 function validateCatalogSchema(value, file) {
   if (Array.isArray(value)) {
@@ -122,7 +128,7 @@ for (const file of files) {
     }
   }
 
-  if (file === 'index.html') {
+  if (entityPriorityPages.has(file)) {
     const orgId = base + '#organization';
     const organizations = schemaNodes.filter((node) =>
       node['@type'] === 'Organization' && node['@id'] === orgId
