@@ -1,19 +1,29 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs && node scripts/check-seo.mjs",
+  "buildCommand": "node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs && node scripts/check-seo.mjs && node scripts/check-indexnow.mjs",
   "outputDirectory": ".",
   "cleanUrls": false,
   "trailingSlash": false,
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "qulacrafts.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "qulacrafts.com"
+        }
+      ],
       "destination": "https://www.qulacrafts.com/",
       "statusCode": 301
     },
     {
       "source": "/index.html",
-      "has": [{ "type": "host", "value": "qulacrafts.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "qulacrafts.com"
+        }
+      ],
       "destination": "https://www.qulacrafts.com/",
       "statusCode": 301
     },
