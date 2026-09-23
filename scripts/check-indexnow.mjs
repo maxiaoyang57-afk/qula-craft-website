@@ -15,7 +15,7 @@ const workflowPath = path.join(root, '.github', 'workflows', 'indexnow.yml');
 if (!fs.existsSync(workflowPath)) failures.push('missing .github/workflows/indexnow.yml');
 else {
   const workflow = fs.readFileSync(workflowPath, 'utf8');
-  for (const required of ['api.indexnow.org', 'scripts/submit-indexnow.mjs', 'Wait for Vercel production']) {
+  for (const required of ['scripts/submit-indexnow.mjs', 'Wait for Vercel production']) {
     if (!workflow.includes(required)) failures.push(`indexnow workflow missing: ${required}`);
   }
 }
@@ -25,6 +25,7 @@ if (!fs.existsSync(submitPath)) failures.push('missing scripts/submit-indexnow.m
 else {
   const submit = fs.readFileSync(submitPath, 'utf8');
   if (!submit.includes('www.qulacrafts.com')) failures.push('IndexNow submitter host is not canonical www host');
+  if (!submit.includes('https://api.indexnow.org/indexnow')) failures.push('IndexNow submitter endpoint is missing');
   if (!submit.includes(keyFile)) failures.push('IndexNow submitter does not reference hosted key file');
 }
 
