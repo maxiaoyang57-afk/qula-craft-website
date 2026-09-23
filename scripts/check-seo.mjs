@@ -58,6 +58,18 @@ function validateOrganizationLogos(value, file) {
   for (const item of Object.values(value)) validateOrganizationLogos(item, file);
 }
 
+
+function collectSchemaNodes(value, nodes = []) {
+  if (Array.isArray(value)) {
+    for (const item of value) collectSchemaNodes(item, nodes);
+    return nodes;
+  }
+  if (!value || typeof value !== 'object') return nodes;
+  nodes.push(value);
+  for (const item of Object.values(value)) collectSchemaNodes(item, nodes);
+  return nodes;
+}
+
 function decode(value) {
   return value
     .replace(/&amp;/g, '&')
@@ -86,6 +98,7 @@ for (const file of files) {
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
   const quoteOnly = /<b>Quoted by pack and quantity<\/b>/i.test(html);
+  const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
@@ -98,6 +111,7 @@ for (const file of files) {
   for (const raw of html.matchAll(/<script\s+type="application\/ld\+json">([\s\S]*?)<\/script>/gi)) {
     try {
       const data = JSON.parse(raw[1]);
+      collectSchemaNodes(data, schemaNodes);
       validateOrganizationLogos(data, file);
       validateCatalogSchema(data, file);
       if (quoteOnly && data['@type'] === 'Product' && data.offers) {
@@ -105,6 +119,34 @@ for (const file of files) {
       }
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
+    }
+  }
+
+  if (file === 'index.html') {
+    const orgId = base + '#organization';
+    const organizations = schemaNodes.filter((node) =>
+      node['@type'] === 'Organization' && node['@id'] === orgId
+    );
+    if (organizations.length !== 1) {
+      failures.push(`${file}: expected exactly one canonical Organization entity, found ${organizations.length}`);
+    } else {
+      const org = organizations[0];
+      if (org.legalName !== 'Yiwu Sola Craft Co., Ltd.') {
+        failures.push(`${file}: canonical Organization legalName changed unexpectedly`);
+      }
+      const sameAs = new Set([].concat(org.sameAs || []));
+      for (const required of ['https://solagarland.en.alibaba.com/', 'https://www.youtube.com/channel/UCKeqaiZQYSMGdKvRAcLMnJQ']) {
+        if (!sameAs.has(required)) failures.push(`${file}: canonical Organization missing sameAs ${required}`);
+      }
+      const credentials = [].concat(org.hasCredential || []);
+      if (credentials.some((credential) => credential?.['@type'] === 'EducationalOccupationalCredential')) {
+        failures.push(`${file}: company audit/verification must not use EducationalOccupationalCredential`);
+      }
+    }
+
+    const websites = schemaNodes.filter((node) => node['@type'] === 'WebSite' && node.url === base);
+    if (websites.length !== 1 || websites[0].publisher?.['@id'] !== orgId) {
+      failures.push(`${file}: WebSite must reference the canonical Organization as publisher`);
     }
   }
 
