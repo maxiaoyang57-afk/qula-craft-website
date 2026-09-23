@@ -25,6 +25,8 @@ const entityPriorityPages = new Set([
   'guide-slime-business-supply-checklist.html',
   'guide-seasonal-craft-calendar.html',
   'guide-bingsu-beads-slime-fillers.html',
+  'guide-beadable-pen-beads.html',
+  'customization.html',
   'p-rw26460.html',
   'p-rw26774.html',
   'p-rw26775.html',
@@ -39,6 +41,14 @@ const entityPriorityPages = new Set([
   'p-yx3150.html',
   'p-yx3461.html',
 ]);
+const ctrPriorityMetadata = new Map([
+  ['polymer-clay-sprinkles.html', { title: 'Polymer Clay Slices Wholesale for Slime & Crafts | Qula Craft', description: 'Wholesale polymer clay slices and fake sprinkles for slime, nail art and DIY kits. Browse stock mixes, custom shapes, packaging and B2B pricing.' }],
+  ['guide-bingsu-beads-slime-fillers.html', { title: 'Bingsu Beads for Slime: Bulk Packs, Texture & Filler Guide', description: 'Compare bingsu beads, fishbowl beads and foam for slime by texture, material, bleed risk and dosing, with 500g pack guidance and bulk sourcing tips.' }],
+  ['guide-slime-business-supply-checklist.html', { title: 'Slime Business Supplies Checklist: Charms, Beads & Packaging', description: 'Plan a slime shop supply list with charms, clay sprinkles, bingsu beads, glitter and packaging, plus trial-pack planning and safety paperwork.' }],
+  ['guide-beadable-pen-beads.html', { title: 'Beadable Pen Beads Wholesale: Sizes, Focal Beads & Sourcing', description: 'Source beadable pen beads wholesale with hole-fit, focal bead, lot size and theme guidance for DIY pen makers, craft stores and private-label kits.' }],
+  ['customization.html', { title: 'Custom Craft Supplies OEM/ODM & Private Label | Qula Craft', description: 'Custom polymer clay slices, resin charms, bead mixes and packaging for B2B buyers. Send your design for OEM/ODM samples, logo labels and wholesale quotes.' }],
+]);
+
 
 function validateCatalogSchema(value, file) {
   if (Array.isArray(value)) {
@@ -117,6 +127,8 @@ for (const file of files) {
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(html);
   const title = decode((html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '');
   const description = decode((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '');
+  const ogTitle = decode((html.match(/<meta\s+property="og:title"\s+content="([^"]*)"/i) || [])[1] || '');
+  const ogDescription = decode((html.match(/<meta\s+property="og:description"\s+content="([^"]*)"/i) || [])[1] || '');
   const canonical = (html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || [])[1] || '';
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
@@ -124,6 +136,13 @@ for (const file of files) {
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
+  if (ctrPriorityMetadata.has(file)) {
+    const expectedMeta = ctrPriorityMetadata.get(file);
+    if (title !== expectedMeta.title) failures.push(`${file}: CTR priority title changed unexpectedly`);
+    if (description !== expectedMeta.description) failures.push(`${file}: CTR priority description changed unexpectedly`);
+    if (ogTitle !== expectedMeta.title) failures.push(`${file}: CTR priority og:title differs from title`);
+    if (ogDescription !== expectedMeta.description) failures.push(`${file}: CTR priority og:description differs from description`);
+  }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
   if (/https:\/\/qulacrafts\.com(?:\/|["'])/i.test(html)) {
