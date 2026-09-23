@@ -21,6 +21,19 @@ const entityPriorityPages = new Set([
   'resin-charms.html',
   'acrylic-beads.html',
   'polymer-clay-sprinkles.html',
+  'p-rw26460.html',
+  'p-rw26774.html',
+  'p-rw26775.html',
+  'p-rw26776.html',
+  'p-rw26777.html',
+  'p-rw26796.html',
+  'p-rw26800.html',
+  'p-rw26813.html',
+  'p-rw26814.html',
+  'p-rw26819.html',
+  'p-yx162.html',
+  'p-yx3150.html',
+  'p-yx3461.html',
 ]);
 
 function validateCatalogSchema(value, file) {
