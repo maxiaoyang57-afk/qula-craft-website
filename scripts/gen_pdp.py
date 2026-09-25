@@ -41,9 +41,9 @@ ST = {"With", "And", "For", "Of", "The", "A", "An", "In", "On", "Per", "By", "To
 def clean_title(t):
     t = (t or "").replace("Wight", "Weight").replace("Breads", "Beads").replace("Artfcal", "Artificial")
     w = t.split()
-    while w and w[-1] in ST:
+    while w and w[-1].strip(" ,;:-").title() in ST:
         w.pop()
-    return " ".join(w)
+    return " ".join(w).rstrip(" ,;:-")
 
 def esc(s):
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
@@ -183,8 +183,9 @@ for e in pdp:
     cslug = e["categorySlug"]
     cname = e["category"]
     title_full = clean_title(BAD_TITLE_TAIL.sub("", e["titleFull"]).strip())
-    short = cut_words(title_full, 42)
-    page_title = f"{short} ({sku}) | Qula Craft"
+    short = clean_title(cut_words(title_full, 42))
+    meta_title = clean_title(str(e.get("metaTitle") or "").strip())
+    page_title = meta_title or f"{short} ({sku}) | Qula Craft"
     pm = price_min(e)
     moq = (e.get("moq") or "").strip()
     dparts = [cut_words(title_full, 60), f"Wholesale {cname}"]  # cname 靠前:同产品跨分类的两个 SKU(如 SLM680/YX3531)据此差异化,不被尾部截断
