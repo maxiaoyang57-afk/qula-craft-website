@@ -239,6 +239,27 @@ for (const [label, map] of [['title', titles], ['description', descriptions], ['
   }
 }
 
+const crawlPriorityInboundMinimum = new Map([
+  ['polymer-clay-sprinkles.html', 10],
+  ['resin-charms.html', 10],
+  ['slime-charms.html', 10],
+  ['guide-polymer-clay-sprinkles-bulk.html', 3],
+  ['p-rw26746.html', 3],
+]);
+for (const [target, minimum] of crawlPriorityInboundMinimum) {
+  let linkingPages = 0;
+  const escaped = target.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const link = new RegExp(`href=["']${escaped}(?:[?#][^"']*)?["']`, 'i');
+  for (const source of files) {
+    if (source === target) continue;
+    const html = fs.readFileSync(path.join(root, source), 'utf8');
+    if (link.test(html)) linkingPages += 1;
+  }
+  if (linkingPages < minimum) {
+    failures.push(`${target}: only ${linkingPages} internal linking pages; expected at least ${minimum}`);
+  }
+}
+
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.qulacrafts\.com\/[^<]*)<\/loc>/g)]
   .map((match) => match[1])

@@ -43,6 +43,21 @@ dup = {k[:60]: v for k, v in titles.items() if v > 1}
 if dup:
     fails.append(f"标题重复: {dup}")
 
+
+def schema_contains_type(value, expected):
+    """Return True when expected @type exists anywhere in a JSON-LD tree."""
+    if isinstance(value, list):
+        return any(schema_contains_type(item, expected) for item in value)
+    if not isinstance(value, dict):
+        return False
+    types = value.get("@type", [])
+    if isinstance(types, str):
+        types = [types]
+    if expected in types:
+        return True
+    return any(schema_contains_type(item, expected) for item in value.values())
+
+
 # PDP 专项
 long_t = 0
 for p in pdps:
@@ -53,7 +68,14 @@ for p in pdps:
         long_t += 1
     if 'class="answer-box"' not in h:
         fails.append(f"PDP缺价格块 {p.name}")
-    if '"@type": "Product"' not in h:
+    product_schema = False
+    for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S):
+        try:
+            product_schema = product_schema or schema_contains_type(json.loads(raw), "Product")
+        except Exception:
+            # Invalid JSON-LD is already reported by the page-level gate above.
+            pass
+    if not product_schema:
         fails.append(f"PDP缺Product schema {p.name}")
     if "gallery-main" not in h:
         fails.append(f"PDP缺主图 {p.name}")
