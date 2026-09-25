@@ -136,6 +136,9 @@ for (const file of files) {
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
+  if (/(?:\b(?:and|for|of|the|a|an|in|on|per|by|to|with)|[,;:–—-])\s*(?:\([^)]+\))?\s*\|/i.test(title)) {
+    failures.push(`${file}: title ends with a dangling connector or punctuation before the suffix`);
+  }
   if (ctrPriorityMetadata.has(file)) {
     const expectedMeta = ctrPriorityMetadata.get(file);
     if (title !== expectedMeta.title) failures.push(`${file}: CTR priority title changed unexpectedly`);
