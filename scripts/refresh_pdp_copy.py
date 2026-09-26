@@ -115,6 +115,10 @@ for entry in PDP:
         content,
         count=1,
     )
+    content = content.replace(
+        "<tr><td><b>Stock status</b></td><td>Live production item</td></tr>",
+        "<tr><td><b>Availability</b></td><td>Confirm for current quotation</td></tr>",
+    )
     for raw_value in (entry.get("specs") or {}).values():
         cleaned_value = sanitize_schema_value(str(raw_value))
         if cleaned_value != str(raw_value):
@@ -258,6 +262,17 @@ page_replacements = {
             "Adhesive performance depends on the charm finish and end product. Test the selected adhesive on a sample, and keep the bonding surface clean and dry before assembly.",
         "We use UV-stabilized resin for clear pieces; colored and opaque charms are unaffected in normal retail conditions. Avoid months of direct sunlight in displays, as with any resin product.":
             "Resin appearance depends on formulation and storage. Confirm UV-resistance requirements for clear pieces, and avoid prolonged direct sunlight during storage or display.",
+    },
+    "slime-charms.html": {
+        "Every pack below is a live production item — quote any SKU directly.":
+            "Each pack below has a SKU and reference photo — confirm availability, MOQ and lead time in your quotation.",
+        "All 20 packs are live production items from 30g trial bags to 1000g bulk: trial a theme small, then scale the same recipe without re-sourcing.":
+            "Pack sizes vary by SKU, from trial-size bags to larger bulk packs. Confirm the current size options before ordering.",
+    },
+    "guide-slime-business-supply-checklist.html": {
+        "Every pack in our slime line is a live production item, so the trial bag and the bulk bag come off the same line.":
+            "Confirm current availability and whether trial and bulk packs use the same approved mix before ordering.",
+        "more than 200 live stock items": "a broad catalog of craft supply items",
     },
 }
 

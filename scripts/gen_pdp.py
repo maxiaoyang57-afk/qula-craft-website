@@ -322,7 +322,7 @@ for e in pdp:
 <div>
   {price_html}
   <table class="spec-table"><tr><th colspan="2">Listed specifications</th></tr>{spec_html}
-  {f'<tr><td><b>Stock status</b></td><td>{esc(e.get("stockStatus", "Live production item"))}</td></tr>' if e.get("stockStatus", "Live production item") else ''}</table>
+  {f'<tr><td><b>Availability</b></td><td>{esc(e.get("stockStatus", "Confirm for current quotation"))}</td></tr>' if e.get("stockStatus", "Confirm for current quotation") else ''}</table>
   <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>

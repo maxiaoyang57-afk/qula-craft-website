@@ -163,7 +163,7 @@ for (const file of files) {
     failures.push(`${file}: meta description contains a truncated phrase`);
   }
   if (description.endsWith('…') || !/[.!?]$/.test(description)) failures.push(`${file}: meta description must end as a complete sentence`);
-  if (/Suggested proof to replace later|From Yiwu; batch reports on request|live stock listing|Every item below is in production today/i.test(html)) {
+  if (/Suggested proof to replace later|From Yiwu; batch reports on request|live stock listing|Live production item|Every item below is in production today/i.test(html)) {
     failures.push(`${file}: internal, truncated or unverified stock wording remains`);
   }
   if (/\bfor choose\b|\bNails Art\b|\bDoll House\b|\b1bag\b|\bPlearl\b|\bGllitter\b|\bDecorfor\b|\bPhoneCase\b/i.test(html)) {
