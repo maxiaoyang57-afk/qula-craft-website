@@ -88,5 +88,24 @@
     addField(form, 'Inquiry page', truncate(window.location.href, 1000));
   }
 
-  document.querySelectorAll('form[action^="https://formsubmit.co/"]').forEach(annotateForm);
+  function isFormSubmitForm(form) {
+    var action = form && form.getAttribute ? (form.getAttribute('action') || '') : '';
+    return action.indexOf('https://formsubmit.co/') === 0;
+  }
+
+  function annotateAllForms() {
+    document.querySelectorAll('form[action^="https://formsubmit.co/"]').forEach(annotateForm);
+  }
+
+  // Initial annotation covers forms present when the deferred script runs.
+  annotateAllForms();
+
+  // Re-annotate at submit time so attribution survives cached pages, dynamic form
+  // changes, or other scripts that may have replaced/removed hidden inputs.
+  document.addEventListener('submit', function (event) {
+    var form = event.target;
+    if (!isFormSubmitForm(form)) return;
+    annotateForm(form);
+    addField(form, 'Attribution version', '2026-09-26a');
+  }, true);
 }());
