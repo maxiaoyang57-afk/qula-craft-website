@@ -15,25 +15,22 @@ const analyticsId = 'G-KKT7E44TD2';
 const analyticsPath = path.join(root, 'assets', 'js', 'analytics.js');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
 const pdpData = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-data.json'), 'utf8'));
-const pdpMetaDescriptions = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-meta-descriptions.json'), 'utf8'));
-const pdpMetaDescriptionByFile = new Map();
-for (const [sku, description] of Object.entries(pdpMetaDescriptions)) {
-  const entry = pdpData.find((item) => item.sku === sku);
-  if (!entry) {
-    failures.push(`pdp-meta-descriptions.json: unknown SKU ${sku}`);
+const pdpCopy = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-copy.json'), 'utf8'));
+const pdpCopyByFile = new Map();
+for (const entry of pdpData) {
+  const copy = pdpCopy[entry.assetKey];
+  if (!copy || copy.sku !== entry.sku) {
+    failures.push(`pdp-copy.json: missing or mismatched copy for ${entry.assetKey}`);
     continue;
   }
-  if (description.length < 80 || description.length > 160) {
-    failures.push(`pdp-meta-descriptions.json: ${sku} description is ${description.length} characters`);
+  if (!copy.displayTitle || !copy.metaTitle) failures.push(`pdp-copy.json: incomplete title copy for ${entry.assetKey}`);
+  if (copy.metaDescription.length < 80 || copy.metaDescription.length > 160) {
+    failures.push(`pdp-copy.json: ${entry.assetKey} description is ${copy.metaDescription.length} characters`);
   }
-  pdpMetaDescriptionByFile.set(`p-${entry.assetKey}.html`, description);
+  pdpCopyByFile.set(`p-${entry.assetKey}.html`, copy);
 }
-const verifiedPdpTitleSkus = new Set(['CDK3057', 'CDK5010', 'CZB25784', 'CZB25897', 'RW2445', 'SC048']);
-const verifiedPdpTitleByFile = new Map(pdpData
-  .filter((entry) => verifiedPdpTitleSkus.has(entry.sku))
-  .map((entry) => [`p-${entry.assetKey}.html`, entry.metaTitle]));
-if (verifiedPdpTitleByFile.size !== verifiedPdpTitleSkus.size || [...verifiedPdpTitleByFile.values()].some((title) => !title)) {
-  failures.push('pdp-data.json: verified PDP title overrides are incomplete');
+for (const assetKey of Object.keys(pdpCopy)) {
+  if (!pdpData.some((entry) => entry.assetKey === assetKey)) failures.push(`pdp-copy.json: unknown asset key ${assetKey}`);
 }
 const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
 const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
@@ -130,6 +127,7 @@ function decode(value) {
     .replace(/&#8211;|&ndash;/g, '–')
     .replace(/&#8212;|&mdash;/g, '—')
     .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#x27;/gi, "'")
     .replace(/&quot;/g, '"')
     .replace(/<[^>]+>/g, '')
     .trim();
@@ -150,6 +148,7 @@ for (const file of files) {
   const description = decode((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '');
   const ogTitle = decode((html.match(/<meta\s+property="og:title"\s+content="([^"]*)"/i) || [])[1] || '');
   const ogDescription = decode((html.match(/<meta\s+property="og:description"\s+content="([^"]*)"/i) || [])[1] || '');
+  const h1 = decode((html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '');
   const canonical = (html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || [])[1] || '';
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
@@ -163,6 +162,13 @@ for (const file of files) {
   if (/\b(?:for|and|with|of|in|to)\.\s/i.test(description) || /,\.\s/.test(description)) {
     failures.push(`${file}: meta description contains a truncated phrase`);
   }
+  if (description.endsWith('…') || !/[.!?]$/.test(description)) failures.push(`${file}: meta description must end as a complete sentence`);
+  if (/Suggested proof to replace later|From Yiwu; batch reports on request|live stock listing|Every item below is in production today/i.test(html)) {
+    failures.push(`${file}: internal, truncated or unverified stock wording remains`);
+  }
+  if (/\bfor choose\b|\bNails Art\b|\bDoll House\b|\b1bag\b|\bPlearl\b|\bGllitter\b|\bDecorfor\b|\bPhoneCase\b/i.test(html)) {
+    failures.push(`${file}: known public-copy typo remains`);
+  }
   if (ctrPriorityMetadata.has(file)) {
     const expectedMeta = ctrPriorityMetadata.get(file);
     if (title !== expectedMeta.title) failures.push(`${file}: CTR priority title changed unexpectedly`);
@@ -170,15 +176,13 @@ for (const file of files) {
     if (ogTitle !== expectedMeta.title) failures.push(`${file}: CTR priority og:title differs from title`);
     if (ogDescription !== expectedMeta.description) failures.push(`${file}: CTR priority og:description differs from description`);
   }
-  if (pdpMetaDescriptionByFile.has(file)) {
-    const expectedDescription = pdpMetaDescriptionByFile.get(file);
-    if (description !== expectedDescription) failures.push(`${file}: verified PDP meta description changed unexpectedly`);
-    if (ogDescription !== expectedDescription) failures.push(`${file}: verified PDP og:description differs from description`);
-  }
-  if (verifiedPdpTitleByFile.has(file)) {
-    const expectedTitle = verifiedPdpTitleByFile.get(file);
-    if (title !== expectedTitle) failures.push(`${file}: verified PDP title changed unexpectedly`);
-    if (ogTitle !== expectedTitle) failures.push(`${file}: verified PDP og:title differs from title`);
+  if (pdpCopyByFile.has(file)) {
+    const expected = pdpCopyByFile.get(file);
+    if (title !== expected.metaTitle) failures.push(`${file}: PDP title differs from public copy data`);
+    if (description !== expected.metaDescription) failures.push(`${file}: PDP description differs from public copy data`);
+    if (h1 !== expected.displayTitle) failures.push(`${file}: PDP H1 differs from public copy data`);
+    if (ogTitle !== expected.metaTitle) failures.push(`${file}: PDP og:title differs from public copy data`);
+    if (ogDescription !== expected.metaDescription) failures.push(`${file}: PDP og:description differs from public copy data`);
   }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
@@ -201,10 +205,12 @@ for (const file of files) {
     }
   }
 
-  if (pdpMetaDescriptionByFile.has(file)) {
+  if (pdpCopyByFile.has(file)) {
+    const expected = pdpCopyByFile.get(file);
     const product = schemaNodes.find((node) => node['@type'] === 'Product');
-    if (!product || product.description !== pdpMetaDescriptionByFile.get(file)) {
-      failures.push(`${file}: Product schema description differs from the verified meta description`);
+    if (!product || product.name !== expected.displayTitle || product.description !== expected.metaDescription ||
+        product.isFamilyFriendly !== expected.isFamilyFriendly) {
+      failures.push(`${file}: Product schema differs from public copy data`);
     }
   }
 
