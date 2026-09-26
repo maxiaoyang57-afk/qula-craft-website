@@ -6,11 +6,13 @@ import json, re, statistics
 from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
+from pdp_public_copy import normalize_moq, sanitize_schema_value
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
 BASE = "https://www.qulacrafts.com/"
 pdp = json.loads((SITE / "assets/data/pdp-data.json").read_text(encoding="utf-8"))
+pdp_copy = json.loads((SITE / "assets/data/pdp-copy.json").read_text(encoding="utf-8"))
 for _e in pdp:
     _e["ci"] = _e["catalogIndex"] - 1  # Codex 台账是 1-based
 catp = SITE / "assets/data/product-catalog.json"
@@ -31,6 +33,8 @@ assert len(flat) == len(pdp), f"catalog={len(flat)} pdp={len(pdp)}"
 mis = [(e["ci"], e["sku"], flat[e["ci"]]["sku"]) for e in pdp
        if flat[e["ci"]]["sku"] != e["sku"]]
 assert not mis, f"catalogIndex 错位: {mis[:5]}"
+copy_mismatch = sorted(set(pdp_copy) ^ {e["assetKey"] for e in pdp})
+assert not copy_mismatch, f"公开 PDP 文案与产品数据不一致: {copy_mismatch}"
 for e in pdp:
     flat[e["ci"]]["pdp"] = f"p-{e['assetKey']}.html"
 catp.write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -182,20 +186,13 @@ for e in pdp:
     catrow = flat[e["ci"]]
     cslug = e["categorySlug"]
     cname = e["category"]
-    title_full = clean_title(BAD_TITLE_TAIL.sub("", e["titleFull"]).strip())
-    short = clean_title(cut_words(title_full, 42))
-    meta_title = clean_title(str(e.get("metaTitle") or "").strip())
-    page_title = meta_title or f"{short} ({sku}) | Qula Craft"
+    public_copy = pdp_copy[key]
+    title_full = public_copy["displayTitle"]
+    page_title = public_copy["metaTitle"]
     pm = price_min(e)
-    moq = (e.get("moq") or "").strip()
-    dparts = [cut_words(title_full, 60), f"Wholesale {cname}"]  # cname 靠前:同产品跨分类的两个 SKU(如 SLM680/YX3531)据此差异化,不被尾部截断
-    if moq:
-        dparts.append(f"MOQ {moq}")
-    if pm:
-        dparts.append(f"from ${fmt_price(pm[0])}/{pm[1]}" if pm[1] else f"from ${fmt_price(pm[0])}")
-    desc = ". ".join(dparts) + ". From Yiwu; batch reports on request."
-    if len(desc) > 158:
-        desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    moq = normalize_moq(e.get("moq") or "")
+    desc = public_copy["metaDescription"]
+    assert 80 <= len(desc) <= 160, f"{sku}: meta description length {len(desc)}"
 
     imgs = [r for r in (e.get("imagesLocal") or []) if not is_badge_img(r)]  # 防线:徽标图不上站
     dims = [img_dim(r) for r in imgs]
@@ -217,13 +214,13 @@ for e in pdp:
     h = re.sub(r'(<meta name="twitter:description" content=")[^"]*(")', lambda mm: mm.group(1) + esc(desc) + mm.group(2), h, 1)
     h = re.sub(r'(<meta name="twitter:image" content=")[^"]*(")', lambda mm: mm.group(1) + ogimg + mm.group(2), h, 1)
 
-    specs_raw = e.get("specs") or {}
+    specs_raw = sanitize_schema_value(e.get("specs") or {})
     # schema
     product = {"@context": "https://schema.org", "@type": "Product", "name": title_full, "sku": sku,
                "image": [BASE + r for r in imgs] or [BASE + catrow["image"]],
                "description": desc, "category": cname, "url": url,
                "brand": {"@type": "Brand", "name": "Qula Craft"},
-               "manufacturer": ORG_REF, "isFamilyFriendly": True}
+               "manufacturer": ORG_REF, "isFamilyFriendly": public_copy.get("isFamilyFriendly", True)}
     # 真实规格 → schema 官方属性(零编造:只取 pdp-data 抓到的值,SKIP_VALS 跳过)
     def sv(k):
         v = str(specs_raw.get(k, "")).strip()
@@ -302,7 +299,7 @@ for e in pdp:
         srow = flat[s["ci"]]
         simg = (s.get("imagesLocal") or [srow["image"]])[0]
         sw, sh = img_dim(simg)
-        st = clean_title(s["titleFull"])
+        st = pdp_copy[s["assetKey"]]["displayTitle"]
         # 标题存完整值(SEO/AI 可读),视觉两行省略交给 CSS .product-info h3 的 line-clamp
         rel_cards += (f'<article class="product-card"><div class="product-img"><a href="p-{s["assetKey"]}.html" style="display:block">'
                       f'<img loading="lazy" src="{simg}" alt="{esc(s["sku"])} {esc(cut_words(st,40))}" width="{sw}" height="{sh}"></a></div>'
@@ -325,7 +322,7 @@ for e in pdp:
 <div>
   {price_html}
   <table class="spec-table"><tr><th colspan="2">Listed specifications</th></tr>{spec_html}
-  {f'<tr><td><b>Stock status</b></td><td>{esc(e.get("stockStatus", "Live production item"))}</td></tr>' if e.get("stockStatus", "Live production item") else ''}</table>
+  {f'<tr><td><b>Availability</b></td><td>{esc(e.get("stockStatus", "Confirm for current quotation"))}</td></tr>' if e.get("stockStatus", "Confirm for current quotation") else ''}</table>
   <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
@@ -333,7 +330,7 @@ for e in pdp:
     <a class="basket-add" data-sku="{esc(sku)}" data-title="{esc(catrow['title'])}">＋ Add to inquiry list</a>
   </div>
 </div></div></section>
-<section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Every item below is a live stock listing — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
+<section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Browse related catalog items below — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
 """
     page = h + body + post_shell
     if e["assetKey"] == "sc048":
@@ -418,7 +415,7 @@ for c in cat["categories"]:
         if not ee:
             continue
         pm = price_min(ee)
-        seg = [clean_title(ee["titleFull"]), f"SKU {ee['sku']}"]
+        seg = [pdp_copy[ee["assetKey"]]["displayTitle"], f"SKU {ee['sku']}"]
         if ee.get("moq"):
             seg.append(f"MOQ {ee['moq']}")
         if pm:

@@ -14,6 +14,24 @@ const organizationLogo = 'https://www.qulacrafts.com/assets/images/favicon.png';
 const analyticsId = 'G-KKT7E44TD2';
 const analyticsPath = path.join(root, 'assets', 'js', 'analytics.js');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
+const pdpData = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-data.json'), 'utf8'));
+const pdpCopy = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-copy.json'), 'utf8'));
+const pdpCopyByFile = new Map();
+for (const entry of pdpData) {
+  const copy = pdpCopy[entry.assetKey];
+  if (!copy || copy.sku !== entry.sku) {
+    failures.push(`pdp-copy.json: missing or mismatched copy for ${entry.assetKey}`);
+    continue;
+  }
+  if (!copy.displayTitle || !copy.metaTitle) failures.push(`pdp-copy.json: incomplete title copy for ${entry.assetKey}`);
+  if (copy.metaDescription.length < 80 || copy.metaDescription.length > 160) {
+    failures.push(`pdp-copy.json: ${entry.assetKey} description is ${copy.metaDescription.length} characters`);
+  }
+  pdpCopyByFile.set(`p-${entry.assetKey}.html`, copy);
+}
+for (const assetKey of Object.keys(pdpCopy)) {
+  if (!pdpData.some((entry) => entry.assetKey === assetKey)) failures.push(`pdp-copy.json: unknown asset key ${assetKey}`);
+}
 const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
 const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
 const entityPriorityPages = new Set([
@@ -109,6 +127,7 @@ function decode(value) {
     .replace(/&#8211;|&ndash;/g, '–')
     .replace(/&#8212;|&mdash;/g, '—')
     .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#x27;/gi, "'")
     .replace(/&quot;/g, '"')
     .replace(/<[^>]+>/g, '')
     .trim();
@@ -129,6 +148,7 @@ for (const file of files) {
   const description = decode((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '');
   const ogTitle = decode((html.match(/<meta\s+property="og:title"\s+content="([^"]*)"/i) || [])[1] || '');
   const ogDescription = decode((html.match(/<meta\s+property="og:description"\s+content="([^"]*)"/i) || [])[1] || '');
+  const h1 = decode((html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '');
   const canonical = (html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || [])[1] || '';
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
@@ -136,12 +156,37 @@ for (const file of files) {
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
+  if (/\b(?:for|and|with|of|in|to)\s+\([A-Z0-9-]+\)(?:\s*\||\s*$)/i.test(title)) {
+    failures.push(`${file}: title ends with a dangling preposition before the SKU`);
+  }
+  if (/\b(?:for|and|with|of|in|to)\.\s/i.test(description) || /,\.\s/.test(description)) {
+    failures.push(`${file}: meta description contains a truncated phrase`);
+  }
+  if (description.endsWith('…') || !/[.!?]$/.test(description)) failures.push(`${file}: meta description must end as a complete sentence`);
+  if (/Suggested proof to replace later|From Yiwu; batch reports on request|live stock listing|Live production item|Every item below is in production today/i.test(html)) {
+    failures.push(`${file}: internal, truncated or unverified stock wording remains`);
+  }
+  if (/\bfor choose\b|\bNails Art\b|\bDoll House\b|\b1bag\b|\bPlearl\b|\bGllitter\b|\bDecorfor\b|\bPhoneCase\b/i.test(html)) {
+    failures.push(`${file}: known public-copy typo remains`);
+  }
   if (ctrPriorityMetadata.has(file)) {
     const expectedMeta = ctrPriorityMetadata.get(file);
     if (title !== expectedMeta.title) failures.push(`${file}: CTR priority title changed unexpectedly`);
     if (description !== expectedMeta.description) failures.push(`${file}: CTR priority description changed unexpectedly`);
     if (ogTitle !== expectedMeta.title) failures.push(`${file}: CTR priority og:title differs from title`);
     if (ogDescription !== expectedMeta.description) failures.push(`${file}: CTR priority og:description differs from description`);
+  }
+  if (pdpCopyByFile.has(file)) {
+    const expected = pdpCopyByFile.get(file);
+    const expectedWhatsApp = `https://wa.me/8618632026595?text=Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20${expected.sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F`;
+    if (title !== expected.metaTitle) failures.push(`${file}: PDP title differs from public copy data`);
+    if (description !== expected.metaDescription) failures.push(`${file}: PDP description differs from public copy data`);
+    if (h1 !== expected.displayTitle) failures.push(`${file}: PDP H1 differs from public copy data`);
+    if (ogTitle !== expected.metaTitle) failures.push(`${file}: PDP og:title differs from public copy data`);
+    if (ogDescription !== expected.metaDescription) failures.push(`${file}: PDP og:description differs from public copy data`);
+    if (!html.includes(`<a class="btn btn-wa-3d" href="${expectedWhatsApp}"`)) {
+      failures.push(`${file}: PDP WhatsApp inquiry link differs from the SKU-specific message`);
+    }
   }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
@@ -161,6 +206,15 @@ for (const file of files) {
       }
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
+    }
+  }
+
+  if (pdpCopyByFile.has(file)) {
+    const expected = pdpCopyByFile.get(file);
+    const product = schemaNodes.find((node) => node['@type'] === 'Product');
+    if (!product || product.name !== expected.displayTitle || product.description !== expected.metaDescription ||
+        product.isFamilyFriendly !== expected.isFamilyFriendly) {
+      failures.push(`${file}: Product schema differs from public copy data`);
     }
   }
 
