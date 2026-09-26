@@ -11,6 +11,7 @@ SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
 BASE = "https://www.qulacrafts.com/"
 pdp = json.loads((SITE / "assets/data/pdp-data.json").read_text(encoding="utf-8"))
+meta_descriptions = json.loads((SITE / "assets/data/pdp-meta-descriptions.json").read_text(encoding="utf-8"))
 for _e in pdp:
     _e["ci"] = _e["catalogIndex"] - 1  # Codex 台账是 1-based
 catp = SITE / "assets/data/product-catalog.json"
@@ -31,6 +32,8 @@ assert len(flat) == len(pdp), f"catalog={len(flat)} pdp={len(pdp)}"
 mis = [(e["ci"], e["sku"], flat[e["ci"]]["sku"]) for e in pdp
        if flat[e["ci"]]["sku"] != e["sku"]]
 assert not mis, f"catalogIndex 错位: {mis[:5]}"
+unknown_meta_skus = sorted(set(meta_descriptions) - {e["sku"] for e in pdp})
+assert not unknown_meta_skus, f"Meta description override SKU 不存在: {unknown_meta_skus}"
 for e in pdp:
     flat[e["ci"]]["pdp"] = f"p-{e['assetKey']}.html"
 catp.write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -188,14 +191,21 @@ for e in pdp:
     page_title = meta_title or f"{short} ({sku}) | Qula Craft"
     pm = price_min(e)
     moq = (e.get("moq") or "").strip()
-    dparts = [cut_words(title_full, 60), f"Wholesale {cname}"]  # cname 靠前:同产品跨分类的两个 SKU(如 SLM680/YX3531)据此差异化,不被尾部截断
-    if moq:
-        dparts.append(f"MOQ {moq}")
-    if pm:
-        dparts.append(f"from ${fmt_price(pm[0])}/{pm[1]}" if pm[1] else f"from ${fmt_price(pm[0])}")
-    desc = ". ".join(dparts) + ". From Yiwu; batch reports on request."
-    if len(desc) > 158:
-        desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    desc = meta_descriptions.get(sku)
+    if not desc:
+        # Keep the buyer-facing lead within the description budget without
+        # leaving dangling prepositions or punctuation (for example "for." /
+        # "with." / "Slime,."). clean_title() removes those unsafe tail tokens.
+        desc_lead = clean_title(cut_words(title_full, 60))
+        dparts = [desc_lead, f"Wholesale {cname}"]  # cname 靠前:同产品跨分类的两个 SKU(如 SLM680/YX3531)据此差异化,不被尾部截断
+        if moq:
+            dparts.append(f"MOQ {moq}")
+        if pm:
+            dparts.append(f"from ${fmt_price(pm[0])}/{pm[1]}" if pm[1] else f"from ${fmt_price(pm[0])}")
+        desc = ". ".join(dparts) + ". From Yiwu; batch reports on request."
+        if len(desc) > 158:
+            desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    assert 80 <= len(desc) <= 160, f"{sku}: meta description length {len(desc)}"
 
     imgs = [r for r in (e.get("imagesLocal") or []) if not is_badge_img(r)]  # 防线:徽标图不上站
     dims = [img_dim(r) for r in imgs]

@@ -14,6 +14,27 @@ const organizationLogo = 'https://www.qulacrafts.com/assets/images/favicon.png';
 const analyticsId = 'G-KKT7E44TD2';
 const analyticsPath = path.join(root, 'assets', 'js', 'analytics.js');
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-catalog.json'), 'utf8'));
+const pdpData = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-data.json'), 'utf8'));
+const pdpMetaDescriptions = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-meta-descriptions.json'), 'utf8'));
+const pdpMetaDescriptionByFile = new Map();
+for (const [sku, description] of Object.entries(pdpMetaDescriptions)) {
+  const entry = pdpData.find((item) => item.sku === sku);
+  if (!entry) {
+    failures.push(`pdp-meta-descriptions.json: unknown SKU ${sku}`);
+    continue;
+  }
+  if (description.length < 80 || description.length > 160) {
+    failures.push(`pdp-meta-descriptions.json: ${sku} description is ${description.length} characters`);
+  }
+  pdpMetaDescriptionByFile.set(`p-${entry.assetKey}.html`, description);
+}
+const verifiedPdpTitleSkus = new Set(['CDK3057', 'CDK5010', 'CZB25784', 'CZB25897', 'RW2445', 'SC048']);
+const verifiedPdpTitleByFile = new Map(pdpData
+  .filter((entry) => verifiedPdpTitleSkus.has(entry.sku))
+  .map((entry) => [`p-${entry.assetKey}.html`, entry.metaTitle]));
+if (verifiedPdpTitleByFile.size !== verifiedPdpTitleSkus.size || [...verifiedPdpTitleByFile.values()].some((title) => !title)) {
+  failures.push('pdp-data.json: verified PDP title overrides are incomplete');
+}
 const categoryAliases = { 'polymer-clay-slices': 'polymer-clay-sprinkles', 'plastic-beads': 'acrylic-beads', 'plastic-sequins': 'glitter-sequins-fillers' };
 const categoryPages = new Map(catalog.categories.map((category) => [(categoryAliases[category.slug] || category.slug) + '.html', category]));
 const entityPriorityPages = new Set([
@@ -136,12 +157,28 @@ for (const file of files) {
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
+  if (/\b(?:for|and|with|of|in|to)\s+\([A-Z0-9-]+\)(?:\s*\||\s*$)/i.test(title)) {
+    failures.push(`${file}: title ends with a dangling preposition before the SKU`);
+  }
+  if (/\b(?:for|and|with|of|in|to)\.\s/i.test(description) || /,\.\s/.test(description)) {
+    failures.push(`${file}: meta description contains a truncated phrase`);
+  }
   if (ctrPriorityMetadata.has(file)) {
     const expectedMeta = ctrPriorityMetadata.get(file);
     if (title !== expectedMeta.title) failures.push(`${file}: CTR priority title changed unexpectedly`);
     if (description !== expectedMeta.description) failures.push(`${file}: CTR priority description changed unexpectedly`);
     if (ogTitle !== expectedMeta.title) failures.push(`${file}: CTR priority og:title differs from title`);
     if (ogDescription !== expectedMeta.description) failures.push(`${file}: CTR priority og:description differs from description`);
+  }
+  if (pdpMetaDescriptionByFile.has(file)) {
+    const expectedDescription = pdpMetaDescriptionByFile.get(file);
+    if (description !== expectedDescription) failures.push(`${file}: verified PDP meta description changed unexpectedly`);
+    if (ogDescription !== expectedDescription) failures.push(`${file}: verified PDP og:description differs from description`);
+  }
+  if (verifiedPdpTitleByFile.has(file)) {
+    const expectedTitle = verifiedPdpTitleByFile.get(file);
+    if (title !== expectedTitle) failures.push(`${file}: verified PDP title changed unexpectedly`);
+    if (ogTitle !== expectedTitle) failures.push(`${file}: verified PDP og:title differs from title`);
   }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);
@@ -161,6 +198,13 @@ for (const file of files) {
       }
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
+    }
+  }
+
+  if (pdpMetaDescriptionByFile.has(file)) {
+    const product = schemaNodes.find((node) => node['@type'] === 'Product');
+    if (!product || product.description !== pdpMetaDescriptionByFile.get(file)) {
+      failures.push(`${file}: Product schema description differs from the verified meta description`);
     }
   }
 
