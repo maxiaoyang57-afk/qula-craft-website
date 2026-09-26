@@ -178,11 +178,15 @@ for (const file of files) {
   }
   if (pdpCopyByFile.has(file)) {
     const expected = pdpCopyByFile.get(file);
+    const expectedWhatsApp = `https://wa.me/8618632026595?text=Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20${expected.sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F`;
     if (title !== expected.metaTitle) failures.push(`${file}: PDP title differs from public copy data`);
     if (description !== expected.metaDescription) failures.push(`${file}: PDP description differs from public copy data`);
     if (h1 !== expected.displayTitle) failures.push(`${file}: PDP H1 differs from public copy data`);
     if (ogTitle !== expected.metaTitle) failures.push(`${file}: PDP og:title differs from public copy data`);
     if (ogDescription !== expected.metaDescription) failures.push(`${file}: PDP og:description differs from public copy data`);
+    if (!html.includes(`<a class="btn btn-wa-3d" href="${expectedWhatsApp}"`)) {
+      failures.push(`${file}: PDP WhatsApp inquiry link differs from the SKU-specific message`);
+    }
   }
   if (h1Count !== 1) failures.push(`${file}: expected one H1, found ${h1Count}`);
   if (analyticsTags.length !== 1) failures.push(`${file}: expected one versioned GA4 analytics script, found ${analyticsTags.length}`);

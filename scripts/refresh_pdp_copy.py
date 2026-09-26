@@ -312,6 +312,17 @@ for entry in PDP:
         content,
         count=1,
     )
+    whatsapp_url = (
+        "https://wa.me/8618632026595?text="
+        f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20"
+        "discuss%20a%20custom%20quote.%20Can%20we%20chat%3F"
+    )
+    content = re.sub(
+        r'(<a class="btn btn-wa-3d" href=")[^"]*(")',
+        lambda match: match.group(1) + whatsapp_url + match.group(2),
+        content,
+        count=1,
+    )
     content = update_product_jsonld(content, row)
     page.write_text(content, encoding="utf-8")
 
