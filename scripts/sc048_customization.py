@@ -75,8 +75,8 @@ def apply_sc048_customization(page):
         '<section class="section sc048-product" style="padding-top:26px">')
     page = _replace_once(page, '<div class="answer-box"', INTRO + '<div class="answer-box"')
     page = _replace_once(page,
-        '<tr><td><b>Stock status</b></td><td>Live production item</td></tr></table>',
-        '<tr><td><b>Stock status</b></td><td>Live production item</td></tr>\n  ' + CUSTOM_ROWS + '</table>')
+        '<tr><td><b>Availability</b></td><td>Confirm for current quotation</td></tr></table>',
+        '<tr><td><b>Availability</b></td><td>Confirm for current quotation</td></tr>\n  ' + CUSTOM_ROWS + '</table>')
     page = _replace_once(page,
         '<p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>',
         '<p class="sc048-quotation-note">The listed MOQ applies to the standard item. Custom MOQ, pricing and lead time are confirmed by quotation.</p>')
