@@ -240,7 +240,6 @@ for e in pdp:
         product["additionalProperty"] = addl
     if pm:
         product["offers"] = {"@type": "AggregateOffer", "lowPrice": fmt_price(pm[0]), "priceCurrency": "USD",
-                             "offerCount": len(e.get("priceTiers") or []), "availability": "https://schema.org/InStock",
                              "url": url, "seller": ORG_REF}
     crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},

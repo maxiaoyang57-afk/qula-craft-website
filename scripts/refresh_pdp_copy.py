@@ -73,6 +73,9 @@ def update_product_jsonld(content: str, row: dict) -> str:
             manufacturer["legalName"] = "Yiwu Sola Craft Co., Ltd."
         offers = data.get("offers")
         if isinstance(offers, dict):
+            # Source price tiers do not establish current inventory or a count of offers.
+            offers.pop("availability", None)
+            offers.pop("offerCount", None)
             seller = offers.get("seller")
             if isinstance(seller, dict) and seller.get("legalName") == "Yiwu Sola Craft Co., Ltd":
                 seller["legalName"] = "Yiwu Sola Craft Co., Ltd."

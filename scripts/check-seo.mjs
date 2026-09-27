@@ -75,6 +75,13 @@ function validateCatalogSchema(value, file) {
   }
   if (!value || typeof value !== 'object') return;
   const types = [].concat(value['@type'] || []);
+  // These catalog exports contain price tiers, not a live inventory feed or
+  // individually published offers. Do not infer either from the tier count.
+  if (file.startsWith('p-') && types.includes('AggregateOffer')) {
+    if ('availability' in value || 'offerCount' in value) {
+      failures.push(`${file}: catalog price tiers cannot establish availability or offerCount`);
+    }
+  }
   if (categoryPages.has(file) && types.includes('Product')) {
     failures.push(`${file}: category must link to PDPs instead of declaring Product rich results`);
   }
