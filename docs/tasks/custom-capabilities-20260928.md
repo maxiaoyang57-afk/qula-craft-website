@@ -19,3 +19,7 @@ No SKU records or product images were changed. Existing stock items have not bee
 Repository baseline: 020c6ce804591b09a5f9c2232a105bff7272e132.
 Branch: feat/qula-custom-capabilities-20260928.
 Run the repository's Vercel gates and scripts/gates_full.py before release. This change is prepared for Preview review; production release requires approval of the resulting PR/Preview.
+
+## Tone refinement — owner approved 2026-09-28
+
+Keep the business exclusions unchanged, but concentrate buyer-facing wording in the customization FAQ and RFQ sidebar. Use “outside our current customization scope”. Homepage, category entrances and the blog emphasize available services and individual email review rather than repeating exclusions. Testing documentation is reviewed separately by product and target market.
