@@ -225,7 +225,7 @@ GUIDES = [
  "crumb": "Samples &amp; Inspection",
  "eyebrow": "Trade Guide",
  "h1": "Samples and Inspection: What to Check Before You Pay the Balance",
- "updated": "July 2026",
+ "updated": "September 28, 2026",
  "hero": "assets/images/real-life-scenes-v1/real-life-multi-category-components-no-box.webp",
  "heroW": 1200, "heroH": 1200,
  "heroAlt": "Craft supply samples laid out for inspection before bulk production",
@@ -287,18 +287,14 @@ GUIDES = [
   <p>Once your order values justify it, a third-party inspection at the factory before shipment is the standard next step.</p>
 
   <h2>5. What we do on our side</h2>
-  <p>Stock samples ship quickly, and custom projects always include a pre-production sample so shape, colour, mix ratio and
-  packaging are confirmed before mass production. Every quotation comes with carton data so you can check pack format against
-  what arrives. Batch test reports for EN&nbsp;71, ASTM&nbsp;F963, CPC and REACH are available on request for buyers who need
-  them for retail channels.</p>
+  <p>For custom projects, agree the digital proof, prototype or pre-production sample needed, sample fees and timing by email. Confirm packaging and inspection criteria with the quotation. Any requested product reports or additional testing are reviewed for the specific design, material and target market before order acceptance.</p>
   <p class="small-note">Sample fees and whether they are credited against a bulk order are confirmed per project — ask in the
   enquiry and it will be in writing on the quotation.</p>
  """,
  "note": ("<b>Keep a retained sample.</b> Put the approved pre-production sample in a labelled bag with the date and keep it. "
           "If a later batch is questioned, you are comparing two physical objects instead of arguing from memory."),
  "ctaH2": "Ask for a sample with the checks specified",
- "ctaP": ("Tell us which designs and what you need the sample to prove — colour match, size, pack format. Stock samples move "
-          "quickly; custom projects always include a pre-production sample before mass production."),
+ "ctaP": ("Tell us which designs and what you need the sample to prove — colour match, size, pack format. Sample options, fees and timing are confirmed by email for each project."),
  "ctaHref": "quote.html?product=Sample%20request",
  "ctaLabel": "Request samples",
  "faq": [

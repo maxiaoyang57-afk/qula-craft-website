@@ -28,13 +28,13 @@ Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.tx
 - [Slime business supply checklist](https://www.qulacrafts.com/guide-slime-business-supply-checklist.html): base vs add-ins, trial-bag math, packaging, compliance
 - [Buying polymer clay sprinkles in bulk](https://www.qulacrafts.com/guide-polymer-clay-sprinkles-bulk.html): sizes, gram math, MOQ logic, quality checks
 - [Fake sprinkles for slime: clay slices vs resin charms](https://www.qulacrafts.com/guide-clay-slices-vs-resin-charms-slime.html): usage per jar, colorfast testing, 70/30 strategy
-- [Private label craft supply collections](https://www.qulacrafts.com/guide-private-label-collection.html): SKU selection, packaging tiers, label rules, timeline
+- [Private label craft supply collections](https://www.qulacrafts.com/guide-private-label-collection.html): custom components and finished accessories, proofs, samples, tooling discussions, packaging and project-specific timelines
 - [Craft supply packaging comparison](https://www.qulacrafts.com/guide-craft-supply-packaging.html): bags vs bottles vs jars vs boxes, freight impact
 - [Seasonal sourcing calendar](https://www.qulacrafts.com/guide-seasonal-craft-calendar.html): order deadlines by season, sea vs air
 - [Non-food safety labeling](https://www.qulacrafts.com/guide-non-food-safety-labeling.html): required warnings, label wording templates
 
 ## Ordering
-- [Customization (OEM/ODM)](https://www.qulacrafts.com/customization.html): custom shapes, colors, mixes, packaging
+- [Customization (OEM/ODM)](https://www.qulacrafts.com/customization.html): custom components, focal beads, 3D flatbacks, finished keychains, bracelets, necklaces and packaging; details confirmed by email
 - [Quality & Safety](https://www.qulacrafts.com/quality-safety.html): QC chain, non-food labeling support
 - [Factory](https://www.qulacrafts.com/factory.html) | [Applications](https://www.qulacrafts.com/applications.html): slime, nail art, jewelry, bag charms, decoden, party, DIY kits, beadable pens and gift retail | [FAQ](https://www.qulacrafts.com/faq.html)
 - [Request a Quote](https://www.qulacrafts.com/quote.html)
@@ -51,3 +51,6 @@ Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.tx
 - [Paying a Supplier: Terms, Stages and Red Flags](https://www.qulacrafts.com/guide-paying-a-craft-supplier.html): What belongs on the proforma invoice, how Incoterms decide who pays what, and the warning signs worth walking away from.
 - [Importing: HS Codes, Duty and Landed Cost](https://www.qulacrafts.com/guide-importing-craft-supplies.html): How classification works, where to look up your own duty rate, and why volumetric weight decides your freight bill.
 - [Samples and Inspection Before the Balance](https://www.qulacrafts.com/guide-samples-and-inspection.html): Three kinds of sample and what each proves, plus a five-point check list for craft supplies.
+
+## Custom project scope
+Qula Craft does not accept baby or infant product projects or silicone-material projects. Other designs, materials, processes, samples, tooling terms, testing requirements, prices and lead times are reviewed individually and confirmed by email before order acceptance. Contact sales@qulacrafts.com.
