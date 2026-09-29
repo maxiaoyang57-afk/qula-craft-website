@@ -32,3 +32,9 @@ form.inquiry-simple{display:block;min-width:0}
 .inquiry-simple .simple-direct{font-size:12px;margin:16px 0 0;line-height:1.8}
 .inquiry-simple .simple-direct a{margin-right:10px;color:var(--brand-dark,#553374);text-underline-offset:3px}
 @media(max-width:620px){.inquiry-simple .simple-contact-row,.inquiry-simple .simple-options-grid{grid-template-columns:minmax(0,1fr)}.inquiry-simple .simple-field input,.inquiry-simple .simple-field select,.inquiry-simple .simple-field textarea{font-size:16px}}
+
+.inquiry-simple .upload-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:6px}
+.inquiry-simple .upload-header p,.inquiry-simple .upload-panel>p:not(.attachment-status){display:none}
+.inquiry-simple .upload-header h4{margin:0}
+.inquiry-simple .upload-header .btn-select{margin:0;padding:8px 14px}
+.inquiry-simple .upload-panel .attachment-status{margin:6px 0 0!important}
