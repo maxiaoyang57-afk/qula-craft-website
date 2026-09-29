@@ -5,6 +5,11 @@
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
     if (!form) return;
+    const submitButton = form.querySelector('button[type="submit"]');
+    const idleSubmitText = submitButton?.innerHTML;
+    window.addEventListener('pageshow', () => {
+      if (submitButton) { submitButton.disabled = false; submitButton.innerHTML = idleSubmitText; }
+    });
 
     const dropZone = document.getElementById(config.dropZoneId);
     const fileInput = form.querySelector('.file-input-multi');

@@ -43,6 +43,9 @@
 
   // 表单真提交(FormSubmit POST),仅做按钮状态反馈
   document.querySelectorAll('[data-quote-form]').forEach(form=>{
+    const button=form.querySelector('button[type="submit"]');
+    const idleText=button?.innerHTML;
+    window.addEventListener('pageshow',()=>{if(button){button.disabled=false;button.innerHTML=idleText;}});
     form.addEventListener('submit',()=>{
       const btn=form.querySelector('button[type="submit"]');
       if(btn){btn.disabled=true;btn.textContent='Sending…';}
@@ -211,6 +214,7 @@
       if(e.target.dataset&&'clear'in e.target.dataset){save([]);renderPanel();}
     });
     renderPanel();
-    if(form)form.addEventListener('submit',()=>{save([]);});
+    // Keep saved selections until the buyer explicitly removes or clears them.
+    // A native third-party POST does not provide a verified delivery receipt here.
   }
 })();
