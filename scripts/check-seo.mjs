@@ -163,6 +163,12 @@ for (const file of files) {
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
+  if (/^Wholesale .* from Qula Craft\. Reference SKU/.test(description)) {
+    failures.push(`${file}: product description falls back to category-only copy`);
+  }
+  if (['index.html', 'products.html'].includes(file) && /<span class="pill">In Stock<\/span>/.test(html)) {
+    failures.push(`${file}: category badge must not assert unverified inventory`);
+  }
   if (/\b(?:for|and|with|of|in|to)\s+\([A-Z0-9-]+\)(?:\s*\||\s*$)/i.test(title)) {
     failures.push(`${file}: title ends with a dangling preposition before the SKU`);
   }
