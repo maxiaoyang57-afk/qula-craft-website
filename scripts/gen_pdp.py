@@ -6,7 +6,7 @@ import json, re, statistics
 from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
-from pdp_public_copy import normalize_moq, sanitize_schema_value
+from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, sanitize_schema_value
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -316,6 +316,7 @@ for e in pdp:
   <nav class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / <a href="{catpage(cslug)}">{esc(cname)}</a> / <span>{esc(sku)}</span></nav>
   <span class="eyebrow">{esc(cname)} · SKU {esc(sku)}</span>
   <h1>{esc(title_full)}</h1>
+  {('<p class="pdp-summary">' + esc(PRODUCT_DETAILS[key]) + '</p>') if key in PRODUCT_DETAILS else ''}
 </div></section>
 <section class="section" style="padding-top:26px"><div class="container detail-grid"><div>{gal}</div>
 <div>

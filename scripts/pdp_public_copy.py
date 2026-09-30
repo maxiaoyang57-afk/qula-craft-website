@@ -9,6 +9,14 @@ marketplace-style filler.  It deliberately does not infer product facts.
 from __future__ import annotations
 
 import re
+import json
+from pathlib import Path
+
+# Curated summaries derived from each existing product's source title/specifications.
+# Keep them separate from the original imported product record.
+PRODUCT_DETAILS = json.loads(
+    (Path(__file__).resolve().parents[1] / "assets/data/pdp-description-details.json").read_text(encoding="utf-8")
+)
 
 
 PUBLIC_TITLE_OVERRIDES = {
@@ -117,6 +125,8 @@ def normalize_moq(value: str) -> str:
 
 def meta_description(entry: dict, display_title: str, verified_overrides: dict) -> str:
     sku = entry["sku"]
+    if entry["assetKey"] in PRODUCT_DETAILS:
+        return f"{PRODUCT_DETAILS[entry['assetKey']]} Wholesale enquiries: {sku}."
     if entry["assetKey"] in PUBLIC_DESCRIPTION_OVERRIDES_BY_ASSET:
         return PUBLIC_DESCRIPTION_OVERRIDES_BY_ASSET[entry["assetKey"]]
     if sku in verified_overrides:

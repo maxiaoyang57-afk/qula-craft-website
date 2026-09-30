@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from urllib.parse import quote
 
-from pdp_public_copy import meta_description, meta_title, normalize_moq, public_title, sanitize_schema_value
+from pdp_public_copy import PRODUCT_DETAILS, meta_description, meta_title, normalize_moq, public_title, sanitize_schema_value
 
 
 SITE = Path(__file__).resolve().parents[1]
@@ -131,6 +131,13 @@ for entry in PDP:
     if raw_moq and raw_moq != clean_moq:
         content = content.replace(esc(raw_moq), esc(clean_moq))
     content = update_product_jsonld(content, row)
+    if entry["assetKey"] in PRODUCT_DETAILS:
+        content = re.sub(r'\s*<p class="pdp-summary">.*?</p>', '', content, flags=re.S)
+        content = re.sub(
+            r'(<h1[^>]*>.*?</h1>)',
+            lambda m: m.group(1) + '\n  <p class="pdp-summary">' + esc(PRODUCT_DETAILS[entry["assetKey"]]) + '</p>',
+            content, count=1, flags=re.S,
+        )
     page.write_text(content, encoding="utf-8")
 
 
@@ -249,6 +256,12 @@ page_replacements = {
     },
     "index.html": {
         "Ask for solution →": "Request sourcing advice →",
+        '<span class="pill">In Stock</span>': '<span class="pill">Browse Products</span>',
+        "Nine Real Product Lines, One Stock Catalog": "Nine Product Lines, One Craft Supply Catalog",
+    },
+    "products.html": {
+        '<span class="pill">In Stock</span>': '<span class="pill">Browse Products</span>',
+        "Every Stock Item, Mapped to Real Production": "Explore Products by Category",
     },
     "guide-clay-slices-vs-resin-charms-slime.html": {
         "Most successful slime shops run roughly a 70/30 budget split between the two.":
@@ -341,6 +354,9 @@ for entry in PDP:
         content,
         count=1,
     )
+    content = replace_meta(content, name="description", value=row["metaDescription"])
+    content = replace_meta(content, prop="og:description", value=row["metaDescription"])
+    content = replace_meta(content, name="twitter:description", value=row["metaDescription"])
     content = update_product_jsonld(content, row)
     page.write_text(content, encoding="utf-8")
 
@@ -364,8 +380,7 @@ def refresh_sitemap_block(match):
     page_name = loc_match.group(1)
     asset_match = re.fullmatch(r"p-(.+)\.html", page_name)
     row = copy_rows.get(asset_match.group(1)) if asset_match else None
-    if row or page_name in changed_core_pages:
-        block = re.sub(r"<lastmod>[^<]+</lastmod>", "<lastmod>2026-09-26</lastmod>", block, count=1)
+    # Modification dates are refreshed separately from actual changed files.
     if row:
         image_title = esc(f"{row['sku']} — {row['displayTitle']}")
         block = re.sub(r"<image:title>.*?</image:title>", f"<image:title>{image_title}</image:title>", block)
