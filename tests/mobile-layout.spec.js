@@ -153,7 +153,11 @@ test('Bag Charms applications update fits the current mobile layout', async ({ p
   expect(right(bagBox)).toBeLessThanOrEqual(391);
 
   await expect(bag.locator('h3')).toContainText('Bag Charms');
-  await expect(bag.locator('a.btn')).toHaveAttribute('href', 'quote.html?application=Bag%20Charms');
+  const inquiryUrl = new URL(await bag.locator('a.btn').getAttribute('href'), page.url());
+  expect(inquiryUrl.origin).toBe(new URL(page.url()).origin);
+  expect(inquiryUrl.pathname).toBe('/quote.html');
+  expect(inquiryUrl.searchParams.get('application')).toBe('Bag Charms');
+  expect(inquiryUrl.searchParams.get('entry_page')).toBe('/applications.html');
 
   const fixedBar = page.locator('.mobile-cta-bar');
   await expect(fixedBar).toBeVisible();
