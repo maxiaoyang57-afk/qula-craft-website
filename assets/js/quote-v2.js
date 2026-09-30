@@ -5,6 +5,11 @@
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
     if (!form) return;
+    const submitButton = form.querySelector('button[type="submit"]');
+    const idleSubmitText = submitButton?.innerHTML;
+    window.addEventListener('pageshow', () => {
+      if (submitButton) { submitButton.disabled = false; submitButton.innerHTML = idleSubmitText; }
+    });
 
     const dropZone = document.getElementById(config.dropZoneId);
     const fileInput = form.querySelector('.file-input-multi');
@@ -58,7 +63,7 @@
         if (pImg) document.getElementById('pPreviewImg').src = pImg;
         
         document.getElementById('hiddenSku').value = pSku || '';
-        document.getElementById('hiddenUrl').value = window.location.href;
+        document.getElementById('hiddenUrl').value = params.get('entry_page')?.startsWith('/') && !params.get('entry_page').startsWith('//') ? new URL(params.get('entry_page'), 'https://www.qulacrafts.com').href : window.location.href;
         
         const productSelect = form.querySelector('select[name="product"]');
         if (pSku && productSelect) {
@@ -69,7 +74,7 @@
         }
         const messageEl = form.querySelector('textarea[name="message"]');
         if (messageEl) {
-          const productNote = `I am interested in ${pName || pSku}. Please provide a quote based on the following requirements:\n\n`;
+          const productNote = `I am interested in ${pName || pSku}. My question or request:\n\n`;
           messageEl.value = messageEl.value ? (messageEl.value + '\n' + productNote) : productNote;
         }
       }

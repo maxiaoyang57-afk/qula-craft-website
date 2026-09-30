@@ -1,6 +1,6 @@
 # SEO remediation — 2026-09-30
 
-Base: `a1cd8e79af83c9f2e444cb9349f8986f4acb0b6d` (remote main, PR #47).
+Started from `a1cd8e79af83c9f2e444cb9349f8986f4acb0b6d` (PR #47); synchronized with `a27c39e1c855d89641bcd6a7bdc21d4a4e361c38` after PR #48 merged during this task. The new inquiry changes are preserved.
 
 ## Changes
 
@@ -18,6 +18,7 @@ Observed in the authenticated `sc-domain:qulacrafts.com` property on 2026-09-30:
 - Polymer Clay category: crawled, currently not indexed; last crawl 2026-09-25 15:20:30, smartphone crawler. Fetch successful, crawling and indexing allowed, Google-selected and declared canonical match the page. Indexing request successfully submitted; indexing is not guaranteed.
 - Resin category URL inspection returned a temporary GSC error. Do not treat this as a website fetch failure or confirmed indexing result.
 - Product snippets report last updated 2026-09-29: 38 invalid items, 0 valid; missing `offers`, `review`, or `aggregateRating`. The report is Google's processed subset, not the number of Product objects in the source.
+- All 38 examples belong to two old category-page crawls: 20 on `slime-charms.html` (2026-08-22) and 18 on `acrylic-beads.html` (2026-08-11). Both live pages now return 200 and use CollectionPage/ItemList with no Product objects. These historical errors are distinct from quotation-only PDP eligibility.
 
 ## Data-dependent work remaining
 
@@ -32,4 +33,4 @@ The current source contains 231 Product objects; 112 have existing offers and 11
 - Python compilation and `git diff --check`: pass.
 - Semantic comparison against base: every existing offer object unchanged; 128 generic descriptions removed.
 
-Production deployment is pending review of this branch's Preview. PR #48 is independent and is not incorporated here.
+Production deployment is pending review of this branch's Preview. Already-merged PR #48 is included as the current main baseline.
