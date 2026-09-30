@@ -1,0 +1,282 @@
+{
+  "batchId": "qula-acrylic-beads-20260930",
+  "target": "QULA",
+  "baselineCommit": "8a976288916c1739f6cbbbef4c2bd7fe52c804e0",
+  "mode": "preview",
+  "excludedSku": "YA680",
+  "correction": "YA382 is cupcake-shaped, confirmed by user",
+  "catalogCountBefore": 231,
+  "catalogCountAfter": 238,
+  "categoryCountBefore": 18,
+  "categoryCountAfter": 25,
+  "priorityOrder": [
+    "YA893",
+    "YA690",
+    "YJ145",
+    "YA449",
+    "YA425",
+    "YA417",
+    "YA382"
+  ],
+  "products": [
+    {
+      "sku": "YA893",
+      "sourceRow": 1,
+      "derivedTitle": "15mm AB Swirl Round Acrylic Beads",
+      "category": "Plastic Beads",
+      "slug": "p-ya893.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya893/ya893-1-colorful-swirl-round-acrylic-beads.png",
+          "role": "main",
+          "width": 500,
+          "height": 511,
+          "sha256": "f320f5064fd10c61ebef91ade9a3a9ce081dea67cb0339191d599171a1e4f536",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya893/ya893-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "816f93c6e543d0c1586d653834c24396cf78ab0478b80d5d72c731b6e5650698",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya893/ya893-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6cedb5d5549be051de640705b37cb96b0d73caca6733643ec7b9120e45637d51",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YA690",
+      "sourceRow": 2,
+      "derivedTitle": "12 × 23mm AB Leaf Acrylic Beads",
+      "category": "Plastic Beads",
+      "slug": "p-ya690.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya690/ya690-1-green-leaf-shaped-acrylic-beads.png",
+          "role": "main",
+          "width": 636,
+          "height": 676,
+          "sha256": "9b5f152bf30f19e379639efee0fbabf99f75d420d108be30f61c19b8b4d0e294",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya690/ya690-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "273724d32dcd12398bf026d6f4879ad32343d82803d0b3413f04a53e99ed8a7a",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya690/ya690-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3ce9f8af30150278aa89212c7da4ef814c68e513cc33290c766ff1590ddbb7d5",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YJ145",
+      "sourceRow": 3,
+      "derivedTitle": "19mm AB Heart Acrylic Beads",
+      "category": "Plastic Beads",
+      "slug": "p-yj145.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yj145/yj145-1-faceted-heart-ab-acrylic-beads.png",
+          "role": "main",
+          "width": 617,
+          "height": 503,
+          "sha256": "4505532b9f70b8907b8b08bc0b3bf739a98086f50c674f56271e73cc7ea6c380",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/yj145/yj145-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "eafae77351fd1083a1116889c215e009254df2346f9607bcac6b28cc893b6f01",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/yj145/yj145-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d5c2e06d6741c2895c0a430bfd2fccb13cd837b47c0d9fc7abe981682d8d3245",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YA449",
+      "sourceRow": 4,
+      "derivedTitle": "16mm Textured Candy Acrylic Beads",
+      "category": "Plastic Beads",
+      "slug": "p-ya449.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya449/ya449-1-colorful-textured-round-acrylic-beads.png",
+          "role": "main",
+          "width": 656,
+          "height": 654,
+          "sha256": "194d72430a97f0aaa18fdda78a613f60fe7fd3cae8ce5249c9b664d05a7f6707",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya449/ya449-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c1024a689b6515d67451948beccc216c987b95d63070e537a1b0034129438e8f",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya449/ya449-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8c283144679eafb58a4fd9ea6b712b0dba8b4151a3218cf9b385c276059c0cf6",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YA425",
+      "sourceRow": 5,
+      "derivedTitle": "16 × 18mm AB Heart Acrylic Beads with 2.5mm Hole",
+      "category": "Plastic Beads",
+      "slug": "p-ya425.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya425/ya425-1-colorful-heart-acrylic-beads.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cb72cbec3d7d65c49d4ad7cbb162038eda6756ebdcbfad7a50af579524e6415b",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya425/ya425-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f15529da72041418375f40cc959239abb9966a1ac08279c810cc345dc4889089",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya425/ya425-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c71a5a352d744c769160c7a69db34b099f0a0c20ebff846d5fecf7cde094bd18",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YA417",
+      "sourceRow": 6,
+      "derivedTitle": "19 × 26mm Pig Acrylic Beads in White and Pink",
+      "category": "Plastic Beads",
+      "slug": "p-ya417.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya417/ya417-1-pink-white-pig-acrylic-beads.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2802f350c6091e17729bf36b0891392e66eae49734abb12c35348c1805916cdb",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya417/ya417-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e49152410439969258dd65d2a36ba1cf07df74731102666a6953a4f9659f739e",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya417/ya417-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b78397983b6ab2f27298b5257eb646bfea1240673ba00e4c1d16cb8a78ef24d7",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    },
+    {
+      "sku": "YA382",
+      "sourceRow": 7,
+      "derivedTitle": "Cupcake Acrylic Beads with Hole",
+      "category": "Plastic Beads",
+      "slug": "p-ya382.html",
+      "duplicateStatus": "new",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya382/ya382-1-pastel-cupcake-shaped-beads.png",
+          "role": "main",
+          "width": 662,
+          "height": 641,
+          "sha256": "6343e0b363054264cf2bbc1f7835b44d5b607d1bc0cff1cb15d762b880f66246",
+          "origin": "source photo"
+        },
+        {
+          "path": "assets/images/pdp/ya382/ya382-2-acrylic-beads-scene-display.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1c3ca3e4044557f4ba7623441aeba753cb5c0c08247c288b54d07eb3ed74400c",
+          "origin": "AI-assisted presentation"
+        },
+        {
+          "path": "assets/images/pdp/ya382/ya382-3-acrylic-beads-detail-display.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fda5cb1ee8a413f9e1b8c72d83bdcdeaeaf347bd98f6579e848d99b8e7f9ab72",
+          "origin": "AI-assisted presentation"
+        }
+      ],
+      "listingStatus": "prepared",
+      "validationStatus": "Local inquiry, SEO, sitemap, links and image checks passed",
+      "previewStatus": "pending"
+    }
+  ]
+}
