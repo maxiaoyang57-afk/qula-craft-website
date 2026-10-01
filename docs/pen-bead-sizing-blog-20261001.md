@@ -24,3 +24,9 @@ Checked October 1, 2026. Primary seller pages demonstrate model-specific fit req
 ## Buyer limitations
 
 Dimensions must be confirmed for the buyer's actual pen blank. Equal nominal rod/hole values do not establish clearance. Shaped bead size is not interchangeable with axial stack height. The sample must close correctly without forcing beads or leaving the cap partly fastened.
+
+## Editorial revision 2
+
+Requested after the first Preview. Reworked the page as a visual buying feature: warm ivory split hero, three quick buying decisions, numbered measurement chapters, side-by-side illustrations and explanations, specification-led original product cards, styling tips and a concise enquiry checklist. All source dimensions and unknowns are preserved. No production merge in this revision.
+
+Added an AI-generated styling cover based on the supplied YA425 photograph: pale blue pen, pastel AB heart beads, warm ivory surface. It is explicitly captioned as a styling illustration, not a measured product assembly. No measurements are taken from this generated image. Original source photos remain unchanged. Technical diagrams remain deterministic SVGs with symbolic dimensions and an explicitly hypothetical arithmetic example. Cover is optimized to a 1000 × 667 JPEG (~52 KB); synchronized OG, Twitter, BlogPosting and image sitemap references. Page-scoped CSS version incremented to 20261001-v2.

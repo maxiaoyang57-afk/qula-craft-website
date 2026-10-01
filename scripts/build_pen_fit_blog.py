@@ -90,7 +90,7 @@ svg('bead-pen-stack-length-example.svg',730,'Illustrative bead stack length calc
 
 title='How to Choose Pen Beads: Diameter, Hole Size & Fit Guide'
 desc='Measure bead diameter, hole size and usable pen-rod length. Use illustrated sizing steps, a stack calculation and a wholesale checklist to choose pen beads.'
-h1='How to Choose Beads for Pens: A Size & Fit Guide'
+h1='How to choose the right pen beads'
 shell=(ROOT/'guide-beadable-pen-beads.html').read_text(encoding='utf-8')
 pre=shell[:re.search(r'<main[^>]*>',shell).end()]
 post=shell[shell.index('</main>'):]
@@ -103,14 +103,16 @@ def keep_schema(m):
     obj=json.loads(m[1])
     return m[0] if obj.get('@type') in ['Organization','WebSite'] else ''
 pre=re.sub(r'<script type="application/ld\+json">(.*?)</script>',keep_schema,pre,flags=re.S)
-hero=BASE+'assets/images/real-life-scenes-v1/real-life-beadable-pen-gift.webp'
+hero=BASE+'assets/images/pen-fit-guide/heart-bead-pen-buying-guide-cover.jpg'
+for attr,key in [('property','og:image'),('name','twitter:image')]:
+    pre=re.sub(rf'(<meta {attr}="{key}" content=")[^"]*(")',lambda m:m[1]+hero+m[2],pre)
 schema=[{'@context':'https://schema.org','@type':'BlogPosting','headline':h1,'description':desc,'image':hero,'datePublished':'2026-10-01','dateModified':'2026-10-01','author':{'@id':BASE+'#organization'},'publisher':{'@id':BASE+'#organization'},'mainEntityOfPage':url}, {'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE},{'@type':'ListItem','position':2,'name':'Resources','item':BASE+'resources.html'},{'@type':'ListItem','position':3,'name':'Pen Bead Size & Fit Guide','item':url}]}]
 content=(ROOT/'scripts/data/pen-bead-size-guide-body.html').read_text(encoding='utf-8')
 faq=[]
 for q,a in re.findall(r'<details><summary>(.*?)</summary><p>(.*?)</p></details>',content):
     faq.append({'@type':'Question','name':html.unescape(q),'acceptedAnswer':{'@type':'Answer','text':html.unescape(a)}})
 schema.append({'@context':'https://schema.org','@type':'FAQPage','mainEntity':faq})
-pre=pre.replace('</head>','<link rel="stylesheet" href="assets/css/pen-bead-guide.css?v=20261001">\n'+''.join('<script type="application/ld+json">'+json.dumps(s,ensure_ascii=False)+'</script>\n' for s in schema)+'</head>')
-body=f'''<article class="pen-fit-article"><section class="page-hero"><div class="container narrow"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="resources.html">Resources</a> / <span>Pen Bead Size &amp; Fit Guide</span></nav><span class="eyebrow">The Qula Craft Blog · Buying &amp; Making</span><h1>{html.escape(h1)}</h1><p>Bead diameter. Hole diameter. Usable rod length.<br>Measure the three things that decide whether your design works.</p><p class="small-note">October 1, 2026 · Qula Craft Sourcing Team</p></div></section><section class="section" style="padding-top:26px"><div class="container guide-body">{content}</div></section></article>'''
+pre=pre.replace('</head>','<link rel="stylesheet" href="assets/css/pen-bead-guide.css?v=20261001-v2">\n'+''.join('<script type="application/ld+json">'+json.dumps(s,ensure_ascii=False)+'</script>\n' for s in schema)+'</head>')
+body=f'''<article class="pen-fit-article"><section class="pen-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="resources.html">Resources</a> / <span>Pen Bead Size &amp; Fit Guide</span></nav><div class="pen-hero-grid"><div><span class="pen-kicker">QULA CRAFT · THE BUYING NOTES</span><h1>{html.escape(h1)}</h1><p class="pen-hero-deck">A beautiful pen starts with beads that fit. Here's how to choose the size, check the hole and plan a combination your customers will love.</p><a class="pen-hero-link" href="#bead-dimensions">Find your fit, step by step ↓</a><p class="pen-hero-meta">October 1, 2026 · Qula Craft Sourcing Team</p></div><figure><img src="assets/images/pen-fit-guide/heart-bead-pen-buying-guide-cover.jpg" width="1000" height="667" alt="Illustrated styling concept: a pale blue beadable pen with pastel heart beads on an ivory background." fetchpriority="high"><figcaption>Styling illustration; confirm your bead-and-pen combination with a sample.</figcaption></figure></div></div></section><div class="container pen-reading">{content}</div></article>'''
 (ROOT/SLUG).write_text(pre+body+post,encoding='utf-8')
 print('Built',SLUG,'and 3 original SVG diagrams.')
