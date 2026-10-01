@@ -63,7 +63,7 @@ def build(g):
                    lambda m: m.group(1) + ogimg + m.group(2), h, 1)
 
     art = {"@context": "https://schema.org", "@type": "Article", "headline": title,
-           "description": desc, "image": ogimg, "datePublished": TODAY, "dateModified": TODAY,
+           "description": desc, "image": ogimg, "datePublished": g.get("datePublished", TODAY), "dateModified": g.get("dateModified", TODAY),
            "author": {"@type": "Organization", "@id": BASE + "#organization",
                       "name": "Qula Craft Sourcing Team", "url": BASE},
            "publisher": {"@type": "Organization", "name": "Qula Craft",

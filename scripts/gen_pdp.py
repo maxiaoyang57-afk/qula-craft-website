@@ -311,6 +311,9 @@ for e in pdp:
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")
 
+    buying_guide = public_copy.get("buyingGuide")
+    buying_guide_html = (f'<p class="small-note"><a href="{esc(buying_guide["url"])}">{esc(buying_guide["label"])} →</a></p>' if buying_guide else "")
+
     body = f"""
 <section class="page-hero pdp-hero"><div class="container">
   <nav class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / <a href="{catpage(cslug)}">{esc(cname)}</a> / <span>{esc(sku)}</span></nav>
@@ -324,6 +327,7 @@ for e in pdp:
   <table class="spec-table"><tr><th colspan="2">Listed specifications</th></tr>{spec_html}
   {f'<tr><td><b>Availability</b></td><td>{esc(e.get("stockStatus", "Confirm for current quotation"))}</td></tr>' if e.get("stockStatus", "Confirm for current quotation") else ''}</table>
   <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>
+  {buying_guide_html}
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
     <a class="btn btn-wa-3d" href="{wa}" target="_blank" rel="noopener">Chat on WhatsApp</a>
