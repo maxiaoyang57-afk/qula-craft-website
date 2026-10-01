@@ -1621,48 +1621,76 @@
     "displayTitle": "15mm AB Swirl Round Acrylic Beads",
     "metaTitle": "15mm AB Swirl Acrylic Beads Wholesale | YA893",
     "metaDescription": "Source 15mm AB swirl round acrylic beads in 100-piece bags. Ask Qula Craft about colors, hole diameter, customization and wholesale pricing.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "ya690": {
     "sku": "YA690",
     "displayTitle": "12 × 23mm AB Leaf Acrylic Beads",
     "metaTitle": "AB Leaf Acrylic Beads 12 × 23mm Wholesale | YA690",
     "metaDescription": "Source 12 × 23mm AB leaf acrylic beads in 100-piece bags for craft projects. Confirm hole fit, colors and wholesale pricing with Qula Craft.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "yj145": {
     "sku": "YJ145",
     "displayTitle": "19mm AB Heart Acrylic Beads",
     "metaTitle": "19mm AB Heart Acrylic Beads Wholesale | YJ145",
     "metaDescription": "Shop 19mm AB heart acrylic beads in 100-piece bags for jewelry and craft projects. Ask Qula Craft about hole diameter, colors and bulk pricing.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "ya449": {
     "sku": "YA449",
     "displayTitle": "16mm Textured Candy Acrylic Beads",
     "metaTitle": "16mm Textured Candy Acrylic Beads Wholesale | YA449",
     "metaDescription": "Source 16mm textured candy acrylic beads in 200-piece bags. Confirm hole diameter and pen compatibility, then request a wholesale quote.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "ya425": {
     "sku": "YA425",
     "displayTitle": "16 × 18mm AB Heart Acrylic Beads with 2.5mm Hole",
     "metaTitle": "AB Heart Acrylic Beads with 2.5mm Hole | YA425",
     "metaDescription": "Source 16 × 18mm AB heart acrylic beads with a 2.5mm hole, packed in 500g bags. Ask Qula Craft about colors, customization and bulk pricing.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "ya417": {
     "sku": "YA417",
     "displayTitle": "19 × 26mm Pig Acrylic Beads in White and Pink",
     "metaTitle": "Pig Acrylic Beads 19 × 26mm Wholesale | YA417",
     "metaDescription": "Source 19 × 26mm pink and white pig acrylic beads in 100-piece bags. Ask Qula Craft about hole size, customization and wholesale pricing.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   },
   "ya382": {
     "sku": "YA382",
     "displayTitle": "Cupcake Acrylic Beads with Hole",
     "metaTitle": "Cupcake Acrylic Beads Wholesale | YA382",
     "metaDescription": "Source cupcake-shaped acrylic beads in 100-piece bags for decorative craft projects. Confirm dimensions and hole size with Qula Craft before ordering.",
-    "isFamilyFriendly": true
+    "isFamilyFriendly": true,
+    "buyingGuide": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Check bead sizes, hole fit and pack units before ordering"
+    }
   }
 }
