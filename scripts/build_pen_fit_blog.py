@@ -57,7 +57,7 @@ b+=text(198,182,'Removable end fitting',21,weight=700)+text(198,210,'Shown detac
 b+='<rect x="134" y="252" width="18" height="248" fill="url(#metal)" stroke="#82949d"/><rect x="130" y="252" width="26" height="31" fill="#c5d0d5" stroke="#82949d"/>'
 for yy in range(256,283,6):b+=line(130,yy,156,yy-2,'#637984')
 b+=line(118,283,359,283,'#aebfc5','stroke-dasharray="5 5"')+text(210,258,'End-stop seat',20,weight=700)
-b+=text(210,311,'Position when secured',17,'#657184')
+b+=text(185,311,'Secured position',17,'#657184')
 b+='<rect x="113" y="500" width="60" height="22" rx="6" fill="url(#metal)" stroke="#82949d"/><rect x="117" y="522" width="52" height="125" rx="10" fill="#ade3d3" stroke="#168570" stroke-width="2"/><path d="M117 638H169L151 676H135Z" fill="#c2d0d6" stroke="#82949d"/>'
 b+=line(174,500,359,500,'#aebfc5')+dim(342,283,342,500)
 b+=text(318,380,'L',34,'#168570',700,'end')+text(318,411,'Usable',20,anchor='end')+text(318,438,'bead space',20,anchor='end')
