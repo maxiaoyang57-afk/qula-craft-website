@@ -10,7 +10,9 @@
 - Added entrances from Resources, Beads for Pens, and the existing pen-bead guide; synchronized that guide's source content.
 - Corrected the category FAQ's blanket standard-pen compatibility claim in both visible text and JSON-LD because it contradicts the measurement guidance. No unrelated category claims edited.
 - Build the blog and SVGs with `python scripts/build_pen_fit_blog.py`; source body is scripts/data/pen-bead-size-guide-body.html. The new CSS is page-scoped and versioned.
-- All four build gates and the full local site gate pass: 278 HTML pages, 238 PDPs, 276 sitemap URLs. Python syntax passes. Preview visual verification follows deployment.
+- All four build gates and the full local site gate pass: 278 HTML pages, 238 PDPs, 276 sitemap URLs. Python syntax passes. PR #52 Preview deployment succeeded.
+- Browser verification: reviewed all three SVGs individually, corrected a label near a dimension line, confirmed all five article images load, verified the enquiry CTA carries the bead-fit request, and expanded a FAQ answer successfully.
+- Responsive verification used temporary same-origin iframe viewports at 375 and 390 px outer width (360 and 375 px document width after scrollbars). Both had equal client/scroll widths: no horizontal overflow. Diagram labels, navigation and inquiry controls were inspected. This is viewport testing, not a physical-device test. The temporary verification page was removed from the final branch.
 
 ## Research used
 
