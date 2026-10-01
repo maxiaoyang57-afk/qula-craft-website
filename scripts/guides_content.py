@@ -32,7 +32,7 @@ GUIDES = [
            'acrylic beads, but a bead with a hole is not automatically compatible with your pen blank. Check '
            'the SKU, pack unit, minimum order and sample requirements before requesting a wholesale quote.',
  'bodyHtml': '\n'
-             '  <h2>1. What hole size do beadable pen beads need?</h2>\n'
+             '  <h2>1. What hole size do beadable pen beads need?</h2>\n  <p>For labeled measurement diagrams and a worked layout calculation, read <a href="blog-beadable-pen-bead-size-guide.html">how to measure pen beads and choose the right fit</a>.</p>\n'
              '  <p>There is no single hole diameter that fits every beadable pen. Measure the rod that '
              'passes through the beads, including any threaded section they must slide over. Share that '
              'measurement and the usable beading length with your enquiry. The outside diameter of the pen '
