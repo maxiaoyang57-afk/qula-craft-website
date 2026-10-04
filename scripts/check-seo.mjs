@@ -328,6 +328,13 @@ for (const [target, minimum] of crawlPriorityInboundMinimum) {
 }
 
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+if (sitemap.includes('\\n</urlset>')) failures.push('sitemap.xml: contains a literal \\n escape before </urlset>');
+if ((sitemap.match(/<urlset\\b/g) || []).length !== 1 || (sitemap.match(/<\\/urlset>/g) || []).length !== 1) {
+  failures.push('sitemap.xml: expected exactly one urlset root');
+}
+if ((sitemap.match(/<url>/g) || []).length !== (sitemap.match(/<\\/url>/g) || []).length) {
+  failures.push('sitemap.xml: unbalanced url elements');
+}
 const sitemapUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.qulacrafts\.com\/[^<]*)<\/loc>/g)]
   .map((match) => match[1])
   .filter((url) => !url.includes('/assets/'));
