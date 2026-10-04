@@ -227,6 +227,9 @@
 
       btn.disabled = true;
       btn.innerHTML = 'Sending...';
+      if (typeof window.QULA_MARK_INQUIRY_PENDING === 'function') {
+        window.QULA_MARK_INQUIRY_PENDING(form);
+      }
       HTMLFormElement.prototype.submit.call(form);
     };
 
