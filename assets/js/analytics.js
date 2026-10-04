@@ -20,11 +20,40 @@
     else if(h.indexOf('mailto:')===0)gtag('event','email_click',{link_url:h});
     else if(h.indexOf('tel:')===0)gtag('event','phone_click',{link_url:h});
   });
-  // 询盘表单提交 → generate_lead
+  // FormSubmit is cross-origin, so distinguish an attempt from a confirmed return.
+  // Dedicated quote forms can abort after the submit event while preparing attachments;
+  // those forms mark the pending inquiry only immediately before the native POST.
+  var LEAD_MARKER='qula_pending_inquiry_v1';
+  function markPendingInquiry(form){
+    try{
+      sessionStorage.setItem(LEAD_MARKER,JSON.stringify({
+        ts:Date.now(),
+        page:location.pathname,
+        form_id:form&&form.id||''
+      }));
+    }catch(e){}
+  }
+  window.QULA_MARK_INQUIRY_PENDING=markPendingInquiry;
+
   document.addEventListener('submit',function(e){
     var f=e.target;
     if(f&&f.getAttribute&&(f.getAttribute('action')||'').indexOf('formsubmit')>-1){
-      gtag('event','generate_lead',{page:location.pathname});
+      gtag('event','inquiry_submit_attempt',{page:location.pathname,form_id:f.id||''});
+      if(f.id!=='inquiryForm'&&f.id!=='inquiryFormHome') markPendingInquiry(f);
     }
   },true);
+
+  if(/\/thank-you\.html$/.test(location.pathname)){
+    try{
+      var pending=JSON.parse(sessionStorage.getItem(LEAD_MARKER)||'null');
+      if(pending&&Number.isFinite(pending.ts)&&Date.now()-pending.ts>=0&&Date.now()-pending.ts<=30*60*1000){
+        sessionStorage.removeItem(LEAD_MARKER);
+        var params={page:pending.page||'',confirmation_page:location.pathname,form_id:pending.form_id||''};
+        gtag('event','generate_lead',params);
+        gtag('event','inquiry_accepted',params);
+      }
+    }catch(e){
+      try{sessionStorage.removeItem(LEAD_MARKER);}catch(_){}
+    }
+  }
 })();
