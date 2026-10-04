@@ -133,15 +133,24 @@
     chip.classList.toggle('on',n>0);
   }
   renderChip();
+  function safeLocalImage(src){
+    const value=String(src||'').trim();
+    if(!value)return '';
+    try{
+      const url=new URL(value,location.origin);
+      if(url.origin!==location.origin||!url.pathname.startsWith('/assets/'))return '';
+      return url.pathname+url.search;
+    }catch(e){return '';}
+  }
   function imageFromButton(a){
     const scopes=[a.closest('.product-card'),a.closest('.detail-grid'),a.closest('.product-info'),document];
-    let src=a.dataset.image||new URLSearchParams(location.search).get('image')||'';
+    let src=safeLocalImage(a.dataset.image||new URLSearchParams(location.search).get('image')||'');
     for(const scope of scopes){
       if(src||!scope)continue;
       const img=scope.querySelector('.product-img img,.gallery-main img,img');
-      src=img&&img.getAttribute('src')||'';
+      src=safeLocalImage(img&&img.getAttribute('src')||'');
     }
-    return src.trim();
+    return src;
   }
   let catalogImages=null;
   async function loadCatalogImages(){
@@ -149,7 +158,7 @@
     catalogImages={};
     try{
       const j=await (await fetch('assets/data/product-catalog.json')).json();
-      (j.categories||[]).forEach(c=>(c.products||[]).forEach(p=>{if(p.sku&&!catalogImages[p.sku])catalogImages[p.sku]=p.image||'';}));
+      (j.categories||[]).forEach(c=>(c.products||[]).forEach(p=>{if(p.sku&&!catalogImages[p.sku])catalogImages[p.sku]=safeLocalImage(p.image||'');}));
     }catch(e){}
     return catalogImages;
   }
@@ -204,7 +213,7 @@
       }
       const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
       p.innerHTML='<h3>Your inquiry list ('+list.length+') <span class="bp-clear" data-clear>clear all</span></h3><ul>'+
-        list.map(x=>'<li><span class="bp-item"><img src="'+esc(x.image||'assets/images/favicon.png')+'" alt="'+esc(x.sku)+'" loading="lazy"><b>'+esc(x.sku)+'</b></span><span class="bp-remove" data-sku="'+esc(x.sku)+'">×</span></li>').join('')+'</ul>';
+        list.map(x=>'<li><span class="bp-item"><img src="'+esc(safeLocalImage(x.image)||'/assets/images/favicon.png')+'" alt="'+esc(x.sku)+'" loading="lazy"><b>'+esc(x.sku)+'</b></span><span class="bp-remove" data-sku="'+esc(x.sku)+'">×</span></li>').join('')+'</ul>';
       syncTa();renderChip();
     }
     document.addEventListener('click',e=>{

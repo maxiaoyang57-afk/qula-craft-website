@@ -164,7 +164,15 @@
       addHidden('entry_context', kind);
       addHidden('entry_page', config.origin + entryPath.split('?')[0].split('#')[0]);
       addHidden('entry_title', tidy(params.get('entry_title') || pageTitle));
-      if (params.get('application') && !field('application')) addHidden('application', tidy(params.get('application')));
+      if (params.get('application')) {
+        const applicationValue = tidy(params.get('application'));
+        const applicationField = field('application');
+        if (applicationField) {
+          if (!applicationField.value) applicationField.value = applicationValue;
+        } else {
+          addHidden('application', applicationValue);
+        }
+      }
       const wa = form.querySelector('[data-inquiry-whatsapp]');
       const email = form.querySelector('[data-inquiry-email]');
       function update() {
