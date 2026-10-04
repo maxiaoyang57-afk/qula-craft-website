@@ -101,6 +101,14 @@ if (process.argv[2] === '--live') {
     fail(['assets/js/quote-v2.js must not derive the thank-you redirect from the www hostname']);
   }
   console.log('Native multipart attachment safeguard passed.');
+  if (quoteScript.includes("info.innerHTML = `<b>${file.name")) {
+    fail(['assets/js/quote-v2.js must not render user-controlled file names through innerHTML']);
+  }
+  if (!quoteScript.includes("imageUrl.origin === window.location.origin") ||
+      !quoteScript.includes("imageUrl.pathname.startsWith('/assets/')")) {
+    fail(['assets/js/quote-v2.js must restrict product preview image parameters to local asset paths']);
+  }
+  console.log('Quote DOM-safety safeguard passed.');
   const inquiryExperience = fs.readFileSync(path.join(ROOT, 'assets/js/inquiry-experience.js'), 'utf8');
   if (!inquiryExperience.includes("const applicationField = field('application');") ||
       !inquiryExperience.includes("if (!applicationField.value) applicationField.value = applicationValue;")) {
