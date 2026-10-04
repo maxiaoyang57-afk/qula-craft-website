@@ -148,4 +148,12 @@ if (process.argv[2] === '--live') {
     }
   }
   console.log('Confirmed-lead tracking safeguard passed.');
+  const productionGuard = fs.readFileSync(path.join(ROOT, '.github/workflows/protect-inquiry-email.yml'), 'utf8');
+  if (/contents:\s*write/.test(productionGuard) || /git\s+push\s+origin\s+HEAD:main/.test(productionGuard)) {
+    fail(['production monitor must not write to main or trigger production recovery automatically']);
+  }
+  if (!productionGuard.includes('Manual review and explicit approval are required before any production change.')) {
+    fail(['production monitor must state that explicit approval is required']);
+  }
+  console.log('Production-approval safeguard passed.');
 }
