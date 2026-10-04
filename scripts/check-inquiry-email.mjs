@@ -109,6 +109,18 @@ if (process.argv[2] === '--live') {
     fail(['assets/js/quote-v2.js must restrict product preview image parameters to local asset paths']);
   }
   console.log('Quote DOM-safety safeguard passed.');
+  const mainScript = fs.readFileSync(path.join(ROOT, 'assets/js/main.js'), 'utf8');
+  if (!mainScript.includes('function safeLocalImage(src)') ||
+      !mainScript.includes("url.origin!==location.origin||!url.pathname.startsWith('/assets/')")) {
+    fail(['assets/js/main.js must restrict inquiry-basket images to local assets']);
+  }
+  for (const page of ['index.html', 'quote.html']) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    if (!html.includes('assets/js/main.js?v=20261004-local-images')) {
+      fail([`${page} must load the local-image-safe main script version`]);
+    }
+  }
+  console.log('Inquiry basket image safeguard passed.');
   const inquiryExperience = fs.readFileSync(path.join(ROOT, 'assets/js/inquiry-experience.js'), 'utf8');
   if (!inquiryExperience.includes("const applicationField = field('application');") ||
       !inquiryExperience.includes("if (!applicationField.value) applicationField.value = applicationValue;")) {
