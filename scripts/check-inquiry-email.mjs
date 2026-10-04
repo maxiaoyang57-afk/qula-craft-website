@@ -101,4 +101,14 @@ if (process.argv[2] === '--live') {
     fail(['assets/js/quote-v2.js must not derive the thank-you redirect from the www hostname']);
   }
   console.log('Native multipart attachment safeguard passed.');
+  const inquiryExperience = fs.readFileSync(path.join(ROOT, 'assets/js/inquiry-experience.js'), 'utf8');
+  if (!inquiryExperience.includes("const applicationField = field('application');") ||
+      !inquiryExperience.includes("if (!applicationField.value) applicationField.value = applicationValue;")) {
+    fail(['assets/js/inquiry-experience.js must prefill an existing application field from the application query parameter']);
+  }
+  const quoteHtml = fs.readFileSync(path.join(ROOT, 'quote.html'), 'utf8');
+  if (!quoteHtml.includes('assets/js/inquiry-experience.js?v=20261004-application')) {
+    fail(['quote.html must load the application-prefill inquiry script version']);
+  }
+  console.log('Application-context prefill safeguard passed.');
 }
