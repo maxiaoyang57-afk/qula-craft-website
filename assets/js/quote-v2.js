@@ -60,7 +60,16 @@
         previewEl.style.display = 'block';
         document.getElementById('pPreviewTitle').textContent = pName || 'Product Inquiry';
         document.getElementById('pPreviewSku').textContent = pSku ? `SKU: ${pSku}` : '';
-        if (pImg) document.getElementById('pPreviewImg').src = pImg;
+        if (pImg) {
+          try {
+            const imageUrl = new URL(pImg, window.location.origin);
+            if (imageUrl.origin === window.location.origin && imageUrl.pathname.startsWith('/assets/')) {
+              document.getElementById('pPreviewImg').src = imageUrl.pathname + imageUrl.search;
+            }
+          } catch {
+            // Ignore malformed or off-site preview image parameters.
+          }
+        }
         
         document.getElementById('hiddenSku').value = pSku || '';
         document.getElementById('hiddenUrl').value = params.get('entry_page')?.startsWith('/') && !params.get('entry_page').startsWith('//') ? new URL(params.get('entry_page'), 'https://www.qulacrafts.com').href : window.location.href;
@@ -95,7 +104,11 @@
         } else {
           const info = document.createElement('div');
           info.className = 'file-info';
-          info.innerHTML = `<b>${file.name.split('.').pop().toUpperCase()}</b><br>${(file.size/1024).toFixed(1)}KB`;
+          const type = document.createElement('b');
+          type.textContent = String(file.name.split('.').pop() || 'FILE').toUpperCase();
+          info.appendChild(type);
+          info.appendChild(document.createElement('br'));
+          info.appendChild(document.createTextNode(`${(file.size/1024).toFixed(1)}KB`));
           item.appendChild(info);
         }
         
