@@ -132,6 +132,10 @@ if (process.argv[2] === '--live') {
   }
   console.log('Application-context prefill safeguard passed.');
   const analyticsSource = fs.readFileSync(path.join(ROOT, 'assets/js/analytics.js'), 'utf8');
+  if (!analyticsSource.includes("IS_CANONICAL_ANALYTICS_HOST") ||
+      !analyticsSource.includes("/^(www\\.)?qulacrafts\\.com$/i.test(window.location.hostname)")) {
+    fail(['assets/js/analytics.js must block non-production hosts from the production GA4 property']);
+  }
   if (!analyticsSource.includes("gtag('event','inquiry_submit_attempt'") ||
       !analyticsSource.includes("gtag('event','generate_lead'") ||
       analyticsSource.includes("gtag('event','inquiry_accepted'") ||
@@ -144,7 +148,7 @@ if (process.argv[2] === '--live') {
   }
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html', 'thank-you.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/analytics.js?v=20261004-confirmed-lead')) {
+    if (!html.includes('assets/js/analytics.js?v=20261005-single-lead')) {
       fail([`${page} must load the confirmed-lead analytics script version`]);
     }
   }
