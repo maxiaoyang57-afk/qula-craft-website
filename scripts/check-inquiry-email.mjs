@@ -133,10 +133,11 @@ if (process.argv[2] === '--live') {
   console.log('Application-context prefill safeguard passed.');
   const analyticsSource = fs.readFileSync(path.join(ROOT, 'assets/js/analytics.js'), 'utf8');
   if (!analyticsSource.includes("gtag('event','inquiry_submit_attempt'") ||
-      !analyticsSource.includes("gtag('event','inquiry_accepted'") ||
+      !analyticsSource.includes("gtag('event','generate_lead'") ||
+      analyticsSource.includes("gtag('event','inquiry_accepted'") ||
       !analyticsSource.includes("/\\/thank-you\\.html$/") ||
       !analyticsSource.includes('QULA_MARK_INQUIRY_PENDING')) {
-    fail(['assets/js/analytics.js must separate submit attempts from confirmed lead returns']);
+    fail(['assets/js/analytics.js must keep submit attempts separate and emit exactly one confirmed generate_lead return']);
   }
   if (!quoteScript.includes("QULA_MARK_INQUIRY_PENDING")) {
     fail(['assets/js/quote-v2.js must mark a pending inquiry only before native FormSubmit POST']);
