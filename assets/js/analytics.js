@@ -48,9 +48,15 @@
       var pending=JSON.parse(sessionStorage.getItem(LEAD_MARKER)||'null');
       if(pending&&Number.isFinite(pending.ts)&&Date.now()-pending.ts>=0&&Date.now()-pending.ts<=30*60*1000){
         sessionStorage.removeItem(LEAD_MARKER);
-        var params={page:pending.page||'',confirmation_page:location.pathname,form_id:pending.form_id||''};
+        var params={
+          page:pending.page||'',
+          confirmation_page:location.pathname,
+          form_id:pending.form_id||'',
+          lead_type:'wholesale_inquiry',
+          lead_status:'accepted'
+        };
+        // One confirmed thank-you return equals one GA4 lead conversion.
         gtag('event','generate_lead',params);
-        gtag('event','inquiry_accepted',params);
       }
     }catch(e){
       try{sessionStorage.removeItem(LEAD_MARKER);}catch(_){}
