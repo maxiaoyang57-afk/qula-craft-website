@@ -56,6 +56,9 @@
       const pImg = params.get('image');
       const pApplication = params.get('application');
       
+      const applicationEl = form.querySelector('input[name="application"]');
+      if (applicationEl && pApplication) applicationEl.value = pApplication;
+
       const previewEl = document.getElementById('selectedProduct');
       if (previewEl && (pName || pSku)) {
         previewEl.style.display = 'block';
@@ -86,8 +89,6 @@
             productSelect.value = pName;
           }
         }
-        const applicationEl = form.querySelector('input[name="application"]');
-        if (applicationEl && pApplication) applicationEl.value = pApplication;
         const messageEl = form.querySelector('textarea[name="message"]');
         if (messageEl) {
           const productNote = `I am interested in ${pName || pSku}. My question or request:\n\n`;
