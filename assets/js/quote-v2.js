@@ -54,6 +54,7 @@
       const pName = params.get('product');
       const pSku = params.get('sku');
       const pImg = params.get('image');
+      const pApplication = params.get('application');
       
       const previewEl = document.getElementById('selectedProduct');
       if (previewEl && (pName || pSku)) {
@@ -75,12 +76,18 @@
         document.getElementById('hiddenUrl').value = params.get('entry_page')?.startsWith('/') && !params.get('entry_page').startsWith('//') ? new URL(params.get('entry_page'), 'https://www.qulacrafts.com').href : window.location.href;
         
         const productSelect = form.querySelector('select[name="product"]');
-        if (pSku && productSelect) {
-          if (pSku.startsWith('RW')) productSelect.value = 'Resin Charms';
-          else if (pSku.startsWith('YX') || pSku.startsWith('YM')) productSelect.value = 'Polymer Clay Sprinkles';
-          else if (pSku.startsWith('CZB')) productSelect.value = 'Acrylic Beads';
-          else if (pSku.startsWith('CDK')) productSelect.value = 'Keychains';
+        if (productSelect) {
+          if (pSku) {
+            if (pSku.startsWith('RW')) productSelect.value = 'Resin Charms';
+            else if (pSku.startsWith('YX') || pSku.startsWith('YM')) productSelect.value = 'Polymer Clay Sprinkles';
+            else if (pSku.startsWith('CZB')) productSelect.value = 'Acrylic Beads';
+            else if (pSku.startsWith('CDK')) productSelect.value = 'Keychains';
+          } else if (pName && Array.from(productSelect.options).some(option => option.value === pName)) {
+            productSelect.value = pName;
+          }
         }
+        const applicationEl = form.querySelector('input[name="application"]');
+        if (applicationEl && pApplication) applicationEl.value = pApplication;
         const messageEl = form.querySelector('textarea[name="message"]');
         if (messageEl) {
           const productNote = `I am interested in ${pName || pSku}. My question or request:\n\n`;
