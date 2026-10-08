@@ -6,7 +6,7 @@ import json, re, statistics
 from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
-from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, sanitize_schema_value
+from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, public_specs
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -214,14 +214,14 @@ for e in pdp:
     h = re.sub(r'(<meta name="twitter:description" content=")[^"]*(")', lambda mm: mm.group(1) + esc(desc) + mm.group(2), h, 1)
     h = re.sub(r'(<meta name="twitter:image" content=")[^"]*(")', lambda mm: mm.group(1) + ogimg + mm.group(2), h, 1)
 
-    specs_raw = sanitize_schema_value(e.get("specs") or {})
+    specs_raw = public_specs(e)
     # schema
     product = {"@context": "https://schema.org", "@type": "Product", "name": title_full, "sku": sku,
                "image": [BASE + r for r in imgs] or [BASE + catrow["image"]],
                "description": desc, "category": cname, "url": url,
                "brand": {"@type": "Brand", "name": "Qula Craft"},
                "manufacturer": ORG_REF, "isFamilyFriendly": public_copy.get("isFamilyFriendly", True)}
-    # 真实规格 → schema 官方属性(零编造:只取 pdp-data 抓到的值,SKIP_VALS 跳过)
+    # Public specifications also correct proven import conflicts using source titles.
     def sv(k):
         v = str(specs_raw.get(k, "")).strip()
         return v if v and not is_noise(v) else None
