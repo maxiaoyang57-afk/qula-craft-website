@@ -255,39 +255,40 @@ GUIDES = [
 {
  "slug": "guide-decoden-supplies.html",
  "title": "Decoden Supplies: What Actually Goes on a Phone Case",
- "desc": "A sourcing guide to decoden charms: flatback vs 3D pieces, the size mix that makes a case look finished, why batch detail drifts, and how to buy a starter range from one bag.",
+ "desc": "A sourcing guide to decoden charms: confirm flatback style, plan focal and filler sizes, review current-batch samples, and quote pack counts and MOQ by SKU.",
  "crumb": "Decoden Supplies",
  "eyebrow": "Sourcing Guide",
  "h1": "Decoden Supplies: What Actually Goes on a Phone Case",
- "updated": "July 2026",
+ "updated": "8 October 2026",
+ "dateModified": "2026-10-08",
  "hero": "assets/images/real-life-scenes-v1/real-life-decoden-collection.webp",
  "heroW": 1200, "heroH": 1200,
  "heroAlt": "Decoden phone cases decorated with resin flatback charms, bows and cabochons",
  "heroCap": "A finished decoden case reads as one composition — not as a pile of charms.",
  "answer": ("<b>Short answer:</b> decoden needs <b>flatback</b> pieces that glue flush, in a deliberate mix of sizes — a few "
-            "large focal pieces, more mid-size, and a scatter of small fillers. Our resin charm line runs <b>19 stock designs</b> "
-            "from about <b>12&nbsp;mm to 36&nbsp;mm</b>, mostly <b>100pcs per bag from one bag</b>, so a starter range costs a few "
-            "bags rather than a bulk commitment."),
+            "large focal pieces, more mid-size, and a scatter of small fillers. Browse the <a href=\"resin-charms.html\">resin charm "
+            "catalogue</a>, then confirm the flatback style, dimensions, pack count and minimum order for each selected SKU. "
+            "The catalogue includes several attachment and backing styles; not every charm is suitable for a phone case."),
  "bodyHtml": f"""
   <h2>1. Flatback is the requirement, not a preference</h2>
   <p>Decoden works by gluing pieces onto a curved surface, usually over a whipped-cream base. A piece with a flat reverse side
   sits flush and bonds across its whole footprint. A rounded or 3D piece touches the glue at one point, sticks out, and is the
   first thing to catch on a pocket and pop off.</p>
   <p>That is why the useful phrase when sourcing is <b>&ldquo;flatback cabochon&rdquo;</b> rather than &ldquo;charm&rdquo;.
-  Charm often implies a drilled hole and a jump ring — useful for keychains, wrong for a case. Our resin line is described as
-  flatback for exactly this reason, and the pieces that are drilled are listed separately for jewellery and keychain use.</p>
+  Charm can describe a drilled piece, a looped pendant or a flatback component. For a phone case, request a reverse-side
+  photo and confirm a flat backing for each selected SKU; the category name alone does not establish suitability.</p>
 
   <h2>2. The size mix that makes a case look finished</h2>
   <p>Beginners buy one size and wonder why the result looks like a sticker sheet. A case that reads as a composition uses three
-  tiers, and our stock sizes map onto them:</p>
+  tiers. Use the ranges below as layout suggestions, then check the actual dimensions of your selected pieces:</p>
   <table class="spec-table matrix">
     <tr><th>Tier</th><th>Rough size</th><th>Count per case</th><th>Job</th></tr>
     <tr><td><b>Focal</b></td><td>~30&ndash;36&nbsp;mm</td><td>1&ndash;3</td><td>The piece the eye lands on; sets the theme</td></tr>
     <tr><td><b>Mid</b></td><td>~18&ndash;25&nbsp;mm</td><td>5&ndash;10</td><td>Carries the theme around the focal piece</td></tr>
     <tr><td><b>Filler</b></td><td>~12&nbsp;mm and under</td><td>20&ndash;40</td><td>Closes gaps so no base shows through</td></tr>
   </table>
-  <p>Filler pieces are where most of the count goes, which is exactly why 100pcs bags suit this craft — one bag of small
-  pieces covers many cases, while you only need a handful of focal pieces per design.</p>
+  <p>Filler pieces are where most of the count goes. Pack counts and minimum orders vary by SKU; use the confirmed
+  pieces per pack and your trial layout to calculate quantities rather than assuming every bag contains 100 pieces.</p>
 
   <h2>3. Why detail drifts between batches — and what to do</h2>
   <p>Cast resin is the right process for these shapes, but it has a physical limit worth understanding before you order at scale.
@@ -327,16 +328,16 @@ GUIDES = [
   of trouble.</p>
 
   <h2>6. A starter range in one order</h2>
-  <p>You can build a working decoden range without a bulk commitment. Sixteen of our 19 resin designs have a one-bag minimum
-  (three are two bags), and most pack 100pcs. A sensible first order is:</p>
+  <p>Build a proposed starter assortment, then request the current minimum order and pack count for each SKU.
+  The earlier 19-design example does not describe the full current catalogue. A useful selection plan is:</p>
   <ul>
     <li><b>1&ndash;2 focal designs</b> in the 30&nbsp;mm-plus band, matched to one theme;</li>
     <li><b>2&ndash;3 mid-size designs</b> that carry the same theme;</li>
     <li><b>1&ndash;2 small filler designs</b> — these get used fastest, so buy the deepest here;</li>
     <li>plus whipped-cream base and glue from your local supplier, which are cheaper to source domestically than to freight.</li>
   </ul>
-  <p>That is five to seven bags. It photographs as a coherent range, it leaves budget to reorder the fillers you burn through,
-  and it tells you which theme to go deep on before you spend on bulk.</p>
+  <p>That is five to seven designs to discuss, rather than a guaranteed five-to-seven-bag minimum. Confirm quantities,
+  flatback style, current-batch samples and packing in the quotation before placing the order.</p>
  """,
  "note": ("<b>Sourcing shorthand:</b> say &ldquo;flatback cabochon, no drill hole&rdquo; for decoden and &ldquo;drilled charm&rdquo; "
           "for keychains. The same design often exists both ways, and the wrong one is unusable on a case."),
@@ -357,8 +358,7 @@ GUIDES = [
     "roughly 25 to 100 castings before fine detail softens. On simple shapes it is negligible; on intricate designs, judge from a "
     "current-batch sample rather than a listing photo."),
    ("Can I order a decoden starter range without buying bulk?",
-    "Yes. Sixteen of the 19 stock resin designs have a one-bag minimum and most pack 100pcs, so a focal / mid / filler range is "
-    "typically five to seven bags — enough to photograph as a collection and find out which theme to scale."),
+    "A starter assortment can combine focal, mid-size and filler designs. Minimum orders and pack counts vary by SKU; request a quotation for the selected designs and confirm samples and flatback style before ordering."),
  ],
  "related": [
    ("resin-charms.html", "Resin charms &amp; flatback cabochons", "The full stock range with sizes, pack counts and per-SKU quoting."),

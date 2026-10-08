@@ -158,3 +158,22 @@ def sanitize_schema_value(value):
     if isinstance(value, dict):
         return {key: sanitize_schema_value(item) for key, item in value.items()}
     return value
+
+
+def public_specs(entry: dict) -> dict:
+    """Keep captured specs intact and correct the proven pen-bead type mismatch.
+
+    These imported records say 'Painting', while their own source titles identify
+    resin beads or flatback charms. Do not infer holes, dimensions or fit from
+    the category. The same public specs feed the visible table and Product schema.
+    """
+    specs = sanitize_schema_value(entry.get("specs") or {})
+    if (entry.get("categorySlug") == "beads-for-pens"
+            and specs.get("Product Type") == "Painting"
+            and specs.get("Material") == "Resin"):
+        title = entry.get("titleFull", "")
+        if re.search(r"\bflatback\b", title, re.I) and re.search(r"\bcharms?\b", title, re.I) and not re.search(r"\bbeads?\b", title, re.I):
+            specs["Product Type"] = "Resin flatback charm"
+        elif re.search(r"\bbeads?\b", title, re.I):
+            specs["Product Type"] = "Resin bead"
+    return specs
