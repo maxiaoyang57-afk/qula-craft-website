@@ -94,6 +94,11 @@ if (process.argv[2] === '--live') {
   if (!quoteScript.includes('HTMLFormElement.prototype.submit.call(form)')) {
     fail(['assets/js/quote-v2.js is missing verified native multipart submission']);
   }
+  if (!quoteScript.includes("const IS_PRODUCTION_HOST = /^(www\\.)?qulacrafts\\.com$/i.test(window.location.hostname);") ||
+      !quoteScript.includes("if (!IS_PRODUCTION_HOST)") ||
+      !quoteScript.includes("Preview validation passed — inquiry sending is disabled outside qulacrafts.com.")) {
+    fail(['assets/js/quote-v2.js must block native FormSubmit delivery on preview hosts']);
+  }
   if (!quoteScript.includes("nextField.value = 'https://qulacrafts.com/thank-you.html'")) {
     fail(['assets/js/quote-v2.js is missing the canonical production thank-you redirect']);
   }
@@ -122,28 +127,47 @@ if (process.argv[2] === '--live') {
   }
   console.log('Inquiry basket image safeguard passed.');
   const inquiryExperience = fs.readFileSync(path.join(ROOT, 'assets/js/inquiry-experience.js'), 'utf8');
+  if (!inquiryExperience.includes("const isProductionHost = /^(www\\.)?qulacrafts\\.com$/i.test(location.hostname);") ||
+      !inquiryExperience.includes("form.dataset.previewSubmissionDisabled = 'true'") ||
+      !inquiryExperience.includes("Preview validation passed — inquiry sending is disabled outside qulacrafts.com.")) {
+    fail(['assets/js/inquiry-experience.js must block real FormSubmit delivery on preview hosts']);
+  }
   if (!inquiryExperience.includes("const applicationField = field('application');") ||
       !inquiryExperience.includes("if (!applicationField.value) applicationField.value = applicationValue;")) {
     fail(['assets/js/inquiry-experience.js must prefill an existing application field from the application query parameter']);
   }
   const quoteHtml = fs.readFileSync(path.join(ROOT, 'quote.html'), 'utf8');
-  if (!quoteHtml.includes('assets/js/inquiry-experience.js?v=20261004-application')) {
-    fail(['quote.html must load the application-prefill inquiry script version']);
+  for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html']) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    if (!html.includes('assets/js/inquiry-experience.js?v=20261005-preview-safe')) {
+      fail([`${page} must load the preview-safe inquiry script version`]);
+    }
+  }
+  for (const page of ['index.html', 'quote.html']) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    if (!html.includes('assets/js/quote-v2.js?v=20261005-preview-safe')) {
+      fail([`${page} must load the preview-safe quote script version`]);
+    }
   }
   console.log('Application-context prefill safeguard passed.');
   const analyticsSource = fs.readFileSync(path.join(ROOT, 'assets/js/analytics.js'), 'utf8');
+  if (!analyticsSource.includes("IS_CANONICAL_ANALYTICS_HOST") ||
+      !analyticsSource.includes("/^(www\\.)?qulacrafts\\.com$/i.test(window.location.hostname)")) {
+    fail(['assets/js/analytics.js must block non-production hosts from the production GA4 property']);
+  }
   if (!analyticsSource.includes("gtag('event','inquiry_submit_attempt'") ||
-      !analyticsSource.includes("gtag('event','inquiry_accepted'") ||
+      !analyticsSource.includes("gtag('event','generate_lead'") ||
+      analyticsSource.includes("gtag('event','inquiry_accepted'") ||
       !analyticsSource.includes("/\\/thank-you\\.html$/") ||
       !analyticsSource.includes('QULA_MARK_INQUIRY_PENDING')) {
-    fail(['assets/js/analytics.js must separate submit attempts from confirmed lead returns']);
+    fail(['assets/js/analytics.js must keep submit attempts separate and emit exactly one confirmed generate_lead return']);
   }
   if (!quoteScript.includes("QULA_MARK_INQUIRY_PENDING")) {
     fail(['assets/js/quote-v2.js must mark a pending inquiry only before native FormSubmit POST']);
   }
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html', 'thank-you.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/analytics.js?v=20261004-confirmed-lead')) {
+    if (!html.includes('assets/js/analytics.js?v=20261005-single-lead')) {
       fail([`${page} must load the confirmed-lead analytics script version`]);
     }
   }

@@ -1,6 +1,7 @@
 
 (function() {
   const MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024;
+  const IS_PRODUCTION_HOST = /^(www\.)?qulacrafts\.com$/i.test(window.location.hostname);
 
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
@@ -220,6 +221,11 @@
 
       if (attachmentError || totalAttachmentBytes(attachments) > MAX_ATTACHMENT_BYTES) {
         updateAttachmentStatus(attachmentError || 'Please keep all attachments within the 10MB total limit.');
+        return;
+      }
+
+      if (!IS_PRODUCTION_HOST) {
+        updateAttachmentStatus('Preview validation passed — inquiry sending is disabled outside qulacrafts.com.');
         return;
       }
 
