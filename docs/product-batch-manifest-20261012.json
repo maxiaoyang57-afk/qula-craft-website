@@ -1,0 +1,1019 @@
+{
+  "batchId": "qula-products-20261012",
+  "target": "QULA",
+  "baselineCommit": "f17a33e2ae707a11ed3508edde3d06110a18163e",
+  "sourceWorkbook": "10.11.xlsx",
+  "sourceWorkbookSha256": "78c36468cae01f75417177fcaf8a449afd3264838b494dfaec977b5c19e6b554",
+  "catalogCountBefore": 238,
+  "catalogCountAfter": 253,
+  "newProductCount": 15,
+  "updatedProductCount": 1,
+  "imageCount": 48,
+  "sourceCategoryMapping": {
+    "resin charms / resin accessories": "Resin Charms",
+    "Jewelry keychain": "Keychain",
+    "charms / Jewelry earrings / Jewelry charms": "Jewelry Accessories"
+  },
+  "userCorrections": [
+    "CDK25805 confirmed by user; source image named RW25805.png."
+  ],
+  "categoryCountsBefore": {
+    "slime-charms": 23,
+    "polymer-clay-slices": 37,
+    "plastic-sequins": 23,
+    "resin-charms": 55,
+    "pvc-plastic-charms": 14,
+    "plastic-beads": 25,
+    "beads-for-pens": 22,
+    "keychain": 18,
+    "jewelry-accessories": 21
+  },
+  "categoryCountsAfter": {
+    "slime-charms": 23,
+    "polymer-clay-slices": 37,
+    "plastic-sequins": 23,
+    "resin-charms": 59,
+    "pvc-plastic-charms": 14,
+    "plastic-beads": 25,
+    "beads-for-pens": 22,
+    "keychain": 26,
+    "jewelry-accessories": 24
+  },
+  "previousCDK080Records": {
+    "catalog": {
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "sourceSheet": "Jewelry Accessories",
+      "sourceRow": 6,
+      "sortOrder": 6,
+      "sku": "CDK080",
+      "title": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "alibabaUrl": "https://www.alibaba.com/product-detail/Simple-Colorful-Keychain-Stainless-Steel-Carabiner_1600128215781.html?spm=a2747.product_manager.0.0.40ae71d2Atcl5m",
+      "cleanAlibabaUrl": "https://www.alibaba.com/product-detail/Simple-Colorful-Keychain-Stainless-Steel-Carabiner_1600128215781.html",
+      "alibabaProductId": "1600128215781",
+      "image": "assets/images/catalog/jewelry-accessories/006-cdk080.webp",
+      "imageAlt": "CDK080 Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "imageWidth": 667,
+      "imageHeight": 658,
+      "imageHash": "801103f84575750491806241cccec1b7",
+      "status": "ok",
+      "anchorNote": "",
+      "titleShort": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "titleFull": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "pdp": "p-cdk080.html"
+    },
+    "pdp": {
+      "catalogIndex": 223,
+      "assetKey": "cdk080",
+      "sku": "CDK080",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "url": "https://www.alibaba.com/product-detail/Simple-Colorful-Keychain-Stainless-Steel-Carabiner_1600128215781.html",
+      "status": "ok",
+      "reason": "",
+      "titleFull": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "moq": "1 bag",
+      "priceTiers": [
+        {
+          "qty": "",
+          "unit": "",
+          "price": "20",
+          "currency": "USD"
+        },
+        {
+          "qty": "10",
+          "unit": "bags",
+          "price": "10",
+          "currency": "USD"
+        },
+        {
+          "qty": "1",
+          "unit": "bag",
+          "price": "2.47",
+          "currency": "USD"
+        },
+        {
+          "qty": "100",
+          "unit": "Pcs",
+          "price": "7.59",
+          "currency": "USD"
+        },
+        {
+          "qty": "",
+          "unit": "",
+          "price": "16.36",
+          "currency": "USD"
+        }
+      ],
+      "specs": {
+        "Material": "Metal",
+        "Place of Origin": "Zhejiang, China",
+        "Product Type": "keychain wire",
+        "Feature": "Light Weight",
+        "Application": "Halloween, New Year, Birthday, Christmas, Wedding, Back to School, Earth Day, Easter, Graduation, national day, Thanksgiving, Chinese New Year, other, Anniversary, Mother's Day, Valentine'S Day, Father'S Day, April Fool's Day, Souvenir, Art & Collectible, promotion gift, supermarket shopping cart",
+        "Shape": "Round",
+        "Model Number": "HE-CDK080",
+        "Brand Name": "SOLA",
+        "Color": "Mix",
+        "Usage": "Keychain and other craft making."
+      },
+      "images": [
+        "https://sc01.alicdn.com/kf/Hb3a1e3152bc54c9a9b5ed33c13053728e.jpg",
+        "https://sc04.alicdn.com/kf/Hec754961dd3241c48eee7f2311615fc4x.jpg",
+        "https://s.alicdn.com/@sc04/kf/Hefbf16c2ccc34f0a86c8c5fa8a461ef6D.jpg",
+        "https://sc04.alicdn.com/kf/HTB1xW_4eUF7MKJjSZFLq6AMBVXa1.jpg",
+        "https://sc04.alicdn.com/kf/HTB1DaxpXUvMR1JjSZPcq6A1tFXaN.jpg",
+        "https://sc04.alicdn.com/kf/Hac9c410a88bb4208aa2dd37e3b411f98L.jpg",
+        "https://sc04.alicdn.com/kf/UTB8cSQzj5aMiuJk43PTq6ySmXXaE.jpg",
+        "https://sc04.alicdn.com/kf/UTB8b9Qzj5aMiuJk43PTq6ySmXXaB.jpg"
+      ],
+      "imagesLocal": [
+        "assets/images/pdp/cdk080/01.webp",
+        "assets/images/pdp/cdk080/02.webp",
+        "assets/images/pdp/cdk080/03.webp"
+      ],
+      "fetchedAt": "2026-07-24T09:28:39Z",
+      "pageTitle": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain - Buy Product on Alibaba.com",
+      "pageUrl": "https://www.alibaba.com/product-detail/Simple-Colorful-Keychain-Stainless-Steel-Carabiner_1600128215781.html"
+    },
+    "copy": {
+      "sku": "CDK080",
+      "displayTitle": "Simple Colorful Keychain Stainless Steel Carabiner Key Holder Outdoor Wire Keyrings Cable Rope Screw Locking Key Chain",
+      "metaTitle": "Jewelry Accessories Wholesale | CDK080 | Qula Craft",
+      "metaDescription": "Wire cable key rings with screw-lock closures for organizing keys and DIY accessory projects. Wholesale enquiries: CDK080.",
+      "isFamilyFriendly": true
+    }
+  },
+  "updatedReferencePages": [
+    "p-cdk1156.html",
+    "p-cdk183.html",
+    "p-cdk421.html",
+    "p-cdk5010.html"
+  ],
+  "products": [
+    {
+      "sku": "RW24707",
+      "sourceRow": 2,
+      "sourceFields": {
+        "sku": "RW24707",
+        "标题": "AB Plated Simulation Pearl Shell Artificial Resin Mermaid Shells Flat Back Resin Cabochon for DIY Deoc Parts Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "AB Pearl Shell Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw24707.html",
+      "operation": "new",
+      "sourceImage": "RW24707.png",
+      "sourceImageSha256": "4dc5e825b441f0c73698448f46c163a065f407a77ec0bbb34dab8ae343abf78a",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24707/rw24707-1-ab-pearl-shell-resin-cabochons.png",
+          "role": "main",
+          "width": 772,
+          "height": 716,
+          "sha256": "007b87765c6a4afc887e639b022501fde3b08719ae642a84141718e1e57aac98",
+          "bytes": 954183,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24707/rw24707-2-ab-pearl-shell-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "83b75af16ff579c3ec7826d47cc1d7dce639d535e7e9c9d8f17b2e650035eee0",
+          "bytes": 108065,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image, SKU RW24707, one single square image, 1024x1024. Image 1 is the edit target and the sole authority for product identity. Product identity: six iridescent scallop shell cabochons with central imitation pearl, aqua pink ivory purple yellow, preserve exact shell ribs and pearl sizes. Change only backdrop, lighting and spatial arrangement. Refined B2B craft-product styling scene on a light ivory tabletop, a plain small tray and soft natural daylight. Keep the product the clear focal subject, with all parts completely visible. No people. If the reference already has multiple pieces, use the same complete selection, simply rearranged. Preserve exact product geometry, colors, number and type of attachments, printed decoration and material appearance. Make the presentation polished, coherent professional product photography. Preserve every product detail from reference; no substitute designs, no added holes, no added features, no packaging quantities, no rulers, no dimensions, no new product claims. Remove badge overlays and inset circles only from the presentation; preserve any lettering printed ON the actual charms. No additional text, logo, labels, watermarks, props over product, or collage panels. Nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw24707/rw24707-3-ab-pearl-shell-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c2f7f83ca7df38621ac62475e0a69fb661237c5a7eecb0190c5e3c5d248b8120",
+          "bytes": 96661,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image, SKU RW24707, one single square image, 1024x1024. Image 1 is the edit target and the sole authority for product identity. Product identity: six iridescent scallop shell cabochons with central imitation pearl, aqua pink ivory purple yellow, preserve exact shell ribs and pearl sizes. Change only backdrop, lighting and spatial arrangement. Clean close-up catalog detail composition on an ivory background: use two or three exact same reference pieces, larger within frame, so original texture and attachment details are easy to examine. Show the COMPLETE selected pieces, never crop their outlines. Do not invent a reverse angle that is absent from the reference. Preserve exact product geometry, colors, number and type of attachments, printed decoration and material appearance. Make the presentation polished, coherent professional product photography. Preserve every product detail from reference; no substitute designs, no added holes, no added features, no packaging quantities, no rulers, no dimensions, no new product claims. Remove badge overlays and inset circles only from the presentation; preserve any lettering printed ON the actual charms. No additional text, logo, labels, watermarks, props over product, or collage panels. Nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "YZ167",
+      "sourceRow": 3,
+      "sourceFields": {
+        "sku": "YZ167 ",
+        "标题": "Wholesale Fish Pendants Custom Reflective Fish Charms for Necklace Earrings Bracelets Keychains and Zipper Pulls",
+        "分类": "charms",
+        "状态": "库存有货",
+        "材质": "acrylic",
+        "尺寸": "长度55mm",
+        "孔径": "咨询客服",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Reflective Acrylic Fish Pendants",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "pdp": "p-yz167.html",
+      "operation": "new",
+      "sourceImage": "YZ167.png",
+      "sourceImageSha256": "652c0355dbdd9a9b3c3063760e198742f78ad5025151034a4e47864864b6d201",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yz167/yz167-1-reflective-acrylic-fish-pendant-charms.png",
+          "role": "main",
+          "width": 759,
+          "height": 468,
+          "sha256": "ea95a7e10ddd1124825e1bc29080571d136e03e562577c232d2c409e1664af48",
+          "bytes": 581863,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yz167/yz167-2-reflective-acrylic-fish-pendant-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dcb3ae239eb5b89331490ea0f3888d6f5b5b481a556cd68bad0cc8387de88e2f",
+          "bytes": 106723,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU YZ167. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: three hook-free reflective fish pendants in pink, green and silver, preserve printed scales, black dots, eyes and exactly the same attachment loops; never add hooks. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/yz167/yz167-3-reflective-acrylic-fish-pendant-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e8cb5444165a52ee01532f8053f547937f074a181a7d7a00692b2adca9a2172c",
+          "bytes": 101752,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU YZ167. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: three hook-free reflective fish pendants in pink, green and silver, preserve printed scales, black dots, eyes and exactly the same attachment loops; never add hooks. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "RW749",
+      "sourceRow": 4,
+      "sourceFields": {
+        "sku": "RW749",
+        "标题": "100Pcs Hot Selling Small Walnut Resin Cabochon Pecan Charms for Scrapbooking Slime Charms Crafts Making Hair Bow DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mini Walnut Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw749.html",
+      "operation": "new",
+      "sourceImage": "RW749.png",
+      "sourceImageSha256": "b6075a8d67039638123af0a3331abc90204a03b529b3ceaca55bffa3aa4efcac",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw749/rw749-1-mini-walnut-resin-flatback-cabochons.png",
+          "role": "main",
+          "width": 762,
+          "height": 440,
+          "sha256": "c565ef702a2c1bc6020f89755fb4b3e82d119ec22658bccbb394bb261a5ec520",
+          "bytes": 435837,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw749/rw749-2-mini-walnut-resin-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4aa2010c5270f4ffe591966b9397e7dd5d3593d1d74f29529bb0bbb8006bdec1",
+          "bytes": 93420,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU RW749. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: small brown walnut-shaped resin cabochons, preserve walnut lobes, grooves and flat back; do not replace with actual edible walnuts. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/rw749/rw749-3-mini-walnut-resin-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6742e3602a3e56420343660d6674a3c34977527f9b83a2175a8584192b949f43",
+          "bytes": 72572,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU RW749. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: small brown walnut-shaped resin cabochons, preserve walnut lobes, grooves and flat back; do not replace with actual edible walnuts. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "RW25179",
+      "sourceRow": 5,
+      "sourceFields": {
+        "sku": "RW25179 ",
+        "标题": "Kawaii Small 3d Miniature Bowknot Gift Box Design Flatback Resin Cabochon Diy Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mini Gift Box Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw25179.html",
+      "operation": "new",
+      "sourceImage": "RW25179.png",
+      "sourceImageSha256": "cd2a035925b85554ef3f397489213f025ceef291cb86b05b8f45073d61b3a654",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25179/rw25179-1-mini-gift-box-resin-cabochons.png",
+          "role": "main",
+          "width": 757,
+          "height": 652,
+          "sha256": "412fbe889ad42c42dab5c27622e671f2c716072f3715ecd367862467e99504bc",
+          "bytes": 1037564,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw25179/rw25179-2-mini-gift-box-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "30cbd120acc263af99bd63b1c8eb489baa1018218e94c2db87c9b8f00f0206b5",
+          "bytes": 168126,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU RW25179. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: red and purple polka-dot gift box cabochons with green or turquoise bows, preserve every box shape and bow color combination. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/rw25179/rw25179-3-mini-gift-box-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8bbc552e38fac7152868bc4b4f0b40b3527e9450bb1e19ab7f4041c70cc978d8",
+          "bytes": 120538,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU RW25179. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: red and purple polka-dot gift box cabochons with green or turquoise bows, preserve every box shape and bow color combination. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "YV353",
+      "sourceRow": 6,
+      "sourceFields": {
+        "sku": "YV353",
+        "标题": "Pink Wide Brim Hat Mirror Ball Dangle Earrings Reflective Party Jewelry Accessories Custom Wholesale",
+        "分类": "Jewelry  earrings",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "46*55*57mm",
+        "孔径": "无",
+        "颜色": "否",
+        "包装规格": "主要规格50pair/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pink Hat Mirror Ball Dangle Earrings",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "pdp": "p-yv353.html",
+      "operation": "new",
+      "sourceImage": "YV353.png",
+      "sourceImageSha256": "335855ee3a0d47ec76b6f0f30e6414b23131fec50bc1139b8874166486bd0069",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yv353/yv353-1-pink-hat-mirror-ball-earrings.png",
+          "role": "main",
+          "width": 742,
+          "height": 664,
+          "sha256": "46e2313a8c97a2b8363d5d6b0b6f1e59826709ca072c842b7eb8cd434ad555a4",
+          "bytes": 1121080,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yv353/yv353-2-pink-hat-mirror-ball-earrings-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "68bf986ffb83c8f1d1f8ab52a234b4ee75aa360d3538fdce1810c1290ee69787",
+          "bytes": 100077,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU YV353. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: pink wide-brim hats around silver mirrored disco-ball earrings with silver hooks, preserve the exact hat/ball/hook construction; do not substitute cowboy hats or full silver spheres. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/yv353/yv353-3-pink-hat-mirror-ball-earrings-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3358a2bd8cb8009d2b1efc6212aedae580fd92f1931d1f7be66f0b2778becb83",
+          "bytes": 74112,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU YV353. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: pink wide-brim hats around silver mirrored disco-ball earrings with silver hooks, preserve the exact hat/ball/hook construction; do not substitute cowboy hats or full silver spheres. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK25805",
+      "sourceRow": 7,
+      "sourceFields": {
+        "sku": "CDK25805",
+        "标题": "Christmas Resin Charm Keychain Red Metal Clasp Mixed Festive Pendants for Bags Keys Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "60*23mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mixed Christmas Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk25805.html",
+      "operation": "new",
+      "sourceImage": "RW25805.png",
+      "sourceImageSha256": "2d38b6da30280866d77d26ceeeeb83c74da86a14086081bb14c8cad55e938e0a",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk25805/cdk25805-1-mixed-christmas-resin-charm-keychains.png",
+          "role": "main",
+          "width": 704,
+          "height": 635,
+          "sha256": "16110af90197dff72ebd964c0b5737503a9fda843e7bcbf66fcf3f813124a6ba",
+          "bytes": 1122113,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk25805/cdk25805-2-mixed-christmas-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "86e4bf5a5271e72857de72d8728c725f758118726e18b7f933357264d1d6f854",
+          "bytes": 160655,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image, SKU CDK25805, one single square image, 1024x1024. Image 1 is the edit target and the sole authority for product identity. Product identity: five mixed Christmas resin pendants and their red metal clips: Santa Merry Christmas, Christmas tree character with gift, snowman stocking, green wreath and gingerbread character; preserve their exact shapes, printing and clip construction. Change only backdrop, lighting and spatial arrangement. Refined B2B craft-product styling scene on a light ivory tabletop, a plain small tray and soft natural daylight. Keep the product the clear focal subject, with all parts completely visible. No people. If the reference already has multiple pieces, use the same complete selection, simply rearranged. Preserve exact product geometry, colors, number and type of attachments, printed decoration and material appearance. Make the presentation polished, coherent professional product photography. Preserve every product detail from reference; no substitute designs, no added holes, no added features, no packaging quantities, no rulers, no dimensions, no new product claims. Remove badge overlays and inset circles only from the presentation; preserve any lettering printed ON the actual charms. No additional text, logo, labels, watermarks, props over product, or collage panels. Nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/cdk25805/cdk25805-3-mixed-christmas-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b5ae3a73fac809fbe19d0658d2aa8d331cacb716a5af7fe43b468b9ecd375a94",
+          "bytes": 115083,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image, SKU CDK25805, one single square image, 1024x1024. Image 1 is the edit target and the sole authority for product identity. Product identity: five mixed Christmas resin pendants and their red metal clips: Santa Merry Christmas, Christmas tree character with gift, snowman stocking, green wreath and gingerbread character; preserve their exact shapes, printing and clip construction. Change only backdrop, lighting and spatial arrangement. Clean close-up catalog detail composition on an ivory background: use two or three exact same reference pieces, larger within frame, so original texture and attachment details are easy to examine. Show the COMPLETE selected pieces, never crop their outlines. Do not invent a reverse angle that is absent from the reference. Preserve exact product geometry, colors, number and type of attachments, printed decoration and material appearance. Make the presentation polished, coherent professional product photography. Preserve every product detail from reference; no substitute designs, no added holes, no added features, no packaging quantities, no rulers, no dimensions, no new product claims. Remove badge overlays and inset circles only from the presentation; preserve any lettering printed ON the actual charms. No additional text, logo, labels, watermarks, props over product, or collage panels. Nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "SD168",
+      "sourceRow": 8,
+      "sourceFields": {
+        "sku": "SD168",
+        "标题": "Transparent Flexible Phone Lanyard Cads Mobile Phone Universal Tether Tabs Clear Hanging Strap Patches Cord Clip",
+        "分类": "Jewelry charms",
+        "状态": "库存有货",
+        "材质": "none",
+        "尺寸": "none",
+        "孔径": "有",
+        "颜色": "否",
+        "包装规格": "可以定制，咨询客服"
+      },
+      "displayTitle": "Clear Phone Lanyard Tether Tabs",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "pdp": "p-sd168.html",
+      "operation": "new",
+      "sourceImage": "SD168.png",
+      "sourceImageSha256": "f587f77c3bbbb5b3405c5233a4c43779d63a21c65319447c585c028f462911c5",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/sd168/sd168-1-clear-phone-lanyard-tether-tabs.png",
+          "role": "main",
+          "width": 712,
+          "height": 588,
+          "sha256": "f5cbf2a334916611af3760f97cb4026a37115ee5a6c9b2090c63254400c17415",
+          "bytes": 1084318,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/sd168/sd168-2-clear-phone-lanyard-tether-tabs-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7e0f4b1985640965a49380e86a688089acbae3a5ba540686833bccbe4acbc95a",
+          "bytes": 88240,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU SD168. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: transparent rectangular phone tether tabs with exactly matching rounded corners, projecting central necks and circular metal grommets, preserve clear transparency and shape; do not add cords, snap hooks or make them opaque. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/sd168/sd168-3-clear-phone-lanyard-tether-tabs-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f5779f6f4b484586e9462c76af5581907006cf3af25c18577b0fb846c51b42e3",
+          "bytes": 35770,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU SD168. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: transparent rectangular phone tether tabs with exactly matching rounded corners, projecting central necks and circular metal grommets, preserve clear transparency and shape; do not add cords, snap hooks or make them opaque. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK080",
+      "sourceRow": 9,
+      "sourceFields": {
+        "sku": "CDK080 ",
+        "标题": "Colorful Metal Wire Key Ring Keychain Key Holder Wire Keyrings Cable Rope Screw Locking Key Chain Outdoor Tools",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Alloy",
+        "尺寸": "50mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Colorful Screw-Lock Wire Key Rings",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk080.html",
+      "operation": "update existing",
+      "sourceImage": "CDK080.png",
+      "sourceImageSha256": "18a002e0dbc3047830f843a7e8684f6300a48091ef6dd136540a8b0e8d8f9eb3",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk080/cdk080-1-colorful-screw-lock-wire-keyrings.png",
+          "role": "main",
+          "width": 732,
+          "height": 475,
+          "sha256": "9764e6fe76fdd773fdf7d84fca2c5ed89c2a9048ae33746a87bd3c71b291ca97",
+          "bytes": 591282,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk080/cdk080-2-colorful-screw-lock-wire-keyrings-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ca8b58e171e4861bcf6c999b14339a8dac06d981a11abd62aa4f1965360b58b",
+          "bytes": 150582,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK080. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: colorful round thin wire cable loops with matching cylindrical screw-lock barrels, preserve thin braided cables, round shape and all color combinations; do not make lobster clasps, carabiners, split rings or thicker bracelets. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk080/cdk080-3-colorful-screw-lock-wire-keyrings-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cadf8109b1d3a76c18febbba997aa3a883a68710acf627313e0a65142a63bb29",
+          "bytes": 68807,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK080. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: colorful round thin wire cable loops with matching cylindrical screw-lock barrels, preserve thin braided cables, round shape and all color combinations; do not make lobster clasps, carabiners, split rings or thicker bracelets. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK004729",
+      "sourceRow": 10,
+      "sourceFields": {
+        "sku": "CDK004729 ",
+        "标题": "Christmas Letter Resin Charm Keychain Red Metal Clasp Festive Bag Pendant Keyring Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "60*33mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Letter Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk004729.html",
+      "operation": "new",
+      "sourceImage": "CDK004729.png",
+      "sourceImageSha256": "7f3ea1221cb512f9c0decf219a6a62baf51e2123c25b67de44ec762046a684a7",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk004729/cdk004729-1-christmas-letter-resin-charm-keychains.png",
+          "role": "main",
+          "width": 698,
+          "height": 663,
+          "sha256": "9904cc7aedcfa04330d61c0895207c2c7c5090f769cd6cc65021d472e12b4c87",
+          "bytes": 918160,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004729/cdk004729-2-christmas-letter-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "13c803747a76930048a38196575b516e4a7fda64c1a04d8b329dfa90b834d715",
+          "bytes": 133720,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK004729. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: four Christmas word pendants spelling Merry, XMAS, FEST and Merry with red metal clips, preserve precisely the same letter shapes, spelling, colors, small details and red clip construction. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk004729/cdk004729-3-christmas-letter-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c9c1c5d9ea8dfc43b9c311700282e7f7587863f03d7d377682470e5bceb082c8",
+          "bytes": 97158,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK004729. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: four Christmas word pendants spelling Merry, XMAS, FEST and Merry with red metal clips, preserve precisely the same letter shapes, spelling, colors, small details and red clip construction. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK26773",
+      "sourceRow": 11,
+      "sourceFields": {
+        "sku": "CDK26773 ",
+        "标题": "Christmas Resin Charm Keychain Red Metal Clasp Mixed Festive Pendants for Bags Keys Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "20*60mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Stocking and Tree Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk26773.html",
+      "operation": "new",
+      "sourceImage": "CDK26773.png",
+      "sourceImageSha256": "37b9ad04f9803af7527e74e0bc913731abcfe260d9c989f677d6ddb44b3f9481",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk26773/cdk26773-1-christmas-stocking-tree-resin-keychains.png",
+          "role": "main",
+          "width": 738,
+          "height": 735,
+          "sha256": "381b69a3b772b154208341725d187d5bf8d6071fe8bfb69fd402e61134c7425a",
+          "bytes": 1390329,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26773/cdk26773-2-christmas-stocking-tree-resin-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b4556e6418cb50d157fedda6d04494d24439a4b4d6cb7e825296653bb8370581",
+          "bytes": 148781,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK26773. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: Christmas stocking, girl tree, smiling tree, bells, gingerbread, snowman and Santa character resin keychains with matching red clips, preserve all exact pendant outlines and painted details. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk26773/cdk26773-3-christmas-stocking-tree-resin-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "807304e9023afca36f32cdb896750976cce98dcbb1f110e034e631c73fb0e7f4",
+          "bytes": 87927,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK26773. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: Christmas stocking, girl tree, smiling tree, bells, gingerbread, snowman and Santa character resin keychains with matching red clips, preserve all exact pendant outlines and painted details. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK25977",
+      "sourceRow": 12,
+      "sourceFields": {
+        "sku": "CDK25977 ",
+        "标题": "Christmas Resin Charm Keychain Red Metal Clasp Mixed Festive Pendants for Bags Keys Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "24*70mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Santa and Penguin Christmas Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk25977.html",
+      "operation": "new",
+      "sourceImage": "CDK25977.png",
+      "sourceImageSha256": "1f2a4b22799dbd2c7fa46d89fe3d066796777c5893d6411c5bbe4da728b00087",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk25977/cdk25977-1-santa-penguin-christmas-resin-keychains.png",
+          "role": "main",
+          "width": 762,
+          "height": 734,
+          "sha256": "f3cd79bd605b5533ad18626e7f9f41ef01dbee67ac53250d820b4e5eb27777b5",
+          "bytes": 1393670,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk25977/cdk25977-2-santa-penguin-christmas-resin-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dbac9593bd329e6b63b8585ec74c5af3e4a687146c8d61bf5fc747104eca32ca",
+          "bytes": 189964,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK25977. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: mixed Christmas resin keychains with red clips, including same Santa, stocking, penguin, framed scenes, sweater and bells, preserve exact designs from reference. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk25977/cdk25977-3-santa-penguin-christmas-resin-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c0991ac81cc6e744efcc89ba13787918f9a9ff8220869201d7ba190771b3d35d",
+          "bytes": 189433,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK25977. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: mixed Christmas resin keychains with red clips, including same Santa, stocking, penguin, framed scenes, sweater and bells, preserve exact designs from reference. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK26367",
+      "sourceRow": 13,
+      "sourceFields": {
+        "sku": "CDK26367 ",
+        "标题": "Christmas Resin Pillow Charm Keychain with Red Metal Clasp Square Festive Bag Pendant Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "63*23mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Pillow Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk26367.html",
+      "operation": "new",
+      "sourceImage": "CDK26367.png",
+      "sourceImageSha256": "e9aea28f33a8b3136e874e49ce1d36c2420d817e684cb60502f1db69608de883",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk26367/cdk26367-1-christmas-pillow-charm-red-keychains.png",
+          "role": "main",
+          "width": 738,
+          "height": 733,
+          "sha256": "7cf77468e8966e7605df1f20706e3a416028be503186431747c493a9a6f462fb",
+          "bytes": 1469457,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26367/cdk26367-2-christmas-pillow-charm-red-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "23176dc9ccd5f42ca2c4dbd66f5237f9ddf9110153914710f496ef83570d47f0",
+          "bytes": 189594,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK26367. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: square miniature Christmas cushion-design charms with red clips, preserve printed snowman, reindeer, penguin, snowflake and Christmas tree patterns exactly; do not change surface textures or construction, do not interpret new materials. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk26367/cdk26367-3-christmas-pillow-charm-red-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ba8dc31797c48aa1f10956b8aa8e343a44ef3bb0790d55ee7503c4fb59a3e25b",
+          "bytes": 137919,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK26367. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: square miniature Christmas cushion-design charms with red clips, preserve printed snowman, reindeer, penguin, snowflake and Christmas tree patterns exactly; do not change surface textures or construction, do not interpret new materials. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK26774",
+      "sourceRow": 14,
+      "sourceFields": {
+        "sku": "CDK26774 ",
+        "标题": "Christmas Mixed Charm Keychains for Bag Decoration Holiday Gifts and Wholesale Supplies",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "63 *23 mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Snow Globe and House Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk26774.html",
+      "operation": "new",
+      "sourceImage": "CDK26774.png",
+      "sourceImageSha256": "aaa9ee9627cbd6da0ba9b9a420420ace192805c6ed3d7e321125f43965a77b18",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk26774/cdk26774-1-christmas-snow-globe-house-keychains.png",
+          "role": "main",
+          "width": 732,
+          "height": 724,
+          "sha256": "40eb065a36c6a0d9bde0d1509187322206c33b939e0c826fb161dd0d8834a47c",
+          "bytes": 1335749,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26774/cdk26774-2-christmas-snow-globe-house-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c52387745975b0a49f9553cd2bd297f219b90258648cef35c506328326b21d82",
+          "bytes": 159200,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK26774. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: Christmas snow-globe, house, gift, stocking, gingerbread, wreath and snowman resin keychains with red clips, preserve exactly these designs and painted details. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk26774/cdk26774-3-christmas-snow-globe-house-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "485f2d1004420ec7604a15a12d7307fd744f5cace082c94c2d7f5a4e755b154c",
+          "bytes": 107522,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK26774. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: Christmas snow-globe, house, gift, stocking, gingerbread, wreath and snowman resin keychains with red clips, preserve exactly these designs and painted details. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "CDK0020557",
+      "sourceRow": 15,
+      "sourceFields": {
+        "sku": "CDK0020557 ",
+        "标题": "Christmas Candy Resin Charm Keychain Red Metal Clasp Festive Tree Bow Pendants for Bags Keys Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "70 *21 mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Candy and Bow Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk0020557.html",
+      "operation": "new",
+      "sourceImage": "CDK0020557.png",
+      "sourceImageSha256": "dc2c2fece22edfa5f44fe452ad6e0b374e29da7cf87907bbf50c986fcb2fde76",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk0020557/cdk0020557-1-christmas-candy-bow-resin-keychains.png",
+          "role": "main",
+          "width": 710,
+          "height": 667,
+          "sha256": "d5a66d4816e9938996c098f352292cd21d25674543a60bfe467bef7c5cfd01c2",
+          "bytes": 1011140,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk0020557/cdk0020557-2-christmas-candy-bow-resin-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a71fe8ea6d00955c99607ea5e1e86bb5a4eb0d295cd1115a0aec7586d6e6436b",
+          "bytes": 139708,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU CDK0020557. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: five red-clipped Christmas candy cane, lollipop, bow and tree resin pendant designs, preserve exact striped patterns and red/white/green color combinations. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/cdk0020557/cdk0020557-3-christmas-candy-bow-resin-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bcbb7dd38a5f5209ea91dc427a377fa3afc8ced519ad06e053c259e102cb7546",
+          "bytes": 126786,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU CDK0020557. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: five red-clipped Christmas candy cane, lollipop, bow and tree resin pendant designs, preserve exact striped patterns and red/white/green color combinations. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "RW22898",
+      "sourceRow": 16,
+      "sourceFields": {
+        "sku": "RW22898",
+        "标题": "Luminous Flower Charms Glow in Dark 3D Rose Flower Resin Flatback Cabochon Kawaii Accessories Nail Art Decoration",
+        "分类": "resin accessories",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Luminous Flower Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw22898.html",
+      "operation": "new",
+      "sourceImage": "RW22898.png",
+      "sourceImageSha256": "21cd3fcbaf3bb0911c0a45df4f958e461e221acf042b86f45f2d1ac4ddbf81c2",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22898/rw22898-1-luminous-flower-resin-flatback-cabochons.png",
+          "role": "main",
+          "width": 693,
+          "height": 658,
+          "sha256": "29b7b5d9a9c11109be3e5441d0b8efd7e2e990cb142a434b004d24e3c4a62901",
+          "bytes": 832200,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw22898/rw22898-2-luminous-flower-resin-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8c88de49cb5377ca6507b5eca5ff58b534bbff08e8df5173e48d0c67a731032d",
+          "bytes": 166672,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU RW22898. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: translucent five-petal flower resin cabochons with shiny embedded flakes in the precise pink blue black cream red green and white colors shown, preserve flowers and petal count; do not create rose buds or show invented nighttime glow. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/rw22898/rw22898-3-luminous-flower-resin-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1ae8e1e0ba9cd188be94b06cb47f8353235e625608a1d733ed1d8259f37d5be5",
+          "bytes": 154086,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU RW22898. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: translucent five-petal flower resin cabochons with shiny embedded flakes in the precise pink blue black cream red green and white colors shown, preserve flowers and petal count; do not create rose buds or show invented nighttime glow. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    },
+    {
+      "sku": "YA802",
+      "sourceRow": 17,
+      "sourceFields": {
+        "sku": "YA802",
+        "标题": "Luminous Christmas Snowflakes Flat Back Cabochon for Crafts Supplies Scrapbooking Accessories Deco Parts",
+        "分类": "Jewelry  earrings",
+        "状态": "库存有货",
+        "材质": "Acrylic",
+        "尺寸": "30MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Luminous Acrylic Snowflake Flatback Cabochons",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "pdp": "p-ya802.html",
+      "operation": "new",
+      "sourceImage": "YA802.png",
+      "sourceImageSha256": "f668db2161e0c3f213b14347595c3dd2f9eb5faa46ae8b69f5e3461c9ab0051a",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya802/ya802-1-luminous-acrylic-snowflake-flatback-cabochons.png",
+          "role": "main",
+          "width": 659,
+          "height": 637,
+          "sha256": "36d7dc3beab1dc7bedf788c4c83ab39519731138cab5a81e5b4f34ab3e28eeaf",
+          "bytes": 772313,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/ya802/ya802-2-luminous-acrylic-snowflake-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "980bb02913063b8216fc9cc278757944e4c873f08c61d16aa9ff46e6e107a4a5",
+          "bytes": 125790,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene image. SKU YA802. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: translucent six-branch snowflake flatback cabochons in precise pastel pink clear lavender mint blue yellow colors shown; preserve exact six-branch outlines and flake texture, do not add a hole or hooks, do not invent nighttime glow. Change only background, lighting and spacing, preserving the reference products faithfully. Refined B2B craft-product styling scene on a light ivory tabletop with a plain tray and soft natural daylight. Keep the exact reference products as the clear focal subject with all parts fully visible. Only restrained background props. No people. Use the same reference selection simply arranged coherently. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        },
+        {
+          "path": "assets/images/pdp/ya802/ya802-3-luminous-acrylic-snowflake-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f607b26546c51c58d2a18a72ea36feced4d09b9234fd0ca7158f6f6b881f14d9",
+          "bytes": 113371,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail image. SKU YA802. One single square image. Image 1 is the edit target and the sole authority for product identity. Subject: translucent six-branch snowflake flatback cabochons in precise pastel pink clear lavender mint blue yellow colors shown; preserve exact six-branch outlines and flake texture, do not add a hole or hooks, do not invent nighttime glow. Change only background, lighting and spacing, preserving the reference products faithfully. Clean close-up catalog detail composition on an ivory background: two or three exact same reference pieces, large within frame, to inspect their original texture and attachments. Show the COMPLETE selected pieces, never crop product outlines. Do not invent a rear/underside view that is absent from the reference. Preserve exact outlines, proportions, colors, petal count, number and type of attachment loops, printed decoration and material appearance. Use coherent polished professional product photography. Do not substitute or redesign any products, add any holes, modify fastenings, add other product colors or motifs, change printed lettering, invent packaging or size facts. Remove badge overlays and inset circles from presentation only; any lettering printed ON the actual product must remain identical. No added text, logos, labels, watermark, measurements, certification, rulers, split panels, or props covering the product. Do not portray glow-in-dark performance."
+        }
+      ]
+    }
+  ],
+  "validationStatus": "local checks passed; preview pending",
+  "validationEvidence": {
+    "sourceWorkbookFieldsMatched": 16,
+    "referenceImagesPixelIdentical": 16,
+    "galleryImagesChecked": 48,
+    "catalogIndexAlignment": "passed",
+    "unrelatedPdpRecordsPreserved": 237,
+    "buildGuards": [
+      "inquiry email",
+      "protected products",
+      "SEO and JSON-LD",
+      "IndexNow"
+    ],
+    "inquiryBasketSynchronization": "passed",
+    "generatedImageVisualReview": "32 styled images compared with source references"
+  }
+}
