@@ -19,4 +19,12 @@ Local validation:
 - JPEG/PNG dimensions, transparency, sRGB, 72 PPI and EXIF/GPS stripping checked.
 - Git whitespace checks pass.
 
-Preview and production acceptance will be recorded below. No inquiry email is submitted by this batch. Mobile physical-device acceptance is not claimed.
+Release validation:
+- GitHub Actions repository guards and the existing 390 × 844 mobile menu, fixed CTA, PDP and applications checks passed for PR #61.
+- All 21 quote links passed a full-runtime prefill check with complete SKU, image, message and actual category; unknown categories retain the safe legacy fallback.
+- Vercel preview dpl_7qJzGMhwztfdCdnmACQXJ55pF3p3 was READY for commit 85dae3e261b56623ca2dbbfe74ce0cedb515ddce.
+- Browser acceptance loaded all 21 new PDPs and all 63 gallery images. Images use contain, with no desktop horizontal overflow.
+- Direct quote flows for RW728, YA446/YA447, RW1672/RW2072/RW3492/RW20104 and SD144 preserved complete codes, product photos and the correct categories. The grouped bear SKU also synchronized to the inquiry list and message.
+- Catalog search returned exactly one matching RW5463 item.
+
+Production deployment and post-release checks are recorded in PR #61. No inquiry email was submitted by this batch. Mobile physical-device acceptance is not claimed.
