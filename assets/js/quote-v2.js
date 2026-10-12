@@ -55,6 +55,7 @@
       const pSku = params.get('sku');
       const pImg = params.get('image');
       const pApplication = params.get('application');
+      const pCategory = params.get('category');
       
       const applicationEl = form.querySelector('input[name="application"]');
       if (applicationEl && pApplication) applicationEl.value = pApplication;
@@ -87,6 +88,9 @@
             else if (pSku.startsWith('CDK')) productSelect.value = 'Keychains';
           } else if (pName && Array.from(productSelect.options).some(option => option.value === pName)) {
             productSelect.value = pName;
+          }
+          if (pCategory && Array.from(productSelect.options).some(option => option.value === pCategory)) {
+            productSelect.value = pCategory;
           }
         }
         const messageEl = form.querySelector('textarea[name="message"]');

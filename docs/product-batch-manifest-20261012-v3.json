@@ -1,0 +1,1154 @@
+{
+  "batchId": "qula-products-20261012-v3",
+  "target": "QULA",
+  "baselineCommit": "3be300fda56242b4a777c6ca22298be08f61aea4",
+  "sourceWorkbook": "10.11(3).xlsx",
+  "sourceWorkbookSha256": "fc10ef86fdb55d31eceecd7ef851d1f9946a3bcfa7460c1f70fb2f068f7a23b5",
+  "sourceProductRows": 37,
+  "preservedPreviousBatchRows": 16,
+  "newProductCount": 21,
+  "catalogCountBefore": 253,
+  "catalogCountAfter": 274,
+  "imageCount": 63,
+  "userCorrections": [
+    "User confirmed RW5463; supplied photo file is named RW5643.png."
+  ],
+  "sourceCategoryMapping": {
+    "resin charms": "resin-charms",
+    "resin beads": "resin-charms",
+    "acrylic beads": "plastic-beads",
+    "polymer clay": "polymer-clay-slices",
+    "glitter sequins": "plastic-sequins",
+    "sequin glitter": "plastic-sequins",
+    "jewelry keychain": "keychain",
+    "jewelry charms": "jewelry-accessories",
+    "glass beads": "slime-charms"
+  },
+  "categoryMappingNotes": [
+    "Glass Beads is routed to the existing Slime Charms supplies category as no-hole decorative glass fillers; glass material remains explicit.",
+    "RW728 uses source Acrylic/Plastic/Lucite material and source acrylic-beads classification; source title mentioning resin is retained only in raw sourceFields."
+  ],
+  "products": [
+    {
+      "sku": "CDK004448",
+      "sourceRow": 18,
+      "sourceFields": {
+        "sku": "CDK004448 ",
+        "标题": "Christmas Resin Charm Keychain with Red Metal Clasp Mixed Festive Pendants for Bags Keys Custom Wholesale",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "resin  and Alloy",
+        "尺寸": "65*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Christmas Character Resin Charm Keychains",
+      "category": "Keychain",
+      "categorySlug": "keychain",
+      "pdp": "p-cdk004448.html",
+      "operation": "new",
+      "sourceImage": "CDK004448.png",
+      "sourceImageSha256": "a954d3f928fb4e9aaf993e24be607dd8eb928c10c95a88079132cd890be5235b",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk004448/cdk004448-1-christmas-character-resin-charm-keychains.jpg",
+          "role": "main",
+          "width": 716,
+          "height": 677,
+          "sha256": "de0d20e36b57786f922cbfaca6c8d200e99228e9e922a26fe51b171655b417ce",
+          "bytes": 101933,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004448/cdk004448-2-christmas-character-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c2f0d577ce2d685d3c5d5a03335d3ed21034e9db1588a5bb4e8d94372201d20c",
+          "bytes": 173290,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU CDK004448, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: five exact Christmas resin charms with red D-shaped metal clasps, each clasp face has TWO round fasteners; linked red circular ring and silver attachment; exact pastel reindeer, gingerbread, tree, Santa bear and stocking design. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/cdk004448/cdk004448-3-christmas-character-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ac73e12b6ed3fff31a0f01f258527e768419ed22b4984e4fda85d723b3fb592f",
+          "bytes": 195133,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU CDK004448, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: five exact Christmas resin charms with red D-shaped metal clasps, each clasp face has TWO round fasteners; linked red circular ring and silver attachment; exact pastel reindeer, gingerbread, tree, Santa bear and stocking design. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW2041",
+      "sourceRow": 19,
+      "sourceFields": {
+        "sku": "RW2041 ",
+        "标题": "Resin Bling Glitter Girls Magic Stick  Flat Back Cabochons Kawaii Candy Lollipop Craft Hair Accessories",
+        "分类": "resin  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*18*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Glitter Heart and Bow Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw2041.html",
+      "operation": "new",
+      "sourceImage": "RW2041.png",
+      "sourceImageSha256": "9db81e0f5d0f933ff869445277d6908e921b3a21aa11d4cfa75bbc442f5f8a3b",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2041/rw2041-1-glitter-heart-bow-resin-cabochons.jpg",
+          "role": "main",
+          "width": 731,
+          "height": 734,
+          "sha256": "72cf8db61765ed40f51c72d8c77de4962294b4b47791961c0559cf72201abe07",
+          "bytes": 62921,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw2041/rw2041-2-glitter-heart-bow-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ab97ca2b4a9d5033229b6c6e6c9cb5a5c301b972bf253f74af7f150b2f89e76",
+          "bytes": 141919,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW2041, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: clear glitter heart-shaped lollipop cabochons with raised pastel heart, exact colored bow and short clear stem, pastel pink purple blue yellow. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw2041/rw2041-3-glitter-heart-bow-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c8002972beb478701d207c17d7cc7949d0ff3525a295b607d60c53309b09a48f",
+          "bytes": 110430,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW2041, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: clear glitter heart-shaped lollipop cabochons with raised pastel heart, exact colored bow and short clear stem, pastel pink purple blue yellow. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW5463",
+      "sourceRow": 20,
+      "sourceFields": {
+        "sku": "RW5463",
+        "标题": "23mm Snowman Red Nose Craft DIY Doll Nose Plastic Santa Nose for Sewing Crafting Doll Puppet Stuffed Plush Animals",
+        "分类": "resin  beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "8*23MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Carrot-Shaped Plastic Doll and Snowman Noses",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw5463.html",
+      "operation": "new",
+      "sourceImage": "RW5643.png",
+      "sourceImageSha256": "d0c02f1e5aa2052ca62d1ea2660bdac624073366876f6f746ef404bc7567f106",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5463/rw5463-1-carrot-plastic-snowman-doll-noses.jpg",
+          "role": "main",
+          "width": 701,
+          "height": 709,
+          "sha256": "646765889ca68f848da528103f4fb8e4c57a55c6313ecfb1cd5bfe5a4dbc1362",
+          "bytes": 45234,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5463/rw5463-2-carrot-plastic-snowman-doll-noses-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a29dd1ba97b32982c89b61a452a4627b32987ee89d110aa6e33fec67c9af7291",
+          "bytes": 145677,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW5463, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small orange carrot-shaped nose parts with conical ridged front and a short rear attachment peg; exact original shape and orange color. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw5463/rw5463-3-carrot-plastic-snowman-doll-noses-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1195630bf9d01fce5d2150ea233a7d5c611e14d38b5484e46f059ac6e4fbb094",
+          "bytes": 63788,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW5463, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small orange carrot-shaped nose parts with conical ridged front and a short rear attachment peg; exact original shape and orange color. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW1917",
+      "sourceRow": 21,
+      "sourceFields": {
+        "sku": "RW1917",
+        "标题": "New Arrive Cute  Resin Cake Donut Lollipop Ice Cream Flatback Cabochon Simulation Food Art Supply Home Decoration Charm Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20-30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pastel Dessert Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw1917.html",
+      "operation": "new",
+      "sourceImage": "RW1917.png",
+      "sourceImageSha256": "bd3c1e6b3e3e570331405052ac2e13602a350a3f930ae16fcbac96d48314865b",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1917/rw1917-1-pastel-dessert-resin-flatback-cabochons.jpg",
+          "role": "main",
+          "width": 680,
+          "height": 673,
+          "sha256": "f69051a604ad6762487206ea58622ab232937f9951145e11c34fefc2caf68c79",
+          "bytes": 29995,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1917/rw1917-2-pastel-dessert-resin-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f7e33facf68cf3b28c7d0a09b2fe65931ae229bfdaf86746f888b7a66d85d2d7",
+          "bytes": 122205,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW1917, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: six exact pastel dessert cabochons: pink donut, pink icecreamcone, pinkblue icecreamcone, pinkblue rectangular icepop, oval two-yellow-circle icepop, cream paw-print icepop; preserve every pattern. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw1917/rw1917-3-pastel-dessert-resin-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "57f48199a1d0d12cf39d045e1502b6a7d95a942afee20986f5a451408b625d81",
+          "bytes": 65650,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW1917, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: six exact pastel dessert cabochons: pink donut, pink icecreamcone, pinkblue icecreamcone, pinkblue rectangular icepop, oval two-yellow-circle icepop, cream paw-print icepop; preserve every pattern. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW2304-C",
+      "sourceRow": 22,
+      "sourceFields": {
+        "sku": "RW2304-C",
+        "标题": "OEM ODM Factory Supply Resin Flatback Cabochon Sweet Candy Food Dollhouse Miniature DIY Artificial Chocolate Resin Food",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*14*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Colorful Candy Disc Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw2304-c.html",
+      "operation": "new",
+      "sourceImage": "RW2304.png",
+      "sourceImageSha256": "f5110ad8a5dcb7829287ccc367e8acbe95caaf6889b2531afc985d3ae351df1e",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2304-c/rw2304-c-1-colorful-candy-disc-resin-cabochons.jpg",
+          "role": "main",
+          "width": 675,
+          "height": 680,
+          "sha256": "70970ca3606909d30245d5ae62dd9a470614ec6db39694343f61c8caecc7d4b7",
+          "bytes": 61060,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw2304-c/rw2304-c-2-colorful-candy-disc-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8e581c443ff588ee02dd6e40d0e1a8e38925636accb476fb74ead70cac05a621",
+          "bytes": 120941,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW2304-C, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small smooth glossy candy-disc cabochons, solid blue orange yellow green and red; some front dome and flat reverse shown, no holes or printed designs. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw2304-c/rw2304-c-3-colorful-candy-disc-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3aa9ab6a44bc99e1d7a0ec1f7ab02674da0d979fceec096733c898f6ef6f8918",
+          "bytes": 108757,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW2304-C, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small smooth glossy candy-disc cabochons, solid blue orange yellow green and red; some front dome and flat reverse shown, no holes or printed designs. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW1980",
+      "sourceRow": 23,
+      "sourceFields": {
+        "sku": "RW1980",
+        "标题": "100Pcs Cute Sheep Ornament Resin Micro Landscape Decoration Mini Sheep Crafts Miniatures Figurines for Home Decor Sheep Acces",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mini Sheep Resin Figurines",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw1980.html",
+      "operation": "new",
+      "sourceImage": "RW1980.png",
+      "sourceImageSha256": "0b4bb24d6d101ca69cff78c52d2509e7bf930a6cf77c8b305f494100818c0db4",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1980/rw1980-1-mini-sheep-resin-craft-figurines.jpg",
+          "role": "main",
+          "width": 715,
+          "height": 451,
+          "sha256": "96521f6a3bb5952bb308fb26627780b10c8813d5a348eb65bfd5e97860ea3173",
+          "bytes": 17403,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1980/rw1980-2-mini-sheep-resin-craft-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e106720b266ee2e6c070d0fc682ae414832b9c5a1f9474d3fc4bff27b41e81f1",
+          "bytes": 107476,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW1980, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: four exact small white sheep with raised textured white fleece and brown faces, black eyes and noses, short white legs. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw1980/rw1980-3-mini-sheep-resin-craft-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "96d984c73e3cc2f0b7bba3e26b4a109783bc380c5a4a3839bdf174955938ec48",
+          "bytes": 47748,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW1980, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: four exact small white sheep with raised textured white fleece and brown faces, black eyes and noses, short white legs. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW26324",
+      "sourceRow": 24,
+      "sourceFields": {
+        "sku": "RW26324 ",
+        "标题": "100pcs  Dinosaur Fossil Resin Ornaments Mini T-Rex Velociraptor Fossil Resin Cabochons",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*42mm AND 38*21mm ",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mini Dinosaur Fossil Resin Ornaments",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw26324.html",
+      "operation": "new",
+      "sourceImage": "RW26324 .png",
+      "sourceImageSha256": "eb8610ff2fbc43c5e753d25bee43a2abee4b0dbb621d8c0ef3b8957e5cb86612",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26324/rw26324-1-mini-dinosaur-fossil-resin-ornaments.jpg",
+          "role": "main",
+          "width": 642,
+          "height": 584,
+          "sha256": "2febda74bf001a2c53c08c1a6685c1f39a2e911df277d43e3e7fed65a8814e2f",
+          "bytes": 31881,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26324/rw26324-2-mini-dinosaur-fossil-resin-ornaments-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "49042ae647c7a25c3aca83ca3e6fa653b3eff788e711512bc79655cf7fa3c591",
+          "bytes": 138396,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW26324, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: four exact miniature beige skeletal dinosaur ornaments, T-rex and quadrupedal short-tailed skull shapes, preserve visible skeleton geometry and warm beige color. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw26324/rw26324-3-mini-dinosaur-fossil-resin-ornaments-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4d33ad6614417fa4d9278de11d87ad7d8498d8760ec273ea6d17cbbe14b4bec3",
+          "bytes": 89191,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW26324, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: four exact miniature beige skeletal dinosaur ornaments, T-rex and quadrupedal short-tailed skull shapes, preserve visible skeleton geometry and warm beige color. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW1672/RW2072/RW3492/RW20104",
+      "sourceRow": 25,
+      "sourceFields": {
+        "sku": "RW1672/RW2072/RW3492/RW20104",
+        "标题": "Kawaii Glitter Gradient Gummy Bear Flatback Resin Cabochons Charms for DIY Jewelry Craft Scrapbook Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "7*10*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Gradient Glitter Bear Resin Cabochon Mix",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw1672-rw2072-rw3492-rw20104.html",
+      "operation": "new grouped assortment",
+      "sourceImage": "RW1672-RW2072-RW3492-RW20104mix.png",
+      "sourceImageSha256": "e832b55596117beff9766728a407c1f1fc625665c565256b8905b1dd695f39c0",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1672-rw2072-rw3492-rw20104/rw1672-rw2072-rw3492-rw20104-1-gradient-glitter-bear-resin-cabochons.jpg",
+          "role": "main",
+          "width": 688,
+          "height": 579,
+          "sha256": "0c39c9c45d1e1a2920cc1bd1c6936f967e1ef59c9ca624080d21e260733b0f87",
+          "bytes": 62053,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1672-rw2072-rw3492-rw20104/rw1672-rw2072-rw3492-rw20104-2-gradient-glitter-bear-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "89d356de4ec0eaf2c97b769f76eba8562b4650094afbd13cc3de34a2cf113e33",
+          "bytes": 149196,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW1672/RW2072/RW3492/RW20104, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact translucent gummy-bear-shaped cabochons, original rounded ears snout four paws, multicolored translucent gradients and sparse embedded glitter, no drilled holes. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw1672-rw2072-rw3492-rw20104/rw1672-rw2072-rw3492-rw20104-3-gradient-glitter-bear-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d2ed7ea31e43058670f9f7be993ec79bdba8914862f94e345a780479e2b20e5c",
+          "bytes": 127361,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW1672/RW2072/RW3492/RW20104, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact translucent gummy-bear-shaped cabochons, original rounded ears snout four paws, multicolored translucent gradients and sparse embedded glitter, no drilled holes. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "YA446/YA447",
+      "sourceRow": 26,
+      "sourceFields": {
+        "sku": "YA446/YA447",
+        "标题": "Heart Star Single Sided Cube Square Acrylic Beads UV Double Color DIY Jewelry Pendants Loose Single Sided Pattern Accessories",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "acrylic",
+        "尺寸": "16mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Heart and Star Acrylic Cube Beads",
+      "category": "Plastic Beads",
+      "categorySlug": "plastic-beads",
+      "pdp": "p-ya446-ya447.html",
+      "operation": "new grouped assortment",
+      "sourceImage": "YA446YA447.png",
+      "sourceImageSha256": "0e06b57efd35e4680754beee4af94af1a477507e2a1177f0f81650ab024d7740",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya446-ya447/ya446-ya447-1-heart-star-acrylic-cube-beads.jpg",
+          "role": "main",
+          "width": 612,
+          "height": 540,
+          "sha256": "0c26a7b8a7dbd2d78aa5fbdf32374048d1eff039515a851b7d3a83b682ff74f2",
+          "bytes": 32189,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/ya446-ya447/ya446-ya447-2-heart-star-acrylic-cube-beads-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ae3359c290f0ea9d7cccf8fcde1a5553d4c344c1e23dafb8d2c3f4926a6d320f",
+          "bytes": 113818,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU YA446/YA447, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: five exact glossy colored cubes with a single heart or star motif on front and visible round holes on appropriate sides, same exact pink yellow teal purple colors. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/ya446-ya447/ya446-ya447-3-heart-star-acrylic-cube-beads-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5dc4a80050bcd0b68f092a119f177ae87fe4fb75f728a363f2996ef27001e9a4",
+          "bytes": 61988,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU YA446/YA447, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: five exact glossy colored cubes with a single heart or star motif on front and visible round holes on appropriate sides, same exact pink yellow teal purple colors. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW002700",
+      "sourceRow": 27,
+      "sourceFields": {
+        "sku": "RW002700 ",
+        "标题": "Cute Mini Ocean Resin Turtle Animals Tiny Sea Animals Figurines Marine Miniature Aquarium Ornaments Home Decorations",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "18*23MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Mini Ocean Turtle Resin Ornaments",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw002700.html",
+      "operation": "new",
+      "sourceImage": "RW002700.png",
+      "sourceImageSha256": "c4954e4fa89b1d6fd2fd36dfb6d818a6e67077a55bbf1e40231ab2225b3cc5e3",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002700/rw002700-1-mini-ocean-turtle-resin-ornaments.jpg",
+          "role": "main",
+          "width": 669,
+          "height": 632,
+          "sha256": "320ed1e832327ec472fd30f13dfdbb310371ef8df6abf0184aa71bea8a56ec4e",
+          "bytes": 52290,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw002700/rw002700-2-mini-ocean-turtle-resin-ornaments-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "08fc7865f21a70aff4d842590ce7140c4d7dbfa77fb562c552802d416d8f6118",
+          "bytes": 142765,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW002700, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: seven exact smiling translucent resin turtles, domed clear shells each enclosing raised tiny flowers or stars, identical limbs and face placement, original mixed colors. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw002700/rw002700-3-mini-ocean-turtle-resin-ornaments-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ffe104f028ba279f0d8d6107c7a51102be17760947edb67a62e1e0d87741ff06",
+          "bytes": 129438,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW002700, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: seven exact smiling translucent resin turtles, domed clear shells each enclosing raised tiny flowers or stars, identical limbs and face placement, original mixed colors. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW728",
+      "sourceRow": 28,
+      "sourceFields": {
+        "sku": "RW728 ",
+        "标题": "Resin Flower Beads Flatback DIY Accessory Cabochons Embellishment for Jewelry Making Scrapbooking Craft",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "17mm 22mm 28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Colorful Acrylic Flower Flatback Cabochons",
+      "category": "Plastic Beads",
+      "categorySlug": "plastic-beads",
+      "pdp": "p-rw728.html",
+      "operation": "new",
+      "sourceImage": "RW728.png",
+      "sourceImageSha256": "011f5c9afb5df34fb7b93f57ad4a7a85fca3325ca1b5ae48b554d02c9ce95f39",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw728/rw728-1-colorful-acrylic-flower-flatback-cabochons.jpg",
+          "role": "main",
+          "width": 731,
+          "height": 645,
+          "sha256": "e31262f61026eeedb4119963e29301de4a4ee390e40a9f4e34a5513a23169aff",
+          "bytes": 42663,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw728/rw728-2-colorful-acrylic-flower-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "180aacaa28f358946a1b72df3a8576dbb3730df4db4357f357861063cc2339e0",
+          "bytes": 122143,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW728, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: seven exact glossy eight-petal daisy flower flatbacks, raised round centers and original distinct pink white yellow blue green lavender colors, no added holes. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw728/rw728-3-colorful-acrylic-flower-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "401f056e285de1df14e84361198d66ce92b41aed81ad9e1dd8aa00f8ff986d26",
+          "bytes": 81134,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW728, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: seven exact glossy eight-petal daisy flower flatbacks, raised round centers and original distinct pink white yellow blue green lavender colors, no added holes. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "YX720",
+      "sourceRow": 29,
+      "sourceFields": {
+        "sku": "YX720 ",
+        "标题": "Cute Hot Romantic Theme Shell Clay Slices Diamond Mixed Sprinkles Supplies Slime Crafts Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pastel Shell Polymer Clay Sprinkle Mix",
+      "category": "Polymer Clay Slices",
+      "categorySlug": "polymer-clay-slices",
+      "pdp": "p-yx720.html",
+      "operation": "new",
+      "sourceImage": "YX720 .png",
+      "sourceImageSha256": "fa12a5073b04b46aa3c4d6aa9438d74b003c15d670fdcd06f5b5dd4c34414775",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx720/yx720-1-pastel-shell-polymer-clay-sprinkles.jpg",
+          "role": "main",
+          "width": 669,
+          "height": 700,
+          "sha256": "22c924dae179d4f8a1ef9b9b8ba870bc714becefdbfdde3ef028923a13893683",
+          "bytes": 64978,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx720/yx720-2-pastel-shell-polymer-clay-sprinkles-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0d605557931dc3c812a93a9f697a1cb7472e5efe5a5aa70fe317ae4fa96fab21",
+          "bytes": 175528,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU YX720, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact pastel aqua-purple shell slices with white outlines, pink small accents, white tiny flowers and clear round accent pieces; preserve the same mixed component types. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/yx720/yx720-3-pastel-shell-polymer-clay-sprinkles-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b14f33b30290bc4e6eaf1cc72f73482d76db644c781cd4143b8f5bb08096a922",
+          "bytes": 137879,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU YX720, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact pastel aqua-purple shell slices with white outlines, pink small accents, white tiny flowers and clear round accent pieces; preserve the same mixed component types. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "YX3900",
+      "sourceRow": 30,
+      "sourceFields": {
+        "sku": "YX3900 ",
+        "标题": "Round Shapes Rabbit 1KG Soft Polymer Clay Slime Add Ons DIY Projects Phone Case Stickers Crafting",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pastel Halloween Polymer Clay Sprinkle Mix",
+      "category": "Polymer Clay Slices",
+      "categorySlug": "polymer-clay-slices",
+      "pdp": "p-yx3900.html",
+      "operation": "new",
+      "sourceImage": "YX3900.png",
+      "sourceImageSha256": "28f9671e5ed47e8732e86a56dc500dbef019c5f17e2561be78c4fe70369fcf05",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3900/yx3900-1-pastel-halloween-polymer-clay-sprinkles.jpg",
+          "role": "main",
+          "width": 605,
+          "height": 601,
+          "sha256": "e9d26e47fb1a89e749c06a45e574c2f2f6cfcac73ef7a2e1f7992a77873e722d",
+          "bytes": 78115,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3900/yx3900-2-pastel-halloween-polymer-clay-sprinkles-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d2ae44a2779f8d587421604ffb3f8f3e0a454c7a7c950292bffb0321f69863b0",
+          "bytes": 205904,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU YX3900, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact small thin pastel printed slices including eyeballs, tombstones marked RIP, coffin shapes with crosses, pink ghost or bunny faces and pastel wrapped candy; original motifs only. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible. Critical correction: tombstone slices have the exact printed uppercase text 'RIP', spelled R I P, with no other letters. Keep 'RIP' correct on every visible tombstone. Do not draw RHP, RYP, RRP or extra words. Preserve original eye, coffin, candy and pink bunny/ghost printed patterns. Change only the backdrop and lighting; keep the source assortment and printed motifs."
+        },
+        {
+          "path": "assets/images/pdp/yx3900/yx3900-3-pastel-halloween-polymer-clay-sprinkles-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7670f836c25f1d3070714bf8dd876f90b25858d276092f954dc1e6a4c54dbf67",
+          "bytes": 147582,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU YX3900, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact small thin pastel printed slices including eyeballs, tombstones marked RIP, coffin shapes with crosses, pink ghost or bunny faces and pastel wrapped candy; original motifs only. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RX042-RW366-RW437-RW439-RW391",
+      "sourceRow": 31,
+      "sourceFields": {
+        "sku": "RX042-RW366-RW437-RW439-RW391",
+        "标题": "Artificial Tropical Fruit Slice Cabochons AB Resin Fruit Chunks Banana, Kiwifruit, Pineapple, Pitaya Strawberry for DIY Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Assorted Tropical Fruit Resin Craft Charms",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rx042-rw366-rw437-rw439-rw391.html",
+      "operation": "new grouped assortment",
+      "sourceImage": "RX042-RW366-RW437-RW439-RW391.png",
+      "sourceImageSha256": "d0e03d7aec15cddc6a27b89cfa79f673dfadab3cac7e4a9b30079d67c48cb372",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rx042-rw366-rw437-rw439-rw391/rx042-rw366-rw437-rw439-rw391-1-assorted-tropical-fruit-resin-charms.jpg",
+          "role": "main",
+          "width": 699,
+          "height": 653,
+          "sha256": "5e694f06ce47e9981d5e3657de67c6f14a7717e76d034360f2a18353aacc4cc1",
+          "bytes": 48256,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rx042-rw366-rw437-rw439-rw391/rx042-rw366-rw437-rw439-rw391-2-assorted-tropical-fruit-resin-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2c9e6b004e050b83d547de86032bae73aeb1a9e17912341b9bf891e0c9b05b4d",
+          "bytes": 145338,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RX042-RW366-RW437-RW439-RW391, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact fruit figurines and chunks in original image: textured strawberries red pale pink pale green, red and white pitaya cubes, large green kiwi cross-section, banana slice, orange cube, red round lychee and red cherry with curved stem. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rx042-rw366-rw437-rw439-rw391/rx042-rw366-rw437-rw439-rw391-3-assorted-tropical-fruit-resin-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3e6d196bbb325cb14f365fc3c7a57c571adfeb5b0cb20eb9e56851cfbf7f2d1a",
+          "bytes": 109589,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RX042-RW366-RW437-RW439-RW391, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact fruit figurines and chunks in original image: textured strawberries red pale pink pale green, red and white pitaya cubes, large green kiwi cross-section, banana slice, orange cube, red round lychee and red cherry with curved stem. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW003576",
+      "sourceRow": 32,
+      "sourceFields": {
+        "sku": "RW003576 ",
+        "标题": " Middle Vertical Hole Flatback Resin Rhinestone Crystal Hair Bows Beads DIY Craft Embellishments Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "41*53MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Crystal-Texture Bow Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw003576.html",
+      "operation": "new",
+      "sourceImage": "RW003576.png",
+      "sourceImageSha256": "6303e2f56faedbca10bfc155ff99e321a362ec9dc243137f4d14d0785943174e",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003576/rw003576-1-crystal-texture-bow-resin-cabochons.jpg",
+          "role": "main",
+          "width": 601,
+          "height": 555,
+          "sha256": "5f240caaeb3e348bef7d8cd1336066fb224c67adaa80fe25f50fad48457e15ac",
+          "bytes": 81281,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw003576/rw003576-2-crystal-texture-bow-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d3414481e225dda4ca88afeb06f5109fe79008c3dfacd26a0127e0a7af077b5d",
+          "bytes": 250391,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW003576, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact oversized bow-shaped cabochons covered with tiny dense clear bead-like crystal texture, same deep purple black turquoise white blue pink colors and folded bow geometry. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw003576/rw003576-3-crystal-texture-bow-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "029f21b42f4cf5fb0a62a33fd13c25cd08b594ee5194b5b07ab054e2783b37c4",
+          "bytes": 297396,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW003576, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact oversized bow-shaped cabochons covered with tiny dense clear bead-like crystal texture, same deep purple black turquoise white blue pink colors and folded bow geometry. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "MA168",
+      "sourceRow": 33,
+      "sourceFields": {
+        "sku": "MA168 ",
+        "标题": "Holographic Hexagon Glitter Snow Globe Snowglobe Tumbler Glitter Chunky Powder Mix Glitter for Snowglobe Tumblers Nails",
+        "分类": "Glitter  sequins",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "无",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Holographic Hexagon Glitter Mix",
+      "category": "Plastic Sequins",
+      "categorySlug": "plastic-sequins",
+      "pdp": "p-ma168.html",
+      "operation": "new",
+      "sourceImage": "MA168 .png",
+      "sourceImageSha256": "85b5abe0e25ba48e9999e30289be88f512b3cad784df85627115b96c763f75ff",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma168/ma168-1-holographic-hexagon-plastic-glitter-mix.jpg",
+          "role": "main",
+          "width": 530,
+          "height": 546,
+          "sha256": "1a504d2a3769ff469512bf2b01130ecb26b5cf68e68b319cdaf7d5c0bf524867",
+          "bytes": 67678,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/ma168/ma168-2-holographic-hexagon-plastic-glitter-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "049292e0a6627db7f33db791d2278e96eab32d5f90e988afea9906ea8c42d23f",
+          "bytes": 194335,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU MA168, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: loose holographic hexagonal glitter of multiple flake sizes, warm gold orange bronze copper with tiny rainbow reflections, preserve the irregular blend and hexagonal geometry. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/ma168/ma168-3-holographic-hexagon-plastic-glitter-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cf3140c260342bf4f3d45eb31e8b6cbe20b78d88ee2c11458dea0a1f5fda2e2c",
+          "bytes": 231310,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU MA168, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: loose holographic hexagonal glitter of multiple flake sizes, warm gold orange bronze copper with tiny rainbow reflections, preserve the irregular blend and hexagonal geometry. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible. Critical correction: the supplied glitter consists only of SIX-SIDED HEXAGONS, large and tiny. EVERY foreground flake must have a hexagonal outline. Absolutely NO five-pointed stars, star confetti, circles or other substituted shapes. Retain copper, orange, gold and bronze tones and holographic reflections. Show an irregular close-up spill of the original hexagon mix, with complete individual flakes visible."
+        }
+      ]
+    },
+    {
+      "sku": "YX3194",
+      "sourceRow": 34,
+      "sourceFields": {
+        "sku": "YX3194",
+        "标题": "1kg Cloud Rainbow Slice Mixed Polymer Clay Sprinkles Ball for Crafts Decor DIY Slime Shaker Cards Filler Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "无",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pastel Rainbow and Cloud Polymer Clay Sprinkle Mix",
+      "category": "Polymer Clay Slices",
+      "categorySlug": "polymer-clay-slices",
+      "pdp": "p-yx3194.html",
+      "operation": "new",
+      "sourceImage": "YX3194.png",
+      "sourceImageSha256": "3a5e53adb1e83e6364593338bd5e239a3b3f0cef4c74cdf4419dcb8dea825f3d",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3194/yx3194-1-rainbow-cloud-polymer-clay-sprinkles.jpg",
+          "role": "main",
+          "width": 688,
+          "height": 625,
+          "sha256": "50dbdbd5e9410a231485c9c044bec070f68745f6cf34e89f29df58d6be4ae8d9",
+          "bytes": 98820,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3194/yx3194-2-rainbow-cloud-polymer-clay-sprinkles-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "571f6992eda206e01ad2a0c04db652c5b6da671d79af675016145819772ecd58",
+          "bytes": 195446,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU YX3194, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact pastel rainbow-and-cloud printed slices plus little white cloud shapes, short blueyellowpink rods and pinkblueyellow round beads, preserve each visible component type. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/yx3194/yx3194-3-rainbow-cloud-polymer-clay-sprinkles-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2c016553ca1b8b49e273c5b388043ce3824a3eeaaa4085f6c5b28dbc373d140c",
+          "bytes": 125240,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU YX3194, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact pastel rainbow-and-cloud printed slices plus little white cloud shapes, short blueyellowpink rods and pinkblueyellow round beads, preserve each visible component type. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "GY016",
+      "sourceRow": 35,
+      "sourceFields": {
+        "sku": "GY016 ",
+        "标题": "Glass Irregular No Hole Beads Iridescent AB Clear Pebbles Small Glass Stones Smooth Glass Beads",
+        "分类": "Glass Beads",
+        "状态": "库存有货",
+        "材质": "Crystal, Lampwork & Glass",
+        "尺寸": "4mm ",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Iridescent No-Hole Glass Pebbles",
+      "category": "Slime Charms",
+      "categorySlug": "slime-charms",
+      "pdp": "p-gy016.html",
+      "operation": "new",
+      "sourceImage": "GY016.png",
+      "sourceImageSha256": "210309cb2d364b6902a9288bdb06492290f430f9c1f1759cfaa02a76ce328d7f",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/gy016/gy016-1-iridescent-no-hole-glass-pebbles.jpg",
+          "role": "main",
+          "width": 574,
+          "height": 580,
+          "sha256": "ae6300e0a1a7994cad204e10a4e490fa02503a4ff45ebc4496c512ed96bb8589",
+          "bytes": 64858,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/gy016/gy016-2-iridescent-no-hole-glass-pebbles-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a09e4c7cf294eaeceb4d87347d7ed49bd77f4eaf23ad09ad7c26a24f254572bd",
+          "bytes": 186584,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU GY016, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small exact translucent irregular clear glass pebble beads, smooth rounded angular shapes with soft pink purple blue iridescent AB reflections, no drilled holes. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/gy016/gy016-3-iridescent-no-hole-glass-pebbles-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "408ee2655fd04f890d3fa413f8dfc608735012507d92fbd3979a9601595e59b3",
+          "bytes": 174132,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU GY016, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: small exact translucent irregular clear glass pebble beads, smooth rounded angular shapes with soft pink purple blue iridescent AB reflections, no drilled holes. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RW1112",
+      "sourceRow": 36,
+      "sourceFields": {
+        "sku": "RW1112 ",
+        "标题": "100Pcs Mixed Resin Spiral Candy Sweet Decoration Crafts Beads Flatback Cabochon Kawaii Embellishments for Scrapbooking DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*14*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Pastel Spiral Candy Resin Flatback Cabochons",
+      "category": "Resin Charms",
+      "categorySlug": "resin-charms",
+      "pdp": "p-rw1112.html",
+      "operation": "new",
+      "sourceImage": "RW1112.png",
+      "sourceImageSha256": "3eda20a67ad1cadea116a55fb1b7dc37dcf33378ef54630fdbf553775e223374",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1112/rw1112-1-pastel-spiral-candy-resin-cabochons.png",
+          "role": "main",
+          "width": 685,
+          "height": 668,
+          "sha256": "2076c27f14c5b113d8841e4f55431383d4450c95e83280cf0df72b04b23d336f",
+          "bytes": 520548,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1112/rw1112-2-pastel-spiral-candy-resin-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4780afcaf9ca015b68c16e3565610c9039ebf7ebcc58f2864210724625c54ddf",
+          "bytes": 110728,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RW1112, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: six exact wrapped candy-shaped cabochons, three pastel flat reverse views and three raised circular fronts with rainbow spiral centers, original lavender pink lightblue wrapper ends. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rw1112/rw1112-3-pastel-spiral-candy-resin-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4d1d67a983ec8e52eee6e5b9d2112aedaa71c75b36769d04163302e954db2065",
+          "bytes": 64531,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RW1112, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: six exact wrapped candy-shaped cabochons, three pastel flat reverse views and three raised circular fronts with rainbow spiral centers, original lavender pink lightblue wrapper ends. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "SD144",
+      "sourceRow": 37,
+      "sourceFields": {
+        "sku": "SD144 ",
+        "标题": "Colorful Plastic Adjustable Rings Kids Blank Ring Support Fuse Beads Accessories Findings Glue on Base",
+        "分类": "Jewelry charms",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Colorful Adjustable Plastic Ring Bases",
+      "category": "Jewelry Accessories",
+      "categorySlug": "jewelry-accessories",
+      "pdp": "p-sd144.html",
+      "operation": "new",
+      "sourceImage": "SD144.png",
+      "sourceImageSha256": "b0cea846b8004a7dad0e8d066776640678aa9407d5bab484fd1a7eb748c7a74c",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/sd144/sd144-1-colorful-adjustable-plastic-ring-bases.png",
+          "role": "main",
+          "width": 765,
+          "height": 485,
+          "sha256": "12ec95886354b0a3699fc47f0795d9d151197712350db5d5908ada628c78d395",
+          "bytes": 566427,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/sd144/sd144-2-colorful-adjustable-plastic-ring-bases-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c0317d0830d3b19dd6dd7a867e46c1fd34f22381f5dcaa9bc721fbdd34e8e7ff",
+          "bytes": 138042,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU SD144, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact brightly colored adjustable open round plastic rings with the original overlapping rim and flat round glue-on pad, original pink blue red yellow orange limegreen colors. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/sd144/sd144-3-colorful-adjustable-plastic-ring-bases-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6dd6c92049ab719ccbb8c68e2a4752c585b54ac17d4149dcd60d4a41260e76ca",
+          "bytes": 65237,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU SD144, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact brightly colored adjustable open round plastic rings with the original overlapping rim and flat round glue-on pad, original pink blue red yellow orange limegreen colors. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    },
+    {
+      "sku": "RX155-206-207-208-209-210",
+      "sourceRow": 38,
+      "sourceFields": {
+        "sku": "RX155-206-207-208-209-210 ",
+        "标题": "Glitter Star Fish Bowtie Transparent Plastic Filling Sequin Appliques for DIY Headwear Hair Clips Bow Decor Accessory Patches",
+        "分类": "Sequin Glitter ",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "displayTitle": "Clear Filled Star Decorative Appliques",
+      "category": "Plastic Sequins",
+      "categorySlug": "plastic-sequins",
+      "pdp": "p-rx155-206-207-208-209-210.html",
+      "operation": "new grouped assortment",
+      "sourceImage": "RX155-206-207-208-209-210.png",
+      "sourceImageSha256": "e740c7cb353bde5a5461ddfa75e56467552096f2215bbd7c807269800ca48acf",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rx155-206-207-208-209-210/rx155-206-207-208-209-210-1-clear-filled-star-decorative-appliques.png",
+          "role": "main",
+          "width": 739,
+          "height": 685,
+          "sha256": "68ca17c2249431549f9204acc12982009b9f3ed95d558a85db6f1e789a06f4c8",
+          "bytes": 1278730,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rx155-206-207-208-209-210/rx155-206-207-208-209-210-2-clear-filled-star-decorative-appliques-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "53eabe65d92a5b5c4bc5cb34216983dfcd67337b9dfb57cffde9fd0e3337807f",
+          "bytes": 238192,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product scene illustration, SKU RX155-206-207-208-209-210, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact clear plastic star outlines containing different mixtures of multicolored tiny stars, red shiny confetti, yellow-green teddy-shaped sequins and iridescent round confetti, no added suspension loops. Change only the backdrop, lighting and placement. Arrange the exact supplied product selection on a plain ivory dish or neutral craft-studio tabletop. Soft natural daylight, refined professional product styling. Keep every product shape fully visible and unobscured, with clear original texture. For loose sprinkles/glitter/pebbles, use the same mix of component types, in a small unlabeled dish with a modest spill. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        },
+        {
+          "path": "assets/images/pdp/rx155-206-207-208-209-210/rx155-206-207-208-209-210-3-clear-filled-star-decorative-appliques-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a561326f4e853003ef3e11f74c3d747f162cbe4f5e39bd1e3e507c52b590449f",
+          "bytes": 215055,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: precise-object-edit. Asset type: QULA B2B product detail illustration, SKU RX155-206-207-208-209-210, one single square image. Image 1 is the edit target and sole authority for the exact products. Product identity: exact clear plastic star outlines containing different mixtures of multicolored tiny stars, red shiny confetti, yellow-green teddy-shaped sequins and iridescent round confetti, no added suspension loops. Change only the backdrop, lighting and placement. Make a clean detail composition on a pale ivory background. For shaped pieces, show two or three exact original pieces fully within frame with visible relief and texture. For loose mixed fills or glitter, show a close photographic spread of the same original component types. Do not invent a reverse view or internal structure. Preserve exact product geometry, colors, printed patterns, hardware, holes (or absence of holes) and material appearance. Do not substitute designs, add holes, change fastener counts, introduce extra hardware, or suggest measured sizes or packaging quantities. Remove presentation-only badges, inset circles and dimension arrows; preserve lettering printed ON the actual product. No text, logo, labels, watermarks, rulers or collage. Products dominate the composition. Decorative craft materials; nothing edible."
+        }
+      ]
+    }
+  ],
+  "validationStatus": "pending",
+  "imageEncoding": {
+    "opaqueReferencePhotos": "JPEG quality 85, 72 PPI, sRGB; same dimensions and aspect ratio",
+    "transparentReferencePhotos": "PNG, transparency preserved",
+    "styledIllustrations": "JPEG quality 85, width up to 1000 px without enlargement",
+    "referenceJpegCount": 18,
+    "referencePngCount": 3
+  }
+}
