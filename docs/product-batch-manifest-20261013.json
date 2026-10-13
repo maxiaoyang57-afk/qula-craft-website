@@ -1,0 +1,1060 @@
+{
+  "batchId": "qula-products-20261013",
+  "baselineCommit": "f333e9ca69bf7e3e9e75f37f5174d0d888e9c273",
+  "newProductCount": 18,
+  "updatedProductCount": 2,
+  "catalogCountBefore": 274,
+  "catalogCountAfter": 292,
+  "imageCount": 60,
+  "userClarification": "RW20423/RW22336/RW22338 is one mixed product of two antler styles and existing black miniature hats; use the full mixed SKU.",
+  "products": [
+    {
+      "sku": "RW2504-YX416",
+      "operation": "new",
+      "sourceRow": 41,
+      "sourceFields": {
+        "sku": "RW2504-YX416 ",
+        "标题": "100PC Mix Polymer Clay Popsicle Sweet Tube Cake Candy Figures Decor Ornament for New Year Xmas Party Kids Gift Artificial Europe",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "polymer clay and resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW2504-YX416 .png",
+          "sha256": "aa964e32211f25cf7b5afd9ae4649ea0c710ca4b5646c1e654138a74cad4b5f5"
+        }
+      ],
+      "pdp": "p-rw2504-yx416.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2504-yx416/rw2504-yx416-1-mixed-dessert-clay-resin-craft-decorations.png",
+          "role": "main",
+          "width": 572,
+          "height": 484,
+          "sha256": "33f45cf41b073d5d39f2f6c345a02f4c7c2a4ab975c2f069dfe63575e48ceb53",
+          "bytes": 826349,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw2504-yx416/rw2504-yx416-2-mixed-dessert-clay-resin-craft-decorations-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9a84f517af933a571f04b56d364951420fd7918880cc6db7599bd8859cac69a1",
+          "bytes": 201800,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw2504-yx416/rw2504-yx416-3-mixed-dessert-clay-resin-craft-decorations-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2c04041c52a59f0cfb86a1559ff29ce48dfd71ff44560d8200d7d7851ba57ac2",
+          "bytes": 131612,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "YX3803",
+      "operation": "new",
+      "sourceRow": 42,
+      "sourceFields": {
+        "sku": "YX3803",
+        "标题": "1kg New Design Miniature Halloween Themed Polymer Sequins Beads Mini Clay Slices Great for Kids Slime Making Fun",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3803.png",
+          "sha256": "94fcc82be3f4a693ff5fe57b5b3bed82b371516c4ef6f4de7fd7e31f7a5a1e7a"
+        }
+      ],
+      "pdp": "p-yx3803.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3803/yx3803-1-pink-black-halloween-polymer-clay-mix.png",
+          "role": "main",
+          "width": 538,
+          "height": 503,
+          "sha256": "c83f6c9a224ace1667ec12a9f466f3f4a3125167c794b8881a298a62beb2231d",
+          "bytes": 655719,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3803/yx3803-2-pink-black-halloween-polymer-clay-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d1faec3bb9457a86a452979eb1e81af453ddb16e73dccab3b8149b2192615ce9",
+          "bytes": 205555,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/yx3803/yx3803-3-pink-black-halloween-polymer-clay-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "23914078d077dd0c1c36e416403076a5a17742ae0ed12769e9283812f62b1c5a",
+          "bytes": 131175,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW24224",
+      "operation": "new",
+      "sourceRow": 43,
+      "sourceFields": {
+        "sku": "RW24224",
+        "标题": "Kawaii Cartoon Luminous Lollipop Resin Flatback Cabochon Art Supply Decoration Charm DIY Craft Doll House",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24224.png",
+          "sha256": "f8438683b16a6f433e81fd58828ad15f5248ea26325a8f13a883b8b1c86a9acd"
+        }
+      ],
+      "pdp": "p-rw24224.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24224/rw24224-1-luminous-swirl-lollipop-resin-flatback-charms.png",
+          "role": "main",
+          "width": 611,
+          "height": 538,
+          "sha256": "18e39ba7e4e777eaafe5c7263afa172c797f81753a81ef286d55f11a554bcc9a",
+          "bytes": 474207,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24224/rw24224-2-luminous-swirl-lollipop-resin-flatback-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ee064981b5539347dd91389435edfa10786e15d5e4a661b1251ff6ea72aa7f3",
+          "bytes": 126605,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw24224/rw24224-3-luminous-swirl-lollipop-resin-flatback-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bd36a985864ed2a441baddced82f4831f6c12ed37999ce2ed91333c446341a19",
+          "bytes": 110064,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW21097",
+      "operation": "new",
+      "sourceRow": 44,
+      "sourceFields": {
+        "sku": "RW21097 ",
+        "标题": "100pcs Sexy Red Mouth Lip Resin Charm for Jewelry Making Findings Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "2cm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW21097.png",
+          "sha256": "1f0f6eff8d6f1eb967b5e0912740af6d2ebf0a865cdd4e273d623945c58ff2b8"
+        }
+      ],
+      "pdp": "p-rw21097.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21097/rw21097-1-lip-tongue-resin-craft-charm-mix.png",
+          "role": "main",
+          "width": 511,
+          "height": 462,
+          "sha256": "c62720c72315e6d6ba9a37b1c1692bb2610de7751242b5cff481f843bd62a687",
+          "bytes": 632404,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw21097/rw21097-2-lip-tongue-resin-craft-charm-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "564646f5eca757d908366bee812c2745aad1d4bf3acefe2c11afe33d40754dd0",
+          "bytes": 208839,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw21097/rw21097-3-lip-tongue-resin-craft-charm-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5d18400e24852177bfa46f5ae11ddfc0f65bea917d8235302ec917ea53977dd4",
+          "bytes": 115054,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "YX3242",
+      "operation": "new",
+      "sourceRow": 45,
+      "sourceFields": {
+        "sku": "YX3242 ",
+        "标题": "Acrylic Diamond Crystal Pearl Bling Transparent Confetti Beads for Wedding Party Decoration Confetti Table Scatter Beads",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "4-8mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3242.png",
+          "sha256": "068a4cd57e185d1c0fe56dbcdbc8d79f85e9a9111592301c84324c0bb9024865"
+        }
+      ],
+      "pdp": "p-yx3242.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3242/yx3242-1-multicolor-crystal-pearl-plastic-scatter-mix.png",
+          "role": "main",
+          "width": 561,
+          "height": 568,
+          "sha256": "0526efe8f87f9ef545baf65f9609bbeacfbc97b0e2376e898eeddd52e83ccd65",
+          "bytes": 929801,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3242/yx3242-2-multicolor-crystal-pearl-plastic-scatter-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a84c56555ef98b8331708f749272954e7886a530988f3375b634a8001d0c73c8",
+          "bytes": 247472,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/yx3242/yx3242-3-multicolor-crystal-pearl-plastic-scatter-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af5f9b3305c20a200be563f413a63c8d6ec216c7501637a83c2a8bef3f4b3932",
+          "bytes": 174666,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW003310-3/CDK003312-4/CDK3343-2/CDK3350-2",
+      "operation": "new",
+      "sourceRow": 46,
+      "sourceFields": {
+        "sku": "RW003310-3/CDK003312-4/CDK3343-2/CDK3350-2",
+        "标题": "Wholesale Custom Clear Pouch Shaker Keychains Polymer Clay Resin Fillers Alloy Rings for Bags Backpacks and Party Gifts",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 60 * 80mm, total length 132mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW003310-3CDK003312-4CDK3343-2CDK3350-2.png",
+          "sha256": "cf3a442cd2387e39cea6b3c11a90af8245a31c3fed7682b56fe1f3c8f5255600"
+        }
+      ],
+      "pdp": "p-rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-1-clear-pouch-shaker-keychains-clay-resin-mixes.png",
+          "role": "main",
+          "width": 773,
+          "height": 774,
+          "sha256": "301dfa35b28ea02ebb24ea2f960b1dad259fa2bf9524266db36869e61714ef94",
+          "bytes": 1128331,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-2-clear-pouch-shaker-keychains-clay-resin-mixes-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8045bbe732b84559db74d1deacbb3650ce9e08d4019428b02377beba07e3315b",
+          "bytes": 177334,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-3-clear-pouch-shaker-keychains-clay-resin-mixes-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b216f3f3e9eb961ecca40e24b43569585e254c475ed22fdb747c9dbb6defd49c",
+          "bytes": 150769,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CDK442-1/CDK003152-1/RW003164-15/CDK003215-1",
+      "operation": "new",
+      "sourceRow": 47,
+      "sourceFields": {
+        "sku": "CDK442-1/CDK003152-1/RW003164-15/CDK003215-1",
+        "标题": "Wholesale Custom Clear Pouch Keychains Polymer Clay Resin Fillers Alloy Clasps for Bags Backpacks Gifts and Party Favors",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 60 * 80mm, total length 132mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK442-1CDK003152-1RW003164-15CDK003215-1.png",
+          "sha256": "ba6c860891032754492de271dddd73c6d7659016fd7b1db89a71c249c06c2238"
+        }
+      ],
+      "pdp": "p-cdk442-1-cdk003152-1-rw003164-15-cdk003215-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-1-clear-pouch-keychains-seasonal-craft-fillers.png",
+          "role": "main",
+          "width": 762,
+          "height": 715,
+          "sha256": "e482dea0bfa247a0545b45a6d26a2fd7c76c217b43d827c3cf1fc78b30a01813",
+          "bytes": 1142472,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-2-clear-pouch-keychains-seasonal-craft-fillers-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "eba1d247e042e4aefea03b0ac4e084ccb6a6b8d36fe24f4cd995d7e26358c7eb",
+          "bytes": 190268,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-3-clear-pouch-keychains-seasonal-craft-fillers-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bd5755222a261cc1638eae5bc6bdc06dd93558e54c5d978367ce633e4cd133e5",
+          "bytes": 177910,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CDK4937-3/CDK4937-4/CDK4752-4/CDK390-2",
+      "operation": "new",
+      "sourceRow": 48,
+      "sourceFields": {
+        "sku": "CDK4937-3/CDK4937-4/CDK4752-4/CDK390-2",
+        "标题": "Wholesale Custom Clear Pouch Shaker Keychains with Polymer Clay Resin Fillers and Alloy Hardware for Bags and Party Gifts",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 60 * 80mm, total length 132mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK4937-3CDK4937-4CDK4752-4CDK390-2.png",
+          "sha256": "6804c967dd505a4d1b8c6a553683b90abe3a751a53fc890e28b206d8ba5b4355"
+        }
+      ],
+      "pdp": "p-cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-1-floral-clear-pouch-shaker-keychain-assortment.png",
+          "role": "main",
+          "width": 772,
+          "height": 743,
+          "sha256": "600067937bf1aebce177229ad9f70d1e1eb1a067566220e15d859d3bac086e4b",
+          "bytes": 1115012,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-2-floral-clear-pouch-shaker-keychain-assortment-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f0f9249198c6da9f6c846ea5db7b2357a297c9e2638d43e26f708e6847a706bc",
+          "bytes": 164972,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-3-floral-clear-pouch-shaker-keychain-assortment-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "36590a33f2985ebea15b78070712088014dbef2fc77acae83fab9ff6ab57a5d3",
+          "bytes": 173730,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW24359",
+      "operation": "new",
+      "sourceRow": 49,
+      "sourceFields": {
+        "sku": "RW24359 ",
+        "标题": "100pcs Kawaii Snowflake Resin Christmas Cabochon Crafts Flatback Crafts Diy Center Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24359.png",
+          "sha256": "152ab8a25c9531130fd3f1dc6ec8304e02cfa7c35a342f2473d552d2fd13ab5d"
+        }
+      ],
+      "pdp": "p-rw24359.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24359/rw24359-1-iridescent-snowflake-resin-flatback-craft-charms.png",
+          "role": "main",
+          "width": 575,
+          "height": 606,
+          "sha256": "072394b968f8c7d330325a32c80bc7776d6cd39afa483919c6e61a2b4803a182",
+          "bytes": 921575,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24359/rw24359-2-iridescent-snowflake-resin-flatback-craft-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8a3f699ceab37cf83be026f87d2879e9e0f6106d6ea373a7f74453b6019ea035",
+          "bytes": 167266,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw24359/rw24359-3-iridescent-snowflake-resin-flatback-craft-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d27c03116c233c5847d519600b7c8768f24915a8c9971bc8fcbc6a7ce33b81b1",
+          "bytes": 130979,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW21743",
+      "operation": "new",
+      "sourceRow": 50,
+      "sourceFields": {
+        "sku": "RW21743 ",
+        "标题": "100pcs New Mini Cute Cartoon Rabbit  Dairy Farm Series Resin Flat Back Cabochon Scrapbook Diy Accessories Decor Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW21743 .png",
+          "sha256": "2b96b7f094b8963dfb05bcd32b6bf6eead7ae7faa00c9356eb7fe1f9aea40426"
+        }
+      ],
+      "pdp": "p-rw21743.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21743/rw21743-1-farm-themed-resin-flatback-craft-assortment.png",
+          "role": "main",
+          "width": 618,
+          "height": 521,
+          "sha256": "da46907485e32b5c0721456b4e98bba04b2b1e56cb9847efe9dee0b49102a2b4",
+          "bytes": 586643,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw21743/rw21743-2-farm-themed-resin-flatback-craft-assortment-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2cb55f8bab2cdfd4a509b9fc4efd248b0c04dc9ebb42c1755178401da2e08185",
+          "bytes": 203201,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw21743/rw21743-3-farm-themed-resin-flatback-craft-assortment-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cba458c9387f91ee485f969d554889dc31966a255198c950e7e3502e5fe231c5",
+          "bytes": 98157,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RX028",
+      "operation": "new",
+      "sourceRow": 51,
+      "sourceFields": {
+        "sku": "RX028 ",
+        "标题": "Simulated PVC Lemon Fruit Slices Plastic Kindergarten Fruit Garden Decoration Items Children's Educational Toys",
+        "分类": "塑料工艺品",
+        "状态": "库存有货",
+        "材质": "pvc",
+        "尺寸": "56 MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RX028.png",
+          "sha256": "b89f1a41b53b5713b6168c065446d9965a79d03ce2cacf92ec91216a3db7475b"
+        }
+      ],
+      "pdp": "p-rx028.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rx028/rx028-1-pvc-citrus-slice-craft-decoration-pieces.png",
+          "role": "main",
+          "width": 773,
+          "height": 658,
+          "sha256": "214d60c84d6331fd2c021233757060e1adc85a9c0f2f26430f4e7c88809aa0f7",
+          "bytes": 879833,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rx028/rx028-2-pvc-citrus-slice-craft-decoration-pieces-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0b8370e8b2423a9a93c453152350f634fec0ab193daa3e3c14723ff3ca30a5e8",
+          "bytes": 199692,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rx028/rx028-3-pvc-citrus-slice-craft-decoration-pieces-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2b1ceac9f9dce851a3daa938df0b5ac58950cc21d93afe3a02702d5c9df24d14",
+          "bytes": 113256,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW404",
+      "operation": "new",
+      "sourceRow": 52,
+      "sourceFields": {
+        "sku": "RW404 ",
+        "标题": "Slime Charms Simulated 3D Coffee Beans Resin Addition for Slime DIY Accessories Beads Making Supplies for Scrapbooking Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12*16*6mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW404.png",
+          "sha256": "0e4dfcd06e0e255aca6c40cd864a850e1af8d1bbd61e686131b205de7d1124f7"
+        }
+      ],
+      "pdp": "p-rw404.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw404/rw404-1-mini-coffee-bean-resin-slime-charms.png",
+          "role": "main",
+          "width": 448,
+          "height": 405,
+          "sha256": "4153dc46286b9a88df1cfcc079c26ea988beb4a4534bcd38864ae4c034e9aa8e",
+          "bytes": 244356,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw404/rw404-2-mini-coffee-bean-resin-slime-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "80d87a65b7423f17b2dd683f6dd1d653e1b890ce31175bad4ae2313633b0de21",
+          "bytes": 152906,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw404/rw404-3-mini-coffee-bean-resin-slime-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "453ea612d8d742a2633578fc7d2e1423f04266d70cb8f8acbda8c117a8ac5b03",
+          "bytes": 116533,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW20946",
+      "operation": "new",
+      "sourceRow": 53,
+      "sourceFields": {
+        "sku": "RW20946 ",
+        "标题": "Luminous Resin Mini Tiny Mushroom Figurines Glowing in Dark Gnome Mushrooms Miniature DIY Fairy Garden Home Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "14*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20946.png",
+          "sha256": "4f70834dc91606c326bc7f448cb5095b423d6f6d0e057268786954ca3728abe5"
+        }
+      ],
+      "pdp": "p-rw20946.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20946/rw20946-1-luminous-mini-mushroom-resin-craft-figurines.png",
+          "role": "main",
+          "width": 583,
+          "height": 564,
+          "sha256": "b861d9d80b85c2782759f8015be8048cfe418bd431bf3d746238f59d8ac106e2",
+          "bytes": 909166,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw20946/rw20946-2-luminous-mini-mushroom-resin-craft-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1ff3f960f514a0b34fd1fc1b27b78032d0ce7c0bca665ef52837e075d3c558db",
+          "bytes": 243530,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw20946/rw20946-3-luminous-mini-mushroom-resin-craft-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cdcedeb6bdb62104fdc4eb2d8f55495a326ee90a9ee5f772185b022e4049cf61",
+          "bytes": 70577,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW20423/RW22336/RW22338",
+      "operation": "new",
+      "sourceRow": 54,
+      "sourceFields": {
+        "sku": "RW20423/RW22336/RW22338 ",
+        "标题": "100pcs Resin Christmas Crafts Mini Black Elk Horn DIY Xmas Home Decor Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24*15MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20423.png",
+          "sha256": "a030cbdc9bed11630fd77380079f8487d12539c29b096ccd0893e4c82749a16b"
+        },
+        {
+          "file": "RW22336 .png",
+          "sha256": "837b3ba6f40114db56b89d631e003ae0cdfb2dffacc53f8110ea811e748b42da"
+        },
+        {
+          "file": "rw22338-main-reference.jpg",
+          "sha256": "e3059d897e7fc10a1f743a0b7368bcdd99cc342e92ce8b2627cda45dc5ee9e11"
+        }
+      ],
+      "pdp": "p-rw20423-rw22336-rw22338.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20423-rw22336-rw22338/rw20423-rw22336-rw22338-1-mixed-mini-antler-black-hat-craft-decorations.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8412e230e0ec42646a56ac0b612e7381ab25dc14935dd5d11d9b5e999715b36f",
+          "bytes": 86637,
+          "origin": "AI-assisted composition from three verified references"
+        },
+        {
+          "path": "assets/images/pdp/rw20423-rw22336-rw22338/rw20423-rw22336-rw22338-2-mixed-mini-antler-black-hat-craft-decorations-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b302c791731a2d960f4b5dd6be2c573d5c160c99cba9bae826ef00e804c44197",
+          "bytes": 197258,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw20423-rw22336-rw22338/rw20423-rw22336-rw22338-3-mixed-mini-antler-black-hat-craft-decorations-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dd52ee64cb4c128fa5417d221bfb6ba1fe7536ea45d3d54c2de90369507ecdc8",
+          "bytes": 100409,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW25404",
+      "operation": "new",
+      "sourceRow": 55,
+      "sourceFields": {
+        "sku": "RW25404 ",
+        "标题": "100Pcs  Luminous Honey Jar Resin Charms Pendants for Jewelry Making DIY Earring Bracelet Necklace Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "22MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW25404.png",
+          "sha256": "b0be6aeb12a2baa01a83cd8e79949479db51a6deb46ddd43bb9c6818cde4330b"
+        }
+      ],
+      "pdp": "p-rw25404.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25404/rw25404-1-luminous-honey-jar-resin-craft-charms.png",
+          "role": "main",
+          "width": 762,
+          "height": 739,
+          "sha256": "3a7943fc8aeb69b46091b1693c8cdf61ae068f24a0583cdde8ec91156bbed977",
+          "bytes": 1012957,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw25404/rw25404-2-luminous-honey-jar-resin-craft-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7589dce6ef24de0b94d7dfcf6fb128a3e8d55759e6db712fd15ada7006820868",
+          "bytes": 137131,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw25404/rw25404-3-luminous-honey-jar-resin-craft-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "51bc7b3bade16786b92b80ee03e23bec11079ff34d97daf9e5ba58468913b997",
+          "bytes": 96056,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "YX3906",
+      "operation": "new",
+      "sourceRow": 56,
+      "sourceFields": {
+        "sku": "YX3906 ",
+        "标题": "1KG Candy Heart Cute Polymer Clay Tiles Cartoon Designs Slime Accessories Scrapbooking DIY Crafts Phone Case Embellishments",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3906.png",
+          "sha256": "97554f5e4c8a1d9c1e4f03ae176235c0e6d8d2e3ad16da8516347fc3d1da6bea"
+        }
+      ],
+      "pdp": "p-yx3906.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3906/yx3906-1-pastel-candy-heart-polymer-clay-slice-mix.png",
+          "role": "main",
+          "width": 420,
+          "height": 449,
+          "sha256": "28f3422841b95a0410dd9f106009718f57200c44d5fe46b8471abb7d7300096c",
+          "bytes": 571983,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3906/yx3906-2-pastel-candy-heart-polymer-clay-slice-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "abf1281f5630a6ee2e680524557b478792efc6ff655590cd47bd70c2ecdb6338",
+          "bytes": 184923,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/yx3906/yx3906-3-pastel-candy-heart-polymer-clay-slice-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "34034deb466e77628a5bb3d831ca4607d295daa47bdee1d2cb075d1b3c18f06d",
+          "bytes": 91714,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CZB002635",
+      "operation": "new",
+      "sourceRow": 57,
+      "sourceFields": {
+        "sku": "CZB002635",
+        "标题": "Christmas Present Box Beads with Hole Mixed Shapes Bow Charms for Bracelet Phone Strap Keychain Custom Wholesale",
+        "分类": "pen  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10-18mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CZB002635.png",
+          "sha256": "17ba222b86f3db318292f02759fcb277ca2cc4a1a81d72f49da0dc93a7b7ccdf"
+        }
+      ],
+      "pdp": "p-czb002635.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/czb002635/czb002635-1-christmas-gift-box-resin-beads-with-holes.png",
+          "role": "main",
+          "width": 720,
+          "height": 654,
+          "sha256": "6f1112fe844ed7aa6586c53a2979cd640a7e9f993b9506f99c1c51530586cb48",
+          "bytes": 997618,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/czb002635/czb002635-2-christmas-gift-box-resin-beads-with-holes-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d9a28a8c89611d756e7d18a27a331bdd5bcf076d979d78db83bc01b1a7cdf627",
+          "bytes": 184818,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/czb002635/czb002635-3-christmas-gift-box-resin-beads-with-holes-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fcd2ec69d3b00b12facc911818e15a522e1342b99b577274ba1ff26fd3d81c89",
+          "bytes": 96515,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CZB26806",
+      "operation": "new",
+      "sourceRow": 58,
+      "sourceFields": {
+        "sku": "CZB26806 ",
+        "标题": "Squirrel Beads with Hole 3D Animal Charms for Bracelet Necklace Phone Strap Keychain Accessories Custom Wholesale",
+        "分类": "pen  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "28*30mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CZB26806.png",
+          "sha256": "82e640914c7b06aa4e1dd6b10aa5145eb362017db3b81edf67c07db99da08950"
+        }
+      ],
+      "pdp": "p-czb26806.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/czb26806/czb26806-1-squirrel-animal-resin-beads-with-holes.png",
+          "role": "main",
+          "width": 729,
+          "height": 745,
+          "sha256": "838fe7559c691c2f7c6eccf5ba3d90ed70b0100db76311b92fc8bfa28b43b991",
+          "bytes": 1372141,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/czb26806/czb26806-2-squirrel-animal-resin-beads-with-holes-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5f2fb2cf178d6276d3824bfff7d4246df6e9dce662dc55cdf16b1762a0a9f6b7",
+          "bytes": 193246,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/czb26806/czb26806-3-squirrel-animal-resin-beads-with-holes-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9a5f4742c752b6762d72cb84dadf2e49b4b51cdcbf1bdf32c23428082f26c1f6",
+          "bytes": 105409,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW24891",
+      "operation": "update",
+      "sourceRow": 39,
+      "sourceFields": {
+        "sku": "RW24891",
+        "标题": "Resin Ducks With Christmas Hat Miniatures Christmas Ducks Fairy Garden Decoration Kawaii Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "16*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24891.png",
+          "sha256": "37797e9d1eda67dea7c17b346bcdb8afdca43b4b9a93a49ce6908f6919f74073"
+        }
+      ],
+      "pdp": "p-rw24891.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24891/rw24891-1-christmas-hat-duck-resin-miniature-charms.png",
+          "role": "main",
+          "width": 422,
+          "height": 373,
+          "sha256": "7d75d8c596563482e7a03e728010257fd203970fb00dbf18383c63ed61f40762",
+          "bytes": 199414,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24891/rw24891-2-christmas-hat-duck-resin-miniature-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4afb39e131bceb32b9c34dcf41d6ba538902486755d204f6d38c46e72f164c0d",
+          "bytes": 159166,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw24891/rw24891-3-christmas-hat-duck-resin-miniature-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e6e5d001495c573424721b2e139710560ef1b06fba0e4538c18fc28a3279bc04",
+          "bytes": 86701,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW20175",
+      "operation": "update",
+      "sourceRow": 40,
+      "sourceFields": {
+        "sku": "RW20175",
+        "标题": "Cute Cartoon Christmas Series Flat Back Resin Charms  Cabochons Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25-35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20175(1).jpg",
+          "sha256": "0dc1261867c101cac30c96f4123ba9c2e649eeff2957a3f3b7c4ff6cfacd05eb"
+        }
+      ],
+      "pdp": "p-rw20175.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-1-mixed-christmas-resin-flatback-craft-charms.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "407f4fa4042ed4ffc414456678f0597e879cd4888c48c5ca3b776483311d7309",
+          "bytes": 168392,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-2-mixed-christmas-resin-flatback-craft-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8d32000031fef7c549914a988c953ff598051e5bbf781b7bb3ca229c2bb513f3",
+          "bytes": 247236,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-3-mixed-christmas-resin-flatback-craft-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6bad3d43fe935a2aa6fb0a078df434c17966045c4fcda87793aa122c1ad9cd77",
+          "bytes": 116938,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    }
+  ]
+}
