@@ -165,3 +165,57 @@ test('Bag Charms applications update fits the current mobile layout', async ({ p
   await bag.screenshot({ path: 'test-results/qula-mobile-bag-charms-card.png' });
   await page.screenshot({ path: 'test-results/qula-mobile-bag-charms.png', fullPage: true });
 });
+
+test('custom design guide has a readable process map and separate material routes', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  const article = baseURL + '/blog-custom-resin-polymer-clay-process.html';
+  const service = baseURL + '/customization.html';
+
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: width === 1440 ? 1000 : 844 });
+    await page.goto(article, { waitUntil: 'networkidle' });
+    await expectNoHorizontalOverflow(page);
+    await expect(page.locator('.custom-flow li')).toHaveCount(5);
+    await expect(page.locator('.custom-story h1')).toHaveText('How we develop custom resin and polymer clay pieces');
+    await expect(page.locator('.custom-checkpoint')).toHaveCount(0);
+    await expect(page.locator('.custom-illustration')).not.toHaveAttribute('open', '');
+    await expect(page.locator('.custom-illustration summary')).toContainText('AI-generated illustration');
+
+    const columns = await page.locator('.custom-flow').evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length);
+    expect(columns).toBe(width === 1440 ? 5 : 1);
+    await page.screenshot({ path: `test-results/qula-custom-guide-${width}.png`, fullPage: width === 390 });
+
+    await page.locator('.custom-contents a[href="#sample-development"]').click();
+    await expect(page).toHaveURL(/#sample-development$/);
+    await expect(page.locator('#sample-development h3')).toHaveCount(2);
+    await page.locator('.custom-illustration summary').click();
+    await expect(page.locator('.custom-illustration')).toHaveAttribute('open', '');
+    const example = page.locator('.custom-process-figure img');
+    await expect(example).toBeVisible();
+    await expect.poll(() => example.evaluate(img => img.naturalWidth)).toBe(1536);
+    const proportions = await example.evaluate(img => ({
+      fit: getComputedStyle(img).objectFit,
+      ratio: img.getBoundingClientRect().width / img.getBoundingClientRect().height
+    }));
+    expect(proportions.fit).toBe('contain');
+    expect(Math.abs(proportions.ratio - 1.5)).toBeLessThan(0.02);
+    await page.locator('.custom-illustration').screenshot({ path: `test-results/qula-custom-example-${width}.png` });
+    await page.locator('.custom-illustration summary').click();
+    await expect(page.locator('.custom-illustration')).not.toHaveAttribute('open', '');
+
+    await page.goto(service, { waitUntil: 'networkidle' });
+    await expectNoHorizontalOverflow(page);
+    await expect(page.locator('.custom-service-card')).toHaveCount(2);
+    await page.locator('#material-options').screenshot({ path: `test-results/qula-custom-services-${width}.png` });
+  }
+
+  for (const [id, product] of [
+    ['resin-customization', 'Resin Charms'],
+    ['polymer-customization', 'Polymer Clay Sprinkles']
+  ]) {
+    await page.goto(service, { waitUntil: 'networkidle' });
+    await page.locator('#' + id + ' a.btn').click();
+    await expect(page.locator('[name="product"]')).toHaveValue(product);
+  }
+  // This test only follows quote links. It never submits an inquiry.
+});
