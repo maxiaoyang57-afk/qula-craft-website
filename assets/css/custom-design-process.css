@@ -1,0 +1,66 @@
+/* Scoped editorial styles for the custom design guide and material service paths. */
+.custom-story{--custom-ink:#293e39;--custom-green:#276c5b;--custom-pink:#a63c61;color:var(--custom-ink);font-size:16px;line-height:1.8;background:#fffdfa}
+.custom-story .container{max-width:1160px}
+.custom-story h1,.custom-story h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.035em;color:var(--custom-ink)}
+.custom-story h1{font-size:clamp(40px,4.2vw,60px);line-height:1.08;margin:18px 0 0;max-width:580px}
+.custom-story h2{font-size:36px;line-height:1.17;margin:10px 0 22px}
+.custom-story h3{font-size:23px;line-height:1.3;margin:10px 0 16px}
+.custom-story p{margin:0 0 19px}
+.custom-story ul{padding-left:22px;margin:18px 0 24px}
+.custom-story li{padding-left:4px;margin-bottom:10px}
+.custom-story a:focus-visible,.custom-service-paths a:focus-visible{outline:3px solid #a63c61;outline-offset:5px}
+.custom-kicker,.custom-step,.custom-material-label{font-size:11px;font-weight:800;letter-spacing:.12em;color:#276c5b;line-height:1.5}
+.custom-story-hero{padding:26px 0 42px;background:#f9f2eb;border-bottom:1px solid #eaded3}
+.custom-story .breadcrumb{font-size:12px;margin-bottom:36px}
+.custom-story-intro{display:grid;grid-template-columns:1.1fr .9fr;gap:68px;align-items:end;margin-bottom:40px}
+.custom-story .custom-deck{font-size:18px;line-height:1.75;color:#52655d;margin-bottom:18px}
+.custom-story .custom-meta{font-size:12px;color:#637367;margin-bottom:14px}
+.custom-text-link{color:#276c5b;font-weight:700;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+.custom-process-figure{margin:0 auto;max-width:1040px}
+.custom-process-figure>a{display:block}
+.custom-process-figure img{display:block;width:100%;height:auto;object-fit:contain;border:1px solid #e6d9cd;border-radius:8px;background:#fff}
+.custom-process-figure figcaption{font-size:12px;line-height:1.7;color:#5b665e;margin:14px 0 0;max-width:920px}
+.custom-process-figure figcaption a{color:#276c5b;text-decoration:underline;white-space:normal}
+.custom-story-layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:70px;padding-top:48px;padding-bottom:70px}
+.custom-story-sidebar{position:relative;min-width:0}
+.custom-contents{position:sticky;top:104px;display:flex;flex-direction:column;border-left:2px solid #e8d8cc;padding:3px 0 0 20px;gap:12px}
+.custom-contents .custom-kicker{margin-bottom:7px}
+.custom-contents a{color:#506158;text-decoration:none;font-size:13px;line-height:1.6;display:block;padding:3px 0}
+.custom-contents a:hover{color:#a63c61;text-decoration:underline;text-underline-offset:4px}
+.custom-story-copy{max-width:750px;min-width:0}
+.custom-note{background:#eaf2e9;padding:26px 30px;border-radius:8px;margin-bottom:8px}
+.custom-note>strong{font-size:19px;line-height:1.4;display:block}
+.custom-note p{font-size:15px;margin:10px 0 0}
+.custom-chapter{padding:42px 0;border-bottom:1px solid #e4e9df;scroll-margin-top:110px}
+.custom-story .custom-checkpoint{border-left:3px solid #a75c78;background:#f8edf0;padding:16px 20px;font-size:14px;line-height:1.8;margin:26px 0 0}
+.custom-checkpoint strong{color:#8b3453}
+.custom-material-path{padding:26px 28px;background:#f8f0e5;border:1px solid #e8d9c5;border-radius:8px;margin:22px 0}
+.custom-material-path p{font-size:15px}
+.custom-material-polymer{background:#eef3e9;border-color:#d9e2cf}
+.custom-material-label{color:#8e542e}
+.custom-material-polymer .custom-material-label{color:#4f663a}
+.custom-brief{background:#f5e7ec;border:1px solid #ead2dd;border-radius:10px;padding:34px;margin:42px 0 0;scroll-margin-top:110px}
+.custom-brief .custom-kicker{color:#923355}
+.custom-brief h2{font-size:33px}
+.custom-brief li,.custom-brief p{font-size:15px}
+.custom-actions{display:flex;gap:20px;flex-wrap:wrap;align-items:center;margin-top:24px}
+.custom-actions .btn{font-size:14px;white-space:normal}
+.custom-story .faq-list{margin-top:24px}
+.custom-story .faq-list p{margin:0;font-size:15px;line-height:1.8}
+.custom-story .faq-list summary{padding-right:32px;line-height:1.5}
+.custom-service-paths{scroll-margin-top:110px}
+.custom-service-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.custom-service-card{padding:30px;border:1px solid #ecdad0;border-radius:var(--radius,18px);background:#fff9f2;scroll-margin-top:110px;min-width:0}
+.custom-service-card:nth-child(2){background:#f3f7ef;border-color:#dbe5d3}
+.custom-service-card h3{font-size:25px;line-height:1.3;margin:10px 0 16px}
+.custom-service-card p{margin:0 0 15px;line-height:1.75}
+.custom-service-card ul{padding-left:21px;margin:16px 0}
+.custom-service-card li{margin-bottom:8px}
+.custom-service-card .custom-service-route{font-size:14px;padding-top:16px;border-top:1px solid #decfc2}
+.custom-service-card .btn{white-space:normal;margin-top:5px}
+.custom-service-guide{background:#f8eef1;border-radius:12px;padding:24px 28px;margin-top:24px;display:flex;align-items:center;justify-content:space-between;gap:26px}
+.custom-service-guide p{margin:4px 0 0}
+.custom-service-guide a{flex-shrink:0}
+@media(max-width:980px){.custom-story-intro{gap:34px}.custom-story-layout{grid-template-columns:190px minmax(0,1fr);gap:35px}.custom-contents{padding-left:15px}.custom-service-guide{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(max-width:760px){.custom-story-intro{grid-template-columns:1fr;gap:24px;margin-bottom:28px}.custom-story h1{max-width:620px}.custom-story-layout{grid-template-columns:1fr;gap:28px;padding-top:28px}.custom-contents{position:static;display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;padding:0 0 22px;border-left:0;border-bottom:1px solid #e3dacf}.custom-contents .custom-kicker{grid-column:1/-1;margin:0}.custom-contents a{font-size:12px}.custom-story-copy{max-width:none}.custom-service-grid{grid-template-columns:1fr}.custom-service-card{padding:26px}}
+@media(max-width:480px){.custom-story{font-size:15px}.custom-story-hero{padding:20px 0 28px}.custom-story .breadcrumb{font-size:11px;margin-bottom:26px}.custom-story h1{font-size:42px;margin-top:12px}.custom-story .custom-deck{font-size:16px}.custom-story .custom-meta{font-size:11px}.custom-process-figure figcaption{font-size:11px}.custom-story h2{font-size:30px}.custom-story h3{font-size:21px}.custom-chapter{padding:34px 0}.custom-note{padding:22px}.custom-material-path{padding:22px 20px}.custom-brief{padding:25px 22px}.custom-brief h2{font-size:29px}.custom-story .custom-checkpoint{padding:14px 16px}.custom-actions{gap:18px}.custom-actions .btn{width:100%;justify-content:center}.custom-service-card{padding:24px}.custom-service-guide{padding:22px}.custom-service-guide a{flex-shrink:1}}
