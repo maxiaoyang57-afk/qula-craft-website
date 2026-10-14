@@ -167,7 +167,7 @@ if (process.argv[2] === '--live') {
   }
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html', 'thank-you.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/analytics.js?v=20261014-lead-safe')) {
+    if (!html.includes('assets/js/analytics.js?v=20261014-clarity')) {
       fail([`${page} must load the confirmed-lead analytics script version`]);
     }
   }
