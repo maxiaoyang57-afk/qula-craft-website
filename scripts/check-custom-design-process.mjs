@@ -18,11 +18,15 @@ assert.equal(articleSchema.mainEntityOfPage, 'https://www.qulacrafts.com/' + slu
 assert.equal(articleSchema.headline, main.match(/<h1>(.*?)<\/h1>/)[1]);
 assert.equal(articleSchema.dateModified, '2026-10-14');
 assert.equal((article.match(/<h1\b/g) || []).length, 1);
-assert.equal((main.match(/class="custom-checkpoint"/g) || []).length, 8);
+assert.equal((main.match(/class="custom-flow-number"/g) || []).length, 5);
+assert(!main.includes('Your checkpoint:'));
+assert(main.includes('class="custom-illustration"'));
+assert(main.indexOf('custom-illustration') > main.indexOf('id="sample-development"'));
+assert.equal((main.match(/class="custom-approval-note"/g) || []).length, 1);
 assert.equal((main.match(/class="custom-material-path/g) || []).length, 2);
 assert(main.includes('AI-generated scenes'));
 assert(main.includes('not a customer case study or factory photographs'));
-assert(main.includes('Mold ownership, storage, reuse and exclusivity need a written agreement'));
+assert(main.includes('Mold ownership, storage, reuse and exclusivity should be set out in the written agreement'));
 assert(!/Emily|Carter|testimonial|guaranteed|\$\d|\b\d+[–-]\d+ (?:days|weeks)/i.test(main));
 assert(css.includes('height:auto;object-fit:contain'));
 for (const id of ['resin-customization', 'polymer-customization']) assert(service.includes('id="' + id + '"'));
@@ -45,4 +49,4 @@ for (let i = 0; i < faq.length; i++) { assert.equal(faq[i].name, visibleFaq[i][1
 const png = fs.readFileSync(path.join(root, 'assets/images/custom-design-process/qula-custom-design-process.png'));
 assert.equal(png.readUInt32BE(16), 1536);
 assert.equal(png.readUInt32BE(20), 1024);
-console.log(`Custom design guide passed: eight checkpoints, separate material paths, FAQ/schema parity, valid local links, uncropped 1536×1024 illustration (${crypto.createHash('sha256').update(png).digest('hex')}).`);
+console.log(`Custom design guide passed: five-step process map, separate material paths, FAQ/schema parity, valid local links, uncropped 1536×1024 illustration (${crypto.createHash('sha256').update(png).digest('hex')}).`);
