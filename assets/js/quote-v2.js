@@ -1,13 +1,16 @@
 
 (function() {
   const MAX_ATTACHMENT_BYTES = 10 * 1024 * 1024;
+  const IS_PRODUCTION_HOST = /^(www\.)?qulacrafts\.com$/i.test(window.location.hostname);
 
   function initInquiryForm(formId, config) {
     const form = document.getElementById(formId);
     if (!form) return;
     const submitButton = form.querySelector('button[type="submit"]');
     const idleSubmitText = submitButton?.innerHTML;
+    let isSubmitting = false;
     window.addEventListener('pageshow', () => {
+      isSubmitting = false;
       if (submitButton) { submitButton.disabled = false; submitButton.innerHTML = idleSubmitText; }
     });
 
@@ -219,11 +222,17 @@
     // Submit through the verified multipart endpoint so every selected file is emailed.
     form.onsubmit = (e) => {
       e.preventDefault();
+      if (isSubmitting || !form.reportValidity()) return;
       const btn = form.querySelector('button[type="submit"]');
       const originalText = btn.innerHTML;
 
       if (attachmentError || totalAttachmentBytes(attachments) > MAX_ATTACHMENT_BYTES) {
         updateAttachmentStatus(attachmentError || 'Please keep all attachments within the 10MB total limit.');
+        return;
+      }
+
+      if (!IS_PRODUCTION_HOST) {
+        updateAttachmentStatus('Preview validation passed — inquiry sending is disabled outside qulacrafts.com.');
         return;
       }
 
@@ -237,12 +246,22 @@
         return;
       }
 
+      isSubmitting = true;
       btn.disabled = true;
       btn.innerHTML = 'Sending...';
       if (typeof window.QULA_MARK_INQUIRY_PENDING === 'function') {
         window.QULA_MARK_INQUIRY_PENDING(form);
       }
-      HTMLFormElement.prototype.submit.call(form);
+      try {
+        HTMLFormElement.prototype.submit.call(form);
+      } catch (error) {
+        isSubmitting = false;
+        if (typeof window.QULA_CLEAR_INQUIRY_PENDING === 'function') window.QULA_CLEAR_INQUIRY_PENDING();
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+        attachmentStatus.textContent = 'Your inquiry could not be sent. Please try again or email sales@qulacrafts.com.';
+        attachmentStatus.style.color = '#b42318';
+      }
     };
 
     updateAttachmentStatus();
