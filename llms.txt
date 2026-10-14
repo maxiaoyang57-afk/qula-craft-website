@@ -25,6 +25,7 @@ Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.tx
 - [Private Label Packaging](https://www.qulacrafts.com/private-label-packaging.html): OPP bags, PET bottles, jars, compartment boxes, gift boxes
 
 ## Buyer Guides
+- [Custom resin and polymer clay: from idea to sample](https://www.qulacrafts.com/blog-custom-resin-polymer-clay-process.html): customer brief, resin and polymer development routes, proof and sample approvals, production checks, packing and reorders
 - [Slime business supply checklist](https://www.qulacrafts.com/guide-slime-business-supply-checklist.html): base vs add-ins, trial-bag math, packaging, compliance
 - [Buying polymer clay sprinkles in bulk](https://www.qulacrafts.com/guide-polymer-clay-sprinkles-bulk.html): sizes, gram math, MOQ logic, quality checks
 - [Fake sprinkles for slime: clay slices vs resin charms](https://www.qulacrafts.com/guide-clay-slices-vs-resin-charms-slime.html): usage per jar, colorfast testing, 70/30 strategy
@@ -34,7 +35,7 @@ Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.tx
 - [Non-food safety labeling](https://www.qulacrafts.com/guide-non-food-safety-labeling.html): required warnings, label wording templates
 
 ## Ordering
-- [Customization (OEM/ODM)](https://www.qulacrafts.com/customization.html): custom components, focal beads, 3D flatbacks, finished keychains, bracelets, necklaces and packaging; details confirmed by email
+- [Customization (OEM/ODM)](https://www.qulacrafts.com/customization.html): custom resin shapes, relief, flatbacks, holes and finishes; polymer patterns, slices, thickness, 3D pieces and mixes; finished accessories and packaging; feasibility and terms confirmed per project
 - [Quality & Safety](https://www.qulacrafts.com/quality-safety.html): QC chain, non-food labeling support
 - [Factory](https://www.qulacrafts.com/factory.html) | [Applications](https://www.qulacrafts.com/applications.html): slime, nail art, jewelry, bag charms, decoden, party, DIY kits, beadable pens and gift retail | [FAQ](https://www.qulacrafts.com/faq.html)
 - [Request a Quote](https://www.qulacrafts.com/quote.html)
