@@ -52,6 +52,8 @@ jobs:
           exit 1
       - name: Verify mobile menu, CTA and PDP rendering
         run: npx playwright test tests/mobile-layout.spec.js --reporter=line --workers=1
+      - name: Verify inquiry lead tracking without external delivery
+        run: node --test scripts/tests/lead-tracking.test.cjs
       - name: Upload mobile verification screenshots
         if: always()
         uses: actions/upload-artifact@v4

@@ -1,6 +1,8 @@
 /* Qula Craft GA4 — property 549323595 / web stream 15412253402 */
 (function(){
   var GA_ID='G-KKT7E44TD2';
+  var IS_CANONICAL_ANALYTICS_HOST=/^(www\.)?qulacrafts\.com$/i.test(window.location.hostname);
+  if(!IS_CANONICAL_ANALYTICS_HOST)return;
   window.dataLayer=window.dataLayer||[];
   function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
   gtag('js',new Date());gtag('config',GA_ID);
@@ -34,23 +36,36 @@
     }catch(e){}
   }
   window.QULA_MARK_INQUIRY_PENDING=markPendingInquiry;
+  window.QULA_CLEAR_INQUIRY_PENDING=function(){
+    try{sessionStorage.removeItem(LEAD_MARKER);}catch(e){}
+  };
 
   document.addEventListener('submit',function(e){
     var f=e.target;
     if(f&&f.getAttribute&&(f.getAttribute('action')||'').indexOf('formsubmit')>-1){
       gtag('event','inquiry_submit_attempt',{page:location.pathname,form_id:f.id||''});
-      if(f.id!=='inquiryForm'&&f.id!=='inquiryFormHome') markPendingInquiry(f);
+      if(f.id!=='inquiryForm'&&f.id!=='inquiryFormHome') {
+        // Wait for form handlers to finish before marking a native submission.
+        queueMicrotask(function(){if(!e.defaultPrevented)markPendingInquiry(f);});
+      }
     }
   },true);
 
   if(/\/thank-you\.html$/.test(location.pathname)){
     try{
       var pending=JSON.parse(sessionStorage.getItem(LEAD_MARKER)||'null');
+      sessionStorage.removeItem(LEAD_MARKER);
       if(pending&&Number.isFinite(pending.ts)&&Date.now()-pending.ts>=0&&Date.now()-pending.ts<=30*60*1000){
         sessionStorage.removeItem(LEAD_MARKER);
-        var params={page:pending.page||'',confirmation_page:location.pathname,form_id:pending.form_id||''};
+        var params={
+          page:pending.page||'',
+          confirmation_page:location.pathname,
+          form_id:pending.form_id||'',
+          lead_type:'wholesale_inquiry',
+          lead_status:'confirmed_return'
+        };
+        // One confirmed thank-you return equals one GA4 lead conversion.
         gtag('event','generate_lead',params);
-        gtag('event','inquiry_accepted',params);
       }
     }catch(e){
       try{sessionStorage.removeItem(LEAD_MARKER);}catch(_){}

@@ -3,6 +3,7 @@
   'use strict';
   const config = {"brand": "Qula Craft", "origin": "https://www.qulacrafts.com", "email": "sales@qulacrafts.com", "whatsapp": "8618632026595", "phoneField": "whatsapp", "formSelector": "form[action^=\"https://formsubmit.co/\"]"};
   const ownScript = document.currentScript;
+  const isProductionHost = /^(www\.)?qulacrafts\.com$/i.test(location.hostname);
   const goals = {
     'Price and availability': ['What would you like us to quote?', 'Share a product code or description, an approximate quantity with its unit, and your destination. Not sure about quantity? Tell us what you are planning.'],
     'Samples first': ['What would you like to try?', 'Tell us which products you want to test, what you want to check, and the destination country. We will confirm sample availability, fees and shipping before you decide.'],
@@ -103,6 +104,25 @@
       }
     }).observe(document.body, { childList: true, subtree: true });
     const forms = [...document.querySelectorAll(config.formSelector)];
+    if (!isProductionHost) {
+      forms.forEach(form => {
+        form.dataset.previewSubmissionDisabled = 'true';
+        form.addEventListener('submit', event => {
+          event.preventDefault();
+          if (!form.reportValidity()) return;
+          let status = form.querySelector('[data-preview-submit-status]');
+          if (!status) {
+            status = document.createElement('p');
+            status.className = 'form-note';
+            status.dataset.previewSubmitStatus = 'true';
+            status.setAttribute('role', 'status');
+            status.setAttribute('aria-live', 'polite');
+            form.appendChild(status);
+          }
+          status.textContent = 'Preview validation passed — inquiry sending is disabled outside qulacrafts.com.';
+        }, true);
+      });
+    }
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
       css.rel = 'stylesheet';
