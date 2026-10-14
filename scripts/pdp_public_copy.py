@@ -20,6 +20,7 @@ PRODUCT_DETAILS = json.loads(
 
 
 PUBLIC_TITLE_OVERRIDES = {
+    "YX048": "Pink Strawberry Polymer Clay Slices",
     "RX399": "Mini Dinosaur Figures",
     "MSB401": "Butterfly Pendant Charms",
     "SC048": "Custom Jewelry Polishing Cloths",
@@ -27,6 +28,7 @@ PUBLIC_TITLE_OVERRIDES = {
 }
 
 PUBLIC_META_TITLE_OVERRIDES_BY_ASSET = {
+    "yx048": "Pink Strawberry Clay Slices Wholesale | YX048 | Qula Craft",
     "rw5306": "Mini Wooden Honey Sticks Wholesale | RW5306",
     "ym228": "Artificial Snow for Slime Wholesale | YM228",
     "ym216": "Gummy Worm Resin Cabochons Wholesale | YM216",
@@ -168,6 +170,12 @@ def public_specs(entry: dict) -> dict:
     the category. The same public specs feed the visible table and Product schema.
     """
     specs = sanitize_schema_value(entry.get("specs") or {})
+    # Owner confirmed YX048 is pink strawberry polymer clay; 500 g/bag is packing.
+    if entry.get("sku") == "YX048":
+        specs["Material"] = "Polymer clay"
+        specs["Color"] = "Pink"
+        if "Size" in specs:
+            specs["Pack weight"] = specs.pop("Size")
     if (entry.get("categorySlug") == "beads-for-pens"
             and specs.get("Product Type") == "Painting"
             and specs.get("Material") == "Resin"):
