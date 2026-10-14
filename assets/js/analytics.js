@@ -3,9 +3,95 @@
   var GA_ID='G-KKT7E44TD2';
   var IS_CANONICAL_ANALYTICS_HOST=/^(www\.)?qulacrafts\.com$/i.test(window.location.hostname);
   if(!IS_CANONICAL_ANALYTICS_HOST)return;
+  // Clarity consent adapter: no SDK request before an explicit analytics choice.
+  function createClarityConsent(projectId, eligible) {
+    let loaded = false;
+    let stopped = false;
+    let allowed = false;
+    const events = new Set(['generate_lead', 'inquiry_submit_attempt', 'whatsapp_click', 'email_click', 'phone_click', 'quote_click', 'product_click']);
+    const privacySignal = () => window.navigator.globalPrivacyControl === true || window.navigator.doNotTrack === '1';
+    const maskForms = (root) => {
+      const selector = 'form, [contenteditable], [data-inquiry-summary], [data-upload-preview]';
+      if (root.matches && root.matches(selector)) root.setAttribute('data-clarity-mask', 'true');
+      if (root.querySelectorAll) root.querySelectorAll(selector).forEach((node) => node.setAttribute('data-clarity-mask', 'true'));
+    };
+    const update = (value) => {
+      allowed = value === 'granted' && eligible && !privacySignal();
+      if (!allowed) {
+        if (loaded && typeof window.clarity === 'function') {
+          window.clarity('consentv2', { analytics_Storage: 'denied', ad_Storage: 'denied' });
+          window.clarity('stop');
+          stopped = true;
+        }
+        return;
+      }
+      // A withdrawn recording stays stopped in this document. A fresh page can
+      // start a new consented session, without reloading an unfinished inquiry.
+      if (stopped) return;
+      if (!loaded) {
+        maskForms(document);
+        if (typeof MutationObserver === 'function') {
+          new MutationObserver((records) => records.forEach((record) => record.addedNodes.forEach(maskForms)))
+            .observe(document.documentElement, { childList: true, subtree: true });
+        }
+        window.clarity = window.clarity || function () {
+          (window.clarity.q = window.clarity.q || []).push(arguments);
+        };
+        window.clarity('consentv2', { analytics_Storage: 'granted', ad_Storage: 'denied' });
+        const script = document.createElement('script');
+        script.async = true;
+        script.dataset.sdk = 'clarity';
+        script.src = 'https://www.clarity.ms/tag/' + projectId;
+        document.head.appendChild(script);
+        loaded = true;
+      } else {
+        window.clarity('consentv2', { analytics_Storage: 'granted', ad_Storage: 'denied' });
+      }
+    };
+    return {
+      update,
+      event: (name) => {
+        if (allowed && loaded && !stopped && events.has(name)) window.clarity('event', name);
+      }
+    };
+  }
+  // End Clarity consent adapter.
+  var CONSENT_KEY='qula_analytics_consent_v1';
+  function readConsent(){try{return window.localStorage.getItem(CONSENT_KEY);}catch(e){return null;}}
+  function consentState(value){return {analytics_storage:value==='granted'?'granted':'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'};}
+  var clarityConsent=createClarityConsent('y5ull9s9j6',IS_CANONICAL_ANALYTICS_HOST);
   window.dataLayer=window.dataLayer||[];
-  function gtag(){dataLayer.push(arguments);}window.gtag=gtag;
-  gtag('js',new Date());gtag('config',GA_ID);
+  function gtag(){window.dataLayer.push(arguments);if(arguments[0]==='event')clarityConsent.event(arguments[1]);}window.gtag=gtag;
+  gtag('consent','default',consentState('denied'));
+  if(readConsent()==='granted')gtag('consent','update',consentState('granted'));
+  gtag('js',new Date());gtag('config',GA_ID,{allow_google_signals:false,allow_ad_personalization_signals:false});
+  clarityConsent.update(readConsent());
+  function applyConsent(value){
+    try{window.localStorage.setItem(CONSENT_KEY,value);}catch(e){}
+    gtag('consent','update',consentState(value));
+    clarityConsent.update(value);
+  }
+  window.addEventListener('storage',function(event){
+    if(event.key===CONSENT_KEY||event.key===null){
+      gtag('consent','update',consentState(readConsent()));
+      clarityConsent.update(readConsent());
+    }
+  });
+  function mountConsent(){
+    if(document.getElementById('qula-analytics-consent'))return;
+    var css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/analytics-consent.css?v=20261014';document.head.appendChild(css);
+    var panel=document.createElement('section');panel.id='qula-analytics-consent';panel.className='qc-consent';
+    panel.setAttribute('role','dialog');panel.setAttribute('aria-labelledby','qc-consent-title');panel.setAttribute('aria-describedby','qc-consent-description');
+    panel.innerHTML='<div><strong id="qc-consent-title">Help us improve Qula Craft</strong><p id="qc-consent-description">We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies and Clarity recordings are enabled only if you accept. Inquiry form content is masked. <a href="/privacy-policy.html">Privacy policy</a></p></div><div class="qc-consent-actions"><button type="button" data-analytics-decline>Decline analytics</button><button type="button" data-analytics-accept>Accept analytics</button></div>';
+    panel.hidden=readConsent()!==null;document.body.appendChild(panel);
+    var reopen=document.createElement('button');reopen.type='button';reopen.className='qc-cookie-settings';reopen.textContent='Cookie choices';
+    var footer=document.querySelector('footer .container')||document.querySelector('footer')||document.body;footer.appendChild(reopen);
+    reopen.addEventListener('click',function(){panel.hidden=false;panel.querySelector('[data-analytics-decline]').focus();});
+    function choose(value){applyConsent(value);panel.hidden=true;reopen.focus({preventScroll:true});}
+    panel.querySelector('[data-analytics-accept]').addEventListener('click',function(){choose('granted');});
+    panel.querySelector('[data-analytics-decline]').addEventListener('click',function(){choose('denied');});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mountConsent,{once:true});else mountConsent();
   // CWV 保护:load 后延迟 1.2s 注入 gtag 脚本(事件在此之前已进 dataLayer 队列)
   function inject(){
     var s=document.createElement('script');s.async=true;
