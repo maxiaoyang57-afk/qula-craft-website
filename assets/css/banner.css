@@ -341,3 +341,8 @@
 @media (prefers-reduced-motion: reduce) {
   .pcraft-btn { transition: none; }
 }
+
+/* Hero highlights are real navigation destinations. */
+a.pcraft-highlight { color: #40495c; text-decoration: none; }
+a.pcraft-highlight:hover { text-decoration: underline; text-underline-offset: 3px; }
+a.pcraft-highlight:focus-visible { outline: 3px solid #6345c6; outline-offset: 3px; }
