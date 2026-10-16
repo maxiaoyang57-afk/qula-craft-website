@@ -139,7 +139,7 @@ if (process.argv[2] === '--live') {
   const quoteHtml = fs.readFileSync(path.join(ROOT, 'quote.html'), 'utf8');
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/inquiry-experience.js?v=20261014-lead-safe')) {
+    if (!html.includes('assets/js/inquiry-experience.js?v=20261016-product-context')) {
       fail([`${page} must load the preview-safe inquiry script version`]);
     }
   }
