@@ -9,6 +9,57 @@ test.use({
 
 const baseURL = 'http://127.0.0.1:4173';
 
+const supplement = require('../docs/product-batch-manifest-20261016-supplement.json');
+const supplementCatalog = require('../assets/data/product-catalog.json').categories.flatMap(category => category.products);
+
+for (const width of [360, 390, 768]) {
+  test(`all 20 supplemental products keep images, full SKU and inquiry context at ${width}px`, async ({ page }) => {
+    test.setTimeout(180000);
+    await page.setViewportSize({ width, height: 900 });
+    await page.route(/(?:formsubmit\.co|google-analytics\.com|clarity\.ms)/, route => route.abort());
+    for (const record of supplement.products) {
+      const product = supplementCatalog.find(item => item.sku === record.sku);
+      await page.goto(baseURL + '/' + record.pdp, { waitUntil: 'domcontentloaded' });
+      await expect(page.locator('h1')).toHaveText(product.title);
+      await expectNoHorizontalOverflow(page);
+      const gallery = page.locator('.gallery-main img, .gallery-row img');
+      await expect(gallery).toHaveCount(3);
+      for (let i = 0; i < 3; i++) {
+        await gallery.nth(i).scrollIntoViewIfNeeded();
+        await expect.poll(() => gallery.nth(i).evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+        expect(await gallery.nth(i).getAttribute('src')).toBe(record.imageOutputs[i].path);
+        expect(await gallery.nth(i).evaluate(img => getComputedStyle(img).objectFit)).toBe('contain');
+      }
+      const direct = new URL(await page.locator('.pdp-cta .btn-primary').getAttribute('href'), page.url());
+      for (const selector of ['.site-header .main-nav > .btn', '.footer-actions .btn-primary', '.mobile-cta-bar .mcb-quote']) {
+        const link = page.locator(selector);
+        await expect(link).toHaveAttribute('href', /[?&]sku=/);
+        const target = new URL(await link.getAttribute('href'), page.url());
+        for (const key of ['sku', 'product', 'category', 'image']) expect(target.searchParams.get(key)).toBe(direct.searchParams.get(key));
+      }
+      const basket = new URL(await page.locator('.basket-chip').getAttribute('href'), page.url());
+      expect(basket.searchParams.has('sku')).toBe(false);
+      await page.locator('.pdp-cta .btn-primary').click();
+      await expect(page.locator('#hiddenSku')).toHaveValue(record.sku);
+      await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', '/' + record.imageOutputs[0].path);
+      await expect(page.locator('select[name="product"]')).toHaveValue(direct.searchParams.get('category'));
+      await expectNoHorizontalOverflow(page);
+    }
+  });
+}
+
+test('generic PDP quote selects its own product while a related card keeps its exact SKU', async ({ page }) => {
+  await page.goto(baseURL + '/p-rw25208.html');
+  const related = page.locator('.product-card').first();
+  const relatedSku = await related.locator('.pill').textContent();
+  await related.locator('a').first().click();
+  const own = new URL(await page.locator('.pdp-cta .btn-primary').getAttribute('href'), page.url());
+  expect(own.searchParams.get('sku')).toBe(relatedSku.trim());
+  const footer = page.locator('.footer-actions .btn-primary');
+  await footer.click();
+  await expect(page.locator('#hiddenSku')).toHaveValue(relatedSku.trim());
+});
+
 async function expectNoHorizontalOverflow(page) {
   const dims = await page.evaluate(() => ({
     innerWidth: window.innerWidth,
