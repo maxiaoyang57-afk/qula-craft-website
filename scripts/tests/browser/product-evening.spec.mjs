@@ -25,6 +25,10 @@ test('evening product discovery, galleries and complete SKU inquiries',async({pa
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  }
  const group=all.find(p=>p.sku==='RW337/285');
+ for(const query of ['RW285','rw285','RW337','RW337/285']) {
+  await page.goto('products.html?search='+encodeURIComponent(query));
+  await expect(page.locator('.product-card .basket-add[data-sku="RW337/285"]').first()).toBeVisible();
+ }
  await page.goto('products.html?search='+encodeURIComponent(group.sku));
  await expect(page.locator('.product-card .basket-add[data-sku="RW337/285"]').first()).toBeVisible();
  await page.locator('.product-card .basket-add[data-sku="RW337/285"]').first().click();

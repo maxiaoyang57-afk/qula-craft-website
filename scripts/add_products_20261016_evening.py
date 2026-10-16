@@ -29,6 +29,8 @@ def public_source_specs(raw, sku):
         adapted['尺寸'] = '咨询客服'
         adapted['材质'] = 'Clay and other decorative components; confirm composition by selected mix'
     specs = specs_from_source(adapted)
+    if sku == 'RW26826':
+        specs['Size'] = 'Approximately 15 × 17 mm'
     if sku == 'RW25208':
         specs['Size'] = 'Approximately 20 × 40 mm'
     if sku == 'SLM-RX488':
