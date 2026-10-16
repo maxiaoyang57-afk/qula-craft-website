@@ -1,0 +1,40 @@
+name: Product batch mobile verification
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'assets/data/**'
+      - 'p-*.html'
+      - 'scripts/tests/browser/**'
+      - 'playwright.products.config.mjs'
+      - '.github/workflows/product-batch-mobile.yml'
+permissions:
+  contents: read
+jobs:
+  products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Check repository and product SEO
+        run: |
+          python scripts/gates_full.py
+          node scripts/check-inquiry-email.mjs
+          node scripts/check-required-products.mjs
+          node scripts/check-seo.mjs
+          node scripts/check-indexnow.mjs
+      - name: Install browser verification runtime
+        run: |
+          npm install --no-save --package-lock=false @playwright/test@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Test catalog, galleries and exact inquiry context
+        run: npx playwright test --config playwright.products.config.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: product-batch-browser-results
+          path: test-results/
+          retention-days: 7
