@@ -1,0 +1,1113 @@
+{
+  "batchId": "qula-products-20261016-supplement",
+  "baselineCommit": "470315375663ae19e4a8ee77d677a6f7dda3dea9",
+  "newProductCount": 20,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 300,
+  "catalogCountAfter": 320,
+  "imageCount": 60,
+  "sourceWorkbook": "10.11(7).xlsx",
+  "products": [
+    {
+      "sku": "CDK003883/CDK003939/CDK003950/CDK00098",
+      "operation": "new",
+      "sourceRow": 67,
+      "sourceFields": {
+        "sku": "CDK003883/CDK003939/CDK003950/CDK00098",
+        "标题": "Custom Polymer Clay Resin Pouch Keychain Colorful Mini Charms Alloy Key Ring Bag Pendant Wholesale Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 6 * 8mm, total length 132mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK003883CDK003939CDK003950CDK00098.png",
+          "sha256": "5ba1ec0a58e4bd2647b80ba3ca62608ce88f18ed667bad18b194174b8b992c07"
+        }
+      ],
+      "pdp": "p-cdk003883-cdk003939-cdk003950-cdk00098.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk003883-cdk003939-cdk003950-cdk00098/cdk003883-cdk003939-cdk003950-cdk00098-1-clear-pouch-shaker-craft-keychains.png",
+          "role": "main",
+          "width": 761,
+          "height": 735,
+          "sha256": "a9ae4a8f90724665953312d862ba0b2d64ebbb22aeebcfd5e375042b2756ff6a",
+          "bytes": 284515,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk003883-cdk003939-cdk003950-cdk00098/cdk003883-cdk003939-cdk003950-cdk00098-2-clear-pouch-shaker-craft-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ab7bc70b96b9149aca44e50615720761174a27f1e248379647159aa76777e579",
+          "bytes": 177388,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Bag 6 * 8mm, total length 132mm. Scene: Arrange the exact clear rectangular pouches and matching ring hardware from the reference on a cream packing desk beside an unbranded canvas bag. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk003883-cdk003939-cdk003950-cdk00098/cdk003883-cdk003939-cdk003950-cdk00098-3-clear-pouch-shaker-craft-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af3d28ca3b2896b2eb6de77de73b8826d7fd63cb58ff71f2e216dc6795556bf1",
+          "bytes": 133765,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Bag 6 * 8mm, total length 132mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Clear Pouch Shaker Keychains with Mixed Craft Fillers"
+    },
+    {
+      "sku": "RW25208",
+      "operation": "new",
+      "sourceRow": 68,
+      "sourceFields": {
+        "sku": " RW25208",
+        "标题": "RW25208    Hot Sale Beauty Resin Rhinestone Bowknot Flat Back Crafts Photo Frame Hair Clips DIY Home Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about20*40mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW25208.png",
+          "sha256": "38ebd1d0ac7c51fff593cf3e8bd807d1fd45919e994090d6a4a59b14ba443919"
+        }
+      ],
+      "pdp": "p-rw25208.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25208/rw25208-1-rhinestone-bow-resin-flatback-cabochons.png",
+          "role": "main",
+          "width": 696,
+          "height": 684,
+          "sha256": "ff7f777e7c1d9e11239c9bc32e01451764d3566bc3236b538b78e7fb2774f7e3",
+          "bytes": 263629,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw25208/rw25208-2-rhinestone-bow-resin-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1c22dab6ccf5d0b40853ca407f1f40b86fad0463169d07a4e16e024b158b75d6",
+          "bytes": 151155,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about20*40mm. Scene: Arrange two exact rhinestone edged bows beside a blank hair clip and an empty frame corner on an ivory craft table. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw25208/rw25208-3-rhinestone-bow-resin-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5d47d71738a910b454e45e0a412571f23b4dd7ae09e281300f3142c9cfc833f1",
+          "bytes": 127546,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about20*40mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Rhinestone Bow Resin Flatback Cabochons"
+    },
+    {
+      "sku": "CDK003883-1/CDK003939-1/CDK003950-1/CDK00098-1",
+      "operation": "new",
+      "sourceRow": 69,
+      "sourceFields": {
+        "sku": "CDK003883-1/CDK003939-1/CDK003950-1/CDK00098-1",
+        "标题": "Polymer Clay Resin Heart Keychain Colorful Mini Charms Alloy Key Ring Bag Pendant Wholesale Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Heart 50mm, total length approximately 90mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK003883-1CDK003939-1CDK003950-1CDK00098-1.png",
+          "sha256": "94d02cb1c017e46656b5f173f645a3ddcde610637e2555f26e37f526da60a77f"
+        }
+      ],
+      "pdp": "p-cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-1-heart-shaker-mini-craft-keychains.png",
+          "role": "main",
+          "width": 767,
+          "height": 755,
+          "sha256": "475353e609355e369b344eef9e8a1e9de087182fc6bbbe2f4ed419827be22de4",
+          "bytes": 258299,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-2-heart-shaker-mini-craft-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bc2caffae65ae714b0c26674683ba82522fed7b1a8011e10fbc7b42a8dd73279",
+          "bytes": 166062,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Heart 50mm, total length approximately 90mm. Scene: Hang one exact heart shaker keychain from a plain canvas pouch, with other supplied colorways on a cream desk. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-3-heart-shaker-mini-craft-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "41f96ee91455995d8c0ae559bb4062e18484f55c2d3ac38e553133ef8609941e",
+          "bytes": 130145,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Heart 50mm, total length approximately 90mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Heart Shaker Keychains with Mini Craft Fillers"
+    },
+    {
+      "sku": "CDK2137-2/CDK002224-1/CDK2344-2/CDK2321-2",
+      "operation": "new",
+      "sourceRow": 70,
+      "sourceFields": {
+        "sku": "CDK2137-2/CDK002224-1/CDK2344-2/CDK2321-2",
+        "标题": "Colorful Polymer Clay Resin Heart Keychain Alloy Key Ring Bag Charm Backpack Pendant Wholesale Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Heart 50mm, total length approximately 90mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK2137-2CDK002224-1CDK2344-2CDK2321-2.png",
+          "sha256": "def1bcb63c0fde8f01bc574ee4206031b29f4c030e52e2a37fd97ed22561e167"
+        }
+      ],
+      "pdp": "p-cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-1-colorful-heart-shaker-bag-keychains.png",
+          "role": "main",
+          "width": 762,
+          "height": 727,
+          "sha256": "9dde61b19b8e82677cb962b43722cef9a6fc30590479382bc30b3fa601ec911e",
+          "bytes": 269161,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-2-colorful-heart-shaker-bag-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3cab5d50993f41d8e88f671b9900195fe7f66ec694fc552d7399b928eb4075a4",
+          "bytes": 204031,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Heart 50mm, total length approximately 90mm. Scene: Show the exact fruit and floral heart shaker keychains attached to a plain tote handle, all hardware retained. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-3-colorful-heart-shaker-bag-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ba9c5ed87a44420fcc1cb4b9b8e6a96647dc0c9731df68057d13db4412b14dcd",
+          "bytes": 111344,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is Heart 50mm, total length approximately 90mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Colorful Heart Shaker Bag Charm Keychains"
+    },
+    {
+      "sku": "RW26829",
+      "operation": "new",
+      "sourceRow": 71,
+      "sourceFields": {
+        "sku": "RW26829",
+        "标题": "Leopard Print Resin Bow Accessories Cute Mixed Color Bow Charms for Hair Clips Phone Case DIY Crafts Wholesale OEM",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": " 18*30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26829.png",
+          "sha256": "9e2922430a3ad1019fdb0c54c1c416076e1602449deb85b80c7c934452725a82"
+        }
+      ],
+      "pdp": "p-rw26829.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26829/rw26829-1-leopard-print-resin-bow-cabochons.png",
+          "role": "main",
+          "width": 748,
+          "height": 748,
+          "sha256": "25b5a56d2dbb7baf34fa59253d472e116637868b03cefebe61b271c4dc368860",
+          "bytes": 212042,
+          "origin": "brand-neutral edited reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26829/rw26829-2-leopard-print-resin-bow-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e137389dd743263241a415c6885e61bdcaee4ded23392c873ffcf5e43801ae35",
+          "bytes": 153980,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is  18*30mm. Scene: Arrange the exact multicolor leopard print bows on an ivory craft table beside a plain hair clip and phone case, keep bows fully visible. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw26829/rw26829-3-leopard-print-resin-bow-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "72d4b24afe443e3980064c43a1d10eea87026d8e75da2005bb88864a4ceb6243",
+          "bytes": 93955,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is  18*30mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Leopard Print Resin Bow Craft Cabochons"
+    },
+    {
+      "sku": "CDK003077",
+      "operation": "new",
+      "sourceRow": 72,
+      "sourceFields": {
+        "sku": "CDK003077",
+        "标题": "Pink Resin Key Shape Keychain Glitter Bag Charm Pendant Key Ring Accessory for Backpack Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "about 90mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK003077.png",
+          "sha256": "9d1982e91666ac2604e7a3ee066d91daf2703331e76f22f9034a638e372e0e95"
+        }
+      ],
+      "pdp": "p-cdk003077.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk003077/cdk003077-1-pink-glitter-resin-key-keychains.png",
+          "role": "main",
+          "width": 645,
+          "height": 711,
+          "sha256": "c51888aca2e789fdf5573536152d8f7cebe42edab92d9c56791c00157df8dc4d",
+          "bytes": 108371,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk003077/cdk003077-2-pink-glitter-resin-key-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "90108ee0526759dbf29a103134203b54e41fe00602c0aaa9de0f1cbe0683c824",
+          "bytes": 131815,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 90mm. Scene: Attach the exact pink heart headed key shaped charm and pink clasp to a plain off-white zipper pouch. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk003077/cdk003077-3-pink-glitter-resin-key-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3b5a7c59276e66c97243b912397f6c724b56408fc1b36387f359edd98564d477",
+          "bytes": 80186,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 90mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Pink Glitter Resin Key-Shaped Keychains"
+    },
+    {
+      "sku": "CDK004134",
+      "operation": "new",
+      "sourceRow": 73,
+      "sourceFields": {
+        "sku": "CDK004134",
+        "标题": "Glitter Resin Figure Keychain Cute Character Bag Charm Key Ring Accessory for Backpack Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "66mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK004134.png",
+          "sha256": "af45e2e4f2b64bbd36af76b012e367b1ff63f7f1afea225430d2ea5691449761"
+        }
+      ],
+      "pdp": "p-cdk004134.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk004134/cdk004134-1-glitter-resin-bear-figure-keychains.png",
+          "role": "main",
+          "width": 668,
+          "height": 699,
+          "sha256": "92842e17585c1f5c5061d626698ecd39fbedbaecc7eb4cd5dc10d35901d4520f",
+          "bytes": 117600,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004134/cdk004134-2-glitter-resin-bear-figure-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e9d89b7534422d852f35e3bf69d77f01e4511ab702c45b72c90179be1311f0de",
+          "bytes": 143395,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 66mm. Scene: Place the exact gold glitter bear with red bow and ivory clasp on an unbranded cream purse beside the second supplied bear keychain. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk004134/cdk004134-3-glitter-resin-bear-figure-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b997579736415125fb20113cdfda9b2094759d7ae132f4a35208f312e70a67b3",
+          "bytes": 100735,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 66mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Glitter Resin Bear Figure Keychains"
+    },
+    {
+      "sku": "CDK25015",
+      "operation": "new",
+      "sourceRow": 74,
+      "sourceFields": {
+        "sku": "CDK25015",
+        "标题": "Green Resin Slipper Keychain Cute Shoe Charm Key Ring Accessory for Backpack Bag Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "about 80*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK25015.png",
+          "sha256": "00012520c583bb50a15e78a68ffcf064996c18ff5ce6b5bce676c219bd8d04e9"
+        }
+      ],
+      "pdp": "p-cdk25015.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk25015/cdk25015-1-green-slipper-resin-charm-keychains.png",
+          "role": "main",
+          "width": 655,
+          "height": 668,
+          "sha256": "ad881f4c4ac070f2c8c2bceb54864d6b04f864ec8baa906d1038c7d067cb8c04",
+          "bytes": 97434,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk25015/cdk25015-2-green-slipper-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "58511592b02eaf01f49d1bb7568fd1cf14300b97ff0f4800e34924acb36a2352",
+          "bytes": 166395,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 80*24mm. Scene: Hang the exact green slipper charm with its matching green clasp from a plain canvas tote, second keychain lying beside it. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk25015/cdk25015-3-green-slipper-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f68db7f61e7bd8c61dfc9b9e8e8c9764ab9b3df80d2445c7ccee22a994d3f0ba",
+          "bytes": 69242,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 80*24mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Green Slipper Resin Charm Keychains"
+    },
+    {
+      "sku": "CDK26657",
+      "operation": "new",
+      "sourceRow": 75,
+      "sourceFields": {
+        "sku": "CDK26657",
+        "标题": "Resin Flower Keychain Cute Floral Bag Charm Key Ring Accessory for Backpack Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "about 68*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK26657.png",
+          "sha256": "747313f27ce53af7322b3ed3170ca10a33524fe960bd8188ba63461afca57e2d"
+        }
+      ],
+      "pdp": "p-cdk26657.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk26657/cdk26657-1-tulip-bouquet-resin-charm-keychains.png",
+          "role": "main",
+          "width": 620,
+          "height": 678,
+          "sha256": "f9415ac1387c10c7894932267a5a806a035e3299b213e56058934dc06659c7dc",
+          "bytes": 95247,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26657/cdk26657-2-tulip-bouquet-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0f89516eb672198a30a38689f93747b3dc66b7fb614df743d4200e1a104444ed",
+          "bytes": 144388,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 68*24mm. Scene: Hang the exact pink tulip bouquet and pink clasp from a neutral canvas makeup pouch, second reference peach tulip keychain on desk. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk26657/cdk26657-3-tulip-bouquet-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ce9208a6e1ca2f6a2724e3eb7a1fc5b908800732dab738afbf60acd546eed355",
+          "bytes": 67008,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 68*24mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Tulip Bouquet Resin Charm Keychains"
+    },
+    {
+      "sku": "RW23629",
+      "operation": "new",
+      "sourceRow": 76,
+      "sourceFields": {
+        "sku": "RW23629",
+        "标题": "100pcs Shiny  Flower Series Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19*29mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW23629.png",
+          "sha256": "1b91202cfd86d37ee09e1951d16e7a423134a8b5d2da19ed5c965b795e0670b2"
+        }
+      ],
+      "pdp": "p-rw23629.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23629/rw23629-1-pastel-flower-bouquet-resin-flatbacks.png",
+          "role": "main",
+          "width": 545,
+          "height": 553,
+          "sha256": "1888300407640fd52fe83ac2325cad273eb4dd187d0079fd480e4a746b1a25c0",
+          "bytes": 93519,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw23629/rw23629-2-pastel-flower-bouquet-resin-flatbacks-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2b0d5e41849fe1e0067c746bf6ecb7baa9ad35f920ec414554e1c323b402c882",
+          "bytes": 140986,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 19*29mm. Scene: Arrange exact pastel flower bouquet cabochons beside simple hair clip blanks and a plain card on a cream craft table. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw23629/rw23629-3-pastel-flower-bouquet-resin-flatbacks-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "839e9a1e24cd71cc80da42a7bb034077e8a2f40faadeb19354a9ea8c6f403b7e",
+          "bytes": 83537,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 19*29mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Pastel Flower Bouquet Resin Flatbacks"
+    },
+    {
+      "sku": "RW3465",
+      "operation": "new",
+      "sourceRow": 77,
+      "sourceFields": {
+        "sku": "RW3465",
+        "标题": "Simulation Candy Christmas Decoration Flatback Resin Cabochon Kawaii Accessories Scrapbooking Crafts DIY Phone Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW3465.png",
+          "sha256": "a67704618a9d8b3415537186fe58ac7521517a091086a21c215a2ab4abc4d7c0"
+        }
+      ],
+      "pdp": "p-rw3465.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw3465/rw3465-1-swirl-candy-resin-flatback-cabochons.png",
+          "role": "main",
+          "width": 569,
+          "height": 563,
+          "sha256": "7dffbbac143f0734489f050886f17855f0b13dd06e971359ed3aa51d47b69e3e",
+          "bytes": 115311,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw3465/rw3465-2-swirl-candy-resin-flatback-cabochons-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "eb21bd7f9e0eb16c3b3f342fed62f635f21de66e59e8d23fd79383fb2f3f31ad",
+          "bytes": 113468,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 咨询客服. Scene: Arrange exact peppermint swirl candy discs on a plain decoden craft tray beside a blank frame, no edible food. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw3465/rw3465-3-swirl-candy-resin-flatback-cabochons-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f8ee0518f2c147e9d155eeb414e61d2f0f9ab54c99fc577e6e860c1ddb2e1d3d",
+          "bytes": 59217,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 咨询客服. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Swirl Candy Resin Flatback Cabochons"
+    },
+    {
+      "sku": "YX118",
+      "operation": "new",
+      "sourceRow": 78,
+      "sourceFields": {
+        "sku": "YX118",
+        "标题": "Colorful Clay Spun Sugar Cabochon Decoration Crafts Embellishments for Scrapbooking Diy Mobile Phone Shell Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "30*6mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX118.png",
+          "sha256": "d6bd9a01540565987f7aa909684ca75fcdd796f3dad99e585360a7ef8131f42d"
+        }
+      ],
+      "pdp": "p-yx118.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx118/yx118-1-pastel-twisted-polymer-clay-decorations.png",
+          "role": "main",
+          "width": 725,
+          "height": 674,
+          "sha256": "da33c24c8c0411310a9eaa7d23ad9909448f10397d53e51423b6db3fce802662",
+          "bytes": 109702,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/yx118/yx118-2-pastel-twisted-polymer-clay-decorations-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ffbac8a5032aa2af0d76c397eb0d4edf4f038fba090cef1b2e06ab29d983538e",
+          "bytes": 99835,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 30*6mm. Scene: Arrange exact pastel twisted clay rods beside a blank phone case on an ivory DIY desk; preserve straight short twisted stick shapes. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/yx118/yx118-3-pastel-twisted-polymer-clay-decorations-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a99c62538908d58115ab84ab96933e49e5eaa6837eebaa540e09d54004e43bb1",
+          "bytes": 52793,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 30*6mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Pastel Twisted Polymer Clay Craft Decorations"
+    },
+    {
+      "sku": "RW26668",
+      "operation": "new",
+      "sourceRow": 79,
+      "sourceFields": {
+        "sku": "RW26668",
+        "标题": "Resin Charms Bake Books Cute Phone Case Accessories Baby Fairy House Decoration Simulation Book Diy Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*24*13mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26668.png",
+          "sha256": "7f4d0ec06aea56e8e283c7d78060b7ac2be0f2a1c957fe89761cca8eae18b6a5"
+        }
+      ],
+      "pdp": "p-rw26668.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26668/rw26668-1-miniature-floral-book-resin-charms.png",
+          "role": "main",
+          "width": 627,
+          "height": 619,
+          "sha256": "345a126ee08a54b5e2dce21e10696b66dbdde4100dd48e21c7b72bfadb946943",
+          "bytes": 107401,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26668/rw26668-2-miniature-floral-book-resin-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e3105ec5bac1b234c3cc5bea5ab7bff57dc280b3bd7aa4558f19b9f326c2daf1",
+          "bytes": 160506,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 20*24*13mm. Scene: Arrange exact miniature floral book charms in a small dollhouse-inspired desk vignette with a neutral wooden tray; preserve their raised floral cover designs. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw26668/rw26668-3-miniature-floral-book-resin-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "86eaf4b1247e5b0e6c29c66e5787f695187f5603c21825ea93d17c0dafba1426",
+          "bytes": 102153,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 20*24*13mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Miniature Floral Book Resin Craft Charms"
+    },
+    {
+      "sku": "CDK24445",
+      "operation": "new",
+      "sourceRow": 80,
+      "sourceFields": {
+        "sku": "CDK24445",
+        "标题": "Pastel Resin Star Keychain Cute Star Charm Key Ring Accessory for Bag Backpack Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "about 40mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK24445.png",
+          "sha256": "e387074b879cdf4c5409457f11d2962643f64c97d67c702a2946d6d1330896d2"
+        }
+      ],
+      "pdp": "p-cdk24445.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk24445/cdk24445-1-pastel-smiling-star-resin-keychains.png",
+          "role": "main",
+          "width": 684,
+          "height": 707,
+          "sha256": "227a6bd4608c1b5812cddf3b491c6f421732b0a36a55a56a73e94a1cac308e60",
+          "bytes": 90850,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk24445/cdk24445-2-pastel-smiling-star-resin-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0f4eab301edd875410663a28e08cbc3366a2e639cab8845d0caadc8da33ee21b",
+          "bytes": 126500,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 40mm. Scene: Hang one exact smiling pastel star charm from a plain zip pouch and arrange the other supplied stars on a neutral desk, retain silver clasps. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk24445/cdk24445-3-pastel-smiling-star-resin-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bebde646d8d98c79bf8d7cc3dba98940dac18887045b827db6b645be7d501854",
+          "bytes": 54821,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 40mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Pastel Smiling Star Resin Keychains"
+    },
+    {
+      "sku": "CDK23884",
+      "operation": "new",
+      "sourceRow": 81,
+      "sourceFields": {
+        "sku": "CDK23884 ",
+        "标题": "Purple Resin Flower Keychain Cute Floral Bag Charm Key Ring Accessory for Backpack Purse Gift Wholesale OEM",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "about 65mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK23884.png",
+          "sha256": "189bc8c0344a08c942f5fcee3ae125c71042b645a17060980d08b66d00229fac"
+        }
+      ],
+      "pdp": "p-cdk23884.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk23884/cdk23884-1-purple-daisy-resin-charm-keychains.png",
+          "role": "main",
+          "width": 702,
+          "height": 672,
+          "sha256": "ac2c3eaaecc86332593b0a2cdfe5de7f7bde64dd25e7c1507342a3a49b48401f",
+          "bytes": 94531,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk23884/cdk23884-2-purple-daisy-resin-charm-keychains-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fd090a1ddc36518b40581171b9b9e5df664897f6d333e49dbe4fc1ec591cffc6",
+          "bytes": 109409,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 65mm. Scene: Attach exact purple daisy and purple clasp to a plain cream bag handle, second supplied keychain beside it. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/cdk23884/cdk23884-3-purple-daisy-resin-charm-keychains-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a78d00a45f3bdeff13bcf69260115bbd71f06e72dd0cd81aed0529ae452fa3c4",
+          "bytes": 63447,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 65mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Purple Daisy Resin Charm Keychains"
+    },
+    {
+      "sku": "SLM-RX488",
+      "operation": "new",
+      "sourceRow": 82,
+      "sourceFields": {
+        "sku": "SLM-RX488",
+        "标题": "Wholesale Strawberry Cherry Clay Mix Custom Mini Fruit Decorations for Shaker Slime Scrapbook Accessories",
+        "分类": "slime",
+        "状态": "库存有货",
+        "材质": "clay 和其他",
+        "尺寸": "about 3g/bag",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "SLM-RX488.png",
+          "sha256": "b00f56a854c6bb46474e6eba2e3a5d99815079b723a05523321e4de7b5dc9007"
+        }
+      ],
+      "pdp": "p-slm-rx488.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/slm-rx488/slm-rx488-1-strawberry-cherry-clay-slime-filler-mix.png",
+          "role": "main",
+          "width": 640,
+          "height": 583,
+          "sha256": "455beb89e0289ff6ae5335fa4645bd86db4a127e08de7bf6c877dad3eec9b92d",
+          "bytes": 147675,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/slm-rx488/slm-rx488-2-strawberry-cherry-clay-slime-filler-mix-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "da19d8675938e26224c3fca5492982a3e4036733ce1b934846260b131cc50b35",
+          "bytes": 151292,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 3g/bag. Scene: Arrange the exact strawberry cherry themed mix beside a small clear slime craft jar and blank resealable sample sachet on a cream desk. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/slm-rx488/slm-rx488-3-strawberry-cherry-clay-slime-filler-mix-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9a82335c1844f8ffa06019312c1cfc400f97345c89d42ca30d28f2a1cef3eb00",
+          "bytes": 160123,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is about 3g/bag. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Strawberry Cherry Clay Slime Filler Mix"
+    },
+    {
+      "sku": "RW22581",
+      "operation": "new",
+      "sourceRow": 83,
+      "sourceFields": {
+        "sku": "RW22581",
+        "标题": "100PCS 3D Realistic Funny Pig Nose Resin Crafts Fit Handmade Diy Toy Craft Slime Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "9*10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW22581.png",
+          "sha256": "e2ec26996bb06eca57c017921c86f43e291d4d81f35029e340ccfb696d19ec96"
+        }
+      ],
+      "pdp": "p-rw22581.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22581/rw22581-1-mini-pig-nose-resin-craft-decorations.png",
+          "role": "main",
+          "width": 412,
+          "height": 479,
+          "sha256": "bbc5b514b103e076b00aadb7ddcf184dce8ea331f89ac8b427667576f06b4750",
+          "bytes": 112054,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw22581/rw22581-2-mini-pig-nose-resin-craft-decorations-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c5036467fd5cd1659c5918e46170c5aaad9b94c088c335338a2eca11604c7983",
+          "bytes": 115910,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 9*10mm. Scene: Arrange exact pink oval pig nose decorations beside a simple blank felt craft shape on an ivory DIY surface, two nostril recesses retained. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw22581/rw22581-3-mini-pig-nose-resin-craft-decorations-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "abc20c5ee721a4be9b087b06807d01bb40b85112c4f162160c18cab03e9cb91e",
+          "bytes": 43178,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 9*10mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Mini Pig Nose Resin Craft Decorations"
+    },
+    {
+      "sku": "RW22135",
+      "operation": "new",
+      "sourceRow": 84,
+      "sourceFields": {
+        "sku": "RW22135",
+        "标题": "Resin Halloween Eyeballs Funny Cartoon Eye Balls Toys Flat Back Cabochon for Party Props Diy Craft Making",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW22135.png",
+          "sha256": "963258f5641ce63bc9b6e8a8a12a533103d1f50e71c54e099562ad77c2365e79"
+        }
+      ],
+      "pdp": "p-rw22135.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22135/rw22135-1-colorful-cartoon-eye-resin-flatbacks.png",
+          "role": "main",
+          "width": 591,
+          "height": 598,
+          "sha256": "6f309e193d88feba0453448a79591e24edd16f0d5d03ba7bf919c0daa34f9b49",
+          "bytes": 114390,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw22135/rw22135-2-colorful-cartoon-eye-resin-flatbacks-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b82f4ebec9bc4c573f329119082adbfe8bab6d5f99666669af7a9466451a6d01",
+          "bytes": 124681,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 咨询客服. Scene: Arrange exact double-eye resin pieces with multicolor eye centers on an ivory craft desk beside plain felt and a blank small frame. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw22135/rw22135-3-colorful-cartoon-eye-resin-flatbacks-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "60a6c7ee91699a42f0b5e6f69642463e4d18f7e8a6d7b8460f90a85885a32f7e",
+          "bytes": 54806,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 咨询客服. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Colorful Cartoon Eye Resin Flatback Mix"
+    },
+    {
+      "sku": "RW3895-RW3857",
+      "operation": "new",
+      "sourceRow": 85,
+      "sourceFields": {
+        "sku": "RW3895-RW3857",
+        "标题": "3D Miniature Xmas Tree Fairy Garden Accessories DIY Terrarium Figurines Ornaments Christmas Decoration Supplies",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "18*27mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW3895-RW3857.png",
+          "sha256": "de0638921dac81f6686c275468cdb94028703e200668baaca138d712c5ce2d32"
+        }
+      ],
+      "pdp": "p-rw3895-rw3857.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw3895-rw3857/rw3895-rw3857-1-mixed-mini-christmas-tree-resin-figurines.png",
+          "role": "main",
+          "width": 670,
+          "height": 636,
+          "sha256": "7d67dd8a6a32d716df20c87438f530402ffef8d72e63259f79af6500391adda2",
+          "bytes": 115304,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw3895-rw3857/rw3895-rw3857-2-mixed-mini-christmas-tree-resin-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f72fb04e853f20c37fc57fac9f701afb2cb63899317be1a4d6e73aa6858f9d3d",
+          "bytes": 182685,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 18*27mm. Scene: Arrange only the exact assorted green miniature Christmas trees from the reference in a restrained neutral miniature winter vignette. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw3895-rw3857/rw3895-rw3857-3-mixed-mini-christmas-tree-resin-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6849714742d0f0475dc9b10e53c78ebf67120916207e68525dcea10015e02f12",
+          "bytes": 101122,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 18*27mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Mixed Mini Christmas Tree Resin Figurines"
+    },
+    {
+      "sku": "RW23379",
+      "operation": "new",
+      "sourceRow": 86,
+      "sourceFields": {
+        "sku": "RW23379",
+        "标题": "Cute Resin Yellow Duck Ornament Miniature Figures Tiny Duck Handicraft Micro Landscape Doll House Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "18*27mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW23379.png",
+          "sha256": "ada9a90c022809c4d5bc19174dccd7c4c891324705864272141824b4dc69fa11"
+        }
+      ],
+      "pdp": "p-rw23379.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23379/rw23379-1-mixed-mini-duck-resin-craft-figurines.png",
+          "role": "main",
+          "width": 627,
+          "height": 617,
+          "sha256": "ad2eb1a69db1da08f059f0af6bea5ef996f3bce023745c7bc807d1e630454c29",
+          "bytes": 174790,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw23379/rw23379-2-mixed-mini-duck-resin-craft-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "97b3c7b5027f9e9c6da4eabaa8167ec81b46a1ad1f4f4ec49863e39f90af03d3",
+          "bytes": 142398,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 18*27mm. Scene: Arrange only the exact supplied yellow duck miniatures and their specific outfits on a simple neutral miniature display tray. Soft natural daylight, elegant restrained styling, all products fully within the square image, realistic commercial photography. Props minimal and secondary."
+        },
+        {
+          "path": "assets/images/pdp/rw23379/rw23379-3-mixed-mini-duck-resin-craft-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c543677894589cd9b46b8093d81fb2598dc6141281b8c8d6e690aad7a6f0fca2",
+          "bytes": 78444,
+          "origin": "AI-assisted styling illustration",
+          "prompt": "Use case: product-mockup. Create one square professional product photograph for a B2B wholesale craft supplier, using the supplied product image as the exact reference. Preserve every visible product shape, color, pattern, surface finish and hardware. Do not invent new designs, holes, connectors, colors or packaging claims. Remove only round gold QULA CRAFT promotional badge if present; no text or branding. Do not enlarge decorations relative to nearby objects; their real listed size is 18*27mm. Create a clean close product study on a warm-white studio surface, select 2 to 4 exact supplied designs and show their existing front surface texture clearly in a balanced arrangement. No props, no cutaway, no invented rear view or structure. Entire objects in frame. Soft side light, crisp realistic detail. Keep products recognizable as the same manufactured items."
+        }
+      ],
+      "title": "Mixed Mini Duck Resin Craft Figurines"
+    }
+  ],
+  "sourceWorkbookSha256": "c70d7601b24c7837496bd4304a229ece59b33b93e4f142f2e3bcbdc6b25f8bc4"
+}
