@@ -263,3 +263,35 @@ test('selected custom design guide shows the full illustration and separate mate
   }
   // This test only follows quote links. It never submits an inquiry.
 });
+
+for (const width of [375, 1440]) {
+  test(`category bulk quotes preserve complete names and source at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (!request.url().startsWith(baseURL) || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+      return route.continue();
+    });
+    const categories = [
+      ['polymer-clay-sprinkles.html', 'Polymer Clay Slices & Sprinkles Wholesale', 'Polymer Clay Sprinkles'],
+      ['resin-charms.html', 'Bulk Resin Charms & Flatback Cabochons', 'Resin Charms'],
+      ['acrylic-beads.html', 'Wholesale Acrylic Beads for Crafts & Bag Charms', 'Acrylic Beads'],
+      ['glitter-sequins-fillers.html', 'Glitter Sequins, Craft Fillers & Acrylic Gems', 'Glitter & Fillers']
+    ];
+    for (const [path, title, category] of categories) {
+      await page.goto(baseURL + '/' + path);
+      const cta = page.locator('.hero-actions a').filter({ hasText: 'Request Bulk Quote' });
+      const target = new URL(await cta.getAttribute('href'), page.url());
+      expect(target.searchParams.get('product')).toBe(title);
+      expect(target.searchParams.get('entry_title')).toBe(title);
+      expect(target.searchParams.get('entry_page')).toBe('/' + path);
+      await cta.click();
+      await expect(page.locator('#pPreviewTitle')).toHaveText(title);
+      await expect(page.locator('select[name="product"]')).toHaveValue(category);
+      expect(await page.locator('#message').inputValue()).toContain(title);
+      await expect(page.locator('[name="entry_title"]')).toHaveValue(title);
+      await expect(page.locator('[name="entry_page"]')).toHaveValue('https://www.qulacrafts.com/' + path);
+      await expectNoHorizontalOverflow(page);
+    }
+  });
+}
