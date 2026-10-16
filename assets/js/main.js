@@ -107,7 +107,12 @@
   async function run(){
     const q=sInput.value.trim().toLowerCase();
     if(!q){results.hidden=true;results.innerHTML='';if(catGrid)catGrid.style.display='';countEl.textContent='';return;}
-    const list=(await load()).filter(p=>(p.sku+' '+p.title+' '+p.category).toLowerCase().indexOf(q)>-1).slice(0,60);
+    const list=(await load()).filter(p=>{
+      // A shorthand group such as RW337/285 must also be found as RW285.
+      const prefix=(p.sku.match(/^[a-z]+/i)||[''])[0];
+      const codes=p.sku.split('/').map(code=>/^\d+$/.test(code)?prefix+code:code).join(' ');
+      return (p.sku+' '+codes+' '+p.title+' '+p.category).toLowerCase().indexOf(q)>-1;
+    }).slice(0,60);
     results.innerHTML=list.map(card).join('');
     results.hidden=false;if(catGrid)catGrid.style.display='none';
     countEl.textContent=list.length?('Showing '+list.length+' matching item'+(list.length>1?'s':'')):'No match — try a theme word like "pumpkin", "heart" or a SKU code';
