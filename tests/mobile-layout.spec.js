@@ -295,3 +295,32 @@ for (const width of [375, 1440]) {
     }
   });
 }
+
+for (const width of [375, 1440]) {
+  test(`homepage highlight navigation works without dead clicks at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (!request.url().startsWith(baseURL) || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+      return route.continue();
+    });
+    const links = [
+      ['Custom Shapes & Mixes', 'customization.html'],
+      ['Stock & Custom Orders', 'products.html'],
+      ['Private Label Packaging', 'private-label-packaging.html'],
+      ['Global Export Support', 'guide-importing-craft-supplies.html']
+    ];
+    for (const [label, destination] of links) {
+      await page.goto(baseURL + '/');
+      const link = page.locator('.pcraft-highlights').getByRole('link', { name: label, exact: true });
+      await expect(link).toHaveAttribute('href', destination);
+      const box = await link.boundingBox();
+      expect(box.height).toBeGreaterThanOrEqual(44);
+      if (width < 600) await link.tap();
+      else { await link.focus(); await link.press('Enter'); }
+      await expect(page).toHaveURL(baseURL + '/' + destination);
+      await expect(page.locator('h1')).toBeVisible();
+      await expectNoHorizontalOverflow(page);
+    }
+  });
+}
