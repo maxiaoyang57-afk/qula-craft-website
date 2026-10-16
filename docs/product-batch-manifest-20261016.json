@@ -1,0 +1,429 @@
+{
+  "batchId": "qula-products-20261016",
+  "baselineCommit": "d7ad820ba8cb7954f8ec55eb75062fc7eccf1c72",
+  "newProductCount": 8,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 292,
+  "catalogCountAfter": 300,
+  "imageCount": 24,
+  "sourceWorkbook": "10.11(5).xlsx",
+  "products": [
+    {
+      "sku": "CZB26813",
+      "operation": "new",
+      "sourceRow": 59,
+      "sourceFields": {
+        "sku": "CZB26813",
+        "标题": "Christmas Snowman Holiday Character House Miniature Ornaments for Desktop Garden Phone Strap Decoration Custom Wholesale",
+        "分类": "pen  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10-18mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CZB26813.png",
+          "sha256": "823c5c2129176971e52dd009469afd88c7c10b8fe94c61d667c7abe1bbf0256d"
+        }
+      ],
+      "pdp": "p-czb26813.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/czb26813/czb26813-1-christmas-character-cottage-resin-beads.png",
+          "role": "main",
+          "width": 753,
+          "height": 697,
+          "sha256": "5c5662193093828cf3637cc5fe60eb895cc48d6ab1a46c4014968c78647c4e00",
+          "bytes": 211545,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/czb26813/czb26813-2-christmas-character-cottage-resin-beads-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e3e3edded12b05126ef4bf244817bc115030ba6a99c5c17850bfdcb87ba53d97",
+          "bytes": 130230,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/czb26813/czb26813-3-christmas-character-cottage-resin-beads-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "16daa5e79d3ac62f624a750da56a76d539fa4d232e5280fdca3543dfaa8be2a6",
+          "bytes": 104765,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CZB26818",
+      "operation": "new",
+      "sourceRow": 60,
+      "sourceFields": {
+        "sku": "CZB26818",
+        "标题": "Halloween Gingerbread House Beads with Hole 3D Cottage Charms for Bracelet Necklace Phone Strap Custom Wholesale",
+        "分类": "pen  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19*19*22mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CZB26818.png",
+          "sha256": "3f08d693e166ca2a6225658bebbe0935fc31b3184b748ac190a05521c2c14a39"
+        }
+      ],
+      "pdp": "p-czb26818.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/czb26818/czb26818-1-halloween-gingerbread-house-resin-beads.png",
+          "role": "main",
+          "width": 732,
+          "height": 714,
+          "sha256": "f1becc77be20cfe0394d3c4afd03e1436beeed3accde9a3412c68a01373fbf9e",
+          "bytes": 240469,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/czb26818/czb26818-2-halloween-gingerbread-house-resin-beads-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8c733c0c2d81e5634a297c2981e16d2d40a95b3dad98b244cf2f74c21cc6502b",
+          "bytes": 150205,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/czb26818/czb26818-3-halloween-gingerbread-house-resin-beads-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ef7c424cdcad211f8eedb22394dc337197d6de901f641fb269489d07a78cb919",
+          "bytes": 129260,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "CZB26846",
+      "operation": "new",
+      "sourceRow": 61,
+      "sourceFields": {
+        "sku": "CZB26846",
+        "标题": "3D Fox Beads with Hole Cartoon Animal Charms for Bracelet Necklace Phone Strap Keychain Accessories Custom Wholesale",
+        "分类": "pen  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*22mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CZB26846.png",
+          "sha256": "af3e65f3dd514607e8897c2840805a101880e98c0eec9725afe481a6e6c9c4f1"
+        }
+      ],
+      "pdp": "p-czb26846.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/czb26846/czb26846-1-orange-fox-resin-craft-beads.png",
+          "role": "main",
+          "width": 724,
+          "height": 671,
+          "sha256": "b976553af071b3c538e37a3251d741db172e090a36afcf6018852b9440bf25e8",
+          "bytes": 224956,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/czb26846/czb26846-2-orange-fox-resin-craft-beads-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c31c10c6dc617bda8cef7dab978c916dbd4d74f6548edf58f444cdaa449c83bd",
+          "bytes": 185071,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/czb26846/czb26846-3-orange-fox-resin-craft-beads-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "51d6d215debcdea8addb35875671807f9b926784bcdf307924931550c1756cde",
+          "bytes": 113736,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW26859",
+      "operation": "new",
+      "sourceRow": 62,
+      "sourceFields": {
+        "sku": "RW26859",
+        "标题": "Miniature Mushroom House Figurines Mixed Cottage Ornaments for Garden Plant Pot Desktop Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "30*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26859.png",
+          "sha256": "5feeb4dab9afd72c950de228e7dbb242b47883899f0f5965a67573ca589c4182"
+        }
+      ],
+      "pdp": "p-rw26859.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26859/rw26859-1-miniature-mushroom-house-resin-figurines.png",
+          "role": "main",
+          "width": 723,
+          "height": 684,
+          "sha256": "e6a18dd80090d90098c484276a555862420493a501211946c06c56dcd3fa9040",
+          "bytes": 197712,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26859/rw26859-2-miniature-mushroom-house-resin-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "67702333d87cab9872ef2d71f1a071ed296f823939071c0971290ed51c233fb3",
+          "bytes": 130736,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw26859/rw26859-3-miniature-mushroom-house-resin-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c5854ce577c577d1572a6819f84c14845c166704b3d8cacefbee735fc09c5b24",
+          "bytes": 113280,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW26858",
+      "operation": "new",
+      "sourceRow": 63,
+      "sourceFields": {
+        "sku": "RW26858 ",
+        "标题": "Mini Cartoon Animal Figurines Lying Panda Cat Pig Penguin Bear Ornaments for Desktop Garden Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26858 .png",
+          "sha256": "3fe151a53f08c0ad05f4382d3470f595550bc722fe44ac31567e626c10ea9240"
+        }
+      ],
+      "pdp": "p-rw26858.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26858/rw26858-1-lying-animal-resin-craft-miniatures.png",
+          "role": "main",
+          "width": 742,
+          "height": 757,
+          "sha256": "346bd19a08cba3f1f404433eb65eb884f479d45b05822b6a875805c77f1069d6",
+          "bytes": 243901,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26858/rw26858-2-lying-animal-resin-craft-miniatures-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d8698ee62c8b87663a0a552a040990780a090a8968779727363bf5ea4a001030",
+          "bytes": 95537,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw26858/rw26858-3-lying-animal-resin-craft-miniatures-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c9c8d7e80e69b5ce0ecb085a09b9f6a443bbb935bd1435ad3bcc5230d75f1eac",
+          "bytes": 81601,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW26857",
+      "operation": "new",
+      "sourceRow": 64,
+      "sourceFields": {
+        "sku": "RW26857 ",
+        "标题": "Sleeping Cat Miniature Figurine Curled Kitten Animal Ornament for Garden Desktop Plant Pot Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26857 .png",
+          "sha256": "fb70453d31fda9c21637efa62fbc02f00ed214377d0335a892e5e7736b515e63"
+        }
+      ],
+      "pdp": "p-rw26857.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26857/rw26857-1-sleeping-cat-resin-miniature-figurines.png",
+          "role": "main",
+          "width": 693,
+          "height": 687,
+          "sha256": "e3182c8e3aadf706affcfcb92557b0591536c19a548775b6428848646d857912",
+          "bytes": 215209,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26857/rw26857-2-sleeping-cat-resin-miniature-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "826b4c1ac769f15becee45d0dc0b6b53d1e8418ac4121f37ec9a352e202d1ba0",
+          "bytes": 118808,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw26857/rw26857-3-sleeping-cat-resin-miniature-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "82837083d1db3e4c93d10d929f956ce57451e90bf250b507e75902f051d22aac",
+          "bytes": 85075,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW26856",
+      "operation": "new",
+      "sourceRow": 65,
+      "sourceFields": {
+        "sku": "RW26856 ",
+        "标题": "Cartoon Flower Princess Figurines 12 Styles Mini Girl Ornaments for Desktop Home Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "50*30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "12pcs/sleeve"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26856.png",
+          "sha256": "5aecc2b8ec124d1ef33992760319e4419c6fd3bb7f2e72bc376af348fe90bc9e"
+        }
+      ],
+      "pdp": "p-rw26856.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26856/rw26856-1-flower-princess-resin-miniature-figurines.png",
+          "role": "main",
+          "width": 729,
+          "height": 717,
+          "sha256": "f31e730ecc0ed04149fb03032ba31ce4ecee0474d2a67a2b42ed86f74b028271",
+          "bytes": 260071,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26856/rw26856-2-flower-princess-resin-miniature-figurines-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "524a227668dc638c5ab3a8fea2c53ca02335ec65fe2293f2e40edfa2d2076709",
+          "bytes": 193248,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw26856/rw26856-3-flower-princess-resin-miniature-figurines-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "39630865d4733b73bd9cd2305c9fc126236551d5ac34f1352c526c70834d9c8a",
+          "bytes": 131039,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    },
+    {
+      "sku": "RW3628",
+      "operation": "new",
+      "sourceRow": 66,
+      "sourceFields": {
+        "sku": "RW3628",
+        "标题": "Thanksgiving  Maple Leaves Resin Flatback Leaf Cabochons Slime Supplies Miniature Realistic Leaves Faux Plant",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW3628.png",
+          "sha256": "49d296913a618731b4196d258a7f19e75a2a1f66d88c4e3be36dce59eab5eabb"
+        }
+      ],
+      "pdp": "p-rw3628.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw3628/rw3628-1-mixed-resin-leaf-flatback-charms.png",
+          "role": "main",
+          "width": 627,
+          "height": 705,
+          "sha256": "56e9db18d043b8f2605e3cb737e04049245dc0f892d1279d482fe89d918065a6",
+          "bytes": 83997,
+          "origin": "supplied reference"
+        },
+        {
+          "path": "assets/images/pdp/rw3628/rw3628-2-mixed-resin-leaf-flatback-charms-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9b70573ab6eec1230757be9094bfd64e7f9b8b1d1ff7ab9522fbeb100194a651",
+          "bytes": 213382,
+          "origin": "AI-assisted styling illustration"
+        },
+        {
+          "path": "assets/images/pdp/rw3628/rw3628-3-mixed-resin-leaf-flatback-charms-detail.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "84682f305932aa5f0f76bce9970ff2df9fe9b2be618d51d0adc45c14f3de0217",
+          "bytes": 77556,
+          "origin": "AI-assisted styling illustration"
+        }
+      ]
+    }
+  ],
+  "sourceWorkbookSha256": "4d16a0c72c301390d08d5a9ab5f4896c8b929a5fd846f6be816e54d172351f4a"
+}
