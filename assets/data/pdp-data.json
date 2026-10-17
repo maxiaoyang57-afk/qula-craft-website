@@ -20256,8 +20256,8 @@
   },
   {
     "catalogIndex": 102,
-    "assetKey": "rw26808",
-    "sku": "RW26808",
+    "assetKey": "rw20809",
+    "sku": "RW20809",
     "category": "Resin Charms",
     "categorySlug": "resin-charms",
     "url": "",
@@ -20297,10 +20297,20 @@
     "metaDescription": "Mixed pink pig and green cabbage resin flatbacks for decoden, hair accessories and themed craft assortments.",
     "shortProductDescription": "Mixed pink pig and green cabbage resin flatbacks for decoden, hair accessories and themed craft assortments.",
     "imagesLocal": [
-      "assets/images/pdp/rw26808/rw26808-1-pig-cabbage-resin-flatback-charms.jpg",
-      "assets/images/pdp/rw26808/rw26808-2-pig-cabbage-resin-flatback-charms.jpg",
-      "assets/images/pdp/rw26808/rw26808-3-pig-cabbage-resin-flatback-charms.jpg"
-    ]
+      "assets/images/pdp/rw20809/rw20809-1-pig-cabbage-resin-flatback-charms.jpg",
+      "assets/images/pdp/rw20809/rw20809-2-pig-cabbage-resin-flatback-charms.jpg",
+      "assets/images/pdp/rw20809/rw20809-3-pig-cabbage-resin-flatback-charms.jpg"
+    ],
+    "sourceSkuCorrection": {
+      "originalSku": "RW26808",
+      "sku": "RW20809",
+      "sourceWorkbook": "10.11(9).xlsx",
+      "sourceSheet": "Sheet1",
+      "sourceRow": 119,
+      "product": "Pig and Cabbage Resin Flatback Charms",
+      "confirmedBy": "Owner confirmation in chat on 2026-10-17",
+      "effectiveDate": "2026-10-17"
+    }
   },
   {
     "catalogIndex": 103,

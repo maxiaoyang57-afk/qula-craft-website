@@ -6,6 +6,26 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/p-rw26808.html",
+      "destination": "https://www.qulacrafts.com/p-rw20809.html",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/pdp/rw26808/rw26808-1-pig-cabbage-resin-flatback-charms.jpg",
+      "destination": "https://www.qulacrafts.com/assets/images/pdp/rw20809/rw20809-1-pig-cabbage-resin-flatback-charms.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/pdp/rw26808/rw26808-2-pig-cabbage-resin-flatback-charms.jpg",
+      "destination": "https://www.qulacrafts.com/assets/images/pdp/rw20809/rw20809-2-pig-cabbage-resin-flatback-charms.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/pdp/rw26808/rw26808-3-pig-cabbage-resin-flatback-charms.jpg",
+      "destination": "https://www.qulacrafts.com/assets/images/pdp/rw20809/rw20809-3-pig-cabbage-resin-flatback-charms.jpg",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [
         {
