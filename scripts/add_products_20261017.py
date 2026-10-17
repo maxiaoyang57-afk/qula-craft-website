@@ -112,7 +112,10 @@ def main():
     pdpbykey={p['assetKey']:p for p in pdp}; additions={}; changed=[]; manifest=[]; batch={p['sku'] for p in plans}
     for plan in plans:
         sku,key=plan['sku'],plan['key']; raw=records[plan['sourceRow']]
-        assert str(raw['sku']).strip()==sku
+        source_sku=str(raw['sku']).strip()
+        approved_correction=json.loads((ROOT/'scripts/data/sku-correction-20261017.json').read_text())
+        effective_sku=approved_correction['sku'] if source_sku==approved_correction['originalSku'] else source_sku
+        assert effective_sku==sku
         images=plan['imagesLocal']; assert len(images)==len(set(images))==3
         imageinfo=[]
         for n,rel in enumerate(images,1):
@@ -124,7 +127,7 @@ def main():
         if plan['operation']=='new':
             assert sku not in bysku
             row={'category':category['name'],'categorySlug':category['slug'],'sourceSheet':'Sheet1','sourceRow':plan['sourceRow'],'sortOrder':0,'sku':sku,'title':plan['title'],'titleFull':plan['title'],'titleShort':plan['title'],'sourceTitle':raw['标题'],'sourceCategory':raw['分类'],'alibabaUrl':'','cleanAlibabaUrl':'','alibabaProductId':'','status':'ok','anchorNote':'','pdp':f'p-{key}.html'}
-            entry={'catalogIndex':0,'assetKey':key,'sku':sku,'category':category['name'],'categorySlug':category['slug'],'url':'','status':'ok','reason':'','titleFull':raw['标题'],'moq':'','priceTiers':[],'stockStatus':'In stock; confirm the available quantity with your quote','specs':public_source_specs(raw,sku),'images':[],'sourceWorkbook':'10.11(9).xlsx','sourceSheet':'Sheet1','sourceRow':plan['sourceRow'],'sourceFields':raw,'importedAt':datetime.now(timezone.utc).isoformat(),'metaTitle':plan['metaTitle'],'metaDescription':plan['description'],'shortProductDescription':plan['description']}
+            entry={'catalogIndex':0,'assetKey':key,'sku':sku,'category':category['name'],'categorySlug':category['slug'],'url':'','status':'ok','reason':'','titleFull':raw['标题'],'moq':'','priceTiers':[],'stockStatus':'In stock; confirm the available quantity with your quote','specs':public_source_specs(raw,sku),'images':[],'sourceWorkbook':'10.11(9).xlsx','sourceSheet':'Sheet1','sourceRow':plan['sourceRow'],'sourceFields':raw,'sourceSkuCorrection':plan.get('sourceSkuCorrection'),'importedAt':datetime.now(timezone.utc).isoformat(),'metaTitle':plan['metaTitle'],'metaDescription':plan['description'],'shortProductDescription':plan['description']}
             copies[key]={'sku':sku,'displayTitle':plan['title'],'metaTitle':plan['metaTitle'],'metaDescription':plan['description'],'isFamilyFriendly':True}; details[key]=plan['description']+' '+plan['uses']+' Confirm the selected designs, assortment, sample and destination when requesting a wholesale quote.'
             additions.setdefault(category['slug'],[]).append(row); pdp.append(entry)
         else:
