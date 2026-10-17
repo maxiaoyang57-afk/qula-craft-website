@@ -16,8 +16,8 @@ test('new application articles keep product links, images and reading controls u
    await expect.poll(()=>img.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);
    expect(await img.evaluate(i=>Math.abs((i.getBoundingClientRect().width/i.getBoundingClientRect().height)-(i.naturalWidth/i.naturalHeight))<0.02)).toBe(true);
   }
-  const links=await page.locator('main a[href]').evaluateAll(ls=>[...new Set(ls.map(l=>l.getAttribute('href')).filter(h=>!h.startsWith('https:')&&!h.startsWith('#')))]);
-  for(const link of links)expect((await page.request.get('/'+link)).status(),link).toBe(200);
+  const links=await page.locator('main a[href]').evaluateAll(ls=>[...new Set(ls.map(l=>l.href).filter(h=>new URL(h).origin===location.origin))]);
+  for(const link of links)expect((await page.request.get(link)).status(),link).toBe(200);
   await page.locator('main').screenshot({path:info.outputPath(a.slug.replace('.html','')+'.png')});
   await page.locator('main h2').last().scrollIntoViewIfNeeded();
   await page.locator('.back-top').click();
