@@ -1,0 +1,792 @@
+{
+  "batchId": "qula-products-20261017",
+  "baselineCommit": "8ab1c3945be43f61d1a90a6fe6d1e2412c89a477",
+  "newProductCount": 14,
+  "updatedProductCount": 1,
+  "catalogCountBefore": 336,
+  "catalogCountAfter": 350,
+  "imageCount": 45,
+  "sourceWorkbook": "10.11(9).xlsx",
+  "products": [
+    {
+      "sku": "CDK938-6/CDK003939-2/CDK938-5/CDK938-4",
+      "operation": "new",
+      "sourceRow": 107,
+      "sourceFields": {
+        "sku": "CDK938-6/CDK003939-2/CDK938-5/CDK938-4",
+        "标题": "Custom Clear Heart Keychain with Assorted Resin Charms Wholesale Bag Backpack Phone Pendant",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm The total length is approximately 90mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK938-6CDK003939-2CDK938-5CDK938-4.png",
+          "sha256": "bc50315003ad7c714c69b79027620d434d72a166c7f23b0297d8ad3fd7d57294"
+        }
+      ],
+      "pdp": "p-cdk938-6-cdk003939-2-cdk938-5-cdk938-4.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk938-6-cdk003939-2-cdk938-5-cdk938-4/cdk938-6-cdk003939-2-cdk938-5-cdk938-4-1-assorted-clear-heart-resin-charm-keychains.jpg",
+          "role": "main",
+          "width": 763,
+          "height": 765,
+          "sha256": "4c7ad7e99fc36691994c031d2a63bcc3b74bf0cd52a9b1087ff8a39482d5be43",
+          "bytes": 83463,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk938-6-cdk003939-2-cdk938-5-cdk938-4/cdk938-6-cdk003939-2-cdk938-5-cdk938-4-2-assorted-clear-heart-resin-charm-keychains.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "210394acca9a46e781c4441674b2bac278be18cefd356f09db7e492652ecf68c",
+          "bytes": 104304,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/cdk938-6-cdk003939-2-cdk938-5-cdk938-4/cdk938-6-cdk003939-2-cdk938-5-cdk938-4-3-assorted-clear-heart-resin-charm-keychains.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9f1f99075b2d26c44c2fb14116fca6dc41634b03495104ebb99d8cd1a0bfa652",
+          "bytes": 113494,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "CDK938-9/CDK159-1/CDK938-7",
+      "operation": "new",
+      "sourceRow": 108,
+      "sourceFields": {
+        "sku": "CDK938-9/CDK159-1/CDK938-7 ",
+        "标题": "Custom Heart Resin Keychain with Wrist Strap Flower Charm Clear Case Wholesale Bag Phone Pendant",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm The total length is approximately 90mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK938-9CDK159-1CDK938-7 .png",
+          "sha256": "9bf7274420b3996f6c9d093b76923373902a6c2854bb2a6a0de9a473edc55b0d"
+        }
+      ],
+      "pdp": "p-cdk938-9-cdk159-1-cdk938-7.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk938-9-cdk159-1-cdk938-7/cdk938-9-cdk159-1-cdk938-7-1-clear-heart-keychains-wrist-straps.jpg",
+          "role": "main",
+          "width": 761,
+          "height": 739,
+          "sha256": "ece87620d9ddf1a2ee41b0bba6d15933d5b5ef8de95b29a80b9e61ee1c179bc6",
+          "bytes": 77352,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk938-9-cdk159-1-cdk938-7/cdk938-9-cdk159-1-cdk938-7-2-clear-heart-keychains-wrist-straps.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a48cbdfdad3026882b6578033dbffa186669b179e7712c56def00000ad3d9afd",
+          "bytes": 101201,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/cdk938-9-cdk159-1-cdk938-7/cdk938-9-cdk159-1-cdk938-7-3-clear-heart-keychains-wrist-straps.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "348584228aa90fff379add113740ead8e4f80c253e1d502cc3b4cafa95560dd0",
+          "bytes": 110016,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "ABC041-ABC042",
+      "operation": "new",
+      "sourceRow": 109,
+      "sourceFields": {
+        "sku": "ABC041-ABC042 ",
+        "标题": "100pcs 7x4mm Round A-Z Alphabet Letter Acrylic Loose Spacer Beads for Jewelry Making Diy Bracelet Accessories",
+        "分类": "Acrylic Beads",
+        "状态": "库存有货",
+        "材质": "Acrylic",
+        "尺寸": "7x4mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "ABC041-ABC042 .png",
+          "sha256": "862394f17d6872e42389ff7b934c4002c2fc7797558a662cbdfbb580ad7ab144"
+        }
+      ],
+      "pdp": "p-abc041-abc042.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/abc041-abc042/abc041-abc042-1-round-alphabet-acrylic-letter-beads.jpg",
+          "role": "main",
+          "width": 611,
+          "height": 600,
+          "sha256": "b9096256cd85fb4e946ce0bf285fa33df7deaa538f28a93c83a3bbab57b1c1da",
+          "bytes": 79545,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/abc041-abc042/abc041-abc042-2-round-alphabet-acrylic-letter-beads.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f27114ea50ac419f5079894e1cbe54b554407438ae6eb9071ee63f1fe966b01b",
+          "bytes": 118087,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/abc041-abc042/abc041-abc042-3-round-alphabet-acrylic-letter-beads.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ccb5a020189f3a50f747e71ee5dde1d9a936b439ea3dc44f263aa61611b32d1f",
+          "bytes": 128422,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26817",
+      "operation": "new",
+      "sourceRow": 110,
+      "sourceFields": {
+        "sku": "RW26817 ",
+        "标题": "Mini Flower Bouquet 3D Figurines Mixed Rose Daisy Tulip Ornaments for Garden Desktop Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "18-26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26817 .png",
+          "sha256": "5458d2f9f5f63b63e759bfb40de29c4dc841a155c59fcba94cdd25e1d9458a8e"
+        }
+      ],
+      "pdp": "p-rw26817.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26817/rw26817-1-miniature-flower-bouquet-resin-ornaments.jpg",
+          "role": "main",
+          "width": 751,
+          "height": 713,
+          "sha256": "be8279a8033ca707eca5a13d58169f0de97d6caf1d347c1287c38b3cf92c07e9",
+          "bytes": 79331,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26817/rw26817-2-miniature-flower-bouquet-resin-ornaments.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "124d739c5048490e42cfe85cd582868221ae22597306f445691aa6b3b1eb8d60",
+          "bytes": 94089,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26817/rw26817-3-miniature-flower-bouquet-resin-ornaments.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5c7a540f627637145abd35a7295ba9d5327dd6451386611e120de7a94d0f9d5d",
+          "bytes": 111078,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW340",
+      "operation": "new",
+      "sourceRow": 111,
+      "sourceFields": {
+        "sku": "RW340 ",
+        "标题": "15mm Flatback Half Round Simulation Sugar Candy Resin Cabochon  Food Decoration Scrapbooking Accessories DIY Phone Case",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*15*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW340.png",
+          "sha256": "5d55f64f8270aadcc19815fd3b0f288865715e62714cbeea7d8fdaf68a388222"
+        }
+      ],
+      "pdp": "p-rw340.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw340/rw340-1-sugar-candy-resin-flatback-cabochons.jpg",
+          "role": "main",
+          "width": 645,
+          "height": 639,
+          "sha256": "1f78d4ecfc9893baf11da64988de1a7a790402399e23ad46826348af029cb032",
+          "bytes": 43133,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw340/rw340-2-sugar-candy-resin-flatback-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "357f34b2acd49de75faad90fb654c73363615a2227aa4c46fb904164a7ab13dd",
+          "bytes": 77766,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw340/rw340-3-sugar-candy-resin-flatback-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7203a28e962bdb8f61133fd686613268948a42c632429d416a6bb4a29e1ac405",
+          "bytes": 93403,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26813",
+      "operation": "update",
+      "sourceRow": 112,
+      "sourceFields": {
+        "sku": "RW26813",
+        "标题": "Christmas Miniature Figurines Mixed Snowman Tree Holiday Figures for Desktop Garden Scene Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26813.png",
+          "sha256": "5984cdcfbe9444be29a859c4632b82da4f2a94fc95141947942c9a5e853e1bc2"
+        }
+      ],
+      "pdp": "p-rw26813.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-main.jpg",
+          "role": "main",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "074eb35985a77b37eda6bba08e7e327d1a8023b6a9db663e2bfc78ca999783fa",
+          "bytes": 118105,
+          "origin": "existing approved reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-scene.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dc6c5f559b5e0b8da10bc7472cc4d5837292d2dea865045c467b4676dc6d1296",
+          "bytes": 178799,
+          "origin": "existing approved scene"
+        },
+        {
+          "path": "assets/images/pdp/rw26813/rw26813-christmas-resin-miniatures-detail.jpg",
+          "role": "detail",
+          "width": 903,
+          "height": 903,
+          "sha256": "927beb50a74e9bd8e8172f830960690e39eddf86b61f514e0578ba1f42048ab6",
+          "bytes": 108792,
+          "origin": "existing approved detail"
+        }
+      ]
+    },
+    {
+      "sku": "RW26816",
+      "operation": "new",
+      "sourceRow": 113,
+      "sourceFields": {
+        "sku": "RW26816",
+        "标题": "Miniature Horse Figurine 3D Animal Ornament for Garden Landscape Plant Pot Desktop Scene DIY Accessories Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 21*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26816.png",
+          "sha256": "4a30573f884b4aa71e406bedd0e235dc086c0a83072d8d1d3d8ca3568f3333bf"
+        }
+      ],
+      "pdp": "p-rw26816.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26816/rw26816-1-miniature-horse-resin-figurines.jpg",
+          "role": "main",
+          "width": 758,
+          "height": 682,
+          "sha256": "b99ba3f187ad4bcbcd2025ced16f2ef267e5cb9c0ad36ad4ad827fbaccc777d6",
+          "bytes": 96208,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26816/rw26816-2-miniature-horse-resin-figurines.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "21c27d2ad545d47458d05e6d09c132611418cdc5b93aa5ea03c1b96436f56003",
+          "bytes": 100346,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26816/rw26816-3-miniature-horse-resin-figurines.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3bde7d76484c36b91531a2042bf78ab9ad6dc67dc5fca30f782caab1e2ee229f",
+          "bytes": 116049,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26815",
+      "operation": "new",
+      "sourceRow": 114,
+      "sourceFields": {
+        "sku": "RW26815 ",
+        "标题": "Miniature Handcart 3D Ornament Wood Grain Trolley for Garden Landscape Desktop Scene DIY Accessories Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 15*30*13mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26815 .png",
+          "sha256": "c6ded3bc185441b7a11749fb71d677177084c031d14cdbc6c3842a82f057ef47"
+        }
+      ],
+      "pdp": "p-rw26815.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26815/rw26815-1-wood-grain-handcart-resin-miniatures.jpg",
+          "role": "main",
+          "width": 753,
+          "height": 696,
+          "sha256": "63b91e672c7008cde0b13bda5912f4ae6f974afb310a75a4d1b9ef2aa26be73b",
+          "bytes": 97095,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26815/rw26815-2-wood-grain-handcart-resin-miniatures.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "35aa6e1137078a26ee16153cccdd8cc3df29bb0881f602db35845a2763d1ed84",
+          "bytes": 106833,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26815/rw26815-3-wood-grain-handcart-resin-miniatures.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "077229bfb5cc241b6387db838586df5ac2e642b28adbc3dbd92a1e0f357eec3c",
+          "bytes": 119832,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW002852",
+      "operation": "new",
+      "sourceRow": 115,
+      "sourceFields": {
+        "sku": "RW002852 ",
+        "标题": "Cute Bear Cherry Flatback Cabochons Cartoon Fruit Charms for Hair Clips Phone Cases Scrapbooking DIY Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25*26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW002852.png",
+          "sha256": "1418419271e5df0bd953df2d0bbd9e08baa4cac392cdd1898bf4ea0f3dac422a"
+        }
+      ],
+      "pdp": "p-rw002852.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002852/rw002852-1-bear-cherry-resin-flatback-charms.jpg",
+          "role": "main",
+          "width": 751,
+          "height": 711,
+          "sha256": "58fc070cde7b0148d3a5c32ea3c453d4290bba0ccff725e3d795faa11e26a093",
+          "bytes": 63173,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw002852/rw002852-2-bear-cherry-resin-flatback-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "48e7b1b85a42524d776681dfeac32c40d6fd3c4ec8e2c69cf6d056f619cbdbc9",
+          "bytes": 84795,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw002852/rw002852-3-bear-cherry-resin-flatback-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b10f6ca337c3d61d79ed0694864cd60be619e9961eaf44f4e22b6755b03020cc",
+          "bytes": 101441,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26812",
+      "operation": "new",
+      "sourceRow": 116,
+      "sourceFields": {
+        "sku": "RW26812",
+        "标题": "Christmas Candy Flatback Cabochons Mixed Dessert Charms for Hair Clips Phone Cases Scrapbooking DIY Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26812.png",
+          "sha256": "69da4c5fa4b5852e72802d6e27f97523e802cd95fd654dac56b84db6f8d74fc7"
+        }
+      ],
+      "pdp": "p-rw26812.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26812/rw26812-1-christmas-candy-resin-flatback-charms.jpg",
+          "role": "main",
+          "width": 721,
+          "height": 739,
+          "sha256": "fc09eff7031db1dc3e2284b621aa771fbe3402c9555b3c13888b7db5163a6c80",
+          "bytes": 112430,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26812/rw26812-2-christmas-candy-resin-flatback-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "425cc7e6d1164b8c7703ac7e31157881450d0b6f8f1c046c8691b7618c425aee",
+          "bytes": 115429,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26812/rw26812-3-christmas-candy-resin-flatback-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bc5c03c4d195c1a0a811af0777faceb32c49ea310ff0a6453c53958cf7144b1e",
+          "bytes": 130903,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26811",
+      "operation": "new",
+      "sourceRow": 117,
+      "sourceFields": {
+        "sku": "RW26811",
+        "标题": "Resin with Holes, Green Leaves, Mixed Jewelry, Hair Accessories, Loose Beads, DIY Customization, Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "11*8mm",
+        "孔径": "有",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26811.png",
+          "sha256": "3570c6a40f294d062fe721bf72806adff34c2a4b01bc84a8c9cbd6d9aaf282ba"
+        }
+      ],
+      "pdp": "p-rw26811.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26811/rw26811-1-green-leaf-resin-charms-holes.jpg",
+          "role": "main",
+          "width": 725,
+          "height": 739,
+          "sha256": "ea2620e7899eb911b354d1b88b92af92747ff952a960f53daf6be9eb9dcf21b5",
+          "bytes": 121874,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26811/rw26811-2-green-leaf-resin-charms-holes.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fcb9ce30ea4b6d5be326c41e75b1e1272095de0e86fa814ea2b43ded8a4404e1",
+          "bytes": 121795,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26811/rw26811-3-green-leaf-resin-charms-holes.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "86cc315b8cd7e070c79a00cd37f85ad48c726e5210723ad997f6fe52214dd175",
+          "bytes": 135948,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26810",
+      "operation": "new",
+      "sourceRow": 118,
+      "sourceFields": {
+        "sku": "RW26810",
+        "标题": "Miniature Tree Stump 3D Accessories Mixed Woodland Designs for Garden Landscape Terrarium Decor Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 45mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26810.png",
+          "sha256": "e6f60efb615ae012a8d0cc1d832ceecd2065258434643c5391921b4320664868"
+        }
+      ],
+      "pdp": "p-rw26810.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26810/rw26810-1-tree-stump-woodland-resin-miniatures.jpg",
+          "role": "main",
+          "width": 760,
+          "height": 715,
+          "sha256": "358085b0c6c15c73f81868e33cda231b97849775688b2c60df944f179d67a605",
+          "bytes": 103501,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26810/rw26810-2-tree-stump-woodland-resin-miniatures.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2817b441cca477b504c642a580832df3f9a38d14e6c7da99b0a35cb9cd1a4b15",
+          "bytes": 111013,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26810/rw26810-3-tree-stump-woodland-resin-miniatures.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "619dd2c58c4e0a29e721cb5d34e24215cf5c06f67cb8d4c36a6e687552a56a66",
+          "bytes": 122532,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26808",
+      "operation": "new",
+      "sourceRow": 119,
+      "sourceFields": {
+        "sku": "RW26808",
+        "标题": "Cute Pig Cabbage Flatback Cabochons DIY Accessories for Hair Clips Phone Cases Scrapbooking Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 18*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26808.png",
+          "sha256": "cb03c68d3a51353ee0e2bce461671c220a0ef992d7c5d9cde3cf48038fb39abe"
+        }
+      ],
+      "pdp": "p-rw26808.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26808/rw26808-1-pig-cabbage-resin-flatback-charms.jpg",
+          "role": "main",
+          "width": 744,
+          "height": 738,
+          "sha256": "2d2bd79ab8e8a36f4511d016fb7efe21a9a05edfc015ea55c69545164cf42789",
+          "bytes": 81808,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26808/rw26808-2-pig-cabbage-resin-flatback-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3633c4467b8902c2be4ae8e9b4bd8df815b6eb6594dd46e48bb631aee50a167b",
+          "bytes": 97309,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26808/rw26808-3-pig-cabbage-resin-flatback-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2c4484047dcd6fe13c324ca269458d280dfe44adb5a66ac69be1f81c962c496b",
+          "bytes": 111686,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW1021",
+      "operation": "new",
+      "sourceRow": 120,
+      "sourceFields": {
+        "sku": "RW1021",
+        "标题": "100Pcs Colorful Transparent Cube Sugar Resin Cabochon Simulation Food Play DIY Embellishments Scrapbooking Decoration Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW1021.png",
+          "sha256": "cbd8835937736c47c151746321d6db9d0a26e6a394b6de61074f0cf2f6c61381"
+        }
+      ],
+      "pdp": "p-rw1021.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1021/rw1021-1-transparent-sugar-cube-resin-cabochons.jpg",
+          "role": "main",
+          "width": 767,
+          "height": 649,
+          "sha256": "645e03fb66c412c1239f70f6f4dee3a0e9ebd8e060f725a7306f144b52aadb4a",
+          "bytes": 51537,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1021/rw1021-2-transparent-sugar-cube-resin-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "162e2904b8812df2c3316ff131af191b0c31b4b9f2d6bc3cfb761a5aefdd9c63",
+          "bytes": 76965,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw1021/rw1021-3-transparent-sugar-cube-resin-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c3a8126e77925f358e51b4f75cc087774970f44a6220f208ee83e95cc235d053",
+          "bytes": 93681,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW21765",
+      "operation": "new",
+      "sourceRow": 121,
+      "sourceFields": {
+        "sku": "RW21765 ",
+        "标题": "Cartoon Resin Mushroom Charms Flatback Cabochons Scrapbook Craft DIY Jewelry Making Embellishments Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW21765.png",
+          "sha256": "99943267a5fe57ebc10dc6422ec41509ecce3270934c7b0a25dc56b0f5840fe2"
+        }
+      ],
+      "pdp": "p-rw21765.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21765/rw21765-1-pastel-mushroom-resin-cabochons.jpg",
+          "role": "main",
+          "width": 560,
+          "height": 523,
+          "sha256": "cf9206f6f70d7568e43d1384b7187a95422f19062a47c463116f27ee4e800bb6",
+          "bytes": 92859,
+          "origin": "supplied styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw21765/rw21765-2-pastel-mushroom-resin-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6779c2cc482fc22bf995b47a3514b102c2b539e0a219b37232d216560f40400c",
+          "bytes": 129055,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw21765/rw21765-3-pastel-mushroom-resin-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d29aa20dd204b230e7806cc5a1d4b3acce3fcafdd995b70b7423ce808ad36312",
+          "bytes": 141924,
+          "origin": "packing and order graphic"
+        }
+      ]
+    }
+  ]
+}
