@@ -36,6 +36,8 @@ for(const p of plans.filter(p=>p.operation==='new'&&(site==='qula'||p.haibu))){
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><rect width="1000" height="1000" fill="#f7f5f0"/>${lines(brand+' / PRODUCT GUIDE',48,55,17,ink,80)}${lines(title,48,112,40,'#172a2b',45)}${lines(p.sku,48,153,18,'#526160',85,25)}<rect x="48" y="190" width="490" height="600" rx="18" fill="#fff"/><image x="${48+(490-iw)/2}" y="${200+(580-ih)/2}" width="${iw}" height="${ih}" preserveAspectRatio="xMidYMid meet" xlink:href="data:image/jpeg;base64,${b64}"/>${body}<rect x="48" y="816" width="904" height="125" rx="12" fill="#e8ede5"/>${lines(foot,70,849,18,'#172a2b',86,27)}${lines('Source specification summary. Styling props are not included. Confirm the selected sample.',48,972,14,'#566560',110)}</svg>`;
   await sharp(Buffer.from(svg)).jpeg({quality:90,mozjpeg:true}).toFile(paths[n-1]);
  }
+ // JFIF resolution only: preserve encoded pixels and omit EXIF/GPS metadata.
+ for(const f of paths){const data=await fs.readFile(f);if(data.subarray(6,11).toString()!=='JFIF\0')await fs.writeFile(f,Buffer.concat([data.subarray(0,2),Buffer.from('ffe000104a46494600010101004800480000','hex'),data.subarray(2)]));}
  const dimensions=await Promise.all(paths.map(async f=>{const m=await sharp(f).metadata();return {width:m.width,height:m.height}}));
  output.push({sku:p.sku,paths,dimensions,source,sourceSize:p.sourceSize});
 }
