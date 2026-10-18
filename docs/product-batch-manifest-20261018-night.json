@@ -230,8 +230,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "688dc0f275133f411dd05e10b5f76c6fd5adc470b074f252ef9843b33e239894",
-          "bytes": 80082,
+          "sha256": "cf4b87b4bece6233de36622ac484c405ca8d561a259b0669a04f255fac722d0a",
+          "bytes": 80107,
           "origin": "source specification graphic"
         },
         {
@@ -239,8 +239,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "1b31ce036a96366aa3cd88167d0dc9e3e22a3116a47306668661ff5ba9e63489",
-          "bytes": 97310,
+          "sha256": "163b86ccc2d545e7d6503aba326b114fe24f710668d0a0d5ea78c75aa7e7dba5",
+          "bytes": 97242,
           "origin": "packing and order graphic"
         }
       ]
@@ -282,8 +282,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "9a52b1d63e224daa15786f1ae312f20e283a6665d5b136ec156e72f1b7edb23d",
-          "bytes": 84897,
+          "sha256": "2fce053da2ae363b1b4195eaa5a7258f1c5873b9591689b8321f5c6257e1c6bf",
+          "bytes": 84934,
           "origin": "source specification graphic"
         },
         {
@@ -291,8 +291,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "8d8b80eeb60a733af1084830e3ef05e1348570806a73f99ca8aad15108d342a6",
-          "bytes": 100096,
+          "sha256": "f3bb6e83a3f5d8fc7113f6295af2552f4043285be256676d4ca9f86ecf296e05",
+          "bytes": 100108,
           "origin": "packing and order graphic"
         }
       ]
@@ -334,8 +334,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "2e8e98b082af5d1068b1a70ffba6c092df030937c9de99beca2f34bd890a8b2d",
-          "bytes": 100559,
+          "sha256": "67197fa8d0487b92d5288c624c221e2ca338d59e1858352feca662febad1579f",
+          "bytes": 99171,
           "origin": "source specification graphic"
         },
         {
@@ -343,8 +343,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "bd3bd1cf93b8c3d52c81fd79cacba63b4b966dbf8a68fbe611f855f4abdc486a",
-          "bytes": 105801,
+          "sha256": "5cb8e54c6d18679e4e9687a73f2209d19435ca2d9f70407dfb453e5005d97a37",
+          "bytes": 105791,
           "origin": "packing and order graphic"
         }
       ]
@@ -386,8 +386,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "f23b6a48a6b01099c96cbe938f4667042bc274277faa4f094a6be7407fe7f0c9",
-          "bytes": 78412,
+          "sha256": "4eb10c020bc1c14b82e996485afd5d41c6d754ec7ac4c47b902e266495a49388",
+          "bytes": 78381,
           "origin": "source specification graphic"
         },
         {
@@ -395,8 +395,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "d6f5cc9e8da725c0a02a4fe168c38343748b0236f3e3eaddba81cd3e47c7ebc0",
-          "bytes": 95613,
+          "sha256": "ad73515700b25e6ff6d82a973aba5bf6752a3ec8adc19f5f1c79467ac41f9bff",
+          "bytes": 95680,
           "origin": "packing and order graphic"
         }
       ]
@@ -438,8 +438,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "94ce351d8f23d059c579f0fe3a33e6f1ee612ce658a64dcba2802d91d5fe0104",
-          "bytes": 110812,
+          "sha256": "892c45c546cb1befae5ed6cadfa3c0f48961e34e33d51f506262c277999726e4",
+          "bytes": 110782,
           "origin": "source specification graphic"
         },
         {
@@ -447,8 +447,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "29eeb1c04c04f424e281f8b52e331dab7d1239b052409b95733c0926ec57c950",
-          "bytes": 126167,
+          "sha256": "96d48fa8c913e8c56b49d29eb0d53075910ffe1c6d6cdc0f054a20c9f7eabb36",
+          "bytes": 126203,
           "origin": "packing and order graphic"
         }
       ]
@@ -490,8 +490,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "1d202d19d29d75f4a75f9a458528b63eccd9b2bb3e9a4f48c9c450fcdcc3f656",
-          "bytes": 73754,
+          "sha256": "eb2dca695a166437ac4e5887be7fad4ef3895e2a507daa4f76f4b602ee74f7db",
+          "bytes": 73672,
           "origin": "source specification graphic"
         },
         {
@@ -499,8 +499,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "c5870b35da10bcd6b07501b866eb2f35304c29e8e835694e085c76eb7361e728",
-          "bytes": 89026,
+          "sha256": "df58a83451016e2ceda9ef3a149e23c2617fb288520f68e41b78e4123cbe8b1b",
+          "bytes": 89015,
           "origin": "packing and order graphic"
         }
       ]
@@ -542,8 +542,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "49c841691762e07187a136afb7bd50183d3e0dc1a3d25882cedd769f4efe51ca",
-          "bytes": 72774,
+          "sha256": "40f67d01e96ba0ef26a3d72db463ae7185437ea818dc994ee541ac92beda0bdc",
+          "bytes": 72771,
           "origin": "source specification graphic"
         },
         {
@@ -551,8 +551,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "1f47c78985f924dc6ab60a865b6880d7ab9341f52be9313bfb8a8e25eaf78dd5",
-          "bytes": 89559,
+          "sha256": "770feaf8334cebbe8edcb64abfdf3fff493729475c14ec1516b936fc663c2ff6",
+          "bytes": 89532,
           "origin": "packing and order graphic"
         }
       ]
@@ -594,8 +594,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "d8fd81b45ad7007411fd349fdaa96cf2c9adb1184608bd17ee11f5f3dc7f3955",
-          "bytes": 74062,
+          "sha256": "cd4dfe74e4654980c8c771a650f450669e6fdff5b57c57a11806d775716dfb65",
+          "bytes": 74187,
           "origin": "source specification graphic"
         },
         {
@@ -603,8 +603,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "becee0d7c8456df31f29f1a5202774c4072c81287abd382e39322818cda1d387",
-          "bytes": 91288,
+          "sha256": "ff73021e79d4e7a8b9619e76378d77883aa3af43a7b85bcc7e6d354fb4d1f516",
+          "bytes": 91300,
           "origin": "packing and order graphic"
         }
       ]
@@ -646,8 +646,8 @@
           "role": "source specification summary",
           "width": 1000,
           "height": 1000,
-          "sha256": "4a546c6fc7a7f4082a42059be117c565b46e16bea50ec8281090bbf7f7dee914",
-          "bytes": 85576,
+          "sha256": "c254af8a5d34047ee880c0227fc743557a6a5793614eed48dc418224486276ed",
+          "bytes": 82315,
           "origin": "source specification graphic"
         },
         {
@@ -655,8 +655,8 @@
           "role": "packing and order brief",
           "width": 1000,
           "height": 1000,
-          "sha256": "6406a9048cd2dd79291e798134d3ffe6b9efe7a39953bdbc0cbf19d3f26da843",
-          "bytes": 99755,
+          "sha256": "85a71b5ae6618cce040735dedf50b1179dc9ab3e9f17782438374e2b1dcba985",
+          "bytes": 99768,
           "origin": "packing and order graphic"
         }
       ]
