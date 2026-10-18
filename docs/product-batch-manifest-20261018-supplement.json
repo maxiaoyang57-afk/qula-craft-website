@@ -1,0 +1,952 @@
+{
+  "batchId": "qula-products-20261018-supplement",
+  "baselineCommit": "582fabd9ceac98de03801df977dc35b98c2271f6",
+  "newProductCount": 13,
+  "updatedProductCount": 5,
+  "catalogCountBefore": 359,
+  "catalogCountAfter": 372,
+  "imageCount": 54,
+  "sourceWorkbook": "10.11(20261018-071932).xlsx",
+  "products": [
+    {
+      "sku": "RW26802",
+      "operation": "new",
+      "sourceRow": 133,
+      "sourceFields": {
+        "sku": " RW26802 ",
+        "标题": "Customized Wholesale Dessert Cup Miniature Models for Large Ice Cream Accessories, Keychains, Scrapbooks, and Party Decorations",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25*56mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26802.png",
+          "sha256": "18e6e6587422e3f78ee841301c1e4f577571a1dddf9845b7774eb120fd176116"
+        }
+      ],
+      "pdp": "p-rw26802.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26802/rw26802-1-ice-cream-sundae-resin-miniatures-20261018.jpg",
+          "role": "main",
+          "width": 745,
+          "height": 715,
+          "sha256": "dec6a8f33778ebc37893d9d2046021adc9af782b6245beca0cf09cb3c5b78fe7",
+          "bytes": 63041,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26802/rw26802-2-ice-cream-sundae-resin-miniatures-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c60284dad7e50ee87d1156b8c70691bbc214c82096cdcc4dc569a8a90b003373",
+          "bytes": 89986,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26802/rw26802-3-ice-cream-sundae-resin-miniatures-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "780fdaca847f76f3b3d82beed5f27ec86225350b390d2f765a7f5fb7fb582d6a",
+          "bytes": 101083,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW967",
+      "operation": "update",
+      "sourceRow": 134,
+      "sourceFields": {
+        "sku": "RW967 ",
+        "标题": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35*31*8mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW967.png",
+          "sha256": "0ed6660acb6b528ad480f6e400069d7263cca9baa4a5a001290ca027f244364a"
+        }
+      ],
+      "pdp": "p-rw967.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw967/rw967-1-mini-fried-egg-resin-flatback-charms-20261018.jpg",
+          "role": "main",
+          "width": 768,
+          "height": 525,
+          "sha256": "821e76444edcb7bfb61a090b05d92f3154ffb09c0bc9877a83ad7fa78872312e",
+          "bytes": 17944,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw967/rw967-2-mini-fried-egg-resin-flatback-charms-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3f5a4cda9caa66cb48c0c542a6a1568a50b1a56ce18a2f5d91d86dec0a28614e",
+          "bytes": 62996,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw967/rw967-3-mini-fried-egg-resin-flatback-charms-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b3b776c6dc087234d016ffcea65468f1f3d7b819e2b1a9e560cf965db3cf6b70",
+          "bytes": 77838,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW23909",
+      "operation": "new",
+      "sourceRow": 135,
+      "sourceFields": {
+        "sku": "RW23909 ",
+        "标题": "100Pcs Cartoon Cat Flower Heart Pretzel Bread Flat Back Resin Cabochon Scrapbooking Fit Phone Deco Parts DIY Crafts Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW23909 .png",
+          "sha256": "b14c645a99460cb51f2bd6218470d98347eb1836a716f90015737b10f3f426e4"
+        }
+      ],
+      "pdp": "p-rw23909.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23909/rw23909-1-mini-bread-resin-flatback-cabochons-20261018.jpg",
+          "role": "main",
+          "width": 589,
+          "height": 533,
+          "sha256": "5d78097800a49cee9518acc9f418e34d9b7c0fe496cb7365c1a49efc17e8e5f8",
+          "bytes": 49254,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw23909/rw23909-2-mini-bread-resin-flatback-cabochons-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "23fad900dc5b9d28b874f6e1000ea60d3e292371a926e194f9eb720818d40f44",
+          "bytes": 92564,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw23909/rw23909-3-mini-bread-resin-flatback-cabochons-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c1289f02702d05d7e04b16834aa99efc7ad82ffdc41a439b2497a63e811170e7",
+          "bytes": 103724,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX3889",
+      "operation": "new",
+      "sourceRow": 136,
+      "sourceFields": {
+        "sku": "YX3889",
+        "标题": "1KG Halloween Theme Pumpkin Shape Cute Polymer Clay Slime Decor DIY Crafts Phone Case Back Stickers Crafting",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3889.png",
+          "sha256": "ca91c99cbe0ffb5b65948f396da0a4522cb761bafede69d2436fba6a6d49bac3"
+        }
+      ],
+      "pdp": "p-yx3889.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3889/yx3889-1-halloween-polymer-clay-sprinkle-mix-20261018.jpg",
+          "role": "main",
+          "width": 589,
+          "height": 604,
+          "sha256": "979e4fee2cef20c684a1f905012962f5e32785180e9af5eb309a32183b611f7d",
+          "bytes": 105601,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3889/yx3889-2-halloween-polymer-clay-sprinkle-mix-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "966af03f31be728b532963e8c86aaedda1e6cd81f76d3c99f0c5685a1ca84cf9",
+          "bytes": 143109,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx3889/yx3889-3-halloween-polymer-clay-sprinkle-mix-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f854230d6ab2a8cae9cd570ead0fefc97246a6489e32a245672d254b8f0aa9f5",
+          "bytes": 147593,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26788",
+      "operation": "new",
+      "sourceRow": 137,
+      "sourceFields": {
+        "sku": "RW26788 ",
+        "标题": "Custom Wholesale Fish Tail Miniatures for Hair Accessories Keychains Albums Phone Accents and Package Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "23*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26788 .png",
+          "sha256": "8017c1d9560c471e877ee7da2355f476bba292dc2b06cf2f93cf6e704172f06a"
+        }
+      ],
+      "pdp": "p-rw26788.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26788/rw26788-1-pink-and-gold-mermaid-tail-resin-charms-20261018.jpg",
+          "role": "main",
+          "width": 741,
+          "height": 735,
+          "sha256": "c1a8ab7db5bf546be7544c4f1523ca544bacc5506769634e21171867135ba247",
+          "bytes": 59957,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26788/rw26788-2-pink-and-gold-mermaid-tail-resin-charms-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "722f8418b6a56456790c49c9aff50271645875c129aef6c519c3190eab355032",
+          "bytes": 89774,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26788/rw26788-3-pink-and-gold-mermaid-tail-resin-charms-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4d9ef15b439d0c5995ced986dd76a0f3fee0fc9f1ed43d11c4229a5c2767b9d8",
+          "bytes": 100298,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW24241",
+      "operation": "new",
+      "sourceRow": 138,
+      "sourceFields": {
+        "sku": "RW24241",
+        "标题": "Mini 3D Halloween Bat Spider Resin Pvc  Figurines Miniature Halloween Doll House DIY Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24241.png",
+          "sha256": "74da4fa585f113f516aff6ebebe2ebd54255e4b0c5b69fc1e39b14c60a94f7c6"
+        }
+      ],
+      "pdp": "p-rw24241.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24241/rw24241-1-halloween-resin-miniature-assortment-20261018.jpg",
+          "role": "main",
+          "width": 631,
+          "height": 560,
+          "sha256": "4ae391f27365404a5d3a2d9e9d7da804a51e8c48bc396571d3403706d36fa77d",
+          "bytes": 54800,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24241/rw24241-2-halloween-resin-miniature-assortment-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c4c922aeae92d2ec9386059b1bdbf6bd56a8f566c881e2b61e8e6fbc7e80c211",
+          "bytes": 96701,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw24241/rw24241-3-halloween-resin-miniature-assortment-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bb2d57c629d698d68c80a315543d146e57c086586271c2d0d44b657b2f248228",
+          "bytes": 103208,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YH049",
+      "operation": "new",
+      "sourceRow": 139,
+      "sourceFields": {
+        "sku": "YH049",
+        "标题": "3D Hollow Star Energy Storage Fluorescent Glow in Dark Luminous on Wall Star Stickers for Kids Room Living Room Decal",
+        "分类": "Acrylic Stickers",
+        "状态": "库存有货",
+        "材质": "Acrylic",
+        "尺寸": "about30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YH049.png",
+          "sha256": "a2d5cd9d196e268b20cb89a14cb0403d9fcdd2e15c9056c1323708f509ec3fee"
+        }
+      ],
+      "pdp": "p-yh049.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yh049/yh049-1-glow-star-acrylic-decorations-20261018.jpg",
+          "role": "main",
+          "width": 763,
+          "height": 700,
+          "sha256": "4e6ed6b65152eaf6588e0e582ceca5d3fe43bb1039ef1b5c41389fb83564a6e5",
+          "bytes": 28786,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yh049/yh049-2-glow-star-acrylic-decorations-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7e937bff18e5001f27e282cec8450726ba34ff8cd705a48d572ff3108a68daa9",
+          "bytes": 71790,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yh049/yh049-3-glow-star-acrylic-decorations-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1083b9f545077fe9895898a1b15eca32ce6d35390cbd2a0e8127c9d4f3d06b4c",
+          "bytes": 80463,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "OOH026",
+      "operation": "new",
+      "sourceRow": 140,
+      "sourceFields": {
+        "sku": "OOH026",
+        "标题": "Halloween Bat Simulation Plastic Bat Halloween Little Bat Toy Accessories Simulation Animal Charms Festival Themed Toys",
+        "分类": "Plastic",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "40*20*5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "OOH026.png",
+          "sha256": "1d23d526d360ed8fadc470d6d295c3a3d0d4af596773eb3d7ae8cb351a8bee87"
+        }
+      ],
+      "pdp": "p-ooh026.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ooh026/ooh026-1-mini-black-plastic-bat-decorations-20261018.jpg",
+          "role": "main",
+          "width": 674,
+          "height": 479,
+          "sha256": "def69642fdba4436adc096c0a3604e7c0c14e0f1ff663f18834985078a51b3ff",
+          "bytes": 62462,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ooh026/ooh026-2-mini-black-plastic-bat-decorations-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "78f981c1f88a0d12f9709b6e1a2c144566dacc9700067b60795bc8ecb332b76a",
+          "bytes": 92112,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ooh026/ooh026-3-mini-black-plastic-bat-decorations-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6b73b54ae2f99485d6de07b81be20ed668677f0dbf644fd8c7653d2dfa5cdba3",
+          "bytes": 103353,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX097-YX284",
+      "operation": "new",
+      "sourceRow": 141,
+      "sourceFields": {
+        "sku": "YX097-YX284",
+        "标题": "1.5*7mm Long Cylindrical Hot Clay Sprinkles for Crafts DIY  Cake Candy Dessert Decoration Toys Fluffy Slimes Supplies Mud",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "1.5*7mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX097-YX284.png",
+          "sha256": "64add6f5bee5355ed10fee9d37b7265a27e84e8b0512d90cbde9295ae5fa48b2"
+        }
+      ],
+      "pdp": "p-yx097-yx284.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx097-yx284/yx097-yx284-1-colorful-rod-polymer-clay-sprinkles-20261018.jpg",
+          "role": "main",
+          "width": 577,
+          "height": 589,
+          "sha256": "a14bc82c9776fb28d5e3981736652809e81ee67280479c201466180c3ce7edee",
+          "bytes": 82289,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx097-yx284/yx097-yx284-2-colorful-rod-polymer-clay-sprinkles-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "626eccd9a451c668f731fa5942409d97b78fd174d638a15ac749d1ac1c21479d",
+          "bytes": 123714,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx097-yx284/yx097-yx284-3-colorful-rod-polymer-clay-sprinkles-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e86f5d1239fdc97e604a22aaf84cbc0e5ec345041dd4c8a480c8b6b39bd15029",
+          "bytes": 133694,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA274",
+      "operation": "new",
+      "sourceRow": 142,
+      "sourceFields": {
+        "sku": "MA274 ",
+        "标题": "4-6mm Mixed Size Plastic Nail Glitter Round Bulk Loose SequinsCandy Color Confetti for Holiday Crafts DIY Making",
+        "分类": "sequins",
+        "状态": "库存有货",
+        "材质": "Plastic ",
+        "尺寸": "4-6mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA274 .png",
+          "sha256": "1588ccf7a0b4772e0bb4cb01706909f3199c9077d6c74ae7e44a87780ee59f01"
+        }
+      ],
+      "pdp": "p-ma274.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma274/ma274-1-mixed-round-craft-confetti-sequins-20261018.jpg",
+          "role": "main",
+          "width": 570,
+          "height": 612,
+          "sha256": "c6d1f1c18748652eead69cb814bd03a0d003ff4337c38fb168f7ba0efb876371",
+          "bytes": 85809,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma274/ma274-2-mixed-round-craft-confetti-sequins-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aed8f83c55c1948bbe7d0803d6eee356c8984c2d0ddfb3c71e951a330de294e7",
+          "bytes": 120660,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ma274/ma274-3-mixed-round-craft-confetti-sequins-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5c585f3c1692e3e3f7ee913b171c7ce54ec46028bd90db6b10d4b61d46f85199",
+          "bytes": 134029,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YA001",
+      "operation": "update",
+      "sourceRow": 143,
+      "sourceFields": {
+        "sku": "YA001",
+        "标题": "Wholesale Opaque Color  Acrylic Round Beads Smooth Loose Beads With Hole  for Jewelry Making",
+        "分类": "Acrylic Stickers",
+        "状态": "库存有货",
+        "材质": "Acrylic",
+        "尺寸": "6,8,10,12,16,20,14,16,18mm",
+        "孔径": "有",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YA001.png",
+          "sha256": "b36adb524350124b36179717331b9de17ba9014c0a67f4bbd672e20b8f815ef8"
+        }
+      ],
+      "pdp": "p-ya001.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya001/ya001-1-opaque-round-acrylic-beads-20261018.jpg",
+          "role": "main",
+          "width": 736,
+          "height": 721,
+          "sha256": "f8e3766e0f1d07064cd0b62d7aca1e1e96c8b0fd4f42bfe322fda80173249b76",
+          "bytes": 43238,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ya001/ya001-2-opaque-round-acrylic-beads-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1c1ef3567fdeda90dd4697e906e3b323bb8b1f0be01ddbce5153f65ccd568802",
+          "bytes": 96120,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ya001/ya001-3-opaque-round-acrylic-beads-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7df9ae43e5bd511303abc538ed4b2a024c6e212857a9d06331e3bc7a139ccd6e",
+          "bytes": 103966,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW002587",
+      "operation": "new",
+      "sourceRow": 144,
+      "sourceFields": {
+        "sku": "RW002587 ",
+        "标题": "100Pcs Cartoon Resin Bee Honey Pot Honeycomb Flatback Cabochons Scrapbooking Phone Decoration DIY Handmade Hairpin Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "21*29mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW002587.png",
+          "sha256": "d7864703b054030d62c0308e84b7c4d49c4be5afba0c826c20775a2e1ecd8eff"
+        }
+      ],
+      "pdp": "p-rw002587.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002587/rw002587-1-bee-honey-pot-resin-cabochons-20261018.jpg",
+          "role": "main",
+          "width": 412,
+          "height": 412,
+          "sha256": "202877f6b89b916fc0e6397c3931d2287c10ab7810a4fd469415c90f12acdd0b",
+          "bytes": 21134,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw002587/rw002587-2-bee-honey-pot-resin-cabochons-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9c5cde2135038caa47fc901e1ef59b26a3bb80eb9ad7f601ea5f5aaf624ae7bf",
+          "bytes": 73872,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw002587/rw002587-3-bee-honey-pot-resin-cabochons-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "237b05acd1b2d315d5b90236b92b4472d1f9ece43a7c4bdd549169c199b4844e",
+          "bytes": 86627,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW1602",
+      "operation": "new",
+      "sourceRow": 145,
+      "sourceFields": {
+        "sku": "RW1602 ",
+        "标题": "Mix Designs Mini Donuts Charms Pendants Lucky Bag Cabochons for DIY Bracelets Necklace Earring Key Chain Jewelry Making",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12-22mm or so",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW1602 .png",
+          "sha256": "ae836291fefe542d0f58e1db692e1c79ca49f704503b69aaee1de85e126eb873"
+        }
+      ],
+      "pdp": "p-rw1602.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1602/rw1602-1-mixed-donut-resin-cabochons-20261018.jpg",
+          "role": "main",
+          "width": 730,
+          "height": 687,
+          "sha256": "851a3e461ad26e4416a31233c94bfcabe18bee0f7efa21a88b5eda23c75a54db",
+          "bytes": 82506,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw1602/rw1602-2-mixed-donut-resin-cabochons-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "10748852cc485d9127a062383caccfbe732f4e13385946846da73410d74ab4cb",
+          "bytes": 103774,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw1602/rw1602-3-mixed-donut-resin-cabochons-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8404f7a1b4b556e4a22ffd5ea2b998b6d486238f4ba3c3472acd94f3fa190054",
+          "bytes": 112291,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA",
+      "operation": "new",
+      "sourceRow": 146,
+      "sourceFields": {
+        "sku": "MA",
+        "标题": "Christmas Snowflake Sequins for Craft White Color Flower Sequin Christmas Party Decoration DIY Handmade Accessories",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "1-7mm",
+        "孔径": "无",
+        "颜色": "混款,可单色",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA (2).png",
+          "sha256": "266d872f95a41acc0b61dc8cb7de8a777655eafee882645e3c41e6e73207ad61"
+        },
+        {
+          "file": "MA.png",
+          "sha256": "bfb9408b6ac1898c57a16835e6f6bee13cc79ebcb5d8720b77fc1010befc1c72"
+        }
+      ],
+      "pdp": "p-ma.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma/ma-1-christmas-snowflake-craft-sequins-20261018.jpg",
+          "role": "main",
+          "width": 494,
+          "height": 468,
+          "sha256": "1257595765a36f7bc4a49c283e85df3fc09238b74d71b43654f4be746f3cdf3e",
+          "bytes": 51516,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma/ma-2-christmas-snowflake-craft-sequins-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "afaf187292a28006110f10a1c6183eda382e3daf443bacf0d91c1e1a59751d3c",
+          "bytes": 104861,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ma/ma-3-christmas-snowflake-craft-sequins-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "438a4a5b1ee5bd2f62f931e59a809a506e3ba01cd4eb4e9225aea055a6431a8c",
+          "bytes": 115925,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA059",
+      "operation": "update",
+      "sourceRow": 147,
+      "sourceFields": {
+        "sku": "MA059 ",
+        "标题": "Iridescent Cross Star Confetti Wedding Paillettes Sewing Wedding Craft Women DIY Garment Accessory",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "4mm ",
+        "孔径": "无",
+        "颜色": "混款,可单色",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA059.png",
+          "sha256": "7927c10dcaf3db76e8b7ac5367ec0f0c037f30c98cf868468cc4be75c63cd4fd"
+        }
+      ],
+      "pdp": "p-ma059.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma059/ma059-1-rainbow-star-glitter-confetti-20261018.jpg",
+          "role": "main",
+          "width": 642,
+          "height": 604,
+          "sha256": "4098e6587392843fc1c19ecf35a10d92069f33571ef6b9ea7459fa121654b159",
+          "bytes": 142155,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma059/ma059-2-rainbow-star-glitter-confetti-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0530c2718c174e8cf327d66021d552f25b8fb3f03b99e15711e67b44dac16617",
+          "bytes": 155987,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ma059/ma059-3-rainbow-star-glitter-confetti-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6b25e12ef26437575f7f6fabf4f78235b1836514cd93b18f25067a1082af468e",
+          "bytes": 167226,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26460",
+      "operation": "update",
+      "sourceRow": 148,
+      "sourceFields": {
+        "sku": "RW26460 ",
+        "标题": "Wholesale Handmade Model 14x13mm Realistic Mini Resin Fruit Flatbacks Mixed Citrus Kiwi Slices Scrapbooking Christmas Halloween",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "14*13*9mm-",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26460 .png",
+          "sha256": "919db411cfa13511713052041c62d72b67264c904cb4ae07e286a5503ba2c080"
+        }
+      ],
+      "pdp": "p-rw26460.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-1-mixed-citrus-and-kiwi-resin-fruit-flatbacks-20261018.jpg",
+          "role": "main",
+          "width": 606,
+          "height": 545,
+          "sha256": "daba231875ea24b4844ba95f99dc6d06eef596aab26f13c5357d2d74d0a11e84",
+          "bytes": 46230,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-2-mixed-citrus-and-kiwi-resin-fruit-flatbacks-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "74460231eaddef233db352a87a4ab3c989c67c631ee03bbb21e4a678b69f5de0",
+          "bytes": 96845,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26460/rw26460-3-mixed-citrus-and-kiwi-resin-fruit-flatbacks-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6795bf1b4fdccba8bdff30047589b8ea30e26d08c1258b324b8bbfe05e0078e0",
+          "bytes": 108534,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX162",
+      "operation": "update",
+      "sourceRow": 149,
+      "sourceFields": {
+        "sku": "YX162 ",
+        "标题": "Cute Polymer Clay Candy Cane Cabochons Christmas Decor Candy Cane Charms Miniature Doll House Suppliers",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "3 * 3 * 23 mm 3 mm thick",
+        "孔径": "无",
+        "颜色": "混款,可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX162.png",
+          "sha256": "f0559ea8b19792ad71a8806ab4e29c8a17b5de8250ed54bf50a97deb1582e6db"
+        }
+      ],
+      "pdp": "p-yx162.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx162/yx162-1-candy-cane-polymer-clay-cabochons-20261018.jpg",
+          "role": "main",
+          "width": 709,
+          "height": 579,
+          "sha256": "c75c83b2462874a5fee692e0bc23dca554cf0aff54fe419a6062ed75272278f3",
+          "bytes": 47814,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx162/yx162-2-candy-cane-polymer-clay-cabochons-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "243dad9398626ff69d653b3f6f46c5842869988600df695a4d0f9d6a23668031",
+          "bytes": 91735,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx162/yx162-3-candy-cane-polymer-clay-cabochons-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aa41a01ab9bc6ce984eafb9136b4a38d0926c8f35f20cda4819bfe2b3fa3b203",
+          "bytes": 100621,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX154",
+      "operation": "new",
+      "sourceRow": 150,
+      "sourceFields": {
+        "sku": "YX154 ",
+        "标题": "4*6mm Orange Carrots Polymer Clay Slices DIY Crafts Plastic Klei Mud Particles for Slime",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "4*6mm",
+        "孔径": "无",
+        "颜色": "混款,可单色",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX154 .png",
+          "sha256": "f3194f9771a55f1cc115bc06be3e1c9af2fec632bf92208ece55dd4d48d1e407"
+        }
+      ],
+      "pdp": "p-yx154.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx154/yx154-1-carrot-polymer-clay-slices-20261018.jpg",
+          "role": "main",
+          "width": 698,
+          "height": 672,
+          "sha256": "28e1f15ead19969d1f6e9d9104b8c02dd4d631602f6a10fee7784a9ed691b7a6",
+          "bytes": 90852,
+          "origin": "supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx154/yx154-2-carrot-polymer-clay-slices-20261018.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "193ab612f9b2a272a9c61e43aff666ef4749d0ca2513f031125c84e24d154fee",
+          "bytes": 112675,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx154/yx154-3-carrot-polymer-clay-slices-20261018.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2f5e4807e2f137b1daab037b3c839fe1c0be85c9895f61532e54b456300d9d15",
+          "bytes": 123674,
+          "origin": "packing and order graphic"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MIN_PRODUCT_COUNT = 218;
 const REQUIRED = [
-  { sku: 'RW967', key: 'rw967' },
+  { sku: 'RW967', key: 'rw967', image: 'assets/images/pdp/rw967/rw967-1-mini-fried-egg-resin-flatback-charms-20261018.jpg' },
   { sku: 'RW474', key: 'rw474' },
   { sku: 'RW326', key: 'rw326' },
   { sku: 'RW26740', key: 'rw26740' },
@@ -32,11 +32,11 @@ function fail(message) {
 }
 
 function verifyCategoryHtml(content, label, categoryFile = 'resin-charms.html') {
-  for (const { sku, key, categoryFile: requiredCategory = 'resin-charms.html' } of REQUIRED) {
+  for (const { sku, key, image, categoryFile: requiredCategory = 'resin-charms.html' } of REQUIRED) {
     if (requiredCategory !== categoryFile) continue;
     if (!content.includes(`data-sku="${sku}"`)) fail(`${label} has no ${sku} product card`);
     if (!content.includes(`href="p-${key}.html"`)) fail(`${label} has no ${sku} PDP link`);
-    if (!content.includes(`assets/images/pdp/${key}/01.webp`)) fail(`${label} has no ${sku} product image`);
+    if (!content.includes(image || `assets/images/pdp/${key}/01.webp`)) fail(`${label} has no ${sku} product image`);
   }
 }
 
