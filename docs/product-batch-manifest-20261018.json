@@ -1,0 +1,480 @@
+{
+  "batchId": "qula-products-20261018",
+  "baselineCommit": "c16aa94471c29caec61b0ce6984e320da5e7c807",
+  "newProductCount": 9,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 350,
+  "catalogCountAfter": 359,
+  "imageCount": 27,
+  "sourceWorkbook": "10.11(10).xlsx",
+  "products": [
+    {
+      "sku": "RW26808",
+      "operation": "new",
+      "sourceRow": 122,
+      "sourceFields": {
+        "sku": "RW26808",
+        "标题": "Cute Acorn Resin Charms Flat Back Cabochons DIY Craft Supplies for Hair Clips Phone Cases Scrapbooking Wholesale Custom",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 33*21mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26808(1).png",
+          "sha256": "5b7297124c51f2c423c6087d6e0d124ce480253f037117bf46e13e53779da7c7"
+        }
+      ],
+      "pdp": "p-rw26808-acorn.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26808-acorn/rw26808-acorn-1-smiling-acorn-resin-flatback-charms.jpg",
+          "role": "main",
+          "width": 733,
+          "height": 734,
+          "sha256": "9a3148d820279411360f46761e44d6f929580663411959d1462db16632122e6b",
+          "bytes": 93639,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26808-acorn/rw26808-acorn-2-smiling-acorn-resin-flatback-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "622df8d6c8f143afc15c105fe2b0e3fe4b1a6222f0fd1dddb97ebf0bd1dfb378",
+          "bytes": 107971,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26808-acorn/rw26808-acorn-3-smiling-acorn-resin-flatback-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "caabc8a3151c7c7ccd307cd7fad152b23b99f7645cd906d8843b76105a2665b3",
+          "bytes": 119339,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW25560",
+      "operation": "new",
+      "sourceRow": 123,
+      "sourceFields": {
+        "sku": "RW25560 ",
+        "标题": "100Pcs Doll House Miniature Milk Bottles Resin Drinks Beverage Bottle Model Toys Kitchen Food Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12*19mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW25560 .png",
+          "sha256": "122373abed82b6779b239eedd226e70de7e982b0829b2f37f444cd03cfa24c10"
+        }
+      ],
+      "pdp": "p-rw25560.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25560/rw25560-1-miniature-milk-bottle-resin-charms.jpg",
+          "role": "main",
+          "width": 627,
+          "height": 616,
+          "sha256": "e46c3acd6c1390207c1a558e37dfe82c2066b8c696c23d859f3fe2c9ca5e4e50",
+          "bytes": 60870,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw25560/rw25560-2-miniature-milk-bottle-resin-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9bcbe226d3be7c088477e3066d63bb01f6e1bee6fff282bb1b816652ed2611fc",
+          "bytes": 97109,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw25560/rw25560-3-miniature-milk-bottle-resin-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0df700302c0a500696092d77d39f1b05f9a860ad27658c7bbde84bcee159ecae",
+          "bytes": 111940,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26804",
+      "operation": "new",
+      "sourceRow": 124,
+      "sourceFields": {
+        "sku": "RW26804 ",
+        "标题": "Custom Wholesale Layered Cake Cabochon Embellishments for Hair Clips Keychains Albums and Package Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "三角25*27mm,方形about19*23mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26804 .png",
+          "sha256": "fee31d6b73598c423c2a012b1cf7a4dd8124fa6a7e5c653418e7f1f15634737c"
+        }
+      ],
+      "pdp": "p-rw26804.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26804/rw26804-1-layered-cake-resin-cabochons.jpg",
+          "role": "main",
+          "width": 749,
+          "height": 714,
+          "sha256": "888f45d6b56d6f2716e4f200f7cde441f0756ad5bf474fa1f6f8d77cf9a4d966",
+          "bytes": 78817,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26804/rw26804-2-layered-cake-resin-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ad1398997e337dc85321b222d0ae89be373d0de28431168f331eea9306a59572",
+          "bytes": 100156,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26804/rw26804-3-layered-cake-resin-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c03d8356f727a2c8e650b108fdce9ebac793787d723411f42b804590f9ef3ef5",
+          "bytes": 109019,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26803",
+      "operation": "new",
+      "sourceRow": 125,
+      "sourceFields": {
+        "sku": "RW26803",
+        "标题": "Custom Wholesale Star Pattern Duck Miniatures for Keychains Hair Accessories Desk Decor and Mini Scene Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "16*16mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26803.png",
+          "sha256": "ee586c55d920edf22c7d910be57ce7038f80340320a1d77a95ac0d85981f3cee"
+        }
+      ],
+      "pdp": "p-rw26803.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26803/rw26803-1-star-pattern-duck-resin-miniatures.jpg",
+          "role": "main",
+          "width": 758,
+          "height": 743,
+          "sha256": "5baebd02799284ecc006a7dee4136a369cdb7838e27b0a811f554502cb8d1084",
+          "bytes": 72676,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26803/rw26803-2-star-pattern-duck-resin-miniatures.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ebd6620bac60228134ad17d9c08bbfdddf111cc496aca6ba18db0fb18b673f3c",
+          "bytes": 95505,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26803/rw26803-3-star-pattern-duck-resin-miniatures.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "68ef3c10572b044a2604b909fa0a138861fb9e70bb560c13adecd92c21a64aac",
+          "bytes": 108585,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26801",
+      "operation": "new",
+      "sourceRow": 126,
+      "sourceFields": {
+        "sku": " RW26801 ",
+        "标题": "Mini Fried Egg Resin Food Pieces Factory Wholesale Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26801 .png",
+          "sha256": "72946e16564511a0d2688b4d5f4f1d5a904520b33903894d73bab42d4d5e942a"
+        }
+      ],
+      "pdp": "p-rw26801.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26801/rw26801-1-mini-fried-egg-resin-cabochons.jpg",
+          "role": "main",
+          "width": 738,
+          "height": 724,
+          "sha256": "8005f8ac78cdff478410a0376c9cad725cca7a424ef56fdc6ea5c61f945eb026",
+          "bytes": 44061,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26801/rw26801-2-mini-fried-egg-resin-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aeb2955deb6e8f7437ce7beeabf9bb3b694a75758fac19cf0052f052f2980631",
+          "bytes": 76795,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26801/rw26801-3-mini-fried-egg-resin-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3451d847d1177d1ed143f5e9aaf3e36e11c74dea7196f025aebc3baa20cf2ebb",
+          "bytes": 88852,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26798",
+      "operation": "new",
+      "sourceRow": 128,
+      "sourceFields": {
+        "sku": "RW26798 ",
+        "标题": "Custom Wholesale Gradient Flower Cabochons for Hair Clips Keychains Phone Decoration and Packaging Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*20mm,15*15mm两种",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26798.png",
+          "sha256": "ca91a4f694e0c120923b7f47249ee830c13a384ff9232f3691d5cd6688f0bc2d"
+        }
+      ],
+      "pdp": "p-rw26798.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26798/rw26798-1-gradient-rose-resin-cabochons.jpg",
+          "role": "main",
+          "width": 738,
+          "height": 703,
+          "sha256": "0ba623c9b5adf621993e17857e50db73013cf71110d4b35c3bb453643a19d713",
+          "bytes": 63898,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26798/rw26798-2-gradient-rose-resin-cabochons.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "07c7d530f8e7410cc7f73e92a53e5af8a700744f65d6dbb22699e12619c527ac",
+          "bytes": 89029,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26798/rw26798-3-gradient-rose-resin-cabochons.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3c4767dc2ad237a06314a8d23faa5294a3c2c97a2957766ae23f464e33ab90cf",
+          "bytes": 100161,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26797",
+      "operation": "new",
+      "sourceRow": 129,
+      "sourceFields": {
+        "sku": " RW26797 ",
+        "标题": "Mini Blueberry Resin Fruit Pieces Factory Wholesale Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "13*16mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26797 .png",
+          "sha256": "6006e5843843b93a75297f90b3968852d0d5fe0f904367f4e5e9178e7d5e7e52"
+        }
+      ],
+      "pdp": "p-rw26797.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26797/rw26797-1-mini-blueberry-resin-fruit-charms.jpg",
+          "role": "main",
+          "width": 708,
+          "height": 705,
+          "sha256": "38bf454c33169bfcb185c3c73f474a3c9f14248d8d07ae8e34b71efcd150cc3f",
+          "bytes": 59182,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26797/rw26797-2-mini-blueberry-resin-fruit-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2be82ca09e58d545d2c2b04ecf1b980d4d5a87a0fb6742e03481b39ca8b7a773",
+          "bytes": 86148,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26797/rw26797-3-mini-blueberry-resin-fruit-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7db0c4c8d043b128df4e572720f9aad38182f031e4bde9b8d0dab5d637ed9373",
+          "bytes": 99688,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26795",
+      "operation": "new",
+      "sourceRow": 131,
+      "sourceFields": {
+        "sku": "RW26795",
+        "标题": "Custom Wholesale Summer Drink Miniatures for Keychains Hair Accessories Mini Scenes and Phone Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12*26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26795.png",
+          "sha256": "3febd67b79d99c5559f854437bae24f13090969b87c6b2422a24148d02328aee"
+        }
+      ],
+      "pdp": "p-rw26795.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26795/rw26795-1-mini-summer-drink-resin-charms.jpg",
+          "role": "main",
+          "width": 698,
+          "height": 687,
+          "sha256": "9b2f05ceedbd50917b98bd033825ce2458d47c91cf61315926db6b644a532500",
+          "bytes": 64940,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26795/rw26795-2-mini-summer-drink-resin-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d13b0d62d40196757476b59c051bc2c4214952c09249261037eddc176fc37991",
+          "bytes": 93564,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26795/rw26795-3-mini-summer-drink-resin-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "df38e2b8e3b5d3b3146f2fa9bd0c6ac70d0ccb4ad44fd88bdc18c2f68f648e68",
+          "bytes": 106231,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26794",
+      "operation": "new",
+      "sourceRow": 132,
+      "sourceFields": {
+        "sku": " RW26794 ",
+        "标题": "Mini Coconut Half Resin Pieces Factory Wholesale Decorative Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about28*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26794 .png",
+          "sha256": "bb4dc014b549c5f4955583f76448d013df49f1cfb1867d51bdcc25dbd7c1c825"
+        }
+      ],
+      "pdp": "p-rw26794.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26794/rw26794-1-mini-coconut-half-resin-charms.jpg",
+          "role": "main",
+          "width": 742,
+          "height": 759,
+          "sha256": "446771280c3a8e914a6e570f5fd3b7e743e427534b00599b9397cbfe474ee8d2",
+          "bytes": 85541,
+          "origin": "supplied product styling reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26794/rw26794-2-mini-coconut-half-resin-charms.jpg",
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4bec06ccec624cbd2b1b8b738b8ea09d2ac5a83eece502e7064a6df1520d8a32",
+          "bytes": 102575,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26794/rw26794-3-mini-coconut-half-resin-charms.jpg",
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dd63dd991cb71857ef7f95ce698ee844dcff6de949362fd3f5bf54df8f7d0c81",
+          "bytes": 114317,
+          "origin": "packing and order graphic"
+        }
+      ]
+    }
+  ]
+}

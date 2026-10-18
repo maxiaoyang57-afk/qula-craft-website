@@ -15,6 +15,8 @@ const supplementCatalog = require('../assets/data/product-catalog.json').categor
 for (const width of [360, 390, 768]) {
   test(`all 20 supplemental products keep images, full SKU and inquiry context at ${width}px`, async ({ page }) => {
     test.setTimeout(180000);
+    // This checks SKU/quote context; smooth scrolling can race the fixed bars during automated clicks.
+    await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.setViewportSize({ width, height: 900 });
     await page.route(/(?:formsubmit\.co|google-analytics\.com|clarity\.ms)/, route => route.abort());
     for (const record of supplement.products) {
