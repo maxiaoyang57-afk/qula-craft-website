@@ -141,7 +141,7 @@
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
       css.rel = 'stylesheet';
-      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260930-requirements');
+      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20261018-inquiry-fixes');
       document.head.appendChild(css);
     }
     forms.forEach(form => {
@@ -210,6 +210,54 @@
       }
       const wa = form.querySelector('[data-inquiry-whatsapp]');
       const email = form.querySelector('[data-inquiry-email]');
+      // The persistent mobile and footer actions on the quote page share this draft too.
+      const directLinks = /\/quote(?:\.html|\/)$/.test(path)
+        ? [...document.querySelectorAll('a[href]')].filter(link => {
+          try {
+            const url = new URL(link.href);
+            return (url.protocol === 'mailto:' && url.pathname.toLowerCase() === config.email) ||
+              (url.hostname === 'wa.me' && url.pathname === '/' + config.whatsapp);
+          } catch { return false; }
+        }) : [wa, email].filter(Boolean);
+      directLinks.forEach(link => { link.dataset.inquiryDirect = link.protocol === 'mailto:' ? 'email' : 'whatsapp'; });
+      const directStatus = document.createElement('p');
+      directStatus.id = (form.id || 'inquiry') + '-direct-status';
+      directStatus.dataset.inquiryDirectStatus = '';
+      directStatus.className = 'form-note';
+      directStatus.setAttribute('role', 'status');
+      directStatus.setAttribute('aria-live', 'polite');
+      directStatus.tabIndex = -1;
+      directStatus.hidden = true;
+      if (wa || email) (wa || email).closest('.simple-direct')?.after(directStatus);
+      function inquiryText() {
+        const lines = [`Hello ${config.brand},`, 'I would like help with ' + (goal.value || 'pricing, samples or choosing products') + '.'];
+        const selectedSku = field('sku')?.value || field('selected_sku')?.value || params.get('sku') || params.get('product_code');
+        const selectedTitle = form.querySelector('#pPreviewTitle')?.textContent || params.get('product');
+        if (selectedSku) lines.push('Selected SKU: ' + selectedSku);
+        if (selectedTitle) lines.push('Selected product: ' + selectedTitle);
+        try {
+          const basket = JSON.parse(localStorage.getItem('qcBasket') || '[]');
+          if (Array.isArray(basket)) {
+            const skus = basket.filter(item => item && typeof item.sku === 'string').map(item => item.sku);
+            if (skus.length) lines.push('Saved inquiry list: ' + [...new Set(skus)].join(', '));
+          }
+        } catch { /* The form still works if saved selections are unavailable. */ }
+        const fields = {
+          product: 'Product category', product_details: 'Product name / code / idea',
+          quantity: 'Estimated quantity and unit', country: 'Destination country',
+          application: 'Application', custom: 'Customization', packaging: 'Packaging requirements',
+          target_delivery_date: 'Target arrival date', message: 'Requirements',
+          name: 'Name', company: 'Company / brand', preferred_contact: 'Preferred reply method',
+          email: 'Email', [config.phoneField]: 'WhatsApp'
+        };
+        for (const [name, label] of Object.entries(fields)) {
+          const input = field(name);
+          if (input && !input.disabled && input.value.trim()) lines.push(label + ': ' + input.value.trim());
+        }
+        lines.push('Page: ' + field('entry_page').value);
+        if (form.querySelector('.file-list .file-item')) lines.push('Reference files: please attach them separately to this message.');
+        return lines.join('\n\n');
+      }
       function update() {
         const selected = goals[goal.value];
         const help = panel.querySelector('[data-inquiry-help]');
@@ -241,13 +289,31 @@
         }
         const subject = field('_subject');
         if (subject) subject.value = `${config.brand} — ${goal.value || 'General inquiry'} — Reply via ${channel.value}`;
-        const selectedProduct = tidy(field('sku')?.value || field('selected_sku')?.value || params.get('sku') || params.get('product_code') || params.get('product') || params.get('entry_title') || pageTitle);
-        const text = `Hello ${config.brand},\nI would like to discuss: ${(goal.value || 'pricing, samples or choosing products').toLowerCase()}.\nProduct / topic: ${selectedProduct}\nPage: ${field('entry_page').value}\nMy main question is: `;
-        if (wa) wa.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
-        if (email) email.href = `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`;
+        const text = inquiryText();
+        directLinks.forEach(link => {
+          link.href = link.dataset.inquiryDirect === 'email'
+            ? `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`
+            : `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
+        });
+        const tooLong = directLinks.some(link => link.href.length > 2000);
+        directStatus.hidden = !tooLong;
+        directStatus.textContent = tooLong ? 'Your inquiry is too long for a reliable email or WhatsApp link. Use Send My Request, or copy your details into a new message to sales@qulacrafts.com. Attach reference files separately.' : '';
+        directLinks.forEach(link => {
+          if (tooLong) link.setAttribute('aria-describedby', directStatus.id);
+          else link.removeAttribute('aria-describedby');
+        });
       }
+      directLinks.forEach(link => link.addEventListener('click', event => {
+        update();
+        if (link.href.length > 2000) {
+          event.preventDefault();
+          directStatus.focus();
+        }
+      }));
+      form.addEventListener('input', update);
       form.addEventListener('change', update);
-      phone?.addEventListener('input', update);
+      const fileList = form.querySelector('.file-list');
+      if (fileList) new MutationObserver(update).observe(fileList, { childList: true });
       form.addEventListener('reset', () => setTimeout(update, 0));
       form.addEventListener('submit', update, true);
       update();

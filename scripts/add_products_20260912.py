@@ -313,7 +313,7 @@ def category_card(product, category_name):
         f'<a class="btn btn-card" href="quote.html?product={inquiry}&amp;sku={sku}&amp;image={image_query}">'
         f'Send Inquiry <span>→</span></a><div class="card-cta-row">'
         f'<a class="wa-line" href="https://wa.me/8618632026595?text={whatsapp}" target="_blank" rel="noopener">WhatsApp</a>'
-        f'<a class="basket-add" data-sku="{e(sku)}" data-title="{e(title, quote=True)}">＋ Inquiry list</a>'
+        f'<button type="button" class="basket-add" data-sku="{e(sku)}" data-title="{e(title, quote=True)}">＋ Inquiry list</button>'
         f'</div></div></article>'
     )
 
