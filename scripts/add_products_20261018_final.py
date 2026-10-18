@@ -98,7 +98,7 @@ def main():
     exec(compile(generator,str(ROOT/'scripts/gen_pdp.py'),'exec'),{'__file__':str(ROOT/'scripts/gen_pdp.py'),'BATCH_SKUS':batch,'APPROVED_DIMS':dimensions})
     for plan,row,e in changed:
         pagepath=ROOT/row['pdp']; page=pagepath.read_text()
-        
+
         for number,label in enumerate(plan['galleryLabels'][1:],2): page=page.replace('detail view '+str(number),label)
         if True:
             page=page.replace('Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.','Confirm the selected assortment, minimum order quantity and dispatch date with your inquiry.')
