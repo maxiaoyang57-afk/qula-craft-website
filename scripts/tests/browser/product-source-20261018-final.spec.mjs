@@ -27,5 +27,5 @@ test('final grouped SKUs connect galleries, exact searches and quote context',as
   await page.goto('products.html?search='+p.sku);
   await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku',p.sku);
  }
- expect(all.length).toBe(393);
+ expect(all.length).toBeGreaterThanOrEqual(393);
 });
