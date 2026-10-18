@@ -1828,3 +1828,7 @@ nav.breadcrumb a:hover{color:#cc3868}
     width:auto !important;
   }
 }
+
+/* Keep long grouped product codes within narrow phone layouts. */
+.pdp-hero .eyebrow{overflow-wrap:anywhere;word-break:break-word}
+.detail-grid .pdp-cta .btn{min-width:0;overflow-wrap:anywhere;word-break:break-word}
