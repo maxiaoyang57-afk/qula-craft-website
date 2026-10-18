@@ -347,7 +347,13 @@
           "bytes": 7458,
           "origin": "owner-supplied individual design reference"
         }
-      ]
+      ],
+      "ownerConfirmedSpecifications": {
+        "pouchSize": "60 × 80 mm",
+        "overallLength": "132 mm",
+        "confirmedAt": "2026-10-18",
+        "source": "Owner instruction: 改成60*80mm"
+      }
     },
     {
       "sku": "CDK442-1/CDK234-1/CDK3224-5/CDK1127-1",
@@ -433,7 +439,13 @@
           "bytes": 5218,
           "origin": "owner-supplied individual design reference"
         }
-      ]
+      ],
+      "ownerConfirmedSpecifications": {
+        "pouchSize": "60 × 80 mm",
+        "overallLength": "132 mm",
+        "confirmedAt": "2026-10-18",
+        "source": "Owner instruction: 改成60*80mm"
+      }
     }
   ]
 }

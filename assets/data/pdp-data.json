@@ -22518,10 +22518,10 @@
     "stockStatus": "In stock; confirm the available quantity with your quote",
     "specs": {
       "Material": "Resin,Clay,Alloy",
-      "Size": "Pouch: 6 × 8 (unit not supplied); overall length: 132 mm",
+      "Size": "Pouch: 60 × 80 mm; overall length: 132 mm",
       "Attachment": "Key ring or clasp; no bead hole specified",
       "Standard pack": "100 pieces per bag; custom packing by inquiry",
-      "Selection note": "Pouch dimensions are supplied as 6 × 8 without a unit; confirm the unit and usable pouch size before ordering.",
+      "Selection note": "Confirm selected designs, mixing proportions and hardware finish before ordering.",
       "Assortment": "Mixed or single-color selection by inquiry",
       "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry.",
       "SKU group": "One grouped assortment. Specify the selected component codes and mixing proportions when requesting a quote."
@@ -22544,8 +22544,8 @@
     "sourceSkuCorrection": null,
     "importedAt": "2026-10-18T12:08:57.222427+00:00",
     "metaTitle": "Mixed Theme Filled Pouch Keychains Wholesale | Qula Craft",
-    "metaDescription": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Overall length 132 mm; confirm pouch dimensions and selected assortment.",
-    "shortProductDescription": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Overall length 132 mm; confirm pouch dimensions and selected assortment.",
+    "metaDescription": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Pouch size 60 × 80 mm; overall length 132 mm; assortment by inquiry.",
+    "shortProductDescription": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Pouch size 60 × 80 mm; overall length 132 mm; assortment by inquiry.",
     "imagesLocal": [
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-1-mixed-theme-filled-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-2-mixed-theme-filled-pouch-keychains-20261018c.jpg",
@@ -22553,7 +22553,13 @@
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-4-mixed-theme-filled-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-5-mixed-theme-filled-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-6-mixed-theme-filled-pouch-keychains-20261018c.jpg"
-    ]
+    ],
+    "ownerConfirmedSpecifications": {
+      "pouchSize": "60 × 80 mm",
+      "overallLength": "132 mm",
+      "confirmedAt": "2026-10-18",
+      "source": "Owner instruction: 改成60*80mm"
+    }
   },
   {
     "catalogIndex": 322,
@@ -22570,10 +22576,10 @@
     "stockStatus": "In stock; confirm the available quantity with your quote",
     "specs": {
       "Material": "Resin,Clay,Alloy",
-      "Size": "Pouch: 6 × 8 (unit not supplied); overall length: 132 mm",
+      "Size": "Pouch: 60 × 80 mm; overall length: 132 mm",
       "Attachment": "Key ring or clasp; no bead hole specified",
       "Standard pack": "100 pieces per bag; custom packing by inquiry",
-      "Selection note": "Pouch dimensions are supplied as 6 × 8 without a unit; confirm the unit and usable pouch size before ordering.",
+      "Selection note": "Confirm selected designs, mixing proportions and hardware finish before ordering.",
       "Assortment": "Mixed or single-color selection by inquiry",
       "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry.",
       "SKU group": "One grouped assortment. Specify the selected component codes and mixing proportions when requesting a quote."
@@ -22596,14 +22602,20 @@
     "sourceSkuCorrection": null,
     "importedAt": "2026-10-18T12:08:57.222882+00:00",
     "metaTitle": "Floral Candy Halloween Pouch Keychains | Qula Craft",
-    "metaDescription": "Filled pouch keychains with floral, candy and Halloween decorations for backpacks, handbags and keys. Overall length 132 mm; selected designs by inquiry.",
-    "shortProductDescription": "Filled pouch keychains with floral, candy and Halloween decorations for backpacks, handbags and keys. Overall length 132 mm; selected designs by inquiry.",
+    "metaDescription": "Filled pouch keychains with floral, candy and Halloween decorations. Pouch size 60 × 80 mm; overall length 132 mm; selected designs by inquiry.",
+    "shortProductDescription": "Filled pouch keychains with floral, candy and Halloween decorations. Pouch size 60 × 80 mm; overall length 132 mm; selected designs by inquiry.",
     "imagesLocal": [
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-1-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-2-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-3-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-4-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-5-floral-candy-halloween-pouch-keychains-20261018c.jpg"
-    ]
+    ],
+    "ownerConfirmedSpecifications": {
+      "pouchSize": "60 × 80 mm",
+      "overallLength": "132 mm",
+      "confirmedAt": "2026-10-18",
+      "source": "Owner instruction: 改成60*80mm"
+    }
   }
 ]
