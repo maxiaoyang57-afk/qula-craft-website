@@ -279,11 +279,11 @@
     "haibuCategory": "polymer-clay-slices",
     "type": "Candy",
     "keywords": "mixed-theme-filled-pouch-keychains",
-    "dimensions": "Pouch: 6 × 8 (unit not supplied); overall length: 132 mm",
+    "dimensions": "Pouch: 60 × 80 mm; overall length: 132 mm",
     "packing": "100 pieces per bag",
     "attachment": "Key ring or clasp; no bead hole specified",
-    "description": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Overall length 132 mm; confirm pouch dimensions and selected assortment.",
-    "factNote": "Pouch dimensions are supplied as 6 × 8 without a unit; confirm the unit and usable pouch size before ordering.",
+    "description": "Filled pouch keychains in fruit, seasonal and novelty themes for bags and keys. Pouch size 60 × 80 mm; overall length 132 mm; assortment by inquiry.",
+    "factNote": "Confirm selected designs, mixing proportions and hardware finish before ordering.",
     "uses": "Bag accessories, gift assortments and key organization.",
     "operation": "new",
     "source": "CDK002125CDK24445CDK002797CDK3027-1CDK1160.png",
@@ -362,7 +362,13 @@
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-4-mixed-theme-filled-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-5-mixed-theme-filled-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160/cdk002125-cdk24445-cdk002797-cdk3027-1-cdk1160-6-mixed-theme-filled-pouch-keychains-20261018c.jpg"
-    ]
+    ],
+    "ownerConfirmedSpecifications": {
+      "pouchSize": "60 × 80 mm",
+      "overallLength": "132 mm",
+      "confirmedAt": "2026-10-18",
+      "source": "Owner instruction: 改成60*80mm"
+    }
   },
   {
     "sku": "CDK442-1/CDK234-1/CDK3224-5/CDK1127-1",
@@ -374,11 +380,11 @@
     "haibuCategory": "polymer-clay-slices",
     "type": "Candy",
     "keywords": "floral-candy-halloween-pouch-keychains",
-    "dimensions": "Pouch: 6 × 8 (unit not supplied); overall length: 132 mm",
+    "dimensions": "Pouch: 60 × 80 mm; overall length: 132 mm",
     "packing": "100 pieces per bag",
     "attachment": "Key ring or clasp; no bead hole specified",
-    "description": "Filled pouch keychains with floral, candy and Halloween decorations for backpacks, handbags and keys. Overall length 132 mm; selected designs by inquiry.",
-    "factNote": "Pouch dimensions are supplied as 6 × 8 without a unit; confirm the unit and usable pouch size before ordering.",
+    "description": "Filled pouch keychains with floral, candy and Halloween decorations. Pouch size 60 × 80 mm; overall length 132 mm; selected designs by inquiry.",
+    "factNote": "Confirm selected designs, mixing proportions and hardware finish before ordering.",
     "uses": "Bag accessories, gift assortments and key organization.",
     "operation": "new",
     "source": "CDK442-1CDK234-1CDK3224-5CDK1127-1.png",
@@ -449,6 +455,12 @@
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-3-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-4-floral-candy-halloween-pouch-keychains-20261018c.jpg",
       "assets/images/pdp/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1/cdk442-1-cdk234-1-cdk3224-5-cdk1127-1-5-floral-candy-halloween-pouch-keychains-20261018c.jpg"
-    ]
+    ],
+    "ownerConfirmedSpecifications": {
+      "pouchSize": "60 × 80 mm",
+      "overallLength": "132 mm",
+      "confirmedAt": "2026-10-18",
+      "source": "Owner instruction: 改成60*80mm"
+    }
   }
 ]
