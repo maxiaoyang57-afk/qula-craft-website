@@ -377,6 +377,10 @@ const extensionManifest = JSON.parse(fs.readFileSync(path.join(root, 'docs/produ
 for (const product of extensionManifest.products) {
   currentGalleryChecks.set(product.sku, { ...product, slug: product.pdp });
 }
+const finalManifest = JSON.parse(fs.readFileSync(path.join(root, 'docs/product-batch-manifest-20261018-final.json'), 'utf8'));
+for (const product of finalManifest.products) {
+  currentGalleryChecks.set(product.sku, { ...product, slug: product.pdp });
+}
 for (const product of currentGalleryChecks.values()) {
   const htmlPath = path.join(root, product.slug);
   const html = fs.readFileSync(htmlPath, 'utf8');

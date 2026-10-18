@@ -18,7 +18,7 @@ const REQUIRED = [
   { sku: 'RW1394', key: 'rw1394', image: 'assets/images/pdp/rw1394/rw1394-1-mini-mushroom-house-resin-figurines-20261018b.jpg' },
   { sku: 'RW2445', key: 'rw2445' },
   { sku: 'RW22405', key: 'rw22405' },
-  { sku: 'RW26637', key: 'rw26637' },
+  { sku: 'RW26637', key: 'rw26637', image: 'assets/images/pdp/rw26637/rw26637-1-mini-scuba-diver-resin-figurines-20261018c.jpg' },
   { sku: 'RW26692', key: 'rw26692' },
   { sku: 'YX002', key: 'yx002', categoryFile: 'polymer-clay-sprinkles.html' },
   { sku: 'YX004', key: 'yx004', categoryFile: 'polymer-clay-sprinkles.html', image: 'assets/images/pdp/yx004/yx004-1-mixed-candy-dessert-polymer-clay-slices-20261018b.jpg' },
