@@ -96,7 +96,7 @@
     const q=encodeURIComponent(p.sku+' '+t.slice(0,42));
     const inquiryUrl=p.inquiryUrl||'quote.html?product='+q;
     const waText=encodeURIComponent('Hello Qula Craft, I just viewed SKU '+p.sku+' and would like to discuss a custom quote. Can we chat?');
-    return '<article class="product-card"><div class="product-img">'+(p.pdp?'<a href="'+p.pdp+'" style="display:block">':'')+'<img loading="lazy" src="'+p.image+'" alt="'+p.imageAlt+'" width="'+p.imageWidth+'" height="'+p.imageHeight+'">'+(p.pdp?'</a>':'')+'</div><div class="product-info"><span class="pill soft">'+p.sku+'</span><h3>'+(p.pdp?'<a href="'+p.pdp+'" style="color:inherit;text-decoration:none">'+t+'</a>':t)+'</h3><a class="btn btn-card" href="'+inquiryUrl+'">Send Inquiry <span>→</span></a><div class="card-cta-row"><a class="wa-line" href="https://wa.me/8618632026595?text='+waText+'" target="_blank" rel="noopener">WhatsApp</a><a class="basket-add" data-sku="'+p.sku+'" data-image="'+p.image+'">＋ Inquiry list</a></div></div></article>';
+    return '<article class="product-card"><div class="product-img">'+(p.pdp?'<a href="'+p.pdp+'" style="display:block">':'')+'<img loading="lazy" src="'+p.image+'" alt="'+p.imageAlt+'" width="'+p.imageWidth+'" height="'+p.imageHeight+'">'+(p.pdp?'</a>':'')+'</div><div class="product-info"><span class="pill soft">'+p.sku+'</span><h3>'+(p.pdp?'<a href="'+p.pdp+'" style="color:inherit;text-decoration:none">'+t+'</a>':t)+'</h3><a class="btn btn-card" href="'+inquiryUrl+'">Send Inquiry <span>→</span></a><div class="card-cta-row"><a class="wa-line" href="https://wa.me/8618632026595?text='+waText+'" target="_blank" rel="noopener">WhatsApp</a><button type="button" class="basket-add" data-sku="'+p.sku+'" data-image="'+p.image+'">＋ Inquiry list</button></div></div></article>';
   }
   async function load(){
     if(items)return items;
@@ -189,23 +189,42 @@
       list.push({sku:a.dataset.sku,image:imageFromButton(a)});
       save(list);
     }
-    a.classList.add('added');a.textContent='✓ In list';
+    a.classList.add('added');a.textContent='✓ In list';a.setAttribute('aria-pressed','true');
     renderChip();
   });
   // 已在篮中的按钮标记
   document.querySelectorAll('.basket-add').forEach(a=>{
+    a.setAttribute('aria-pressed',String(load().some(x=>x.sku===a.dataset.sku)));
     if(load().some(x=>x.sku===a.dataset.sku)){a.classList.add('added');a.textContent='✓ In list';}
   });
   // quote 页:渲染篮面板 + 预填 textarea
   if(/quote\.html$/.test(location.pathname)){
     const form=document.querySelector('.quote-form-v2, .quote-form');
     const ta=form?form.querySelector('textarea[name="message"], textarea'):null;
+    let previousSkus=[];
     function syncTa(){
       const list=normalizeList(load());
       if(!ta)return;
-      const block=list.length?('Inquiry list:\n'+list.map(x=>'- '+x.sku).join('\n')+'\n\n'):'';
-      const rest=ta.value.replace(/^Inquiry list:\r?\n(?:- [^\r\n]*(?:\r?\n|$))*(?:\r?\n)?/,'');
-      ta.value=block+rest;
+      const known=previousSkus.slice().sort((a,b)=>b.length-a.length);
+      const edited=new Map();
+      let rest=ta.value;
+      const old=rest.match(/^Inquiry list:\r?\n((?:- [^\r\n]*(?:\r?\n|$))*)(?:\r?\n)?/);
+      if(old){
+        const notes=[];
+        old[1].split(/\r?\n/).filter(Boolean).forEach(line=>{
+          const sku=known.find(s=>line==='- '+s||line.startsWith('- '+s+' ')||line.startsWith('- '+s+':')||line.startsWith('- '+s+'\t'));
+          if(sku)edited.set(sku,line);else notes.push(line);
+        });
+        // Only manage recognized SKU lines. A buyer's similarly named list is their own text.
+        if(edited.size)rest=(notes.length?notes.join('\n')+'\n\n':'')+rest.slice(old[0].length);
+      }
+      const block=list.length?('Inquiry list:\n'+list.map(x=>edited.get(x.sku)||'- '+x.sku).join('\n')+'\n\n'):'';
+      previousSkus=list.map(x=>x.sku);
+      if(ta.value!==block+rest){
+        ta.value=block+rest;
+      }
+      // Selections can change even when the buyer has replaced the generated text.
+      ta.dispatchEvent(new Event('input',{bubbles:true}));
     }
     async function renderPanel(){
       await loadCatalogImages();
@@ -217,15 +236,20 @@
         form.insertBefore(p, form.firstChild);
       }
       const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-      p.innerHTML='<h3>Your inquiry list ('+list.length+') <span class="bp-clear" data-clear>clear all</span></h3><ul>'+
-        list.map(x=>'<li><span class="bp-item"><img src="'+esc(safeLocalImage(x.image)||'/assets/images/favicon.png')+'" alt="'+esc(x.sku)+'" loading="lazy"><b>'+esc(x.sku)+'</b></span><span class="bp-remove" data-sku="'+esc(x.sku)+'">×</span></li>').join('')+'</ul>';
+      p.innerHTML='<h3>Your inquiry list ('+list.length+') <button type="button" class="bp-clear" data-clear aria-label="Clear inquiry list">clear all</button></h3><ul>'+
+        list.map(x=>'<li><span class="bp-item"><img src="'+esc(safeLocalImage(x.image)||'/assets/images/favicon.png')+'" alt="'+esc(x.sku)+'" loading="lazy"><b>'+esc(x.sku)+'</b></span><button type="button" class="bp-remove" data-sku="'+esc(x.sku)+'" aria-label="Remove '+esc(x.sku)+' from inquiry list">×</button></li>').join('')+'</ul>';
       syncTa();renderChip();
     }
-    document.addEventListener('click',e=>{
-      if(e.target.dataset&&e.target.dataset.sku&&e.target.classList.contains('bp-remove')){
-        save(load().filter(x=>x.sku!==e.target.dataset.sku));renderPanel();
-      }
-      if(e.target.dataset&&'clear'in e.target.dataset){save([]);renderPanel();}
+    document.addEventListener('click',async e=>{
+      const remove=e.target.closest('.bp-remove');
+      const clear=e.target.closest('.bp-clear');
+      if(!remove&&!clear)return;
+      const buttons=[...document.querySelectorAll('.bp-remove')];
+      const index=remove?buttons.indexOf(remove):0;
+      save(remove?load().filter(x=>x.sku!==remove.dataset.sku):[]);
+      await renderPanel();
+      const remaining=document.querySelectorAll('.bp-remove');
+      (remaining[Math.min(index,remaining.length-1)]||ta)?.focus();
     });
     renderPanel();
     // Keep saved selections until the buyer explicitly removes or clears them.

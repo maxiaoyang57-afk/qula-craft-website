@@ -169,8 +169,8 @@ def card(product):
         f'style="color:inherit;text-decoration:none">{e(title)}</a></h3>'
         f'<a class="btn btn-card" href="quote.html?product={inquiry}">Send Inquiry <span>→</span></a>'
         f'<div class="card-cta-row"><a class="wa-line" href="https://wa.me/8618632026595?text={wa}" '
-        f'target="_blank" rel="noopener">WhatsApp</a><a class="basket-add" '
-        f'data-sku="{e(sku)}" data-title="{e(title, quote=True)}">＋ Inquiry list</a>'
+        f'target="_blank" rel="noopener">WhatsApp</a><button type="button" class="basket-add" '
+        f'data-sku="{e(sku)}" data-title="{e(title, quote=True)}">＋ Inquiry list</button>'
         f'</div></div></article>'
     )
 

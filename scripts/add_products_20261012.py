@@ -84,7 +84,7 @@ def card(row):
             f'<div class="product-info"><span class="pill soft">{sku}</span><h3><a href="{row["pdp"]}" style="color:inherit;text-decoration:none">{e(title)}</a></h3>'
             f'<a class="btn btn-card" href="{e(row["inquiryUrl"], quote=True)}">Send Inquiry <span>→</span></a>'
             f'<div class="card-cta-row"><a class="wa-line" href="https://wa.me/8618632026595?text={wa}" target="_blank" rel="noopener">WhatsApp</a>'
-            f'<a class="basket-add" data-sku="{sku}" data-title="{e(title)}" data-image="{row["image"]}">＋ Inquiry list</a></div></div></article>')
+            f'<button type="button" class="basket-add" data-sku="{sku}" data-title="{e(title)}" data-image="{row["image"]}">＋ Inquiry list</button></div></div></article>')
 
 
 def update_category_copy(path):

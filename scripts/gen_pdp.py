@@ -331,7 +331,7 @@ for e in pdp:
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
     <a class="btn btn-wa-3d" href="{wa}" target="_blank" rel="noopener">Chat on WhatsApp</a>
-    <a class="basket-add" data-sku="{esc(sku)}" data-title="{esc(catrow['title'])}">＋ Add to inquiry list</a>
+    <button type="button" class="basket-add" data-sku="{esc(sku)}" data-title="{esc(catrow['title'])}">＋ Add to inquiry list</button>
   </div>
 </div></div></section>
 <section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Browse related catalog items below — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>

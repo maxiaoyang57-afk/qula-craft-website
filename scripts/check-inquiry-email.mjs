@@ -121,7 +121,7 @@ if (process.argv[2] === '--live') {
   }
   for (const page of ['index.html', 'quote.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/main.js?v=20261018-extension')) {
+    if (!html.includes('assets/js/main.js?v=20261018-inquiry-fixes')) {
       fail([`${page} must load the local-image-safe main script version`]);
     }
   }
@@ -139,7 +139,7 @@ if (process.argv[2] === '--live') {
   const quoteHtml = fs.readFileSync(path.join(ROOT, 'quote.html'), 'utf8');
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/inquiry-experience.js?v=20261016-product-context')) {
+    if (!html.includes('assets/js/inquiry-experience.js?v=20261018-inquiry-fixes')) {
       fail([`${page} must load the preview-safe inquiry script version`]);
     }
   }

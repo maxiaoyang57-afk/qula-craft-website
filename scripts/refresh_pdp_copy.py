@@ -113,7 +113,7 @@ for entry in PDP:
         count=1,
     )
     content = re.sub(
-        rf'(<a class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
+        rf'(<(?:a|button)(?: type="button")? class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
         lambda m: m.group(1) + esc(row["displayTitle"]) + m.group(2),
         content,
         count=1,
@@ -201,7 +201,7 @@ def refresh_product_cards(content: str) -> str:
         encoded = quote(f"{sku} {display}", safe="")
         card = re.sub(r'(href="quote\.html\?product=)[^"&]*', lambda m: m.group(1) + encoded, card, count=1)
         card = re.sub(
-            rf'(<a class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
+            rf'(<(?:a|button)(?: type="button")? class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
             lambda m: m.group(1) + esc(display) + m.group(2),
             card,
             count=1,
@@ -338,7 +338,7 @@ for entry in PDP:
         count=1,
     )
     content = re.sub(
-        rf'(<a class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
+        rf'(<(?:a|button)(?: type="button")? class="basket-add" data-sku="{re.escape(sku)}" data-title=")[^"]*(")',
         lambda match: match.group(1) + esc(row["displayTitle"]) + match.group(2),
         content,
         count=1,
