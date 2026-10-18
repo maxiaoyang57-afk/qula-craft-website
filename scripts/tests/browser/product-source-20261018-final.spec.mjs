@@ -7,11 +7,19 @@ test('final grouped SKUs connect galleries, exact searches and quote context',as
  await page.route('**/formsubmit.co/**',r=>r.abort());await page.route('**/api/inquiry',r=>r.abort());
  for(const record of manifest.products){
   const p=all.find(p=>p.sku===record.sku);await page.goto(p.pdp,{waitUntil:'domcontentloaded'});
+  await page.evaluate(()=>document.fonts.ready);
   await expect(page.locator('h1')).toHaveText(p.title);
-  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+  const viewportWidth=page.viewportSize().width;
+  const checkWidth=async()=>{
+   const layout=await page.evaluate(()=>({width:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.right>document.documentElement.clientWidth+1&&getComputedStyle(e).position!=='fixed'&&!e.closest('.gallery-row,.nav-dropdown')}).map(e=>({tag:e.tagName,cls:e.className,text:e.textContent.slice(0,80)})).slice(0,8)}));
+   expect(layout.width,JSON.stringify(layout.overflow)).toBeLessThanOrEqual(viewportWidth+1);
+  };
+  await checkWidth();
   const images=page.locator('.gallery-main img,.gallery-row img');await expect(images).toHaveCount(record.imageOutputs.length);
   for(let i=0;i<record.imageOutputs.length;i++){await images.nth(i).scrollIntoViewIfNeeded();await expect.poll(()=>images.nth(i).evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);}
-  if(true)await page.screenshot({path:`test-results/extension-${p.sku}-${test.info().project.name}.png`,fullPage:true});
+  await page.evaluate(()=>window.scrollTo({top:0,left:0,behavior:'instant'}));
+  await checkWidth();
+  await page.screenshot({path:`test-results/extension-${p.sku}-${test.info().project.name}.png`,fullPage:true,animations:'disabled'});
   await page.locator('.detail-grid a.btn-primary').click();
   await expect(page.locator('[name="selected_sku"]')).toHaveValue(p.sku);
   await expect(page.locator('#pPreviewTitle')).toHaveText(p.sku+' '+p.title);

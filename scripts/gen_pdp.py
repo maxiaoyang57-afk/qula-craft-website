@@ -249,6 +249,8 @@ for e in pdp:
     sc = "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False, separators=(", ", ": "))}</script>\n'
                  for o in [product, crumb])
     h = h.replace("</head>", sc + "</head>")
+    if '/' in sku:
+        h = re.sub(r'style\.css\?v=[^"\s]+', 'style.css?v=20261018-grouped-sku', h)
     if imgs:
         h = h.replace("</head>", f'<link rel="preload" as="image" href="{imgs[0]}"></head>')
 
