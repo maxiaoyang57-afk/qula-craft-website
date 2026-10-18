@@ -372,7 +372,12 @@ for (const rule of redirects) {
 // silently shipping after gallery replacements.
 const batchManifestPath = path.join(root, 'docs', 'product-batch-manifest-20260912.json');
 const batchManifest = JSON.parse(fs.readFileSync(batchManifestPath, 'utf8'));
-for (const product of batchManifest.products) {
+const currentGalleryChecks = new Map(batchManifest.products.map(product => [product.sku, product]));
+const extensionManifest = JSON.parse(fs.readFileSync(path.join(root, 'docs/product-batch-manifest-20261018-extension.json'), 'utf8'));
+for (const product of extensionManifest.products) {
+  currentGalleryChecks.set(product.sku, { ...product, slug: product.pdp });
+}
+for (const product of currentGalleryChecks.values()) {
   const htmlPath = path.join(root, product.slug);
   const html = fs.readFileSync(htmlPath, 'utf8');
   for (const image of product.imageOutputs) {
