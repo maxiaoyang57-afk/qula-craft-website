@@ -4,8 +4,8 @@ ROOT=Path(__file__).resolve().parents[2]
 class OwnerSkuCorrection(unittest.TestCase):
  def test_one_corrected_product_preserves_source_and_old_link(self):
   products=[p for c in json.loads((ROOT/'assets/data/product-catalog.json').read_text())['categories'] for p in c['products']]
-  self.assertEqual(len(products),350)
-  self.assertFalse(any(p['sku']=='RW26808' for p in products))
+  self.assertEqual(len(products),359)
+  self.assertEqual(len([p for p in products if p['sku']=='RW26808' and 'Acorn' in p['title']]),1)
   self.assertEqual(len([p for p in products if p['sku']=='RW20809']),1)
   entry=next(p for p in json.loads((ROOT/'assets/data/pdp-data.json').read_text()) if p['sku']=='RW20809')
   self.assertEqual(entry['sourceFields']['sku'],'RW26808')
