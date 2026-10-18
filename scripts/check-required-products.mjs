@@ -7,10 +7,10 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MIN_PRODUCT_COUNT = 218;
 const REQUIRED = [
   { sku: 'RW967', key: 'rw967', image: 'assets/images/pdp/rw967/rw967-1-mini-fried-egg-resin-flatback-charms-20261018.jpg' },
-  { sku: 'RW474', key: 'rw474' },
+  { sku: 'RW474', key: 'rw474', image: 'assets/images/pdp/rw474/rw474-1-mixed-sweet-candy-resin-charm-assortment-20261018n.jpg' },
   { sku: 'RW326', key: 'rw326' },
   { sku: 'RW26740', key: 'rw26740' },
-  { sku: 'RW26746', key: 'rw26746' },
+  { sku: 'RW26746', key: 'rw26746', image: 'assets/images/pdp/rw26746/rw26746-1-christmas-gingerbread-box-resin-miniatures-20261018n.jpg' },
   { sku: 'RW26768', key: 'rw26768' },
   { sku: 'RW370', key: 'rw370', image: 'assets/images/pdp/rw370/rw370-1-pastel-whipped-cream-resin-cabochons-20261018b.jpg' },
   { sku: 'RW927', key: 'rw927' },

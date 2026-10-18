@@ -1,0 +1,665 @@
+{
+  "batchId": "qula-products-20261018-night",
+  "baselineCommit": "b3aa0822f18f136c955b8b1ebbe81f8b11902cdb",
+  "newProductCount": 9,
+  "updatedProductCount": 2,
+  "catalogCountBefore": 393,
+  "catalogCountAfter": 402,
+  "imageCount": 38,
+  "sourceWorkbook": "10.11(20261018-135757).xlsx",
+  "products": [
+    {
+      "sku": "CDK002732/CDK002377/CDK004077/CDK22001/CDK003096",
+      "operation": "new",
+      "sourceRow": 177,
+      "sourceFields": {
+        "sku": "CDK002732/CDK002377/CDK004077/CDK22001/CDK003096",
+        "标题": "Wholesale Pouch Keychains Custom Filled Pouch Charms with Assorted Mini Decorations for Backpack Zipper and Purse Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 6*8 Total length 132mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK002732CDK002377CDK004077CDK22001CDK003096.png",
+          "sha256": "7a54612f36fcc38900d8c326c4cad020c39f7ba9d90f538a2b9e4492b18bc241"
+        },
+        {
+          "file": "CDK002732.png",
+          "sha256": "63626afb45f6ec76fb95c1970f2b0253ea8d88e1955dcc5d0a8feddfaae4d58a"
+        },
+        {
+          "file": "CDK002377.png",
+          "sha256": "86d372324f0ec2c44c8e97c7453e69d770192a40436532be12b624eea3a94bf8"
+        },
+        {
+          "file": "CDK004077.png",
+          "sha256": "111199468e6454499410ba38909e5f1baf25eab83ffca3d2b26b2789f5394f7a"
+        },
+        {
+          "file": "CDK22001.png",
+          "sha256": "ed688787d38947fb0364ba445f71fc6d85dd19117e669116b5704d4cdf3da9a3"
+        },
+        {
+          "file": "CDK003096.png",
+          "sha256": "01554def520743907d35821234616254c83df57c2a1defe450ab66a314648aba"
+        }
+      ],
+      "pdp": "p-cdk002732-cdk002377-cdk004077-cdk22001-cdk003096.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-1-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "group styling reference",
+          "width": 753,
+          "height": 745,
+          "sha256": "6b2f2e9cea805e386746ed3a63c9354bb8cc1eb877547d559b94aad272efce1b",
+          "bytes": 100063,
+          "origin": "owner-supplied group styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-2-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK002732",
+          "width": 208,
+          "height": 240,
+          "sha256": "0295d125a37fb6eb01e3d4da4c6fbd272a4afdf590d1d7ce69d160163eb0287a",
+          "bytes": 5810,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-3-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK002377",
+          "width": 176,
+          "height": 246,
+          "sha256": "4e8cfddfa0e16120ab68b8c5c2ae11124cefe412bf55a358d13d72f246a1f01e",
+          "bytes": 4849,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-4-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK004077",
+          "width": 215,
+          "height": 228,
+          "sha256": "2fe777d98cd25ad9f5ec4fc85462de2bd12c1fcb30e2ddc385faa54f83418ead",
+          "bytes": 5469,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-5-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK22001",
+          "width": 210,
+          "height": 251,
+          "sha256": "25826a43dadd33057b23f689b4d034a2e97aaddec5d3929a4d25b81a54c05ded",
+          "bytes": 7146,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096/cdk002732-cdk002377-cdk004077-cdk22001-cdk003096-6-fruit-floral-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK003096",
+          "width": 213,
+          "height": 251,
+          "sha256": "fc99607bb5ab974d56ce5ba36c6424e175fee7ea5c73958d191f4912789ec23b",
+          "bytes": 5758,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    },
+    {
+      "sku": "CDK004808-3/CDK921-1/CDK22726-3/CDK420-1",
+      "operation": "new",
+      "sourceRow": 178,
+      "sourceFields": {
+        "sku": "CDK004808-3/CDK921-1/CDK22726-3/CDK420-1",
+        "标题": "Wholesale Mini Filled Pouch Keychains Custom Assorted Charm Key Rings with Mixed Decorations for Bags Backpacks and Keys",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Bag 6*8 Total length 132mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK004808-3CDK921-1CDK22726-3CDK420-1.png",
+          "sha256": "1786d25f153c73c84ac5950134931dbed6f00aa1ea73b85d94d81239c4ccd093"
+        },
+        {
+          "file": "CDK004808-3.png",
+          "sha256": "f8cc933f6becb1ef67218e4559a41fc45b05169b2af58902d3e98f3273d77ef3"
+        },
+        {
+          "file": "CDK921-1.png",
+          "sha256": "94d7cfac2b2f5305e59aa064771cfd5ae2f035a00ee484bb21152ec3caec4c04"
+        },
+        {
+          "file": "CDK22726-3.png",
+          "sha256": "c62b94468d48f8727b2c27d0d66d00fbcb94b32f6cd97f9c0d026caa4ae03ecc"
+        },
+        {
+          "file": "CDK420-1.png",
+          "sha256": "f2da324ffd1715a65c13f12d1caf0f0dc3dc74bf5a3861253b3f8fea87b31c82"
+        }
+      ],
+      "pdp": "p-cdk004808-3-cdk921-1-cdk22726-3-cdk420-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1-1-floral-dessert-filled-pouch-keychains-20261018n.jpg",
+          "role": "group styling reference",
+          "width": 749,
+          "height": 752,
+          "sha256": "3552e6739dbd647eed62b8239bfbfb090e53065fe3f326879f7d95fc3537f45e",
+          "bytes": 82871,
+          "origin": "owner-supplied group styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1-2-floral-dessert-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK004808-3",
+          "width": 183,
+          "height": 225,
+          "sha256": "bdc595b3f413bed6c916934506e230093b527f8987ed63597ce62c869a7c5195",
+          "bytes": 5247,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1-3-floral-dessert-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK921-1",
+          "width": 202,
+          "height": 232,
+          "sha256": "0ebeb62b45201d05af4a2453890ec0f226b71dc480c9b632c7f5ee840fdd3246",
+          "bytes": 5925,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1-4-floral-dessert-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK22726-3",
+          "width": 200,
+          "height": 239,
+          "sha256": "f43b92ba07c2f11134a9ef9ef4facdb03eae9d51a85c2437be0a4f143ab32fad",
+          "bytes": 5695,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1/cdk004808-3-cdk921-1-cdk22726-3-cdk420-1-5-floral-dessert-filled-pouch-keychains-20261018n.jpg",
+          "role": "individual design CDK420-1",
+          "width": 197,
+          "height": 235,
+          "sha256": "58000c97066503cb952865f6138a65fc0dc9d19469a0e208c74c2f9ddd8ce188",
+          "bytes": 6247,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    },
+    {
+      "sku": "RW26751",
+      "operation": "new",
+      "sourceRow": 179,
+      "sourceFields": {
+        "sku": "RW26751",
+        "标题": "Wholesale Crunchy Cake Cabochons Custom Rectangular Mini Dessert Decorations for Hair Accessories Bag and Phone Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "13*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26751.png",
+          "sha256": "8f69c88d66b0f24c8514b7fbdfd390d563d2e86a7896e7646362fd3431a79c32"
+        }
+      ],
+      "pdp": "p-rw26751.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26751/rw26751-1-mini-crunchy-cake-resin-cabochons-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 724,
+          "height": 725,
+          "sha256": "934995b35a8711be20fabbff974ef3aecf0a64afe8f33e97c15de8661baef35f",
+          "bytes": 55205,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26751/rw26751-2-mini-crunchy-cake-resin-cabochons-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "688dc0f275133f411dd05e10b5f76c6fd5adc470b074f252ef9843b33e239894",
+          "bytes": 80082,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26751/rw26751-3-mini-crunchy-cake-resin-cabochons-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1b31ce036a96366aa3cd88167d0dc9e3e22a3116a47306668661ff5ba9e63489",
+          "bytes": 97310,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26750",
+      "operation": "new",
+      "sourceRow": 180,
+      "sourceFields": {
+        "sku": "RW26750",
+        "标题": "Wholesale Mixed Food Botanical Cabochons Custom 3D Mini Decorations for Hair Accessories Shoe Charms and Bag Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26750.png",
+          "sha256": "f8c6d892d4edbf101a90434af39e17fd1a851b9523802c91fb0e2266762f8c25"
+        }
+      ],
+      "pdp": "p-rw26750.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26750/rw26750-1-food-botanical-resin-cabochon-mix-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 742,
+          "height": 713,
+          "sha256": "903d1d28f5334b5d3b1e78ea7b19eff1639f3e32ae321f8e447cc61e50db65f6",
+          "bytes": 59295,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26750/rw26750-2-food-botanical-resin-cabochon-mix-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9a52b1d63e224daa15786f1ae312f20e283a6665d5b136ec156e72f1b7edb23d",
+          "bytes": 84897,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26750/rw26750-3-food-botanical-resin-cabochon-mix-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8d8b80eeb60a733af1084830e3ef05e1348570806a73f99ca8aad15108d342a6",
+          "bytes": 100096,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26748",
+      "operation": "new",
+      "sourceRow": 181,
+      "sourceFields": {
+        "sku": "RW26748",
+        "标题": "Wholesale Gingerbread Theme Charms Custom Pre Drilled Holiday Pendants for  Keychain Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26748.png",
+          "sha256": "455ef4117fa65150d00537c6942ea23160c294078add1b0d1718b5dc6f5b0ad5"
+        }
+      ],
+      "pdp": "p-rw26748.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26748/rw26748-1-gingerbread-resin-holiday-pendant-charms-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 750,
+          "height": 724,
+          "sha256": "6cb14b738ff8f1b7ea0d80ce46c5590a38c9e2e411dcf6b9f04238cbb758ac7c",
+          "bytes": 72683,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26748/rw26748-2-gingerbread-resin-holiday-pendant-charms-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2e8e98b082af5d1068b1a70ffba6c092df030937c9de99beca2f34bd890a8b2d",
+          "bytes": 100559,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26748/rw26748-3-gingerbread-resin-holiday-pendant-charms-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bd3bd1cf93b8c3d52c81fd79cacba63b4b966dbf8a68fbe611f855f4abdc486a",
+          "bytes": 105801,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26747",
+      "operation": "new",
+      "sourceRow": 182,
+      "sourceFields": {
+        "sku": "RW26747",
+        "标题": "Wholesale Mini Drink Cup Decorations Custom 3D Drink Cup Charms for Miniature Scenes Keychains Bags and Desk Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26747.png",
+          "sha256": "508a2bd447bf74583775e684d6761ba1700de961f8bb3185bb6fbef9e8556952"
+        }
+      ],
+      "pdp": "p-rw26747.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26747/rw26747-1-mini-fruit-drink-cup-resin-decorations-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 750,
+          "height": 758,
+          "sha256": "3b3dcece7eae9bda87e26e58fe62751e2eeaed63efa02c14a6f7096a928b0d17",
+          "bytes": 52768,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26747/rw26747-2-mini-fruit-drink-cup-resin-decorations-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f23b6a48a6b01099c96cbe938f4667042bc274277faa4f094a6be7407fe7f0c9",
+          "bytes": 78412,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26747/rw26747-3-mini-fruit-drink-cup-resin-decorations-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d6f5cc9e8da725c0a02a4fe168c38343748b0236f3e3eaddba81cd3e47c7ebc0",
+          "bytes": 95613,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26746",
+      "operation": "update",
+      "sourceRow": 183,
+      "sourceFields": {
+        "sku": "RW26746 ",
+        "标题": "Wholesale Christmas Gingerbread Box Miniatures Custom 3D Dessert Set Decorations for Tabletop Holiday Scene Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "47*47mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格10set/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26746 .png",
+          "sha256": "1aff3231a90aeb44152a4b67e2ce5d771981d510f9d312ed45dfcda70774025e"
+        }
+      ],
+      "pdp": "p-rw26746.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26746/rw26746-1-christmas-gingerbread-box-resin-miniatures-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 740,
+          "height": 734,
+          "sha256": "4615aed7c890b98ae4d17d8ebd6e208d6f9043dcae98bba7793dcef163152cd7",
+          "bytes": 108234,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26746/rw26746-2-christmas-gingerbread-box-resin-miniatures-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "94ce351d8f23d059c579f0fe3a33e6f1ee612ce658a64dcba2802d91d5fe0104",
+          "bytes": 110812,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26746/rw26746-3-christmas-gingerbread-box-resin-miniatures-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "29eeb1c04c04f424e281f8b52e331dab7d1239b052409b95733c0926ec57c950",
+          "bytes": 126167,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26745",
+      "operation": "new",
+      "sourceRow": 184,
+      "sourceFields": {
+        "sku": "RW26745 ",
+        "标题": "Wholesale Pastel Sky Cabochons Custom 3D Cloud Arc Mini Decorations for Hair Bows Shoe Accessories and Scrapbook Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26745.png",
+          "sha256": "d3f580796b99966ef0f6cc1677f684e586e1c0cd7c122036e1bdc075a9c02dda"
+        }
+      ],
+      "pdp": "p-rw26745.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26745/rw26745-1-pastel-cloud-rainbow-resin-cabochons-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 745,
+          "height": 688,
+          "sha256": "b247035d7488b58eb34d01ce0fd1390759a1edaab9955de88e745c4b04ea5f62",
+          "bytes": 41024,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26745/rw26745-2-pastel-cloud-rainbow-resin-cabochons-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1d202d19d29d75f4a75f9a458528b63eccd9b2bb3e9a4f48c9c450fcdcc3f656",
+          "bytes": 73754,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26745/rw26745-3-pastel-cloud-rainbow-resin-cabochons-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c5870b35da10bcd6b07501b866eb2f35304c29e8e835694e085c76eb7361e728",
+          "bytes": 89026,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26744",
+      "operation": "new",
+      "sourceRow": 185,
+      "sourceFields": {
+        "sku": "RW26744 ",
+        "标题": "Wholesale Chocolate Cake Cabochons Custom 3D Mini Dessert Decorations for Hair Accessories Phone Decor and Scrapbook Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "23*15*13mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26744 .png",
+          "sha256": "b043c629e1ced387e52e2bf59fbdc9439faa139366fbd99bcd8119c9b7c89475"
+        }
+      ],
+      "pdp": "p-rw26744.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26744/rw26744-1-mini-chocolate-cake-resin-cabochons-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 693,
+          "height": 737,
+          "sha256": "613775e8f2a5d5a3de46b6c4da731c81b8016119fa3358f50953755e3b388156",
+          "bytes": 39269,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26744/rw26744-2-mini-chocolate-cake-resin-cabochons-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "49c841691762e07187a136afb7bd50183d3e0dc1a3d25882cedd769f4efe51ca",
+          "bytes": 72774,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26744/rw26744-3-mini-chocolate-cake-resin-cabochons-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1f47c78985f924dc6ab60a865b6880d7ab9341f52be9313bfb8a8e25eaf78dd5",
+          "bytes": 89559,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW474",
+      "operation": "update",
+      "sourceRow": 186,
+      "sourceFields": {
+        "sku": "RW474 ",
+        "标题": "100PCS Resin Mixed Sweet Candy Charms Artificial Food Slime Parts Jewelry Making Accessory Home Table Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24mm*15mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW474 .png",
+          "sha256": "7a57b8a693eb8752cb5ec191675a7123ce5973ba92af80a60ab60461beaef11b"
+        }
+      ],
+      "pdp": "p-rw474.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw474/rw474-1-mixed-sweet-candy-resin-charm-assortment-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 688,
+          "height": 635,
+          "sha256": "fae0fe20d1fad63df0a82b603339a676928f59c298f955b6874fe4db573b2677",
+          "bytes": 48816,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw474/rw474-2-mixed-sweet-candy-resin-charm-assortment-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d8fd81b45ad7007411fd349fdaa96cf2c9adb1184608bd17ee11f5f3dc7f3955",
+          "bytes": 74062,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw474/rw474-3-mixed-sweet-candy-resin-charm-assortment-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "becee0d7c8456df31f29f1a5202774c4072c81287abd382e39322818cda1d387",
+          "bytes": 91288,
+          "origin": "packing and order graphic"
+        }
+      ]
+    },
+    {
+      "sku": "FHA366",
+      "operation": "new",
+      "sourceRow": 187,
+      "sourceFields": {
+        "sku": "FHA366 ",
+        "标题": "Candy Color Luminous Star Hair Clips for Kids Girls Headwear Metal Barrettes Cute Heart BB Clips Hairpins Hair Accessories",
+        "分类": "Hair Accessories",
+        "状态": "库存有货",
+        "材质": "plastic",
+        "尺寸": "30MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "FHA366.png",
+          "sha256": "a0f43bca577256c8d90c125059434d70505372af63e56a094da941891e9016ae"
+        }
+      ],
+      "pdp": "p-fha366.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/fha366/fha366-1-candy-color-star-hair-clips-20261018n.jpg",
+          "role": "supplied product reference",
+          "width": 685,
+          "height": 674,
+          "sha256": "b333c7931c0930b33a5ed35a808749a18c0298f1e16a48d507d6743cd33ee369",
+          "bytes": 54591,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/fha366/fha366-2-candy-color-star-hair-clips-20261018n.jpg",
+          "role": "source specification summary",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4a546c6fc7a7f4082a42059be117c565b46e16bea50ec8281090bbf7f7dee914",
+          "bytes": 85576,
+          "origin": "source specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/fha366/fha366-3-candy-color-star-hair-clips-20261018n.jpg",
+          "role": "packing and order brief",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6406a9048cd2dd79291e798134d3ffe6b9efe7a39953bdbc0cbf19d3f26da843",
+          "bytes": 99755,
+          "origin": "packing and order graphic"
+        }
+      ]
+    }
+  ]
+}
