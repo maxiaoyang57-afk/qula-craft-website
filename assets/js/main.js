@@ -100,7 +100,7 @@
   }
   async function load(){
     if(items)return items;
-    const j=await (await fetch('assets/data/product-catalog.json')).json();
+    const j=await (await fetch('assets/data/product-catalog.json?v=20261018-extension')).json();
     items=[];j.categories.forEach(c=>c.products.forEach(p=>items.push(p)));
     return items;
   }
@@ -162,7 +162,7 @@
     if(catalogImages)return catalogImages;
     catalogImages={};
     try{
-      const j=await (await fetch('assets/data/product-catalog.json')).json();
+      const j=await (await fetch('assets/data/product-catalog.json?v=20261018-extension')).json();
       (j.categories||[]).forEach(c=>(c.products||[]).forEach(p=>{if(p.sku&&!catalogImages[p.sku])catalogImages[p.sku]=safeLocalImage(p.image||'');}));
     }catch(e){}
     return catalogImages;
