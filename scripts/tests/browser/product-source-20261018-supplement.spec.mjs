@@ -19,5 +19,5 @@ test('supplemental SKUs connect galleries, exact searches and quote context',asy
   await page.goto('products.html?search='+p.sku);
   await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku',p.sku);
  }
- expect(all.length).toBe(402);
+ expect(all.length).toBe(416);
 });
