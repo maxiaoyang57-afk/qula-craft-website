@@ -1,0 +1,370 @@
+{
+  "batchId": "qula-products-20261019-heart-keychains",
+  "baselineCommit": "fa48c0ad3afbccaf361db88fd70e2ef517e4c134",
+  "newProductCount": 4,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 417,
+  "catalogCountAfter": 421,
+  "imageCount": 20,
+  "sourceWorkbook": "10.11(20261019-051203).xlsx",
+  "products": [
+    {
+      "sku": "CDK00110/CDK004463/CDK518-2/CDK26315",
+      "operation": "new",
+      "sourceRow": 203,
+      "sourceFields": {
+        "sku": "CDK00110/CDK004463/CDK518-2/CDK26315",
+        "标题": "Custom Resin Heart Keychain with Assorted Mini Charms Cute Bag Pendant Wholesale Key Ring Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm Total length 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格12pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK00110CDK004463CDK518-2CDK26315.png",
+          "sha256": "872adf10352e4f2dc91165196c53f91f36fe3d9b3195ecf19a12f515ef07c809"
+        },
+        {
+          "file": "CDK00110.png",
+          "sha256": "ec68cff7bb61cc54e9246e67dcc9c1671b984b6c9332dd5e726d4eea09e8438d"
+        },
+        {
+          "file": "CDK004463.png",
+          "sha256": "102fc86ce5ba6b1bfba43e85ed9bc50c4e114a95c5da15c85d3a489081255a78"
+        },
+        {
+          "file": "CDK518-2.png",
+          "sha256": "916322a076cca2f47138eb96d1d637a4d8b4fd741f1154d0a388e1892d49e532"
+        },
+        {
+          "file": "CDK26315.png",
+          "sha256": "b4e1c56472fb2e7820a4f678b10087c133043580fbed5fa852d9a75d3f984c4f"
+        }
+      ],
+      "pdp": "p-cdk00110-cdk004463-cdk518-2-cdk26315.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk00110-cdk004463-cdk518-2-cdk26315/cdk00110-cdk004463-cdk518-2-cdk26315-1-pastel-treat-insect-heart-keychain-mix-20261019-heart.jpg",
+          "role": "group styling reference",
+          "width": 741,
+          "height": 741,
+          "sha256": "c2349d65fea4b8da02cecf612dac901580ecad06728c46b4a9e233cc8f2e71d9",
+          "bytes": 65085,
+          "origin": "brand-neutral edited group styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk00110-cdk004463-cdk518-2-cdk26315/cdk00110-cdk004463-cdk518-2-cdk26315-2-pastel-treat-insect-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK00110",
+          "width": 479,
+          "height": 755,
+          "sha256": "84631ff88a846f95ade84a66e8a5ad6ff99724279ca3fff656494fb8273ae5b0",
+          "bytes": 34902,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk00110-cdk004463-cdk518-2-cdk26315/cdk00110-cdk004463-cdk518-2-cdk26315-3-pastel-treat-insect-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK004463",
+          "width": 548,
+          "height": 762,
+          "sha256": "7a64cc63f37e67b0c3d1f3b2f5393bb0ec338a9c14943e7b496a958db4c5d59e",
+          "bytes": 36104,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk00110-cdk004463-cdk518-2-cdk26315/cdk00110-cdk004463-cdk518-2-cdk26315-4-pastel-treat-insect-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK518-2",
+          "width": 691,
+          "height": 707,
+          "sha256": "17755801a2e74f151c89e99c34424292febf3d4a92b4b007cd4ff471550b100a",
+          "bytes": 36695,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk00110-cdk004463-cdk518-2-cdk26315/cdk00110-cdk004463-cdk518-2-cdk26315-5-pastel-treat-insect-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26315",
+          "width": 530,
+          "height": 740,
+          "sha256": "2d05b3a89126018811e8ad6d7648ad0dfa1768ba84f84225f94c4a339068c30a",
+          "bytes": 38904,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    },
+    {
+      "sku": "CDK26479/CDK26460/CDK26509-5/CDK00110-1",
+      "operation": "new",
+      "sourceRow": 204,
+      "sourceFields": {
+        "sku": "CDK26479/CDK26460/CDK26509-5/CDK00110-1",
+        "标题": "Custom Resin Heart Keychain with Assorted Mini Charms Cute Bag Pendant Wholesale Key Ring Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm Total length 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格12pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK26479CDK26460CDK26509-5CDK00110-1.png",
+          "sha256": "9f04572eb0fb4790d4208c8adc45acbeab3bf7d179f77c5c3815f176ebdbf9ba"
+        },
+        {
+          "file": "CDK26479.png",
+          "sha256": "53aa92c0603ed0fce85146ff414892e9659232a0c0708c94648d324cad633156"
+        },
+        {
+          "file": "CDK26460-1.png",
+          "sha256": "69f065b9ab290a5f8976d1e7f40359228ade521f56f48ae733a55ad86e8f5d1d"
+        },
+        {
+          "file": "CDK26509-5.png",
+          "sha256": "73f514bfe712b2bd499affac94bb07a84dbe569f13ba7573dc970c1b51b44f84"
+        },
+        {
+          "file": "CDK00110-1.png",
+          "sha256": "dd80e0de03b87e8149eb2058324fb20e98c2717ae337931dd36950587bd4b8dc"
+        }
+      ],
+      "pdp": "p-cdk26479-cdk26460-cdk26509-5-cdk00110-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk26479-cdk26460-cdk26509-5-cdk00110-1/cdk26479-cdk26460-cdk26509-5-cdk00110-1-1-fruit-popcorn-ice-cream-heart-keychain-mix-20261019-heart.jpg",
+          "role": "group styling reference",
+          "width": 737,
+          "height": 750,
+          "sha256": "39623ecff02dc6683fa18a959bb680a1da78b756eb875985b63b23093839d5f3",
+          "bytes": 80371,
+          "origin": "brand-neutral edited group styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26479-cdk26460-cdk26509-5-cdk00110-1/cdk26479-cdk26460-cdk26509-5-cdk00110-1-2-fruit-popcorn-ice-cream-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26479",
+          "width": 507,
+          "height": 767,
+          "sha256": "18046b8e6011fe58463b44050506bb3a6ecd7e133c2e051da88285796830ae3b",
+          "bytes": 22047,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26479-cdk26460-cdk26509-5-cdk00110-1/cdk26479-cdk26460-cdk26509-5-cdk00110-1-3-fruit-popcorn-ice-cream-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26460",
+          "width": 572,
+          "height": 738,
+          "sha256": "83a3a66d5b1d15ee0b08b6cc01ea0b4b0ae29b34db03e0d51977d18e2ac23002",
+          "bytes": 49312,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26479-cdk26460-cdk26509-5-cdk00110-1/cdk26479-cdk26460-cdk26509-5-cdk00110-1-4-fruit-popcorn-ice-cream-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26509-5",
+          "width": 595,
+          "height": 743,
+          "sha256": "2e055f76c1168e4e18374ccb1723bcfc4c4a8dbf222de1cdf6dddc60b5c50192",
+          "bytes": 43789,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk26479-cdk26460-cdk26509-5-cdk00110-1/cdk26479-cdk26460-cdk26509-5-cdk00110-1-5-fruit-popcorn-ice-cream-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK00110-1",
+          "width": 450,
+          "height": 722,
+          "sha256": "e7cc26576401cb841420868eb044359d9adaf8a048ac356ce190855b37f3ad34",
+          "bytes": 28531,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    },
+    {
+      "sku": "CDK4924/CDK26493/CDK26477/CDK26479/CDK001413",
+      "operation": "new",
+      "sourceRow": 205,
+      "sourceFields": {
+        "sku": "CDK4924/CDK26493/CDK26477/CDK26479/CDK001413",
+        "标题": "Custom Resin Heart Keychain with Assorted Mini Charms Cute Bag Pendant Wholesale Key Ring Accessories",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm Total length 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格12pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK4924.png",
+          "sha256": "21cb1282d326a00a50b0a2d1ae4805fb56456842b2371a96f32314a0525f01f8"
+        },
+        {
+          "file": "CDK26493.png",
+          "sha256": "ccaedcc2afcd6ad0c7d25bd9747e9fbce8b76543049e42a78a6488eabd9e0e9d"
+        },
+        {
+          "file": "CDK26477.png",
+          "sha256": "34e47d4a66c528437eeb41bad2d996c970cffd45366245c329e4a315d3f1b6f0"
+        },
+        {
+          "file": "CDK26479.png",
+          "sha256": "53aa92c0603ed0fce85146ff414892e9659232a0c0708c94648d324cad633156"
+        },
+        {
+          "file": "CDK001413.png",
+          "sha256": "49bf81eff0b6f078b8646665f0fe1856de6729e849fb36abbe6505b36ebafda1"
+        }
+      ],
+      "pdp": "p-cdk4924-cdk26493-cdk26477-cdk26479-cdk001413.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413-1-rainbow-gingham-chick-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK4924",
+          "width": 522,
+          "height": 764,
+          "sha256": "6a2725e832d443875e3a19ce2ae29633667915863d8ffe36cb24ab07cdeb882e",
+          "bytes": 27127,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413-2-rainbow-gingham-chick-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26493",
+          "width": 495,
+          "height": 753,
+          "sha256": "0cda4138350ae62be739d8cc2495da1cf847e817011e2caed9bd05fce8066617",
+          "bytes": 30638,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413-3-rainbow-gingham-chick-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26477",
+          "width": 492,
+          "height": 758,
+          "sha256": "3654cf8b1658de6326161d381e06aba7c28f2997c197e6ec5fe9ea45e0c8bd70",
+          "bytes": 35554,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413-4-rainbow-gingham-chick-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK26479",
+          "width": 507,
+          "height": 767,
+          "sha256": "18046b8e6011fe58463b44050506bb3a6ecd7e133c2e051da88285796830ae3b",
+          "bytes": 22047,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413/cdk4924-cdk26493-cdk26477-cdk26479-cdk001413-5-rainbow-gingham-chick-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK001413",
+          "width": 476,
+          "height": 745,
+          "sha256": "49b7cc23e77d64bba37835be92e61773604c2059125cd46c242c1b0d90a17058",
+          "bytes": 29193,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    },
+    {
+      "sku": "CDK20175-8/CDK20175-10/CDK20175-9/CDK20286-1",
+      "operation": "new",
+      "sourceRow": 206,
+      "sourceFields": {
+        "sku": "CDK20175-8/CDK20175-10/CDK20175-9/CDK20286-1",
+        "标题": "Wholesale Custom Heart Keychains Filled Charm Key Rings with Assorted Clasps for Bags Backpacks Keys and Pouches",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Love 50mm Total length 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格10pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK20175-8CDK20175-10CDK20175-9CDK20286-1.png",
+          "sha256": "eb0958e261629d9592052e5b0dffb660f417572e0670ef765809de57442dec09"
+        },
+        {
+          "file": "CDK20175-8.png",
+          "sha256": "025f539d216f66303996a9ce221bde7a1be60424f955c2182d44bc226b2efcbb"
+        },
+        {
+          "file": "CDK20175-10.png",
+          "sha256": "d00f436597814f09c51f7f5d6e88f5ec67f11aac79bd597a5487d9fbf3a09f5c"
+        },
+        {
+          "file": "CDK20175-9.png",
+          "sha256": "9e4ae3a86031ba3a12af671c6eecaa506a0bdd601a3fc5bdd0740e7e702fabd8"
+        },
+        {
+          "file": "CDK20286-1.png",
+          "sha256": "0e55f7b925fe8db57ea8dacb8ad5a838645fbde01e0de985b86c86f574cd56d1"
+        }
+      ],
+      "pdp": "p-cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1-1-holiday-butterfly-heart-keychain-mix-20261019-heart.jpg",
+          "role": "group styling reference",
+          "width": 717,
+          "height": 750,
+          "sha256": "43cf5dd477e96e7099cd51e55c2f8a5579f077d7bc06b46703f4ed065ebf0b9b",
+          "bytes": 63707,
+          "origin": "brand-neutral edited group styling reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1-2-holiday-butterfly-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK20175-8",
+          "width": 593,
+          "height": 738,
+          "sha256": "df990db2ba43c8d64d147e3dbd733509c0d067e6444fbaffb887e5095e24ba9c",
+          "bytes": 44044,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1-3-holiday-butterfly-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK20175-10",
+          "width": 620,
+          "height": 762,
+          "sha256": "b41bed242991112280c7f184394289c1f57cd3e1c0c34fc098b60bce6321398e",
+          "bytes": 49363,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1-4-holiday-butterfly-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK20175-9",
+          "width": 518,
+          "height": 731,
+          "sha256": "f02916c58aba3409edbebefd02990f00e7ea967e9096fbac97b99b867894e0b4",
+          "bytes": 32532,
+          "origin": "owner-supplied individual design reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1/cdk20175-8-cdk20175-10-cdk20175-9-cdk20286-1-5-holiday-butterfly-heart-keychain-mix-20261019-heart.jpg",
+          "role": "individual design CDK20286-1",
+          "width": 506,
+          "height": 746,
+          "sha256": "3b1cc4ded6a15d30bff6961d0b93619f2125230a23fc236d3432e243fb492f09",
+          "bytes": 32055,
+          "origin": "owner-supplied individual design reference"
+        }
+      ]
+    }
+  ],
+  "mediaDecisions": [
+    {
+      "sourceRow": 205,
+      "excludedStylingReference": {
+        "file": "CDK4924CDK26493CDK26477CDK26479CDK001413.png",
+        "sha256": "af8da741106d744adee9510e47d3e303c87122f828765a25c1f1fc4a2ccf5911",
+        "reason": "Group styling image shows a blue candy design where its mixed SKU lists CDK26479; supplied CDK26479.png depicts pink ice cream. Use all five explicitly code-labelled individual references and exclude the inconsistent styling image."
+      },
+      "resolution": "Only explicitly code-labelled individual references used; original mixed SKU unchanged."
+    }
+  ],
+  "imageAliases": {
+    "CDK26460": "CDK26460-1.png"
+  }
+}
