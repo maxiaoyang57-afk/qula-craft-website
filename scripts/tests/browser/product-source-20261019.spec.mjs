@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 const manifest=JSON.parse(readFileSync('docs/product-batch-manifest-20261019.json','utf8'));
 const all=JSON.parse(readFileSync('assets/data/product-catalog.json','utf8')).categories.flatMap(c=>c.products);
-const categories={'keychain':'Keychains','resin-charms':'Resin Charms','polymer-clay-slices':'Polymer Clay Sprinkles','plastic-sequins':'Glitter & Fillers','plastic-beads':'Acrylic Beads','pvc-plastic-charms':'Other','jewelry-accessories':'Jewelry Accessories'};
+const categories={'slime-charms':'Slime Charms','keychain':'Keychains','resin-charms':'Resin Charms','polymer-clay-slices':'Polymer Clay Sprinkles','plastic-sequins':'Glitter & Fillers','plastic-beads':'Acrylic Beads','pvc-plastic-charms':'Other','jewelry-accessories':'Jewelry Accessories'};
 test('October 19 grouped SKUs connect galleries, exact searches and quote context',async({page})=>{
  await page.route('**/formsubmit.co/**',r=>r.abort());await page.route('**/api/inquiry',r=>r.abort());
  for(const record of manifest.products){
