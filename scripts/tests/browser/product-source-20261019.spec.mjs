@@ -27,5 +27,5 @@ test('October 19 grouped SKUs connect galleries, exact searches and quote contex
   await page.goto('products.html?search='+encodeURIComponent(p.sku));
   await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku',p.sku);
  }
- expect(all.length).toBeGreaterThanOrEqual(417);
+ expect(all.length).toBeGreaterThanOrEqual(421);
 });
