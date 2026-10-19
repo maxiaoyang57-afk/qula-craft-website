@@ -1,0 +1,1052 @@
+{
+  "batchId": "qula-products-20261019-afternoon",
+  "baselineCommit": "2f8ffa8b1d3ea6c3137063cb183277b4c535a114",
+  "newProductCount": 20,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 427,
+  "catalogCountAfter": 447,
+  "imageCount": 60,
+  "sourceWorkbook": "10.11(20261019-085415).xlsx",
+  "products": [
+    {
+      "sku": "YT002",
+      "operation": "new",
+      "sourceRow": 213,
+      "sourceFields": {
+        "sku": "YT002",
+        "标题": "Wholesale Acrylic  Ice Clear Stone for Vase Fillers Acrylic Beads for Home Decoration",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "16*23mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YT002 .png",
+          "sha256": "69d747bcd30b1d7c72bf5d0a61646b736e0d5c7e1a2129a8a09ff1fa5a961442"
+        }
+      ],
+      "pdp": "p-yt002.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yt002/yt002-1-colorful-faceted-acrylic-vase-filler-gems-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 679,
+          "height": 626,
+          "sha256": "ef49564753c316f869608697650ec4c129a9c6d65cdaa658406a4686388d24c2",
+          "bytes": 55820,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yt002/yt002-2-colorful-faceted-acrylic-vase-filler-gems-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4ef2daa1df8b5d71b129a235e129ea7c71e7ba44b8369adbcf872b7d3b9d49a6",
+          "bytes": 83906,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yt002/yt002-3-colorful-faceted-acrylic-vase-filler-gems-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "50f08f36b50877b9a4e17cfaf52f7c3bb967af50f9c62137b6ae866f390694cb",
+          "bytes": 100654,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW24765",
+      "operation": "new",
+      "sourceRow": 214,
+      "sourceFields": {
+        "sku": "RW24765",
+        "标题": "Mini 3D Resin Kawaii Macaron Miniature Cake Figurine Scrapbook Flatbacks Crafts Accessories Cabochon Deco Parts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24765.png",
+          "sha256": "4afd92b6271214461140a1d1325f6501dc001f0fac1fee254b1a6155f252bbaf"
+        }
+      ],
+      "pdp": "p-rw24765.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24765/rw24765-1-pastel-macaron-resin-miniature-charms-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 683,
+          "height": 667,
+          "sha256": "3c2ff01505065e1be2183aa578518ba10d33effeee4f751330368ead9252c53f",
+          "bytes": 30966,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24765/rw24765-2-pastel-macaron-resin-miniature-charms-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "72fab8c6ebac8c17c528d21bc32ba11d16e26453a047e2c18476e554d933a5cb",
+          "bytes": 63917,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw24765/rw24765-3-pastel-macaron-resin-miniature-charms-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7e056d8343e6a1065e40775511f583b4edd8d70969caf57336f368777c0f026a",
+          "bytes": 83494,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX3224",
+      "operation": "new",
+      "sourceRow": 215,
+      "sourceFields": {
+        "sku": "YX3224",
+        "标题": "500g Pink Sweet Candy Fishbowl Beads Mixed  Polymer Clay Pieces for Snowglobes Slime Fillers Decor",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3224.png",
+          "sha256": "3c502b009a2b066513213612ee529025f9c893045c8a5b6cd764dc06d8a7fc06"
+        }
+      ],
+      "pdp": "p-yx3224.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3224/yx3224-1-pink-candy-polymer-clay-decorative-filler-mix-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 506,
+          "height": 490,
+          "sha256": "8a867ed5e7fb093cff640d6f1fd08d581757ff61edbbe8eef81d1e7af633286d",
+          "bytes": 70375,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3224/yx3224-2-pink-candy-polymer-clay-decorative-filler-mix-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "62963a489252f38cfa5df542d47ef39eef5f8ad943ffa16128bcee5d7fc3c3a6",
+          "bytes": 121906,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx3224/yx3224-3-pink-candy-polymer-clay-decorative-filler-mix-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b06d480c90a1f2341be8828d4fb19374a155a692a21c0193f78b2186ec8f1b80",
+          "bytes": 131558,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW0020841",
+      "operation": "new",
+      "sourceRow": 216,
+      "sourceFields": {
+        "sku": "RW0020841",
+        "标题": "100pcs Halloween Bat Pumpkin Cat Decoration Charms Flatback Resin Cabochon Kawaii Cartoon DIY Scrapbooking Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW0020841.png",
+          "sha256": "4b0dddbca8c47468a0b791a6efdd52b8ab84e986ec3f139f9cf65149ecdf2c37"
+        }
+      ],
+      "pdp": "p-rw0020841.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw0020841/rw0020841-1-halloween-character-resin-flatback-charms-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 662,
+          "height": 639,
+          "sha256": "8eeb15a18ca1816306f805aed9f77a2bbe2db1d2b90ea5f4505eb899e38b96e3",
+          "bytes": 67337,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw0020841/rw0020841-2-halloween-character-resin-flatback-charms-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af01d6db6035ca5cca6dd679fbfff774c63b02afc05b2b1a92d23856ff9bb7e1",
+          "bytes": 92040,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw0020841/rw0020841-3-halloween-character-resin-flatback-charms-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e614371789863c35d514ce13f5ea3457a5321bf155c566167b87af43cbb22e93",
+          "bytes": 108882,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW4189",
+      "operation": "new",
+      "sourceRow": 217,
+      "sourceFields": {
+        "sku": "RW4189",
+        "标题": "Wholesale Soft Tone Animal Cabochons Custom Mini 3D Decorations for Hair Bow Bag Pendant Phone Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW4189.png",
+          "sha256": "ab112c1d27a58fa3e54807bf05fbb1143883e50e15b2ffa25a9172afc0117281"
+        }
+      ],
+      "pdp": "p-rw4189.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4189/rw4189-1-pastel-teddy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 752,
+          "height": 767,
+          "sha256": "4c7add70e3521996650fb89c51a5bccd9788bb0af48a1a6e73900ddd10d13f32",
+          "bytes": 57550,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw4189/rw4189-2-pastel-teddy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c5fa1e909158fccbd55ef83a02049abd907e9ed5a743a8b25085341d83119a8",
+          "bytes": 81702,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw4189/rw4189-3-pastel-teddy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2ff92bda3a112a88becc34402ea500385908ba83732cce2c25f8a500f523bf3f",
+          "bytes": 97578,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW4304",
+      "operation": "new",
+      "sourceRow": 218,
+      "sourceFields": {
+        "sku": "RW4304",
+        "标题": "Wholesale Open Arm Animal Cabochons Custom Raised Oval Center Mini Charms for Hair Phone Jewelry Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "18*19mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW4304 .png",
+          "sha256": "cf965169f1b9a2c4ae9de94a41b6d4a6c0cea7a22a49c5676af9797e41d37a70"
+        }
+      ],
+      "pdp": "p-rw4304.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4304/rw4304-1-transparent-bear-resin-charms-with-round-centers-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 705,
+          "height": 725,
+          "sha256": "00a901a598ec86a1b79633d4e6664266d6055ad93492d12a479b0d1502270b60",
+          "bytes": 58300,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw4304/rw4304-2-transparent-bear-resin-charms-with-round-centers-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0c01102cb193d6ef2281d69b75033d9287948f201b479d93f0d9971f8659a089",
+          "bytes": 81324,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw4304/rw4304-3-transparent-bear-resin-charms-with-round-centers-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "429629d201b270a9f78b7c73c7a75440891c0fc080ee144d0da372b132af26c7",
+          "bytes": 102057,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW987",
+      "operation": "new",
+      "sourceRow": 219,
+      "sourceFields": {
+        "sku": "RW987",
+        "标题": "Red Brick DIY Building Scenery Portable Miniature Kids Decorative Toy Landscape Modelling",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "14*25*6mm/20*15*7mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW987.png",
+          "sha256": "8e27d74d014299cb343ed4b5989a80e409e837060f722a7c66d057077347cf56"
+        }
+      ],
+      "pdp": "p-rw987.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw987/rw987-1-miniature-red-brick-resin-building-pieces-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 692,
+          "height": 729,
+          "sha256": "658104a3088f19ad4843d87370bbff9e28ca2ca67e90173aaf3cc61f8bf59caf",
+          "bytes": 49961,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw987/rw987-2-miniature-red-brick-resin-building-pieces-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a34e498af5d0fde25b15c368ae18de453ed685af3bde17830fd5a6d4757d38bd",
+          "bytes": 79537,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw987/rw987-3-miniature-red-brick-resin-building-pieces-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "53196b7c3ab483ec3917b3e1b561d7ab725c3160fc272c9bf14b300f3005a583",
+          "bytes": 95072,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5346",
+      "operation": "new",
+      "sourceRow": 220,
+      "sourceFields": {
+        "sku": "RW5346",
+        "标题": "30mm Mini Resin Fairy Garden Miniatures Tree Stump Bridge Model DIY Doll House Terrarium Succulents Micro Landscape Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "30*11mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5346.png",
+          "sha256": "c52b8898588386190ae52013a19ef862c581086d5101c0a547406e6317a14f1c"
+        }
+      ],
+      "pdp": "p-rw5346.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5346/rw5346-1-miniature-tree-stump-resin-garden-pieces-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 437,
+          "height": 418,
+          "sha256": "8ff7447446febe2b02a66b80689b7677840c40e0b1eb5cc65cf94e52458a7840",
+          "bytes": 23680,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5346/rw5346-2-miniature-tree-stump-resin-garden-pieces-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d9e835b2362822e06ac9a6d0ae7b5739394604256e7bcac8e3d03449bd86219a",
+          "bytes": 71078,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5346/rw5346-3-miniature-tree-stump-resin-garden-pieces-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1638fdcfadaf0f2f97ce1edb6a850800af7c4b500fd51397bb46289520b3191c",
+          "bytes": 89070,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW22939",
+      "operation": "new",
+      "sourceRow": 221,
+      "sourceFields": {
+        "sku": "RW22939",
+        "标题": "Flower Fairy Fly Wing Miniatures Girl Figurines Fairy Garden Accessories Doll House Ornament Garden Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "50mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW22939 .png",
+          "sha256": "e94ca65eb70eb22d4d3d46c1e8b5f7c6c12f506601969d84e53c779f6018237f"
+        }
+      ],
+      "pdp": "p-rw22939.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22939/rw22939-1-winged-fairy-resin-miniature-figurines-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 952,
+          "height": 592,
+          "sha256": "5a64d90ae04c2950c47701290f9b41385d42e3802e023dc0e72598b91e862e2b",
+          "bytes": 83807,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw22939/rw22939-2-winged-fairy-resin-miniature-figurines-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "42f910a3a7af8c210ad8630436dca74809231abbcb33a956fb544944ffd2e4c6",
+          "bytes": 77042,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw22939/rw22939-3-winged-fairy-resin-miniature-figurines-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5b5a218b6871ee1873af333016df3c5deab9ce4bf6439d51899af1a5c9777f6b",
+          "bytes": 95467,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX3920",
+      "operation": "new",
+      "sourceRow": 222,
+      "sourceFields": {
+        "sku": "YX3920",
+        "标题": "Heart Polymer Clay Slices Mixed Pearls Long Cut Sprinkles Clay for Slime Supplies DIY Crafts Accessory",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3920 .png",
+          "sha256": "fe34b94a96f82c4325132c2c33864fb28921b08c934bd846d527238827f60091"
+        }
+      ],
+      "pdp": "p-yx3920.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3920/yx3920-1-heart-polymer-clay-and-pearl-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 602,
+          "height": 575,
+          "sha256": "7fb6104bace32ce7abe78692507fdecef2d5cdc93d25f33e35c55eec3c037e2d",
+          "bytes": 62604,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3920/yx3920-2-heart-polymer-clay-and-pearl-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "784562a4a49c9e2af332ef6ec2fe242a53e9ca1d9b24f63ce347319dd83869a0",
+          "bytes": 99702,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx3920/yx3920-3-heart-polymer-clay-and-pearl-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "79390c7d130c8bdfa6d7079abf3d9ad4b80b7e53419d5fe0c8287cdd55d02b92",
+          "bytes": 108290,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX4042",
+      "operation": "new",
+      "sourceRow": 223,
+      "sourceFields": {
+        "sku": "YX4042",
+        "标题": "Bee Honeycomb Flower Bear Mix Polymer Clay Sprinkles Slices for DIY Crafts Tumbler Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm/10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX4042 .png",
+          "sha256": "c519ebd39a44f1667811192c58f611711d444358a4fe65d73d6e642679a37cc1"
+        }
+      ],
+      "pdp": "p-yx4042.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx4042/yx4042-1-bee-and-honeycomb-polymer-clay-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 726,
+          "height": 650,
+          "sha256": "8ed23312afdccbfe9d3a35b4e8fe71bb8c534e8b2e3bdc9fec4ccbcd7b5490e4",
+          "bytes": 79989,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx4042/yx4042-2-bee-and-honeycomb-polymer-clay-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0eac33ef9b3eeb095e9efb2ba3e3b7cac412eda50dc805d8f77ab50f224d572b",
+          "bytes": 99911,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx4042/yx4042-3-bee-and-honeycomb-polymer-clay-sprinkle-mix-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7a23a6ddbfbd4029320ed18382c39a8d330ec3d4114689466fcbbe3810fc88dd",
+          "bytes": 111566,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX221",
+      "operation": "new",
+      "sourceRow": 224,
+      "sourceFields": {
+        "sku": "YX221",
+        "标题": "Wholesale Pineapple Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "4*5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX221 .png",
+          "sha256": "decc0dce547eea091414c2d812bb1f46c7ee2d60bacad5b684e47e3e0e0a49d1"
+        }
+      ],
+      "pdp": "p-yx221.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx221/yx221-1-pink-pineapple-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 752,
+          "height": 710,
+          "sha256": "b0bb07fbb58520a5139e41b17add365d45411e62c430bd42ac91d6d9f260a3e1",
+          "bytes": 80677,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx221/yx221-2-pink-pineapple-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e7fa0ac7c1db5c1b4f6441bb0037c2fbdaf26e8fce6a9a05ef63c06373de68c0",
+          "bytes": 87730,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx221/yx221-3-pink-pineapple-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "33c2b8dfd8ab807323932617c18d3d7357d1cb1585e99e4e5230b45d8d07eaaa",
+          "bytes": 108609,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW002627",
+      "operation": "new",
+      "sourceRow": 225,
+      "sourceFields": {
+        "sku": "RW002627",
+        "标题": "Wholesale Animal Cabochon Charms Custom Mini Animal Decorations for Hair Phone Keychain Jewelry Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "11*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW002627.png",
+          "sha256": "7f797e9bf2b4c9fd95a17bde24c40b2eed08159c563daf46446e29974c6b8927"
+        }
+      ],
+      "pdp": "p-rw002627.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002627/rw002627-1-small-colorful-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 718,
+          "height": 687,
+          "sha256": "608be9e1a9731fd6f4f92d3f3c0d1bab9c2055be8e46275e851ee3109c51e4c2",
+          "bytes": 37514,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw002627/rw002627-2-small-colorful-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "331798cbe7b7b111df4b260c5702b39592b201bb43fbaa350dc8370c3c1f0b1e",
+          "bytes": 71675,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw002627/rw002627-3-small-colorful-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "09df8ca779a4291e851eb04e29c10ed160dfa824481965b79db30ca21711732d",
+          "bytes": 88942,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW00655",
+      "operation": "new",
+      "sourceRow": 226,
+      "sourceFields": {
+        "sku": "RW00655",
+        "标题": "Wholesale Animal Cabochon Charms Custom Mini Animal Decorations for Hair Phone Keychain Jewelry Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19*29mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW00655 .png",
+          "sha256": "688428e8483e7287e757c1dcf06ed9b7bb7b4afe5909d0eb33c04e3facc5aee3"
+        }
+      ],
+      "pdp": "p-rw00655.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw00655/rw00655-1-large-transparent-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 719,
+          "height": 709,
+          "sha256": "11fed72a08672072c1910a1636796b6394cee16a494f1e87b92ec1533a2e17ed",
+          "bytes": 50963,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw00655/rw00655-2-large-transparent-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f2b3d4441906867df692028b9e3c81444ef2b74ccd1ee8c133a716c2674a249e",
+          "bytes": 80492,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw00655/rw00655-3-large-transparent-gummy-bear-resin-cabochons-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e55aa2f169cc842e3908c10b21936e840ad862754c74caf7f7881891d1995069",
+          "bytes": 98518,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX220",
+      "operation": "new",
+      "sourceRow": 227,
+      "sourceFields": {
+        "sku": "YX220",
+        "标题": "Wholesale Leaf Polymer Clay Sprinkles Custom Mini Blossom Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "3.5*6mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX220.png",
+          "sha256": "bea6e532dc734ff7b28a8c375bde5ea365885c24d7955871396530a9ebd79807"
+        }
+      ],
+      "pdp": "p-yx220.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx220/yx220-1-flower-and-leaf-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 741,
+          "height": 715,
+          "sha256": "8f1b360c6cf55517096870a9f16cf93d035acd343a1d91ed1d0e46413794229c",
+          "bytes": 117501,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx220/yx220-2-flower-and-leaf-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "20ca29fbbb6855f34317093ff95c732dabc55b5508b9dc0791e824be031ec2ef",
+          "bytes": 109377,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx220/yx220-3-flower-and-leaf-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c3bf37dcacaaa82a1bc999e7e698e2d33eea48b146492fecb9331c5ec9e38f4",
+          "bytes": 128794,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "SLM10005",
+      "operation": "new",
+      "sourceRow": 228,
+      "sourceFields": {
+        "sku": "SLM10005",
+        "标题": "1000g Mixed Cartoon  Bears Rabbits Slices Polymer Clay Sprinkles for DIY Craft Slime Filling Nails Art Decor Accessories",
+        "分类": "slime",
+        "状态": "库存有货",
+        "材质": "polymer clay,resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "SLM10005 .png",
+          "sha256": "11496139f86d1ed36b18a9081fefb1e7a4282762729df7955dda6e9a04e0ddc7"
+        }
+      ],
+      "pdp": "p-slm10005.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/slm10005/slm10005-1-pastel-animal-slime-charm-mix-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 754,
+          "height": 706,
+          "sha256": "17d213477ef55de642edfe695574ddb451bfb5a6c555ca1d45de8420c19f7a17",
+          "bytes": 67001,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/slm10005/slm10005-2-pastel-animal-slime-charm-mix-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ad93adc74be05f6e32e13a4987f5db64dd224b7747f7f6db39215189dd0c40a0",
+          "bytes": 88312,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/slm10005/slm10005-3-pastel-animal-slime-charm-mix-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4278994992565ebdb1b6a6972dfd965caaeccfb86328c9ba1239a3fe106971c8",
+          "bytes": 100603,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX270",
+      "operation": "new",
+      "sourceRow": 229,
+      "sourceFields": {
+        "sku": "YX270",
+        "标题": "Wholesale Oval Polymer Clay Sprinkles Custom Mini Pattern Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX270.png",
+          "sha256": "01e8676bec5eafb298a5eb29297a5891a6af4b7dfe53fd171a87d4ceffd31740"
+        }
+      ],
+      "pdp": "p-yx270.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx270/yx270-1-green-oval-pattern-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 731,
+          "height": 718,
+          "sha256": "3c56900e8227e1d0b9454e88a5148d2b203fe6814fd7d70192e25d21b69257e9",
+          "bytes": 79921,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx270/yx270-2-green-oval-pattern-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "154284f0e74e479d75c43b72b848b44ece9954e61f0d2245d1603b5cdd7927dd",
+          "bytes": 92385,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx270/yx270-3-green-oval-pattern-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c0d8bd85f342548c3927f881792bf25201f584a12b30a13a9aee63689da1f9e9",
+          "bytes": 110247,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX286",
+      "operation": "new",
+      "sourceRow": 230,
+      "sourceFields": {
+        "sku": "YX286",
+        "标题": "Wholesale Heart Polymer Clay Sprinkles Custom Mini Heart Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX286 .png",
+          "sha256": "18fd215f1cea44ebd2ed35ef778113d7f144b7de955258a7ec21a42c97b869f3"
+        }
+      ],
+      "pdp": "p-yx286.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx286/yx286-1-pink-heart-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 686,
+          "height": 651,
+          "sha256": "5981158de2f99c78026211419eeefc0869b60efd38c1406fed9a3f50f03cb31a",
+          "bytes": 53957,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx286/yx286-2-pink-heart-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5d2c9acf7e99d2847436d32def71020341af5778eebc77899200c8c8668aa854",
+          "bytes": 85031,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx286/yx286-3-pink-heart-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fc3d42c6077461e0fb76ce0528db59e284768989d4ad62d0e5cc37467c7c0988",
+          "bytes": 98981,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX254",
+      "operation": "new",
+      "sourceRow": 231,
+      "sourceFields": {
+        "sku": "YX254",
+        "标题": "Wholesale Teardrop Polymer Clay Sprinkles Custom Mini Gradient Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX254.png",
+          "sha256": "326989924f1079d3f860701ab249a43a2f50821c38c24954fb49bf2c2b16c6f9"
+        }
+      ],
+      "pdp": "p-yx254.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx254/yx254-1-colorful-shell-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 692,
+          "height": 682,
+          "sha256": "96d61c92434e2dd6e480fe9403bdff5f23d1f600b7205505b64e86fb911e6e38",
+          "bytes": 65015,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx254/yx254-2-colorful-shell-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c4dd73f94077fd94a57ebe0a5bb22c18988058b8cee8f3ba4175db25a2330aa1",
+          "bytes": 91691,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx254/yx254-3-colorful-shell-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a9330f036173cab5f2f65c5d89d6b99e6de2a8472fee17de2c33ed649223b60d",
+          "bytes": 105249,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX267",
+      "operation": "new",
+      "sourceRow": 232,
+      "sourceFields": {
+        "sku": "YX267",
+        "标题": "Wholesale Bow Polymer Clay Sprinkles Custom Mini Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX267.png",
+          "sha256": "c6e98a8301288a202599513e40d77f0bfa9249db5139833aef3999f06ed56f3d"
+        }
+      ],
+      "pdp": "p-yx267.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx267/yx267-1-bow-character-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "supplied product reference",
+          "width": 692,
+          "height": 623,
+          "sha256": "5842ac533182fe25db7d54ef569b52891a5f93a0e9ffc768973bbf8c021ac51a",
+          "bytes": 66531,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx267/yx267-2-bow-character-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "694075a1df3e742cd2bc9d93b5a1c0e4a7b00fcff8dd75b5a0d2abed392f21a8",
+          "bytes": 90219,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx267/yx267-3-bow-character-polymer-clay-sprinkles-20261019-afternoon.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f8ea86c8582e26fe75ec206059c6073432de9adc306e4f3c03b2f6865eb8fa80",
+          "bytes": 102393,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    }
+  ]
+}
