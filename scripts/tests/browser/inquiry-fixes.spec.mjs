@@ -304,14 +304,14 @@ test('reply validation, attachment limit and preview submission guards remain ef
   expect(await basketSkus(page)).toEqual([firstSku]);
 });
 
-test('all 416 catalog groups and exact RW26808/RW20809 searches remain available', async ({ page }) => {
-  expect(catalog.totalProducts).toBe(416);
-  expect(products).toHaveLength(416);
+test('all 417 catalog groups and exact RW26808/RW20809 searches remain available', async ({ page }) => {
+  expect(catalog.totalProducts).toBe(417);
+  expect(products).toHaveLength(417);
   await page.goto('products.html', { waitUntil: 'domcontentloaded' });
   const response = await page.request.get('assets/data/product-catalog.json');
   expect(response.ok()).toBe(true);
   const browserCatalog = await response.json();
-  expect(browserCatalog.categories.flatMap(category => category.products)).toHaveLength(416);
+  expect(browserCatalog.categories.flatMap(category => category.products)).toHaveLength(417);
   for (const sku of [firstSku, secondSku]) {
     await page.locator('[data-catalog-search]').fill(sku);
     const result = page.locator('[data-search-results] .product-card').first();
