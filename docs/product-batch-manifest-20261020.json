@@ -1,0 +1,817 @@
+{
+  "batchId": "qula-products-20261020",
+  "baselineCommit": "22f959d706e8bb4094ea407caf37cc0fc1ef9115",
+  "newProductCount": 14,
+  "updatedProductCount": 1,
+  "catalogCountBefore": 447,
+  "catalogCountAfter": 461,
+  "imageCount": 46,
+  "sourceWorkbook": "10.11(20261020-110908).xlsx",
+  "products": [
+    {
+      "sku": "MA173",
+      "operation": "new",
+      "sourceRow": 248,
+      "sourceFields": {
+        "sku": "MA173 ",
+        "标题": "Mini Dog Bone Confetti Nails Glitter Sequins DIY Sewing Accessories for Slime Crafts & Nail Art Decoration Party Supplies",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "Plastic Sequins",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA173 .png",
+          "sha256": "53386bd5934eabcffb73b8f06ad0c5721d4dabf4fc90c9f0a34670c90359e11b"
+        }
+      ],
+      "pdp": "p-ma173.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma173/ma173-1-dog-bone-confetti-sequins-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 438,
+          "height": 458,
+          "sha256": "cb912ced0f13489d09259235147d91d283e69644d11759a4335b5667dd8cb13e",
+          "bytes": 51602,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma173/ma173-2-dog-bone-confetti-sequins-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "113af385bcc76eb706f8b8cf69864a30418ef00643886c4dacb95f77cdfcb672",
+          "bytes": 106758,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ma173/ma173-3-dog-bone-confetti-sequins-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f44feec3b70baf006b85caf78c4663ea24051798c586fd3344ab876a2dbbc6cb",
+          "bytes": 121698,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA182",
+      "operation": "new",
+      "sourceRow": 246,
+      "sourceFields": {
+        "sku": "MA182 ",
+        "标题": "Nail Art Star Sequins Confetti  Balloon Supplies Christmas Tree Props Gift Box DIY Wedding Birthday Party Table Decoration",
+        "分类": "Sequins Confetti",
+        "状态": "库存有货",
+        "材质": "PVC",
+        "尺寸": "about    8mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA182-1 .png",
+          "sha256": "39e17b0a81f8e5c1ddd068c40bc9b7991d18995c34b69a3fa624bd7e64010260"
+        },
+        {
+          "file": "MA182 -2.png",
+          "sha256": "90ef92a28c7e2a986e544a8bbb921b5832abb6c4cc9d78aceab7391a13367700"
+        },
+        {
+          "file": "MA182-3.png",
+          "sha256": "6dea47bc75b069ed66096b05a70b7f1ef9b401f4cdcb5080996e02072ca40bad"
+        },
+        {
+          "file": "MA182-4.png",
+          "sha256": "74a4e90ff541a3c7a1d1fabca867df675993d4a37027025592f5cfcb085c4bef"
+        }
+      ],
+      "pdp": "p-ma182.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma182/ma182-1-holographic-star-confetti-sequins-20261020.jpg",
+          "role": "clear star sequins reference",
+          "width": 470,
+          "height": 494,
+          "sha256": "90890d9753b1e3f670aa16c0b525fe27ec0cee1210ee47230ab04b89771779ed",
+          "bytes": 50533,
+          "origin": "owner-supplied color reference"
+        },
+        {
+          "path": "assets/images/pdp/ma182/ma182-2-holographic-star-confetti-sequins-20261020.jpg",
+          "role": "pink star sequins reference",
+          "width": 528,
+          "height": 520,
+          "sha256": "c2e7f7ae16bc9c559a7185c29bc068f970bf6822db47637f4001cb2600a547ac",
+          "bytes": 65505,
+          "origin": "owner-supplied color reference"
+        },
+        {
+          "path": "assets/images/pdp/ma182/ma182-3-holographic-star-confetti-sequins-20261020.jpg",
+          "role": "yellow star sequins reference",
+          "width": 417,
+          "height": 376,
+          "sha256": "aec8df5613e3e90e9488a95b88bec2b1b46464ec20b12b2e1cef3908fd803f5f",
+          "bytes": 32119,
+          "origin": "owner-supplied color reference"
+        },
+        {
+          "path": "assets/images/pdp/ma182/ma182-4-holographic-star-confetti-sequins-20261020.jpg",
+          "role": "blue star sequins reference",
+          "width": 339,
+          "height": 369,
+          "sha256": "ea4b2abf9800a5cde5fbe413a43fe1a31cb2257cf85d51f55a77c4a791cf79ba",
+          "bytes": 35414,
+          "origin": "owner-supplied color reference"
+        }
+      ]
+    },
+    {
+      "sku": "RW443",
+      "operation": "new",
+      "sourceRow": 243,
+      "sourceFields": {
+        "sku": " RW443 ",
+        "标题": "New Arrive  19mm  26mm  Flatback  White Christmas Resin Snowflake With Glitter Powder  Scrapbooking Craft DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19mm,26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW443.png",
+          "sha256": "8266cfc470f6cc74763544efa386afca2ee98dae86c3915593f09c3191184d47"
+        }
+      ],
+      "pdp": "p-rw443.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw443/rw443-1-white-glitter-snowflake-resin-charms-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 419,
+          "height": 369,
+          "sha256": "ce85da8241cbb801a0ec010bb3bd18bd525e6f334622295cca4879f70d1926b9",
+          "bytes": 26906,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw443/rw443-2-white-glitter-snowflake-resin-charms-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "83cbc2bbb41ba47f0fb9e518ab81f9935482afd465f4a6e08891df970a8f7b05",
+          "bytes": 72597,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw443/rw443-3-white-glitter-snowflake-resin-charms-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cdc384089551c50923414a531660bdc5c7890f7bdf6275b8744cc922c0b5cc7d",
+          "bytes": 89903,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW001744",
+      "operation": "new",
+      "sourceRow": 242,
+      "sourceFields": {
+        "sku": "RW001744 ",
+        "标题": "Kawaii FlatBack Red Color Love Heart Cabochon Charms  DIY Shoes Hat Mobile Phone Case Decor Clothes Scrapbook Flat Back Resin",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW001744 .png",
+          "sha256": "f7a72f38d7a4421ec7f4396af372fa7e85d8a27035e313a4ea1b7e4aa24db035"
+        }
+      ],
+      "pdp": "p-rw001744.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw001744/rw001744-1-red-love-heart-resin-flatback-charms-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 734,
+          "height": 665,
+          "sha256": "a9759af2cee0d40f54703adefe78e18aa99a1932f4da2ee851ea2bf5a1b45b86",
+          "bytes": 69693,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw001744/rw001744-2-red-love-heart-resin-flatback-charms-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "728bd4c46fc09a6fe95ed6556649d32a135174b53c3aa0323d2df2c30ebee562",
+          "bytes": 88815,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw001744/rw001744-3-red-love-heart-resin-flatback-charms-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "04e46410f6e2c08f02f46b1e561782ff9c5591ec3f926232b1c55c285ce0ce2f",
+          "bytes": 105682,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW2419",
+      "operation": "new",
+      "sourceRow": 237,
+      "sourceFields": {
+        "sku": "RW2419 ",
+        "标题": "Cute Pastel Gummy  Bear Flatback Resin Cabochon Charms DIY Hair Accessories Scrapbooking Craft Phone Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 10*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW2419 .png",
+          "sha256": "09c1252023fff13af688115e18cd622d0ed09395913f9f47a377a8e65b1bcfe6"
+        }
+      ],
+      "pdp": "p-rw2419.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2419/rw2419-1-pastel-gummy-bear-resin-flatback-charms-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 432,
+          "height": 482,
+          "sha256": "9317a0cc8d311d5720517f3eb6047924008a2869c1ac00d317b8b1ff0c971d4f",
+          "bytes": 38375,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw2419/rw2419-2-pastel-gummy-bear-resin-flatback-charms-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ec35667e18628c09526ce5c3f38c7a9da4968ed33362d0282db82ea69115fc26",
+          "bytes": 92904,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw2419/rw2419-3-pastel-gummy-bear-resin-flatback-charms-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e15f81a7f5b1b6847a439a6b800605c0f420823549b28b2ea871723c2baedcc3",
+          "bytes": 110371,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW20969",
+      "operation": "new",
+      "sourceRow": 245,
+      "sourceFields": {
+        "sku": "RW20969",
+        "标题": "Glitter Gradient Heart Flatback Resin Cabochon Kawaii Decoration Crafts Embellishments for Scrapbooking DIY Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "Rubber",
+        "尺寸": "about 30mm ",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20969.png",
+          "sha256": "bee8fa88a9d306fca1873a6b304d93c1945044833dbf0043de60dbb0dc5df3be"
+        }
+      ],
+      "pdp": "p-rw20969.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20969/rw20969-1-glitter-gradient-heart-flatback-craft-charms-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 550,
+          "height": 614,
+          "sha256": "722971fac39f57ed19d6946d43ef5500257515575623409d7656d1c91d0d5481",
+          "bytes": 96134,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw20969/rw20969-2-glitter-gradient-heart-flatback-craft-charms-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0d7323ad4f5896c428df5f9d3cdcbe0029d48c2a8177e71f72c3c26f755b2942",
+          "bytes": 132449,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw20969/rw20969-3-glitter-gradient-heart-flatback-craft-charms-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "13f18a29386783c7f31f982b442698c8d5bd9a00cdcfb111181dfd2ccc009d34",
+          "bytes": 149020,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RX268",
+      "operation": "new",
+      "sourceRow": 241,
+      "sourceFields": {
+        "sku": "RX268",
+        "标题": "Resin Love Peach Sugar Hollow  Heart Soft Candy Resin Patch DIY Handmade Jewelry Making Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RX268.png",
+          "sha256": "13c2a2d726629f067b9b23f328f4f87e39b47ef0287255aeaaf61c03d4020a50"
+        }
+      ],
+      "pdp": "p-rx268.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rx268/rx268-1-sugar-finish-hollow-heart-resin-charms-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 620,
+          "height": 622,
+          "sha256": "af06f26bcb3e9bad3911e0042b1dffe4ec2525878b8f50b07c7fc934bd954d6d",
+          "bytes": 81332,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rx268/rx268-2-sugar-finish-hollow-heart-resin-charms-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bcdc24b98d33088c462c97317d7a6d04f09fe1a0204cc97a564718badd9a69be",
+          "bytes": 114852,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rx268/rx268-3-sugar-finish-hollow-heart-resin-charms-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "184e69f18c3d3ab652d18db2f22479ae893eab85ce9ad80b5fb8f8b16c9bd1e3",
+          "bytes": 125441,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RX399",
+      "operation": "update",
+      "sourceRow": 244,
+      "sourceFields": {
+        "sku": "RX399 ",
+        "标题": "Mini Dinosaur Children's Educational Toys Small Simulation Animal Figures Kids Toys for Boy Gift",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "Rubber",
+        "尺寸": "about  40-70mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RX399 .png",
+          "sha256": "5e2e33ac578cd0c3150e97b455350c11012d3c0f1e8af900191b3b42a12ee793"
+        }
+      ],
+      "pdp": "p-rx399.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rx399/rx399-1-mini-dinosaur-figures-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 731,
+          "height": 729,
+          "sha256": "4e5e54eb975928cb6ae487d2d131ecdc37e28d5247b5061dc4ed1139df149234",
+          "bytes": 150865,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rx399/rx399-2-mini-dinosaur-figures-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0c314ce1c4593943e5f79f6a1b1df4210617126cb8c350ef3b056793964b26c9",
+          "bytes": 130295,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rx399/rx399-3-mini-dinosaur-figures-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1ddea401799c947bfb46d1d74bf399c85470c95cac02db75181f77c3a405e396",
+          "bytes": 146958,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "SLM10120",
+      "operation": "new",
+      "sourceRow": 233,
+      "sourceFields": {
+        "sku": "SLM10120 ",
+        "标题": "Polymer Hot Clay Sprinkles Lovely Moon Star Mixed Resin Moon Charms for Crafts Making, DIY Confetti Scrapbook",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "SLM10120.png",
+          "sha256": "9675f849b628f1663bc8cd5c91813d20a9eefc9a74cce6202038fae5e53df228"
+        }
+      ],
+      "pdp": "p-slm10120.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/slm10120/slm10120-1-moon-and-star-decorative-filler-mix-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 640,
+          "height": 590,
+          "sha256": "d3946517e4078f31945b8e68eb9338031b31646bf0b31c4053a7eb703b781e53",
+          "bytes": 76219,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/slm10120/slm10120-2-moon-and-star-decorative-filler-mix-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "698cf224ce12f8400a0cfb967bd154041d8281a38d71b16c651e8159e7ff218d",
+          "bytes": 104329,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/slm10120/slm10120-3-moon-and-star-decorative-filler-mix-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3fdb962c9c3a7039b7d730a711264ca9c052f9d6c72e51665b7a20b934e03fce",
+          "bytes": 115388,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YA459",
+      "operation": "new",
+      "sourceRow": 247,
+      "sourceFields": {
+        "sku": "YA459",
+        "标题": "Gradient Shiny Beads Charms Love Heart Acrylic Beads to Making Bracelets Spacer Beads for Jewelry Making Diy Accessories",
+        "分类": "pen beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "12*17*6mm",
+        "孔径": "有",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YA459.png",
+          "sha256": "1cfd705b64151ca3e679d05cf132f4f4453b3cea5dfbb121fdd6e9f125084af3"
+        }
+      ],
+      "pdp": "p-ya459.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ya459/ya459-1-gradient-heart-acrylic-beads-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 447,
+          "height": 483,
+          "sha256": "ae1d0791e9f552a9f044511f3e5a53698c1ba58f59ae58efb0b18752c8909611",
+          "bytes": 34350,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ya459/ya459-2-gradient-heart-acrylic-beads-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "83a3e519132d8c382a645b07a990bf251f08b35ad4051d607add10d6d44f0c34",
+          "bytes": 88087,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ya459/ya459-3-gradient-heart-acrylic-beads-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4c3d3322d21443ff7038c0817fb57e297b2febf6e9cec2201a0d162eb22c9d1a",
+          "bytes": 97860,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YM381",
+      "operation": "new",
+      "sourceRow": 240,
+      "sourceFields": {
+        "sku": "YM381",
+        "标题": "Colorful Acrylic Transparent Stones Flat Back Games Scrapbooking Fit DIY Embellishments Accessories",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "12*17*6mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YM381.png",
+          "sha256": "cd3749c1566cf64d0331d6947d56e7273f47db4aa61625233b27186865a4fc18"
+        }
+      ],
+      "pdp": "p-ym381.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ym381/ym381-1-colorful-acrylic-oval-flatback-craft-stones-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 701,
+          "height": 600,
+          "sha256": "8bdf3dcd20de9986a5e18b069196ad0cb0618e8179306655bcac10f881063da6",
+          "bytes": 41156,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ym381/ym381-2-colorful-acrylic-oval-flatback-craft-stones-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c357766796201ffb69c34ca9b1d7a6c1f2cfa81d55c0f5243af5ff5076560af",
+          "bytes": 75164,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ym381/ym381-3-colorful-acrylic-oval-flatback-craft-stones-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "47b6fa16dee5b84024d8c39bc05a42cfe4ec7d6203a742f12804eb9f76483b2d",
+          "bytes": 92306,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YQ039",
+      "operation": "new",
+      "sourceRow": 238,
+      "sourceFields": {
+        "sku": "YQ039",
+        "标题": "10mm Hotfix Bling Acrylic Pointback Flower Rhinestone Buttons Artificial Plastic Decorative  Strass Beads",
+        "分类": "acrylic  beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "10mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YQ039.png",
+          "sha256": "a6484d92e0f501b12836502b491e96f158a15bf68364e1032a1354521bb56714"
+        }
+      ],
+      "pdp": "p-yq039.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yq039/yq039-1-colorful-acrylic-flower-rhinestone-embellishments-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 721,
+          "height": 612,
+          "sha256": "506a680ba943b400ee7747d2aaf7288cf039ba30c10eb1b81903c8a426d9381d",
+          "bytes": 60322,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yq039/yq039-2-colorful-acrylic-flower-rhinestone-embellishments-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7a087e8d48bbf22fb1add1eaae5dea5ad3dd2596bd1995d0a4e3afac4c24745e",
+          "bytes": 84158,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yq039/yq039-3-colorful-acrylic-flower-rhinestone-embellishments-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a9bb785386c4a8c9595b5e74903410c0fe6de621553cfd7c387d51adbf5d79eb",
+          "bytes": 97310,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX4156",
+      "operation": "new",
+      "sourceRow": 235,
+      "sourceFields": {
+        "sku": "YX4156 ",
+        "标题": "Butterfly Flower Leaf Citrus Decorative Sprinkles Mix for Slime DIY Crafts Wholesale",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX4156 .png",
+          "sha256": "31e86198e90a043c4e174bc218c4b6abd2af6e0959844a60bc1eee1a911f7e38"
+        }
+      ],
+      "pdp": "p-yx4156.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx4156/yx4156-1-butterfly-flower-citrus-decorative-sprinkle-mix-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 731,
+          "height": 693,
+          "sha256": "4d6286b90e1336574752ed4f5b19b1731175ed6a5f605371a88c491c7ece63f6",
+          "bytes": 149310,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx4156/yx4156-2-butterfly-flower-citrus-decorative-sprinkle-mix-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ee9687a20bf5754bf339ad7e84623ebc3f1aec86f4a7ec4961f637be56387180",
+          "bytes": 140017,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx4156/yx4156-3-butterfly-flower-citrus-decorative-sprinkle-mix-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "07bbae75b93d0e150156f949015426525d122dc4d9e4819e2422c07cf49b18a1",
+          "bytes": 151640,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX4157",
+      "operation": "new",
+      "sourceRow": 236,
+      "sourceFields": {
+        "sku": "YX4157 ",
+        "标题": "Purple Flower Green Leaf Decorative Sprinkles Mix for Slime DIY Crafts Wholesale Supply",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX4157 .png",
+          "sha256": "f24f2140a390b7ef2b797395a697e406074f05070d137cd1b8e8b8fd3d922ce9"
+        }
+      ],
+      "pdp": "p-yx4157.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx4157/yx4157-1-purple-flower-leaf-decorative-sprinkle-mix-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 711,
+          "height": 617,
+          "sha256": "9c2d1740dca9f6bb6297e7e00c3fe0fee79c25098f53c865262c400e91130819",
+          "bytes": 126442,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx4157/yx4157-2-purple-flower-leaf-decorative-sprinkle-mix-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f14462d79d48ba3cc3e070253944acffe175aaf85507ef05e236cb6bbdb4eb2a",
+          "bytes": 129814,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx4157/yx4157-3-purple-flower-leaf-decorative-sprinkle-mix-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f24ad5342d97af1ffa634159ce4dca18db6045e7d35898c9cbaa8da831336ea1",
+          "bytes": 141737,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX4158",
+      "operation": "new",
+      "sourceRow": 234,
+      "sourceFields": {
+        "sku": "YX4158 ",
+        "标题": "Apple Daisy Mushroom Green Leaf Decorative Mix for Slime DIY Crafts Wholesale Supply",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX4158 .png",
+          "sha256": "4f4a87adfc34b52cf34b03437c2f6bdc54ae5261bfa1d2345fafe82095defafa"
+        }
+      ],
+      "pdp": "p-yx4158.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx4158/yx4158-1-apple-daisy-mushroom-decorative-sprinkle-mix-20261020.jpg",
+          "role": "supplied product reference",
+          "width": 690,
+          "height": 666,
+          "sha256": "2e7c2e834ac2e174c1b66758e4910b4aac7f9afa73cf9b451e4bc028ee1b16b3",
+          "bytes": 106634,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx4158/yx4158-2-apple-daisy-mushroom-decorative-sprinkle-mix-20261020.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9b1c1772152c24d1b4127c335d10c8ca065bb9dd0e2050e7640cf409912533fd",
+          "bytes": 123300,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx4158/yx4158-3-apple-daisy-mushroom-decorative-sprinkle-mix-20261020.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3fa995b6c78fd59faa4c2da1fa5b1081bb00a95c1adfbe60a6dcc20266d48011",
+          "bytes": 134393,
+          "origin": "source-based packing graphic"
+        }
+      ]
+    }
+  ],
+  "sourceWorkbookSha256": "fef873a88c97cccc68a9457c5a38ccb4fa57d93545ede69aeb8c7d0994e8746e",
+  "unchangedExistingSkus": [
+    "RW24359"
+  ]
+}
