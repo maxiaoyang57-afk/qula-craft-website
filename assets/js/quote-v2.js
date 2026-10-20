@@ -80,7 +80,17 @@
         }
         
         document.getElementById('hiddenSku').value = pSku || '';
-        document.getElementById('hiddenUrl').value = params.get('entry_page')?.startsWith('/') && !params.get('entry_page').startsWith('//') ? new URL(params.get('entry_page'), 'https://www.qulacrafts.com').href : window.location.href;
+        let sourceUrl = window.location.href;
+        const entryPage = params.get('entry_page');
+        if (entryPage?.startsWith('/') && !entryPage.startsWith('//')) {
+          try {
+            const candidate = new URL(entryPage, 'https://www.qulacrafts.com');
+            if (candidate.origin === 'https://www.qulacrafts.com') sourceUrl = candidate.href;
+          } catch {
+            // A bad source parameter must not interrupt the form's submit guards.
+          }
+        }
+        document.getElementById('hiddenUrl').value = sourceUrl;
         
         const productSelect = form.querySelector('select[name="product"]');
         if (productSelect) {
