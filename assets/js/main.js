@@ -125,7 +125,17 @@
 // 询盘篮 Quote Basket(localStorage,多SKU一次询价)
 (function(){
   const KEY='qcBasket';
-  const load=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return[];}};
+  const load=()=>{
+    try{
+      const stored=JSON.parse(localStorage.getItem(KEY)||'[]');
+      if(!Array.isArray(stored))return[];
+      const seen=new Set();
+      return stored.filter(item=>{
+        if(!item||typeof item.sku!=='string'||!item.sku.trim()||seen.has(item.sku))return false;
+        seen.add(item.sku);return true;
+      }).map(item=>({sku:item.sku,image:typeof item.image==='string'?item.image:''}));
+    }catch(e){return[];}
+  };
   const save=l=>localStorage.setItem(KEY,JSON.stringify(l));
   // 浮动篮 chip(全站)
   const chip=document.createElement('a');

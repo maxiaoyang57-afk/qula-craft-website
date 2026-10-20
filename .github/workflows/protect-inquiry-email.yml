@@ -21,6 +21,10 @@ jobs:
           node-version: 20
       - name: Verify inquiry routing
         run: node scripts/check-inquiry-email.mjs
+      - name: Verify saved inquiry selections
+        run: |
+          node scripts/tests/check-inquiry-basket-storage.mjs
+          node scripts/tests/check-inquiry-basket-sync.mjs
       - name: Verify protected products
         run: node scripts/check-required-products.mjs
       - name: Verify SEO and batch image integrity
