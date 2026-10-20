@@ -145,7 +145,7 @@ if (process.argv[2] === '--live') {
   }
   for (const page of ['index.html', 'quote.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/quote-v2.js?v=20261014-lead-safe')) {
+    if (!html.includes('assets/js/quote-v2.js?v=20261020-entry-safe')) {
       fail([`${page} must load the preview-safe quote script version`]);
     }
   }

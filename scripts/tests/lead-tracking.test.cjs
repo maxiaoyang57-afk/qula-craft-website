@@ -54,6 +54,28 @@ async function leads(page) {
   return page.evaluate(() => (window.dataLayer || []).filter(e => e[0] === 'event' && e[1] === 'generate_lead').map(e => e[2]));
 }
 
+for (const entryPage of ['/\\[', '/\\outside.example/path', '/p-ya893.html?ref=guide#details']) {
+  test('quote source URL stays local and preserves preview guards: ' + entryPage, async () => {
+    const f = await fixture('qula-test.vercel.app');
+    const errors = [];
+    f.page.on('pageerror', error => errors.push(error.message));
+    try {
+      const params = new URLSearchParams({ sku: 'YA893', product: 'Test product', entry_page: entryPage });
+      const quoteUrl = f.origin + '/quote.html?' + params;
+      await f.page.goto(quoteUrl);
+      assert.deepEqual(errors, []);
+      assert.equal(await f.page.locator('#inquiryForm').evaluate(form => typeof form.onsubmit), 'function');
+      const expected = entryPage.startsWith('/p-') ? 'https://www.qulacrafts.com' + entryPage : quoteUrl;
+      assert.equal(await f.page.locator('#hiddenUrl').inputValue(), expected);
+      assert.equal(await fillAndSubmit(f.page), true);
+      assert.equal(await f.page.evaluate(() => window.__nativePosts.length), 0);
+      assert.equal(f.blocked.includes('formsubmit.co'), false);
+      assert.equal((await leads(f.page)).length, 0);
+      assert.match(await f.page.locator('body').innerText(), /Preview validation passed/);
+    } finally { await f.context.close(); }
+  });
+}
+
 for (const pathname of ['/quote.html','/index.html','/contact.html','/customization.html']) {
   test('preview isolates email and GA4: ' + pathname, async () => {
     const f = await fixture('qula-test.vercel.app');
