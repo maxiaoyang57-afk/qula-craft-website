@@ -89,6 +89,27 @@ async function assertNoSend(page) {
   expect(await page.evaluate(() => (window.dataLayer || []).filter(event => event[0] === 'event' && event[1] === 'generate_lead'))).toEqual([]);
 }
 
+test('malformed saved baskets do not interrupt adding products or opening the inquiry form', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('products.html', { waitUntil: 'domcontentloaded' });
+  for (const raw of ['{}', 'null', '[null]', '[1,true,{"sku":null}]']) {
+    await page.evaluate(value => localStorage.setItem('qcBasket', value), raw);
+    await page.goto(bySku(firstSku).pdp, { waitUntil: 'domcontentloaded' });
+    const add = page.locator(`.basket-add[data-sku="${firstSku}"]`).first();
+    await add.press('Enter');
+    await expect.poll(() => basketSkus(page)).toEqual([firstSku]);
+    await page.goto('quote.html', { waitUntil: 'domcontentloaded' });
+    await expect(page.locator('.basket-panel li')).toHaveCount(1);
+    await expect(page.locator('[name="message"]')).toHaveValue(new RegExp(firstSku));
+    await expectBodiesContain(page, [firstSku]);
+    await page.locator('.bp-clear').press('Enter');
+    await expect(page.locator('.basket-panel')).toHaveCount(0);
+  }
+  expect(errors).toEqual([]);
+  await assertNoSend(page);
+});
+
 test('static and search buttons support Tab, Enter, Space, deduplication, remove and clear', async ({ page }) => {
   await page.goto('resin-charms.html', { waitUntil: 'domcontentloaded' });
   expect(await page.locator('.basket-add').evaluateAll(buttons => buttons.every(button => button.tagName === 'BUTTON' && button.type === 'button'))).toBe(true);
