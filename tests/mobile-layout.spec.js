@@ -10,6 +10,8 @@ test.use({
 const baseURL = 'http://127.0.0.1:4173';
 
 const supplement = require('../docs/product-batch-manifest-20261016-supplement.json');
+const currentBatch = require('../docs/product-batch-manifest-20261021.json');
+const currentUpdates = new Map(currentBatch.products.filter(item => item.operation === 'update').map(item => [item.sku, item]));
 const supplementCatalog = require('../assets/data/product-catalog.json').categories.flatMap(category => category.products);
 
 for (const width of [360, 390, 768]) {
@@ -19,7 +21,8 @@ for (const width of [360, 390, 768]) {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.setViewportSize({ width, height: 900 });
     await page.route(/(?:formsubmit\.co|google-analytics\.com|clarity\.ms)/, route => route.abort());
-    for (const record of supplement.products) {
+    for (const historical of supplement.products) {
+      const record = currentUpdates.get(historical.sku) || historical;
       const product = supplementCatalog.find(item => item.sku === record.sku);
       await page.goto(baseURL + '/' + record.pdp, { waitUntil: 'domcontentloaded' });
       await expect(page.locator('h1')).toHaveText(product.title);
