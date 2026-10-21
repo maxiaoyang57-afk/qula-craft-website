@@ -88,7 +88,7 @@
   const results=document.querySelector('[data-search-results]');
   const countEl=document.querySelector('[data-search-count]');
   const catGrid=document.querySelector('.category-grid');
-  let items=null,tmr;
+  let items=null,loading=null,tmr,searchRevision=0;
   const ST={'With':1,'And':1,'For':1,'Of':1,'The':1,'A':1,'An':1,'In':1,'On':1,'Per':1,'By':1,'To':1};
   const clean=t=>{let w=t.replace('Wight','Weight').replace('Breads','Beads').replace('Artfcal','Artificial').split(' ');while(w.length&&ST[w[w.length-1]])w.pop();return w.join(' ');};
   function card(p){
@@ -100,14 +100,31 @@
   }
   async function load(){
     if(items)return items;
-    const j=await (await fetch('assets/data/product-catalog.json?v=20261018-extension')).json();
-    items=[];j.categories.forEach(c=>c.products.forEach(p=>items.push(p)));
-    return items;
+    // Every pending search can share one download without caching a failed request.
+    if(!loading)loading=(async()=>{
+      const response=await fetch('assets/data/product-catalog.json?v=20261018-extension');
+      if(!response.ok)throw new Error('Catalog unavailable');
+      const j=await response.json();
+      const loaded=[];j.categories.forEach(c=>c.products.forEach(p=>loaded.push(p)));
+      items=loaded;return items;
+    })().finally(()=>{loading=null;});
+    return loading;
   }
-  async function run(){
+  async function run(revision){
+    if(revision!==searchRevision)return;
     const q=sInput.value.trim().toLowerCase();
     if(!q){results.hidden=true;results.innerHTML='';if(catGrid)catGrid.style.display='';countEl.textContent='';return;}
-    const list=(await load()).filter(p=>{
+    let catalog;
+    try{catalog=await load();}
+    catch{
+      if(revision!==searchRevision)return;
+      results.hidden=true;results.innerHTML='';if(catGrid)catGrid.style.display='';
+      countEl.textContent='Search is temporarily unavailable. Please browse the categories or try again.';
+      return;
+    }
+    // Typing or clearing invalidates old results immediately, before the debounce.
+    if(revision!==searchRevision)return;
+    const list=catalog.filter(p=>{
       // A shorthand group such as RW337/285 must also be found as RW285.
       const prefix=(p.sku.match(/^[a-z]+/i)||[''])[0];
       const codes=p.sku.split('/').map(code=>/^\d+$/.test(code)?prefix+code:code).join(' ');
@@ -117,9 +134,14 @@
     results.hidden=false;if(catGrid)catGrid.style.display='none';
     countEl.textContent=list.length?('Showing '+list.length+' matching item'+(list.length>1?'s':'')):'No match — try a theme word like "pumpkin", "heart" or a SKU code';
   }
-  sInput.addEventListener('input',()=>{clearTimeout(tmr);tmr=setTimeout(run,160);});
+  sInput.addEventListener('input',()=>{
+    clearTimeout(tmr);
+    const revision=++searchRevision;
+    if(!sInput.value.trim())run(revision);
+    else tmr=setTimeout(()=>run(revision),160);
+  });
   const pre=new URLSearchParams(location.search).get('search');
-  if(pre){sInput.value=pre;run();}
+  if(pre){sInput.value=pre;run(++searchRevision);}
 })();
 
 // 询盘篮 Quote Basket(localStorage,多SKU一次询价)

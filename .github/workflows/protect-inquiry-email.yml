@@ -21,6 +21,8 @@ jobs:
           node-version: 20
       - name: Verify inquiry routing
         run: node scripts/check-inquiry-email.mjs
+      - name: Verify catalog search request ordering
+        run: node --test scripts/tests/catalog-search.test.mjs
       - name: Verify saved inquiry selections
         run: |
           node scripts/tests/check-inquiry-basket-storage.mjs
