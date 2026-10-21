@@ -329,3 +329,53 @@ for (const width of [375, 1440]) {
     }
   });
 }
+
+for (const width of [375, 414, 1440]) {
+  test(`homepage service cards navigate from their titles and descriptions at ${width}px`, async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.setViewportSize({ width, height: 900 });
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (!request.url().startsWith(baseURL + '/') || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+      return route.continue();
+    });
+    const services = [
+      ['Custom Shape', 'customization.html'],
+      ['Custom Mix', 'customization.html'],
+      ['Private Label', 'private-label-packaging.html'],
+      ['Sample Support', 'guide-samples-and-inspection.html'],
+      ['Export Ready', 'guide-importing-craft-supplies.html']
+    ];
+    for (const [label, destination] of services) {
+      await page.goto(baseURL + '/');
+      const cards = page.locator('.pcraft-service-grid').getByRole('link');
+      await expect(cards).toHaveCount(5);
+      const card = cards.filter({ has: page.getByRole('heading', { name: label, exact: true }) });
+      await expect(card).toHaveAttribute('href', destination);
+      await card.scrollIntoViewIfNeeded();
+      const box = await card.boundingBox();
+      expect(box.width).toBeGreaterThanOrEqual(44);
+      expect(box.height).toBeGreaterThanOrEqual(44);
+      expect(box.x).toBeGreaterThanOrEqual(0);
+      expect(right(box)).toBeLessThanOrEqual(width + 1);
+      await expectNoHorizontalOverflow(page);
+      if (width < 600) {
+        // Replay visitors tapped both the service title and the descriptive text.
+        await card.locator(width === 375 ? 'h2' : 'p').tap();
+      } else {
+        await page.keyboard.press('Tab');
+        await card.focus();
+        const focus = await card.evaluate(el => ({
+          style: getComputedStyle(el).outlineStyle,
+          width: parseFloat(getComputedStyle(el).outlineWidth)
+        }));
+        expect(focus.style).toBe('solid');
+        expect(focus.width).toBeGreaterThanOrEqual(3);
+        await card.press('Enter');
+      }
+      await expect(page).toHaveURL(baseURL + '/' + destination);
+      await expect(page.locator('h1')).toBeVisible();
+      await expectNoHorizontalOverflow(page);
+    }
+  });
+}
