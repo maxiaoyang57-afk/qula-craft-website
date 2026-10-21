@@ -723,18 +723,20 @@
           "role": "individual design YX3092",
           "width": 586,
           "height": 605,
-          "sha256": "7f3bffe08f08144b032d3c609f702eb671be01a68d6be15bce5d20edb58750d2",
-          "bytes": 137175,
-          "origin": "owner-supplied product reference"
+          "sha256": "f8b1e9dd8d281d7ebe1e481ccb6ba9ce6e05c7bf20467b30779e3f4a90ada4f3",
+          "bytes": 137157,
+          "origin": "owner-supplied product reference",
+          "metadataNote": "Resolution-only JFIF header omitted in the committed JPEG; encoded pixel stream is unchanged."
         },
         {
           "path": "assets/images/pdp/yx3092-yx3093-yx3094-yx3095/yx3092-yx3093-yx3094-yx3095-3-christmas-polymer-clay-sprinkle-mix-assortment-20261021.jpg",
           "role": "individual design YX3093",
           "width": 541,
           "height": 559,
-          "sha256": "e6b051bc3593c8a7001beb5097307e83a1eb4cdd40d68f085999b98731ff1f2e",
-          "bytes": 98138,
-          "origin": "owner-supplied product reference"
+          "sha256": "d81af05f971c366bf87d26ebe96b242b32c58111274f9f0bbf1d5b8fa6a8030d",
+          "bytes": 98120,
+          "origin": "owner-supplied product reference",
+          "metadataNote": "Resolution-only JFIF header omitted in the committed JPEG; encoded pixel stream is unchanged."
         },
         {
           "path": "assets/images/pdp/yx3092-yx3093-yx3094-yx3095/yx3092-yx3093-yx3094-yx3095-4-christmas-polymer-clay-sprinkle-mix-assortment-20261021.jpg",
