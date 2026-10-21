@@ -127,15 +127,21 @@ test('browser submit failure clears marker and preserves buyer input', async () 
   } finally { await f.context.close(); }
 });
 
-test('attachment rejection does not create a pending lead', async () => {
+test('a rejected attachment is not a lead and does not prevent a later explicit inquiry', async () => {
   const f = await fixture();
   try {
     await f.page.goto(f.origin + '/quote.html');
     await f.page.locator('.file-input-multi').setInputFiles({name:'too-large.png',mimeType:'image/png',buffer:Buffer.alloc(11*1024*1024)});
-    await fillAndSubmit(f.page);
+    assert.equal(await f.page.locator('.file-list .file-item').count(), 0);
     assert.equal(await f.page.evaluate(() => window.__nativePosts.length), 0);
     assert.equal(await f.page.evaluate(() => sessionStorage.getItem('qula_pending_inquiry_v1')), null);
     assert.equal((await leads(f.page)).length, 0);
+    await fillAndSubmit(f.page);
+    assert.equal(await f.page.evaluate(() => window.__nativePosts.length), 1);
+    assert.equal(await f.page.locator('[data-native-attachment]').count(), 0);
+    assert.notEqual(await f.page.evaluate(() => sessionStorage.getItem('qula_pending_inquiry_v1')), null);
+    assert.equal((await leads(f.page)).length, 0);
+    assert.equal(f.blocked.includes('formsubmit.co'), false);
   } finally { await f.context.close(); }
 });
 

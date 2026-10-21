@@ -18,7 +18,6 @@
     const fileInput = form.querySelector('.file-input-multi');
     const fileList = document.getElementById(config.fileListId);
     let attachments = [];
-    let attachmentError = '';
 
     const attachmentStatus = document.createElement('p');
     attachmentStatus.className = 'attachment-status';
@@ -38,12 +37,10 @@
     function updateAttachmentStatus(errorMessage) {
       if (!attachmentStatus) return;
       if (errorMessage) {
-        attachmentError = errorMessage;
         attachmentStatus.textContent = errorMessage;
         attachmentStatus.style.color = '#b42318';
         return;
       }
-      attachmentError = '';
       const total = totalAttachmentBytes(attachments);
       attachmentStatus.textContent = attachments.length
         ? `${attachments.length} file${attachments.length === 1 ? '' : 's'} selected · ${formatBytes(total)} of 10MB`
@@ -162,7 +159,7 @@
 
       const total = totalAttachmentBytes(nextAttachments);
       if (total > MAX_ATTACHMENT_BYTES) {
-        updateAttachmentStatus(`Files were not added: ${formatBytes(total)} exceeds the 10MB total limit.`);
+        updateAttachmentStatus(`Files were not added: ${formatBytes(total)} exceeds the 10MB total limit. You can send your request ${attachments.length ? 'with the files already listed' : 'without these files'}, or select smaller files.`);
         if (fileInput) fileInput.value = '';
         return;
       }
@@ -236,8 +233,9 @@
       const btn = form.querySelector('button[type="submit"]');
       const originalText = btn.innerHTML;
 
-      if (attachmentError || totalAttachmentBytes(attachments) > MAX_ATTACHMENT_BYTES) {
-        updateAttachmentStatus(attachmentError || 'Please keep all attachments within the 10MB total limit.');
+      // Only accepted attachments can block submission; a rejected selection is a notice.
+      if (totalAttachmentBytes(attachments) > MAX_ATTACHMENT_BYTES) {
+        updateAttachmentStatus('Please keep all attachments within the 10MB total limit.');
         return;
       }
 
