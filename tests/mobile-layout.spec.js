@@ -379,3 +379,69 @@ for (const width of [375, 414, 1440]) {
     }
   });
 }
+
+for (const width of [375, 1440]) {
+  for (const [path, formId] of [['quote.html', 'inquiryForm'], ['index.html', 'inquiryFormHome']]) {
+    test(`rejected oversized files do not block valid inquiries on ${path} at ${width}px`, async ({ page, context }) => {
+      await page.setViewportSize({ width, height: 900 });
+      await page.emulateMedia({ reducedMotion: 'reduce' });
+      const productionOrigin = 'https://www.qulacrafts.com';
+      const deliveryAttempts = [];
+      // Serve only local repository fixtures under a production-shaped origin.
+      // No request can reach FormSubmit, WhatsApp, analytics or the public site.
+      await context.route('**/*', async route => {
+        const request = route.request();
+        const url = new URL(request.url());
+        if (/formsubmit\.co$/i.test(url.hostname) || request.method() !== 'GET') deliveryAttempts.push(request.url());
+        if (url.origin !== productionOrigin || request.method() !== 'GET') return route.abort();
+        const response = await context.request.get(baseURL + url.pathname + url.search);
+        return route.fulfill({ response });
+      });
+      await page.addInitScript(() => {
+        window.__nativeInquirySnapshots = [];
+        HTMLFormElement.prototype.submit = function () {
+          const data = [...new FormData(this).entries()];
+          window.__nativeInquirySnapshots.push({
+            action: this.action,
+            message: data.find(([key]) => key === 'message')?.[1],
+            email: data.find(([key]) => key === 'email')?.[1],
+            next: data.find(([key]) => key === '_next')?.[1],
+            files: data.filter(([, value]) => value instanceof File && value.size > 0)
+              .map(([key, file]) => ({ key, name: file.name, size: file.size }))
+          });
+        };
+      });
+      for (const keepValidFile of [true, false]) {
+        await page.goto(productionOrigin + '/' + path);
+        const form = page.locator('#' + formId);
+        const message = 'Keep my complete request: 雪 & stars, 500 pcs.';
+        await form.locator('[name="message"]').fill(message);
+        await form.locator('[name="email"]').fill('attachment-test@example.com');
+        if (keepValidFile) {
+          await form.locator('.file-input-multi').setInputFiles({
+            name: 'accepted-reference.pdf', mimeType: 'application/pdf', buffer: Buffer.alloc(1024, 65)
+          });
+        }
+        await form.locator('.file-input-multi').setInputFiles({
+          name: 'rejected-too-large.pdf', mimeType: 'application/pdf', buffer: Buffer.alloc(11 * 1024 * 1024, 66)
+        });
+        await expect(form.locator('.attachment-status')).toContainText('exceeds the 10MB total limit');
+        await expect(form.locator('.file-list .file-item')).toHaveCount(keepValidFile ? 1 : 0);
+        await expect(form.locator('[name="message"]')).toHaveValue(message);
+        await form.locator('button[type="submit"]').click();
+        await expect.poll(() => page.evaluate(() => window.__nativeInquirySnapshots.length), { timeout: 2000 }).toBe(1);
+        const snapshot = await page.evaluate(() => window.__nativeInquirySnapshots[0]);
+        expect(snapshot.action).toBe('https://formsubmit.co/sales@qulacrafts.com');
+        expect(snapshot.message).toBe(message);
+        expect(snapshot.email).toBe('attachment-test@example.com');
+        expect(snapshot.next).toBe('https://qulacrafts.com/thank-you.html');
+        expect(snapshot.files).toEqual(keepValidFile
+          ? [{ key: 'attachment', name: 'accepted-reference.pdf', size: 1024 }]
+          : []);
+        expect(deliveryAttempts).toEqual([]);
+        expect(await page.evaluate(() => (window.dataLayer || [])
+          .filter(event => event[0] === 'event' && event[1] === 'generate_lead'))).toEqual([]);
+      }
+    });
+  }
+}
