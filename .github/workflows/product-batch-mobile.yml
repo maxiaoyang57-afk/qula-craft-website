@@ -13,7 +13,11 @@ permissions:
 jobs:
   products:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        width: [375, 414, 1440]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -31,10 +35,10 @@ jobs:
           npm install --no-save --package-lock=false @playwright/test@1.58.2
           npx playwright install --with-deps chromium
       - name: Test catalog, galleries and exact inquiry context
-        run: npx playwright test --config playwright.products.config.mjs
+        run: npx playwright test --config playwright.products.config.mjs --project width-${{ matrix.width }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: product-batch-browser-results
+          name: product-batch-browser-results-${{ matrix.width }}
           path: test-results/
           retention-days: 7
