@@ -1,0 +1,744 @@
+{
+  "batchId": "qula-products-20261022",
+  "baselineCommit": "8aa6ed947a86ec83a04b877535eeee14f2e18164",
+  "newProductCount": 12,
+  "updatedProductCount": 1,
+  "catalogCountBefore": 472,
+  "catalogCountAfter": 484,
+  "imageCount": 39,
+  "sourceWorkbook": "10.11(20261022-115054).xlsx",
+  "products": [
+    {
+      "sku": "RW26903",
+      "operation": "new",
+      "sourceRow": 262,
+      "sourceFields": {
+        "sku": "RW26903 ",
+        "标题": "Wholesale Resin Strawberry Half Decorations Mixed Colors for DIY Crafts and Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "21*15mm,30*21mm2种大小规格",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26903 .png",
+          "sha256": "0096f50066056a5ef68e816cfac4d656832066ac3db745a2caa529a8025a4279"
+        }
+      ],
+      "pdp": "p-rw26903.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26903/rw26903-1-strawberry-half-resin-decorations-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 767,
+          "height": 718,
+          "sha256": "8773910a36f7a30b1c015a9e8a92c9cf01cb372d069531c93805c4cff16f1989",
+          "bytes": 98648,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26903/rw26903-2-strawberry-half-resin-decorations-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b73203ae75c0ada1c12c0f81a057abbe18872ecf2881622a6ce8761c8c131845",
+          "bytes": 100640,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26903/rw26903-3-strawberry-half-resin-decorations-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a8926f674beff60a4bc65cf618a2e3e55e56a252d679fda21188658ed9c2cee0",
+          "bytes": 111178,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW004688",
+      "operation": "new",
+      "sourceRow": 263,
+      "sourceFields": {
+        "sku": "RW004688 ",
+        "标题": "Kawaii Cartoon Rabbit Strawberry Cup DIY Resin Flatback Accessories for Hairpin Phone Case Shoes Buckle Keychain Pendant",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about20*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW004688 .png",
+          "sha256": "36a5878cef3d000937cf92a14e3b46192a6c2eb7c8d2516c689996385de2b8ac"
+        }
+      ],
+      "pdp": "p-rw004688.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004688/rw004688-1-rabbit-strawberry-cup-resin-flatbacks-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 700,
+          "height": 711,
+          "sha256": "daed044e9a745d9699209ac12762532a44f54a682e2b571a187ecc29f9a56e75",
+          "bytes": 58615,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw004688/rw004688-2-rabbit-strawberry-cup-resin-flatbacks-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "58f887b31e4c2ad14fd39cb3a5a74a4c56d2fbed8a8d154770d1495141d37bb0",
+          "bytes": 83976,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw004688/rw004688-3-rabbit-strawberry-cup-resin-flatbacks-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c3c3174b2a8163d1bb5eec8be6797c0c9f522e4e6e5b5bd1a5296a4f7c77682b",
+          "bytes": 97125,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26878",
+      "operation": "new",
+      "sourceRow": 264,
+      "sourceFields": {
+        "sku": "RW26878 ",
+        "标题": "Wholesale Colorful Resin Butterfly Decorations for DIY Hair Accessories and Phone Cases",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25*27mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26878 .png",
+          "sha256": "996b5d048d64db802dad44afd801144161223d8b9d12585b536d6c083f8f088c"
+        }
+      ],
+      "pdp": "p-rw26878.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26878/rw26878-1-colorful-butterfly-resin-decorations-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 752,
+          "height": 747,
+          "sha256": "43ea465723b4e16542c7ace7705d83f1b9da12315287fd2fcef9a247536f6f6e",
+          "bytes": 112343,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26878/rw26878-2-colorful-butterfly-resin-decorations-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e52686c43b1e527144a611c858f0fc954f5b803dfe3f47b868a125a2d0caeb38",
+          "bytes": 106620,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26878/rw26878-3-colorful-butterfly-resin-decorations-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9deccc99be0b1a5a372e9ba5737117a6867b7c138f2fdc27d3eedf4825910cd3",
+          "bytes": 119845,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26877",
+      "operation": "new",
+      "sourceRow": 265,
+      "sourceFields": {
+        "sku": "RW26877 ",
+        "标题": "Wholesale Resin Fruit Decorations Mixed Designs for DIY Phone Cases and Hair Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26877 .png",
+          "sha256": "745995c89af3303ddd6e9c1c956831de0173eee6775ce40600ae03cb8503e567"
+        }
+      ],
+      "pdp": "p-rw26877.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26877/rw26877-1-mixed-fruit-resin-decorations-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 728,
+          "height": 732,
+          "sha256": "a33f6b3903e5eda5a5dffd9714d35f673345e94df42f1e89ef05b47782cf8920",
+          "bytes": 84983,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26877/rw26877-2-mixed-fruit-resin-decorations-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5d23eb8c0ea9f062a3259322059182d6e83851c4e1758dd6cef7ee504e5322d4",
+          "bytes": 96031,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26877/rw26877-3-mixed-fruit-resin-decorations-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0f3f2cf931e71bcf172d9f832d91d3fae4edf8ebaed589f0b34948ac24bf1391",
+          "bytes": 107718,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26876",
+      "operation": "new",
+      "sourceRow": 266,
+      "sourceFields": {
+        "sku": "RW26876",
+        "标题": "Wholesale Christmas Resin Snow Globe Style Decorations for Holiday Displays and Gifts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26876.png",
+          "sha256": "ef2cd79100823d5bc6ab51a7d97f7f2160a8922831a8bfc3f1f2d120ba798662"
+        }
+      ],
+      "pdp": "p-rw26876.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26876/rw26876-1-christmas-snow-globe-style-resin-decorations-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 745,
+          "height": 640,
+          "sha256": "5ab8def584ee65fb1009ef93e3108d24c06ae9f18b6e9bc1955cecaf5b255f5f",
+          "bytes": 82631,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26876/rw26876-2-christmas-snow-globe-style-resin-decorations-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e7e6116f8249bb31ea30f0bd96c3746efbbb507f16f04f4d33d016d7f048376f",
+          "bytes": 95260,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26876/rw26876-3-christmas-snow-globe-style-resin-decorations-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c056c6c38ac283ca8b11ca786fc77bccc41287ef2e875ef54be1fd0305f2083f",
+          "bytes": 106637,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26875",
+      "operation": "new",
+      "sourceRow": 267,
+      "sourceFields": {
+        "sku": "RW26875 ",
+        "标题": "Wholesale Pastel Resin Seashell Decorations with Star Details for DIY Craft Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 28*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26875 .png",
+          "sha256": "5d458a99ffbfdcac7beea6b77a6c393275ad20dcde68b298cafadb23b23cae14"
+        }
+      ],
+      "pdp": "p-rw26875.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26875/rw26875-1-pastel-seashell-resin-decorations-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 731,
+          "height": 687,
+          "sha256": "38e335bfa9f4d533d45776769622de29ef4f5c3609c150ca15e6ab395359411d",
+          "bytes": 60530,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26875/rw26875-2-pastel-seashell-resin-decorations-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cc5317079d2d5fba0872aa550e28fd7039bef2b1e110800b9f71d96612e886f9",
+          "bytes": 79598,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26875/rw26875-3-pastel-seashell-resin-decorations-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "35bcb60dc4ea5b829bd6d9bc7d940328805927aa0833fa54fc1ac3b105cadda0",
+          "bytes": 91847,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26874",
+      "operation": "new",
+      "sourceRow": 268,
+      "sourceFields": {
+        "sku": "RW26874 ",
+        "标题": "Wholesale Cute Green Resin Frog Figurines Mini Animal Decorations for DIY Craft Supplies",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20-30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26874 .png",
+          "sha256": "d2a293bf28969327b640ddb3b0a63ae5bc9121e878702c229d5e45cf0e0fc022"
+        }
+      ],
+      "pdp": "p-rw26874.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26874/rw26874-1-green-frog-resin-miniatures-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 725,
+          "height": 718,
+          "sha256": "d5ae73989a048d4435e86acc08e35d2b74d15b5c70f7651137b181a3f4a46453",
+          "bytes": 44200,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26874/rw26874-2-green-frog-resin-miniatures-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bf6ec3e4bf91441d2a87219a9d6a1a03bff4baf4d3101e04922bc0c615203fe7",
+          "bytes": 71130,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26874/rw26874-3-green-frog-resin-miniatures-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8e11495fa466c79a6acceb644dee09c6c298a905400fbcdfd53bd7f6fbdbc14a",
+          "bytes": 84251,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26873",
+      "operation": "new",
+      "sourceRow": 269,
+      "sourceFields": {
+        "sku": "RW26873 ",
+        "标题": "Wholesale Mixed Color Strawberry Resin Charms for DIY Hair Clips Phone Cases and Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25*22mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26873 .png",
+          "sha256": "f965ef0bd841e0346a3b3e4a41f8bb8aec57d51a10ba87975627b995979d5589"
+        }
+      ],
+      "pdp": "p-rw26873.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26873/rw26873-1-mixed-color-strawberry-resin-charms-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 727,
+          "height": 698,
+          "sha256": "e2835d68e7e33f82e191a56bd8dfd01277b7ca7d468e67a7213e96ef0b802584",
+          "bytes": 48104,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26873/rw26873-2-mixed-color-strawberry-resin-charms-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c69414e72cf793991c39564e98e3c96a6e6f62ec377a6686b46b7c88e811e72c",
+          "bytes": 75560,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26873/rw26873-3-mixed-color-strawberry-resin-charms-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0a5b93e10c1471d4a75c944d52ef24e819460e595ce3f6b4b76a0abaca839660",
+          "bytes": 88049,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26869",
+      "operation": "new",
+      "sourceRow": 270,
+      "sourceFields": {
+        "sku": "RW26869 ",
+        "标题": "Wholesale Halloween Resin Decorations with Pumpkin Ghost Witch Hat and Cauldron for DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 27*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26869.png",
+          "sha256": "4ae762149f6b92e40e13e2f4fd1fcdaff7950abe5ec5614499e986a3d7f5ed80"
+        }
+      ],
+      "pdp": "p-rw26869.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26869/rw26869-1-halloween-resin-decoration-mix-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 725,
+          "height": 703,
+          "sha256": "1aad16ba1784ebc1240c5342de3ebc2f599a93e7bfe7ccad944a456e36403eb6",
+          "bytes": 47097,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26869/rw26869-2-halloween-resin-decoration-mix-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af72a5407d482d984f5236efba49074c709dc8206411e4c67fd150c57f562cfc",
+          "bytes": 75455,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26869/rw26869-3-halloween-resin-decoration-mix-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aaf1e76009372c91389cf12524c5dedf37b71245b49c45ee0bfb12422710faa9",
+          "bytes": 86595,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW2167",
+      "operation": "new",
+      "sourceRow": 271,
+      "sourceFields": {
+        "sku": "RW2167 ",
+        "标题": "Resin Princess Castle Flatback Cabochon for Phone Case Decoration Scrapbooking Keychain Pendant DIY Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "13*34*37mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW2167.png",
+          "sha256": "9158ca48cf4204d64b1dbb292aa7a9ed729289342b42b50d95d09c0a4744d0c4"
+        }
+      ],
+      "pdp": "p-rw2167.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2167/rw2167-1-pastel-princess-castle-resin-flatbacks-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 723,
+          "height": 710,
+          "sha256": "b9d9a0621187f920150b772deff846db1f2de9bd9df0922171f8e5b688689e29",
+          "bytes": 34543,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw2167/rw2167-2-pastel-princess-castle-resin-flatbacks-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4684dd1b733f5e1b0037576168d155066c5192025fd4691edfe16e2756dfcba0",
+          "bytes": 64265,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw2167/rw2167-3-pastel-princess-castle-resin-flatbacks-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "34087ac211fb764c1bb3b940d07f6dee96830a03f020ee86b99748bc723b3c1a",
+          "bytes": 77518,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW20175",
+      "operation": "update",
+      "sourceRow": 272,
+      "sourceFields": {
+        "sku": "RW20175 ",
+        "标题": "Cute Cartoon Christmas Series Flat Back Resin Charms  Cabochons Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25-35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20175 .png",
+          "sha256": "f4c922c3cf6163c49500c841138a302fd4df1373d01972f9c7b22fb9b36986cc"
+        }
+      ],
+      "pdp": "p-rw20175.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-1-mixed-christmas-resin-flatback-charms-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 725,
+          "height": 742,
+          "sha256": "dd8603f6b3e34be394823516be0e1c4805a754038b35bf727c088659a0061622",
+          "bytes": 116136,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-2-mixed-christmas-resin-flatback-charms-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d78bd6da12d817bb1e77005dcad44cbecda70f28ed20d6a422816fb7bba31a79",
+          "bytes": 117138,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw20175/rw20175-3-mixed-christmas-resin-flatback-charms-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "af865ed4be6110feaa6e2ab1593a50a4e5d9e90057fba8904df338c7873864bc",
+          "bytes": 130387,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA1501",
+      "operation": "new",
+      "sourceRow": 273,
+      "sourceFields": {
+        "sku": "MA1501",
+        "标题": "500g Moon Star Confetti PVC Loose Sequins Glitter Paillettes for Nail Art Manicure Accessories Slime Crafts Glitter",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "pvc",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA1501-1.png",
+          "sha256": "a0ec708c14419c3318a9df10c4342f9d89944706fccdcaa9cb75b28d453ffa64"
+        },
+        {
+          "file": "MA1501-2.png",
+          "sha256": "8c82cbb82ce68b7cb38c1814642a95e5a6926ef1d56e64fcca8dd610a2704ebc"
+        },
+        {
+          "file": "MA1501-3.png",
+          "sha256": "0a4d546aef90ca94134f8b2c018c7927f8b37ac1ba27ff63c52ccb3cb0f182bd"
+        },
+        {
+          "file": "MA1501-4.png",
+          "sha256": "33eea25682f3d7d2da26a7701c402cce560c3af02fb41f75a2e715583c3accfc"
+        },
+        {
+          "file": "MA1501-5.png",
+          "sha256": "ff3f35c2776fb5d65c410129957e1a97297515778f46d38627399a0fcd379073"
+        },
+        {
+          "file": "MA1501-6.png",
+          "sha256": "ab5e2abc385adbae76a0c8ee36ae4c038be80c8f0794fff4a70145082d76a9b4"
+        },
+        {
+          "file": "MA1501-7.png",
+          "sha256": "87caed47a890357cfd489558a99292a85acc8e7747735c2d9e12844bed393c5e"
+        }
+      ],
+      "pdp": "p-ma1501.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma1501/ma1501-1-moon-and-star-pvc-sequins-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 703,
+          "height": 660,
+          "sha256": "bb7320f296b7f14eae80afad6f3da10bca0453b09e42e0fa6d6020ac0f60809c",
+          "bytes": 128841,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma1501/ma1501-2-moon-and-star-pvc-sequins-20261022.jpg",
+          "role": "supplied color references",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b19fb97db712d5d5015257a2acaf082a3a3afde735128fdfaf32c70621a7ea89",
+          "bytes": 186373,
+          "origin": "source-based color reference layout"
+        },
+        {
+          "path": "assets/images/pdp/ma1501/ma1501-3-moon-and-star-pvc-sequins-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2dea181fab2341b8b9c0bb6e58501b41c9cd5ea97782e97a21b70914da94cd99",
+          "bytes": 133392,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA228",
+      "operation": "new",
+      "sourceRow": 274,
+      "sourceFields": {
+        "sku": "MA228 ",
+        "标题": "Nail Art Glitter Cross Holographic Flake Sequins Gradient Mermaid Ultra Thin Slice Toenail/Eye/Face Glitter",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "pvc",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA228 -1.png",
+          "sha256": "fa698dc7900e91b25ae08c1605d8a539d44e5a696d82acbf634b372da4b132f9"
+        },
+        {
+          "file": "MA228 -2.png",
+          "sha256": "b6de4d9bb5735e52cdf31dff8df1fa9dfb52bb6b7a1c25ca9de23a4be71845fe"
+        },
+        {
+          "file": "MA228 -3.png",
+          "sha256": "61038767a55057db546abb31883aad40ba0a43b6dd9a0ca48a6e77d32faa4ee2"
+        },
+        {
+          "file": "MA228 -4.png",
+          "sha256": "1fe0b0b7d95dcdcace6cd0aa5412c59ab23ca851ea9c21e1dcf556716dfc6e1f"
+        },
+        {
+          "file": "MA228 -5.png",
+          "sha256": "01a20a61e6836997e2eb440fd09cd82e4227b8aa1de332f4459ea8cc3af29690"
+        },
+        {
+          "file": "MA228 -6.png",
+          "sha256": "50c2d8becf2269e7aad1bf428868d1ff63ccb1f86c14ea7e52267a9c23021048"
+        },
+        {
+          "file": "MA228 -7.png",
+          "sha256": "25cf8b5b78ca34daf4133904ff3e6026f18289d71046c64425372983f62d1bfb"
+        },
+        {
+          "file": "MA228 -8.png",
+          "sha256": "e238cabec7279cf4ee0e9068cb15aec00ac213809e77ab14da8fad01510b1eec"
+        },
+        {
+          "file": "MA228 -9.png",
+          "sha256": "7cf7fdfcbb7c2107a54bc22461cddc9cb480efbe7f7787b1f8550d211c745e2e"
+        }
+      ],
+      "pdp": "p-ma228.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma228/ma228-1-iridescent-strip-pvc-glitter-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 757,
+          "height": 751,
+          "sha256": "9178b0fbe102e589b653c9c50420be4b806f9773ae7ef2b83092bdf187769cef",
+          "bytes": 134768,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma228/ma228-2-iridescent-strip-pvc-glitter-20261022.jpg",
+          "role": "supplied color references",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dfb4dc909e7e54daf99bb67474b78caf9207669e8e835f5302a5f8bc7eae3738",
+          "bytes": 215859,
+          "origin": "source-based color reference layout"
+        },
+        {
+          "path": "assets/images/pdp/ma228/ma228-3-iridescent-strip-pvc-glitter-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "02f1ab08e98211907de5ef31ca0f8366e8d82edb9d0c46ef1e6a83ae28c8263c",
+          "bytes": 135300,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    }
+  ]
+}
