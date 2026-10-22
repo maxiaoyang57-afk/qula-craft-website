@@ -1,0 +1,756 @@
+{
+  "batchId": "qula-products-20261022-supplement",
+  "baselineCommit": "833d6fb313cb982dc6c2be1f696507b619829310",
+  "newProductCount": 13,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 484,
+  "catalogCountAfter": 497,
+  "imageCount": 43,
+  "sourceWorkbook": "10.11(20261022-130554).xlsx",
+  "products": [
+    {
+      "sku": "YX126",
+      "operation": "new",
+      "sourceRow": 285,
+      "sourceFields": {
+        "sku": "YX126",
+        "标题": "Hot Selling Polymer Clay Colorful Flower Sprinkle Cute Flower Slice for Crafts Making Phone Decor DIY Scrapbooking",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX126.png",
+          "sha256": "6e34a1ddcb342b4f2c1db3c3f524e012651ccc56f6ce8eea8ce73083868ad644"
+        }
+      ],
+      "pdp": "p-yx126.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx126/yx126-1-red-blossom-polymer-clay-slices-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 708,
+          "height": 656,
+          "sha256": "dea54829181992f0e993f840df829c24d77d4cf1cbfc1b24b6d8965fde6a58ea",
+          "bytes": 96801,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx126/yx126-2-red-blossom-polymer-clay-slices-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b2e9810859ea3d8644a478cfcaaf5ed0d52143f807edb397b7c2483d4c774b97",
+          "bytes": 105760,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx126/yx126-3-red-blossom-polymer-clay-slices-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "6466f01ed4b64f4de2a0422ae43e9357a4301315e4601a93718efbac19d6d787",
+          "bytes": 120005,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX215",
+      "operation": "new",
+      "sourceRow": 280,
+      "sourceFields": {
+        "sku": "YX215",
+        "标题": "Wholesale Basketball Polymer Clay Sprinkles Custom Mini Sports Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX215 .png",
+          "sha256": "d2aeb398383c01265de070a5bbc9214f8d40dd6bf7f8acce5f674dd0e796952b"
+        }
+      ],
+      "pdp": "p-yx215.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx215/yx215-1-basketball-polymer-clay-sprinkles-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 689,
+          "height": 763,
+          "sha256": "4440ae368d25ef4165065468ce3e9738d3ee0f4018db60c67118d79591d5833a",
+          "bytes": 59897,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx215/yx215-2-basketball-polymer-clay-sprinkles-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3ec19043a72cce0954f344eb5d84f18397d2bb2490d7a2a33c3c566bec100f21",
+          "bytes": 82372,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx215/yx215-3-basketball-polymer-clay-sprinkles-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bd3126d7688889467a0a1c0bc8649b3d7dc15bec39e4ffdffb1ccf5622d8331d",
+          "bytes": 96645,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX244",
+      "operation": "new",
+      "sourceRow": 278,
+      "sourceFields": {
+        "sku": "YX244",
+        "标题": "Wholesale Surprised Character Polymer Clay Sprinkles Custom Mini Round Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX244 .png",
+          "sha256": "596faf3a73e45bc64c26ff729f76d47904904d836680bc862bfb2bc330316c9f"
+        }
+      ],
+      "pdp": "p-yx244.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx244/yx244-1-surprised-face-polymer-clay-sprinkles-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 712,
+          "height": 692,
+          "sha256": "12b4d0eefd2818159cc60fd13e4d9d03f0d4892438a1e741a4bc951e54010019",
+          "bytes": 82080,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx244/yx244-2-surprised-face-polymer-clay-sprinkles-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5f1c5833933be5d219c93bf14c5fda12cef48c232bbc1c5e81b5526b236c958c",
+          "bytes": 94713,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx244/yx244-3-surprised-face-polymer-clay-sprinkles-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c9e8d0ae4e94a017d83e5ef46ad2c32535eb76783079c2c81811fc8c6f50ed75",
+          "bytes": 104807,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX250",
+      "operation": "new",
+      "sourceRow": 279,
+      "sourceFields": {
+        "sku": "YX250",
+        "标题": "Wholesale Heart Polymer Clay Sprinkles Custom Mini Mixed Tone Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX250.png",
+          "sha256": "5d4b083fdf97299f21344d839e120cbfb078f7dc660b71febef8602d4463aff9"
+        }
+      ],
+      "pdp": "p-yx250.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx250/yx250-1-mixed-tone-heart-polymer-clay-sprinkles-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 725,
+          "height": 694,
+          "sha256": "f0d559fbaaf0f76e014b124835e83b97edf9537bf8f9f7d1694e89115905d070",
+          "bytes": 53351,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx250/yx250-2-mixed-tone-heart-polymer-clay-sprinkles-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3262abff303a160907eefd230dfc9d61d0e768928efe9b203556975c6e516d89",
+          "bytes": 80431,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx250/yx250-3-mixed-tone-heart-polymer-clay-sprinkles-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5dfe0425495c145cc9160032060902419f719d4ad1e303751e441855e359499d",
+          "bytes": 89394,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX260",
+      "operation": "new",
+      "sourceRow": 277,
+      "sourceFields": {
+        "sku": "YX260",
+        "标题": "Wholesale Petal Polymer Clay Sprinkles Custom Mini Blossom Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX260.png",
+          "sha256": "10051c55bb871eb1e22a32e3ba4fe34c585453ea56aa75873b5d7185168f8579"
+        }
+      ],
+      "pdp": "p-yx260.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx260/yx260-1-mini-blossom-polymer-clay-sprinkles-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 695,
+          "height": 675,
+          "sha256": "9ee8e1afb45fa49821013b2dcad0d95cf1bc5955c1d2ec49ac6aaa4a8cf36473",
+          "bytes": 57114,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx260/yx260-2-mini-blossom-polymer-clay-sprinkles-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "48c9c64e617c63714b8691b34fcc12c2ca38773d2487cd938c6fcab1391db83a",
+          "bytes": 84694,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx260/yx260-3-mini-blossom-polymer-clay-sprinkles-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5550071c63aecf913cbf0962f922ad21244bf29c323bc4ed4d57effa295ffd9a",
+          "bytes": 94114,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX263",
+      "operation": "new",
+      "sourceRow": 281,
+      "sourceFields": {
+        "sku": "YX263",
+        "标题": "Wholesale Dice Polymer Clay Sprinkles Custom Mini Square Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX263 .png",
+          "sha256": "6e2ce2d67ac111880e8aa30560f4f864b5e8bfeea336cbeeadbeee2d439914fc"
+        }
+      ],
+      "pdp": "p-yx263.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx263/yx263-1-dice-polymer-clay-sprinkles-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 701,
+          "height": 680,
+          "sha256": "2a107c40c57f731ba01db818a8edc1107feb13fe0795e1d37d046edff888d041",
+          "bytes": 61444,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx263/yx263-2-dice-polymer-clay-sprinkles-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "adf00f942b5c9a6f84927c04613c4e5f2a9602661727992396b1f9c38e2d9504",
+          "bytes": 82184,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx263/yx263-3-dice-polymer-clay-sprinkles-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "73a550ddfc8dbaa1287c9e051301cd5c6a06772583042a64ff23dd9a810a11cc",
+          "bytes": 94861,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX479",
+      "operation": "new",
+      "sourceRow": 283,
+      "sourceFields": {
+        "sku": "YX479",
+        "标题": "Wholesale Orange Citrus Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX479 .png",
+          "sha256": "8ae4dd343d9ad6361a332dbb76d52bc9e5bd53449f7842ecf78741ca2704a48c"
+        }
+      ],
+      "pdp": "p-yx479.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx479/yx479-1-orange-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 653,
+          "height": 706,
+          "sha256": "a37f60a9370b8313e4a333896b5875ace5abfff06772e72eae4fea3c6ee4f5b3",
+          "bytes": 59919,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx479/yx479-2-orange-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d56ceae9eed0f8ebd63570523a63c227555153fbe22ec4aeb1e7acfbe52eb507",
+          "bytes": 85732,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx479/yx479-3-orange-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c4e9bd516bfe8a63234e2f1f98cbc390a197144f04d024d21e4a4f76f6e86ab1",
+          "bytes": 99430,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX480",
+      "operation": "new",
+      "sourceRow": 282,
+      "sourceFields": {
+        "sku": "YX480",
+        "标题": "Wholesale Fruit Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX480.png",
+          "sha256": "c4dc9a7a95214bd8aa41ea73e3e64fef5c999adb74cbbffb6466824b1478959d"
+        }
+      ],
+      "pdp": "p-yx480.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx480/yx480-1-mixed-color-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 727,
+          "height": 697,
+          "sha256": "3fc423dab592297ed02972cdcc2283b5f29cd12f3a302be7d6c35223ecda3ba1",
+          "bytes": 61940,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx480/yx480-2-mixed-color-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "67f8cdead1460da9dc7de9dfca57e66a9106e05c05ca2a7552980de39ff830a0",
+          "bytes": 82258,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx480/yx480-3-mixed-color-citrus-polymer-clay-slices-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d8af0719fad45f4baab652e045a3afe265b0937bbdddeee4689d8542e98acf1e",
+          "bytes": 94633,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "YX3338",
+      "operation": "new",
+      "sourceRow": 276,
+      "sourceFields": {
+        "sku": "YX3338",
+        "标题": "Mixed Polymer Clay Milk Bottle Cookies Slice Sprinkle for Crafts Making Phone Nail Art Decor DIY Slime Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "YX3338 .png",
+          "sha256": "f4cfc29c9ed65e2d96e724c35fe023a11c9e54ff7ca01e6c393be01258a01ec0"
+        }
+      ],
+      "pdp": "p-yx3338.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3338/yx3338-1-milk-bottle-and-cookie-decorative-sprinkle-mix-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 717,
+          "height": 714,
+          "sha256": "a2763fac2dc9774fb2dcd5ce4964c39fc69f609237051a16e79bcc77d61ee99a",
+          "bytes": 109359,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/yx3338/yx3338-2-milk-bottle-and-cookie-decorative-sprinkle-mix-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8a0d0cf7f5b37b3786388740c89ab147eaa044576b494a7f8be42dfad0431929",
+          "bytes": 125179,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/yx3338/yx3338-3-milk-bottle-and-cookie-decorative-sprinkle-mix-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0d88993f357ffd9edadf9f7c9dafbb55a7503f2d1124ea8f0e5ef1d7a022eefd",
+          "bytes": 129016,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "MA606",
+      "operation": "new",
+      "sourceRow": 275,
+      "sourceFields": {
+        "sku": "MA606",
+        "标题": "Wholesale 500g/Lot Mixed Color Butterfly Sequins PVC Butterfly Confetti Wedding Crafts, Slime Accessories Nail Art Sequins",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "pvc",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "MA606.png",
+          "sha256": "1f86aaa0ab27deb843508740de1cd5681d70a662bc12058a733338b8472b4d36"
+        }
+      ],
+      "pdp": "p-ma606.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/ma606/ma606-1-mixed-color-butterfly-pvc-sequins-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 742,
+          "height": 682,
+          "sha256": "bb8bf95d03b99e9356e3b429cece1d43b1bb9bf3c74aeea7f76c29cbba956655",
+          "bytes": 71962,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/ma606/ma606-2-mixed-color-butterfly-pvc-sequins-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "bf5bc4b3b788d833bf566d1a82ee3bb61c5393eeb73f86a3392d6a9ce89c271c",
+          "bytes": 91521,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/ma606/ma606-3-mixed-color-butterfly-pvc-sequins-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7f8ceacd299daa02e85173f477f8096b175b65d114c5c37446470d4cb77afc15",
+          "bytes": 102517,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "CDK070",
+      "operation": "new",
+      "sourceRow": 284,
+      "sourceFields": {
+        "sku": "CDK070",
+        "标题": "30mm Split Round Shape Colorful Key Rings Solid Color  Flat Split Ring Key Chain Hook Fob Holder",
+        "分类": "Keychain",
+        "状态": "库存有货",
+        "材质": "Metal",
+        "尺寸": "30MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK070.png",
+          "sha256": "3def4c86ca0f895fd49a9eb9e66039de0d64a24c6ecb9b91f8211c5a2659498d"
+        }
+      ],
+      "pdp": "p-cdk070.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk070/cdk070-1-30mm-colorful-metal-split-key-rings-20261022.jpg",
+          "role": "supplied product reference",
+          "width": 734,
+          "height": 731,
+          "sha256": "f1f6cb4e869fe5c1d86f3c8e4520b12801f9c353cf4c7af5bfbf5d43a8f479b8",
+          "bytes": 76279,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk070/cdk070-2-30mm-colorful-metal-split-key-rings-20261022.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8d52bc65760c97fd3511a4c7a8394b603804445d0db5c85c17e189f40b1ceb11",
+          "bytes": 94647,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/cdk070/cdk070-3-30mm-colorful-metal-split-key-rings-20261022.jpg",
+          "role": "packing and assortment guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5c2a5a1ec65b764f12e189c2e7fde7f6841ced3603475f12aa0f6e0b0f2eff86",
+          "bytes": 106158,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "CDK20293-1/CDK20358-2/CDK20358-1/CDK20639-1",
+      "operation": "new",
+      "sourceRow": 286,
+      "sourceFields": {
+        "sku": "CDK20293-1/CDK20358-2/CDK20358-1/CDK20639-1",
+        "标题": "Wholesale Custom Heart Keychains Assorted Filled Charm Key Rings with Clasps for Bags Backpacks Keys and Pouches",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Heart 50mm, total length approx. 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格10pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK20293-1CDK20358-2CDK20358-1CDK20639-1.png",
+          "sha256": "64421bdbbf4f8065f301b9b2fd2956a1f744ede9ea15f697f3fb2fc488787561"
+        },
+        {
+          "file": "CDK20293-1.png",
+          "sha256": "2b1606791c11e47f9d4e0908184d84a5d57a52ce390e595076d8f4e5edd3d668"
+        },
+        {
+          "file": "CDK20358-2.png",
+          "sha256": "db076768df8e0c11fff000a89bd8900df14868c4c639c2c9d7488bdbcb59a2da"
+        },
+        {
+          "file": "CDK20358-1.png",
+          "sha256": "13b5c9127176922e0dcf673453dd459f851298e40f2ef28d68bdefa0cd7f7e7d"
+        },
+        {
+          "file": "CDK20639-1.png",
+          "sha256": "056a98697c4edde89580a4542b15495d1a2846734c4273feaa9e698f0411ef66"
+        }
+      ],
+      "pdp": "p-cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1-1-heart-filled-charm-keychain-assortment-20261022.jpg",
+          "role": "supplied assortment reference",
+          "width": 731,
+          "height": 763,
+          "sha256": "7afef1cf98012b39be2f3df1a578a2005ff23242d8efba5e76879179eb2dfa4e",
+          "bytes": 68919,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1-2-heart-filled-charm-keychain-assortment-20261022.jpg",
+          "role": "design reference CDK20293-1",
+          "width": 524,
+          "height": 701,
+          "sha256": "45a549db2d3a2e3609fcf0b77258c2863e5e8df91e690425a3d22df6820691ec",
+          "bytes": 41169,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1-3-heart-filled-charm-keychain-assortment-20261022.jpg",
+          "role": "design reference CDK20358-2",
+          "width": 565,
+          "height": 722,
+          "sha256": "c1f3df1d1e5eca0012f13a6a418d21cc3f44cb398fef8a167d1dcd897a9a8909",
+          "bytes": 37140,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1-4-heart-filled-charm-keychain-assortment-20261022.jpg",
+          "role": "design reference CDK20358-1",
+          "width": 610,
+          "height": 736,
+          "sha256": "e7e7e810eada2cdb95cfcf177f688e18a2cd4bfd5f8adc21521b4a7588298ffe",
+          "bytes": 47821,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1/cdk20293-1-cdk20358-2-cdk20358-1-cdk20639-1-5-heart-filled-charm-keychain-assortment-20261022.jpg",
+          "role": "design reference CDK20639-1",
+          "width": 569,
+          "height": 729,
+          "sha256": "76fe12b7e111e61736f73b2e4493227da3df01fa61af143db1029cea48c36aff",
+          "bytes": 33935,
+          "origin": "owner-supplied product reference"
+        }
+      ]
+    },
+    {
+      "sku": "CDK21072-1/CDK-RX018/CDK-MC009-1/CDK-MC022-1",
+      "operation": "new",
+      "sourceRow": 287,
+      "sourceFields": {
+        "sku": "CDK21072-1/CDK-RX018/CDK-MC009-1/CDK-MC022-1",
+        "标题": "Wholesale Custom Heart Keychains with Charms Assorted Filled Key Rings for Bags Backpacks Keys and Pouches",
+        "分类": "Jewelry keychain",
+        "状态": "库存有货",
+        "材质": "Resin,Clay,Alloy",
+        "尺寸": "Heart 50mm, total length approx. 90mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格10pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "CDK21072-1CDK-RX018CDK-MC009-1CDK-MC022-1.png",
+          "sha256": "161414d642bc149ca6d2a6627b9c253bf512d9d780075f4a8abe67c42b3607fa"
+        },
+        {
+          "file": "CDK21072-1.png",
+          "sha256": "5c95b5641cde66e34cb1003bc6c1abdea14694715e29827dcb2e56b895f20f63"
+        },
+        {
+          "file": "CDK-RX018.png",
+          "sha256": "178cdbf4e033eb36c75fd089fed2634ef65fd802112977af8eb7617e0ed948a7"
+        },
+        {
+          "file": "CDK-MC009-1.png",
+          "sha256": "e8fbe359399fe10f29b776b0fa670a86586cd41c68496469eb6efd018065ace0"
+        },
+        {
+          "file": "CDK-MC022-1.png",
+          "sha256": "ad0b81dbdb827c03ca693efb3266778a1f4a13663b33c04c76d6ea4eb4c17aa7"
+        }
+      ],
+      "pdp": "p-cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1-1-heart-keychain-and-charm-assortment-20261022.jpg",
+          "role": "supplied assortment reference",
+          "width": 743,
+          "height": 738,
+          "sha256": "f6a08b313484ce0ab15ce44e185c2476b1abf6eeb0ce956400762b4086e402f9",
+          "bytes": 61534,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1-2-heart-keychain-and-charm-assortment-20261022.jpg",
+          "role": "design reference CDK21072-1",
+          "width": 595,
+          "height": 741,
+          "sha256": "a5db9a806cdd609be159596201b4ee072cd198e46d465549e83b80c3e9f844ff",
+          "bytes": 27719,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1-3-heart-keychain-and-charm-assortment-20261022.jpg",
+          "role": "design reference CDK-RX018",
+          "width": 590,
+          "height": 740,
+          "sha256": "62b337ebf75e714c4cc7698e9f0f1b0bd117e3c0a5278920749213d0b133d662",
+          "bytes": 33311,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1-4-heart-keychain-and-charm-assortment-20261022.jpg",
+          "role": "design reference CDK-MC009-1",
+          "width": 570,
+          "height": 704,
+          "sha256": "59a62f5d507efa2e4746c074aba20211c89ebcc049d12b50c413000e1a212406",
+          "bytes": 39963,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1/cdk21072-1-cdk-rx018-cdk-mc009-1-cdk-mc022-1-5-heart-keychain-and-charm-assortment-20261022.jpg",
+          "role": "design reference CDK-MC022-1",
+          "width": 532,
+          "height": 726,
+          "sha256": "55d6d3126873cfc1f4360d8a37e19e9e9faa568e36a03d95542e7ba12f9187ae",
+          "bytes": 34967,
+          "origin": "owner-supplied product reference"
+        }
+      ]
+    }
+  ]
+}

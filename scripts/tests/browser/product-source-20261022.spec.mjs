@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 const manifest=JSON.parse(readFileSync('docs/product-batch-manifest-20261022.json','utf8'));
+manifest.products.push(...JSON.parse(readFileSync('docs/product-batch-manifest-20261022-supplement.json','utf8')).products);
 const all=JSON.parse(readFileSync('assets/data/product-catalog.json','utf8')).categories.flatMap(c=>c.products);
 const categories={'beads-for-pens':'Beads for Pens','slime-charms':'Slime Charms','keychain':'Keychains','resin-charms':'Resin Charms','polymer-clay-slices':'Polymer Clay Sprinkles','plastic-sequins':'Glitter & Fillers','plastic-beads':'Acrylic Beads','pvc-plastic-charms':'Other','jewelry-accessories':'Jewelry Accessories'};
 test('October 22 resin and sequin SKUs connect galleries, exact searches and quote context',async({page})=>{
@@ -28,5 +29,5 @@ test('October 22 resin and sequin SKUs connect galleries, exact searches and quo
   await page.goto('products.html?search='+encodeURIComponent(p.sku));
   await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku',p.sku);
  }
- expect(all.length).toBe(484);
+ expect(all.length).toBe(497);
 });
