@@ -1,0 +1,735 @@
+{
+  "batchId": "qula-products-20261025-books",
+  "baselineCommit": "a6a3892a6f52edcbf58fef29d1fa974ea7574157",
+  "newProductCount": 13,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 510,
+  "catalogCountAfter": 523,
+  "imageCount": 42,
+  "sourceWorkbook": "10.11(20261025-133344).xlsx",
+  "products": [
+    {
+      "sku": "RW26726",
+      "operation": "new",
+      "sourceRow": 302,
+      "sourceFields": {
+        "sku": "RW26726",
+        "标题": "Wholesale Mini Resin Paint Bucket Figurines 3D Paint Can Ornaments for Micro Landscape Desk Decor Custom Order",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26726.png",
+          "sha256": "ff870689e42c47ce51ce6fc922d10a38a9cc77fd031bfd7db964fa6a46740d28"
+        }
+      ],
+      "pdp": "p-rw26726.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26726/rw26726-1-miniature-resin-paint-bucket-figurines-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 717,
+          "height": 710,
+          "sha256": "2d5b5223b8b5f202a7edf2b2d4327f06dc03548396e3b3cf648cca219c401c28",
+          "bytes": 79988,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26726/rw26726-2-miniature-resin-paint-bucket-figurines-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "5991413d8ed5d398a7dc36822aa4f40ddd08213f1d787c6de65c93369c8c21e4",
+          "bytes": 43710,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26726/rw26726-3-miniature-resin-paint-bucket-figurines-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c681563e41def44371d768af362ae1311c83227dbb95730dab77c439eb5f731",
+          "bytes": 71487,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "SLM10072",
+      "operation": "new",
+      "sourceRow": 303,
+      "sourceFields": {
+        "sku": "SLM10072 ",
+        "标题": "500g Fruits Slices Mini Polymer Clay Sheets Slime Filler Craft Fillers Colorful Clay Piece Kid DIY Children Art Supplies",
+        "分类": "slime",
+        "状态": "库存有货",
+        "材质": "resin,polymer  ",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "SLM10072.png",
+          "sha256": "cd9b65da5ee815f970082bb9e10d7f20b2335c7f724b4847dbba56523e22b649"
+        }
+      ],
+      "pdp": "p-slm10072.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/slm10072/slm10072-1-citrus-and-pineapple-slime-decoration-mix-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 726,
+          "height": 680,
+          "sha256": "62258261e53735a683991ab3cab2d48763ddfdb219052f956694fba01da8701d",
+          "bytes": 137078,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/slm10072/slm10072-2-citrus-and-pineapple-slime-decoration-mix-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "159d0837706ba5b235145486b5622e4b0d10540a4854bfceda9858c81c52db45",
+          "bytes": 63150,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/slm10072/slm10072-3-citrus-and-pineapple-slime-decoration-mix-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e705c3c052e27cea65a3fc1cae4e4b768636b62f83b0c69231eee497da8f20b0",
+          "bytes": 87869,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW24582",
+      "operation": "new",
+      "sourceRow": 304,
+      "sourceFields": {
+        "sku": "RW24582 ",
+        "标题": "100Pcs Cute Polka Dot Bear Bow Flatback Resin Cabochon Scrapbooking for Phone Decoration DIY Jewelry Making Headwear Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW24582 .png",
+          "sha256": "3abe3a2041f97230b103514b9bdd5b0320390beeb2ccd80441b40a3243c8789e"
+        }
+      ],
+      "pdp": "p-rw24582.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24582/rw24582-1-polka-dot-bear-and-bow-resin-cabochons-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 524,
+          "height": 597,
+          "sha256": "274027ee63f25adc93e11567f1897ed089a5ca84341020cd2c46c2ac415d4aad",
+          "bytes": 92658,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw24582/rw24582-2-polka-dot-bear-and-bow-resin-cabochons-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "013c8b4eb718ea2ecba85a78d94de26a63b9aff1a5bd1ecbbedc1f8c1851357f",
+          "bytes": 47771,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw24582/rw24582-3-polka-dot-bear-and-bow-resin-cabochons-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "daf6b0ccbaeb196e004208f5e765e74475a0032cbfda53e2fccbae8e24bef438",
+          "bytes": 72502,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW21113",
+      "operation": "new",
+      "sourceRow": 305,
+      "sourceFields": {
+        "sku": "RW21113 ",
+        "标题": "1:12 Doll House Miniature Fruit Cake Egg Tart Bread Dessert Model Kitchen Food Decor Toy Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW21113 .png",
+          "sha256": "28b156293559ff3f87c03a8d9712b90fb8da02c35e3f5c75f8f8cb46ec912737"
+        }
+      ],
+      "pdp": "p-rw21113.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21113/rw21113-1-miniature-fruit-tart-resin-decorations-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 577,
+          "height": 517,
+          "sha256": "b657d25efaf597620819908260f8948b6160e344599397ef82fc14917b510f1d",
+          "bytes": 89151,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw21113/rw21113-2-miniature-fruit-tart-resin-decorations-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "aca6e0e1b01614e5bd0e1fc01fe7b7c7989851d4d6cc59fa838c6c2a4ca4beaf",
+          "bytes": 43788,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw21113/rw21113-3-miniature-fruit-tart-resin-decorations-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fc69cdcf15d1aa07fa708c910fd1eb651dfb6e30ca0cbe4344da9e1e3270d9fe",
+          "bytes": 70354,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5043-RW5051-RW5056-RW5060-RW5063-RW5114",
+      "operation": "new",
+      "sourceRow": 306,
+      "sourceFields": {
+        "sku": "RW5043-RW5051-RW5056-RW5060-RW5063-RW5114",
+        "标题": "Dollhouse Miniature Book Notebook for Doll Accessories for Doll Miniature Scene Model Dollhouse Accessories",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "以图片为准，详情咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5043-1pcs-set.png",
+          "sha256": "383e4a98073fed1a04987ca77a671c9023cc38b4bd61b434a01c01d3edc5ced3"
+        },
+        {
+          "file": "RW5051-4pcs-set.png",
+          "sha256": "5dd9e9d447f01958df6e5968f9cd5c83d63ef4248d46e2e915d9e1e5b5894daf"
+        },
+        {
+          "file": "RW5056-1pcs-set.png",
+          "sha256": "a817d26bc80906bafd0e904fd2779fc89ce66a7a9379e9f3a17ada520b91e7cd"
+        },
+        {
+          "file": "RW5060--4pcs-set.png",
+          "sha256": "9800e1c24ddbc5256ff8912031a08f8804e33cf6259c5bb19ca19bcd5a3b6041"
+        },
+        {
+          "file": "RW5063-3pcs-set.png",
+          "sha256": "34be1f47b7c611905fab7e8c104218ad9fa0917cd00bcd02fda4fae29fdf89e2"
+        },
+        {
+          "file": "RW5114-1pcs-set.png",
+          "sha256": "22c5a3991a68438882848e55e6e900fb26893defa34ab412a0c55a9fc3c349f2"
+        }
+      ],
+      "pdp": "p-rw5043-rw5051-rw5056-rw5060-rw5063-rw5114.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-1-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5043 supplied design reference",
+          "width": 239,
+          "height": 234,
+          "sha256": "038a79efef59e3a55b67114a5c82b4c2c1776a77d9f0a9c142d4656fca6d2fb7",
+          "bytes": 18053,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-2-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5051 supplied design reference",
+          "width": 744,
+          "height": 748,
+          "sha256": "17d11f8b4415d810dce356d724753fe5557b0ab6d45ad154cca65f6c760e2a82",
+          "bytes": 126875,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-3-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5056 supplied design reference",
+          "width": 195,
+          "height": 151,
+          "sha256": "4086fa8ef8a95bb5b8782f073e6cc9cd783bb7c572fb5cc9a503bf07d4644b9b",
+          "bytes": 12514,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-4-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5060 supplied design reference",
+          "width": 207,
+          "height": 212,
+          "sha256": "c7820b82b1960c4696af434c549e38f662ae77605aecdb7182b9edd798228770",
+          "bytes": 10855,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-5-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5063 supplied design reference",
+          "width": 758,
+          "height": 742,
+          "sha256": "cdd2a126bffd9a5587abffad1344f4ca0992f0f958deee9e63f9910d3b26f758",
+          "bytes": 140775,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114/rw5043-rw5051-rw5056-rw5060-rw5063-rw5114-6-miniature-book-and-notebook-assortment-20261025-books.jpg",
+          "role": "RW5114 supplied design reference",
+          "width": 624,
+          "height": 587,
+          "sha256": "2f63898c47aed5ceecfdf4c00160eee0578a25fe80a7540c0345ed0af340a28c",
+          "bytes": 95462,
+          "origin": "owner-supplied product reference"
+        }
+      ]
+    },
+    {
+      "sku": "RW5197",
+      "operation": "new",
+      "sourceRow": 307,
+      "sourceFields": {
+        "sku": "RW5197 ",
+        "标题": "4pcs Cake Fork Dinner Plate Spoon Fork Dollhouse MIniature for Home Doll House Play Kitchen Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "plate36mm,cake15mm,fork22mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "4pcs /set, 10set/.bag，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5197 .png",
+          "sha256": "31a8aab6168a639f87ad7a54ea7adf69ffcff48c3afa28e73c11860b6dd2d9b1"
+        }
+      ],
+      "pdp": "p-rw5197.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5197/rw5197-1-miniature-cake-plate-and-cutlery-sets-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 728,
+          "height": 663,
+          "sha256": "d5c975257db05a23c4563e582cda421f4d06057601b9965797d31e008677a5ef",
+          "bytes": 38001,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5197/rw5197-2-miniature-cake-plate-and-cutlery-sets-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cae6fc49f5e4e4cf616dd2d05199a53f1b48bc96cfccdce4efc1741bf197731b",
+          "bytes": 54824,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5197/rw5197-3-miniature-cake-plate-and-cutlery-sets-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ca85db1da2633c728d5086bd0199ba773e177bef83e6cc2829ff1d8c24d25ace",
+          "bytes": 83495,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5315",
+      "operation": "new",
+      "sourceRow": 308,
+      "sourceFields": {
+        "sku": "RW5315",
+        "标题": "Mini Park Bench Model Miniature Landscape Garden Decorative Ornament PlayHouse Decorative Figurines Fairy Garden Desk Decoration",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "50mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5315.png",
+          "sha256": "b18710f92f4cf7bc239b5914efa41b02da3cc73e44b668335adcffae6d45db43"
+        }
+      ],
+      "pdp": "p-rw5315.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5315/rw5315-1-miniature-plastic-park-bench-models-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 394,
+          "height": 370,
+          "sha256": "9ad027978579c1f5fedf491b8bc6259cbeb3ec2fe1f3f8fb1301fb0cf68af4e9",
+          "bytes": 27932,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5315/rw5315-2-miniature-plastic-park-bench-models-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "eb7121685e01c3b1717cd62924312798bc683242d9084cc263733b2898347de6",
+          "bytes": 42510,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5315/rw5315-3-miniature-plastic-park-bench-models-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e7356525c6538a01248e30a060a9deb230e0acffc8f73ff6dd3ec9e43ef2d9aa",
+          "bytes": 72998,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5127",
+      "operation": "new",
+      "sourceRow": 309,
+      "sourceFields": {
+        "sku": "RW5127",
+        "标题": "Patterned Miniature Books",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "4 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5127--4pcs-set.png",
+          "sha256": "d67fe2dbc08b56bd7ec285c1f9d0ac9e0fd295e29404da419b4ab9b134f8fb1a"
+        }
+      ],
+      "pdp": "p-rw5127.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5127/rw5127-1-patterned-miniature-books-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 590,
+          "height": 597,
+          "sha256": "a60b69fc6e577ac79ecb10c35fc38963cea1291512437bfc3bf8c58b12988a96",
+          "bytes": 109132,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5127/rw5127-2-patterned-miniature-books-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e764d30c86a46b9331d8a429e356aa88b5945cd9dac41364414285d288685546",
+          "bytes": 50839,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5127/rw5127-3-patterned-miniature-books-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "48f1a458ce3d14631c863c89c9368d26d2e35c6fe295af5639134e1a7ddb064e",
+          "bytes": 72545,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5137",
+      "operation": "new",
+      "sourceRow": 310,
+      "sourceFields": {
+        "sku": "RW5137",
+        "标题": "Illustrated Miniature Book Decorations",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "1 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5137-1pcs-set.png",
+          "sha256": "8e6c64314fc1b7ce3f56d085fc7a049cdca644290ce4d22aa4a2c336001fe323"
+        }
+      ],
+      "pdp": "p-rw5137.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5137/rw5137-1-illustrated-miniature-book-decorations-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 749,
+          "height": 753,
+          "sha256": "a516d50072649f0696eb00c12e12289b9ed4410227e89336ae36244f6dc4d359",
+          "bytes": 122446,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5137/rw5137-2-illustrated-miniature-book-decorations-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "11631b42634c01398299acf404859ced164b4d92ac14d7972fc29e5f09f213e2",
+          "bytes": 53785,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5137/rw5137-3-illustrated-miniature-book-decorations-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ae154a7a04cdc1d826305b1b1e3786fa3b33f516af543f2a4246db8c5ca33504",
+          "bytes": 74295,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5209",
+      "operation": "new",
+      "sourceRow": 311,
+      "sourceFields": {
+        "sku": "RW5209",
+        "标题": "Metallic Texture Miniature Books",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "4 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5209-4pcs-set.png",
+          "sha256": "6bedfc75c0a143a4ac7173744ecaf7802b68ad493003be84405eeb0f1326145e"
+        }
+      ],
+      "pdp": "p-rw5209.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5209/rw5209-1-metallic-texture-miniature-books-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 222,
+          "height": 226,
+          "sha256": "ea3add693a68d6c95d9830ed1a5004d6fd7da3aa3a4f2775772b8504933bf597",
+          "bytes": 12123,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5209/rw5209-2-metallic-texture-miniature-books-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c041889dfd462949b18194acfcdb286b41000de0d9ef6c32fc94e674a1b4480b",
+          "bytes": 52074,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5209/rw5209-3-metallic-texture-miniature-books-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "739fa49219c290d854402282737caa737050079415e9880d4214ce515866295b",
+          "bytes": 71286,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5222",
+      "operation": "new",
+      "sourceRow": 312,
+      "sourceFields": {
+        "sku": "RW5222",
+        "标题": "Miniature Book Stack Decorations",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "2 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5222-2pcs-set.png",
+          "sha256": "42357b02c5942443a9ffd05ec8e333d47fc7d699e0e53c412cf25352be325ee2"
+        }
+      ],
+      "pdp": "p-rw5222.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5222/rw5222-1-miniature-book-stack-decorations-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 679,
+          "height": 732,
+          "sha256": "51b79c3f5d734cfc3d0c496b764ca8495bb52360531347c80c9c365859cd1576",
+          "bytes": 39377,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5222/rw5222-2-miniature-book-stack-decorations-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2a73e9b722ca04534de110f75cc2860c48efc65e06be28178bdb55a1e273be70",
+          "bytes": 52991,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5222/rw5222-3-miniature-book-stack-decorations-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8456d0907f57a8bc72316df3a87a360977a80808d67779a54cdca3b2eb280810",
+          "bytes": 79281,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5234",
+      "operation": "new",
+      "sourceRow": 313,
+      "sourceFields": {
+        "sku": "RW5234",
+        "标题": "Colorful Emblem Miniature Books",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "4 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5234-4pcs-set.png",
+          "sha256": "d0007dd259f075f3fb01df1706b171e1e6690df208da46c0935cd60ec65c1dca"
+        }
+      ],
+      "pdp": "p-rw5234.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5234/rw5234-1-colorful-emblem-miniature-books-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 236,
+          "height": 230,
+          "sha256": "935241e57b4d01c31babebc9f45dc8164693865adc0256aec6fe60521b180c5f",
+          "bytes": 13041,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5234/rw5234-2-colorful-emblem-miniature-books-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e4aa1d44c9238db1eaeaf2b964cc72c66fbc51dd4e317ef2a90523cb7d4cf322",
+          "bytes": 52009,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5234/rw5234-3-colorful-emblem-miniature-books-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "241cb8b4abb79e7eb735630a19537c99c55ac968a53b99b99c378e54712fdef6",
+          "bytes": 74693,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5239",
+      "operation": "new",
+      "sourceRow": 314,
+      "sourceFields": {
+        "sku": "RW5239",
+        "标题": "Textured Cover Miniature Books",
+        "分类": "miniature books",
+        "状态": "Confirm availability",
+        "材质": "Not supplied",
+        "尺寸": "Not supplied",
+        "孔径": "Not supplied",
+        "颜色": "Assorted designs shown",
+        "包装规格": "4 pieces per set, from supplied filename"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5239-4pcs-set.png",
+          "sha256": "1f7563db7d9bf774f3db8c806cde8e76b7f7229a1f704944051f7f2ec8197a8d"
+        }
+      ],
+      "pdp": "p-rw5239.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5239/rw5239-1-textured-cover-miniature-books-20261025-books.jpg",
+          "role": "supplied product reference",
+          "width": 196,
+          "height": 224,
+          "sha256": "2fb63aa0c1cf112fe8de2081035cd9e2da218d52c252e0f476efb3e4acc2d67e",
+          "bytes": 15235,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5239/rw5239-2-textured-cover-miniature-books-20261025-books.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "21ca19f5bc7e6a91a0cde3af667a519e9e358db957eec3e2f1be210f320e4fc7",
+          "bytes": 51979,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5239/rw5239-3-textured-cover-miniature-books-20261025-books.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d56303c9faafb9e720eb199633a20252fe4c679a1cdbd75fe8207c87b9b3f258",
+          "bytes": 74262,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    }
+  ]
+}
