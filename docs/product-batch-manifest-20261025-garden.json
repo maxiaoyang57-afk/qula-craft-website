@@ -1,0 +1,774 @@
+{
+  "batchId": "qula-products-20261025-garden",
+  "baselineCommit": "316117bab122a08718376cbc093d85ee90713088",
+  "newProductCount": 14,
+  "updatedProductCount": 0,
+  "catalogCountBefore": 523,
+  "catalogCountAfter": 537,
+  "imageCount": 44,
+  "sourceWorkbook": "10.11(20261025-142816).xlsx",
+  "products": [
+    {
+      "sku": "RW5348",
+      "operation": "new",
+      "sourceRow": 309,
+      "sourceFields": {
+        "sku": "RW5348",
+        "标题": "Mini Pond Tower Resin Craft Doll House Decor Figurines Toys DIY Miniatures Home Ornaments",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5348.png",
+          "sha256": "cd404fea3472851cab238064c70f599f00ea4958f1c46007625e3ea7ac44b1a7"
+        }
+      ],
+      "pdp": "p-rw5348.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5348/rw5348-1-miniature-pagoda-pond-ornaments-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 689,
+          "height": 771,
+          "sha256": "048645fc253eac3f25ea1282b3dd196ecdf6edcb624bd3ac714e7fa5802118f9",
+          "bytes": 144687,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5348/rw5348-2-miniature-pagoda-pond-ornaments-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f11f491a2d5f960f76b656dc588fd4202c98b6e3bae110b883c396e182d75b4d",
+          "bytes": 53005,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5348/rw5348-3-miniature-pagoda-pond-ornaments-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fde5b1fc5209b1e449822cc3f3cfccffbf825352a148115e3105e25f758129eb",
+          "bytes": 77330,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5703",
+      "operation": "new",
+      "sourceRow": 310,
+      "sourceFields": {
+        "sku": "RW5703 ",
+        "标题": "5Pc 1:6 Doll House Trolley Dining Car Shelf Bookshelf With Wheels Doll Storage Display Rack",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "85*35*65mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "5pcs /bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5703 .png",
+          "sha256": "588ea70f6e39be14c22a9bd62e88efa95804f9772329090c794d6f7f2db99509"
+        }
+      ],
+      "pdp": "p-rw5703.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5703/rw5703-1-miniature-three-tier-utility-cart-models-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 725,
+          "height": 669,
+          "sha256": "a9a9caadb1789dc6cbb34ad1beaf3963f49d8aae4245f94c9f3bd1faae9dabd3",
+          "bytes": 59491,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5703/rw5703-2-miniature-three-tier-utility-cart-models-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "11a2fc60d5dcf1dba61e626685a7e3bf9de1b8af1aaa31294bc691bddfd8b2fd",
+          "bytes": 51599,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5703/rw5703-3-miniature-three-tier-utility-cart-models-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "39cc794f3dd8f1762c3eb720eaa969eabc1dbe2a91a8dc89ee0f96cfdf9cd24e",
+          "bytes": 76403,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5076",
+      "operation": "new",
+      "sourceRow": 311,
+      "sourceFields": {
+        "sku": "RW5076 ",
+        "标题": "Doll House Mini Highway Construction Road Guardrail Photography Props Fence Miniature Warning Signs Doll House Accessories",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5076.png",
+          "sha256": "fe18aeec9adecf57f2dd3d65173965d9a27d64363ee328e7650a947a44f832ff"
+        },
+        {
+          "file": "RW5076-1.png",
+          "sha256": "1045b299099deb9a946ae562445bb2d1400b5ffef3b3aecf6bd265fe6eb06042"
+        },
+        {
+          "file": "RW5076-3.png",
+          "sha256": "97cb4006f8acf066c42894fc49f03a6160dbaa3dd9295f2b90d085f5c423c639"
+        },
+        {
+          "file": "RW5076-5.png",
+          "sha256": "b4f75bf42281c6789be74c2d831b8c563d2593bcc5c447cbd9760a017e739c0c"
+        },
+        {
+          "file": "RW5076-7.png",
+          "sha256": "11d7bbeca2b69369d955804529d83d12813c8cf02411c514efe99b652689d391"
+        }
+      ],
+      "pdp": "p-rw5076.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5076/rw5076-1-miniature-road-signs-fences-and-barriers-20261025-garden.jpg",
+          "role": "supplied road-scene assortment reference",
+          "width": 750,
+          "height": 718,
+          "sha256": "7bfb20f2880b2503666767ac5e5c35cb757619decea7375ec2ec106871136f71",
+          "bytes": 63979,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5076/rw5076-2-miniature-road-signs-fences-and-barriers-20261025-garden.jpg",
+          "role": "RW5076-1 white fence reference",
+          "width": 689,
+          "height": 668,
+          "sha256": "dff44e0193ee9300e5c2324284371eeb4d079c7db6353d90ceb396337f894014",
+          "bytes": 44449,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5076/rw5076-3-miniature-road-signs-fences-and-barriers-20261025-garden.jpg",
+          "role": "RW5076-3 yellow-black barrier reference",
+          "width": 740,
+          "height": 614,
+          "sha256": "196eab6bb7a193d44f3c1c417e09f2fb82631098c27f8e3c08993605f1970106",
+          "bytes": 55257,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5076/rw5076-4-miniature-road-signs-fences-and-barriers-20261025-garden.jpg",
+          "role": "RW5076-5 traffic cone reference",
+          "width": 729,
+          "height": 597,
+          "sha256": "805527652b8991461f9918ed23cc52abbab199f1797d4d65019debc12ed50cd9",
+          "bytes": 54526,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5076/rw5076-5-miniature-road-signs-fences-and-barriers-20261025-garden.jpg",
+          "role": "RW5076-7 barrel reference",
+          "width": 689,
+          "height": 578,
+          "sha256": "eeaeea6d60bcc6ba32dacb1e31f7711a70eae5e9fc9e017884c6ad350871bddf",
+          "bytes": 51972,
+          "origin": "owner-supplied product reference"
+        }
+      ]
+    },
+    {
+      "sku": "RW5285",
+      "operation": "new",
+      "sourceRow": 312,
+      "sourceFields": {
+        "sku": "RW5285 ",
+        "标题": "Miniature Cactus Ornament Doll House Succulent Potted Plants Micro Landscape Decoration Toy",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "25-35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "10pcs /bag可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5285 .png",
+          "sha256": "3c94282c5b092f485a8e306720224ba5807bb3173be8f01dd784dd6bd9474845"
+        }
+      ],
+      "pdp": "p-rw5285.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5285/rw5285-1-miniature-potted-cactus-and-succulent-ornaments-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 985,
+          "height": 583,
+          "sha256": "d3c72ce4a41dd811843edf4e5622607fab7e4af507bc33eebfe29bff9a19bf7b",
+          "bytes": 81120,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5285/rw5285-2-miniature-potted-cactus-and-succulent-ornaments-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "01b48aeb88f91fe2daf960f2f8d6ca84c774b6b4cc9dfe8963025985784d6fcd",
+          "bytes": 54126,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5285/rw5285-3-miniature-potted-cactus-and-succulent-ornaments-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1a910a0c29cfe0e37a1e1bf1af4670f9538ee767c70b47fd3456f84eb9bda1a2",
+          "bytes": 82446,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5360",
+      "operation": "new",
+      "sourceRow": 313,
+      "sourceFields": {
+        "sku": "RW5360 ",
+        "标题": "Farmer Horse Decoration Fairy Garden Accessories DIY Cow Duck Piglet GoatAnimal Figurine Miniature Decor Mini Figures",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "56*63mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5360 .png",
+          "sha256": "4ca75f43b22261b4c94fbaf856e4dc996a64a643a7ca447a33066120d33b5500"
+        }
+      ],
+      "pdp": "p-rw5360.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5360/rw5360-1-miniature-farmer-and-farm-animal-figures-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 813,
+          "height": 582,
+          "sha256": "0bb11dbb5616d01805081dfe188832211243c7d7fdb0defe6d4cd1c4bfa7d9d6",
+          "bytes": 58966,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5360/rw5360-2-miniature-farmer-and-farm-animal-figures-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f7fb3723bf6b168a600465268df01d30bcf27b1809d56c9ef3de8ae6915ca726",
+          "bytes": 59018,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5360/rw5360-3-miniature-farmer-and-farm-animal-figures-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "34070709b00823f03f5cf2abafe69b1210b851210e51f35fb727c066fe010767",
+          "bytes": 77641,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW20669",
+      "operation": "new",
+      "sourceRow": 314,
+      "sourceFields": {
+        "sku": "RW20669 ",
+        "标题": "Doll House Mini Dolphin Kawaii Animal Figurines Decor Fairy Garden Miniatures Ornaments Home Decoration Accessories Crafts Toys",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "56*63mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW20669 .png",
+          "sha256": "223ae4d76c144f59c4b90acb696c7001f817f143851414e8b7697f8ef9a1cae4"
+        }
+      ],
+      "pdp": "p-rw20669.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20669/rw20669-1-miniature-white-dolphin-decorations-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 633,
+          "height": 593,
+          "sha256": "306a473a9264eff7762dfc94e0f5707ca778ace9b4081f217129d390c171d238",
+          "bytes": 50092,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw20669/rw20669-2-miniature-white-dolphin-decorations-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4f3a34bc2d2ae1033fbbfafd49f2a402afffbe76e6ebf54b36fc4175848ee51f",
+          "bytes": 53994,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw20669/rw20669-3-miniature-white-dolphin-decorations-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "301de77cae01432a63d48188c228319cccf7fb2008bb9cd05d5fe86a3e8ba20c",
+          "bytes": 75814,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW3934",
+      "operation": "new",
+      "sourceRow": 315,
+      "sourceFields": {
+        "sku": "RW3934 ",
+        "标题": "Mini Cute Doll House Toys Play Gifts Home DIY Decoration Dollhouse Miniature Ornament Craft",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "16*40mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW3934 .png",
+          "sha256": "6def91a590d2ec808e1647aea6319f54a0dfd5343d5ec7c322c4d5124cf43d5b"
+        }
+      ],
+      "pdp": "p-rw3934.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw3934/rw3934-1-miniature-claw-machine-ornaments-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 675,
+          "height": 743,
+          "sha256": "e5442167c5749579f8ce396613d9ae181b2447ada38de04bb4738c683790e17a",
+          "bytes": 102633,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw3934/rw3934-2-miniature-claw-machine-ornaments-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "890097d8edc153ea3a5c58c6dd178efa5ac4a81fe8f4209092106adc10940d78",
+          "bytes": 50027,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw3934/rw3934-3-miniature-claw-machine-ornaments-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "47f512c2a0e6dea2b30573459d18fc6c1f7957134209a0d87f9566cbe6a8bd5f",
+          "bytes": 77643,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5158",
+      "operation": "new",
+      "sourceRow": 316,
+      "sourceFields": {
+        "sku": "RW5158 ",
+        "标题": "Dollhouse Miniature Drinks Bottle Simulation Wine Bottle Beverage Bottle Model Toys Doll House Supermarket Accessories",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "Large size 12 * 47 mm Medium size 9.5 * 34 mm Small size 4.5 * 17.5 mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5158 .png",
+          "sha256": "c2348676428ed65fea8318ea480d492633ad606cb567e70451650f386018a8f1"
+        }
+      ],
+      "pdp": "p-rw5158.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5158/rw5158-1-miniature-decorative-beverage-bottle-models-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 664,
+          "height": 529,
+          "sha256": "5016bc440e9146ff1a17ea7ce7a5aecdeb5675af977b9378094a08009ec5bbe0",
+          "bytes": 53164,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5158/rw5158-2-miniature-decorative-beverage-bottle-models-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "25d3b3acc2556f5b0e7d0bf7d9a168a7b35965e2ec6beeba74030565fcc9e578",
+          "bytes": 63020,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5158/rw5158-3-miniature-decorative-beverage-bottle-models-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2f8965e13b3b4edbee959e115b49b953d5d4edd0019baefc50564c82dedd9155",
+          "bytes": 84124,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5034",
+      "operation": "new",
+      "sourceRow": 317,
+      "sourceFields": {
+        "sku": "RW5034 ",
+        "标题": "1:12 Dollhouse Miniature Drink Juice Cocktails Cups Dolls Kitchen Food Accessories Simulation Kitchen Bar Toys",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "about 10*22mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5034 .png",
+          "sha256": "888ad926fe89d4cff08686731ad9e4617c9d544e7038b151f0ebc3356364f626"
+        }
+      ],
+      "pdp": "p-rw5034.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5034/rw5034-1-miniature-fruit-cocktail-glass-decorations-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 696,
+          "height": 523,
+          "sha256": "ff40dd65ab1fdc6d7ac9962980cddf8a565ee829f19196ee547f43af43aa3b3b",
+          "bytes": 41406,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5034/rw5034-2-miniature-fruit-cocktail-glass-decorations-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7e769009d21a482ac1c81cbf1826917bbab5ed1680381ccb65d0354c8675877e",
+          "bytes": 53978,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5034/rw5034-3-miniature-fruit-cocktail-glass-decorations-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4e8374a6c24e9ea0f1f192ed9fc261e1947932bd4e6328869a7fe8c3d5278a55",
+          "bytes": 83695,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5115-RW5261",
+      "operation": "new",
+      "sourceRow": 318,
+      "sourceFields": {
+        "sku": "RW5115-RW5261 ",
+        "标题": "Miniature Resin Lamp Bench Lawn Fence Figurines 3D Models Dollhouse for Micro Landschaft Fairy Garden Craft",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "fence3*10cm,Bence2*2.8cm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "10sets/bag(4pcs of random color fence+one Lamp +one Lawn +one Bench"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5115-RW5261.png",
+          "sha256": "6bb119a358cf86439e0f8dff6ff7cf1ca0d4e7ed91a8ba5156801242bb157051"
+        }
+      ],
+      "pdp": "p-rw5115-rw5261.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5115-rw5261/rw5115-rw5261-1-miniature-lawn-fence-lamp-and-bench-scene-sets-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 694,
+          "height": 506,
+          "sha256": "2e89934fe7bd3478a6b503743c0100f1c4ff1a9d61b75137ac0e912dfbba5632",
+          "bytes": 97313,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5115-rw5261/rw5115-rw5261-2-miniature-lawn-fence-lamp-and-bench-scene-sets-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "e08f5e27400acf3a0a89b0196a84e42a7d25596fe45af575045b0f02ce2ecc84",
+          "bytes": 76843,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5115-rw5261/rw5115-rw5261-3-miniature-lawn-fence-lamp-and-bench-scene-sets-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ed9b5852f75ae5a0cfd2633b80816c67a50a96b6c9fac9b659b10f6a709f0134",
+          "bytes": 97586,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5065",
+      "operation": "new",
+      "sourceRow": 319,
+      "sourceFields": {
+        "sku": "RW5065 ",
+        "标题": "100Pcs Doll Hat Fashion for Doll Accessories Hat Gift Baby DIY Toy Dollhouse Miniature Original DIY Accessories",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "metallic Plastic",
+        "尺寸": "12.5*37mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5065.png",
+          "sha256": "38574dabf896e0bd9db6b43273c279d74392ea974c23d71005ce43d1026ea268"
+        }
+      ],
+      "pdp": "p-rw5065.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5065/rw5065-1-patterned-miniature-doll-hats-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 807,
+          "height": 700,
+          "sha256": "de6c801e57b2cdcaf35b0bc928b38f4bb49f9bf4f15ed193225197fb5c306440",
+          "bytes": 84982,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5065/rw5065-2-patterned-miniature-doll-hats-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b6aed28ba28f78a529baad3b496ae6abe07ca6f20ba0e9fcc05b5d34cec0d5c4",
+          "bytes": 48860,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5065/rw5065-3-patterned-miniature-doll-hats-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9006426ba4fe846b4fffe3fa4aafce62c72095310ff568d8f4cc0fe3dcbb1006",
+          "bytes": 75666,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW5048",
+      "operation": "new",
+      "sourceRow": 320,
+      "sourceFields": {
+        "sku": "RW5048",
+        "标题": "Colorful Artificial Flowers Small  Dried Floral Plants Mini Real Bouquets Home Decoration Photography Props Art Craft",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "Vase 15*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格10pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW5048.png",
+          "sha256": "0091b444e1ab1327efa24c1f3190c97b3f50d835ee4c5b840f93924e10516773"
+        }
+      ],
+      "pdp": "p-rw5048.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5048/rw5048-1-miniature-clear-vase-decorations-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 630,
+          "height": 748,
+          "sha256": "751bcfbbc18f880e99bd8d94e007b3882a0197ee9099ee04f9a0cb64757d42ff",
+          "bytes": 49709,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw5048/rw5048-2-miniature-clear-vase-decorations-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "036f5bbd383cabf6a29036c0911a063340087aa50d96124ea30e91be45445c68",
+          "bytes": 43366,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw5048/rw5048-3-miniature-clear-vase-decorations-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "100ae4366100f40c522048725c5692282841fabbc4a13fd5f7ede721b3dde411",
+          "bytes": 76775,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW003084",
+      "operation": "new",
+      "sourceRow": 321,
+      "sourceFields": {
+        "sku": "RW003084 ",
+        "标题": "Resin Mini Cartoon 3D Fruit Cake Flat Back Cabochon DIY Jewelry Crafts Decoration Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 18*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW003084.png",
+          "sha256": "e74bcd318156bc309d3b463ec3c0097242d5f16243fe95bb1e7ebcba6666ee60"
+        }
+      ],
+      "pdp": "p-rw003084.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003084/rw003084-1-miniature-fruit-cake-and-dessert-resin-cabochons-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 749,
+          "height": 744,
+          "sha256": "12850b8ca2912c7765b59f57e48d1978d60c58fa2547af9ec486204c7262d6c0",
+          "bytes": 116340,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw003084/rw003084-2-miniature-fruit-cake-and-dessert-resin-cabochons-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c8ab7f568065f3eaa6ad6837b6032c4a1112668d366f55cc5d17b9533e191bea",
+          "bytes": 49432,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw003084/rw003084-3-miniature-fruit-cake-and-dessert-resin-cabochons-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "20c227e840101e70e67299238cf24108ca71b7f09bca28b4e561dcdbcfee135d",
+          "bytes": 86632,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    },
+    {
+      "sku": "RW26725",
+      "operation": "new",
+      "sourceRow": 322,
+      "sourceFields": {
+        "sku": "RW26725 ",
+        "标题": "Custom Resin Ice House Cabochons Winter Theme Flat Back Charms for Handmade Jewelry Phone Case Craft Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24*35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceReferences": [
+        {
+          "file": "RW26725 .png",
+          "sha256": "1f20b586faa5dc84d788c8fd9b7dde3e9fb38910324d63dd76be334e49405a25"
+        }
+      ],
+      "pdp": "p-rw26725.html",
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26725/rw26725-1-blue-snowy-igloo-resin-cabochons-20261025-garden.jpg",
+          "role": "supplied product reference",
+          "width": 714,
+          "height": 732,
+          "sha256": "700b69945d4c2ecb95960461d9c6bfdd159d9723be98ef9b4d7a94131ecb2a34",
+          "bytes": 86218,
+          "origin": "owner-supplied product reference"
+        },
+        {
+          "path": "assets/images/pdp/rw26725/rw26725-2-blue-snowy-igloo-resin-cabochons-20261025-garden.jpg",
+          "role": "size and material guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "111bc03e0775c8d853e62389fca1e9c592cca5c5a2c2c39854d636579ed91e02",
+          "bytes": 43307,
+          "origin": "source-based specification graphic"
+        },
+        {
+          "path": "assets/images/pdp/rw26725/rw26725-3-blue-snowy-igloo-resin-cabochons-20261025-garden.jpg",
+          "role": "packing and selection guide",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a81229fb1816155435c4160f0f5a69426d77b845d9598d2099ea245dc63bd066",
+          "bytes": 75535,
+          "origin": "source-based specification graphic"
+        }
+      ]
+    }
+  ]
+}
