@@ -254,7 +254,7 @@ test('selected custom design guide shows the full illustration and separate mate
 
     await page.goto(service, { waitUntil: 'networkidle' });
     await expectNoHorizontalOverflow(page);
-    await expect(page.locator('.custom-service-card')).toHaveCount(2);
+    await expect(page.locator('#material-options .custom-service-card')).toHaveCount(2);
     await page.locator('#material-options').screenshot({ path: `test-results/qula-custom-services-${width}.png` });
   }
 
