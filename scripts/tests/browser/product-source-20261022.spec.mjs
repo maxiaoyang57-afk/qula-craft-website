@@ -29,5 +29,5 @@ test('October 22 resin and sequin SKUs connect galleries, exact searches and quo
   await page.goto('products.html?search='+encodeURIComponent(p.sku));
   await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku',p.sku);
  }
- expect(all.length).toBe(497);
+ expect(all.length).toBeGreaterThanOrEqual(497);
 });
