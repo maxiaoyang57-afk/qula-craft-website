@@ -241,6 +241,12 @@ for e in pdp:
     if pm:
         product["offers"] = {"@type": "AggregateOffer", "lowPrice": fmt_price(pm[0]), "priceCurrency": "USD",
                              "url": url, "seller": ORG_REF}
+    # Reviewed batches provide known facts explicitly; inquiry instructions are
+    # customer guidance, not material, size or other machine-readable facts.
+    if "verifiedStructuredSpecifications" in e:
+        for field in ("material", "size", "color", "pattern", "mpn", "additionalProperty"):
+            product.pop(field, None)
+        product.update(e["verifiedStructuredSpecifications"])
     crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE},
         {"@type": "ListItem", "position": 2, "name": "Products", "item": BASE + "products.html"},
@@ -285,7 +291,7 @@ for e in pdp:
         gal = f'<div class="gallery-main"><img fetchpriority="high" src="{imgs[0]}" alt="{alt0}" width="{w0}" height="{h0}"></div>'
         if len(imgs) > 1:
             gal += '<div class="gallery-row">' + "".join(
-                f'<img loading="lazy" src="{r}" alt="{esc(sku)} detail view {i+1}" width="{dims[i][0]}" height="{dims[i][1]}">'
+                f'<img loading="lazy" src="{r}" alt="{esc(sku)} {esc(e["galleryLabels"][i]) if e.get("galleryLabels") and i < len(e["galleryLabels"]) else "detail view " + str(i+1)}" width="{dims[i][0]}" height="{dims[i][1]}">'
                 for i, r in enumerate(imgs) if i > 0) + "</div>"
     else:
         w0, h0 = img_dim(catrow["image"])
@@ -310,11 +316,21 @@ for e in pdp:
 
     main_img = imgs[0] if imgs else catrow["image"]
     q_url = f"quote.html?product={esc(cut_words(title_full, 50)).replace(' ', '%20')}&sku={esc(sku)}&image={esc(main_img)}"
+    if public_copy.get("selectionAdvice") and catrow.get("inquiryUrl"):
+        q_url = esc(catrow["inquiryUrl"])
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")
 
     buying_guide = public_copy.get("buyingGuide")
     buying_guide_html = (f'<p class="small-note"><a href="{esc(buying_guide["url"])}">{esc(buying_guide["label"])} →</a></p>' if buying_guide else "")
+    editorial_html = ""
+    compliance_copy = "Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request."
+    if public_copy.get("selectionAdvice"):
+        compliance_copy = "Decorative model or craft component — non-edible. Ask about the applicable testing scope for your selected product and destination."
+        variant_html = ('<p>' + esc(public_copy["variantSizeNotes"]) + '</p>') if public_copy.get("variantSizeNotes") else ""
+        editorial_html = ('<section class="section" data-product-buying-guide="' + esc(sku) + '"><div class="container"><div class="section-head"><span class="eyebrow">Choose Your Reference</span><h2>Plan your project with ' + esc(sku) + '</h2></div><div class="detail-grid"><div><h3>Project ideas</h3><p>' + esc(public_copy.get("projectUse", "")) + '</p></div><div><h3>Before you choose</h3><p>' + esc(public_copy["selectionAdvice"]) + '</p>' + variant_html + '</div></div></div></section>')
+        if e.get("galleryNote"):
+            gal += '<p class="pdp-image-note" style="font-size:.85rem;color:#667085">' + esc(e["galleryNote"]) + '</p>'
 
     body = f"""
 <section class="page-hero pdp-hero"><div class="container">
@@ -328,7 +344,7 @@ for e in pdp:
   {price_html}
   <table class="spec-table"><tr><th colspan="2">Listed specifications</th></tr>{spec_html}
   {f'<tr><td><b>Availability</b></td><td>{esc(e.get("stockStatus", "Confirm for current quotation"))}</td></tr>' if e.get("stockStatus", "Confirm for current quotation") else ''}</table>
-  <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request.</p>
+  <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">{compliance_copy}</p>
   {buying_guide_html}
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
@@ -336,6 +352,7 @@ for e in pdp:
     <button type="button" class="basket-add" data-sku="{esc(sku)}" data-title="{esc(catrow['title'])}">＋ Add to inquiry list</button>
   </div>
 </div></div></section>
+{editorial_html}
 <section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Browse related catalog items below — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
 """
     page = h + body + post_shell

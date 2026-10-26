@@ -1,0 +1,17 @@
+{
+  "batchId": "qula-products-20261026-json-trial",
+  "catalogCountBefore": 537,
+  "catalogCountAfter": 538,
+  "newProductCount": 1,
+  "updatedProductCount": 0,
+  "imageCount": 3,
+  "products": [
+    {
+      "sku": "RW26724",
+      "pdp": "p-rw26724.html",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Mushroom-Resin-Charms-Red-White_1601933410277.html",
+      "imageEdits": "Gold brand badges removed from source references; third image reframed as a detail. Product appearance retained; no dimensions or hardware inferred from imagery.",
+      "galleryNote": "Styled product and hand-held references are shown. The third image is a cropped detail of the hand-held reference, not an additional product angle. Props are not included."
+    }
+  ]
+}
