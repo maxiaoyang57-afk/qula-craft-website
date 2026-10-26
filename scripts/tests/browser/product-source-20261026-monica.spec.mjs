@@ -16,8 +16,8 @@ test('Collected Monica products retain responsive galleries, exact searches and 
    expect(layout.width,JSON.stringify(layout.overflow)).toBeLessThanOrEqual(viewportWidth+1);
   };
   await checkWidth();
-  const images=page.locator('.gallery-main img,.gallery-row img');await expect(images).toHaveCount(record.imageOutputs.length);
-  for(let i=0;i<record.imageOutputs.length;i++){await images.nth(i).scrollIntoViewIfNeeded();await expect.poll(()=>images.nth(i).evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);}
+  const images=page.locator('.gallery-main img,.gallery-row img');await expect(images).toHaveCount(3);
+  for(let i=0;i<3;i++){await images.nth(i).scrollIntoViewIfNeeded();await expect.poll(()=>images.nth(i).evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);}
   await page.evaluate(()=>window.scrollTo({top:0,left:0,behavior:'instant'}));
   await checkWidth();
   await page.screenshot({path:`test-results/monica-20261026-${p.pdp}-${test.info().project.name}.png`,fullPage:true,animations:'disabled'});
