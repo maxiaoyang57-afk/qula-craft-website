@@ -1,0 +1,74 @@
+{
+  "yx043": {
+    "sku": "YX043",
+    "heading": "Choose a candy sprinkle mix for your project",
+    "project": "Use the round candy shapes as a starting point for a sweet-themed craft collection. Compare the size of the individual pieces with the area you want to decorate; the listing's 500 g reference describes weight, not the dimensions or number of sprinkles.",
+    "checks": [
+      "Ask for the width and thickness of the selected pieces, plus a close-up of the proposed color mix.",
+      "State your total required weight and preferred packing. Confirm the sales unit and mix before comparing quotations.",
+      "For a shaker, slime or liquid-filled project, describe the exact base and opening size. Evaluate a sample in your own formulation before approving bulk use."
+    ],
+    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Compare polymer clay shapes and packing"},
+    "related": {"url": "p-yx3194.html", "label": "Compare with the YX3194 rainbow-and-cloud mix"}
+  },
+  "yx3194": {
+    "sku": "YX3194",
+    "heading": "Plan a rainbow-and-cloud assortment",
+    "project": "Build a pastel theme around the pictured rainbow and cloud motifs. The listed reference is a mixed assortment in a 1,000 g bag; it does not specify how many pieces of each component the bag contains.",
+    "checks": [
+      "Mark the components you want included or excluded, and ask whether the proposed assortment can follow that selection.",
+      "Request measurements for each selected component, rather than one size for the whole mix.",
+      "Tell us the project, required weight and any smaller-pack request. Confirm mix proportions, packing and minimum quantity separately; test a sample with your chosen base or container."
+    ],
+    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Review the polymer clay selection guide"},
+    "related": {"url": "p-yx3301.html", "label": "Compare with the YX3301 monkey-and-banana mix"}
+  },
+  "yx3301": {
+    "sku": "YX3301",
+    "heading": "Select the monkey and banana mix you need",
+    "project": "The monkey faces and banana slices give you two motifs to plan around. The packing record specifies 500 g per bag. It does not establish a fixed monkey-to-banana ratio or a piece count.",
+    "checks": [
+      "Identify the pictured motifs you want and ask for the proposed mixing proportions before approving the assortment.",
+      "Request the width and thickness of both motifs. Check them against the opening, surface or compartment in your project.",
+      "State the number of reference bags or total weight you need, plus any repacking request. Confirm the minimum order separately and evaluate the proposed sample before bulk use."
+    ],
+    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Review polymer clay mix and pack selection"},
+    "related": {"url": "p-yx043.html", "label": "Compare with the YX043 round candy shapes"}
+  },
+  "ya425": {
+    "sku": "YA425",
+    "heading": "Check the heart bead against your rod or cord",
+    "project": "YA425 is listed as a 16 × 18 mm acrylic heart bead with a 2.5 mm hole and a 500 g bag reference. These figures help you shortlist it; they do not establish that it fits a particular beadable pen or how many beads a bag contains.",
+    "checks": [
+      "Provide your rod or cord diameter and ask for the minimum clear hole diameter, hole direction and bead depth.",
+      "For a pen layout, measure the usable rod length and allow for spacers and the end fitting. Ask for the occupied length of the selected bead along its hole.",
+      "Specify the colors or assortment you want and the required weight. Confirm sample assembly, packing and minimum quantity before ordering a production lot."
+    ],
+    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "See how to measure a pen rod and bead layout"},
+    "related": {"url": "p-ya382.html", "label": "Compare with the YA382 cupcake shape"}
+  },
+  "ya382": {
+    "sku": "YA382",
+    "heading": "Plan a cupcake bead layout before choosing quantity",
+    "project": "Use the cupcake shape as a reference for a dessert-themed bead assortment. The listed pack reference is 100 pieces per bag. Bead dimensions and a numeric hole diameter are not published, so a styled image cannot establish fit or the space needed in a finished design.",
+    "checks": [
+      "Request width, height and depth, plus the minimum clear hole diameter and hole direction.",
+      "If you intend to use a beadable pen, provide its rod diameter and usable length. Ask for an actual sample fit and the bead's occupied length along the rod.",
+      "Identify the desired colors or mix and say how many pieces you need. Confirm assortment, sample arrangements and MOQ separately from the 100-piece bag reference."
+    ],
+    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Check bead dimensions and pen-rod measurements"},
+    "related": {"url": "p-ya425.html", "label": "Compare with YA425 and its listed 2.5 mm hole"}
+  },
+  "czb26353": {
+    "sku": "CZB26353",
+    "heading": "Check a puppy focal bead for your pen design",
+    "project": "Start with the scarf-puppy shape when planning a dog-themed decorative pen or craft assortment. The source title references 100 pieces per pack, but it does not provide the dimensions, hole measurement or occupied rod length needed to approve a pen layout.",
+    "checks": [
+      "Request the bead's width, height and depth, minimum clear hole diameter and hole direction for the selected puppy design.",
+      "Provide your rod diameter and usable length, including the space reserved for spacers and fittings. Ask for a sample assembly; do not infer fit from another bead's measurements.",
+      "Mark the desired puppy designs or colors and state the required piece count. Confirm the assortment and pack contents, then review sample and bulk quantities in the quotation."
+    ],
+    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Measure your pen before choosing focal beads"},
+    "related": {"url": "guide-beadable-pen-beads.html", "label": "Read the focal-bead and sourcing guide"}
+  }
+}

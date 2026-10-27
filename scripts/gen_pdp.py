@@ -7,6 +7,7 @@ from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
 from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, public_specs
+from pdp_selection_guides import render_selection_guide, selection_jump, selection_quote_url
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -321,6 +322,7 @@ for e in pdp:
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")
 
+    q_url = selection_quote_url(key, q_url)
     buying_guide = public_copy.get("buyingGuide")
     buying_guide_html = (f'<p class="small-note"><a href="{esc(buying_guide["url"])}">{esc(buying_guide["label"])} →</a></p>' if buying_guide else "")
     editorial_html = ""
@@ -346,6 +348,7 @@ for e in pdp:
   {f'<tr><td><b>Availability</b></td><td>{esc(e.get("stockStatus", "Confirm for current quotation"))}</td></tr>' if e.get("stockStatus", "Confirm for current quotation") else ''}</table>
   <p style="font-size:.85rem;color:#77808c;margin:10px 0 16px">{compliance_copy}</p>
   {buying_guide_html}
+  {selection_jump(key)}
   <div class="pdp-cta" style="display:flex;flex-direction:column;gap:10px;max-width:340px">
     <a class="btn btn-primary" href="{q_url}">Request Quote for {esc(sku)} <span>→</span></a>
     <a class="btn btn-wa-3d" href="{wa}" target="_blank" rel="noopener">Chat on WhatsApp</a>
@@ -353,6 +356,7 @@ for e in pdp:
   </div>
 </div></div></section>
 {editorial_html}
+{render_selection_guide(key, q_url)}
 <section class="section section-soft"><div class="container"><div class="section-head"><span class="eyebrow">Same Line</span><h2>More {esc(cname)}</h2><p>Browse related catalog items below — quote any SKU directly or <a href="{catpage(cslug)}">browse the full {esc(cname)} category</a>.</p></div><div class="product-grid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">{rel_cards}</div></div></section>
 """
     page = h + body + post_shell
