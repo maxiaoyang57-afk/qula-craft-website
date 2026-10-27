@@ -176,6 +176,15 @@ def public_specs(entry: dict) -> dict:
         specs["Color"] = "Pink"
         if "Size" in specs:
             specs["Pack weight"] = specs.pop("Size")
+    # Imported field labels are not product facts. Keep the captured record
+    # untouched, but do not publish a column heading as a color or describe
+    # an explicit bag/parcel packing statement as a physical product size.
+    if str(specs.get("Color", "")).strip().lower() == "size":
+        specs.pop("Color")
+    size = specs.get("Size", "")
+    if ("Reference packing" not in specs and isinstance(size, str)
+            and re.fullmatch(r"\d+(?:\.\d+)?\s*(?:g|kg)\s*(?:/\s*bags?|×\s*\d+\s*bags?\s*/\s*parcel)", size, re.I)):
+        specs["Reference packing"] = specs.pop("Size")
     if (entry.get("categorySlug") == "beads-for-pens"
             and specs.get("Product Type") == "Painting"
             and specs.get("Material") == "Resin"):
