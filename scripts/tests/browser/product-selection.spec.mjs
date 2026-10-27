@@ -32,7 +32,8 @@ for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353']) {
     const destination = new URL(page.url());
     const image = destination.searchParams.get('image');
     await expect(page.locator('#pPreviewTitle')).toContainText(sku);
-    await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', image);
+    const normalizedImage = new URL(image, page.url());
+    await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', normalizedImage.pathname + normalizedImage.search);
     await page.locator('[name="quantity"]').fill('500 pieces; sample fit review requested');
     await page.locator('[name="message"]').fill(`Please review the sample and packing for ${sku}.`);
     const whatsapp = await page.locator('#inquiryForm [data-inquiry-whatsapp]').getAttribute('href');
