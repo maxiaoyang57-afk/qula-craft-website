@@ -29,15 +29,19 @@ most search traffic or confirmed orders.
 
 - Shared renderer `scripts/pdp_selection_guides.py` supplies the full PDP
   generator and an idempotent update of these six existing sections.
-- Each new inquiry link reuses that PDP's original destination, SKU and image.
-  Existing inquiry forms and analytics are unchanged. Links point to existing
+- Each new inquiry link retains the PDP's original destination, SKU, image and
+  product fields. Four older primary links (YX043, YA425, YA382, CZB26353) lacked
+  a category parameter; add the matching existing category option so buyers no
+  longer have to select it again. Existing inquiry forms and analytics are
+  unchanged. Links point to existing
   selection guides and relevant comparison products, without a new landing page.
 - Only the six edited PDP sitemap dates change. Category titles and URLs remain
   in their 13 October–9 November observation window.
-- Verify the old HTML is byte-identical after removing only the added sections
-  and jump links, plus the normal SEO/email/catalog/IndexNow gates.
+- Verify original HTML is byte-identical after removing only the added sections
+  and jump links and restoring the four normalized inquiry hrefs, plus the
+  normal SEO/email/catalog/IndexNow gates.
 - Browser coverage checks the jump link, guide destinations, responsive layout,
-  correct SKU/image in the quote page and draft contact text. It does not submit
+  correct SKU/image/category in the quote page and draft contact text. It does not submit
   a form, open WhatsApp or count a test lead.
 
 ## Indexing and outcome boundary

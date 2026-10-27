@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
 from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, public_specs
-from pdp_selection_guides import render_selection_guide, selection_jump
+from pdp_selection_guides import render_selection_guide, selection_jump, selection_quote_url
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -322,6 +322,7 @@ for e in pdp:
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")
 
+    q_url = selection_quote_url(key, q_url)
     buying_guide = public_copy.get("buyingGuide")
     buying_guide_html = (f'<p class="small-note"><a href="{esc(buying_guide["url"])}">{esc(buying_guide["label"])} →</a></p>' if buying_guide else "")
     editorial_html = ""

@@ -27,6 +27,8 @@ for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353']) {
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
     await action.click();
     await expect(page.locator('[name="selected_sku"]')).toHaveValue(sku);
+    const category = sku.startsWith('YX') ? 'Polymer Clay Sprinkles' : sku.startsWith('YA') ? 'Acrylic Beads' : 'Beads for Pens';
+    await expect(page.locator('select[name="product"]')).toHaveValue(category);
     const destination = new URL(page.url());
     const image = destination.searchParams.get('image');
     await expect(page.locator('#pPreviewTitle')).toContainText(sku);
