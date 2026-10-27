@@ -31,7 +31,7 @@ for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353']) {
     await expect(page.locator('select[name="product"]')).toHaveValue(category);
     const destination = new URL(page.url());
     const image = destination.searchParams.get('image');
-    await expect(page.locator('#pPreviewTitle')).toContainText(sku);
+    await expect(page.locator('#pPreviewTitle')).toHaveText(destination.searchParams.get('product'));
     const normalizedImage = new URL(image, page.url());
     await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', normalizedImage.pathname + normalizedImage.search);
     await page.locator('[name="quantity"]').fill('500 pieces; sample fit review requested');
