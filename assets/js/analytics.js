@@ -115,7 +115,7 @@
     else if(target.pathname==='/quote.html')name='quote_click';
     if(!name)return;
     var area='content';
-    if(link.closest('.mobile-cta'))area='mobile_cta';
+    if(link.closest('.mobile-cta-bar'))area='mobile_cta';
     else if(link.closest('header, nav'))area='navigation';
     else if(link.closest('footer'))area='footer';
     else if(link.closest('.product-card, .product-card-v2, [data-product-card]'))area='product_card';

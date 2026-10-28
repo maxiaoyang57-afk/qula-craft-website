@@ -81,11 +81,13 @@ test('guide product and quote clicks are consented, once, and contain no inquiry
       document.querySelector('main').appendChild(card);
     });
     await f.page.locator('#test-quote-child').click();
+    await f.page.locator('.mobile-cta-bar a[href*="quote.html"]').first().evaluate(a=>a.click());
     const events=await buyingClicks(f.page);
-    assert.deepEqual(events.map(e=>e.name),['product_click','quote_click']);
+    assert.deepEqual(events.map(e=>e.name),['product_click','quote_click','quote_click']);
     assert.equal(events[0].params.destination_path,'/p-yx043.html');
     assert.equal(events[1].params.destination_path,'/quote.html');
     assert.equal(events[1].params.link_location,'product_card');
+    assert.equal(events[2].params.link_location,'mobile_cta');
     for(const e of events){
       assert.deepEqual(Object.keys(e.params).sort(),['destination_path','link_location','page_location','page_path']);
       assert.equal(e.params.page_path,'/guide-slime-business-supply-checklist.html');
@@ -96,7 +98,7 @@ test('guide product and quote clicks are consented, once, and contain no inquiry
     await f.page.locator('.qc-cookie-settings').click();
     await f.page.locator('[data-analytics-decline]').click();
     await f.page.locator('a[href="p-yx043.html"]').first().click();
-    assert.equal((await buyingClicks(f.page)).length,2);
+    assert.equal((await buyingClicks(f.page)).length,3);
   } finally { await f.context.close(); }
 });
 
