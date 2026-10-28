@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 687,
+  "catalogCountAfter": 689,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26049",
+      "pdp": "p-rw26049.html",
+      "batchNumber": 12,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Cartoon-Panda-Collection_1601636623004.html",
+      "sourceFields": {
+        "sku": "RW26049",
+        "sku_raw": "MO-RW26049",
+        "title": "100Pcs New Cute Cartoon Panda Collection Flat Back Cabochon Resin Ornaments for Jewelry Bows Accessories",
+        "material": "Resin",
+        "size": "about25*35mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636623004",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Cartoon-Panda-Collection_1601636623004.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129361,
+          "sha256": "0a37f91d69f996454168fc1ffa927183925d68d3cee3ec24b953034051c7ebab"
+        },
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 162889,
+          "sha256": "cf0e4f454d5a05941b7f66bad9d3b7b4eef39c6454f4e7fa568da8f514211460"
+        },
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109045,
+          "sha256": "545fe1fc90cfc8c18ee19a344ef1a31e5aea2646ec81d736f2eaa6ce0e9f3f37"
+        }
+      ]
+    },
+    {
+      "sku": "RW23930",
+      "pdp": "p-rw23930.html",
+      "batchNumber": 12,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Glow-in-Dark-Artist-Duck-Figurines_1601660728906.html",
+      "sourceFields": {
+        "sku": "RW23930",
+        "sku_raw": "MO-RW23930",
+        "title": "Glow in Dark Artist Duck Figurines Luminous Mini Resin Miniature Decor for Valentine Christmas Gift",
+        "material": "Resin",
+        "size": "13-24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660728906",
+        "product_url": "https://www.alibaba.com/product-detail/Glow-in-Dark-Artist-Duck-Figurines_1601660728906.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 68618,
+          "sha256": "9e360ac145508dd132495579d5ff31f3fb14f80d57405baf66363184fae37562"
+        },
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58954,
+          "sha256": "f30d352d618da08b1a06e3ccb1be7790a814f24356bc7f957aec4fa40c79858e"
+        },
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84968,
+          "sha256": "bccde252ef7e7bb2d33af60a5e45b55e832c1b97931e04d6a02e832068cecdca"
+        }
+      ]
+    }
+  ]
+}
