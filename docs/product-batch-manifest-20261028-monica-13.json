@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 4,
+  "catalogCountBefore": 689,
+  "catalogCountAfter": 693,
+  "newProductCount": 4,
+  "imageCount": 12,
+  "products": [
+    {
+      "sku": "RW26367",
+      "pdp": "p-rw26367.html",
+      "batchNumber": 13,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Cartoon-Christmas-Series-Resin_1601806971241.html",
+      "sourceFields": {
+        "sku": "RW26367",
+        "sku_raw": "MO-RW26367",
+        "title": "Cute Mini Cartoon Christmas Series Resin Figurine Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+        "material": "Resin",
+        "size": "24*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806971241",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Cartoon-Christmas-Series-Resin_1601806971241.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 192988,
+          "sha256": "be1762b1a46d1ce9d81e4c686d877992eb0d342e10a62107011223f1a26fd5fe"
+        },
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172711,
+          "sha256": "d8d24d21a3c5a0f3149c44fad701d0adb7e0ddc51fa36b27e9a4fdf757801f7d"
+        },
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 190424,
+          "sha256": "baf4a59f8c9837ebc163416066182a184d02be5a540a89436c5ce0f9cf3f1fc0"
+        }
+      ]
+    },
+    {
+      "sku": "RW26110",
+      "pdp": "p-rw26110.html",
+      "batchNumber": 13,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mixed-Pastel-Mini-Resin-Caterpillar-Miniature_1601673744719.html",
+      "sourceFields": {
+        "sku": "RW26110",
+        "sku_raw": "MO-RW26110",
+        "title": "Mixed Pastel Mini Resin Caterpillar Miniature Fairy Garden Micro Landscape Ornament DIY Craft Decoration",
+        "material": "Resin",
+        "size": "70*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601673744719",
+        "product_url": "https://www.alibaba.com/product-detail/Mixed-Pastel-Mini-Resin-Caterpillar-Miniature_1601673744719.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138384,
+          "sha256": "de2353bf1fc582a7d52cccda8c84e81b703ff421b0cbb198b60c721cf1b55d38"
+        },
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 156261,
+          "sha256": "c5e5f4437e4e32cf4e019961e45a4c0edada04e4c74f165aad9ee7549987b9cf"
+        },
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139745,
+          "sha256": "b08e2ee8843336856e4021994a96fbb264c317ed57c8807da1f963c1722ad4c4"
+        }
+      ]
+    },
+    {
+      "sku": "RW20635",
+      "pdp": "p-rw20635.html",
+      "batchNumber": 13,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Resin-Simulation-Tape-Cabochon-Flatbacks_1600683569511.html",
+      "sourceFields": {
+        "sku": "RW20635",
+        "sku_raw": "MO-RW20635",
+        "title": "Cute Resin Simulation Tape Cabochon Flatbacks for Hair Bows Center Accessories DIY Decoration Scrapbooking Craft",
+        "material": "Resin",
+        "size": "about 16*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600683569511",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Resin-Simulation-Tape-Cabochon-Flatbacks_1600683569511.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 134034,
+          "sha256": "7c759605c1f6275d17881ef1e74d47efd903b8e9805e24fd9f339badc0dfa5ce"
+        },
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 159562,
+          "sha256": "d6a5f853ecec86b672a2b96bb7a30d57a3f6d1ffe92a803f4e3ba9d95c1deab9"
+        },
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 213239,
+          "sha256": "5ecae88bb4877b7e7bd2d81defdebb783980d07930f6cc65705a3e0f40f08537"
+        }
+      ]
+    },
+    {
+      "sku": "RW21432",
+      "pdp": "p-rw21432.html",
+      "batchNumber": 13,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cartoon-Animal-White-Sheep_1601394430995.html",
+      "sourceFields": {
+        "sku": "RW21432",
+        "sku_raw": "MO-RW21432",
+        "title": "Mini Kawaii Cartoon Animal White Sheep Resin Cabochons Scrapbook Diy Party Hairpin Accessories Deco Parts Crafts",
+        "material": "Resin",
+        "size": "about 24*26mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601394430995",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cartoon-Animal-White-Sheep_1601394430995.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 87501,
+          "sha256": "734d78df86a5d29c38190eb6ba1b31a1101365cba4967195106cbf10de438653"
+        },
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120560,
+          "sha256": "fa926ef4d5caad5e5ff531ecd3f7d8033c2233e53117bbd83686c4feb4e40346"
+        },
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142336,
+          "sha256": "24345c86c86e2b19fb61410a707b5751449926d877cfe5ab7ac9cd877cae1af7"
+        }
+      ]
+    }
+  ]
+}
