@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 3,
+  "catalogCountBefore": 698,
+  "catalogCountAfter": 701,
+  "newProductCount": 3,
+  "imageCount": 9,
+  "products": [
+    {
+      "sku": "RW24490",
+      "pdp": "p-rw24490.html",
+      "batchNumber": 16,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Small-Elephant-Figurines-Luminous-Animal_1601651441524.html",
+      "sourceFields": {
+        "sku": "RW24490",
+        "sku_raw": "MO-RW24490",
+        "title": "100pcs Small Elephant Figurines Luminous Animal Ornaments Glow in Dark Miniature Figurines DIY Micro Home Decoration",
+        "material": "Resin",
+        "size": "about31mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651441524",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Small-Elephant-Figurines-Luminous-Animal_1601651441524.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76443,
+          "sha256": "53582ed3e1d1c395c95bcf6f263d4459658686315372ee8c5ab34720890f9987"
+        },
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113308,
+          "sha256": "f961d369a396d3b7fbbac382cdb7061ea5d6ec5cc41e974b6b80d346f6a82d50"
+        },
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97805,
+          "sha256": "89f059840804ad59e10eebd11888745f606d21ce34a889846f8edb00099c324a"
+        }
+      ]
+    },
+    {
+      "sku": "RW24850",
+      "pdp": "p-rw24850.html",
+      "batchNumber": 16,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Sting-Ray-Figurines-Mini-Sculpture_1601643660798.html",
+      "sourceFields": {
+        "sku": "RW24850",
+        "sku_raw": "MO-RW24850",
+        "title": "Miniature Sting Ray Figurines Mini Sculpture Realistic Resin Sting Ray Charms Cake Topper Mini Sting Ray Sea Animal Figurine",
+        "material": "Resin",
+        "size": "about25*27mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643660798",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Sting-Ray-Figurines-Mini-Sculpture_1601643660798.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74718,
+          "sha256": "7ccaf439cff30e185fbdf975dd473f2382067a0b2b0d5f7136ea5eb39b66b3e4"
+        },
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193367,
+          "sha256": "6800fad4877745db747b3997e1e3c8dbf2a8d6b81e19b97b06ae46c4c3254e0f"
+        },
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 78738,
+          "sha256": "dc4415cbc75a6b507cdae18724a00dafc78c54a1e2e30db672048514754c6d77"
+        }
+      ]
+    },
+    {
+      "sku": "RW22576",
+      "pdp": "p-rw22576.html",
+      "batchNumber": 16,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Luminous-3D-Panda-Resin-Crafts_1601651422347.html",
+      "sourceFields": {
+        "sku": "RW22576",
+        "sku_raw": "MO-RW22576",
+        "title": "Cute Luminous 3D Panda Resin Crafts Glow in Dark Tiny Pandas Micro Landscape Figures Decorate DIY Home Ornaments",
+        "material": "Resin",
+        "size": "23*29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651422347",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Luminous-3D-Panda-Resin-Crafts_1601651422347.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 83667,
+          "sha256": "506e19096e7f9f31beac5717cd81a76fe8f96f7f347dc0e8e3921f132014fc55"
+        },
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 89865,
+          "sha256": "6fa487833d6f36f22e7a97330dd22376e9b22908f5484cc285d536de41ca0b4c"
+        },
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73392,
+          "sha256": "ca6f14fa753e19e14e788cda2694c95d3de97348326f0fd97740cb36c8791ac1"
+        }
+      ]
+    }
+  ]
+}
