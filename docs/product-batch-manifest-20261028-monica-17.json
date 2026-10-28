@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 6,
+  "catalogCountBefore": 701,
+  "catalogCountAfter": 707,
+  "newProductCount": 6,
+  "imageCount": 18,
+  "products": [
+    {
+      "sku": "RW26280",
+      "pdp": "p-rw26280.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Golden-Eggs-Resin-Model-Tiny_1601835673093.html",
+      "sourceFields": {
+        "sku": "RW26280",
+        "sku_raw": "MO-RW26280",
+        "title": "Mini Golden Eggs Resin Model Tiny Chick Egg DIY Dollhouse Accessories Simulated Miniature Landscape Home Decor Decoration",
+        "material": "Resin",
+        "size": "11*8mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601835673093",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Golden-Eggs-Resin-Model-Tiny_1601835673093.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146342,
+          "sha256": "986129f5bbdbcc4641305ff4f69541bc35594e83a870bc2b4b781782c65b22f2"
+        },
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139324,
+          "sha256": "0dfc75806ac36713478e7b2e9d1e881a852811f11c1c38e7242d7e6199ebfe23"
+        },
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121088,
+          "sha256": "081407fb87d691f8cf13cafa1ddc51c13ac667cb38d669590937fb710ace9b29"
+        }
+      ]
+    },
+    {
+      "sku": "RW2137",
+      "pdp": "p-rw2137.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Random-Mix-Red-Resin-Strawberry-Embellishments_1600455859179.html",
+      "sourceFields": {
+        "sku": "RW2137",
+        "sku_raw": "MO-RW2137",
+        "title": "Random Mix Red Resin Strawberry Embellishments Flatback Cabochon Scrapbook Wedding Decoration Diy Craft Accessories",
+        "material": "Resin",
+        "size": "21*27mm- / 16*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600455859179",
+        "product_url": "https://www.alibaba.com/product-detail/Random-Mix-Red-Resin-Strawberry-Embellishments_1600455859179.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 123670,
+          "sha256": "0d107107b1fcfe6e891688f72dc7ae607d0f0426183f7147d6c11601cbe6b516"
+        },
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142209,
+          "sha256": "b3870d406cbf644b3a0c463d51da65ddcc87855bf5306b5d1e397070d8e460b3"
+        },
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97140,
+          "sha256": "d5929fac99f34b3b771bcd02db61974bc9b58f34b3dc12d9af5697eb3fce7831"
+        }
+      ]
+    },
+    {
+      "sku": "RW26372",
+      "pdp": "p-rw26372.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Smiling-Toast-Slices-Flatback_1601832650782.html",
+      "sourceFields": {
+        "sku": "RW26372",
+        "sku_raw": "MO-RW26372",
+        "title": "Resin Cute Smiling Toast Slices Flatback Food DIY Resin Sweet Cabochon Jewelry Pendant Homemade Gift",
+        "material": "Resin",
+        "size": "20*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832650782",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Cute-Smiling-Toast-Slices-Flatback_1601832650782.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114386,
+          "sha256": "52022c0120694287e24978f7b6989df241fe86ff9556c6579c29a16d77c9187d"
+        },
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168219,
+          "sha256": "8fc05fbf7f54618aa21f1edaa370c84ef0dafe25b0f58ed04fe89ff637f7e84d"
+        },
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172825,
+          "sha256": "856d9a3612f86f0692196b1ab2f6bf07e599e53731c2d623d31e1bfc98316f4e"
+        }
+      ]
+    },
+    {
+      "sku": "RW26297",
+      "pdp": "p-rw26297.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601832706353.html",
+      "sourceFields": {
+        "sku": "RW26297",
+        "sku_raw": "MO-RW26297",
+        "title": "Resin 3D Ice Cream Simulation Food Art Supply Embellishments Minitures Dollhouse Handicrafts Decoration",
+        "material": "Resin",
+        "size": "about20*34mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832706353",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601832706353.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112167,
+          "sha256": "c43a9ae4cfe691a00024b500e0cd5cae303c56ad05055ac4c08e7e0b8719751b"
+        },
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129694,
+          "sha256": "867a85d7bcd794b52c842cd0746e4680308d770e1d42b4551175332299d2ae8a"
+        },
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95734,
+          "sha256": "0888ab5bbd3182f83f716de0824af627176b7fb913668dafa3120ecfc20f30b2"
+        }
+      ]
+    },
+    {
+      "sku": "RW26516",
+      "pdp": "p-rw26516.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Flatback-Mini-Spoon_1601832470518.html",
+      "sourceFields": {
+        "sku": "RW26516",
+        "sku_raw": "MO-RW26516",
+        "title": "100pcs Kawaii Resin Flatback Mini Spoon Folk Charms Cabochons Embellishments for DIY Ornament Crafts Scrapbook Home Decorations",
+        "material": "Resin",
+        "size": "about15*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832470518",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Flatback-Mini-Spoon_1601832470518.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 151817,
+          "sha256": "8f74c84aa13d0c1315346caa56b545682ba6bbc3e5cbac237bf4e20a6f710d68"
+        },
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142877,
+          "sha256": "1e9a3e278fd664e4b0ad6c0c2a02e0f3631a155c5f03dffe1b96090343db61e7"
+        },
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130831,
+          "sha256": "eb6380d507d7a5a63db5efd49d7bad351b3ce3c1a0e1c851fe07d17e44084bdd"
+        }
+      ]
+    },
+    {
+      "sku": "RW0024318",
+      "pdp": "p-rw0024318.html",
+      "batchNumber": 17,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Fruit-Series-Popsicle-Miniature-Flat-Back_1601832369498.html",
+      "sourceFields": {
+        "sku": "RW0024318",
+        "sku_raw": "MO-RW0024318",
+        "title": "Fruit Series Popsicle Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "about20*32mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832369498",
+        "product_url": "https://www.alibaba.com/product-detail/Fruit-Series-Popsicle-Miniature-Flat-Back_1601832369498.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150462,
+          "sha256": "d7490e1acf3c5fc6a64b9de8894718d2d53a023680c33608882ae1ef80824df2"
+        },
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147713,
+          "sha256": "a85d3084c68775b189f72f790c6ac799a85a7f33b227d578443e165bcb2107d9"
+        },
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154199,
+          "sha256": "1c505fd5d0d188e3cc2fe97081c2c00a7d4396decb7eb685940e07eb461c72f9"
+        }
+      ]
+    }
+  ]
+}
