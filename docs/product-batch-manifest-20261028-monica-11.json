@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 685,
+  "catalogCountAfter": 687,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26640",
+      "pdp": "p-rw26640.html",
+      "batchNumber": 11,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Bottles-of-Red-Wine-Dollhouse_1601884873793.html",
+      "sourceFields": {
+        "sku": "RW26640",
+        "sku_raw": "MO-RW26640",
+        "title": "Miniature Bottles of Red Wine Dollhouse Kitchen Food Toys",
+        "material": "Resin",
+        "size": "about7*31mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601884873793",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Bottles-of-Red-Wine-Dollhouse_1601884873793.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 167870,
+          "sha256": "c0c0c316bcc42dcba3f9c022a182a91820e8b97fe4a3221295b3eae28186ebf8"
+        },
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115616,
+          "sha256": "0b16407f2852d087ca895cdd0e11cb263c752454bdcd5ef518b89a68973fb116"
+        },
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 174824,
+          "sha256": "5343c29211d7e4961bce2bff6e16f8816c38b3fd122c97580756fe0ab13f4eae"
+        }
+      ]
+    },
+    {
+      "sku": "RW26616",
+      "pdp": "p-rw26616.html",
+      "batchNumber": 11,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-3D-Resin-Animal-Christmas-Santa_1601881839552.html",
+      "sourceFields": {
+        "sku": "RW26616",
+        "sku_raw": "MO-RW26616",
+        "title": "Kawaii 3D Resin Animal Christmas Santa Turkeys Miniatures Figurines Home Decor DIY Crafts Dollhouse Accessories",
+        "material": "Resin",
+        "size": "18-35mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881839552",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-3D-Resin-Animal-Christmas-Santa_1601881839552.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148019,
+          "sha256": "e494ab2c88e745d2a1b3a56b987a8aa6ff1fdb21290595b8730ce591f976c4ef"
+        },
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107924,
+          "sha256": "d8fe5e9e6ef5ac87ca4f7d47e8c2249ced5d63f76a9d8176319acdebc830301d"
+        },
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82990,
+          "sha256": "e0aa21c7da4961960245804d313e11e966d8051257fc44d7defcf8b3da8cceb9"
+        }
+      ]
+    }
+  ]
+}
