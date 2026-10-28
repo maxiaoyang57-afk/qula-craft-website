@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 10,
+  "catalogCountBefore": 675,
+  "catalogCountAfter": 685,
+  "newProductCount": 10,
+  "imageCount": 30,
+  "products": [
+    {
+      "sku": "RW26652",
+      "pdp": "p-rw26652.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Pink-Blossom-Bread-Rabbit-Figurines_1601885866238.html",
+      "sourceFields": {
+        "sku": "RW26652",
+        "sku_raw": "MO-RW26652",
+        "title": "Cute Pink Blossom Bread Rabbit Figurines Resin Cabochons Food Charms for Scrapbooking Hairpin Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about22-29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601885866238",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Pink-Blossom-Bread-Rabbit-Figurines_1601885866238.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130517,
+          "sha256": "fb7ce633c3cec66ee900250f9b6eb0a677965fa87e799a2e368b28683c4d0ac3"
+        },
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 153396,
+          "sha256": "5e7ed573915ab6efc1b312dd0f9283c196f227212c99a979c1486c3085e332e5"
+        },
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74856,
+          "sha256": "2c7b5e34fe8358a63b49013837aa0b568276fb429a5fd9827c895ec7c910367f"
+        }
+      ]
+    },
+    {
+      "sku": "RW26425",
+      "pdp": "p-rw26425.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Outdoor-Resin-Bee-Figurine-Garden_1601792524973.html",
+      "sourceFields": {
+        "sku": "RW26425",
+        "sku_raw": "MO-RW26425",
+        "title": "100pcs Outdoor Resin Bee Figurine Garden Bee Statue Garden Sculptures Statues Summer Ornament Landscape Patio Backyard Decor",
+        "material": "Resin",
+        "size": "24*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792524973",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Outdoor-Resin-Bee-Figurine-Garden_1601792524973.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44350,
+          "sha256": "dc3d1a0912819fa18c5a1dcc31c54933d2d33f1b92bedc3156c33b08e791aba0"
+        },
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129687,
+          "sha256": "991e372602f312e6485c1a497c644ec0d268de1658266f8cb59dcd2c7982c72f"
+        },
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72125,
+          "sha256": "946b7e1c6135b2eb2c2e425ab2b366c04790036a2422afd3aa9400d9abbc8725"
+        }
+      ]
+    },
+    {
+      "sku": "RW25784",
+      "pdp": "p-rw25784.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Animal-Figurines-Bow-Bear-Small_1601517109828.html",
+      "sourceFields": {
+        "sku": "RW25784",
+        "sku_raw": "MO-RW25784",
+        "title": "Miniature Animal Figurines Bow Bear Small House Micro Fairy Garden Miniatura Terrarium Crafts DIY Accessories Home Decor",
+        "material": "Resin",
+        "size": "19*20*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601517109828",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Animal-Figurines-Bow-Bear-Small_1601517109828.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65891,
+          "sha256": "7b862809d9c9ce021afd0f23cee86ceb2e2c9a0fb0bfe4ca00997ed84b54710c"
+        },
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105830,
+          "sha256": "2837e4189806822e45c39684b30f906c71e1ac4d85482b5315df78f959af4533"
+        },
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86689,
+          "sha256": "81b1d16783663f143721d8289f5f24ecc0343769b35d465ff75dbe2e53834667"
+        }
+      ]
+    },
+    {
+      "sku": "RW26053",
+      "pdp": "p-rw26053.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Sports-Small-Penguin-Resin-Charms_1601636590846.html",
+      "sourceFields": {
+        "sku": "RW26053",
+        "sku_raw": "MO-RW26053",
+        "title": "Kawaii Sports Small Penguin Resin Charms 3D Animal Keychain Necklace Pendant Attachment DIY Earring Jewelry Making",
+        "material": "Resin",
+        "size": "about23*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636590846",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Sports-Small-Penguin-Resin-Charms_1601636590846.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79170,
+          "sha256": "a6cf7e8dbcfd40e0de71bddd5f2a6d6617bf403e07972be97d383e3b518542f8"
+        },
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129151,
+          "sha256": "f015bab74a8826a9aedb9a544c078ec4c421f18df70676948763462cf67cf688"
+        },
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 94127,
+          "sha256": "d98fffb19492ef9cfc1a5a201e44bd7d03335301cf906fce94cfb31ac527b831"
+        }
+      ]
+    },
+    {
+      "sku": "RW26052",
+      "pdp": "p-rw26052.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Kitten-Collectibles-Mini-Resin-Cats_1601636681121.html",
+      "sourceFields": {
+        "sku": "RW26052",
+        "sku_raw": "MO-RW26052",
+        "title": "Cute Kitten Collectibles Mini Resin Cats Figurines for Fairy Garden Decor Micro Landscapes Tiny Cat for Party",
+        "material": "Resin",
+        "size": "about31*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636681121",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Kitten-Collectibles-Mini-Resin-Cats_1601636681121.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72358,
+          "sha256": "fdc53501bf9563e0170152db095653a7e9b4900b8634f06d921c6ba6532b4b39"
+        },
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158048,
+          "sha256": "4db37c0b464b4f94723a93911d4f1afb88fd491730b8a86621de48624c660e41"
+        },
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92381,
+          "sha256": "d5db7165a68aaeb567703fd4bce58373a8a6fc6bf2b1119c9a17a05e69dc76de"
+        }
+      ]
+    },
+    {
+      "sku": "RW25644",
+      "pdp": "p-rw25644.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Ocean-Series-Penguin-Sea-Horse_1601457527114.html",
+      "sourceFields": {
+        "sku": "RW25644",
+        "sku_raw": "MO-RW25644",
+        "title": "Cute Ocean Series Penguin Sea Horse Flatback Resin Cabochon Fit Phone Decoration DIY Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601457527114",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Ocean-Series-Penguin-Sea-Horse_1601457527114.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 218228,
+          "sha256": "59f8ce205cc6060c01591fcd3649946788b31f157363d0d0dd585ad480528426"
+        },
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 215099,
+          "sha256": "bdeb276743c452c3132f8f97221ac90ea4faf31e5b06ccbaba478bd4a9ed6867"
+        },
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98937,
+          "sha256": "8e7e5e3aed9ec43e1fe5d570ae1c15b6955f58d9bc9ec265633be2654680a286"
+        }
+      ]
+    },
+    {
+      "sku": "RW003577",
+      "pdp": "p-rw003577.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Lattice-Cloud_1601580226008.html",
+      "sourceFields": {
+        "sku": "RW003577",
+        "sku_raw": "MO-RW003577",
+        "title": "100pcs Mini Kawaii Cute Lattice Cloud Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Crafts",
+        "material": "Resin",
+        "size": "27*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601580226008",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Lattice-Cloud_1601580226008.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 93541,
+          "sha256": "a30e93f6a9fbf9ceed111152b2d45813b2e6c606bdecf4987e15d898d5e77c18"
+        },
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223813,
+          "sha256": "215ffd1dac19fbeae9df3e545466ed63225b0a92795de537f98d5d4c75586c58"
+        },
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109078,
+          "sha256": "2827f380a16c02ce2be22444e791da0cd661924f580a9169c07fa8918b05b8cf"
+        }
+      ]
+    },
+    {
+      "sku": "RW23952",
+      "pdp": "p-rw23952.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Cute-Glow-in-Dark-Resin_1601660815474.html",
+      "sourceFields": {
+        "sku": "RW23952",
+        "sku_raw": "MO-RW23952",
+        "title": "Mini Cute Glow in Dark Resin Bee Animal Miniature Fairy Garden Ornament Micro Landscape DIY Crafts Decoration",
+        "material": "Resin",
+        "size": "15*16mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660815474",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Cute-Glow-in-Dark-Resin_1601660815474.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79156,
+          "sha256": "4643acbda4223e3e6ab4cf746687303939eb452ac98127f72a787312e6b74e01"
+        },
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 137029,
+          "sha256": "b1922a167e2b34f1ec3a24cd59576365ef903d943d15d8f9c08258038e4beec3"
+        },
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107435,
+          "sha256": "608320ea59d383055a7cef4b33d65b7cc0816dc1c6d3f7e3a6be3d1472799a98"
+        }
+      ]
+    },
+    {
+      "sku": "RW26034",
+      "pdp": "p-rw26034.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Fruit-Strawberry-Cherry-Resin_1601629457765.html",
+      "sourceFields": {
+        "sku": "RW26034",
+        "sku_raw": "MO-RW26034",
+        "title": "100pcs Cartoon Fruit Strawberry Cherry Resin Charms Cute Flatback Pendants for Earring Bracelet Jewelry Making",
+        "material": "Resin",
+        "size": "about 23mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601629457765",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Fruit-Strawberry-Cherry-Resin_1601629457765.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 69234,
+          "sha256": "b9973dc2df453c4a3cbaf2f8d0cc5b761b5ffc8795306076a0ec7cbe625f1234"
+        },
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154421,
+          "sha256": "d782ab7cee345eb12225b24209aca6a563ae5f1e9e4505d8c70d75d86ab8011c"
+        },
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110900,
+          "sha256": "e6335a6f717ea00b1538e0f352b95f5b5e2494c146aecaebfe554eb4547b3122"
+        }
+      ]
+    },
+    {
+      "sku": "RW23542",
+      "pdp": "p-rw23542.html",
+      "batchNumber": 10,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Glow-in-Dark-Mini-Seal-Figurines_1601663484416.html",
+      "sourceFields": {
+        "sku": "RW23542",
+        "sku_raw": "MO-RW23542",
+        "title": "Glow in Dark Mini Seal Figurines Resin Luminous Sea Animals Miniatures 4 Styles for DIY Craft Home Decoration Supplies",
+        "material": "Resin",
+        "size": "11*17mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601663484416",
+        "product_url": "https://www.alibaba.com/product-detail/Glow-in-Dark-Mini-Seal-Figurines_1601663484416.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 236330,
+          "sha256": "094a8c653e545c111ea4b0b4159f1d84dde5d1eec37f0bf54043a12b29926599"
+        },
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161060,
+          "sha256": "abc4fc4c25c6481179652ea75c15fcdfca289c44afcd1f662fded1fd2a33d48b"
+        },
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 180518,
+          "sha256": "be043e1510e00e2ee4e4f5badf2bc1669aa45e5a6e95a01210de1621e7146cdf"
+        }
+      ]
+    }
+  ]
+}
