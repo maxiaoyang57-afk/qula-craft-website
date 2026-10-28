@@ -100,6 +100,34 @@
   }
   if(document.readyState==='complete'){setTimeout(inject,1200);}
   else{window.addEventListener('load',function(){setTimeout(inject,1200);});}
+  // Measure internal buying steps only after an explicit analytics choice.
+  // Delegation also covers search results inserted after page load. Never send
+  // link text, inquiry parameters, hashes, or a customer-entered product name.
+  document.addEventListener('click',function(e){
+    if(readConsent()!=='granted'||window.navigator.globalPrivacyControl===true||window.navigator.doNotTrack==='1')return;
+    var link=e.target&&e.target.closest?e.target.closest('a[href]'):null;
+    if(!link)return;
+    var target;
+    try{target=new URL(link.getAttribute('href'),location.href);}catch(error){return;}
+    if(!/^https?:$/.test(target.protocol)||target.username||target.password||target.port||!/^(www\.)?qulacrafts\.com$/i.test(target.hostname))return;
+    var name='';
+    if(/^\/p-[a-z0-9][a-z0-9-]*\.html$/i.test(target.pathname))name='product_click';
+    else if(target.pathname==='/quote.html')name='quote_click';
+    if(!name)return;
+    var area='content';
+    if(link.closest('.mobile-cta-bar'))area='mobile_cta';
+    else if(link.closest('header, nav'))area='navigation';
+    else if(link.closest('footer'))area='footer';
+    else if(link.closest('.product-card, .product-card-v2, [data-product-card]'))area='product_card';
+    else if(link.closest('.pdp-cta, .page-hero, .hero'))area='hero';
+    var source=/^\/[a-z0-9._/-]*$/i.test(location.pathname)?location.pathname:'/';
+    gtag('event',name,{
+      page_path:source,
+      page_location:location.origin+source,
+      destination_path:target.pathname,
+      link_location:area
+    });
+  });
   // 转化事件:WhatsApp / 邮箱 / 电话点击
   document.addEventListener('click',function(e){
     var a=e.target&&e.target.closest?e.target.closest('a'):null;if(!a)return;
