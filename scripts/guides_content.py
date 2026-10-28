@@ -167,15 +167,18 @@ GUIDES = [
  "crumb": "Slime Filler Guide",
  "eyebrow": "Sourcing Guide",
  "h1": "Bingsu Beads vs Fishbowl Beads vs Foam: A Filler Guide",
- "updated": "July 2026",
+ "updated": "October 28, 2026",
+ "datePublished": "2026-07-25",
+ "dateModified": "2026-10-28",
  "hero": "assets/images/downstream-covers-v2/downstream-topped-slime-jars-v2.webp",
  "heroW": 1200, "heroH": 1200,
  "heroAlt": "Finished slime jars topped with bingsu beads, sprinkles and charms",
  "heroCap": "Finished jars — the filler decides the sound and the texture, not the topping.",
  "answer": ("<b>Short answer:</b> bingsu beads are soft, iridescent <b>PET</b> strands that give slime a crunchy-but-light "
             "texture; fishbowl beads are hard, rounded and louder; foam balls are the cheapest bulk volume and change the "
-            "texture to floam. Our bingsu packs ship <b>500g per bag from one bag</b>. Pick by the sound and stretch you are "
-            "selling, then match the topping to it — not the other way round."),
+            "texture to floam. The two <b>YM109 catalog references</b> below list <b>500g packs</b>; confirm the selected "
+            "reference, current pack, MOQ and sample availability before ordering. Pick by the sound and stretch you are "
+            "selling, then match the topping to it."),
  "bodyHtml": f"""
   <h2>1. The three fillers, side by side</h2>
   <table class="spec-table matrix">
@@ -190,7 +193,7 @@ GUIDES = [
   cheaper substitutes do.</p>
 
   <h2>2. What 500g actually covers</h2>
-  <p>Both of our bingsu packs are <b>500g per bag, minimum one bag</b>. Because bingsu is so light, 500g is a lot of visible
+  <p>The two YM109 catalog references below list <b>500g packs</b>. Confirm the current pack and MOQ for the selected reference. Because bingsu is so light, 500g is a lot of visible
   volume — considerably more jars than 500g of a dense filler would cover. Rather than guess at a jars-per-bag figure that
   depends entirely on your dosing, do it the reliable way:</p>
   <ul>
@@ -198,15 +201,24 @@ GUIDES = [
     <li>Divide 500 by that number. That is your jars per bag, for your recipe.</li>
     <li>Re-check after the first production run — most makers use less than they expect once they see it in the jar.</li>
   </ul>
-  <p>This is the same reason we sell trial sizes on the sprinkle side of the catalogue: guessing dosage from a photo is the
-  fastest way to end up with dead stock.</p>
+  <p>Ask which sample quantities are available for your selected references before planning a trial. A catalog bag weight
+  is not a sample offer, and a product photograph cannot establish the dose for your recipe.</p>
+  <h3>Compare the two YM109 catalog references</h3>
+  <p>Both listings use the code YM109. Include the product link and a reference image in your inquiry so the selected
+  appearance is clear; do not assume the two references are interchangeable.</p>
+  <table class="spec-table matrix">
+    <tr><th>Catalog reference</th><th>Listed material and pack</th><th>Before ordering</th></tr>
+    <tr><td><a href="p-ym109.html">YM109: iridescent straw-style reference</a></td><td>PET; 500g reference pack</td><td>Confirm appearance, current pack, MOQ and available sample quantity.</td></tr>
+    <tr><td><a href="p-ym109-2.html">YM109: AB-color tube reference</a></td><td>PET; 500g reference pack</td><td>Confirm the selected color and shape, then test in your actual slime base.</td></tr>
+  </table>
 
   <h2>3. Colour bleed is the failure mode that costs a batch</h2>
   <p>The single most common complaint about any iridescent filler is colour migrating into a pale base after a few weeks on
   a shelf. It is not always visible on day one, which is what makes it expensive — you find out after the batch has shipped.</p>
-  <p>Test it in 20 minutes before you commit: put a pinch of filler into your palest base, seal it, leave it somewhere warm
-  and check at 24&nbsp;hours and again at a week. If the base has picked up a tint, keep that filler for saturated colours only.
-  Do this per batch, not per supplier — pigment lots change.</p>
+  <p>Set up a small compatibility check before you commit: put a measured amount of the selected filler into your actual
+  base, seal it, and record the formulation and storage conditions. Check for tint, texture changes and clumping at
+  24&nbsp;hours and again at a week. These are early observations, not proof of long-term compatibility. If a change appears,
+  review the sample with the supplier before choosing another base or scaling the order. Repeat for each approved batch.</p>
 
   <h2>4. Filler versus topping — they are different jobs</h2>
   <p>Fillers change the <em>texture and sound</em> of the slime and get mixed through. Toppings sit on the surface, sell the
@@ -220,14 +232,14 @@ GUIDES = [
   <p>You do not need every filler. Most shops that reorder steadily run one crunchy filler, one visual topping range and one
   seasonal set, then rotate the seasonal slot four times a year. Concretely: one bingsu pack for the crunch, a clay sprinkle
   mix for the surface, and a themed charm set that changes with the calendar.</p>
-  <p>Everything above ships from one bag, so you can build that three-part range for a first order without committing to
-  bulk on any single line — then scale only what sells through.</p>
+  <p>Keep the filler, topping and seasonal pieces on separate lines in your inquiry. Confirm each SKU, pack unit, MOQ and
+  sample arrangement before combining them into a first order, then scale the selections that suit your finished product.</p>
  """,
- "note": ("<b>Test before you scale:</b> pinch of filler into your palest base, sealed, checked at 24 hours and one week. "
-          "Do it per batch — pigment lots change, and colour bleed does not show on day one."),
+ "note": ("<b>Test before you scale:</b> record the selected catalog reference, base formulation and storage conditions. "
+          "Early checks at 24 hours and one week do not establish long-term compatibility."),
  "ctaH2": "Get a filler quote with your texture in mind",
  "ctaP": ("Tell us the texture you sell — light crunch, loud crackle, floam — and the base colour. We quote by the bag with "
-          "carton data attached, and can send trial quantities before you commit to a season."),
+          "carton data attached. Ask us to confirm sample availability, applicable charges and shipping before planning your trial."),
  "ctaHref": "quote.html?product=Bingsu%20Beads%20and%20Slime%20Fillers",
  "ctaLabel": "Request a slime filler quote",
  "faq": [
