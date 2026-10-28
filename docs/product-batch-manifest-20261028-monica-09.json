@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 10,
+  "catalogCountBefore": 665,
+  "catalogCountAfter": 675,
+  "newProductCount": 10,
+  "imageCount": 30,
+  "products": [
+    {
+      "sku": "RW26612",
+      "pdp": "p-rw26612.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-3D-Cartoon-Cute-Chubby-Yellow_1601881282639.html",
+      "sourceFields": {
+        "sku": "RW26612",
+        "sku_raw": "MO-RW26612",
+        "title": "Wholesale 3D Cartoon Cute Chubby Yellow Bee Honey Sunflower Daisy Creative Resin Nail Art Charms Nail Decorations for DIY Nails",
+        "material": "Resin",
+        "size": "about10-12mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881282639",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-3D-Cartoon-Cute-Chubby-Yellow_1601881282639.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26612/rw26612-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121139,
+          "sha256": "306e77c1933758c7e08f20735377df4cc8aac2b64b237006c99960d6e088079d"
+        },
+        {
+          "path": "assets/images/pdp/rw26612/rw26612-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 202051,
+          "sha256": "23959ff73e39ade428670bde1722ed4f48127f5814c7f680288928fabac8a147"
+        },
+        {
+          "path": "assets/images/pdp/rw26612/rw26612-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 90832,
+          "sha256": "db1e34aa5c12a1cbe8ab21bc414a10681cbc1d8816ff5c9bd361a9a6b4d8a163"
+        }
+      ]
+    },
+    {
+      "sku": "RW002271",
+      "pdp": "p-rw002271.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Sweet-Candy-Series_1601659800423.html",
+      "sourceFields": {
+        "sku": "RW002271",
+        "sku_raw": "MO-RW002271",
+        "title": "100pcs Kawaii Resin Sweet Candy Series Luminous Cabochon Embellishments Flatback Craft Material Accessories Mini Figurine Diy",
+        "material": "Resin",
+        "size": "24*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601659800423",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Sweet-Candy-Series_1601659800423.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002271/rw002271-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107407,
+          "sha256": "95df6d7afbc320cd76a9bfbe002b317669bc293eb739812beb94af66b888e79d"
+        },
+        {
+          "path": "assets/images/pdp/rw002271/rw002271-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 155447,
+          "sha256": "65ae5b7f86f936e59e62d55d857bc6ceefc852e307dd5974e9b198e27085ad0e"
+        },
+        {
+          "path": "assets/images/pdp/rw002271/rw002271-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118145,
+          "sha256": "3eba1c6be117324af55ff9005c9af26a242d4a20adb5eacfbe103f9f2fd00d18"
+        }
+      ]
+    },
+    {
+      "sku": "RW004103",
+      "pdp": "p-rw004103.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Frog-Figurines-Luminous-Mini_1601632516621.html",
+      "sourceFields": {
+        "sku": "RW004103",
+        "sku_raw": "MO-RW004103",
+        "title": "100Pcs Miniature Frog Figurines Luminous Mini Resin Frog Figures Garden Decor DIY Terrarium Craft for Moss Landscape Decor",
+        "material": "Resin",
+        "size": "about 22*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601632516621",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Frog-Figurines-Luminous-Mini_1601632516621.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004103/rw004103-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127700,
+          "sha256": "6351b3908d507e17e2323844a5ee2c227c4fe8af4470d8da1810deb0595fe558"
+        },
+        {
+          "path": "assets/images/pdp/rw004103/rw004103-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 180233,
+          "sha256": "f2831fd430041b6be7329f57968b28ba17e6c6ef048e5ed71ca2c417470fa7aa"
+        },
+        {
+          "path": "assets/images/pdp/rw004103/rw004103-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118876,
+          "sha256": "4721dbf73f359dd2c930d21ea80ad71d378b2a2bf211097f4c48f1e335a704df"
+        }
+      ]
+    },
+    {
+      "sku": "RW002548",
+      "pdp": "p-rw002548.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Luminous-Mini-Rabbit-Miniature-Figurines_1600873900498.html",
+      "sourceFields": {
+        "sku": "RW002548",
+        "sku_raw": "MO-RW002548",
+        "title": "Resin Luminous Mini Rabbit Miniature Figurines Small Animals for Moss Landscape Fairy Garden Aquarium Decor Birthday Gifts",
+        "material": "Resin",
+        "size": "19*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600873900498",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Luminous-Mini-Rabbit-Miniature-Figurines_1600873900498.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002548/rw002548-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130744,
+          "sha256": "cbbffc4fef8d9e45e3327f6e6ba3e945ef4b7c2d5d71e957768959d0a1cefe61"
+        },
+        {
+          "path": "assets/images/pdp/rw002548/rw002548-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 144055,
+          "sha256": "950f4bcd49c84c7823c0c4c80c6062e57aeecd3d9fad8cf4b2189593c83d1841"
+        },
+        {
+          "path": "assets/images/pdp/rw002548/rw002548-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122498,
+          "sha256": "8e86aec67a674874589fefd51934e102e99c08bb4aa5406e5bc21d76ba875155"
+        }
+      ]
+    },
+    {
+      "sku": "RW23944",
+      "pdp": "p-rw23944.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mixed-Mini-Resin-Caterpillar-Miniature-Glow_1601660784524.html",
+      "sourceFields": {
+        "sku": "RW23944",
+        "sku_raw": "MO-RW23944",
+        "title": "Mixed Mini Resin Caterpillar Miniature Glow in Dark Fairy Garden Micro Landscape Ornament DIY Craft Decoration",
+        "material": "Resin",
+        "size": "16*36mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660784524",
+        "product_url": "https://www.alibaba.com/product-detail/Mixed-Mini-Resin-Caterpillar-Miniature-Glow_1601660784524.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23944/rw23944-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 132966,
+          "sha256": "f96bb54d4847a46b865fad7b31351a9784d4a0109e01d363188002b56e927561"
+        },
+        {
+          "path": "assets/images/pdp/rw23944/rw23944-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 171172,
+          "sha256": "7aa28760380458283c75e54068997a550c5839fab34b24c68cd28e7761efa103"
+        },
+        {
+          "path": "assets/images/pdp/rw23944/rw23944-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 136088,
+          "sha256": "2de6c057d1e5746352b50c95f7ac81d9b861e49f77ce6e65d47b4ba7e5760755"
+        }
+      ]
+    },
+    {
+      "sku": "RW23940",
+      "pdp": "p-rw23940.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Glow-in-Dark-Simulated-Alpaca_1601651472331.html",
+      "sourceFields": {
+        "sku": "RW23940",
+        "sku_raw": "MO-RW23940",
+        "title": "100Pcs Glow in Dark Simulated Alpaca Decorative Accessories Environmental Resin Car Ornaments Mini Landscape",
+        "material": "Resin",
+        "size": "34*46mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651472331",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Glow-in-Dark-Simulated-Alpaca_1601651472331.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23940/rw23940-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52483,
+          "sha256": "df5f6d49d56d6af6467f322eac5f7cfeca6d3318056fcc5a746e6500a0798f74"
+        },
+        {
+          "path": "assets/images/pdp/rw23940/rw23940-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147304,
+          "sha256": "bcdc8ddadcaddac44d66c9cfe99c587a7921924f29b013edbff48d378042142a"
+        },
+        {
+          "path": "assets/images/pdp/rw23940/rw23940-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 63486,
+          "sha256": "b6530d227c7d6b0c3c632b77247e8adf751ce892ba1d76fd29b4ad52ee0827c8"
+        }
+      ]
+    },
+    {
+      "sku": "RW21838",
+      "pdp": "p-rw21838.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Luminous-Turtle-Home-Decor_1601643619735.html",
+      "sourceFields": {
+        "sku": "RW21838",
+        "sku_raw": "MO-RW21838",
+        "title": "100Pcs Mini Luminous Turtle Home Decor Landscaping Resin Crafts Glowing Turtle Garden Miniatures Ornaments Decoration",
+        "material": "Resin",
+        "size": "9*22*14mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643619735",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mini-Luminous-Turtle-Home-Decor_1601643619735.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21838/rw21838-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 69390,
+          "sha256": "fdbf8cbe8486afd9c948eb7b621a70e8d0dad83abe95963244ae828cd7ce01a3"
+        },
+        {
+          "path": "assets/images/pdp/rw21838/rw21838-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139258,
+          "sha256": "b399065fc792dafb363157aae955f184c3cdbb07a5799ada5ab7f0e5184d5d45"
+        },
+        {
+          "path": "assets/images/pdp/rw21838/rw21838-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 71893,
+          "sha256": "93589d9c8d258af5a129e5b2299fd926543b973805452e0e49c4e35332e05153"
+        }
+      ]
+    },
+    {
+      "sku": "RW004514",
+      "pdp": "p-rw004514.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Shiny-Colorful-New-Butterfly-Flat_1601643696593.html",
+      "sourceFields": {
+        "sku": "RW004514",
+        "sku_raw": "MO-RW004514",
+        "title": "100pcs Shiny Colorful New Butterfly Flat Back Rhinestone Figurines DIY Wedding Decor Scrapbook Christmas Craft",
+        "material": "Resin",
+        "size": "40*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643696593",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Shiny-Colorful-New-Butterfly-Flat_1601643696593.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004514/rw004514-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 201823,
+          "sha256": "ec4dc9995c7eb5f6e9f63e1d8fb71eb04c35232e1c8186729a3ec614cc8c7269"
+        },
+        {
+          "path": "assets/images/pdp/rw004514/rw004514-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 189137,
+          "sha256": "c549a9673b85b11b4e7ca6ae35af1d9f368c119daccd4b19e76cd87ec8201832"
+        },
+        {
+          "path": "assets/images/pdp/rw004514/rw004514-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 171497,
+          "sha256": "042338c3052cf3896acceb08d5d231f365ee407221f6d832304457dca114ab8f"
+        }
+      ]
+    },
+    {
+      "sku": "RW25778",
+      "pdp": "p-rw25778.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Sunflower-Flat_1601636560487.html",
+      "sourceFields": {
+        "sku": "RW25778",
+        "sku_raw": "MO-RW25778",
+        "title": "100pcs Mini Kawaii Resin Sunflower Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "material": "Resin",
+        "size": "20*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636560487",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Sunflower-Flat_1601636560487.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25778/rw25778-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 143738,
+          "sha256": "5befb47e85f6ba275589009733b9e191576f16696b38616ad143faebca3dad28"
+        },
+        {
+          "path": "assets/images/pdp/rw25778/rw25778-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114241,
+          "sha256": "0ee6bcb5f3caf12eab8ba24c70662c939c8922f3351ed8b88a3398b5e1d1589d"
+        },
+        {
+          "path": "assets/images/pdp/rw25778/rw25778-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115384,
+          "sha256": "db1dac8216022b96c3e1c8d3418768c68851bc000dc4ab39a668361b1bc660ec"
+        }
+      ]
+    },
+    {
+      "sku": "RW26378",
+      "pdp": "p-rw26378.html",
+      "batchNumber": 9,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animals-Owl-Resin-Flatback_1601832823351.html",
+      "sourceFields": {
+        "sku": "RW26378",
+        "sku_raw": "MO-RW26378",
+        "title": "Kawaii Cartoon Animals Owl Resin Flatback Cabochon DIY Scrapbooking Crafts Making Headgear Accessories",
+        "material": "Resin",
+        "size": "about17*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832823351",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animals-Owl-Resin-Flatback_1601832823351.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26378/rw26378-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118847,
+          "sha256": "c7b20abbbdf1a90cd8c911660b0acd7e894c99c8a200aee29523c69a1899d13b"
+        },
+        {
+          "path": "assets/images/pdp/rw26378/rw26378-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 249285,
+          "sha256": "5f7797556dca5fc10fe46879187e042cd6dba3e799af1bbaa9667d7b43db7f1a"
+        },
+        {
+          "path": "assets/images/pdp/rw26378/rw26378-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 137914,
+          "sha256": "f8fe05021163212cf76ee51faa2bbe8af80c8239c2b0b639164198e033767714"
+        }
+      ]
+    }
+  ]
+}
