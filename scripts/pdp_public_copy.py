@@ -28,6 +28,8 @@ PUBLIC_TITLE_OVERRIDES = {
 }
 
 PUBLIC_META_TITLE_OVERRIDES_BY_ASSET = {
+    "yx3531": "Star & Moon Polymer Clay Sprinkles | YX3531 | Qula Craft",
+    "czb25840": "Starfish Resin Spacer Beads | CZB25840 | Qula Craft",
     "yx048": "Pink Strawberry Clay Slices Wholesale | YX048 | Qula Craft",
     "rw5306": "Mini Wooden Honey Sticks Wholesale | RW5306",
     "ym228": "Artificial Snow for Slime Wholesale | YM228",
