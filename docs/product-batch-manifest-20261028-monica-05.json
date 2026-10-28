@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 644,
+  "catalogCountAfter": 646,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26455",
+      "pdp": "p-rw26455.html",
+      "batchNumber": 5,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Flatback-Resin-Simulation-Flower-Decoration_1601885753632.html",
+      "sourceFields": {
+        "sku": "RW26455",
+        "sku_raw": "MO-RW26455",
+        "title": "Kawaii Flatback Resin Simulation Flower Decoration Crafts Scrapbooking DIY Accessories",
+        "material": "Resin",
+        "size": "25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601885753632",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Flatback-Resin-Simulation-Flower-Decoration_1601885753632.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "91ab70aecd556206c80d0f9c725be0f11cb1d82bdbd0cacfeeb23f3d3a41ccd2",
+          "bytes": 161003
+        },
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "15d65f0fc302f8e723190259d6d420672efecd27a4a82a14f6ffa6f9f378b0aa",
+          "bytes": 171435
+        },
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3a32ed93060c054662444606f047984f4035c3e9ca7d615815a2c4b80e90e37f",
+          "bytes": 178766
+        }
+      ]
+    },
+    {
+      "sku": "RW26633",
+      "pdp": "p-rw26633.html",
+      "batchNumber": 5,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Toast-Bread-Flatback-Resin_1601887902448.html",
+      "sourceFields": {
+        "sku": "RW26633",
+        "sku_raw": "MO-RW26633",
+        "title": "100pcs Kawaii Toast Bread Flatback Resin Cabochon SImulation Simulation Food Scrapbooking Dollhouse DIY Craft",
+        "material": "Resin",
+        "size": "about24*19mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887902448",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Toast-Bread-Flatback-Resin_1601887902448.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7b03b71986bb39c162d63f18507906d2b039abfdc5018a61090293818b32cb99",
+          "bytes": 214814
+        },
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3e07f04066406eaadbe48bd484573b4b4c12135572ffdf64647afa267058a131",
+          "bytes": 174046
+        },
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b32916d01938179acea8d343ed298bd9ef781e826b7ffcf29f0099d55d50a831",
+          "bytes": 146927
+        }
+      ]
+    }
+  ]
+}
