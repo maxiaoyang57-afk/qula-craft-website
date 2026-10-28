@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 8,
+  "catalogCountBefore": 650,
+  "catalogCountAfter": 658,
+  "newProductCount": 8,
+  "imageCount": 24,
+  "products": [
+    {
+      "sku": "RW26636",
+      "pdp": "p-rw26636.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Resin-Christmas-Snowman-Socks-Mini_1601889632165.html",
+      "sourceFields": {
+        "sku": "RW26636",
+        "sku_raw": "MO-RW26636",
+        "title": "Wholesale Resin Christmas Snowman Socks Mini Flatback Cabochon DIY for Jewelry Hairpin Keychain Scrapbook Pendant",
+        "material": "Resin",
+        "size": "about20-25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601889632165",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Resin-Christmas-Snowman-Socks-Mini_1601889632165.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26636/rw26636-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 171531,
+          "sha256": "283d8a105d2ae8285cdcf6e9595e7dc125cf357d0c4189623064dd1819c1cc0b"
+        },
+        {
+          "path": "assets/images/pdp/rw26636/rw26636-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 207740,
+          "sha256": "cc373a9d696bae08d70645fe9d7342f5417d5bf111692ae1395140fe0137ebad"
+        },
+        {
+          "path": "assets/images/pdp/rw26636/rw26636-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 184337,
+          "sha256": "8277227bd34614dd03846af1421b05be575e14445546857eff3a09366b2f4317"
+        }
+      ]
+    },
+    {
+      "sku": "RW26629",
+      "pdp": "p-rw26629.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Sweet-Simulation-Fish-Cake-Resin-Flatback_1601889401703.html",
+      "sourceFields": {
+        "sku": "RW26629",
+        "sku_raw": "MO-RW26629",
+        "title": "Sweet Simulation Fish Cake Resin Flatback Cabochon Food Decor Jewelry Making Accessories DIY Dollhouse Kichen Play",
+        "material": "Resin",
+        "size": "about26*39mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601889401703",
+        "product_url": "https://www.alibaba.com/product-detail/Sweet-Simulation-Fish-Cake-Resin-Flatback_1601889401703.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26629/rw26629-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129030,
+          "sha256": "e259ff6dfcd52758f806c8bab07351fe8987946efa6e4792c67efe36d5ca0720"
+        },
+        {
+          "path": "assets/images/pdp/rw26629/rw26629-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 111950,
+          "sha256": "352a1bdd9c67663f7591aa60b03a04a074909841c930fa79f7cfa7300ae93e23"
+        },
+        {
+          "path": "assets/images/pdp/rw26629/rw26629-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130372,
+          "sha256": "73e197d836d44de991e0ee1e7446f2c4e6554be2c7f668dbec66269cf8f5e917"
+        }
+      ]
+    },
+    {
+      "sku": "RW001413",
+      "pdp": "p-rw001413.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Luminous-Yellow-Chicken-Resin-Jewelry_1601889051890.html",
+      "sourceFields": {
+        "sku": "RW001413",
+        "sku_raw": "MO-RW001413",
+        "title": "100pcs Luminous Yellow Chicken Resin Jewelry Accessories Decorative Materials Resin Small Ornaments",
+        "material": "Resin",
+        "size": "18*16mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601889051890",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Luminous-Yellow-Chicken-Resin-Jewelry_1601889051890.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw001413/rw001413-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 81954,
+          "sha256": "98c34393f594efad71253d626e40cde73f829399365b524127d9837e9e206a8f"
+        },
+        {
+          "path": "assets/images/pdp/rw001413/rw001413-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95838,
+          "sha256": "92ec0acac4a88b5f92794bebac94e129fd7027b64eadd90bd25a48e7c52d7b4c"
+        },
+        {
+          "path": "assets/images/pdp/rw001413/rw001413-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 81099,
+          "sha256": "65bbdb81398bcd6c1bcd40cd7b15fb178e5eadfcedf9766dee54a5adeaeee78d"
+        }
+      ]
+    },
+    {
+      "sku": "RW26634",
+      "pdp": "p-rw26634.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cute-Simulation-Mini-Fruit-Cake_1601888049096.html",
+      "sourceFields": {
+        "sku": "RW26634",
+        "sku_raw": "MO-RW26634",
+        "title": "100pcs Cute Simulation Mini Fruit Cake DIY Accessories for Hairpin Pendant Kawaii Dollhouse Decor Miniature Craft",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601888049096",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Cute-Simulation-Mini-Fruit-Cake_1601888049096.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26634/rw26634-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 144287,
+          "sha256": "4b1043a5ded30b9e5f1e691b25434a78ebf3713d11597ff5b60bff8c2d5ff398"
+        },
+        {
+          "path": "assets/images/pdp/rw26634/rw26634-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107717,
+          "sha256": "7458239ea4c629a6c0e4521848d685476bc84d2e39fb2527a3fb1a4e8808253b"
+        },
+        {
+          "path": "assets/images/pdp/rw26634/rw26634-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139725,
+          "sha256": "e9068130f33b6f89ebf0f3eff023ff7c363fbb4d7c1a46902734945efcbee037"
+        }
+      ]
+    },
+    {
+      "sku": "RW26630",
+      "pdp": "p-rw26630.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulation-Glitter-Transparency-Fruits-Lychee-Banana_1601887856415.html",
+      "sourceFields": {
+        "sku": "RW26630",
+        "sku_raw": "MO-RW26630",
+        "title": "Simulation Glitter Transparency Fruits Lychee Banana Resin Flat Back Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "about25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887856415",
+        "product_url": "https://www.alibaba.com/product-detail/Simulation-Glitter-Transparency-Fruits-Lychee-Banana_1601887856415.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26630/rw26630-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 157228,
+          "sha256": "0619b003bde38c13c77fdef84525604ff7141ea6d8ea587a4abe4c4ac5c5f6b3"
+        },
+        {
+          "path": "assets/images/pdp/rw26630/rw26630-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158775,
+          "sha256": "eceba58c6a91986419bac6d1438118e9febd89d73b72f90ae798bdf3720d5ea0"
+        },
+        {
+          "path": "assets/images/pdp/rw26630/rw26630-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 217555,
+          "sha256": "954858759d895b92feb95c2d19763c585b5fa55b605a2642bd24f45bfc515725"
+        }
+      ]
+    },
+    {
+      "sku": "RW26433",
+      "pdp": "p-rw26433.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Rabbit-Glass-Resin-Cups_1601792627571.html",
+      "sourceFields": {
+        "sku": "RW26433",
+        "sku_raw": "MO-RW26433",
+        "title": "100pcs Mini Rabbit Glass Resin Cups for Dollhouse Kitchen Decor Wholesale DIY Milk Coffee Accessories",
+        "material": "Resin",
+        "size": "23*13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792627571",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Rabbit-Glass-Resin-Cups_1601792627571.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26433/rw26433-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79473,
+          "sha256": "877ea50ff42f600217c41d738d697311cbcdf59a249b14f5d005a84138ee10fd"
+        },
+        {
+          "path": "assets/images/pdp/rw26433/rw26433-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 89748,
+          "sha256": "f68d9b36ffe55a6441de69e1fcbfd58ad03a7810b539fb4fd4d372638978ca70"
+        },
+        {
+          "path": "assets/images/pdp/rw26433/rw26433-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79091,
+          "sha256": "b5993f8cd3c4a2c2fc6e6fdd8473072c9a7d7be00d35ef9af9cf650f539a2335"
+        }
+      ]
+    },
+    {
+      "sku": "RW26647",
+      "pdp": "p-rw26647.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Miniature-Dollhouse-Food-Grid-Pattern_1601886971393.html",
+      "sourceFields": {
+        "sku": "RW26647",
+        "sku_raw": "MO-RW26647",
+        "title": "100pcs Miniature Dollhouse Food Grid Pattern Mini Bread Basket Tray for Doll Accessories Toys",
+        "material": "Resin",
+        "size": "about57*43mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601886971393",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Miniature-Dollhouse-Food-Grid-Pattern_1601886971393.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26647/rw26647-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 178767,
+          "sha256": "f62243f68e352c4ee387c2bbb7ac1ecfce3342bab19cf5702b405f8a5caa0d57"
+        },
+        {
+          "path": "assets/images/pdp/rw26647/rw26647-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 144209,
+          "sha256": "fb7141fd4b5ac39dc2c4589a2f399245d8b40cdbc3ed23dd91ca2612cbaac1cb"
+        },
+        {
+          "path": "assets/images/pdp/rw26647/rw26647-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 145783,
+          "sha256": "6f53f5fead91eeb30602b0cbcb776004fe47cda5c78fe6233184306bc8534ccc"
+        }
+      ]
+    },
+    {
+      "sku": "RW26614",
+      "pdp": "p-rw26614.html",
+      "batchNumber": 7,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Sitting-Bow-Tie-Bear-Charms_1601881285946.html",
+      "sourceFields": {
+        "sku": "RW26614",
+        "sku_raw": "MO-RW26614",
+        "title": "Resin Sitting Bow Tie Bear Charms Figurines Craft Animal Miniature Landscape Accessories DIY Home Fairy Garden Decoration",
+        "material": "Resin",
+        "size": "16*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881285946",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Sitting-Bow-Tie-Bear-Charms_1601881285946.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26614/rw26614-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86602,
+          "sha256": "7832e5a9ecdc052c61af784aaa939832a31d65ca151906c72efba72b2615621b"
+        },
+        {
+          "path": "assets/images/pdp/rw26614/rw26614-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 134129,
+          "sha256": "33f11dda3d08e8bc161141bcb8a2d718fa1b261c42a4a7c2332b3f60006bbdf6"
+        },
+        {
+          "path": "assets/images/pdp/rw26614/rw26614-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120504,
+          "sha256": "2328ea44045de74c7a87761c356ffbd1c72d17d8ccc64e3c5347d98b13d9deb2"
+        }
+      ]
+    }
+  ]
+}
