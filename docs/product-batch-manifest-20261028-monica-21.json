@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 3,
+  "catalogCountBefore": 721,
+  "catalogCountAfter": 724,
+  "newProductCount": 3,
+  "imageCount": 9,
+  "products": [
+    {
+      "sku": "RW26302",
+      "pdp": "p-rw26302.html",
+      "batchNumber": 21,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pc-Cute-Round-Hamster-Miniature-Model_1601832278572.html",
+      "sourceFields": {
+        "sku": "RW26302",
+        "sku_raw": "MO-RW26302",
+        "title": "100pc Cute Round Hamster Miniature Model Creative Dollhouse Decor for Home Car Desktop Decoration Mini Ornament",
+        "material": "Resin",
+        "size": "about20*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832278572",
+        "product_url": "https://www.alibaba.com/product-detail/100pc-Cute-Round-Hamster-Miniature-Model_1601832278572.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52855,
+          "sha256": "24b6c5abac9a8c3f04062efb5d9cd312bcb8df1f364a6c1e1bb9fbd64002ba5c"
+        },
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91466,
+          "sha256": "47bfbe92c5be7eb67c09349007c7fc45a0477f57fc5ef0e7ab7a60ab80333a7a"
+        },
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 40791,
+          "sha256": "6b26b3f2e553e4f62ddb0ab435ee436826982b952ef56930fc0e44e01e3c1da1"
+        }
+      ]
+    },
+    {
+      "sku": "RW26298",
+      "pdp": "p-rw26298.html",
+      "batchNumber": 21,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Candy-Color-Cherry-Strawberry-Peaches_1601832209440.html",
+      "sourceFields": {
+        "sku": "RW26298",
+        "sku_raw": "MO-RW26298",
+        "title": "Resin Candy Color Cherry Strawberry Peaches Watermelon Flatback Rhinestone Fruits Figurines DIY Scrapbook Craft DIY Decor",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832209440",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Candy-Color-Cherry-Strawberry-Peaches_1601832209440.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122444,
+          "sha256": "058c7f3d5e19e3406b9bbf9c356ca5837a357229ecf343eee1391b0549033970"
+        },
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130558,
+          "sha256": "d58f1d0766a5d9f5ec26352f51f80b0006f008433e2abef0e76bdfd3cc5c6689"
+        },
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168173,
+          "sha256": "2109ff97a1a7b02a10723d1c78ee45c042d9305622353067abb7761a04df3c25"
+        }
+      ]
+    },
+    {
+      "sku": "RW26278",
+      "pdp": "p-rw26278.html",
+      "batchNumber": 21,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Pink-Resin-Axolotl-Miniature-Figures-Dish_1601832288553.html",
+      "sourceFields": {
+        "sku": "RW26278",
+        "sku_raw": "MO-RW26278",
+        "title": "Pink Resin Axolotl Miniature Figures Dish Garden Micro Landscape Decoration Teacup Garden Desk Axolotl Ornament",
+        "material": "Resin",
+        "size": "about21*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832288553",
+        "product_url": "https://www.alibaba.com/product-detail/Pink-Resin-Axolotl-Miniature-Figures-Dish_1601832288553.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62899,
+          "sha256": "e788bee5c39bcfa63d5ad2c1a5da3cec118cf44cf3c543020cf80998979fd43c"
+        },
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76171,
+          "sha256": "acda9f976ebd4b925fc9ad5d0e280b8fb6a0a54acf198c5cef5fb01d6ec12802"
+        },
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51970,
+          "sha256": "1c910103c922c75db821c723e5db5b0ee83f353c5c359c3c85086d8de6c13e07"
+        }
+      ]
+    }
+  ]
+}
