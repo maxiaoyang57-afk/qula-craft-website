@@ -13,7 +13,9 @@ New click events require saved analytics consent `granted` and are suppressed un
 
 `link_location`: `navigation`, `footer`, `product_card`, `hero`, `mobile_cta`, or `content`. Dynamic cards and nested link children use the same delegated listener. The listener does not delay navigation, send a form, or mark clicks as key events.
 
-All 688 root HTML pages receive only the analytics resource version change to `20261028-buying-clicks`; page content, metadata and sitemap dates remain stable. PDP/guide generation inherits the current HTML shell. Update the inquiry guard's expected version as well.
+The original release updated all 688 root HTML pages only with the analytics resource version change to `20261028-buying-clicks`; page content, metadata and sitemap dates remained stable. PDP/guide generation inherits the current HTML shell. Update the inquiry guard's expected version as well.
+
+Later on October 28, a read-only check of the 709-page main branch found two newly added pages (`p-rw26455.html` and `p-rw26633.html`) still referencing the older cache version. Their HTML changes only update that reference. The inquiry/build guard now checks every root HTML page for exactly one current analytics script, so stale or duplicate script references on future product uploads fail the build. The analytics runtime itself is unchanged. This corrects a cache-related measurement risk; it does not prove that historical events were lost or backfill any events.
 
 Validation: existing email/BCC, product, SEO and full catalog gates; consent adapter tests; browser scenarios in `scripts/tests/lead-tracking.test.cjs` for real guide links, dynamically inserted quote links, one event per click, consent acceptance/withdrawal, query stripping, invalid destinations, GPC/DNT, preview isolation and confirmed-lead regression. Browser fixtures fulfill site requests locally and abort external requests, so they send no analytics hits or inquiries.
 

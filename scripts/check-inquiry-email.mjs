@@ -82,7 +82,8 @@ if (process.argv[2] === '--live') {
     1,
   );
 } else {
-  checkHtmlDocuments(collectLocalHtml(ROOT), 'repository', EXPECTED_FORM_COUNT);
+  const documents = collectLocalHtml(ROOT);
+  checkHtmlDocuments(documents, 'repository', EXPECTED_FORM_COUNT);
 
   const quoteScript = fs.readFileSync(path.join(ROOT, 'assets/js/quote-v2.js'), 'utf8');
   if (quoteScript.includes('formsubmit.co/ajax/') || quoteScript.includes('fetch(ajaxEndpoint')) {
@@ -165,13 +166,13 @@ if (process.argv[2] === '--live') {
   if (!quoteScript.includes("QULA_MARK_INQUIRY_PENDING")) {
     fail(['assets/js/quote-v2.js must mark a pending inquiry only before native FormSubmit POST']);
   }
-  for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html', 'thank-you.html']) {
-    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/analytics.js?v=20261028-buying-clicks')) {
-      fail([`${page} must load the confirmed-lead analytics script version`]);
+  for (const { name, content } of documents) {
+    const scripts = [...content.matchAll(/<script\b[^>]*\bsrc=["']([^"']*assets\/js\/analytics\.js(?:\?[^"']*)?)["'][^>]*>/gi)];
+    if (scripts.length !== 1 || !/^\/?assets\/js\/analytics\.js\?v=20261028-buying-clicks$/.test(scripts[0][1])) {
+      fail([`${name} must load exactly one current analytics script version`]);
     }
   }
-  console.log('Confirmed-lead tracking safeguard passed.');
+  console.log(`Confirmed-lead tracking safeguard passed for all ${documents.length} HTML pages.`);
   const productionGuard = fs.readFileSync(path.join(ROOT, '.github/workflows/protect-inquiry-email.yml'), 'utf8');
   if (/contents:\s*write/.test(productionGuard) || /git\s+push\s+origin\s+HEAD:main/.test(productionGuard)) {
     fail(['production monitor must not write to main or trigger production recovery automatically']);
