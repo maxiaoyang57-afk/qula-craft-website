@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 6,
+  "catalogCountBefore": 707,
+  "catalogCountAfter": 709,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26316",
+      "pdp": "p-rw26316.html",
+      "batchNumber": 18,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Love-Heart-Resin-Accessory_1601832415040.html",
+      "sourceFields": {
+        "sku": "RW26316",
+        "sku_raw": "MO-RW26316",
+        "title": "100Pcs Mini Love Heart Resin Accessory Water Cup Phone Shell Decor Patch Earring Hairpin DIY Jewelry Making Handmade Materials",
+        "material": "Resin",
+        "size": "13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832415040",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mini-Love-Heart-Resin-Accessory_1601832415040.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26316/rw26316-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 75768,
+          "sha256": "f0102f7e241a042263610ce17c5b246b65611f99edfa03202554648b4d114a8c"
+        },
+        {
+          "path": "assets/images/pdp/rw26316/rw26316-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 145214,
+          "sha256": "535b2a36e02cef237ca1593459a990342b31daeb95d5f0fb184e29ccddcb9f87"
+        },
+        {
+          "path": "assets/images/pdp/rw26316/rw26316-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72096,
+          "sha256": "32f5ebd4c30feb76b5a510cc3894adcfc11775c9cff61d796c140a060016ed62"
+        }
+      ]
+    },
+    {
+      "sku": "RW26300",
+      "pdp": "p-rw26300.html",
+      "batchNumber": 18,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Colorful-Painted-Shiny-Mini-Pineapples_1601832356257.html",
+      "sourceFields": {
+        "sku": "RW26300",
+        "sku_raw": "MO-RW26300",
+        "title": "Resin Colorful Painted Shiny Mini Pineapples Figurine Flatback Stone Scrapbook DIY Manicures Appliques Accessories Crafts",
+        "material": "Resin",
+        "size": "11*16mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832356257",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Colorful-Painted-Shiny-Mini-Pineapples_1601832356257.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26300/rw26300-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148853,
+          "sha256": "bd60227e17a4a70405dbd5d5843e9d94be38d7db4d73d34fab77493d116ed231"
+        },
+        {
+          "path": "assets/images/pdp/rw26300/rw26300-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146214,
+          "sha256": "a49b20260b27df215ff5fce2a294dd4ab7d2d67d11b49826b15e9a4a77fe10cd"
+        },
+        {
+          "path": "assets/images/pdp/rw26300/rw26300-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138526,
+          "sha256": "f475d636d796fefdecba414ebf9493164776111e2c66a33b9388c2a6badc7b87"
+        }
+      ]
+    }
+  ]
+}
