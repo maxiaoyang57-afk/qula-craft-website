@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 719,
+  "catalogCountAfter": 721,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26304",
+      "pdp": "p-rw26304.html",
+      "batchNumber": 20,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Shining-Starfish-Flat-Back_1601832193791.html",
+      "sourceFields": {
+        "sku": "RW26304",
+        "sku_raw": "MO-RW26304",
+        "title": "New Cute Shining Starfish Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "about70mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832193791",
+        "product_url": "https://www.alibaba.com/product-detail/New-Cute-Shining-Starfish-Flat-Back_1601832193791.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114429,
+          "sha256": "bde01aa08f8384af20ceb2a5e9a71d5c4e028bc4c5684dc11adac8f17d4ca32a"
+        },
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223933,
+          "sha256": "54fa00dcb3095defcc8502dc807d0b66c78f3cc3af2f690296ff6e9c0dd3e65d"
+        },
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146506,
+          "sha256": "06b7172483c967d40390559d447922c1c3847baf1e71d1709dc73948e06f96f6"
+        }
+      ]
+    },
+    {
+      "sku": "RW26299",
+      "pdp": "p-rw26299.html",
+      "batchNumber": 20,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-White-Goose-Figurines-Resin-Miniature_1601832141998.html",
+      "sourceFields": {
+        "sku": "RW26299",
+        "sku_raw": "MO-RW26299",
+        "title": "Cute White Goose Figurines Resin Miniature Duck Ornaments Micro Landscape DIY Decor Accessories",
+        "material": "Resin",
+        "size": "30-40mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832141998",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-White-Goose-Figurines-Resin-Miniature_1601832141998.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117573,
+          "sha256": "326f56dc671ccaa04afefe154caf1ed36e4aab3d9acefe8938128068bc93f5d4"
+        },
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 85646,
+          "sha256": "f9539eb33c843326b55a32fc044e7ea858ff052fa58d72d0977556680557577a"
+        },
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58696,
+          "sha256": "15e7c0d1b3d010448c339ddb5b40cc858e7f65c79b09e28d9d3dc3eb6930ef21"
+        }
+      ]
+    }
+  ]
+}
