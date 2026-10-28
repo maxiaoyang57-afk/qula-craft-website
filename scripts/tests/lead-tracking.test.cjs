@@ -54,6 +54,83 @@ async function leads(page) {
   return page.evaluate(() => (window.dataLayer || []).filter(e => e[0] === 'event' && e[1] === 'generate_lead').map(e => e[2]));
 }
 
+async function buyingClicks(page) {
+  return page.evaluate(() => (window.dataLayer || []).filter(e => e[0] === 'event' && ['product_click','quote_click'].includes(e[1])).map(e => ({name:e[1],params:e[2]})));
+}
+async function preventTestNavigation(page) {
+  // Registered after analytics: exercise real DOM bubbling without leaving the
+  // page, and keep every network request in the local fixture.
+  await page.evaluate(() => document.addEventListener('click', e => {
+    if(e.target.closest?.('a'))e.preventDefault();
+  }));
+}
+
+test('guide product and quote clicks are consented, once, and contain no inquiry query', async () => {
+  const f = await fixture();
+  try {
+    await f.page.goto(f.origin + '/guide-slime-business-supply-checklist.html?email=buyer%40example.com');
+    await preventTestNavigation(f.page);
+    await f.page.locator('a[href="p-yx043.html"]').first().click();
+    assert.equal((await buyingClicks(f.page)).length,0);
+    await f.page.locator('[data-analytics-accept]').click();
+    await f.page.locator('a[href="p-yx043.html"]').first().click();
+    // Dynamic, nested search/card links work without registering new handlers.
+    await f.page.evaluate(() => {
+      const card=document.createElement('div');card.className='product-card';
+      card.innerHTML='<a href="/quote.html?sku=YX043&product=buyer%40example.com#private"><span id="test-quote-child">Ask us</span></a>';
+      document.querySelector('main').appendChild(card);
+    });
+    await f.page.locator('#test-quote-child').click();
+    const events=await buyingClicks(f.page);
+    assert.deepEqual(events.map(e=>e.name),['product_click','quote_click']);
+    assert.equal(events[0].params.destination_path,'/p-yx043.html');
+    assert.equal(events[1].params.destination_path,'/quote.html');
+    assert.equal(events[1].params.link_location,'product_card');
+    for(const e of events){
+      assert.deepEqual(Object.keys(e.params).sort(),['destination_path','link_location','page_location','page_path']);
+      assert.equal(e.params.page_path,'/guide-slime-business-supply-checklist.html');
+      assert.equal(e.params.page_location,f.origin+'/guide-slime-business-supply-checklist.html');
+      assert.doesNotMatch(JSON.stringify(e),/@|%40|email=|sku=|#private/);
+    }
+    assert.equal((await leads(f.page)).length,0);
+    await f.page.locator('.qc-cookie-settings').click();
+    await f.page.locator('[data-analytics-decline]').click();
+    await f.page.locator('a[href="p-yx043.html"]').first().click();
+    assert.equal((await buyingClicks(f.page)).length,2);
+  } finally { await f.context.close(); }
+});
+
+test('external lookalikes and non-buying links are not buying clicks', async () => {
+  const f=await fixture();
+  try {
+    await f.page.goto(f.origin+'/resin-charms.html');
+    await f.page.locator('[data-analytics-accept]').click();
+    await preventTestNavigation(f.page);
+    await f.page.evaluate(() => {
+      for(const href of ['https://qulacrafts.com.evil.example/p-yx043.html','https://user:secret@www.qulacrafts.com/quote.html','https://www.qulacrafts.com:8443/quote.html','/products.html','/quote.html/extra','mailto:sales@qulacrafts.com','#quote']){
+        const a=document.createElement('a');a.href=href;a.textContent='Test';document.body.appendChild(a);a.click();a.remove();
+      }
+    });
+    assert.equal((await buyingClicks(f.page)).length,0);
+  } finally { await f.context.close(); }
+});
+
+for(const privacy of [{globalPrivacyControl:true},{doNotTrack:'1'}]){
+  test('privacy signal suppresses new buying clicks: '+JSON.stringify(privacy), async()=>{
+    const f=await fixture();
+    try {
+      await f.context.addInitScript(privacy=>{
+        for(const [key,value] of Object.entries(privacy))Object.defineProperty(navigator,key,{get:()=>value,configurable:true});
+        localStorage.setItem('qula_analytics_consent_v1','granted');
+      },privacy);
+      await f.page.goto(f.origin+'/guide-bingsu-beads-slime-fillers.html');
+      await preventTestNavigation(f.page);
+      await f.page.locator('a[href="p-ym109.html"]').first().click();
+      assert.equal((await buyingClicks(f.page)).length,0);
+    } finally {await f.context.close();}
+  });
+}
+
 for (const entryPage of ['/\\[', '/\\outside.example/path', '/p-ya893.html?ref=guide#details']) {
   test('quote source URL stays local and preserves preview guards: ' + entryPage, async () => {
     const f = await fixture('qula-test.vercel.app');
