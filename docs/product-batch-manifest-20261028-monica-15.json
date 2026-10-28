@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 696,
+  "catalogCountAfter": 698,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW004628",
+      "pdp": "p-rw004628.html",
+      "batchNumber": 15,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-3D-Mini-Resin-Simulation-Strawberry_1601483808994.html",
+      "sourceFields": {
+        "sku": "RW004628",
+        "sku_raw": "MO-RW004628",
+        "title": "100pcs 3D Mini Resin Simulation Strawberry Charms DIY Children's Miniature Fruit Models for Craft Making Kitchen Toys",
+        "material": "Resin",
+        "size": "12*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601483808994",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-3D-Mini-Resin-Simulation-Strawberry_1601483808994.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82150,
+          "sha256": "19fe920ece6fa9a5d1108188ac3c57d18a49ad03c85726cfcbbe67ff40fc0371"
+        },
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166744,
+          "sha256": "0bb53b4a6fc91175a172da39f755634ca7e9a59acafea9283c6cc427c9b444d9"
+        },
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97079,
+          "sha256": "c3b163493ef51b943b2cf2d3ae6d26a10c0a448ac7ca355b12ad1bd8d30e0cdb"
+        }
+      ]
+    },
+    {
+      "sku": "RW26520",
+      "pdp": "p-rw26520.html",
+      "batchNumber": 15,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Shiny-Tulip-Bouquet-Resin-Flatback-Cabochons_1600839386069.html",
+      "sourceFields": {
+        "sku": "RW26520",
+        "sku_raw": "MO-RW26520",
+        "title": "Shiny Tulip Bouquet Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600839386069",
+        "product_url": "https://www.alibaba.com/product-detail/Shiny-Tulip-Bouquet-Resin-Flatback-Cabochons_1600839386069.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 380794,
+          "sha256": "fbc22ab4ccfa20855c68adb8bd1afe5169c3c6635ae7c3ca7cb0013995362ef3"
+        },
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130941,
+          "sha256": "07fbe8474aa0e96923ead217396d29a02dbacd0d617636923ecfe3353ddeaa4d"
+        },
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125926,
+          "sha256": "753f1a0132ac1fc7008c410b6f22aedb0a6b726b0ab72ba5e15695c5c2772fe4"
+        }
+      ]
+    }
+  ]
+}
