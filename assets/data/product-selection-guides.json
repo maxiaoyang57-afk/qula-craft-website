@@ -1,4 +1,28 @@
 {
+  "yx3531": {
+    "sku": "YX3531",
+    "heading": "Plan a star-and-moon sprinkle assortment",
+    "project": "Use the star and moon slices with pearl accents as a reference for a night-sky craft theme. The listed 500 g bag describes reference packing weight; it does not specify piece count, individual dimensions or the proportions of each component.",
+    "checks": [
+      "Mark the star, moon and pearl-accent components you want, and request a close-up of the proposed assortment.",
+      "Ask for the width and thickness of each selected component. Compare them with your shaker opening or decoration area.",
+      "For slime or a liquid-filled project, describe your base and evaluate a sample in that formulation. Confirm the mix, required weight and packing before approving the bulk order."
+    ],
+    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Compare polymer clay shapes and packing"},
+    "related": {"url": "p-yx043.html", "label": "Compare with the YX043 candy sprinkle mix"}
+  },
+  "czb25840": {
+    "sku": "CZB25840",
+    "heading": "Choose starfish beads for an ocean-themed layout",
+    "project": "CZB25840 is listed as resin starfish spacer beads in assorted candy colors for jewelry making. The source title references 100 pieces per lot. It does not establish a fixed color split, numeric hole diameter or compatibility with a particular cord or pen rod.",
+    "checks": [
+      "Request the starfish width, height and depth, plus the minimum clear hole diameter and hole direction.",
+      "Provide the diameter of your cord or rod and the available assembly space. Ask for a sample fit before committing to a bracelet, necklace or beadable-pen layout.",
+      "Mark your preferred colors or assortment and required piece count. Confirm pack contents, sales unit and minimum order separately from the source's 100-piece lot reference."
+    ],
+    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Check bead and rod dimensions before assembly"},
+    "related": {"url": "guide-beadable-pen-beads.html", "label": "Review focal-bead selection and sourcing"}
+  },
   "yx043": {
     "sku": "YX043",
     "heading": "Choose a candy sprinkle mix for your project",

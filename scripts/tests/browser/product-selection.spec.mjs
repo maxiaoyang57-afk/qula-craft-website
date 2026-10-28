@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/api/inquiry', route => route.abort());
 });
 
-for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353']) {
+for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353', 'YX3531', 'CZB25840']) {
   test(`${sku}: project checks keep the correct product in the inquiry`, async ({ page }) => {
     await page.goto(`p-${sku.toLowerCase()}.html`, { waitUntil: 'domcontentloaded' });
     const original = page.locator('.pdp-cta a.btn-primary');
