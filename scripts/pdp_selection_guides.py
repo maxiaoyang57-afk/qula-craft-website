@@ -1,7 +1,7 @@
 """Render curated selection notes without changing imported product facts.
 
 The full PDP generator and the narrow existing-page update share this renderer.
-Run this module to refresh only the six reviewed sections in published HTML.
+Run this module to refresh only the reviewed sections in published HTML.
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 GUIDES = json.loads((ROOT / "assets/data/product-selection-guides.json").read_text(encoding="utf-8"))
-CATEGORIES = {"yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens"}
+CATEGORIES = {"yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens"}
 
 
 def selection_quote_url(key: str, quote_url: str) -> str:
