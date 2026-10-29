@@ -2,6 +2,7 @@
 /* Consent stays in the document flow so it never covers products or inquiry actions. */
 .qc-consent{box-sizing:border-box;width:min(100% - 48px,1220px);margin:12px auto 0;padding:12px 16px;background:#fff;color:#243442;border:1px solid #e5ccd5;border-radius:14px;display:flex;align-items:center;justify-content:space-between;gap:20px;font:13px/1.45 Inter,Arial,sans-serif}
 .qc-consent-copy{min-width:0}
+.qc-consent .ux-reveal{opacity:1;transform:none;transition:none}
 .qc-consent strong{font-size:14px}
 .qc-consent p{margin:3px 0 0}
 .qc-consent a{color:#a32655;text-decoration:underline}
