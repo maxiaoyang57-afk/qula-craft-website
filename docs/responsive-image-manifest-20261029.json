@@ -1,0 +1,3628 @@
+{
+  "version": "20261029",
+  "method": "Lanczos resize, WebP quality 88; icon lossless",
+  "originalFilesPreserved": true,
+  "images": [
+    {
+      "source": "assets/images/application-covers-v2/application-diy-craft-kits-v2.webp",
+      "sourceBytes": 185958,
+      "sourceSha256": "142790381913b8448f135186f1b0a36e0631dd3e9da67ee7b2b1f4c9938f699e",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-diy-craft-kits-v2-118c41e8-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 22306
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-diy-craft-kits-v2-118c41e8-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 55304
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-diy-craft-kits-v2-118c41e8-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 103782
+        }
+      ]
+    },
+    {
+      "source": "assets/images/application-covers-v2/application-jewelry-making-v2.webp",
+      "sourceBytes": 206604,
+      "sourceSha256": "8fdb766c3049ea6f50f69807190e0be4015ed9afb38df88069ae68b92720fd7a",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-jewelry-making-v2-c321405d-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 25250
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-jewelry-making-v2-c321405d-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 61040
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-jewelry-making-v2-c321405d-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 111900
+        }
+      ]
+    },
+    {
+      "source": "assets/images/application-covers-v2/application-nail-art-v2.webp",
+      "sourceBytes": 118488,
+      "sourceSha256": "047cf1fc9d7fbeaa0b54220bcec95b35a78b8b9ab56c4ec952fb29ce6111567a",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-nail-art-v2-abc61824-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 11718
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-nail-art-v2-abc61824-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 30346
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-nail-art-v2-abc61824-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 59786
+        }
+      ]
+    },
+    {
+      "source": "assets/images/application-covers-v2/application-party-decoration-v2.webp",
+      "sourceBytes": 226684,
+      "sourceSha256": "0e0155041fb9231584904c8a76ea5d7b62a5f3213bdeb3085e8cc149ea1a96c6",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-party-decoration-v2-56c29ef6-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 29122
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-party-decoration-v2-56c29ef6-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 72120
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-party-decoration-v2-56c29ef6-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 133214
+        }
+      ]
+    },
+    {
+      "source": "assets/images/application-covers-v2/application-phone-case-decoden-v2.webp",
+      "sourceBytes": 148676,
+      "sourceSha256": "6a65f46e396ffbe739e563ce704562985385ca627ef2e36a499a72ba64b77914",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-phone-case-decoden-v2-523c2bcf-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 23664
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-phone-case-decoden-v2-523c2bcf-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 52932
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-phone-case-decoden-v2-523c2bcf-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 89584
+        }
+      ]
+    },
+    {
+      "source": "assets/images/application-covers-v2/application-slime-supplies-v2.webp",
+      "sourceBytes": 199220,
+      "sourceSha256": "f0cd2ce85f6a0685db018e9d631c7f56654ae311ccd516e714317abe37108459",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/application-slime-supplies-v2-94f0795d-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 26602
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-slime-supplies-v2-94f0795d-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 64508
+        },
+        {
+          "url": "assets/images/responsive-20261029/application-slime-supplies-v2-94f0795d-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 112866
+        }
+      ]
+    },
+    {
+      "source": "assets/images/catalog/plastic-sequins/021-ym109.webp",
+      "sourceBytes": 214874,
+      "sourceSha256": "e4bc0415f14bdb5f1cb7df08c66c37c6f702c86e46662342fc4cc8a1a9d8ad95",
+      "sourceWidth": 635,
+      "sourceHeight": 648,
+      "pages": [
+        "glitter-sequins-fillers.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/021-ym109-1844cd00-360w.webp",
+          "width": 360,
+          "height": 367,
+          "bytes": 77880
+        },
+        {
+          "url": "assets/images/responsive-20261029/021-ym109-1844cd00-635w.webp",
+          "width": 635,
+          "height": 648,
+          "bytes": 212392
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/beads-for-pens-cover-v2.webp",
+      "sourceBytes": 114090,
+      "sourceSha256": "9905b406d471e155e1b3ac17f1498ef733a845c829e1b3ebc9ac4e224b9cb7fc",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "beads-for-pens.html",
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/beads-for-pens-cover-v2-ba5f745a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 19010
+        },
+        {
+          "url": "assets/images/responsive-20261029/beads-for-pens-cover-v2-ba5f745a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 43536
+        },
+        {
+          "url": "assets/images/responsive-20261029/beads-for-pens-cover-v2-ba5f745a-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 77672
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/jewelry-accessories-cover-v2.webp",
+      "sourceBytes": 201388,
+      "sourceSha256": "147a148bef7b1ff4727eb95529a734b7722fe6028bcbc98e4e09064bb704e539",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/jewelry-accessories-cover-v2-48ec2541-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 28964
+        },
+        {
+          "url": "assets/images/responsive-20261029/jewelry-accessories-cover-v2-48ec2541-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 72082
+        },
+        {
+          "url": "assets/images/responsive-20261029/jewelry-accessories-cover-v2-48ec2541-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 134524
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/keychain-cover-v2.webp",
+      "sourceBytes": 110294,
+      "sourceSha256": "1eb2aed6e49059735886e2a55c2e7623fe4b7df023e6aa7f814e9b855db17a5f",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/keychain-cover-v2-6d2c7c7e-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 14288
+        },
+        {
+          "url": "assets/images/responsive-20261029/keychain-cover-v2-6d2c7c7e-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 34084
+        },
+        {
+          "url": "assets/images/responsive-20261029/keychain-cover-v2-6d2c7c7e-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 63124
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/plastic-beads-cover-v2.webp",
+      "sourceBytes": 183884,
+      "sourceSha256": "19cc6eac327e41d9b3380ac1aff326db9c843d35a4fc61bff80f734221bf50f5",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "acrylic-beads.html",
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/plastic-beads-cover-v2-bdf75dcd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 33938
+        },
+        {
+          "url": "assets/images/responsive-20261029/plastic-beads-cover-v2-bdf75dcd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 79924
+        },
+        {
+          "url": "assets/images/responsive-20261029/plastic-beads-cover-v2-bdf75dcd-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 132848
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/plastic-sequins-cover-v2.webp",
+      "sourceBytes": 335266,
+      "sourceSha256": "5f3f8b3a55bf68e19f7d99ce47bd519e1392499ac5d6e8219421ceb1369105ae",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "glitter-sequins-fillers.html",
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/plastic-sequins-cover-v2-b18eee1c-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 45812
+        },
+        {
+          "url": "assets/images/responsive-20261029/plastic-sequins-cover-v2-b18eee1c-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 124854
+        },
+        {
+          "url": "assets/images/responsive-20261029/plastic-sequins-cover-v2-b18eee1c-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 233254
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/polymer-clay-slices-cover-v2.webp",
+      "sourceBytes": 242894,
+      "sourceSha256": "89dc19494df82eaa7ec32ca9ee8b716abdf0c762f7fe5814db1def2b28122990",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39824
+        },
+        {
+          "url": "assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 96146
+        },
+        {
+          "url": "assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 168848
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/pvc-plastic-charms-cover-v2.webp",
+      "sourceBytes": 156346,
+      "sourceSha256": "30397cb6ac860cc6b1b3f6417a15566ed72b260556f24b9de0c92490b32ed9b4",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "pvc-plastic-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/pvc-plastic-charms-cover-v2-17d48bb8-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 21890
+        },
+        {
+          "url": "assets/images/responsive-20261029/pvc-plastic-charms-cover-v2-17d48bb8-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 53464
+        },
+        {
+          "url": "assets/images/responsive-20261029/pvc-plastic-charms-cover-v2-17d48bb8-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 97518
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/resin-charms-cover-v2.webp",
+      "sourceBytes": 149494,
+      "sourceSha256": "8ae17f478f2997073b18e7b5c8f77271fcf145e41348a0f4308df105bb447df4",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/resin-charms-cover-v2-3d164c15-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 22902
+        },
+        {
+          "url": "assets/images/responsive-20261029/resin-charms-cover-v2-3d164c15-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 55674
+        },
+        {
+          "url": "assets/images/responsive-20261029/resin-charms-cover-v2-3d164c15-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 100070
+        }
+      ]
+    },
+    {
+      "source": "assets/images/category-covers-v2/slime-charms-cover-v2.webp",
+      "sourceBytes": 211174,
+      "sourceSha256": "183c21be27b1a6a23019cbe17f24e0f0e3b46be5dfe80853ca7ca961068e74fb",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html",
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/slime-charms-cover-v2-69061cd2-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 29590
+        },
+        {
+          "url": "assets/images/responsive-20261029/slime-charms-cover-v2-69061cd2-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 79090
+        },
+        {
+          "url": "assets/images/responsive-20261029/slime-charms-cover-v2-69061cd2-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 143756
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-beaded-jewelry-v2.webp",
+      "sourceBytes": 186868,
+      "sourceSha256": "d917a10c61706f70b4021b24d97474db06e76aeec0ea9279714b5e87c229923a",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-beaded-jewelry-v2-be35f7a3-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 19768
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-beaded-jewelry-v2-be35f7a3-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 51238
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-beaded-jewelry-v2-be35f7a3-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 98654
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-decoden-phone-cases-v2.webp",
+      "sourceBytes": 141668,
+      "sourceSha256": "7df1dcfd0cb56f316ee72ed5140b72960d2b1dc1aa9fa97ff6a7a823332da164",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-decoden-phone-cases-v2-7d539c37-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 16458
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-decoden-phone-cases-v2-7d539c37-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 39304
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-decoden-phone-cases-v2-7d539c37-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 71638
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-finished-keychains-v2.webp",
+      "sourceBytes": 125324,
+      "sourceSha256": "7618a7ee5e725ec4bba3f9add199258b2b7f11df033095131215020c76e9860f",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-finished-keychains-v2-3bf11656-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 17552
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-finished-keychains-v2-3bf11656-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 40220
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-finished-keychains-v2-3bf11656-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 70958
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-press-on-nail-sets-v2.webp",
+      "sourceBytes": 168600,
+      "sourceSha256": "8de5cd9ebd84a807f033aa5e05417292210af90f4e43812e2b15f98a01b70c90",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-press-on-nail-sets-v2-f563cc28-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 17160
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-press-on-nail-sets-v2-f563cc28-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 44322
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-press-on-nail-sets-v2-f563cc28-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 86510
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-retail-diy-kits-v2.webp",
+      "sourceBytes": 198756,
+      "sourceSha256": "5e90c46a07d6e17b37b876d7731a4d969d624a57601f720335a1f1cad3899833",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-retail-diy-kits-v2-0eecacf9-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 21358
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-retail-diy-kits-v2-0eecacf9-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 53662
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-retail-diy-kits-v2-0eecacf9-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 105796
+        }
+      ]
+    },
+    {
+      "source": "assets/images/downstream-covers-v2/downstream-topped-slime-jars-v2.webp",
+      "sourceBytes": 199630,
+      "sourceSha256": "8d96c039a18c4c97ef91615f9407e3553a5d5cf1f3300648509cb783a5df4d3b",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/downstream-topped-slime-jars-v2-3ac60ba2-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 18284
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-topped-slime-jars-v2-3ac60ba2-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 50752
+        },
+        {
+          "url": "assets/images/responsive-20261029/downstream-topped-slime-jars-v2-3ac60ba2-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 103524
+        }
+      ]
+    },
+    {
+      "source": "assets/images/factory-sample-room.webp",
+      "sourceBytes": 91120,
+      "sourceSha256": "d3a371621c509aeab7db702eb05a86843feee608f744915efc413c0352e5ae10",
+      "sourceWidth": 960,
+      "sourceHeight": 540,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/factory-sample-room-109f3291-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 23880
+        },
+        {
+          "url": "assets/images/responsive-20261029/factory-sample-room-109f3291-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 63266
+        },
+        {
+          "url": "assets/images/factory-sample-room.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 91120
+        }
+      ]
+    },
+    {
+      "source": "assets/images/factory-warehouse-export.webp",
+      "sourceBytes": 67780,
+      "sourceSha256": "43d78bd18c2ed0bc7d83b6ff991027e5e7761bd9dded6e28405cd62b7988dda9",
+      "sourceWidth": 960,
+      "sourceHeight": 540,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/factory-warehouse-export-294b1de5-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 18580
+        },
+        {
+          "url": "assets/images/responsive-20261029/factory-warehouse-export-294b1de5-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 45430
+        },
+        {
+          "url": "assets/images/factory-warehouse-export.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 67780
+        }
+      ]
+    },
+    {
+      "source": "assets/images/feature-mix-match-themes.webp",
+      "sourceBytes": 143642,
+      "sourceSha256": "1e8e831ab3563d8bf4b773a2abfa9ca791f95a50b573aa8269bd9f0c9ea0aef2",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/feature-mix-match-themes-0debd9da-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 28602
+        },
+        {
+          "url": "assets/images/responsive-20261029/feature-mix-match-themes-0debd9da-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 64984
+        },
+        {
+          "url": "assets/images/responsive-20261029/feature-mix-match-themes-0debd9da-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 110110
+        }
+      ]
+    },
+    {
+      "source": "assets/images/feature-resealable-bags.webp",
+      "sourceBytes": 187858,
+      "sourceSha256": "dee949789c2132e6598d06ece363cff7fc3574da44ab12677a1a46fa86c9f41b",
+      "sourceWidth": 1400,
+      "sourceHeight": 1050,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/feature-resealable-bags-3a7953ec-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 30040
+        },
+        {
+          "url": "assets/images/responsive-20261029/feature-resealable-bags-3a7953ec-640w.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 74034
+        },
+        {
+          "url": "assets/images/responsive-20261029/feature-resealable-bags-3a7953ec-960w.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 136426
+        }
+      ]
+    },
+    {
+      "source": "assets/images/flatlay-craft-range-hero-mobile.webp",
+      "sourceBytes": 194166,
+      "sourceSha256": "1472b4487acc46600c7a153abf53f0e065cddad7f6637040b962832425966769",
+      "sourceWidth": 800,
+      "sourceHeight": 1200,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-mobile-48ffc111-360w.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 76172
+        },
+        {
+          "url": "assets/images/flatlay-craft-range-hero-mobile.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 194166
+        }
+      ]
+    },
+    {
+      "source": "assets/images/flatlay-craft-range-hero.webp",
+      "sourceBytes": 210660,
+      "sourceSha256": "bb65fefcef7fa590bfd6e84b938d1ed3c8673219eefebd82a0b3e8e355666c79",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-24ee51ad-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 22276
+        },
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-24ee51ad-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 62164
+        },
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-24ee51ad-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 123142
+        },
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-24ee51ad-1280w.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 185228
+        }
+      ]
+    },
+    {
+      "source": "assets/images/homepage-factory-building-20260728.webp",
+      "sourceBytes": 406814,
+      "sourceSha256": "4244e8619034a2f8b0c9712983e523cbcfed81f189a92e5469dbbb4996e93f87",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-building-20260728-3e517e8d-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 13818
+        },
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-building-20260728-3e517e8d-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 37308
+        },
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-building-20260728-3e517e8d-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 73764
+        }
+      ]
+    },
+    {
+      "source": "assets/images/homepage-factory-workshop-team-20260728.webp",
+      "sourceBytes": 618332,
+      "sourceSha256": "6eef0e1d654523aca5347e242d41df5750eaad23886b0dd7956a8c9076d2ac86",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-workshop-team-20260728-c3feb3bb-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 25962
+        },
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-workshop-team-20260728-c3feb3bb-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 67944
+        },
+        {
+          "url": "assets/images/responsive-20261029/homepage-factory-workshop-team-20260728-c3feb3bb-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 125996
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk0020110-7-cdk0020110-6-cdk0020110-5-cdk0020110/cdk0020110-7-cdk0020110-6-cdk0020110-5-cdk0020110-1-assorted-clear-heart-shaker-keychains.png",
+      "sourceBytes": 218730,
+      "sourceSha256": "7cd5734dee0d784431c55b9223c41c7b969e4c47028051d4a37dd8c4454a427f",
+      "sourceWidth": 727,
+      "sourceHeight": 709,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk0020110-7-cdk0020110-6-cdk0020110-5-cdk0020110-1-assorted-clear-heart-shaker-ke-0c532b8e-360w.webp",
+          "width": 360,
+          "height": 351,
+          "bytes": 33266
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk0020110-7-cdk0020110-6-cdk0020110-5-cdk0020110-1-assorted-clear-heart-shaker-ke-0c532b8e-640w.webp",
+          "width": 640,
+          "height": 624,
+          "bytes": 72510
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk0020557/cdk0020557-1-christmas-candy-bow-resin-keychains.png",
+      "sourceBytes": 1011140,
+      "sourceSha256": "d5a66d4816e9938996c098f352292cd21d25674543a60bfe467bef7c5cfd01c2",
+      "sourceWidth": 710,
+      "sourceHeight": 667,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk0020557-1-christmas-candy-bow-resin-keychains-10a4bcb6-360w.webp",
+          "width": 360,
+          "height": 338,
+          "bytes": 39280
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk0020557-1-christmas-candy-bow-resin-keychains-10a4bcb6-640w.webp",
+          "width": 640,
+          "height": 601,
+          "bytes": 88134
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk002174-cdk003939-cdk914-1/cdk002174-cdk003939-cdk914-1-1-clear-heart-keychains-with-animal-charms.png",
+      "sourceBytes": 234890,
+      "sourceSha256": "a9da9cfb2c9ceb2998daba26e75b14f809b296a5079fd1a3e9e2da28e1ce48a1",
+      "sourceWidth": 750,
+      "sourceHeight": 694,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk002174-cdk003939-cdk914-1-1-clear-heart-keychains-with-animal-charms-ce310aa4-360w.webp",
+          "width": 360,
+          "height": 333,
+          "bytes": 31764
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk002174-cdk003939-cdk914-1-1-clear-heart-keychains-with-animal-charms-ce310aa4-640w.webp",
+          "width": 640,
+          "height": 592,
+          "bytes": 71804
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-1-heart-shaker-mini-craft-keychains.png",
+      "sourceBytes": 258299,
+      "sourceSha256": "475353e609355e369b344eef9e8a1e9de087182fc6bbbe2f4ed419827be22de4",
+      "sourceWidth": 767,
+      "sourceHeight": 755,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-1-heart-shaker-mini-craft-keychains-32a6ec36-360w.webp",
+          "width": 360,
+          "height": 354,
+          "bytes": 38360
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk003883-1-cdk003939-1-cdk003950-1-cdk00098-1-1-heart-shaker-mini-craft-keychains-32a6ec36-640w.webp",
+          "width": 640,
+          "height": 630,
+          "bytes": 86162
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk003883-cdk003939-cdk003950-cdk00098/cdk003883-cdk003939-cdk003950-cdk00098-1-clear-pouch-shaker-craft-keychains.png",
+      "sourceBytes": 284515,
+      "sourceSha256": "a9ae4a8f90724665953312d862ba0b2d64ebbb22aeebcfd5e375042b2756ff6a",
+      "sourceWidth": 761,
+      "sourceHeight": 735,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk003883-cdk003939-cdk003950-cdk00098-1-clear-pouch-shaker-craft-keychains-9a46a66c-360w.webp",
+          "width": 360,
+          "height": 348,
+          "bytes": 42750
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk003883-cdk003939-cdk003950-cdk00098-1-clear-pouch-shaker-craft-keychains-9a46a66c-640w.webp",
+          "width": 640,
+          "height": 618,
+          "bytes": 97960
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk004729/cdk004729-1-christmas-letter-resin-charm-keychains.png",
+      "sourceBytes": 918160,
+      "sourceSha256": "9904cc7aedcfa04330d61c0895207c2c7c5090f769cd6cc65021d472e12b4c87",
+      "sourceWidth": 698,
+      "sourceHeight": 663,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk004729-1-christmas-letter-resin-charm-keychains-8d1ce1ff-360w.webp",
+          "width": 360,
+          "height": 342,
+          "bytes": 34916
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk004729-1-christmas-letter-resin-charm-keychains-8d1ce1ff-640w.webp",
+          "width": 640,
+          "height": 608,
+          "bytes": 75586
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk080/cdk080-1-colorful-screw-lock-wire-keyrings.png",
+      "sourceBytes": 591282,
+      "sourceSha256": "9764e6fe76fdd773fdf7d84fca2c5ed89c2a9048ae33746a87bd3c71b291ca97",
+      "sourceWidth": 732,
+      "sourceHeight": 475,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk080-1-colorful-screw-lock-wire-keyrings-6055773d-360w.webp",
+          "width": 360,
+          "height": 234,
+          "bytes": 22350
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk080-1-colorful-screw-lock-wire-keyrings-6055773d-640w.webp",
+          "width": 640,
+          "height": 415,
+          "bytes": 48098
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-1-colorful-heart-shaker-bag-keychains.png",
+      "sourceBytes": 269161,
+      "sourceSha256": "9dde61b19b8e82677cb962b43722cef9a6fc30590479382bc30b3fa601ec911e",
+      "sourceWidth": 762,
+      "sourceHeight": 727,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-1-colorful-heart-shaker-bag-keychains-8f0bd204-360w.webp",
+          "width": 360,
+          "height": 343,
+          "bytes": 41932
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk2137-2-cdk002224-1-cdk2344-2-cdk2321-2-1-colorful-heart-shaker-bag-keychains-8f0bd204-640w.webp",
+          "width": 640,
+          "height": 611,
+          "bytes": 99192
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk25805/cdk25805-1-mixed-christmas-resin-charm-keychains.png",
+      "sourceBytes": 1122113,
+      "sourceSha256": "16110af90197dff72ebd964c0b5737503a9fda843e7bcbf66fcf3f813124a6ba",
+      "sourceWidth": 704,
+      "sourceHeight": 635,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk25805-1-mixed-christmas-resin-charm-keychains-be6be355-360w.webp",
+          "width": 360,
+          "height": 325,
+          "bytes": 38738
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk25805-1-mixed-christmas-resin-charm-keychains-be6be355-640w.webp",
+          "width": 640,
+          "height": 577,
+          "bytes": 85030
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk25977/cdk25977-1-santa-penguin-christmas-resin-keychains.png",
+      "sourceBytes": 1393670,
+      "sourceSha256": "f3cd79bd605b5533ad18626e7f9f41ef01dbee67ac53250d820b4e5eb27777b5",
+      "sourceWidth": 762,
+      "sourceHeight": 734,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk25977-1-santa-penguin-christmas-resin-keychains-c489bb39-360w.webp",
+          "width": 360,
+          "height": 347,
+          "bytes": 48868
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk25977-1-santa-penguin-christmas-resin-keychains-c489bb39-640w.webp",
+          "width": 640,
+          "height": 616,
+          "bytes": 110892
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk26367/cdk26367-1-christmas-pillow-charm-red-keychains.png",
+      "sourceBytes": 1469457,
+      "sourceSha256": "7cf77468e8966e7605df1f20706e3a416028be503186431747c493a9a6f462fb",
+      "sourceWidth": 738,
+      "sourceHeight": 733,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk26367-1-christmas-pillow-charm-red-keychains-8ce25813-360w.webp",
+          "width": 360,
+          "height": 358,
+          "bytes": 47460
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk26367-1-christmas-pillow-charm-red-keychains-8ce25813-640w.webp",
+          "width": 640,
+          "height": 636,
+          "bytes": 114146
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk26773/cdk26773-1-christmas-stocking-tree-resin-keychains.png",
+      "sourceBytes": 1390329,
+      "sourceSha256": "381b69a3b772b154208341725d187d5bf8d6071fe8bfb69fd402e61134c7425a",
+      "sourceWidth": 738,
+      "sourceHeight": 735,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk26773-1-christmas-stocking-tree-resin-keychains-6970ab69-360w.webp",
+          "width": 360,
+          "height": 359,
+          "bytes": 43018
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk26773-1-christmas-stocking-tree-resin-keychains-6970ab69-640w.webp",
+          "width": 640,
+          "height": 637,
+          "bytes": 96570
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk26774/cdk26774-1-christmas-snow-globe-house-keychains.png",
+      "sourceBytes": 1335749,
+      "sourceSha256": "40eb065a36c6a0d9bde0d1509187322206c33b939e0c826fb161dd0d8834a47c",
+      "sourceWidth": 732,
+      "sourceHeight": 724,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk26774-1-christmas-snow-globe-house-keychains-e1b37d74-360w.webp",
+          "width": 360,
+          "height": 356,
+          "bytes": 44458
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk26774-1-christmas-snow-globe-house-keychains-e1b37d74-640w.webp",
+          "width": 640,
+          "height": 633,
+          "bytes": 101724
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-1-clear-pouch-keychains-seasonal-craft-fillers.png",
+      "sourceBytes": 1142472,
+      "sourceSha256": "e482dea0bfa247a0545b45a6d26a2fd7c76c217b43d827c3cf1fc78b30a01813",
+      "sourceWidth": 762,
+      "sourceHeight": 715,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-1-clear-pouch-keychains-seasonal-craf-98a8f10c-360w.webp",
+          "width": 360,
+          "height": 338,
+          "bytes": 33740
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk442-1-cdk003152-1-rw003164-15-cdk003215-1-1-clear-pouch-keychains-seasonal-craf-98a8f10c-640w.webp",
+          "width": 640,
+          "height": 601,
+          "bytes": 81972
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-1-floral-clear-pouch-shaker-keychain-assortment.png",
+      "sourceBytes": 1115012,
+      "sourceSha256": "600067937bf1aebce177229ad9f70d1e1eb1a067566220e15d859d3bac086e4b",
+      "sourceWidth": 772,
+      "sourceHeight": 743,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-1-floral-clear-pouch-shaker-keychain-assort-2b1e6b46-360w.webp",
+          "width": 360,
+          "height": 346,
+          "bytes": 30772
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk4937-3-cdk4937-4-cdk4752-4-cdk390-2-1-floral-clear-pouch-shaker-keychain-assort-2b1e6b46-640w.webp",
+          "width": 640,
+          "height": 616,
+          "bytes": 69382
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk524/01.webp",
+      "sourceBytes": 258698,
+      "sourceSha256": "d38722be73d9ccce1c7e7483f3a81377d7f77c4c802f17b393c32b1a64c4c70f",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/01-b8bde5a6-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 26830
+        },
+        {
+          "url": "assets/images/responsive-20261029/01-b8bde5a6-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 93096
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/cdk938-2-cdk003164-15-cdk002833-1/cdk938-2-cdk003164-15-cdk002833-1-1-clear-heart-keychains-with-mixed-resin-charms.png",
+      "sourceBytes": 203331,
+      "sourceSha256": "cf7d9368e065e5d53789cde71f9f1c034f148063407f86502923692cc81ec1b4",
+      "sourceWidth": 759,
+      "sourceHeight": 697,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/cdk938-2-cdk003164-15-cdk002833-1-1-clear-heart-keychains-with-mixed-resin-charms-8b1b7b89-360w.webp",
+          "width": 360,
+          "height": 331,
+          "bytes": 27876
+        },
+        {
+          "url": "assets/images/responsive-20261029/cdk938-2-cdk003164-15-cdk002833-1-1-clear-heart-keychains-with-mixed-resin-charms-8b1b7b89-640w.webp",
+          "width": 640,
+          "height": 588,
+          "bytes": 60668
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/czb002635/czb002635-1-christmas-gift-box-resin-beads-with-holes.png",
+      "sourceBytes": 997618,
+      "sourceSha256": "6f1112fe844ed7aa6586c53a2979cd640a7e9f993b9506f99c1c51530586cb48",
+      "sourceWidth": 720,
+      "sourceHeight": 654,
+      "pages": [
+        "beads-for-pens.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/czb002635-1-christmas-gift-box-resin-beads-with-holes-7b7d8e45-360w.webp",
+          "width": 360,
+          "height": 327,
+          "bytes": 31554
+        },
+        {
+          "url": "assets/images/responsive-20261029/czb002635-1-christmas-gift-box-resin-beads-with-holes-7b7d8e45-640w.webp",
+          "width": 640,
+          "height": 581,
+          "bytes": 65318
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/czb26806/czb26806-1-squirrel-animal-resin-beads-with-holes.png",
+      "sourceBytes": 1372141,
+      "sourceSha256": "838fe7559c691c2f7c6eccf5ba3d90ed70b0100db76311b92fc8bfa28b43b991",
+      "sourceWidth": 729,
+      "sourceHeight": 745,
+      "pages": [
+        "beads-for-pens.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/czb26806-1-squirrel-animal-resin-beads-with-holes-d46c9095-360w.webp",
+          "width": 360,
+          "height": 368,
+          "bytes": 36492
+        },
+        {
+          "url": "assets/images/responsive-20261029/czb26806-1-squirrel-animal-resin-beads-with-holes-d46c9095-640w.webp",
+          "width": 640,
+          "height": 654,
+          "bytes": 81334
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/czb26813/czb26813-1-christmas-character-cottage-resin-beads.png",
+      "sourceBytes": 211545,
+      "sourceSha256": "5c5662193093828cf3637cc5fe60eb895cc48d6ab1a46c4014968c78647c4e00",
+      "sourceWidth": 753,
+      "sourceHeight": 697,
+      "pages": [
+        "beads-for-pens.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/czb26813-1-christmas-character-cottage-resin-beads-145908e1-360w.webp",
+          "width": 360,
+          "height": 333,
+          "bytes": 31744
+        },
+        {
+          "url": "assets/images/responsive-20261029/czb26813-1-christmas-character-cottage-resin-beads-145908e1-640w.webp",
+          "width": 640,
+          "height": 592,
+          "bytes": 68526
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/czb26818/czb26818-1-halloween-gingerbread-house-resin-beads.png",
+      "sourceBytes": 240469,
+      "sourceSha256": "f1becc77be20cfe0394d3c4afd03e1436beeed3accde9a3412c68a01373fbf9e",
+      "sourceWidth": 732,
+      "sourceHeight": 714,
+      "pages": [
+        "beads-for-pens.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/czb26818-1-halloween-gingerbread-house-resin-beads-eaf1cc45-360w.webp",
+          "width": 360,
+          "height": 351,
+          "bytes": 42630
+        },
+        {
+          "url": "assets/images/responsive-20261029/czb26818-1-halloween-gingerbread-house-resin-beads-eaf1cc45-640w.webp",
+          "width": 640,
+          "height": 624,
+          "bytes": 97292
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/czb26846/czb26846-1-orange-fox-resin-craft-beads.png",
+      "sourceBytes": 224956,
+      "sourceSha256": "b976553af071b3c538e37a3251d741db172e090a36afcf6018852b9440bf25e8",
+      "sourceWidth": 724,
+      "sourceHeight": 671,
+      "pages": [
+        "beads-for-pens.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/czb26846-1-orange-fox-resin-craft-beads-a41a6c41-360w.webp",
+          "width": 360,
+          "height": 334,
+          "bytes": 39204
+        },
+        {
+          "url": "assets/images/responsive-20261029/czb26846-1-orange-fox-resin-craft-beads-a41a6c41-640w.webp",
+          "width": 640,
+          "height": 593,
+          "bytes": 89502
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ma175/MA175-main-product.jpg",
+      "sourceBytes": 263076,
+      "sourceSha256": "ad88d0397ab2729289f39242518fdceaac9d72326592f234a7a2c60cf11f1990",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "glitter-sequins-fillers.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/MA175-main-product-548507f5-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 45170
+        },
+        {
+          "url": "assets/images/responsive-20261029/MA175-main-product-548507f5-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 111398
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ma612/MA612-main-product.jpg",
+      "sourceBytes": 274352,
+      "sourceSha256": "21504d49143cdde0cb78a0b25895b575bb7fac8331840de33e5a8d9655311a4d",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "glitter-sequins-fillers.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/MA612-main-product-05bc18e9-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 49516
+        },
+        {
+          "url": "assets/images/responsive-20261029/MA612-main-product-05bc18e9-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 119170
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw0020648/rw0020648-1.jpg",
+      "sourceBytes": 205695,
+      "sourceSha256": "52cb053a206e1caf445d72f596d41e43cc00825b279aa7e452910c7c8eee0c99",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw0020648-1-6d5cec34-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 28718
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw0020648-1-6d5cec34-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 81356
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw002155/RW002155-main-product.jpg",
+      "sourceBytes": 212660,
+      "sourceSha256": "210c2af63d88c4ccf3ad97e36f7e0617886c5d275c5de58a90b7f5b8ce31d44f",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/RW002155-main-product-97339e0f-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 34748
+        },
+        {
+          "url": "assets/images/responsive-20261029/RW002155-main-product-97339e0f-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 87440
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw003270/rw003270-1-miniature-open-book-resin-cabochons.png",
+      "sourceBytes": 238706,
+      "sourceSha256": "d2d889f3fd23e40fd17e95f53838b23b5c0c319ac1a17a185556311a73232ed6",
+      "sourceWidth": 739,
+      "sourceHeight": 692,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw003270-1-miniature-open-book-resin-cabochons-87a1b0ab-360w.webp",
+          "width": 360,
+          "height": 337,
+          "bytes": 34652
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw003270-1-miniature-open-book-resin-cabochons-87a1b0ab-640w.webp",
+          "width": 640,
+          "height": 599,
+          "bytes": 78256
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-1-clear-pouch-shaker-keychains-clay-resin-mixes.png",
+      "sourceBytes": 1128331,
+      "sourceSha256": "301dfa35b28ea02ebb24ea2f960b1dad259fa2bf9524266db36869e61714ef94",
+      "sourceWidth": 773,
+      "sourceHeight": 774,
+      "pages": [
+        "keychain.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-1-clear-pouch-shaker-keychains-clay-res-e2f1d922-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 32198
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw003310-3-cdk003312-4-cdk3343-2-cdk3350-2-1-clear-pouch-shaker-keychains-clay-res-e2f1d922-640w.webp",
+          "width": 640,
+          "height": 641,
+          "bytes": 72906
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw004514/rw004514-1.jpg",
+      "sourceBytes": 201823,
+      "sourceSha256": "ec4dc9995c7eb5f6e9f63e1d8fb71eb04c35232e1c8186729a3ec614cc8c7269",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw004514-1-e2bef531-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 29066
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw004514-1-e2bef531-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 77144
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw1112/rw1112-1-pastel-spiral-candy-resin-cabochons.png",
+      "sourceBytes": 520548,
+      "sourceSha256": "2076c27f14c5b113d8841e4f55431383d4450c95e83280cf0df72b04b23d336f",
+      "sourceWidth": 685,
+      "sourceHeight": 668,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw1112-1-pastel-spiral-candy-resin-cabochons-e592c96c-360w.webp",
+          "width": 360,
+          "height": 351,
+          "bytes": 11726
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw1112-1-pastel-spiral-candy-resin-cabochons-e592c96c-640w.webp",
+          "width": 640,
+          "height": 624,
+          "bytes": 22320
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw20946/rw20946-1-luminous-mini-mushroom-resin-craft-figurines.png",
+      "sourceBytes": 909166,
+      "sourceSha256": "b861d9d80b85c2782759f8015be8048cfe418bd431bf3d746238f59d8ac106e2",
+      "sourceWidth": 583,
+      "sourceHeight": 564,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw20946-1-luminous-mini-mushroom-resin-craft-figurines-61e32b17-360w.webp",
+          "width": 360,
+          "height": 348,
+          "bytes": 57482
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw20946-1-luminous-mini-mushroom-resin-craft-figurines-61e32b17-583w.webp",
+          "width": 583,
+          "height": 564,
+          "bytes": 134068
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw21097/rw21097-1-lip-tongue-resin-craft-charm-mix.png",
+      "sourceBytes": 632404,
+      "sourceSha256": "c62720c72315e6d6ba9a37b1c1692bb2610de7751242b5cff481f843bd62a687",
+      "sourceWidth": 511,
+      "sourceHeight": 462,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw21097-1-lip-tongue-resin-craft-charm-mix-527e80be-360w.webp",
+          "width": 360,
+          "height": 325,
+          "bytes": 38636
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw21097-1-lip-tongue-resin-craft-charm-mix-527e80be-511w.webp",
+          "width": 511,
+          "height": 462,
+          "bytes": 68766
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw21743/rw21743-1-farm-themed-resin-flatback-craft-assortment.png",
+      "sourceBytes": 586643,
+      "sourceSha256": "da46907485e32b5c0721456b4e98bba04b2b1e56cb9847efe9dee0b49102a2b4",
+      "sourceWidth": 618,
+      "sourceHeight": 521,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw21743-1-farm-themed-resin-flatback-craft-assortment-2a40c114-360w.webp",
+          "width": 360,
+          "height": 303,
+          "bytes": 19900
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw21743-1-farm-themed-resin-flatback-craft-assortment-2a40c114-618w.webp",
+          "width": 618,
+          "height": 521,
+          "bytes": 39490
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw22898/rw22898-1-luminous-flower-resin-flatback-cabochons.png",
+      "sourceBytes": 832200,
+      "sourceSha256": "29b7b5d9a9c11109be3e5441d0b8efd7e2e990cb142a434b004d24e3c4a62901",
+      "sourceWidth": 693,
+      "sourceHeight": 658,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw22898-1-luminous-flower-resin-flatback-cabochons-49df4520-360w.webp",
+          "width": 360,
+          "height": 342,
+          "bytes": 28154
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw22898-1-luminous-flower-resin-flatback-cabochons-49df4520-640w.webp",
+          "width": 640,
+          "height": 608,
+          "bytes": 70318
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw23542/rw23542-1.jpg",
+      "sourceBytes": 236330,
+      "sourceSha256": "094a8c653e545c111ea4b0b4159f1d84dde5d1eec37f0bf54043a12b29926599",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw23542-1-16c4b952-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 17584
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw23542-1-16c4b952-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 92612
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw24359/rw24359-1-iridescent-snowflake-resin-flatback-craft-charms.png",
+      "sourceBytes": 921575,
+      "sourceSha256": "072394b968f8c7d330325a32c80bc7776d6cd39afa483919c6e61a2b4803a182",
+      "sourceWidth": 575,
+      "sourceHeight": 606,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw24359-1-iridescent-snowflake-resin-flatback-craft-charms-367427d2-360w.webp",
+          "width": 360,
+          "height": 379,
+          "bytes": 39048
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw24359-1-iridescent-snowflake-resin-flatback-craft-charms-367427d2-575w.webp",
+          "width": 575,
+          "height": 606,
+          "bytes": 74140
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw24707/rw24707-1-ab-pearl-shell-resin-cabochons.png",
+      "sourceBytes": 954183,
+      "sourceSha256": "007b87765c6a4afc887e639b022501fde3b08719ae642a84141718e1e57aac98",
+      "sourceWidth": 772,
+      "sourceHeight": 716,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw24707-1-ab-pearl-shell-resin-cabochons-a772139d-360w.webp",
+          "width": 360,
+          "height": 334,
+          "bytes": 21302
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw24707-1-ab-pearl-shell-resin-cabochons-a772139d-640w.webp",
+          "width": 640,
+          "height": 594,
+          "bytes": 46350
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw2504-yx416/rw2504-yx416-1-mixed-dessert-clay-resin-craft-decorations.png",
+      "sourceBytes": 826349,
+      "sourceSha256": "33f45cf41b073d5d39f2f6c345a02f4c7c2a4ab975c2f069dfe63575e48ceb53",
+      "sourceWidth": 572,
+      "sourceHeight": 484,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw2504-yx416-1-mixed-dessert-clay-resin-craft-decorations-1f4dd6ed-360w.webp",
+          "width": 360,
+          "height": 305,
+          "bytes": 35252
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw2504-yx416-1-mixed-dessert-clay-resin-craft-decorations-1f4dd6ed-572w.webp",
+          "width": 572,
+          "height": 484,
+          "bytes": 62882
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25179/rw25179-1-mini-gift-box-resin-cabochons.png",
+      "sourceBytes": 1037564,
+      "sourceSha256": "412fbe889ad42c42dab5c27622e671f2c716072f3715ecd367862467e99504bc",
+      "sourceWidth": 757,
+      "sourceHeight": 652,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25179-1-mini-gift-box-resin-cabochons-1717cd27-360w.webp",
+          "width": 360,
+          "height": 310,
+          "bytes": 30902
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25179-1-mini-gift-box-resin-cabochons-1717cd27-640w.webp",
+          "width": 640,
+          "height": 551,
+          "bytes": 70436
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25208/rw25208-1-rhinestone-bow-resin-flatback-cabochons.png",
+      "sourceBytes": 263629,
+      "sourceSha256": "ff7f777e7c1d9e11239c9bc32e01451764d3566bc3236b538b78e7fb2774f7e3",
+      "sourceWidth": 696,
+      "sourceHeight": 684,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25208-1-rhinestone-bow-resin-flatback-cabochons-09806d36-360w.webp",
+          "width": 360,
+          "height": 354,
+          "bytes": 35126
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25208-1-rhinestone-bow-resin-flatback-cabochons-09806d36-640w.webp",
+          "width": 640,
+          "height": 629,
+          "bytes": 86874
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25404/rw25404-1-luminous-honey-jar-resin-craft-charms.png",
+      "sourceBytes": 1012957,
+      "sourceSha256": "3a7943fc8aeb69b46091b1693c8cdf61ae068f24a0583cdde8ec91156bbed977",
+      "sourceWidth": 762,
+      "sourceHeight": 739,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25404-1-luminous-honey-jar-resin-craft-charms-902c745c-360w.webp",
+          "width": 360,
+          "height": 349,
+          "bytes": 22620
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25404-1-luminous-honey-jar-resin-craft-charms-902c745c-640w.webp",
+          "width": 640,
+          "height": 621,
+          "bytes": 45752
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25451/rw25451-1.jpg",
+      "sourceBytes": 483461,
+      "sourceSha256": "862d12535fd73eb594fd9b56c4472b5cf3beb467156e55b78deb3f268f4af481",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25451-1-2e136381-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 70202
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25451-1-2e136381-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 214906
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25575/rw25575-1.jpg",
+      "sourceBytes": 280299,
+      "sourceSha256": "d6a54e96a4ed9da527b05f95836a1f2f634bfa56fe97e74ae882e37b64eb3c99",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25575-1-ba01ceda-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 43342
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25575-1-ba01ceda-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 124220
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25591/rw25591-1.jpg",
+      "sourceBytes": 310606,
+      "sourceSha256": "2ae2e2f435e636e9975a30d9849cbcdb28f07b35ff104bf37f26d96036e9f95d",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25591-1-524fb56a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 41948
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25591-1-524fb56a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 138264
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25644/rw25644-1.jpg",
+      "sourceBytes": 218228,
+      "sourceSha256": "59f8ce205cc6060c01591fcd3649946788b31f157363d0d0dd585ad480528426",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25644-1-207ab6bf-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 31728
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25644-1-207ab6bf-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 94694
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw25888/rw25888-1.jpg",
+      "sourceBytes": 271902,
+      "sourceSha256": "fedd10ba6b9a4dcc334286ad8c7bfe42a986a31a47e9648d3e2ccc6aa7abaf43",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw25888-1-fc843742-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 40812
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw25888-1-fc843742-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 121500
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26099/rw26099-1-bear-star-and-dog-resin-cabochons-20261026-monica.jpg",
+      "sourceBytes": 204996,
+      "sourceSha256": "4e05a7cb7771a20c125755cbdb979fe0993443353a81d39585736d2ccd5bbd06",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26099-1-bear-star-and-dog-resin-cabochons-20261026-monica-567fb2e4-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 12182
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26099-1-bear-star-and-dog-resin-cabochons-20261026-monica-567fb2e4-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 30090
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26520/rw26520-1.jpg",
+      "sourceBytes": 380794,
+      "sourceSha256": "fbc22ab4ccfa20855c68adb8bd1afe5169c3c6635ae7c3ca7cb0013995362ef3",
+      "sourceWidth": 1000,
+      "sourceHeight": 1333,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26520-1-93125523-360w.webp",
+          "width": 360,
+          "height": 480,
+          "bytes": 78238
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26520-1-93125523-640w.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 197460
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26633/rw26633-1.jpg",
+      "sourceBytes": 214814,
+      "sourceSha256": "7b03b71986bb39c162d63f18507906d2b039abfdc5018a61090293818b32cb99",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26633-1-9a52184e-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 25180
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26633-1-9a52184e-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 72318
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26716/rw26716-1-lemon-fruit-resin-cabochons-20261026-monica.jpg",
+      "sourceBytes": 236781,
+      "sourceSha256": "19f4f1efb86f3dba11d07cfc0b0611bea20dc999f73f6bc98a629d3af926b288",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26716-1-lemon-fruit-resin-cabochons-20261026-monica-9b69fdff-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 21264
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26716-1-lemon-fruit-resin-cabochons-20261026-monica-9b69fdff-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 51756
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26718/rw26718-1-chocolate-bowl-dessert-resin-cabochons-20261026-monica.jpg",
+      "sourceBytes": 269525,
+      "sourceSha256": "ebf44c15577fd1d60a42feb08daf1f0064ff4e9807bc1002e5e7ff483a508e0d",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26718-1-chocolate-bowl-dessert-resin-cabochons-20261026-monica-03d8fd4d-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 25656
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26718-1-chocolate-bowl-dessert-resin-cabochons-20261026-monica-03d8fd4d-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 65230
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26719/rw26719-1-colorful-candy-resin-cabochons-20261026-monica.jpg",
+      "sourceBytes": 245238,
+      "sourceSha256": "1b007b62b5c609f8574bb16b8c4da4ae45a03b39db0cf561e68055037743ae68",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26719-1-colorful-candy-resin-cabochons-20261026-monica-11db160c-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 23224
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26719-1-colorful-candy-resin-cabochons-20261026-monica-11db160c-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 57012
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26722/rw26722-1-ladybug-on-leaf-resin-charms-20261026-monica.jpg",
+      "sourceBytes": 207209,
+      "sourceSha256": "66e46f65974018fb04005024f149c271a89922394ef2b076808ce46801535f63",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26722-1-ladybug-on-leaf-resin-charms-20261026-monica-168eb780-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 19788
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26722-1-ladybug-on-leaf-resin-charms-20261026-monica-168eb780-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 44750
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26723/rw26723-1-artist-palette-and-paint-brush-resin-charms-20261026-monica.jpg",
+      "sourceBytes": 217787,
+      "sourceSha256": "1fef737f6fcb83d15ca508544445a9fc18fc06aa8fb399ea1cf74227661c16b4",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26723-1-artist-palette-and-paint-brush-resin-charms-20261026-monica-d47aa903-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 14086
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26723-1-artist-palette-and-paint-brush-resin-charms-20261026-monica-d47aa903-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 39386
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26825/rw26825-1-ocean-theme-resin-decorative-charms.png",
+      "sourceBytes": 221306,
+      "sourceSha256": "9cb5460abb6e8874a3c4cc225454b16f82cfbf4ae04b53daa44a3c7143938127",
+      "sourceWidth": 739,
+      "sourceHeight": 687,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26825-1-ocean-theme-resin-decorative-charms-550cf1a4-360w.webp",
+          "width": 360,
+          "height": 335,
+          "bytes": 33012
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26825-1-ocean-theme-resin-decorative-charms-550cf1a4-640w.webp",
+          "width": 640,
+          "height": 595,
+          "bytes": 73956
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26826/rw26826-1-orange-pumpkin-resin-flatback-charms.png",
+      "sourceBytes": 247152,
+      "sourceSha256": "7ceb8cd5e61da72b7ae21689ed06c5bb33a3ccfaf60d28847675ee309af95d30",
+      "sourceWidth": 763,
+      "sourceHeight": 726,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26826-1-orange-pumpkin-resin-flatback-charms-f97356bf-360w.webp",
+          "width": 360,
+          "height": 343,
+          "bytes": 29102
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26826-1-orange-pumpkin-resin-flatback-charms-f97356bf-640w.webp",
+          "width": 640,
+          "height": 609,
+          "bytes": 62034
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26827/rw26827-1-speckled-bird-egg-resin-miniatures.png",
+      "sourceBytes": 234665,
+      "sourceSha256": "8972aaf194f47cb1d92df4c3510de67ca738239153906971d107269d24039a3f",
+      "sourceWidth": 731,
+      "sourceHeight": 688,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26827-1-speckled-bird-egg-resin-miniatures-42a13dbb-360w.webp",
+          "width": 360,
+          "height": 339,
+          "bytes": 32398
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26827-1-speckled-bird-egg-resin-miniatures-42a13dbb-640w.webp",
+          "width": 640,
+          "height": 602,
+          "bytes": 68918
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26829/rw26829-1-leopard-print-resin-bow-cabochons.png",
+      "sourceBytes": 212042,
+      "sourceSha256": "25b5a56d2dbb7baf34fa59253d472e116637868b03cefebe61b271c4dc368860",
+      "sourceWidth": 748,
+      "sourceHeight": 748,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26829-1-leopard-print-resin-bow-cabochons-5ee40fc9-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 61444
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26829-1-leopard-print-resin-bow-cabochons-5ee40fc9-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 152118
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26856/rw26856-1-flower-princess-resin-miniature-figurines.png",
+      "sourceBytes": 260071,
+      "sourceSha256": "f31e730ecc0ed04149fb03032ba31ce4ecee0474d2a67a2b42ed86f74b028271",
+      "sourceWidth": 729,
+      "sourceHeight": 717,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26856-1-flower-princess-resin-miniature-figurines-56c27827-360w.webp",
+          "width": 360,
+          "height": 354,
+          "bytes": 45368
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26856-1-flower-princess-resin-miniature-figurines-56c27827-640w.webp",
+          "width": 640,
+          "height": 629,
+          "bytes": 102276
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26857/rw26857-1-sleeping-cat-resin-miniature-figurines.png",
+      "sourceBytes": 215209,
+      "sourceSha256": "e3182c8e3aadf706affcfcb92557b0591536c19a548775b6428848646d857912",
+      "sourceWidth": 693,
+      "sourceHeight": 687,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26857-1-sleeping-cat-resin-miniature-figurines-b449ca90-360w.webp",
+          "width": 360,
+          "height": 357,
+          "bytes": 27838
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26857-1-sleeping-cat-resin-miniature-figurines-b449ca90-640w.webp",
+          "width": 640,
+          "height": 634,
+          "bytes": 57818
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw26858/rw26858-1-lying-animal-resin-craft-miniatures.png",
+      "sourceBytes": 243901,
+      "sourceSha256": "346bd19a08cba3f1f404433eb65eb884f479d45b05822b6a875805c77f1069d6",
+      "sourceWidth": 742,
+      "sourceHeight": 757,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw26858-1-lying-animal-resin-craft-miniatures-e733962d-360w.webp",
+          "width": 360,
+          "height": 367,
+          "bytes": 28554
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw26858-1-lying-animal-resin-craft-miniatures-e733962d-640w.webp",
+          "width": 640,
+          "height": 653,
+          "bytes": 61296
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw3595/rw3595-1-miniature-squirrel-figurines-20261026-monica.jpg",
+      "sourceBytes": 290623,
+      "sourceSha256": "bcce1aa0de6039d7c71e3e09312caccfdccbb3f9a925dcfe430139b965c009bf",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw3595-1-miniature-squirrel-figurines-20261026-monica-68f012d3-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36972
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw3595-1-miniature-squirrel-figurines-20261026-monica-68f012d3-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 95486
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw404/rw404-1-mini-coffee-bean-resin-slime-charms.png",
+      "sourceBytes": 244356,
+      "sourceSha256": "4153dc46286b9a88df1cfcc079c26ea988beb4a4534bcd38864ae4c034e9aa8e",
+      "sourceWidth": 448,
+      "sourceHeight": 405,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw404-1-mini-coffee-bean-resin-slime-charms-9b17aa07-360w.webp",
+          "width": 360,
+          "height": 325,
+          "bytes": 20978
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw404-1-mini-coffee-bean-resin-slime-charms-9b17aa07-448w.webp",
+          "width": 448,
+          "height": 405,
+          "bytes": 28502
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw4287/rw4287-1.jpg",
+      "sourceBytes": 236017,
+      "sourceSha256": "ccff572e95207dfefa7aa78d167c67a7c1868a714a734a17f6cb02192d5e23cc",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw4287-1-f003fd6a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 38904
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw4287-1-f003fd6a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 111348
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw5309/rw5309-1-miniature-folding-chair-phone-holders-20261026-monica.jpg",
+      "sourceBytes": 300856,
+      "sourceSha256": "22a213619118c6e5bd4431854d07149bbb40b63059044cb4950b81602e8a6064",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw5309-1-miniature-folding-chair-phone-holders-20261026-monica-d90b277d-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36858
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw5309-1-miniature-folding-chair-phone-holders-20261026-monica-d90b277d-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 113090
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw5323/rw5323-1-miniature-ceramic-casserole-models-20261026-monica.jpg",
+      "sourceBytes": 292332,
+      "sourceSha256": "24f94d3350787be37d283a9a37abd8ec4830b5fbfd6d65ffeabe3717a43a437b",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw5323-1-miniature-ceramic-casserole-models-20261026-monica-f67540f6-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 16318
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw5323-1-miniature-ceramic-casserole-models-20261026-monica-f67540f6-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 63514
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rw749/rw749-1-mini-walnut-resin-flatback-cabochons.png",
+      "sourceBytes": 435837,
+      "sourceSha256": "c565ef702a2c1bc6020f89755fb4b3e82d119ec22658bccbb394bb261a5ec520",
+      "sourceWidth": 762,
+      "sourceHeight": 440,
+      "pages": [
+        "resin-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rw749-1-mini-walnut-resin-flatback-cabochons-46ca278e-360w.webp",
+          "width": 360,
+          "height": 208,
+          "bytes": 10954
+        },
+        {
+          "url": "assets/images/responsive-20261029/rw749-1-mini-walnut-resin-flatback-cabochons-46ca278e-640w.webp",
+          "width": 640,
+          "height": 370,
+          "bytes": 21318
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rx028/rx028-1-pvc-citrus-slice-craft-decoration-pieces.png",
+      "sourceBytes": 879833,
+      "sourceSha256": "214d60c84d6331fd2c021233757060e1adc85a9c0f2f26430f4e7c88809aa0f7",
+      "sourceWidth": 773,
+      "sourceHeight": 658,
+      "pages": [
+        "pvc-plastic-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rx028-1-pvc-citrus-slice-craft-decoration-pieces-853549d7-360w.webp",
+          "width": 360,
+          "height": 306,
+          "bytes": 15240
+        },
+        {
+          "url": "assets/images/responsive-20261029/rx028-1-pvc-citrus-slice-craft-decoration-pieces-853549d7-640w.webp",
+          "width": 640,
+          "height": 545,
+          "bytes": 32672
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/rx155-206-207-208-209-210/rx155-206-207-208-209-210-1-clear-filled-star-decorative-appliques.png",
+      "sourceBytes": 1278730,
+      "sourceSha256": "68ca17c2249431549f9204acc12982009b9f3ed95d558a85db6f1e789a06f4c8",
+      "sourceWidth": 739,
+      "sourceHeight": 685,
+      "pages": [
+        "glitter-sequins-fillers.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/rx155-206-207-208-209-210-1-clear-filled-star-decorative-appliques-59df3136-360w.webp",
+          "width": 360,
+          "height": 334,
+          "bytes": 38670
+        },
+        {
+          "url": "assets/images/responsive-20261029/rx155-206-207-208-209-210-1-clear-filled-star-decorative-appliques-59df3136-640w.webp",
+          "width": 640,
+          "height": 593,
+          "bytes": 99608
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/sd144/sd144-1-colorful-adjustable-plastic-ring-bases.png",
+      "sourceBytes": 566427,
+      "sourceSha256": "12ec95886354b0a3699fc47f0795d9d151197712350db5d5908ada628c78d395",
+      "sourceWidth": 765,
+      "sourceHeight": 485,
+      "pages": [
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/sd144-1-colorful-adjustable-plastic-ring-bases-6c0de369-360w.webp",
+          "width": 360,
+          "height": 228,
+          "bytes": 14556
+        },
+        {
+          "url": "assets/images/responsive-20261029/sd144-1-colorful-adjustable-plastic-ring-bases-6c0de369-640w.webp",
+          "width": 640,
+          "height": 406,
+          "bytes": 28110
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/sd168/sd168-1-clear-phone-lanyard-tether-tabs.png",
+      "sourceBytes": 1084318,
+      "sourceSha256": "f5cbf2a334916611af3760f97cb4026a37115ee5a6c9b2090c63254400c17415",
+      "sourceWidth": 712,
+      "sourceHeight": 588,
+      "pages": [
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/sd168-1-clear-phone-lanyard-tether-tabs-58b6889e-360w.webp",
+          "width": 360,
+          "height": 297,
+          "bytes": 33826
+        },
+        {
+          "url": "assets/images/responsive-20261029/sd168-1-clear-phone-lanyard-tether-tabs-58b6889e-640w.webp",
+          "width": 640,
+          "height": 529,
+          "bytes": 70550
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/slm10009-1/slm10009-1-1-christmas-slime-decoration-sprinkles-mix-20261026-monica.jpg",
+      "sourceBytes": 444220,
+      "sourceSha256": "e46ce2e310681218a8ecc321406b9bd17a30e6363c7b45b2b2c8134eae2ccb48",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/slm10009-1-1-christmas-slime-decoration-sprinkles-mix-20261026-monica-fb4c9dfd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 50014
+        },
+        {
+          "url": "assets/images/responsive-20261029/slm10009-1-1-christmas-slime-decoration-sprinkles-mix-20261026-monica-fb4c9dfd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 132538
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/slm10058/slm10058-1-sea-theme-slime-decoration-mix-20261026-monica.jpg",
+      "sourceBytes": 358163,
+      "sourceSha256": "b19f7d476d95455672619dd782ead9a3850f6f0af92daeb9d3b038da1ec34047",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/slm10058-1-sea-theme-slime-decoration-mix-20261026-monica-3b8c4468-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36038
+        },
+        {
+          "url": "assets/images/responsive-20261029/slm10058-1-sea-theme-slime-decoration-mix-20261026-monica-3b8c4468-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 93808
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/slm10060/slm10060-1-valentine-rose-heart-and-lip-slime-decoration-mix-20261026-monica.jpg",
+      "sourceBytes": 447667,
+      "sourceSha256": "e5b141ec1bd838246619ebe487b44710ec7378dd9d1d384921598cbc8e47d093",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/slm10060-1-valentine-rose-heart-and-lip-slime-decoration-mix-20261026-monica-840a1100-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 49952
+        },
+        {
+          "url": "assets/images/responsive-20261029/slm10060-1-valentine-rose-heart-and-lip-slime-decoration-mix-20261026-monica-840a1100-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 132170
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/slm26529/SLM26529-main-product.jpg",
+      "sourceBytes": 236772,
+      "sourceSha256": "7062e56b35b1d5fb0d0460c329600fc56aec9b87f7a0b8ddf4ce563f9b2806e9",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/SLM26529-main-product-6e5940b0-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46050
+        },
+        {
+          "url": "assets/images/responsive-20261029/SLM26529-main-product-6e5940b0-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 107338
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/slm613/slm613-1-butterfly-and-lollipop-slime-decoration-mix-20261026-monica.jpg",
+      "sourceBytes": 208425,
+      "sourceSha256": "4c90e6d6a69d35cb76c4a440162951af3e1e93775871ea69539d25695706c35b",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "slime-charms.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/slm613-1-butterfly-and-lollipop-slime-decoration-mix-20261026-monica-276a1592-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 35174
+        },
+        {
+          "url": "assets/images/responsive-20261029/slm613-1-butterfly-and-lollipop-slime-decoration-mix-20261026-monica-276a1592-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 85858
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya267/01.webp",
+      "sourceBytes": 244938,
+      "sourceSha256": "cf2c4eaa3e15ef6f65d4ffe3a948c3dbb8acdeca6d0e3d5d7bc3cfa1f8d60738",
+      "sourceWidth": 1200,
+      "sourceHeight": 1200,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/01-9f23300f-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46042
+        },
+        {
+          "url": "assets/images/responsive-20261029/01-9f23300f-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 121740
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya382/ya382-1-pastel-cupcake-shaped-beads.png",
+      "sourceBytes": 913052,
+      "sourceSha256": "6343e0b363054264cf2bbc1f7835b44d5b607d1bc0cff1cb15d762b880f66246",
+      "sourceWidth": 662,
+      "sourceHeight": 641,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/ya382-1-pastel-cupcake-shaped-beads-ad69a0cf-360w.webp",
+          "width": 360,
+          "height": 349,
+          "bytes": 50706
+        },
+        {
+          "url": "assets/images/responsive-20261029/ya382-1-pastel-cupcake-shaped-beads-ad69a0cf-640w.webp",
+          "width": 640,
+          "height": 620,
+          "bytes": 139928
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya449/ya449-1-colorful-textured-round-acrylic-beads.png",
+      "sourceBytes": 747178,
+      "sourceSha256": "194d72430a97f0aaa18fdda78a613f60fe7fd3cae8ce5249c9b664d05a7f6707",
+      "sourceWidth": 656,
+      "sourceHeight": 654,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/ya449-1-colorful-textured-round-acrylic-beads-899c55e1-360w.webp",
+          "width": 360,
+          "height": 359,
+          "bytes": 38368
+        },
+        {
+          "url": "assets/images/responsive-20261029/ya449-1-colorful-textured-round-acrylic-beads-899c55e1-640w.webp",
+          "width": 640,
+          "height": 638,
+          "bytes": 103742
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya690/ya690-1-green-leaf-shaped-acrylic-beads.png",
+      "sourceBytes": 667416,
+      "sourceSha256": "9b5f152bf30f19e379639efee0fbabf99f75d420d108be30f61c19b8b4d0e294",
+      "sourceWidth": 636,
+      "sourceHeight": 676,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/ya690-1-green-leaf-shaped-acrylic-beads-99a4465d-360w.webp",
+          "width": 360,
+          "height": 383,
+          "bytes": 35038
+        },
+        {
+          "url": "assets/images/responsive-20261029/ya690-1-green-leaf-shaped-acrylic-beads-99a4465d-636w.webp",
+          "width": 636,
+          "height": 676,
+          "bytes": 74276
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya802/ya802-1-luminous-acrylic-snowflake-flatback-cabochons.png",
+      "sourceBytes": 772313,
+      "sourceSha256": "36d7dc3beab1dc7bedf788c4c83ab39519731138cab5a81e5b4f34ab3e28eeaf",
+      "sourceWidth": 659,
+      "sourceHeight": 637,
+      "pages": [
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/ya802-1-luminous-acrylic-snowflake-flatback-cabochons-68b9e738-360w.webp",
+          "width": 360,
+          "height": 348,
+          "bytes": 23638
+        },
+        {
+          "url": "assets/images/responsive-20261029/ya802-1-luminous-acrylic-snowflake-flatback-cabochons-68b9e738-640w.webp",
+          "width": 640,
+          "height": 619,
+          "bytes": 48374
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/ya893/ya893-1-colorful-swirl-round-acrylic-beads.png",
+      "sourceBytes": 356299,
+      "sourceSha256": "f320f5064fd10c61ebef91ade9a3a9ce081dea67cb0339191d599171a1e4f536",
+      "sourceWidth": 500,
+      "sourceHeight": 511,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/ya893-1-colorful-swirl-round-acrylic-beads-ec0b1ebd-360w.webp",
+          "width": 360,
+          "height": 368,
+          "bytes": 27536
+        },
+        {
+          "url": "assets/images/responsive-20261029/ya893-1-colorful-swirl-round-acrylic-beads-ec0b1ebd-500w.webp",
+          "width": 500,
+          "height": 511,
+          "bytes": 42482
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yj145/yj145-1-faceted-heart-ab-acrylic-beads.png",
+      "sourceBytes": 308902,
+      "sourceSha256": "4505532b9f70b8907b8b08bc0b3bf739a98086f50c674f56271e73cc7ea6c380",
+      "sourceWidth": 617,
+      "sourceHeight": 503,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yj145-1-faceted-heart-ab-acrylic-beads-308cacf9-360w.webp",
+          "width": 360,
+          "height": 293,
+          "bytes": 12504
+        },
+        {
+          "url": "assets/images/responsive-20261029/yj145-1-faceted-heart-ab-acrylic-beads-308cacf9-617w.webp",
+          "width": 617,
+          "height": 503,
+          "bytes": 25314
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yq029/yq029-1-gold-and-silver-half-round-flatback-decorations.png",
+      "sourceBytes": 245667,
+      "sourceSha256": "7958b24c4965fdd4fab8db551773f09bbfac0327dbccef6524c5d705ac89c1fe",
+      "sourceWidth": 666,
+      "sourceHeight": 607,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yq029-1-gold-and-silver-half-round-flatback-decorations-9936683c-360w.webp",
+          "width": 360,
+          "height": 328,
+          "bytes": 44004
+        },
+        {
+          "url": "assets/images/responsive-20261029/yq029-1-gold-and-silver-half-round-flatback-decorations-9936683c-640w.webp",
+          "width": 640,
+          "height": 583,
+          "bytes": 103042
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yv353/yv353-1-pink-hat-mirror-ball-earrings.png",
+      "sourceBytes": 1121080,
+      "sourceSha256": "46e2313a8c97a2b8363d5d6b0b6f1e59826709ca072c842b7eb8cd434ad555a4",
+      "sourceWidth": 742,
+      "sourceHeight": 664,
+      "pages": [
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yv353-1-pink-hat-mirror-ball-earrings-bf1fce22-360w.webp",
+          "width": 360,
+          "height": 322,
+          "bytes": 28638
+        },
+        {
+          "url": "assets/images/responsive-20261029/yv353-1-pink-hat-mirror-ball-earrings-bf1fce22-640w.webp",
+          "width": 640,
+          "height": 573,
+          "bytes": 60352
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx3150/yx3150-1-christmas-gingerbread-peppermint-clay-slices.png",
+      "sourceBytes": 251853,
+      "sourceSha256": "7615ab78bbb3f29498d3d02bd7ed8c4a2f86ed9995bd610bfdf09e5625dc3f7e",
+      "sourceWidth": 623,
+      "sourceHeight": 722,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yx3150-1-christmas-gingerbread-peppermint-clay-slices-b45d0606-360w.webp",
+          "width": 360,
+          "height": 417,
+          "bytes": 49322
+        },
+        {
+          "url": "assets/images/responsive-20261029/yx3150-1-christmas-gingerbread-peppermint-clay-slices-b45d0606-623w.webp",
+          "width": 623,
+          "height": 722,
+          "bytes": 100402
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx3242/yx3242-1-multicolor-crystal-pearl-plastic-scatter-mix.png",
+      "sourceBytes": 929801,
+      "sourceSha256": "0526efe8f87f9ef545baf65f9609bbeacfbc97b0e2376e898eeddd52e83ccd65",
+      "sourceWidth": 561,
+      "sourceHeight": 568,
+      "pages": [
+        "acrylic-beads.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yx3242-1-multicolor-crystal-pearl-plastic-scatter-mix-f3e90a23-360w.webp",
+          "width": 360,
+          "height": 364,
+          "bytes": 43332
+        },
+        {
+          "url": "assets/images/responsive-20261029/yx3242-1-multicolor-crystal-pearl-plastic-scatter-mix-f3e90a23-561w.webp",
+          "width": 561,
+          "height": 568,
+          "bytes": 76634
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx3803/yx3803-1-pink-black-halloween-polymer-clay-mix.png",
+      "sourceBytes": 655719,
+      "sourceSha256": "c83f6c9a224ace1667ec12a9f466f3f4a3125167c794b8881a298a62beb2231d",
+      "sourceWidth": 538,
+      "sourceHeight": 503,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yx3803-1-pink-black-halloween-polymer-clay-mix-3f440b93-360w.webp",
+          "width": 360,
+          "height": 337,
+          "bytes": 46008
+        },
+        {
+          "url": "assets/images/responsive-20261029/yx3803-1-pink-black-halloween-polymer-clay-mix-3f440b93-538w.webp",
+          "width": 538,
+          "height": 503,
+          "bytes": 81732
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx3906/yx3906-1-pastel-candy-heart-polymer-clay-slice-mix.png",
+      "sourceBytes": 571983,
+      "sourceSha256": "28f3422841b95a0410dd9f106009718f57200c44d5fe46b8471abb7d7300096c",
+      "sourceWidth": 420,
+      "sourceHeight": 449,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yx3906-1-pastel-candy-heart-polymer-clay-slice-mix-f450cd85-360w.webp",
+          "width": 360,
+          "height": 385,
+          "bytes": 41116
+        },
+        {
+          "url": "assets/images/responsive-20261029/yx3906-1-pastel-candy-heart-polymer-clay-slice-mix-f450cd85-420w.webp",
+          "width": 420,
+          "height": 449,
+          "bytes": 47712
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4012/YX4012-main-product.jpg",
+      "sourceBytes": 228143,
+      "sourceSha256": "e1225a12ad90c4f8ba7147f8c1c25e074183c32566a3206263408a4767986d54",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4012-main-product-64da465b-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 42490
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4012-main-product-64da465b-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 101572
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4019/YX4019-main-product.jpg",
+      "sourceBytes": 207066,
+      "sourceSha256": "57dbad34e9c69234c0e04f7940311281c3b6bc3b75a81bbc8649ad64b9639e8b",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4019-main-product-06168468-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 37974
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4019-main-product-06168468-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 90308
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4057/YX4057-main-product.jpg",
+      "sourceBytes": 206087,
+      "sourceSha256": "c82428152375a98433bbd60825e4feabebeee2500777d36af3b1c537588cbd79",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4057-main-product-143203ca-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36456
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4057-main-product-143203ca-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 92308
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4102/YX4102-main-product.jpg",
+      "sourceBytes": 260892,
+      "sourceSha256": "672626539ead56e4b5baefd80f1e21debea38b8879d1db7f0f9436359211bae9",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4102-main-product-7b15b51e-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46774
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4102-main-product-7b15b51e-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 119180
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4103/YX4103-main-product.jpg",
+      "sourceBytes": 259764,
+      "sourceSha256": "5125f1485181580d2ce932f555c6f61a204df276beb83ee31601aed99dd8beae",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4103-main-product-a2a9c53a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 47628
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4103-main-product-a2a9c53a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 116990
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yx4109/YX4109-main-product.jpg",
+      "sourceBytes": 225421,
+      "sourceSha256": "85ef3a5e60f6af9bd44509d4642c1c1e169258f6593f8949066747495bc83a9e",
+      "sourceWidth": 1000,
+      "sourceHeight": 1000,
+      "pages": [
+        "polymer-clay-sprinkles.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/YX4109-main-product-7a0229cb-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39774
+        },
+        {
+          "url": "assets/images/responsive-20261029/YX4109-main-product-7a0229cb-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 96168
+        }
+      ]
+    },
+    {
+      "source": "assets/images/pdp/yz167/yz167-1-reflective-acrylic-fish-pendant-charms.png",
+      "sourceBytes": 581863,
+      "sourceSha256": "ea95a7e10ddd1124825e1bc29080571d136e03e562577c232d2c409e1664af48",
+      "sourceWidth": 759,
+      "sourceHeight": 468,
+      "pages": [
+        "jewelry-accessories.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/yz167-1-reflective-acrylic-fish-pendant-charms-59535138-360w.webp",
+          "width": 360,
+          "height": 222,
+          "bytes": 16690
+        },
+        {
+          "url": "assets/images/responsive-20261029/yz167-1-reflective-acrylic-fish-pendant-charms-59535138-640w.webp",
+          "width": 640,
+          "height": 395,
+          "bytes": 37630
+        }
+      ]
+    },
+    {
+      "source": "assets/images/products-hero-craft-range-20260729.webp",
+      "sourceBytes": 202136,
+      "sourceSha256": "4433130d489594a3f703e7baf5553edf88439eae3fcbde7d33153ec894d93f7c",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "pages": [
+        "products.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/products-hero-craft-range-20260729-37c69080-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 33726
+        },
+        {
+          "url": "assets/images/responsive-20261029/products-hero-craft-range-20260729-37c69080-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 92046
+        },
+        {
+          "url": "assets/images/responsive-20261029/products-hero-craft-range-20260729-37c69080-960w.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 170786
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-beadable-pen-gift.webp",
+      "sourceBytes": 175554,
+      "sourceSha256": "68f7fd2c255163ddc38afa86e0cb15c84a71b80f387b2f9de8f9b4b87027ad53",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-beadable-pen-gift-41f757ee-360w.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 20114
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-beadable-pen-gift-41f757ee-640w.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 49272
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-beadable-pen-gift-41f757ee-960w.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 93080
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-decoden-collection.webp",
+      "sourceBytes": 154550,
+      "sourceSha256": "2449cb6caf2bb89f8ded2d1fd29dc9239e3b01c9cbe49d40b605325affb9800b",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-decoden-collection-eabbebd2-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 19026
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-decoden-collection-eabbebd2-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 45206
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-decoden-collection-eabbebd2-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 80702
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-friendship-bracelets.webp",
+      "sourceBytes": 222272,
+      "sourceSha256": "d5d8a7025707b179f7ff6f267dd502b2bc58c5229bae8956295b390c469058ab",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-friendship-bracelets-d599ee0d-360w.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 23730
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-friendship-bracelets-d599ee0d-640w.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 59156
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-friendship-bracelets-d599ee0d-960w.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 108356
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-keychain-market.webp",
+      "sourceBytes": 146168,
+      "sourceSha256": "9db000c8b9314dff14069f38abba8d3c628bb8d20d4f89db318e7f3f4a3de1b9",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-keychain-market-ec29c0e9-360w.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 19750
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-keychain-market-ec29c0e9-640w.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 45632
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-keychain-market-ec29c0e9-960w.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 80306
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-multi-category-components-no-box.webp",
+      "sourceBytes": 151120,
+      "sourceSha256": "79597c09fb0af1dcab81d8ee55fd9ff114e24de45740b897b6cc08b14f8b179d",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-multi-category-components-no-box-84cc266e-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 14972
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-multi-category-components-no-box-84cc266e-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 35688
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-multi-category-components-no-box-84cc266e-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 66678
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-sequin-embroidery.webp",
+      "sourceBytes": 162926,
+      "sourceSha256": "fa101a2693ef95bd96948317548796eaf906891e72c22afc044e0bcff1832211",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-sequin-embroidery-d89b4cb9-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 16350
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-sequin-embroidery-d89b4cb9-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 42044
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-sequin-embroidery-d89b4cb9-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 79352
+        }
+      ]
+    },
+    {
+      "source": "assets/images/real-life-scenes-v1/real-life-slime-collection.webp",
+      "sourceBytes": 164208,
+      "sourceSha256": "f81b62cb22b7967d6dd30deaa82fcf681cd8eb4c496b03e90111a66ea3b56463",
+      "sourceWidth": 1600,
+      "sourceHeight": 900,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/real-life-slime-collection-66f60fd2-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 18526
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-slime-collection-66f60fd2-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 46792
+        },
+        {
+          "url": "assets/images/responsive-20261029/real-life-slime-collection-66f60fd2-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 86466
+        }
+      ]
+    },
+    {
+      "source": "assets/images/retail-craft-store-shelves.webp",
+      "sourceBytes": 270428,
+      "sourceSha256": "eec729ba6c54ab2c76bc8864665fa3b424467365ed5527e317d820ea32520541",
+      "sourceWidth": 1400,
+      "sourceHeight": 788,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/retail-craft-store-shelves-b804232a-360w.webp",
+          "width": 360,
+          "height": 203,
+          "bytes": 30948
+        },
+        {
+          "url": "assets/images/responsive-20261029/retail-craft-store-shelves-b804232a-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 90326
+        },
+        {
+          "url": "assets/images/responsive-20261029/retail-craft-store-shelves-b804232a-960w.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 181190
+        }
+      ]
+    },
+    {
+      "source": "assets/images/seasonal-christmas.webp",
+      "sourceBytes": 155642,
+      "sourceSha256": "9fc2c00884400bce08b4f5f04ff908af63b615529160cc80838ca54498efc32a",
+      "sourceWidth": 2600,
+      "sourceHeight": 1400,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/seasonal-christmas-0c928547-360w.webp",
+          "width": 360,
+          "height": 194,
+          "bytes": 13852
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-christmas-0c928547-640w.webp",
+          "width": 640,
+          "height": 345,
+          "bytes": 24656
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-christmas-0c928547-960w.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 38986
+        }
+      ]
+    },
+    {
+      "source": "assets/images/seasonal-halloween.webp",
+      "sourceBytes": 148998,
+      "sourceSha256": "fbde2a2a402d617406dc99d52f4ac88f376c387620942ed891340de0437bfd52",
+      "sourceWidth": 2600,
+      "sourceHeight": 1400,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/seasonal-halloween-25dbafbb-360w.webp",
+          "width": 360,
+          "height": 194,
+          "bytes": 14002
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-halloween-25dbafbb-640w.webp",
+          "width": 640,
+          "height": 345,
+          "bytes": 24612
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-halloween-25dbafbb-960w.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 37626
+        }
+      ]
+    },
+    {
+      "source": "assets/images/seasonal-summer.webp",
+      "sourceBytes": 138414,
+      "sourceSha256": "3f8edf0054dc260f8a9630d215c59b98509bc9464a2b1fa3e11b06f39ec0d3b8",
+      "sourceWidth": 2600,
+      "sourceHeight": 1400,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/seasonal-summer-4550a69b-360w.webp",
+          "width": 360,
+          "height": 194,
+          "bytes": 11306
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-summer-4550a69b-640w.webp",
+          "width": 640,
+          "height": 345,
+          "bytes": 20332
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-summer-4550a69b-960w.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 32418
+        }
+      ]
+    },
+    {
+      "source": "assets/images/seasonal-valentine.webp",
+      "sourceBytes": 151082,
+      "sourceSha256": "3d6493bc8b99f6ec300ee0b6188b5a7548f1bad5d7c9de85a8ebd43572b125c4",
+      "sourceWidth": 2600,
+      "sourceHeight": 1400,
+      "pages": [
+        "index.html"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/seasonal-valentine-15a85fa0-360w.webp",
+          "width": 360,
+          "height": 194,
+          "bytes": 13032
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-valentine-15a85fa0-640w.webp",
+          "width": 640,
+          "height": 345,
+          "bytes": 23172
+        },
+        {
+          "url": "assets/images/responsive-20261029/seasonal-valentine-15a85fa0-960w.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 36978
+        }
+      ]
+    },
+    {
+      "source": "assets/images/whatsapp-3d.png",
+      "sourceBytes": 178799,
+      "sourceSha256": "9ca3abb7cd90a460e2816b415c85861cecd89e441f7c741e9554beec759e2931",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "pages": [
+        "shared CSS"
+      ],
+      "variants": [
+        {
+          "url": "assets/images/responsive-20261029/whatsapp-3d-49b7fe47-128w.webp",
+          "width": 128,
+          "height": 128,
+          "bytes": 20128
+        },
+        {
+          "url": "assets/images/responsive-20261029/whatsapp-3d-49b7fe47-256w.webp",
+          "width": 256,
+          "height": 256,
+          "bytes": 64250
+        }
+      ]
+    }
+  ]
+}
