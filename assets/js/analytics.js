@@ -79,11 +79,13 @@
   });
   function mountConsent(){
     if(document.getElementById('qula-analytics-consent'))return;
-    var css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/analytics-consent.css?v=20261014';document.head.appendChild(css);
+    var css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/analytics-consent.css?v=20261029-mobile-consent';document.head.appendChild(css);
     var panel=document.createElement('section');panel.id='qula-analytics-consent';panel.className='qc-consent';
-    panel.setAttribute('role','dialog');panel.setAttribute('aria-labelledby','qc-consent-title');panel.setAttribute('aria-describedby','qc-consent-description');
-    panel.innerHTML='<div><strong id="qc-consent-title">Help us improve Qula Craft</strong><p id="qc-consent-description">We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies and Clarity recordings are enabled only if you accept. Inquiry form content is masked. <a href="/privacy-policy.html">Privacy policy</a></p></div><div class="qc-consent-actions"><button type="button" data-analytics-decline>Decline analytics</button><button type="button" data-analytics-accept>Accept analytics</button></div>';
-    panel.hidden=readConsent()!==null;document.body.appendChild(panel);
+    panel.setAttribute('role','region');panel.setAttribute('aria-labelledby','qc-consent-title');panel.setAttribute('aria-describedby','qc-consent-description');
+    panel.innerHTML='<div class="qc-consent-copy"><strong id="qc-consent-title">Optional analytics</strong><p id="qc-consent-description">Allow website statistics and session recordings?</p><details class="qc-consent-details"><summary>Analytics details</summary><p>We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies and Clarity recordings are enabled only if you accept. Inquiry form content is masked. <a href="/privacy-policy.html">Privacy policy</a></p></details></div><div class="qc-consent-actions"><button type="button" data-analytics-decline>Decline analytics</button><button type="button" data-analytics-accept>Accept analytics</button></div>';
+    panel.hidden=readConsent()!==null;
+    var main=document.querySelector('main');
+    if(main)main.before(panel);else document.body.prepend(panel);
     var reopen=document.createElement('button');reopen.type='button';reopen.className='qc-cookie-settings';reopen.textContent='Cookie choices';
     var footer=document.querySelector('footer .container')||document.querySelector('footer')||document.body;footer.appendChild(reopen);
     reopen.addEventListener('click',function(){panel.hidden=false;panel.querySelector('[data-analytics-decline]').focus();});

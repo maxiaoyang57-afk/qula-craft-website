@@ -168,7 +168,7 @@ if (process.argv[2] === '--live') {
   }
   for (const { name, content } of documents) {
     const scripts = [...content.matchAll(/<script\b[^>]*\bsrc=["']([^"']*assets\/js\/analytics\.js(?:\?[^"']*)?)["'][^>]*>/gi)];
-    if (scripts.length !== 1 || !/^\/?assets\/js\/analytics\.js\?v=20261028-buying-clicks$/.test(scripts[0][1])) {
+    if (scripts.length !== 1 || !/^\/?assets\/js\/analytics\.js\?v=20261029-mobile-consent$/.test(scripts[0][1])) {
       fail([`${name} must load exactly one current analytics script version`]);
     }
   }
