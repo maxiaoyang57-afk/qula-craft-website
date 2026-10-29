@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-29",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 728,
+  "catalogCountAfter": 730,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW23959",
+      "pdp": "p-rw23959.html",
+      "batchNumber": 24,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html",
+      "sourceFields": {
+        "sku": "RW23959",
+        "sku_raw": "MO-RW23959",
+        "title": "Luminous Easter Rabbits Resin Fairy Garden Accessories Glow at Night Miniatures Rabbit Desk Decoration Kawaii Home Decor DIY",
+        "material": "Resin",
+        "size": "24*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643628930",
+        "product_url": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62461,
+          "sha256": "6ba409220c28efef4cbbb7ec3643144a2f34388a4b2aaf8e8660b14b3c8c4478"
+        },
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79845,
+          "sha256": "39d2f18533376e4d726db855f00088a9d564b09d2f27949eee1f679a17afef75"
+        },
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61578,
+          "sha256": "b7640dcb1c76adb7976d60cd70f9a00c79baba68d96aac41d0a2a8c2b8aa9ed4"
+        }
+      ]
+    },
+    {
+      "sku": "RW26225",
+      "pdp": "p-rw26225.html",
+      "batchNumber": 24,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html",
+      "sourceFields": {
+        "sku": "RW26225",
+        "sku_raw": "MO- RW26225",
+        "title": "Halloween Resin Horror Series Cookie Pumpkin Castle Bat DIY Handmade Cream Gum Accessories Hair Clip Keychain Pendant",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827435211",
+        "product_url": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158365,
+          "sha256": "3877a028aed73e6ca33e6c7edb34503a4be9fed7effa55ab2923f80f6da28d88"
+        },
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 183573,
+          "sha256": "f449085bfb424debc70bd1607a1fa7bf1908a2a7036d2db4bfed057a95677fc8"
+        },
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142292,
+          "sha256": "b6e902b7054a5859ff21ebad3d7e93cf16fa204a8ab6746b5319e28499aad66a"
+        }
+      ]
+    }
+  ]
+}
