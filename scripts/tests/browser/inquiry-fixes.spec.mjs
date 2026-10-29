@@ -113,6 +113,16 @@ test('malformed saved baskets do not interrupt adding products or opening the in
 test('static and search buttons support Tab, Enter, Space, deduplication, remove and clear', async ({ page }) => {
   await page.goto('resin-charms.html', { waitUntil: 'domcontentloaded' });
   expect(await page.locator('.basket-add').evaluateAll(buttons => buttons.every(button => button.tagName === 'BUTTON' && button.type === 'button'))).toBe(true);
+  if (page.viewportSize().width <= 720) {
+    // Later products remain available through the same keyboard-accessible
+    // disclosure that phone buyers use before adding them to an inquiry.
+    const pagedCards = page.locator('.product-card[data-mobile-browse-hidden]');
+    await expect(pagedCards).not.toHaveCount(0);
+    const showAll = page.locator('.mobile-browse-all');
+    await tabToNativeButton(page, showAll);
+    await page.keyboard.press('Enter');
+    await expect(pagedCards).toHaveCount(0);
+  }
   const staticAdd = page.locator(`.basket-add[data-sku="${firstSku}"]`).first();
   await tabToNativeButton(page, staticAdd);
   await page.keyboard.press('Enter');
