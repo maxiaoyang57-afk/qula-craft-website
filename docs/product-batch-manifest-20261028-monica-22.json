@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-28",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 724,
+  "catalogCountAfter": 726,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW26379",
+      "pdp": "p-rw26379.html",
+      "batchNumber": 22,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cute-Classic-Window-Flat_1601832762841.html",
+      "sourceFields": {
+        "sku": "RW26379",
+        "sku_raw": "MO-RW26379",
+        "title": "Mini Kawaii Cute Classic Window Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "material": "Resin",
+        "size": "35*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832762841",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cute-Classic-Window-Flat_1601832762841.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26379/rw26379-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138025,
+          "sha256": "f763af526369ab27b3adfb4da50d95784200ef591b9e87b5afe43d05d525d862"
+        },
+        {
+          "path": "assets/images/pdp/rw26379/rw26379-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150237,
+          "sha256": "beb8b4efc60a60c26ed605a111080a074d29b0f5de3436baa7967298fc84fcf7"
+        },
+        {
+          "path": "assets/images/pdp/rw26379/rw26379-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 183345,
+          "sha256": "da9bf964bfba1bae341211f600e6a5282d3e3094727fa2388a66683e9f4cbcbe"
+        }
+      ]
+    },
+    {
+      "sku": "RW26281",
+      "pdp": "p-rw26281.html",
+      "batchNumber": 22,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Clothing-Rack-Elegant-Vintage_1601832356241.html",
+      "sourceFields": {
+        "sku": "RW26281",
+        "sku_raw": "MO-RW26281",
+        "title": "Miniature Dollhouse Clothing Rack Elegant Vintage Garment Stand for Dollhouse Closet Display Mini Dressmaker Dummy Retro",
+        "material": "Resin",
+        "size": "20*38mm- / 14*38mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832356241",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Clothing-Rack-Elegant-Vintage_1601832356241.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26281/rw26281-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 59621,
+          "sha256": "33ed2b7bee2f16bd06bf4552e03f06d64ffca6af7739b5abc02e96c050d265f5"
+        },
+        {
+          "path": "assets/images/pdp/rw26281/rw26281-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70791,
+          "sha256": "6e65cfff53ca9583476c4b73c5f588caf4afaaeec0b05194fb58f007eb5de427"
+        },
+        {
+          "path": "assets/images/pdp/rw26281/rw26281-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 42777,
+          "sha256": "66d5c7ce4f076f61177675c1fe922654fd6b7d50e7faac3268659fd9da141995"
+        }
+      ]
+    }
+  ]
+}
