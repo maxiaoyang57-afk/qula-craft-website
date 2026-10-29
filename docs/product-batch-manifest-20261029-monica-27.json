@@ -1,0 +1,931 @@
+{
+  "date": "2026-10-29",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 770,
+  "catalogCountAfter": 790,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW002103",
+      "pdp": "p-rw002103.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Round-Flatback-Resin-Beads-DIY_62241115544.html",
+      "sourceFields": {
+        "sku": "RW002103",
+        "sku_raw": "MO-RW002103",
+        "title": "Colorful Round Flatback Resin Beads DIY Earrings Brooch Phone Case Jewelry Making Crafts Decorate Accessories",
+        "material": "Resin",
+        "size": "about16mm-",
+        "packaging": "200pcs/bag",
+        "status": "已上架",
+        "product_id": "62241115544",
+        "product_url": "https://www.alibaba.com/product-detail/Colorful-Round-Flatback-Resin-Beads-DIY_62241115544.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86324,
+          "sha256": "d351aa19cf3533db6e42654e56031c3463a9bdec5d6723e7a544a87301ccda28"
+        },
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106387,
+          "sha256": "899af8dd360b840b90d3cc27ca6d04f30c7b898b1f57993da85227dd044152d4"
+        },
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77320,
+          "sha256": "8323febd2110bd37ca58236462c1b95480d7c0572c33841c2620e520579a8695"
+        }
+      ]
+    },
+    {
+      "sku": "RW26454",
+      "pdp": "p-rw26454.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601091690941.html",
+      "sourceFields": {
+        "sku": "RW26454",
+        "sku_raw": "MO-RW26454",
+        "title": "Resin 3D Ice Cream Simulation Food Art Supply Embellishments Minitures Dollhouse Handicrafts Decoration",
+        "material": "Resin",
+        "size": "25*15mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601091690941",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601091690941.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166216,
+          "sha256": "6088eec4b1ff40dd4e9bbcc482ec50a8ced56537910b09362053d0fc85e44fc0"
+        },
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 160200,
+          "sha256": "26cfbd93386378b8f08e0bc2b6088692414ab54de8d9cf8e15eaa64077481602"
+        },
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115443,
+          "sha256": "c66c53c9aabe8b49849fba0e90cd120f82783fc5617e6c380d9ca40017805720"
+        }
+      ]
+    },
+    {
+      "sku": "RW26227",
+      "pdp": "p-rw26227.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827503017.html",
+      "sourceFields": {
+        "sku": "RW26227",
+        "sku_raw": "MO- RW26227",
+        "title": "Kawaii Simulation Food Art Supply Flatback Bread Bag Cookie Cabochon DIY Dollhouse Craft Decoration",
+        "material": "Resin",
+        "size": "21*21*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827503017",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827503017.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65419,
+          "sha256": "e322aad48180dcd44dd486b9f70c6516dd1ef0d4f9f6f5401455b2613247e2a5"
+        },
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 212329,
+          "sha256": "76d919e8057b1cf4c3e35a59f43a5915e718f7cd977f44b2083f1d99a2bd530c"
+        },
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92591,
+          "sha256": "7a11b69c3c8e5202be7cb97b73788b44c45b2ffab32f1cec7e2135add68c84a3"
+        }
+      ]
+    },
+    {
+      "sku": "RW26318",
+      "pdp": "p-rw26318.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Piggy-Ornament-Cartoon-Pig_1601808156420.html",
+      "sourceFields": {
+        "sku": "RW26318",
+        "sku_raw": "MO-RW26318",
+        "title": "Cute Mini Piggy Ornament Cartoon Pig Figurine Micro Landscape Car Interior Home Desktop Decoration",
+        "material": "Resin",
+        "size": "20-30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601808156420",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Piggy-Ornament-Cartoon-Pig_1601808156420.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112787,
+          "sha256": "1a029e5efad32c76002a04fc05542b82c06e9307f3ccf56092c43b74d6eeb690"
+        },
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95432,
+          "sha256": "87cb8eb3bcc63b621f966cbabdd89e5799af7d1a018e1f2c67c8e7697bff5e1a"
+        },
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 80036,
+          "sha256": "994b7c2d0693a79f467f4d0e71a6ebbcdaa3043916fd2276f6fc82c0c5ad2f46"
+        }
+      ]
+    },
+    {
+      "sku": "RW26364",
+      "pdp": "p-rw26364.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Popcorn-Simulated-Food-Snack_1601806916270.html",
+      "sourceFields": {
+        "sku": "RW26364",
+        "sku_raw": "MO-RW26364",
+        "title": "Mini Resin Popcorn Simulated Food Snack DIY Accessories for Keychain Doll House Kitchen Fridge Decor",
+        "material": "Resin",
+        "size": "19*13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806916270",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Popcorn-Simulated-Food-Snack_1601806916270.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70332,
+          "sha256": "312417b734898a0092ece8e7d66d62945e0b5511f63c7c633a10c37e42b23745"
+        },
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98283,
+          "sha256": "d538f81e68f45782ae8d01d111fdbd79a36350dccc7b925653a10093dbd6361c"
+        },
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91371,
+          "sha256": "e28f5da2faa4c3d4a6d9ae6cda5923bee6a300aab796f34e211029bd78d5e1c3"
+        }
+      ]
+    },
+    {
+      "sku": "RW25907",
+      "pdp": "p-rw25907.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/50Pcs-Cartoon-Resin-Winter-Penguin-Flatback_1601600418204.html",
+      "sourceFields": {
+        "sku": "RW25907",
+        "sku_raw": "MO-RW25907",
+        "title": "50Pcs Cartoon Resin Winter Penguin Flatback Cabochon Scrapbooking for Phone Decoration DIY Jewelry Craft Doll House Accessories",
+        "material": "Resin",
+        "size": "24*29mm-",
+        "packaging": "50pcs/bag",
+        "status": "已上架",
+        "product_id": "1601600418204",
+        "product_url": "https://www.alibaba.com/product-detail/50Pcs-Cartoon-Resin-Winter-Penguin-Flatback_1601600418204.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118172,
+          "sha256": "b6db80e7ec876d2d38b14fa61312be4ccb25bfe715676c922e84d1f2134bf351"
+        },
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 116427,
+          "sha256": "7b971fb4b3b6627f4af880d57439f72cf916d43f020de509230978eb98c04d60"
+        },
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121401,
+          "sha256": "731913d593c4c5c4ff23b273adb1901614776348bf31f3ada50ff214a89dc2e1"
+        }
+      ]
+    },
+    {
+      "sku": "RW26390",
+      "pdp": "p-rw26390.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Sports-Day-Cartoon_1601820612655.html",
+      "sourceFields": {
+        "sku": "RW26390",
+        "sku_raw": "MO-RW26390",
+        "title": "Kawaii Resin Cute Sports Day Cartoon Panda Scrapbook Craft Diy Miniature Ornaments Accessories",
+        "material": "Resin",
+        "size": "21*23mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601820612655",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Sports-Day-Cartoon_1601820612655.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117349,
+          "sha256": "c4ca644e413206dda0f32fbd26ee7b03245fadfe20e2a0b698277790f078a790"
+        },
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84207,
+          "sha256": "9c307e58364bf1ddefb0c0cad1b482eb2ef47a649dc4cadcbeb611d28a53c8fa"
+        },
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72352,
+          "sha256": "44fa45290a8238225e2307a98ff6f93af38e0e053bdb54bd3cfc34a4869e55e2"
+        }
+      ]
+    },
+    {
+      "sku": "RW26369",
+      "pdp": "p-rw26369.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pc-Mini-Ocean-Shell-Miniature-Doll_1601807673553.html",
+      "sourceFields": {
+        "sku": "RW26369",
+        "sku_raw": "MO-RW26369",
+        "title": "100pc Mini Ocean Shell Miniature Doll House Ornament Decoration Home Decor DIY Accessories",
+        "material": "Resin",
+        "size": "about20*33mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807673553",
+        "product_url": "https://www.alibaba.com/product-detail/100pc-Mini-Ocean-Shell-Miniature-Doll_1601807673553.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 100840,
+          "sha256": "027d0bb572f5a57f3c9392d3326f4bb9e8867bd0da40585d9e1f64bda73f634d"
+        },
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 132928,
+          "sha256": "152db27d288fcff49f5fb4aaa3227465b0c6c825943fd26aea4f57c3735f9fba"
+        },
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118628,
+          "sha256": "ca83c8c80e4f4e5a6ff4c7b4449bcd5a62c6041c4fea6ca1af69cb21394e0788"
+        }
+      ]
+    },
+    {
+      "sku": "RW26345",
+      "pdp": "p-rw26345.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Starfish-Resin-Ornaments-DIY-Accessories-Mermaid_1601806655863.html",
+      "sourceFields": {
+        "sku": "RW26345",
+        "sku_raw": "MO-RW26345",
+        "title": "Starfish Resin Ornaments DIY Accessories Mermaid Cake Decoration Miniatures for Under the Sea Ocean Party Supplies",
+        "material": "Resin",
+        "size": "28*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806655863",
+        "product_url": "https://www.alibaba.com/product-detail/Starfish-Resin-Ornaments-DIY-Accessories-Mermaid_1601806655863.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52331,
+          "sha256": "6ff36a0afacdca05a4a4a6c8ff6e742190881221a012a255d91c1312b48d5e00"
+        },
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 145773,
+          "sha256": "b80324b04039c244dfeab32229212d46ac8e9e8940be5481cf9453c1b9ef5a7c"
+        },
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112484,
+          "sha256": "5a99c19f7a2fd00a9bc5066ebe322ec8069a83373fef7b9d26bbdd960050b328"
+        }
+      ]
+    },
+    {
+      "sku": "RW26348",
+      "pdp": "p-rw26348.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Sweet-Fruit-Banana-Resin-Cabochon-Landscape_1601807669623.html",
+      "sourceFields": {
+        "sku": "RW26348",
+        "sku_raw": "MO-RW26348",
+        "title": "Sweet Fruit Banana Resin Cabochon Landscape Gardening DIY Miniature Dollhouse Desktop Small Ornament Decor Accessories",
+        "material": "Resin",
+        "size": "38*18mm- / 31*14mm- / 20*10mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807669623",
+        "product_url": "https://www.alibaba.com/product-detail/Sweet-Fruit-Banana-Resin-Cabochon-Landscape_1601807669623.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72623,
+          "sha256": "1eef92d29e0cb174cf680853f750a75ee8f28f6e25f24572133cf067337c2968"
+        },
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109066,
+          "sha256": "5079722e1bcaa33723bd46b6639ca248b01accbba401376eb405bd7594dec4bb"
+        },
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51135,
+          "sha256": "42b93cf27bcd03a201937a03821c3923025ca745baec3a1df427acb8b3df846e"
+        }
+      ]
+    },
+    {
+      "sku": "RW26342",
+      "pdp": "p-rw26342.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Cherry-Artificial-Fruit-Model_1601806647023.html",
+      "sourceFields": {
+        "sku": "RW26342",
+        "sku_raw": "MO-RW26342",
+        "title": "100Pcs Resin Cherry Artificial Fruit Model Simulation Cherry Ornament Craft Food Photography Props Party Decor Home Decoration",
+        "material": "Resin",
+        "size": "20*60mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806647023",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Resin-Cherry-Artificial-Fruit-Model_1601806647023.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77523,
+          "sha256": "b9cb8d4b73987a6065c520c1ed5e2348fe7eb115e875f9c193edc9f4482cc0d6"
+        },
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120797,
+          "sha256": "67e49be3f6053dbd7872f0b9c072f3fc02e081106c4180dc2cc943f17473f1b6"
+        },
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 48649,
+          "sha256": "ef548f12e1826ad25454573ea02cf09216f09fb0bdbab57cda8a0397fda2eeeb"
+        }
+      ]
+    },
+    {
+      "sku": "RW26365",
+      "pdp": "p-rw26365.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/1-6-Scale-Miniature-Doll-House_1601806871625.html",
+      "sourceFields": {
+        "sku": "RW26365",
+        "sku_raw": "MO-RW26365",
+        "title": "1/6 Scale Miniature Doll House Fruit Cake DIY Pretend Play Kitchen Mini Food for Doll Accessories Toy",
+        "material": "Resin",
+        "size": "14*19mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806871625",
+        "product_url": "https://www.alibaba.com/product-detail/1-6-Scale-Miniature-Doll-House_1601806871625.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139985,
+          "sha256": "65eb303b5575a8d1f8ddc1c37f48565137e1b11dfb144b6771848823ae1deb5c"
+        },
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95137,
+          "sha256": "63f5eadb41facd4929be3fa93ca9229c290440b6e55bbf3216abd98053ff021a"
+        },
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95268,
+          "sha256": "afe2bc5682300521622657710626192b5712e0ea3f452fa09818117f814cefca"
+        }
+      ]
+    },
+    {
+      "sku": "RW26352",
+      "pdp": "p-rw26352.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Strawberry-Mini-Simulation-Cute-Resin-Model_1601807651886.html",
+      "sourceFields": {
+        "sku": "RW26352",
+        "sku_raw": "MO-RW26352",
+        "title": "Strawberry Mini Simulation Cute Resin Model Doll House Miniature Kawaii Desk Home Decor Phone Case DIY Accessories",
+        "material": "Resin",
+        "size": "28*33mm- / 20*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807651886",
+        "product_url": "https://www.alibaba.com/product-detail/Strawberry-Mini-Simulation-Cute-Resin-Model_1601807651886.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 136767,
+          "sha256": "2e24b0c64789405b9f79d58a39ff9ae5f48ed312691d72772367c259f4d5f337"
+        },
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148931,
+          "sha256": "9253ada8dd046a48ffe09ddad37af1aff75fa593ac7811a2e61bd81f657cc73c"
+        },
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70844,
+          "sha256": "eea031ae81739742368728d725a40485ef07178965d145966abbd9f01968b228"
+        }
+      ]
+    },
+    {
+      "sku": "RW26420",
+      "pdp": "p-rw26420.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Fruit-Strawberry-Blueberry-Egg_1601791429667.html",
+      "sourceFields": {
+        "sku": "RW26420",
+        "sku_raw": "MO-RW26420",
+        "title": "Cute Mini Fruit Strawberry Blueberry Egg Tart DIY Dollhouse Toys Ornaments",
+        "material": "Resin",
+        "size": "13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601791429667",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Fruit-Strawberry-Blueberry-Egg_1601791429667.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147473,
+          "sha256": "e538342de9c313b2d05f472bb30b04e480f2b74fe8a1c39e6353e2e12a2cc164"
+        },
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 175897,
+          "sha256": "2dd6233ed6bee5551a9f96e57a0fac35299dbe4c6ead079c550037ce002737a4"
+        },
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98541,
+          "sha256": "24674ade6a6c24a873424a51d90f7b0315f63adcb5ded21af5500720cb881041"
+        }
+      ]
+    },
+    {
+      "sku": "RW5808",
+      "pdp": "p-rw5808.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-1-12-Scale-Doll-House_1601792670060.html",
+      "sourceFields": {
+        "sku": "RW5808",
+        "sku_raw": "MO-RW5808",
+        "title": "New 1/12 Scale Doll House Miniature Egg Basket Kitchen Model Toys for Doll Accessories",
+        "material": "Resin",
+        "size": "15*30*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792670060",
+        "product_url": "https://www.alibaba.com/product-detail/New-1-12-Scale-Doll-House_1601792670060.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60310,
+          "sha256": "c785436cfd0c827c5b71f8ddfbdf81df283dd2c2014a28ffe462fa1bb8426a3a"
+        },
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193362,
+          "sha256": "ab2c6e41ac4eb2ca8de9bdb020182a1cf2c5f0edf2d8baefab1f81d290cff837"
+        },
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125260,
+          "sha256": "47cecbe5bd41b08e15ec73a5ddfaa5eedb93e1206a96f0603372bdcb7f9709ab"
+        }
+      ]
+    },
+    {
+      "sku": "RW26414",
+      "pdp": "p-rw26414.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Fish-Figurine-Resin-Simulation-Ocean_1601791551096.html",
+      "sourceFields": {
+        "sku": "RW26414",
+        "sku_raw": "MO-RW26414",
+        "title": "Kawaii Fish Figurine Resin Simulation Ocean Animals Model Diy Home Decor Dollhouse Accessories",
+        "material": "Resin",
+        "size": "37*26mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601791551096",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Fish-Figurine-Resin-Simulation-Ocean_1601791551096.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119818,
+          "sha256": "fe7e5e91d60a939afdc2573ed644ef7694080a14b08d39ed727351460e2af6f7"
+        },
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96147,
+          "sha256": "8b0e0579b301a7621033e98808874909c055c96640602d16376ad16f53a51a36"
+        },
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60575,
+          "sha256": "a45c5174cd409b4c5dc917147fd6d1f0a9f9c59c1f65ed8ba3957b12fffe8067"
+        }
+      ]
+    },
+    {
+      "sku": "RW26355",
+      "pdp": "p-rw26355.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Tray-Clamp-Frame-Resin-Furniture_1601807722401.html",
+      "sourceFields": {
+        "sku": "RW26355",
+        "sku_raw": "MO-RW26355",
+        "title": "Miniature Tray Clamp Frame Resin Furniture Model Dollhouse DIY Decoration Accessories Micro Landscape Miniature Scene",
+        "material": "Resin",
+        "size": "40*35*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807722401",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Tray-Clamp-Frame-Resin-Furniture_1601807722401.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 135718,
+          "sha256": "0bc2d3dd4b90952eaa0a437a325519a6207a0c765b4afc62d117715ce0ed804a"
+        },
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 126127,
+          "sha256": "85e6c33952250418a044e21d54e73bc0f676b1e8fd422c6e7475c23cfd62c5a2"
+        },
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96280,
+          "sha256": "397890203fa65262cec9b159d30b7c559c3fccf564460361fc5154c52db8402b"
+        }
+      ]
+    },
+    {
+      "sku": "RW26431",
+      "pdp": "p-rw26431.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Simulation-Strawberry-Piano-Resin-Flatback_1601792608799.html",
+      "sourceFields": {
+        "sku": "RW26431",
+        "sku_raw": "MO-RW26431",
+        "title": "Cute Simulation Strawberry Piano Resin Flatback Cabochon Scrapbooking DIY Phone Case Decoration Home Accessories Crafts",
+        "material": "Resin",
+        "size": "21*23*11mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792608799",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Simulation-Strawberry-Piano-Resin-Flatback_1601792608799.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110022,
+          "sha256": "434811d411a9d4197a816951fd8263f68915bddf68c1838a41f49b74277f9952"
+        },
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105981,
+          "sha256": "1c17e038a55831addb7b923dac03bb53f3def549fd177eb8a01f3f7c5a980604"
+        },
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 90710,
+          "sha256": "477705443ee96e366b059226f9699fbb089d9fd9d2cac079dc95a82fecb18aa0"
+        }
+      ]
+    },
+    {
+      "sku": "RW26429",
+      "pdp": "p-rw26429.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Bread-Croissant-Cartoon-Resin-Flatback_1601792574943.html",
+      "sourceFields": {
+        "sku": "RW26429",
+        "sku_raw": "MO-RW26429",
+        "title": "100pcs Bread Croissant Cartoon Resin Flatback Diy Decode Phone Case Charms Handmade Resin Accessories",
+        "material": "Resin",
+        "size": "about30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792574943",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Bread-Croissant-Cartoon-Resin-Flatback_1601792574943.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121637,
+          "sha256": "114682340197d56801d01b697004d5a48fd625a12d81e4ffe55045a88cb93d71"
+        },
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119157,
+          "sha256": "b6700774cab3a13946eed963a9b0af77bba88b57e7eed39e72eb5baecf721498"
+        },
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139477,
+          "sha256": "8bb08f6da945235adc4ed4d29e5e30e73385187ac5a9d884b6470936ea973472"
+        }
+      ]
+    },
+    {
+      "sku": "RW26344",
+      "pdp": "p-rw26344.html",
+      "batchNumber": 27,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Bright-Starfish-Cartoon-Flatback-Resin-Cabochon_1601806723258.html",
+      "sourceFields": {
+        "sku": "RW26344",
+        "sku_raw": "MO-RW26344",
+        "title": "Bright Starfish Cartoon Flatback Resin Cabochon Scrapbooking DIY Hairpin Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806723258",
+        "product_url": "https://www.alibaba.com/product-detail/Bright-Starfish-Cartoon-Flatback-Resin-Cabochon_1601806723258.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44903,
+          "sha256": "8ff7e73bec5c58c38f8591ca55e2e68f9174a26dc3135b7a352fbea412cc5ba2"
+        },
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 128347,
+          "sha256": "19a3d094bdd468e0a4d00cd3fa3677205da3e943540c29dc50843c3e3f9e1c0b"
+        },
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 103899,
+          "sha256": "15178488bb097db283df60b3e8cdd9fcfcba16d83d554478f44f36af992e0535"
+        }
+      ]
+    }
+  ]
+}
