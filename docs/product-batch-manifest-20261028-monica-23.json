@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-29",
+  "batchCount": 1,
+  "batchSize": 2,
+  "catalogCountBefore": 726,
+  "catalogCountAfter": 728,
+  "newProductCount": 2,
+  "imageCount": 6,
+  "products": [
+    {
+      "sku": "RW2294",
+      "pdp": "p-rw2294.html",
+      "batchNumber": 23,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Cloud-Crown-Star_1600199999719.html",
+      "sourceFields": {
+        "sku": "RW2294",
+        "sku_raw": "MO-RW2294",
+        "title": "Kawaii Resin Cute Cloud Crown Star Cupcake Sun Moon Flatback Resin Cabochons Jewelry Making DIY",
+        "material": "Resin",
+        "size": "20MM-",
+        "packaging": "100PCS/bag",
+        "status": "已上架",
+        "product_id": "1600199999719",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Cloud-Crown-Star_1600199999719.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 64201,
+          "sha256": "cd4bb808f8951f28c46a387906ec7fa24a9d0993a11d2e7db0587fd4be20c4c7"
+        },
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121855,
+          "sha256": "2ecd54e8631cc3259efd43715de52d4fa4af942e8e0774250076abc106b019b6"
+        },
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61363,
+          "sha256": "da5957d9638049f8552635751fe6f0b6c6c0b8481c6262e2a93af8e1ff9064d7"
+        }
+      ]
+    },
+    {
+      "sku": "RW26220",
+      "pdp": "p-rw26220.html",
+      "batchNumber": 23,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827346443.html",
+      "sourceFields": {
+        "sku": "RW26220",
+        "sku_raw": "MO- RW26220",
+        "title": "Kawaii Simulation Food Art Supply Flatback Bread Resin Cabochon DIY Dollhouse Craft Decoration",
+        "material": "Resin",
+        "size": "about15*18*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827346443",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827346443.html"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161752,
+          "sha256": "a32d124c3c0d286eb085259434ed7e0bb361cfbcedd09100c2c8ed072fb1dc9a"
+        },
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127436,
+          "sha256": "faf68324d7f9bf6b6ea0b1c59cc3a105873f270f67ab6ee585a2a14237f75219"
+        },
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139370,
+          "sha256": "f3b180141d3424a31a8f60265974c88dad21e39628f3352b8c69717aa452f52c"
+        }
+      ]
+    }
+  ]
+}
