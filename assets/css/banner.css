@@ -320,14 +320,17 @@
       rgba(255,250,248,.96) 63%,
       rgba(255,250,248,.99) 100%);
   }
-  .pcraft-kicker { min-height: 34px; padding: 0 13px; font-size: 11px; }
-  .pcraft-hero h1 { font-size: clamp(38px, 11.6vw, 54px); line-height: .98; }
-  .pcraft-hero__lead { font-size: 17px; line-height: 1.53; }
-  .pcraft-highlights,
+  .pcraft-hero__wrap { padding: 22px 0 20px; }
+  .pcraft-kicker { min-height: 30px; max-width: 100%; padding: 6px 10px; font-size: 10px; line-height: 1.35; letter-spacing: .04em; }
+  .pcraft-hero h1 { margin-top: 10px; font-size: clamp(30px, 8.5vw, 38px); line-height: 1.05; letter-spacing: -.035em; }
+  .pcraft-hero__lead { margin-top: 10px; font-size: 15px; line-height: 1.45; }
+  .pcraft-highlights { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+  .pcraft-highlight { min-width: 0; min-height: 52px; gap: 8px; padding: 10px; border-radius: 12px; font-size: 13px; line-height: 1.25; }
+  .pcraft-dot { width: 8px; height: 8px; box-shadow: 0 0 0 4px rgba(255,255,255,.78); }
   .pcraft-service-grid { grid-template-columns: 1fr; }
-  .pcraft-actions { flex-direction: column; }
-  .pcraft-btn { width: 100%; min-height: 56px; font-size: 18px; }
-  .pcraft-mini-trust { font-size: 13px; gap: 8px 12px; }
+  .pcraft-actions { flex-direction: column; gap: 10px; margin-top: 14px; }
+  .pcraft-btn { width: 100%; min-height: 48px; padding: 10px 16px; font-size: 16px; }
+  .pcraft-mini-trust { font-size: 12px; gap: 7px 10px; }
   .pcraft-mini-trust__divider { display: none; }
   .pcraft-service-card { min-height: auto; padding: 18px; border-radius: 20px; }
   .pcraft-service-card h2 { font-size: 20px; }
