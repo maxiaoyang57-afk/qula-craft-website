@@ -2,25 +2,26 @@
 
 > B2B manufacturer of custom polymer clay sprinkles/slices, resin charms, acrylic beads,
 > glitter sequins, craft fillers and private label packaging. Yiwu, Zhejiang, China.
-> Founded 2016. 1,000 m2 workshop, 2 production lines, 6,500+ SKUs, ~100 new designs/year.
-> BSCI-audited; TuV Rheinland onsite-verified. Batch test reports: EN 71, ASTM F963, CPC,
-> CPSC-CH-E1002, REACH, CE, RoHS. Avg first reply within 3 working hours; 99%+ on-time delivery.
-> Main markets: North America, East Asia, Eastern Europe. All products decorative and NON-EDIBLE.
-> Wholesale buyers: slime brands, nail art sellers, jewelry makers, decoden studios,
-> party decoration distributors, DIY craft kit businesses.
+> Company registration: 2016. Catalog entries do not guarantee stock availability.
+> Specifications, pack units, MOQ, prices, lead times and document scope are confirmed by SKU.
+> Alibaba supplier-profile snapshot checked 2026-10-30: store rating 4.9/5,
+> on-time dispatch 99.5%, response time <=2h. These are platform metrics, not order guarantees.
+> Historical monitoring summary 25-0354231: monitoring 2025-10-14; reported expiration 2026-10-21.
+> This historical document does not establish current audit status. Request current documentation.
+> Decorative craft components are non-edible. Intended use and safety requirements need review.
 
-Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.txt
+Product index, with price or MOQ only where published; missing values require a quotation: https://www.qulacrafts.com/llms-full.txt
 
-## Products (9 categories, 790 live stock items)
-- [Slime Charms](https://www.qulacrafts.com/slime-charms.html): Themed charm and sprinkle packs from 30g trial bags to 1000g bulk. (23 stock items)
-- [Polymer Clay Slices](https://www.qulacrafts.com/polymer-clay-sprinkles.html): Fruit, candy, holiday and starry-sky cane slices in 500g wholesale packs. (37 stock items)
-- [Plastic Sequins](https://www.qulacrafts.com/glitter-sequins-fillers.html): Bingsu beads, hollow stars, shells, maple leaves and holographic paillettes. (23 stock items)
-- [Resin Charms](https://www.qulacrafts.com/resin-charms.html): Kawaii flatbacks, ocean animals and miniature figurines for decoden. (55 stock items)
-- [PVC Plastic Charms](https://www.qulacrafts.com/pvc-plastic-charms.html): Realistic fruit slices, simulation food and dollhouse miniatures. (14 stock items)
-- [Plastic Beads](https://www.qulacrafts.com/acrylic-beads.html): Acrylic rounds 3–16mm — opaque, miracle, pearl and frosted finishes. (18 stock items)
-- [Beads for Pens](https://www.qulacrafts.com/beads-for-pens.html): Cartoon focal beads for beadable pens, packed in 100pcs lots. (22 stock items)
-- [Keychain](https://www.qulacrafts.com/keychain.html): Finished resin food keychains, retail-ready in 10pcs lots. (18 stock items)
-- [Jewelry Accessories](https://www.qulacrafts.com/jewelry-accessories.html): Color-matched lobster clasps, chains, connectors and carabiners. (21 stock items)
+## Products (9 categories, 790 catalog entries)
+- [Slime Charms](https://www.qulacrafts.com/slime-charms.html): 37 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Polymer Clay Slices](https://www.qulacrafts.com/polymer-clay-sprinkles.html): 86 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Plastic Sequins](https://www.qulacrafts.com/glitter-sequins-fillers.html): 32 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Resin Charms](https://www.qulacrafts.com/resin-charms.html): 458 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [PVC Plastic Charms](https://www.qulacrafts.com/pvc-plastic-charms.html): 17 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Plastic Beads](https://www.qulacrafts.com/acrylic-beads.html): 38 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Beads for Pens](https://www.qulacrafts.com/beads-for-pens.html): 28 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Keychain](https://www.qulacrafts.com/keychain.html): 64 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Jewelry Accessories](https://www.qulacrafts.com/jewelry-accessories.html): 30 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [Seasonal Collections](https://www.qulacrafts.com/seasonal-collections.html): Christmas, Halloween, Valentine, summer themes across all lines
 - [Private Label Packaging](https://www.qulacrafts.com/private-label-packaging.html): OPP bags, PET bottles, jars, compartment boxes, gift boxes
 
@@ -46,7 +47,7 @@ Full per-item index with prices and MOQ: https://www.qulacrafts.com/llms-full.tx
 - Alibaba storefront: https://solagarland.en.alibaba.com/
 
 ## Guides
-- [Beadable Pen Beads: Hole Size, Lots and What Sells](https://www.qulacrafts.com/guide-beadable-pen-beads.html): Vertical vs side hole, the 100pcs lot standard, size bands that fit standard pen blanks, and how to build a theme range.
+- [Beadable Pen Beads: Hole Size, Lots and What Sells](https://www.qulacrafts.com/guide-beadable-pen-beads.html): Check hole measurements, packing units, component fit and sample assembly by SKU.
 - [Bingsu Beads vs Fishbowl Beads vs Foam](https://www.qulacrafts.com/guide-bingsu-beads-slime-fillers.html): What bingsu actually is (PET, not glass), what 500g covers, and how to test for colour bleed before it costs a batch.
 - [Decoden Supplies: What Goes on a Phone Case](https://www.qulacrafts.com/guide-decoden-supplies.html): Flatback vs drilled charms, the focal/mid/filler size mix, and why detail drifts between batches on intricate pieces.
 - [Paying a Supplier: Terms, Stages and Red Flags](https://www.qulacrafts.com/guide-paying-a-craft-supplier.html): What belongs on the proforma invoice, how Incoterms decide who pays what, and the warning signs worth walking away from.
@@ -59,3 +60,8 @@ Baby-product and silicone-material projects are outside Qula Craft's current cus
 - [Miniature Garden Resin Charms: Plan a Woodland Scene](https://www.qulacrafts.com/blog-miniature-garden-resin-charms.html): Build a miniature garden layout with mushroom, tree-stump, leaf and flower resin charms. Plan scale, color, attachment and a repeatable project list.
 
 - [Candy Decoden Layout: Choose Charms Before You Glue](https://www.qulacrafts.com/blog-candy-decoden-layout.html): Plan a candy-themed decoden layout with sugar-style cabochons and bear or cherry accents. Check color, spacing, back shape and adhesive compatibility.
+
+## Evidence and scope
+- Alibaba supplier-profile snapshot (checked 2026-10-30): https://solagarland.en.alibaba.com/company_profile/trustpass_profile.html?certification_type=intl_assessment
+- Historical monitoring summary: https://www.haibucrafts.com/assets/v2/documents/amfori-social-audit-summary-2025.pdf
+- Current audit status and SKU-specific report coverage require confirmation.
