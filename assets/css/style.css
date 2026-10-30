@@ -1130,6 +1130,7 @@ nav.breadcrumb a:hover{color:#cc3868}
   width: 32px;
   height: 32px;
   background: url("../images/whatsapp-3d.png") no-repeat center/contain;
+  background-image: image-set(url("../images/responsive-20261029/whatsapp-3d-49b7fe47-128w.webp") 1x, url("../images/responsive-20261029/whatsapp-3d-49b7fe47-256w.webp") 2x);
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
@@ -1143,6 +1144,7 @@ nav.breadcrumb a:hover{color:#cc3868}
   width: 80px;
   height: 80px;
   background: url("../images/whatsapp-3d.png") no-repeat center/contain;
+  background-image: image-set(url("../images/responsive-20261029/whatsapp-3d-49b7fe47-128w.webp") 1x, url("../images/responsive-20261029/whatsapp-3d-49b7fe47-256w.webp") 2x);
   border-radius: 50%;
   transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s ease;
   filter: drop-shadow(0 12px 24px rgba(37,211,102,0.45));
