@@ -34,7 +34,9 @@ jobs:
       - name: Verify protected products
         run: node scripts/check-required-products.mjs
       - name: Verify SEO and batch image integrity
-        run: node scripts/check-seo.mjs
+        run: |
+          node --test scripts/tests/seo-url-guards.test.mjs
+          node scripts/check-seo.mjs
 
 
   mobile-layout:
