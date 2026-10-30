@@ -23,6 +23,8 @@ jobs:
         run: node scripts/check-inquiry-email.mjs
       - name: Verify catalog search request ordering
         run: node --test scripts/tests/catalog-search.test.mjs
+      - name: Verify published catalog summary counts and index coverage
+        run: node scripts/sync-catalog-summary.mjs --check
       - name: Verify mobile progressive browsing
         run: node --test scripts/tests/mobile-browse.test.cjs
       - name: Verify saved inquiry selections
