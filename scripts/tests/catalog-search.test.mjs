@@ -14,14 +14,15 @@ const product = (sku, title) => ({ sku, title, category: 'Resin Charms', image: 
 const catalog = { categories: [{ products: [product('RW26808', 'First resin product'),
   product('RW20809', 'Second resin product'), product('RW337/285', 'Grouped resin products')] }] };
 
-function fixture(search = '') {
+function fixture(search = '', paged = false) {
   const listeners = new Map(), timers = new Map(), requests = [];
   let timerId = 0;
+  const paging = { hidden: true }, more = { addEventListener: (name, fn) => more.click = fn }, all = { addEventListener: (name, fn) => all.click = fn };
   const input = { value: '', addEventListener: (name, fn) => listeners.set(name, fn) };
-  const results = { hidden: true, innerHTML: '' }, count = { textContent: '' }, grid = { style: { display: '' } };
+  const results = { hidden: true, innerHTML: '', insertAdjacentHTML(where, value) { this.innerHTML += value; }, querySelectorAll() { return []; } }, count = { textContent: '' }, grid = { style: { display: '' } };
   vm.runInNewContext(searchSource, {
     URLSearchParams, location: { search },
-    document: { querySelector: selector => ({ '[data-catalog-search]': input,
+    document: { querySelector: selector => ({ '[data-search-controls]': paged ? paging : null, '[data-search-more]': paged ? more : null, '[data-search-all]': paged ? all : null, '[data-catalog-search]': input,
       '[data-search-results]': results, '[data-search-count]': count, '.category-grid': grid }[selector] || null) },
     fetch: () => new Promise((resolve, reject) => requests.push({
       resolve: (data = catalog, ok = true) => resolve({ ok, json: async () => data }), reject,
@@ -30,7 +31,7 @@ function fixture(search = '') {
     clearTimeout: id => timers.delete(id),
   });
   return {
-    input, results, count, grid, requests,
+    input, results, count, grid, requests, paging, more, all,
     type(value) { input.value = value; listeners.get('input')(); },
     async debounce() { const callbacks = [...timers.values()]; timers.clear(); callbacks.forEach(fn => fn()); await setImmediate(); },
     async settle() { await setImmediate(); },
@@ -117,4 +118,19 @@ test('URL searches, shorthand group codes and subsequent cached searches keep ex
   assert.match(f.results.innerHTML, /RW337\/285/);
   assert.doesNotMatch(f.results.innerHTML, /RW20809/);
   assert.equal(f.requests.length, 1);
+});
+
+test('broad searches expose every match beyond sixty without duplicates or lost product URLs', async () => {
+ const f=fixture('',true);
+ const products=Array.from({length:101},(_,i)=>product('RW'+(10000+i),'Resin charm '+i));
+ f.type('resin');await f.debounce();f.requests[0].resolve({categories:[{products}]});await f.settle();
+ assert.match(f.count.textContent,/24 of 101/);assert.equal(f.paging.hidden,false);
+ f.more.click();assert.match(f.count.textContent,/48 of 101/);
+ f.all.click();assert.match(f.count.textContent,/101 of 101/);assert.equal(f.paging.hidden,true);
+ assert.equal((f.results.innerHTML.match(/<article/g)||[]).length,101);
+ for(const p of products)assert.ok(f.results.innerHTML.includes(p.pdp));
+ assert.match(f.results.innerHTML,/data-sku="RW10100"/);
+ f.type('rw10100');assert.equal(f.paging.hidden,true);await f.debounce();
+ assert.match(f.count.textContent,/1 of 1/);assert.equal((f.results.innerHTML.match(/<article/g)||[]).length,1);
+ f.type('');assert.equal(f.results.hidden,true);assert.equal(f.paging.hidden,true);
 });
