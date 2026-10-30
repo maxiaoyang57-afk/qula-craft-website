@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { canonicalLinks, sitemapPageUrls, validateSitemapUrls } from './seo-url-guards.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const files = fs.readdirSync(root).filter((name) => name.endsWith('.html')).sort();
@@ -156,7 +157,8 @@ for (const file of files) {
   const ogTitle = decode((html.match(/<meta\s+property="og:title"\s+content="([^"]*)"/i) || [])[1] || '');
   const ogDescription = decode((html.match(/<meta\s+property="og:description"\s+content="([^"]*)"/i) || [])[1] || '');
   const h1 = decode((html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] || '');
-  const canonical = (html.match(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || [])[1] || '';
+  const pageCanonicals = canonicalLinks(html);
+  const canonical = pageCanonicals[0] || '';
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
   const quoteOnly = /<b>Quoted by pack and quantity<\/b>/i.test(html);
@@ -271,6 +273,7 @@ for (const file of files) {
   if (noindex) continue;
   indexable.push(file);
   const expected = file === 'index.html' ? base : base + file;
+  if (pageCanonicals.length !== 1) failures.push(`${file}: expected exactly one canonical link, found ${pageCanonicals.length}`);
   if (!description) failures.push(`${file}: missing meta description`);
   if (title.length > 65) failures.push(`${file}: title is ${title.length} characters`);
   if (description.length < 80 || description.length > 160) {
@@ -335,13 +338,11 @@ if (urlsetOpenCount !== 1 || urlsetCloseCount !== 1) failures.push('sitemap.xml:
 const urlOpenCount = sitemap.split('<url>').length - 1;
 const urlCloseCount = sitemap.split('</url>').length - 1;
 if (urlOpenCount !== urlCloseCount) failures.push('sitemap.xml: unbalanced url elements');
-const sitemapUrls = [...sitemap.matchAll(/<loc>(https:\/\/www\.qulacrafts\.com\/[^<]*)<\/loc>/g)]
-  .map((match) => match[1])
-  .filter((url) => !url.includes('/assets/'));
+// Read every page location before validating the host. Filtering first can hide
+// foreign-host, asset and duplicate entries from the release guard.
+const sitemapUrls = sitemapPageUrls(sitemap);
 const expectedUrls = new Set(indexable.map((file) => file === 'index.html' ? base : base + file));
-const actualUrls = new Set(sitemapUrls);
-for (const url of expectedUrls) if (!actualUrls.has(url)) failures.push(`sitemap missing ${url}`);
-for (const url of actualUrls) if (!expectedUrls.has(url)) failures.push(`sitemap includes non-indexable ${url}`);
+failures.push(...validateSitemapUrls(sitemapUrls, expectedUrls));
 
 const vercel = JSON.parse(fs.readFileSync(path.join(root, 'vercel.json'), 'utf8'));
 const hasCanonicalRedirect = (vercel.redirects || []).some((rule) =>
