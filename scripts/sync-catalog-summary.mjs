@@ -15,7 +15,7 @@ const urls={
  'slime-charms':'slime-charms.html','polymer-clay-slices':'polymer-clay-sprinkles.html',
  'plastic-sequins':'glitter-sequins-fillers.html','resin-charms':'resin-charms.html',
  'pvc-plastic-charms':'pvc-plastic-charms.html','plastic-beads':'acrylic-beads.html',
- 'beads-for-pens':'beads-for-pens.html','keychain':'keychain.html','jewelry-accessories':'jewelry-accessories.html'
+ 'beads-for-pens':'beads-for-pens.html','decorative-craft-accessories':'decorative-craft-accessories.html','keychain':'keychain.html','jewelry-accessories':'jewelry-accessories.html'
 };
 const lines=catalog.categories.map(c=>{
  const url=urls[c.slug];if(!url)throw new Error('Missing original category URL: '+c.slug);
