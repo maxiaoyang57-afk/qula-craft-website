@@ -14,11 +14,11 @@
 
 Product index, with price or MOQ only where published; missing values require a quotation: https://www.qulacrafts.com/llms-full.txt
 
-## Products (9 categories, 810 catalog entries)
+## Products (9 categories, 830 catalog entries)
 - [Slime Charms](https://www.qulacrafts.com/slime-charms.html): 37 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [Polymer Clay Slices](https://www.qulacrafts.com/polymer-clay-sprinkles.html): 86 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [Plastic Sequins](https://www.qulacrafts.com/glitter-sequins-fillers.html): 32 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
-- [Resin Charms](https://www.qulacrafts.com/resin-charms.html): 478 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
+- [Resin Charms](https://www.qulacrafts.com/resin-charms.html): 498 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [PVC Plastic Charms](https://www.qulacrafts.com/pvc-plastic-charms.html): 17 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [Plastic Beads](https://www.qulacrafts.com/acrylic-beads.html): 38 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
 - [Beads for Pens](https://www.qulacrafts.com/beads-for-pens.html): 28 catalog entries. Confirm specifications, pack units, MOQ, price and availability by SKU.
