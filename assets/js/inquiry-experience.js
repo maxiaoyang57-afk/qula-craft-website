@@ -210,8 +210,8 @@
       }
       const wa = form.querySelector('[data-inquiry-whatsapp]');
       const email = form.querySelector('[data-inquiry-email]');
-      // The persistent mobile and footer actions on the quote page share this draft too.
-      const directLinks = /\/quote(?:\.html|\/)$/.test(path)
+      // Contact and quote pages share their current draft with every contact action.
+      const directLinks = isContactPage
         ? [...document.querySelectorAll('a[href]')].filter(link => {
           try {
             const url = new URL(link.href);

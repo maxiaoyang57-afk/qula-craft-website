@@ -91,16 +91,46 @@
         
         const productSelect = form.querySelector('select[name="product"]');
         if (productSelect) {
-          if (pSku) {
-            if (pSku.startsWith('RW')) productSelect.value = 'Resin Charms';
-            else if (pSku.startsWith('YX') || pSku.startsWith('YM')) productSelect.value = 'Polymer Clay Sprinkles';
-            else if (pSku.startsWith('CZB')) productSelect.value = 'Acrylic Beads';
-            else if (pSku.startsWith('CDK')) productSelect.value = 'Keychains';
-          } else if (pName && Array.from(productSelect.options).some(option => option.value === pName)) {
+          if (!pSku && pName && Array.from(productSelect.options).some(option => option.value === pName)) {
             productSelect.value = pName;
           }
           if (pCategory && Array.from(productSelect.options).some(option => option.value === pCategory)) {
             productSelect.value = pCategory;
+          }
+          // SKU prefixes do not determine a product's category. Use the existing
+          // catalog and original PDP identity; an unavailable/ambiguous match stays blank.
+          if (pSku && !productSelect.value) {
+            let categoryEdited = false;
+            productSelect.addEventListener('input', () => { categoryEdited = true; });
+            productSelect.addEventListener('change', () => { categoryEdited = true; });
+            const categoryLabels = {
+              'slime-charms': 'Slime Charms', 'polymer-clay-slices': 'Polymer Clay Sprinkles',
+              'plastic-sequins': 'Glitter & Fillers', 'resin-charms': 'Resin Charms',
+              'pvc-plastic-charms': 'PVC Plastic Charms', 'plastic-beads': 'Acrylic Beads',
+              'beads-for-pens': 'Beads for Pens', 'keychain': 'Keychains',
+              'jewelry-accessories': 'Jewelry Accessories'
+            };
+            fetch('assets/data/product-catalog.json').then(response => {
+              if (!response.ok) throw new Error('Catalog unavailable');
+              return response.json();
+            }).then(catalog => {
+              let matches = catalog.categories.flatMap(category => category.products
+                .filter(product => product.sku.toUpperCase() === pSku.trim().toUpperCase())
+                .map(product => ({ product, category: category.slug })));
+              const source = params.get('entry_page');
+              if (source?.startsWith('/') && !source.startsWith('//')) {
+                const pdp = new URL(source, window.location.origin).pathname.slice(1);
+                const exact = matches.filter(match => match.product.pdp === pdp);
+                if (exact.length) matches = exact;
+              }
+              const categories = new Set(matches.map(match => categoryLabels[match.category]).filter(Boolean));
+              if (categoryEdited || productSelect.value || categories.size !== 1) return;
+              const category = [...categories][0];
+              if (Array.from(productSelect.options).some(option => option.value === category)) {
+                productSelect.value = category;
+                productSelect.dispatchEvent(new Event('change', { bubbles: true }));
+              }
+            }).catch(() => { /* Keep manual category selection and inquiry sending available. */ });
           }
         }
         const messageEl = form.querySelector('textarea[name="message"]');

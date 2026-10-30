@@ -140,13 +140,13 @@ if (process.argv[2] === '--live') {
   const quoteHtml = fs.readFileSync(path.join(ROOT, 'quote.html'), 'utf8');
   for (const page of ['index.html', 'quote.html', 'contact.html', 'customization.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/inquiry-experience.js?v=20261018-inquiry-fixes')) {
+    if (!html.includes('assets/js/inquiry-experience.js?v=20261030-inquiry-context')) {
       fail([`${page} must load the preview-safe inquiry script version`]);
     }
   }
   for (const page of ['index.html', 'quote.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/quote-v2.js?v=20261021-attachment-recovery')) {
+    if (!html.includes('assets/js/quote-v2.js?v=20261030-catalog-category')) {
       fail([`${page} must load the preview-safe quote script version`]);
     }
   }
