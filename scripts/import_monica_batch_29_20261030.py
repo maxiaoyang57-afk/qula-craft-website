@@ -1,5 +1,5 @@
 """Add the image-reviewed Monica batches, retaining every existing product's facts."""
-import copy, hashlib, html, json, re
+import copy, hashlib, html, json, re, subprocess
 from pathlib import Path
 from urllib.parse import quote
 from add_products_20261012 import card, save_json
@@ -90,6 +90,7 @@ def main():
     for old in prior:assert {k:v for k,v in old.items() if k!='sortOrder'}=={k:v for k,v in now[old['pdp']].items() if k!='sortOrder'}
     for old in oldpdp:assert {k:v for k,v in old.items() if k!='catalogIndex'}=={k:v for k,v in nowpdp[old['assetKey']].items() if k!='catalogIndex'}
     save_json(ROOT/'docs/product-batch-manifest-20261030-monica-29.json',dict(date=DATE,batchCount=plan['batchCount'],batchSize=20,catalogCountBefore=len(prior),catalogCountAfter=len(flat),newProductCount=len(products),imageCount=3*len(products),products=manifest))
+    subprocess.run(['node',str(ROOT/'scripts/sync-catalog-summary.mjs')],cwd=ROOT,check=True)
     print(json.dumps(dict(new=len(products),batches=plan['batchCount'],catalog=len(flat))))
 
 if __name__=='__main__':main()
