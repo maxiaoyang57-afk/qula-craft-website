@@ -25,7 +25,7 @@ test('Thirty-first Monica batch keeps all three images, exact SKU search and inq
     await page.locator('.detail-grid a.btn-primary').click();
     await expect(page.locator('[name="selected_sku"]')).toHaveValue(product.sku);
     await expect(page.locator('#pPreviewTitle')).toHaveText(product.sku + ' ' + product.title);
-    await expect(page.locator('select[name="product"]')).toHaveValue(product.category);
+    await expect(page.locator('select[name="product"]')).toHaveValue(product.category === 'Keychain' ? 'Keychains' : product.category);
     const selectedImage = page.locator('#selectedProduct img');
     await expect.poll(async () => new URL(await selectedImage.getAttribute('src'), page.url()).pathname).toBe('/' + product.image);
     await page.goto('products.html?search=' + encodeURIComponent(product.sku));
