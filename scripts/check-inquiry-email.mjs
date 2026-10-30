@@ -122,7 +122,7 @@ if (process.argv[2] === '--live') {
   }
   for (const page of ['index.html', 'quote.html']) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
-    if (!html.includes('assets/js/main.js?v=20261020-basket-storage')) {
+    if (!html.includes('assets/js/main.js?v=20261030-complete-search')) {
       fail([`${page} must load the local-image-safe main script version`]);
     }
   }

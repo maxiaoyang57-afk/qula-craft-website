@@ -88,6 +88,26 @@
   const results=document.querySelector('[data-search-results]');
   const countEl=document.querySelector('[data-search-count]');
   const catGrid=document.querySelector('.category-grid');
+  const paging=document.querySelector('[data-search-controls]');
+  const more=document.querySelector('[data-search-more]');
+  const all=document.querySelector('[data-search-all]');
+  let matches=[],shown=0;
+  function show(limit,focusNew=false){
+    const previous=shown;
+    shown=Math.min(limit,matches.length);
+    results.insertAdjacentHTML('beforeend',matches.slice(previous,shown).map(card).join(''));
+    countEl.textContent=matches.length?('Showing '+shown+' of '+matches.length+' matching items'):'No match — try a theme word like "pumpkin", "heart" or a SKU code';
+    if(paging)paging.hidden=shown>=matches.length;
+    if(more)more.textContent='Show '+Math.min(24,matches.length-shown)+' more results';
+    if(all)all.textContent='Show all '+matches.length+' results';
+    if(focusNew){
+      const first=results.querySelectorAll('.product-card')[previous];
+      const link=first&&first.querySelector('a[href]');
+      if(link){link.focus({preventScroll:true});first.scrollIntoView({block:'start',behavior:'auto'});}
+    }
+  }
+  if(more)more.addEventListener('click',()=>show(shown+24,true));
+  if(all)all.addEventListener('click',()=>show(matches.length,true));
   let items=null,loading=null,tmr,searchRevision=0;
   const ST={'With':1,'And':1,'For':1,'Of':1,'The':1,'A':1,'An':1,'In':1,'On':1,'Per':1,'By':1,'To':1};
   const clean=t=>{let w=t.replace('Wight','Weight').replace('Breads','Beads').replace('Artfcal','Artificial').split(' ');while(w.length&&ST[w[w.length-1]])w.pop();return w.join(' ');};
@@ -129,13 +149,14 @@
       const prefix=(p.sku.match(/^[a-z]+/i)||[''])[0];
       const codes=p.sku.split('/').map(code=>/^\d+$/.test(code)?prefix+code:code).join(' ');
       return (p.sku+' '+codes+' '+p.title+' '+p.category).toLowerCase().indexOf(q)>-1;
-    }).sort((a,b)=>Number(b.sku.toLowerCase()===q)-Number(a.sku.toLowerCase()===q)).slice(0,60);
-    results.innerHTML=list.map(card).join('');
+    }).sort((a,b)=>Number(b.sku.toLowerCase()===q)-Number(a.sku.toLowerCase()===q));
+    matches=list;shown=0;results.innerHTML='';
+    show(paging?24:matches.length);
     results.hidden=false;if(catGrid)catGrid.style.display='none';
-    countEl.textContent=list.length?('Showing '+list.length+' matching item'+(list.length>1?'s':'')):'No match — try a theme word like "pumpkin", "heart" or a SKU code';
   }
   sInput.addEventListener('input',()=>{
     clearTimeout(tmr);
+    matches=[];shown=0;if(paging)paging.hidden=true;
     const revision=++searchRevision;
     if(!sInput.value.trim())run(revision);
     else tmr=setTimeout(()=>run(revision),160);
