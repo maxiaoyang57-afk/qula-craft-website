@@ -91,7 +91,7 @@ else:
 
 # catalog 完整性
 cat = json.loads((SITE / "assets/data/product-catalog.json").read_text(encoding="utf-8"))
-flat = [p for c in cat["categories"] for p in c["products"]]
+flat = [p for c in cat["categories"] for p in c["products"]] + cat.get("archivedProducts", [])
 n_pdp = sum(1 for p in flat if p.get("pdp"))
 n_core = sum(1 for p in flat if p.get("sku") and p.get("title") and p.get("image"))
 print(f"catalog: {len(flat)} 条, 带pdp: {n_pdp}, 核心字段齐: {n_core}")
@@ -112,7 +112,7 @@ locs = re.findall(r"<loc>([^<]+)</loc>", sm)
 print(f"sitemap: {len(locs)}")
 # 期望值 = 磁盘上应收录的页数(排除 noindex 的 404/thank-you),动态算,别写死 ——
 # 写死的数字每次加页都会误报 FAIL(实测加 6 篇指南后 203→209 就炸了一次)
-_expected = len([p for p in SITE.glob("*.html") if p.name not in ("404.html", "thank-you.html")])
+_expected = len([p for p in SITE.glob("*.html") if not re.search(r'<meta[^>]+name="robots"[^>]+noindex', p.read_text(encoding="utf-8"), re.I)])
 print(f"sitemap 期望 {_expected}(磁盘页数减 noindex 页)")
 if len(locs) != _expected:
     fails.append(f"sitemap {len(locs)} != 磁盘应收录页数 {_expected}")

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-31",
+  "approval": "User chose: remove from public directory, retain original facts and existing product pages.",
+  "activeCategories": [
+    "slime-charms",
+    "polymer-clay-slices",
+    "plastic-sequins",
+    "resin-charms",
+    "pvc-plastic-charms",
+    "plastic-beads",
+    "beads-for-pens",
+    "keychain",
+    "jewelry-accessories"
+  ],
+  "archivedCategories": [
+    "decorative-craft-accessories"
+  ],
+  "products": [
+    {
+      "category": "Decorative Craft Accessories",
+      "categorySlug": "decorative-craft-accessories",
+      "sourceSheet": "Monica JSON",
+      "sortOrder": 1,
+      "sku": "YM233",
+      "title": "Miniature Plastic Bamboo Stems",
+      "titleFull": "Miniature Plastic Bamboo Stems",
+      "titleShort": "Miniature Plastic Bamboo Stems",
+      "sourceTitle": "10cm/12cm/15cm Plastic Miniature Model Tree Landscape Bamboo Tree Sand Table Model Decor Accessories Toys Hobbies",
+      "sourceCategory": "Decorative Craft Accessories",
+      "alibabaUrl": "https://www.alibaba.com/product-detail/10cm-12cm-15cm-Plastic-Miniature-Model_1601144412564.html",
+      "cleanAlibabaUrl": "https://www.alibaba.com/product-detail/10cm-12cm-15cm-Plastic-Miniature-Model_1601144412564.html",
+      "alibabaProductId": "1601144412564",
+      "status": "ok",
+      "anchorNote": "",
+      "pdp": "p-ym233.html",
+      "image": "assets/images/pdp/ym233/ym233-1.jpg",
+      "imageAlt": "YM233 Miniature Plastic Bamboo Stems",
+      "imageWidth": 1000,
+      "imageHeight": 1000,
+      "imageHash": "b0fe32a36139a8488b5a42289a503727",
+      "inquiryUrl": "quote.html?product=YM233%20Miniature%20Plastic%20Bamboo%20Stems&sku=YM233&image=assets/images/pdp/ym233/ym233-1.jpg&category=Decorative%20Craft%20Accessories"
+    },
+    {
+      "category": "Decorative Craft Accessories",
+      "categorySlug": "decorative-craft-accessories",
+      "sourceSheet": "Monica JSON",
+      "sortOrder": 2,
+      "sku": "YM355",
+      "title": "Decorative Plastic Plant Sprigs",
+      "titleFull": "Decorative Plastic Plant Sprigs",
+      "titleShort": "Decorative Plastic Plant Sprigs",
+      "sourceTitle": "Artificial Plants Leaf Wedding Party Home Decor Accessories Diy Cake Candy Box Garland Christmas Decorative Flowers Wreath",
+      "sourceCategory": "Decorative Craft Accessories",
+      "alibabaUrl": "https://www.alibaba.com/product-detail/Artificial-Plants-Leaf-Wedding-Party-Home_1601459696953.html",
+      "cleanAlibabaUrl": "https://www.alibaba.com/product-detail/Artificial-Plants-Leaf-Wedding-Party-Home_1601459696953.html",
+      "alibabaProductId": "1601459696953",
+      "status": "ok",
+      "anchorNote": "",
+      "pdp": "p-ym355.html",
+      "image": "assets/images/pdp/ym355/ym355-1.jpg",
+      "imageAlt": "YM355 Decorative Plastic Plant Sprigs",
+      "imageWidth": 350,
+      "imageHeight": 350,
+      "imageHash": "46ca827d5bec5a5a6a2516dac796c999",
+      "inquiryUrl": "quote.html?product=YM355%20Decorative%20Plastic%20Plant%20Sprigs&sku=YM355&image=assets/images/pdp/ym355/ym355-1.jpg&category=Decorative%20Craft%20Accessories"
+    }
+  ]
+}
