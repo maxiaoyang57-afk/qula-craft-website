@@ -1,7 +1,9 @@
 import { test, expect } from 'playwright/test';
 import { readFileSync } from 'node:fs';
 const manifest = JSON.parse(readFileSync('docs/product-batch-manifest-20261031-monica-32.json', 'utf8'));
-const products = JSON.parse(readFileSync('assets/data/product-catalog.json', 'utf8')).categories.flatMap(c => c.products);
+const source = JSON.parse(readFileSync('assets/data/product-catalog.json', 'utf8'));
+const archived = new Set((source.archivedProducts || []).map(p => p.sku));
+const products = [...source.categories.flatMap(c => c.products), ...(source.archivedProducts || [])];
 
 test('Thirty-second Monica batch keeps all three images, exact SKU search and inquiry selection', async ({ page }) => {
   test.setTimeout(300_000);
@@ -25,11 +27,16 @@ test('Thirty-second Monica batch keeps all three images, exact SKU search and in
     await page.locator('.detail-grid a.btn-primary').click();
     await expect(page.locator('[name="selected_sku"]')).toHaveValue(product.sku);
     await expect(page.locator('#pPreviewTitle')).toHaveText(product.sku + ' ' + product.title);
-    await expect(page.locator('select[name="product"]')).toHaveValue(product.category === 'Keychain' ? 'Keychains' : product.category);
+    await expect(page.locator('select[name="product"]')).toHaveValue(archived.has(product.sku) ? 'Other' : product.category === 'Keychain' ? 'Keychains' : product.category);
     const selectedImage = page.locator('#selectedProduct img');
     await expect.poll(async () => new URL(await selectedImage.getAttribute('src'), page.url()).pathname).toBe('/' + product.image);
     await page.goto('products.html?search=' + encodeURIComponent(product.sku));
+    if (archived.has(product.sku)) {
+      await expect(page.locator('[data-search-count]')).toContainText('0 matching');
+      await expect(page.locator('[data-search-results] .product-card')).toHaveCount(0);
+    } else {
     await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku', product.sku);
+    }
   }
   expect(errors).toEqual([]);
 });

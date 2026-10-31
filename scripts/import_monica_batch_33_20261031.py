@@ -52,7 +52,7 @@ def main():
     for c in cat['categories']:
         c['products']=additions.get(c['slug'],[])+c['products'];c['productCount']=len(c['products'])
         for i,p in enumerate(c['products'],1):p['sortOrder']=i
-    flat=[p for c in cat['categories'] for p in c['products']];index={p['pdp']:i for i,p in enumerate(flat,1)}
+    flat=[p for c in cat['categories'] for p in c['products']];index={p['pdp']:i for i,p in enumerate(flat+cat.get('archivedProducts',[]),1)}
     for e in pdp:e['catalogIndex']=index['p-'+e['assetKey']+'.html']
     cat.update(totalProducts=len(flat),totalImages=len(flat),generatedAt=DATE)
     for filename,data,indent in [('product-catalog.json',cat,1),('pdp-data.json',pdp,2),('pdp-copy.json',copies,2),('pdp-description-details.json',details,2)]:

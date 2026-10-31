@@ -30,6 +30,7 @@ flat = []
 for c in cat["categories"]:
     for p in c["products"]:
         flat.append(p)
+flat.extend(cat.get("archivedProducts", []))
 assert len(flat) == len(pdp), f"catalog={len(flat)} pdp={len(pdp)}"
 mis = [(e["ci"], e["sku"], flat[e["ci"]]["sku"]) for e in pdp
        if flat[e["ci"]]["sku"] != e["sku"]]
@@ -463,3 +464,6 @@ print("llms-full.txt ✓ +", len(lines), "行; llms.txt 引用 ✓")
 # Reapply curated selection sections and their catalog notes after regeneration.
 from pdp_selection_guides import update_existing_pages
 update_existing_pages()
+
+from apply_catalog_scope import apply_scope
+apply_scope()
