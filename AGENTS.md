@@ -1,3 +1,9 @@
+## 用户确认的固定分类范围（2026-10-31）
+- 仅保留原有9类：Slime Charms、Polymer Clay Slices、Plastic Sequins、Resin Charms、PVC Plastic Charms、Plastic/Acrylic Beads、Beads for Pens、Keychain、Jewelry Accessories。不得新增分类。
+- 不再向历史 decorative-craft-accessories 类目添加商品；保留原始资料，已有范围外商品归属和旧URL另行按事实核对，不擅自删除或强行改变材质。
+- CZB26337源资料为树脂平底饰件，孔位与笔杆适配尚未确认。保留选型提示，未有实测/来源证据前不得承诺可穿杆或补孔径。
+- 上架与优化需整合远程最新main及活动PR，保留同期产品与既有观察窗口。
+
 # QulaCraft 独立站(qulacrafts.com)
 
 ## 账号接续与当前上架批次（2026-09-09）

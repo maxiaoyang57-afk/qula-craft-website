@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 GUIDES = json.loads((ROOT / "assets/data/product-selection-guides.json").read_text(encoding="utf-8"))
-CATEGORIES = {"yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens"}
+CATEGORIES = {"czb26337": "Beads for Pens", "yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens"}
 
 
 def selection_quote_url(key: str, quote_url: str) -> str:
@@ -81,6 +81,24 @@ def update_existing_pages() -> None:
         after = after.replace(related, render_selection_guide(key, destination) + "\n" + related, 1)
         path.write_text(after, encoding="utf-8")
         print(f"Updated selection guide: {guide['sku']}")
+        if guide.get("catalogNote"):
+            category_path = ROOT / "beads-for-pens.html"
+            category_html = category_path.read_text(encoding="utf-8")
+            def annotate_card(match):
+                card = match.group(0)
+                if f'data-sku="{guide["sku"]}"' not in card:
+                    return card
+                card = re.sub(r'<p class="small-note" data-fit-check="' + key + r'">.*?</p>', "", card)
+                marker = '<a class="btn btn-card"'
+                if card.count(marker) != 1:
+                    raise ValueError(f"Ambiguous catalog inquiry for {key}")
+                note = f'<p class="small-note" data-fit-check="{key}">{html.escape(guide["catalogNote"])}</p>'
+                return card.replace(marker, note + marker, 1)
+            category_html, count = re.subn(r'<article class="product-card".*?</article>', annotate_card, category_html, flags=re.S)
+            if category_html.count(f'data-fit-check="{key}"') != 1:
+                raise ValueError(f"Missing unique catalog note for {key}")
+            category_path.write_text(category_html, encoding="utf-8")
+
 
 
 if __name__ == "__main__":
