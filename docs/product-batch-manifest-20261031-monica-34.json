@@ -1,0 +1,1089 @@
+{
+  "date": "2026-10-31",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 908,
+  "catalogCountAfter": 928,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "YX3130",
+      "pdp": "p-yx3130.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Handmade-1kg-bag-Clay-Food-Chocolate_1601096619917.html",
+      "sourceFields": {
+        "title": "Handmade 1kg/bag Clay Food Chocolate Cookies Slice Polymer Clay Charms for DIY Slime Crafting Supplies 5MM 10MM",
+        "product_id": "1601096619917",
+        "product_url": "https://www.alibaba.com/product-detail/Handmade-1kg-bag-Clay-Food-Chocolate_1601096619917.html",
+        "material": "Clay",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "YX3130",
+          "材质": "Clay",
+          "产品分类": "礼品与工艺品>>工艺品>>泥工艺品",
+          "颜色": "YX3130 multi",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Polymer clay, sourcefieldClay and explicitsource titlePolymerClay",
+          "sizeOptions": "5 mm / 10 mm, source title",
+          "referencePacking": "1 kg/bag, source title"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3130/yx3130-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 350,
+          "bytes": 41547,
+          "sha256": "62bba52bdda4ce3a89cd5d791f3a6bf2b1ba0af4a64f5b667f6fe34784816221"
+        },
+        {
+          "path": "assets/images/pdp/yx3130/yx3130-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 210964,
+          "sha256": "cdaa9e5fabcc76f7ccd2a5f579c5194cd6fda78616620b42d58dc7cd12c2fed7"
+        },
+        {
+          "path": "assets/images/pdp/yx3130/yx3130-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 191602,
+          "sha256": "b44ed5725fe026892abc215ac47e08baba034bc1093fd4a846f70691de3c89dd"
+        }
+      ]
+    },
+    {
+      "sku": "RW756",
+      "pdp": "p-rw756.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-100pcs-Resin-3D-Simulation-Rice_62438429203.html",
+      "sourceFields": {
+        "title": "Wholesale 100pcs Resin 3D Simulation Rice Sushi Miniature Food Art Charms for DIY Crafts Decoration",
+        "product_id": "62438429203",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-100pcs-Resin-3D-Simulation-Rice_62438429203.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW756",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "24*28*18mm / 26*18*28mm",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "sizeOptions": "24 × 28 × 18 mm / 26 × 18 × 28 mm, explicit source option values in color attribute; no unproven option to photographedpiece mapping",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw756/rw756-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 350,
+          "bytes": 11303,
+          "sha256": "47131b09f332ff2a7c72ca88f4ad7cef088ed6a1566ed6e14a6cbd9921b4a016"
+        },
+        {
+          "path": "assets/images/pdp/rw756/rw756-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146445,
+          "sha256": "41d4b8590b20894965acc1bf21c0e18b69cdd55fb7e333c3e33612a3ad2bf439"
+        },
+        {
+          "path": "assets/images/pdp/rw756/rw756-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 53066,
+          "sha256": "1a75883ec4551c5e0d59c2b22d0e77da18566b3b2cfa4bf3d0e6aaea3e154f02"
+        }
+      ]
+    },
+    {
+      "sku": "RW2304",
+      "pdp": "p-rw2304.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Candy-Beans-Flat-Back-Resin_1600190478926.html",
+      "sourceFields": {
+        "title": "Kawaii Candy Beans Flat Back Resin Cabochon Round Candy Food DIY Embellishments for Scrapbooking Phone Deco Parts 14mm",
+        "product_id": "1600190478926",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Candy-Beans-Flat-Back-Resin_1600190478926.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW2304",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "mix",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "2"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "size": "14 mm",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw2304/rw2304-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 350,
+          "bytes": 29976,
+          "sha256": "238200b78470f156a8eccb6de8adbe2b724301e0348c6853a1bb5116cbd8229d"
+        },
+        {
+          "path": "assets/images/pdp/rw2304/rw2304-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 141412,
+          "sha256": "33accd039b7b7b92757d52d41688a774e298fec619375c169510e50769f7f3bc"
+        },
+        {
+          "path": "assets/images/pdp/rw2304/rw2304-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 56684,
+          "sha256": "1aef667c7449ac260ee84d8cc4791a1f3b82a5c5e19a764fb523cec7902da782"
+        }
+      ]
+    },
+    {
+      "sku": "RW3936",
+      "pdp": "p-rw3936.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Vintage-Colorful-Rose-Resin-Accessories-Flat_1601668724645.html",
+      "sourceFields": {
+        "title": "Vintage Colorful Rose Resin Accessories Flat Back Cabochon Flower Crafts for DIY Jewelry Making Accessories",
+        "product_id": "1601668724645",
+        "product_url": "https://www.alibaba.com/product-detail/Vintage-Colorful-Rose-Resin-Accessories-Flat_1601668724645.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW3936",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "12mm / 20mm",
+          "尺寸": "100pcs/bag"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "sizeOptions": "12 mm / 20 mm, source option values; confirm selection, no unproven individual color-size mapping",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw3936/rw3936-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 350,
+          "bytes": 15927,
+          "sha256": "9976bba17e44791c3bc69f715ebaddb44c99fd7bcd668240e3728a16882c6c0e"
+        },
+        {
+          "path": "assets/images/pdp/rw3936/rw3936-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127967,
+          "sha256": "13ba534f5742f55f04701685b9f36104e22c38e1c982fc46be67c71c423c538f"
+        },
+        {
+          "path": "assets/images/pdp/rw3936/rw3936-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79713,
+          "sha256": "1dcb2ad3536430c1512762269b791be49ecba9aa2ad74eb319904d1064c955a5"
+        }
+      ]
+    },
+    {
+      "sku": "RW23219",
+      "pdp": "p-rw23219.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-23x24mm-Cartoon-Animal-Charms-Resin_1601447901828.html",
+      "sourceFields": {
+        "title": "100pcs 23x24mm Cartoon Animal Charms Resin Alpaca Charms Pendants for Jewelry Making Earrings Necklaces DIY Crafts Gift",
+        "product_id": "1601447901828",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-23x24mm-Cartoon-Animal-Charms-Resin_1601447901828.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW23219",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23219-mix",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "size": "23 × 24 mm, explicit source title",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23219/rw23219-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 350,
+          "bytes": 33151,
+          "sha256": "cc7bcf7dcc295cdcc54d3bcb73593c381eae7aa80a6b9a0fd8d833455a3f3c86"
+        },
+        {
+          "path": "assets/images/pdp/rw23219/rw23219-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122389,
+          "sha256": "8ba2ade08a554c8ffbacbe713d019e5631252f36491dd53cc4171aed61fd7e1b"
+        },
+        {
+          "path": "assets/images/pdp/rw23219/rw23219-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 68161,
+          "sha256": "31b22ee949f20aecba406cdc5e072c1b50ba993854d22f61ce77fb5f9205e5e1"
+        }
+      ]
+    },
+    {
+      "sku": "RW5673",
+      "pdp": "p-rw5673.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Animals-Miniatures-Rabbit-Animal_1601550808508.html",
+      "sourceFields": {
+        "title": "Mini Resin Animals Miniatures Rabbit Animal Figures for DIY Micro Fairy Garden Landscape Crafts Accessories",
+        "product_id": "1601550808508",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Animals-Miniatures-Rabbit-Animal_1601550808508.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW5673",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW5673-12*29mm / RW5673-21*35mm / RW5673-23*35mm / RW5673-24*26mm / 17*16mm",
+          "尺寸": "100pcs/bag"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "photographedSize": "12 × 29 mm, originalphoto annotated1.2cmwide2.9cmhigh, matches explicitsource12*29mm option",
+          "otherSourceSizeOptions": "21×35mm /23×35mm /24×26mm /17×16mm; corresponding styles not established by this originalphoto and require confirmation",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5673/rw5673-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 350,
+          "height": 349,
+          "bytes": 15615,
+          "sha256": "455b827f4162b1d3e05e1de5d0318a136a3c970d8aade71dd8af39e944be4804"
+        },
+        {
+          "path": "assets/images/pdp/rw5673/rw5673-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60734,
+          "sha256": "3441421e5244ed1aa34003db9e255aca525e322e52c988c323eee64efac7824f"
+        },
+        {
+          "path": "assets/images/pdp/rw5673/rw5673-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 34086,
+          "sha256": "93e30a6fe44b4659ff91f5fcb8a04776028ac45852d3a59e093ab6269bdcdf4f"
+        }
+      ]
+    },
+    {
+      "sku": "RW1104",
+      "pdp": "p-rw1104.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-100pcs-White-Smile-Cloud-Resin_62311445281.html",
+      "sourceFields": {
+        "title": "Cute 100pcs White Smile Cloud Resin Flack Back Cabochon Art Supply Decoration Charm DIY Accessories Small Craft",
+        "product_id": "62311445281",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-100pcs-White-Smile-Cloud-Resin_62311445281.html",
+        "material": "Resin",
+        "size": "5*14*22mm",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1104",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "WHITE",
+          "尺寸": "5*14*22mm",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5 × 14 × 22 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1104/rw1104-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 66213,
+          "sha256": "bd0e9a0fbbd4ed2668b26d1bfb989109f2223aa2f4902be26a2ce74595f8afa1"
+        },
+        {
+          "path": "assets/images/pdp/rw1104/rw1104-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 124589,
+          "sha256": "5d69dcd8b2ba518da92f6f4b310a4848b34a081e6b4adfbe8e54a821d833a06f"
+        },
+        {
+          "path": "assets/images/pdp/rw1104/rw1104-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 63983,
+          "sha256": "78ed13a8661e38ce0ad98e5a8cf8bc83858a91492dcc93396786208ec9794cd3"
+        }
+      ]
+    },
+    {
+      "sku": "RW23905",
+      "pdp": "p-rw23905.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Shiny-Glitter-Dolphin-Resin_1601382687993.html",
+      "sourceFields": {
+        "title": "100Pcs New Shiny Glitter Dolphin Resin Kawaii Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+        "product_id": "1601382687993",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-New-Shiny-Glitter-Dolphin-Resin_1601382687993.html",
+        "material": "Resin",
+        "size": "17*23mm",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23905",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "mix",
+          "尺寸": "17*23mm",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "17 × 23 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23905/rw23905-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 192611,
+          "sha256": "c97e0d37cf7a9abbf945ee3384ab43cc1bb6e5b8dbce696e9f8dc70cea792f34"
+        },
+        {
+          "path": "assets/images/pdp/rw23905/rw23905-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 273862,
+          "sha256": "c0ac1bed43ddcd9234d5321ff7ed6da816fe6d8e0682d7a9b9aad835751143a8"
+        },
+        {
+          "path": "assets/images/pdp/rw23905/rw23905-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 750,
+          "bytes": 94090,
+          "sha256": "7b8ad3b1d22cc84db8d6bffbe3a599b26cb0162ddc6fde0d5ed471740eb6f035"
+        }
+      ]
+    },
+    {
+      "sku": "RW763",
+      "pdp": "p-rw763.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/42-40MM-Large-Rose-Flower-Resin_1601395346149.html",
+      "sourceFields": {
+        "title": "42*40MM Large Rose Flower Resin Cabochon Colorful Rose Floral Flatback Embellishments for Jewelry Making DIY Crafts",
+        "product_id": "1601395346149",
+        "product_url": "https://www.alibaba.com/product-detail/42-40MM-Large-Rose-Flower-Resin_1601395346149.html",
+        "material": "Resin",
+        "size": "42*40mm-50pieces/batch",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW763",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW763-MIX",
+          "尺寸": "42*40mm-50pieces/batch",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "42 × 40 mm, same-SKU source records",
+          "referencePacking": "50 pieces/batch, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw763/rw763-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 124962,
+          "sha256": "5b3a693aaa7d235a82a89d649523ead6bca34b6d9617963616a58e557855fe08"
+        },
+        {
+          "path": "assets/images/pdp/rw763/rw763-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139567,
+          "sha256": "503c7b9f2b0636feba89f324b32939e04ce1a9707edaa2b12e533a2468ae65b1"
+        },
+        {
+          "path": "assets/images/pdp/rw763/rw763-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 83115,
+          "sha256": "4b84f32c1a7e490366b77b1c26951c33bb5642c65f6f3eb4195b442ed75f6b94"
+        }
+      ]
+    },
+    {
+      "sku": "RW23182",
+      "pdp": "p-rw23182.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-AB-Plated-Bowknot-Bowtie-Resin_1601397029751.html",
+      "sourceFields": {
+        "title": "Cute AB Plated Bowknot Bowtie Resin Flatback Cabochons Embellishments for Scrapbooking and Hair Bow Center Decoration",
+        "product_id": "1601397029751",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-AB-Plated-Bowknot-Bowtie-Resin_1601397029751.html",
+        "material": "Resin",
+        "size": "22*30mm-50pcs/batch",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23182",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23182-MIX",
+          "尺寸": "22*30mm-50pcs/batch",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "22 × 30 mm, same-SKU source records",
+          "referencePacking": "50 pieces/batch, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23182/rw23182-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97589,
+          "sha256": "7ef897d250bb550eee7fafbd89f459ae8bca03692b7b87faf70c54ad4237ae94"
+        },
+        {
+          "path": "assets/images/pdp/rw23182/rw23182-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 164181,
+          "sha256": "a99ecf500e24b70c2c77b80a6da9efe04150de573eb0657a8991ea6a7f691142"
+        },
+        {
+          "path": "assets/images/pdp/rw23182/rw23182-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 75066,
+          "sha256": "ebdd565ee2b783537ab575575e9f2240b398c0f1923b075368b6f678271ee0ee"
+        }
+      ]
+    },
+    {
+      "sku": "RW23594",
+      "pdp": "p-rw23594.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cartoon-Shining-Tulip_1601103772444.html",
+      "sourceFields": {
+        "title": "100pcs Mini Kawaii Cartoon Shining Tulip Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "product_id": "1601103772444",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cartoon-Shining-Tulip_1601103772444.html",
+        "material": "Resin",
+        "size": "21*29mm-100pcs",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23594",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23594-MIX",
+          "尺寸": "21*29mm-100pcs",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "21 × 29 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23594/rw23594-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 173856,
+          "sha256": "44d48adaca193cbccf12f6530d1d2221b09b0cf5eed3ebb2bfc3dfd5b2952919"
+        },
+        {
+          "path": "assets/images/pdp/rw23594/rw23594-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 214854,
+          "sha256": "bfc81fe65e1b66f3610175c891e7ef6709cb553d74b5474cc59e4d3b67e70d45"
+        },
+        {
+          "path": "assets/images/pdp/rw23594/rw23594-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 186343,
+          "sha256": "c9bc1f2cf652999f130084f20580a0f4b03a179d1a9db8d385de9ef7d647de55"
+        }
+      ]
+    },
+    {
+      "sku": "RW890",
+      "pdp": "p-rw890.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mixed-14mm-Resin-Flower-Decoration_62209443157.html",
+      "sourceFields": {
+        "title": "100Pcs Mixed 14mm Resin Flower Decoration Crafts Flatback Cabochon Beads Embellishments for Scrapbooking DIY Accessories",
+        "product_id": "62209443157",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mixed-14mm-Resin-Flower-Decoration_62209443157.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW890"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "14 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw890/rw890-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 34645,
+          "sha256": "4141337d68b12fb7ddc6d5ddd841f310521ac27854aa9f8fab060ec0e329cc34"
+        },
+        {
+          "path": "assets/images/pdp/rw890/rw890-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 204931,
+          "sha256": "1531f30504aa4041517e6bb145dc4ef18ff8240908ce3a5f02ef73bfb5312cf4"
+        },
+        {
+          "path": "assets/images/pdp/rw890/rw890-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73158,
+          "sha256": "745965b3b5fb4834114b0f81f997a9a86fde35683f464efa1eb1bb403bb41591"
+        }
+      ]
+    },
+    {
+      "sku": "RW26165",
+      "pdp": "p-rw26165.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-28mm-Mini-Resin-Daisy-Sunflower_1601214701719.html",
+      "sourceFields": {
+        "title": "100Pcs 28mm Mini Resin Daisy Sunflower Charms DIY Making Scrapbooking Phone Case Decoration Toy",
+        "product_id": "1601214701719",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-28mm-Mini-Resin-Daisy-Sunflower_1601214701719.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW26165"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "about 28 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26165/rw26165-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 141974,
+          "sha256": "4c546c80eb73a49f0777f3a988e120d1c381b1e5e5738451f3fc277ce6bf806f"
+        },
+        {
+          "path": "assets/images/pdp/rw26165/rw26165-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148829,
+          "sha256": "2570a1fd5b0d6e2e7374ab016d2a19cf114a7591cc03c3d7e372440f6f5bf5bc"
+        },
+        {
+          "path": "assets/images/pdp/rw26165/rw26165-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 126283,
+          "sha256": "d204801587caf28ecc45f59c920d4e627e2071c3a52daf62aa6d6bace153a885"
+        }
+      ]
+    },
+    {
+      "sku": "RW6014",
+      "pdp": "p-rw6014.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/500Pcs-New-5mm-Kawaii-Cute-Mixed_1601585200000.html",
+      "sourceFields": {
+        "title": "500Pcs New 5mm Kawaii Cute Mixed Flowers Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "product_id": "1601585200000",
+        "product_url": "https://www.alibaba.com/product-detail/500Pcs-New-5mm-Kawaii-Cute-Mixed_1601585200000.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW6014"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5mm, same-SKU source records",
+          "referencePacking": "500pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw6014/rw6014-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114270,
+          "sha256": "5b4309c8058bc004611d0afe690b63ee30d2b8a493cd7512eea18c5bf5b7e86c"
+        },
+        {
+          "path": "assets/images/pdp/rw6014/rw6014-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147239,
+          "sha256": "57de1eb887b0822b26bf0f759d3c98b4d84e0bd40f48f3394282f1ab43bf8fa5"
+        },
+        {
+          "path": "assets/images/pdp/rw6014/rw6014-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 89311,
+          "sha256": "5e345e45eb39a99cae5c4d15c97b13c913240a174ff909ee360fe34c1237427d"
+        }
+      ]
+    },
+    {
+      "sku": "RW1371",
+      "pdp": "p-rw1371.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100-Pcs-Mini-Multi-Color-Flat_62469893585.html",
+      "sourceFields": {
+        "title": "100 Pcs Mini Multi Color Flat Back 3D Resin Flower Cabochons Cameo for Necklace or Bracelet Make Finding 6mm",
+        "product_id": "62469893585",
+        "product_url": "https://www.alibaba.com/product-detail/100-Pcs-Mini-Multi-Color-Flat_62469893585.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1371"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "3×6×6mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1371/rw1371-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65798,
+          "sha256": "c4f2dc976d33bf885d7194c46e0eb65648616ef3905b1efd0338279159df2254"
+        },
+        {
+          "path": "assets/images/pdp/rw1371/rw1371-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 191646,
+          "sha256": "787587020f6b9908a365defe318e87d27183977976c643847005721d57aec97f"
+        },
+        {
+          "path": "assets/images/pdp/rw1371/rw1371-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77276,
+          "sha256": "0a3b3704208d8c1323e9723e8524e194ebce2b83483c98abc87e3996dc070a75"
+        }
+      ]
+    },
+    {
+      "sku": "RW1148",
+      "pdp": "p-rw1148.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-23mm-Flatback-Kawaii-Resin-Cabochon_62344783630.html",
+      "sourceFields": {
+        "title": "100pcs 23mm Flatback Kawaii Resin Cabochon Animal Penguin Shape DIY Slime Beads Charms Embellishments Scrapbooking",
+        "product_id": "62344783630",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-23mm-Flatback-Kawaii-Resin-Cabochon_62344783630.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1148"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "23mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1148/rw1148-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 800,
+          "height": 800,
+          "bytes": 62939,
+          "sha256": "85ca89c9975bb01585ab415b6f06386de23917aed932eaa65f8546b4eb2f93af"
+        },
+        {
+          "path": "assets/images/pdp/rw1148/rw1148-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 151267,
+          "sha256": "240a9398ce740bec004f3a4cfc147c5e6dc1b4b01761969db720f0138c70c992"
+        },
+        {
+          "path": "assets/images/pdp/rw1148/rw1148-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 83066,
+          "sha256": "0d9802abbdf8fc07d62915ff59eb05c1cce873b19338ac7dc73d7f6f62ce4871"
+        }
+      ]
+    },
+    {
+      "sku": "RW1334",
+      "pdp": "p-rw1334.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Mix-Style-Transportation-Vehicle-Resin_62442686497.html",
+      "sourceFields": {
+        "title": "100PCS Mix Style Transportation Vehicle Resin Car Boat Bike Helicopter Rocket Miniature Flatback Cabochon DIY Craft Scrapbooking",
+        "product_id": "62442686497",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-Mix-Style-Transportation-Vehicle-Resin_62442686497.html",
+        "material": "Resin",
+        "size": "5*23*35mm-100pcs",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1334",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "1-5*23*35mm / 2-5*23*35mm / 3-5*23*35mm / 4-5*23*35mm / 5-5*23*35mm / 6-5*23*35mm / 7-5*23*35mm / mix-5*23*35mm",
+          "尺寸": "5*23*35mm-100pcs",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5×23×35mm (source listing size; confirm selected style), same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1334/rw1334-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106845,
+          "sha256": "446f8a6dc11827162703760f66dd84e5ca614bed5098a5ec080ff7bb9b1a8cd1"
+        },
+        {
+          "path": "assets/images/pdp/rw1334/rw1334-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 173882,
+          "sha256": "c9a7e1e9394724bedfc9a057745b12b1f4bc6219dbe1fcbd15813181a3625980"
+        },
+        {
+          "path": "assets/images/pdp/rw1334/rw1334-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105477,
+          "sha256": "87de36bf9a13de4fe93a7146ce2cae4b87e6b70150a09d98160956d65e5974f9"
+        }
+      ]
+    },
+    {
+      "sku": "RW188",
+      "pdp": "p-rw188.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/7mm-Mini-Flatback-Resin-Cabochons-Rose_1600826362753.html",
+      "sourceFields": {
+        "title": "7mm Mini Flatback Resin Cabochons Rose Flower for Scrapbooking Cameo Craft DIY Phone Nails Decor Ornaments",
+        "product_id": "1600826362753",
+        "product_url": "https://www.alibaba.com/product-detail/7mm-Mini-Flatback-Resin-Cabochons-Rose_1600826362753.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW188"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "7mm, same-SKU source records",
+          "referencePacking": "1000pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw188/rw188-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 153098,
+          "sha256": "00b5ebb3d8eb2978294ac396374fb169b38834c24439e3f16a57884c250884e4"
+        },
+        {
+          "path": "assets/images/pdp/rw188/rw188-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110737,
+          "sha256": "d48139fd584697ebebf014b1a1b5cb7748799652716624eed427875b69db4b98"
+        },
+        {
+          "path": "assets/images/pdp/rw188/rw188-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 90935,
+          "sha256": "43bf54f74df1bc49f22ce39194fee1defc8c7d55f5ede5798ce67703bc567f29"
+        }
+      ]
+    },
+    {
+      "sku": "RW23874",
+      "pdp": "p-rw23874.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-14mm-Rose-Flower_1601170943821.html",
+      "sourceFields": {
+        "title": "Resin Cute Colorful 14mm Rose Flower Gem Flatback Stone Applique DIY Home Figurine Scrapbook for Nail Craft Accessory",
+        "product_id": "1601170943821",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-14mm-Rose-Flower_1601170943821.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23874"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "14mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23874/rw23874-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 87950,
+          "sha256": "8dfdb8361695c8dd8b2871bd8d6b5b0642611f00a7be92ce2ad0fbe5617c7a4d"
+        },
+        {
+          "path": "assets/images/pdp/rw23874/rw23874-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193175,
+          "sha256": "57cc4a320e83700a053657d2d7c0278af55f3384196d1f71d02008f9711dd609"
+        },
+        {
+          "path": "assets/images/pdp/rw23874/rw23874-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 144188,
+          "sha256": "dd1749628164356a1286ebc43a45c50604544ee5b5208b3b88576cee9c5dc33c"
+        }
+      ]
+    },
+    {
+      "sku": "RW002405",
+      "pdp": "p-rw002405.html",
+      "batchNumber": 34,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-52mm-Mix-Spring-Colors-Cute_1601689579492.html",
+      "sourceFields": {
+        "title": "100PCS 52mm Mix Spring Colors Cute Resin New Five-Petal Flower Flat Back Cabochon DIY Jewelry Crafts Scrapbook Decoration",
+        "product_id": "1601689579492",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-52mm-Mix-Spring-Colors-Cute_1601689579492.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW002405"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "52mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002405/rw002405-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120797,
+          "sha256": "5185d21bc21d348163030462a8da400430d6799fbf30a7315d14b18097c8529a"
+        },
+        {
+          "path": "assets/images/pdp/rw002405/rw002405-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113759,
+          "sha256": "72cedec4751a11d4e9c328d820d4042862cce9f9cc69bc2aa9edf031b69d76ce"
+        },
+        {
+          "path": "assets/images/pdp/rw002405/rw002405-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU original photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 93149,
+          "sha256": "c1da6c566e4389882b863ba1bbf7c0c60f9e339c168ad3398091426c6bdc9f94"
+        }
+      ]
+    }
+  ]
+}
