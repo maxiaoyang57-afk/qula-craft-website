@@ -459,3 +459,7 @@ if "llms-full.txt" not in t:
                   f"Full per-item index with prices and MOQ: {BASE}llms-full.txt\n\n{product_heading}")
 lt.write_text(t, encoding="utf-8")
 print("llms-full.txt ✓ +", len(lines), "行; llms.txt 引用 ✓")
+
+# Reapply curated selection sections and their catalog notes after regeneration.
+from pdp_selection_guides import update_existing_pages
+update_existing_pages()

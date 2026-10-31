@@ -94,5 +94,24 @@
     ],
     "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Measure your pen before choosing focal beads"},
     "related": {"url": "guide-beadable-pen-beads.html", "label": "Read the focal-bead and sourcing guide"}
+  },
+  "czb26337": {
+    "sku": "CZB26337",
+    "heading": "Confirm the pig charm backing and hole before choosing a pen project",
+    "project": "The source listing describes CZB26337 as a resin flatback charm for decorative craft projects. A through-hole, its direction and dimensions, and a fit with a beadable pen rod are not confirmed in the listed specifications. Use this design as a visual reference and request these details before selecting it for a threaded assembly.",
+    "checks": [
+      "Request clear rear and side views of CZB26337, its width, height and depth, and confirmation of whether the selected design has a through-hole.",
+      "If a through-hole is confirmed, request its minimum clear diameter and direction. Compare these with your largest pen-rod diameter and usable length, then test a sample assembly.",
+      "For a flatback decoration project, confirm the rear bonding surface and test your chosen adhesive and substrate. State the selected design, required pack quantity and intended use in the quotation."
+    ],
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "Check the measurements needed for a beadable pen"
+    },
+    "related": {
+      "url": "resin-charms.html",
+      "label": "Compare resin flatbacks for decorative projects"
+    },
+    "catalogNote": "Flatback listing: a through-hole and pen-rod fit are not confirmed. Review the backing and hole checks before ordering."
   }
 }
