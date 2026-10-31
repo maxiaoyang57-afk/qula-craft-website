@@ -32,7 +32,7 @@ test('Thirty-second Monica batch keeps all three images, exact SKU search and in
     await expect.poll(async () => new URL(await selectedImage.getAttribute('src'), page.url()).pathname).toBe('/' + product.image);
     await page.goto('products.html?search=' + encodeURIComponent(product.sku));
     if (archived.has(product.sku)) {
-      await expect(page.locator('[data-search-count]')).toContainText('0 matching');
+      await expect(page.locator('[data-search-count]')).toContainText('No match');
       await expect(page.locator('[data-search-results] .product-card')).toHaveCount(0);
     } else {
     await expect(page.locator('[data-search-results] .product-card .basket-add').first()).toHaveAttribute('data-sku', product.sku);
