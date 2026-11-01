@@ -1,0 +1,1809 @@
+{
+  "sourceFile": "Owner-supplied supplementary facts (15 SKUs) and Monica source with same-seller verification (5 SKUs); full source export kept private",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchCount": 1,
+  "batchSize": 20,
+  "newProductCount": 20,
+  "products": [
+    {
+      "sku": "RW26883",
+      "key": "rw26883",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Miniature Textured Pinecone Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "13 x 15 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Add a textured woodland accent to a gift-wrapping layout or miniature autumn display with RW26883 resin pinecone decorations. Their rounded overlapping scales have yellow-olive faces and dark brown grooves, as seen in the supplied original photo. The listed size is 13 x 15 mm; the owner reference pack is 100 pieces per bag. Plan your arrangement around the small sculpted forms, and confirm any fixing method for your chosen craft base. No drilled hole or included fastening is promised. Generated scene and close-up images are illustrative references, with styling props excluded.",
+      "caption": "Add a textured woodland accent to a gift-wrapping layout or miniature autumn display with RW26883 resin pinecone decorations. Their rounded overlapping scales have yellow-olive faces and dark brown grooves, as seen in the supplied original photo. The listed size is 13 x 15 mm; the owner reference pack is 100 pieces per bag. Plan your arrangement around the small sculpted forms, and confirm any fixing method for your chosen craft base. No drilled hole or included fastening is promised. Generated scene and close-up images are illustrative references, with styling props excluded.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "miniature-textured-pinecone-resin-decorations",
+      "haibuMetaTitle": "Miniature Textured Pinecone Resin Decorations for DIY Projects",
+      "haibuDescription": "Add a textured woodland accent to a gift-wrapping layout or miniature autumn display with RW26883 resin pinecone decorations. Their rounded overlapping sca",
+      "metaTitle": "Miniature Textured Pinecone Resin Decorations for DIY Projects",
+      "description": "Add a textured woodland accent to a gift-wrapping layout or miniature autumn display with RW26883 resin pinecone decorations. Their rounded.",
+      "factNote": "Add a textured woodland accent to a gift-wrapping layout or miniature autumn display with RW26883 resin pinecone decorations. Their rounded overlapping scales have yellow-olive faces and dark brown grooves, as seen in the supplied original photo. The listed size is 13 x 15 mm; the owner reference pack is 100 pieces per bag. Plan your arrangement around the small sculpted forms, and confirm any fixing method for your chosen craft base. No drilled hole or included fastening is promised. Generated scene and close-up images are illustrative references, with styling props excluded.",
+      "sourceFields": {
+        "title": "Miniature Textured Pinecone Resin Decorations",
+        "material": "Resin",
+        "size": "13 x 15 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26883/rw26883-1.jpg",
+        "assets/images/pdp/rw26883/rw26883-2.jpg",
+        "assets/images/pdp/rw26883/rw26883-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26883/rw26883-1.jpg",
+          "sha256": "9afc281519317f0619c68ff18e98b4500a5866a7f90ac2f977379edc9743f038",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26883/rw26883-2.jpg",
+          "sha256": "51af285cb04ec1c77ea9b21c00d76eddbd3a8665e1dc06a08a2a2898ade61085",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26883/rw26883-3.jpg",
+          "sha256": "fe6ddd3dac8512b124a9d08117bdc5c2282b8fc5a411ae6378461f9597d09eb4",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26880",
+      "key": "rw26880",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Translucent Half-Round Citrus Slice Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "14 x 27 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Bring a translucent fruit accent to a notebook-cover arrangement, picture-frame layout or other decorative craft with RW26880 resin citrus slices. These half-round pieces have a thin white outline and fine white lines dividing their textured colored segments. The owner lists 14 x 27 mm and 100 pieces per reference bag. Choose your layout using the visible color examples, then confirm the available assortment and a suitable fixing method for your craft base. No exact mix, included adhesive or attachment fitting is promised. Generated application and close-up images are illustrative references; all styling props are excluded. Decorative resin pieces are not edible.",
+      "caption": "Bring a translucent fruit accent to a notebook-cover arrangement, picture-frame layout or other decorative craft with RW26880 resin citrus slices. These half-round pieces have a thin white outline and fine white lines dividing their textured colored segments. The owner lists 14 x 27 mm and 100 pieces per reference bag. Choose your layout using the visible color examples, then confirm the available assortment and a suitable fixing method for your craft base. No exact mix, included adhesive or attachment fitting is promised. Generated application and close-up images are illustrative references; all styling props are excluded. Decorative resin pieces are not edible.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "translucent-half-round-citrus-slice-resin-decorations",
+      "haibuMetaTitle": "Translucent Half-Round Citrus Slice Resin Decorations for DIY Projects",
+      "haibuDescription": "Bring a translucent fruit accent to a notebook-cover arrangement, picture-frame layout or other decorative craft with RW26880 resin citrus slices. These ha",
+      "metaTitle": "Citrus Slice Resin Craft Decorations | QULA",
+      "description": "Bring a translucent fruit accent to a notebook-cover arrangement, picture-frame layout or other decorative craft with RW26880 resin citrus.",
+      "factNote": "Bring a translucent fruit accent to a notebook-cover arrangement, picture-frame layout or other decorative craft with RW26880 resin citrus slices. These half-round pieces have a thin white outline and fine white lines dividing their textured colored segments. The owner lists 14 x 27 mm and 100 pieces per reference bag. Choose your layout using the visible color examples, then confirm the available assortment and a suitable fixing method for your craft base. No exact mix, included adhesive or attachment fitting is promised. Generated application and close-up images are illustrative references; all styling props are excluded. Decorative resin pieces are not edible.",
+      "sourceFields": {
+        "title": "Translucent Half-Round Citrus Slice Resin Decorations",
+        "material": "Resin",
+        "size": "14 x 27 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26880/rw26880-1.jpg",
+        "assets/images/pdp/rw26880/rw26880-2.jpg",
+        "assets/images/pdp/rw26880/rw26880-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26880/rw26880-1.jpg",
+          "sha256": "71d3e35f2252c049bdde2b30da9b2e6ef1842b20d9621f95ba55eeba09b516ec",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26880/rw26880-2.jpg",
+          "sha256": "82a86147703fda4a541fe5e680112c0cc2f0841aa110e793315273cd85b5d0a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26880/rw26880-3.jpg",
+          "sha256": "7ad7275944d9e432de3b0552c8a4be3871b67b8142dd85833b91df63ee888f25",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26884",
+      "key": "rw26884",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Floral and Leaf Print Miniature Resin Plates for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "36 mm (source specification)",
+      "packing": "100pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Use RW26884 miniature resin plates as a printed accent in a decorative miniature display or craft layout. The supplied original shows shallow round white forms with green leaf, floral and colorful fruit-style designs. The owner lists a size of 36 mm and a reference bag of 100 pieces. Confirm the available print assortment for your project; no exact six-design set or equal mix is promised. The pieces are resin decorative models, with food-contact use unverified. Generated scene and close-up views are illustrative references; miniature furniture, fabric and paper props are excluded.",
+      "caption": "Use RW26884 miniature resin plates as a printed accent in a decorative miniature display or craft layout. The supplied original shows shallow round white forms with green leaf, floral and colorful fruit-style designs. The owner lists a size of 36 mm and a reference bag of 100 pieces. Confirm the available print assortment for your project; no exact six-design set or equal mix is promised. The pieces are resin decorative models, with food-contact use unverified. Generated scene and close-up views are illustrative references; miniature furniture, fabric and paper props are excluded.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "floral-and-leaf-print-miniature-resin-plates",
+      "haibuMetaTitle": "Floral and Leaf Print Miniature Resin Plates for DIY Projects",
+      "haibuDescription": "Use RW26884 miniature resin plates as a printed accent in a decorative miniature display or craft layout. The supplied original shows shallow round white f",
+      "metaTitle": "Floral and Leaf Print Miniature Resin Plates for DIY Projects",
+      "description": "Use RW26884 miniature resin plates as a printed accent in a decorative miniature display or craft layout. The supplied original shows shallow.",
+      "factNote": "Use RW26884 miniature resin plates as a printed accent in a decorative miniature display or craft layout. The supplied original shows shallow round white forms with green leaf, floral and colorful fruit-style designs. The owner lists a size of 36 mm and a reference bag of 100 pieces. Confirm the available print assortment for your project; no exact six-design set or equal mix is promised. The pieces are resin decorative models, with food-contact use unverified. Generated scene and close-up views are illustrative references; miniature furniture, fabric and paper props are excluded.",
+      "sourceFields": {
+        "title": "Floral and Leaf Print Miniature Resin Plates",
+        "material": "Resin",
+        "size": "36 mm (source specification)",
+        "packaging": "100pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26884/rw26884-1.jpg",
+        "assets/images/pdp/rw26884/rw26884-2.jpg",
+        "assets/images/pdp/rw26884/rw26884-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26884/rw26884-1.jpg",
+          "sha256": "64b6a3b4d65636da6ef4e94f8c5a9cc7a3d9a56c5f2b574bd52b22e443ecf8a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26884/rw26884-2.jpg",
+          "sha256": "06ef36165fcc6ac3fb1ce682455bca183838d9a0209fbfb50409f2c31700dc83",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26884/rw26884-3.jpg",
+          "sha256": "85b4e357de03d28b9ba5ded7cee9de0ca26355a951fc0ce9290ace34ebba5373",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26886",
+      "key": "rw26886",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Miniature Noodle and Steak Pan Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "23 x 32 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Add a tiny meal-themed accent to a miniature display or craft arrangement with RW26886. Its glossy black pan form contains sculpted yellow noodles, a brown crosshatched steak, a white-and-yellow egg and red-and-green vegetable details. The listed size is 23 x 32 mm; the reference bag contains 100 pieces. Confirm the attachment method for your project: no drilled hole, magnet, adhesive backing or hanging ring is promised. Generated scene and close-up images are illustrative references, with the tray and other props excluded. For decorative use only; not edible and not for cooking.",
+      "caption": "Add a tiny meal-themed accent to a miniature display or craft arrangement with RW26886. Its glossy black pan form contains sculpted yellow noodles, a brown crosshatched steak, a white-and-yellow egg and red-and-green vegetable details. The listed size is 23 x 32 mm; the reference bag contains 100 pieces. Confirm the attachment method for your project: no drilled hole, magnet, adhesive backing or hanging ring is promised. Generated scene and close-up images are illustrative references, with the tray and other props excluded. For decorative use only; not edible and not for cooking.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "miniature-noodle-and-steak-pan-resin-decorations",
+      "haibuMetaTitle": "Miniature Noodle and Steak Pan Resin Decorations for DIY Projects",
+      "haibuDescription": "Add a tiny meal-themed accent to a miniature display or craft arrangement with RW26886. Its glossy black pan form contains sculpted yellow noodles, a brown",
+      "metaTitle": "Miniature Noodle and Steak Pan Resin Decorations for DIY Projects",
+      "description": "Add a tiny meal-themed accent to a miniature display or craft arrangement with RW26886. Its glossy black pan form contains sculpted yellow.",
+      "factNote": "Add a tiny meal-themed accent to a miniature display or craft arrangement with RW26886. Its glossy black pan form contains sculpted yellow noodles, a brown crosshatched steak, a white-and-yellow egg and red-and-green vegetable details. The listed size is 23 x 32 mm; the reference bag contains 100 pieces. Confirm the attachment method for your project: no drilled hole, magnet, adhesive backing or hanging ring is promised. Generated scene and close-up images are illustrative references, with the tray and other props excluded. For decorative use only; not edible and not for cooking.",
+      "sourceFields": {
+        "title": "Miniature Noodle and Steak Pan Resin Decorations",
+        "material": "Resin",
+        "size": "23 x 32 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26886/rw26886-1.jpg",
+        "assets/images/pdp/rw26886/rw26886-2.jpg",
+        "assets/images/pdp/rw26886/rw26886-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26886/rw26886-1.jpg",
+          "sha256": "1030bdd5c8ab0d2f01ccb42abfb510b9a34786010105eb072f9852115eeadc23",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26886/rw26886-2.jpg",
+          "sha256": "63160df78a58bcb6ba15129be78b44ec6419debaab8c7dd655bb96fd54604211",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26886/rw26886-3.jpg",
+          "sha256": "4b13778308fa99c1944e98e265ace55a2a900b5b422f75239362fd13de28f2d3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26890",
+      "key": "rw26890",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Miniature Dessert Plate Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "34 x 34 x 13 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Create a miniature cafe display or dessert-themed craft arrangement with RW26890 resin plate decorations. The original photograph shows colorful plate patterns, sculpted tart-style toppings and small gold-colored spoon details. Listed dimensions are 34 x 34 x 13 mm, with a reference bag of 100 pieces. The owner describes a random mix, so no exact design selection, equal distribution or pictured set is promised. Generated scene and close-up views show an illustrative example from the source photograph, with table and styling props excluded. For decorative use only; not edible and not functional tableware. No drilled hole, adhesive backing or hanging fitting is established.",
+      "caption": "Create a miniature cafe display or dessert-themed craft arrangement with RW26890 resin plate decorations. The original photograph shows colorful plate patterns, sculpted tart-style toppings and small gold-colored spoon details. Listed dimensions are 34 x 34 x 13 mm, with a reference bag of 100 pieces. The owner describes a random mix, so no exact design selection, equal distribution or pictured set is promised. Generated scene and close-up views show an illustrative example from the source photograph, with table and styling props excluded. For decorative use only; not edible and not functional tableware. No drilled hole, adhesive backing or hanging fitting is established.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "miniature-dessert-plate-resin-decorations",
+      "haibuMetaTitle": "Miniature Dessert Plate Resin Decorations for DIY Projects",
+      "haibuDescription": "Create a miniature cafe display or dessert-themed craft arrangement with RW26890 resin plate decorations. The original photograph shows colorful plate patt",
+      "metaTitle": "Miniature Dessert Plate Resin Decorations for DIY Projects",
+      "description": "Create a miniature cafe display or dessert-themed craft arrangement with RW26890 resin plate decorations. The original photograph shows colorful.",
+      "factNote": "Create a miniature cafe display or dessert-themed craft arrangement with RW26890 resin plate decorations. The original photograph shows colorful plate patterns, sculpted tart-style toppings and small gold-colored spoon details. Listed dimensions are 34 x 34 x 13 mm, with a reference bag of 100 pieces. The owner describes a random mix, so no exact design selection, equal distribution or pictured set is promised. Generated scene and close-up views show an illustrative example from the source photograph, with table and styling props excluded. For decorative use only; not edible and not functional tableware. No drilled hole, adhesive backing or hanging fitting is established.",
+      "sourceFields": {
+        "title": "Miniature Dessert Plate Resin Decorations",
+        "material": "Resin",
+        "size": "34 x 34 x 13 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26890/rw26890-1.jpg",
+        "assets/images/pdp/rw26890/rw26890-2.jpg",
+        "assets/images/pdp/rw26890/rw26890-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26890/rw26890-1.jpg",
+          "sha256": "7c198c28232ffd8c72b73a097241583aa2fd10524fd0a9569777fc2be7e19e02",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26890/rw26890-2.jpg",
+          "sha256": "1aed1335af0d569be95fd8ae7037bdeffbdbb86ec57492aa48566f43750f1e08",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26890/rw26890-3.jpg",
+          "sha256": "866b3a8af085fe3ef667e5f172ff37ef3d84537da15c3125e85f894689b67928",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26901",
+      "key": "rw26901",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Strawberry Cream Sandwich Cake Resin Miniatures for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 23 x 16 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Add a small bakery-themed accent to a miniature display or decorative craft layout with RW26901 resin sandwich cake models. Their rounded tops have fine white speckles, while the visible center combines ivory-colored cream shapes with red strawberry-slice details. Listed dimensions are approximately 23 x 16 mm, with a reference bag of 100 pieces. Confirm the available mix and fixing method for your project; no exact five-style set or equal color quantities are promised. Generated scene and close-up views are illustrative references; all display props are excluded. These are decorative resin models and are not edible.",
+      "caption": "Add a small bakery-themed accent to a miniature display or decorative craft layout with RW26901 resin sandwich cake models. Their rounded tops have fine white speckles, while the visible center combines ivory-colored cream shapes with red strawberry-slice details. Listed dimensions are approximately 23 x 16 mm, with a reference bag of 100 pieces. Confirm the available mix and fixing method for your project; no exact five-style set or equal color quantities are promised. Generated scene and close-up views are illustrative references; all display props are excluded. These are decorative resin models and are not edible.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "strawberry-cream-sandwich-cake-resin-miniatures",
+      "haibuMetaTitle": "Strawberry Cream Sandwich Cake Resin Miniatures for DIY Projects",
+      "haibuDescription": "Add a small bakery-themed accent to a miniature display or decorative craft layout with RW26901 resin sandwich cake models. Their rounded tops have fine wh",
+      "metaTitle": "Strawberry Cream Sandwich Cake Resin Miniatures for DIY Projects",
+      "description": "Add a small bakery-themed accent to a miniature display or decorative craft layout with RW26901 resin sandwich cake models. Their rounded tops.",
+      "factNote": "Add a small bakery-themed accent to a miniature display or decorative craft layout with RW26901 resin sandwich cake models. Their rounded tops have fine white speckles, while the visible center combines ivory-colored cream shapes with red strawberry-slice details. Listed dimensions are approximately 23 x 16 mm, with a reference bag of 100 pieces. Confirm the available mix and fixing method for your project; no exact five-style set or equal color quantities are promised. Generated scene and close-up views are illustrative references; all display props are excluded. These are decorative resin models and are not edible.",
+      "sourceFields": {
+        "title": "Strawberry Cream Sandwich Cake Resin Miniatures",
+        "material": "Resin",
+        "size": "Approx. 23 x 16 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26901/rw26901-1.jpg",
+        "assets/images/pdp/rw26901/rw26901-2.jpg",
+        "assets/images/pdp/rw26901/rw26901-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26901/rw26901-1.jpg",
+          "sha256": "ab402c8f65c36100357000442a7334f2a651efa10cb76e011a8947d840a160dd",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26901/rw26901-2.jpg",
+          "sha256": "c476cbca086d6779b49bcc6068ca674110f5c47c013719febb021e13749dc88d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26901/rw26901-3.jpg",
+          "sha256": "f5c9fdda91e7f117f345537951eb776b363c70c75295edf02a13cdd83bc1e617",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26896",
+      "key": "rw26896",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Assorted Bread and Pastry Resin Miniatures for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "40–55 mm (source size range)",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Use RW26896 resin bread and pastry miniatures as accents in an adult craft display or miniature bakery-themed layout. Their golden-brown surfaces show layered pastry ridges, scored bread, toast texture and other molded details visible in the source photograph. The owner lists 40–55 mm as the size range and 100 pieces per reference bag. Ask about the current mix and individual design sizes; no exact five-design set or equal distribution is promised. Generated scene and close-up images are illustrative references, and all display props are excluded. These are decorative models, not edible food. No drilled hole, adhesive backing or included attachment is promised.",
+      "caption": "Use RW26896 resin bread and pastry miniatures as accents in an adult craft display or miniature bakery-themed layout. Their golden-brown surfaces show layered pastry ridges, scored bread, toast texture and other molded details visible in the source photograph. The owner lists 40–55 mm as the size range and 100 pieces per reference bag. Ask about the current mix and individual design sizes; no exact five-design set or equal distribution is promised. Generated scene and close-up images are illustrative references, and all display props are excluded. These are decorative models, not edible food. No drilled hole, adhesive backing or included attachment is promised.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "assorted-bread-and-pastry-resin-miniatures",
+      "haibuMetaTitle": "Assorted Bread and Pastry Resin Miniatures for DIY Projects",
+      "haibuDescription": "Use RW26896 resin bread and pastry miniatures as accents in an adult craft display or miniature bakery-themed layout. Their golden-brown surfaces show laye",
+      "metaTitle": "Assorted Bread and Pastry Resin Miniatures for DIY Projects",
+      "description": "Use RW26896 resin bread and pastry miniatures as accents in an adult craft display or miniature bakery-themed layout. Their golden-brown.",
+      "factNote": "Use RW26896 resin bread and pastry miniatures as accents in an adult craft display or miniature bakery-themed layout. Their golden-brown surfaces show layered pastry ridges, scored bread, toast texture and other molded details visible in the source photograph. The owner lists 40–55 mm as the size range and 100 pieces per reference bag. Ask about the current mix and individual design sizes; no exact five-design set or equal distribution is promised. Generated scene and close-up images are illustrative references, and all display props are excluded. These are decorative models, not edible food. No drilled hole, adhesive backing or included attachment is promised.",
+      "sourceFields": {
+        "title": "Assorted Bread and Pastry Resin Miniatures",
+        "material": "Resin",
+        "size": "40–55 mm (source size range)",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26896/rw26896-1.jpg",
+        "assets/images/pdp/rw26896/rw26896-2.jpg",
+        "assets/images/pdp/rw26896/rw26896-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26896/rw26896-1.jpg",
+          "sha256": "309dd581e60325fd8d3b1308cba7ec7e73ef737567a61065399c14fba6ecae83",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26896/rw26896-2.jpg",
+          "sha256": "f5b9a2c6e0ad600c098ecea7898f3cbf5bd7f995f7b47ab8e06185a205afaec6",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26896/rw26896-3.jpg",
+          "sha256": "2782a9d5dc0d873aafb1f338d866752626f646047d80a489262efc4671035916",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26898",
+      "key": "rw26898",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Polka-Dot Resin Bow Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 17 x 26 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Add a contrasting dotted accent to an adult scrapbook layout with RW26898 resin bow decorations. The visible forms have broad folded lobes, a gathered center and scalloped trim in contrasting colors. The listed size is approximately 17 x 26 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; ask about the current assortment rather than assuming an exact pictured set. Confirm a fixing method for your chosen craft base, as no adhesive, hair clip, hole or included attachment is promised. Generated scene and close-up views are illustrative references, and styling props are excluded.",
+      "caption": "Add a contrasting dotted accent to an adult scrapbook layout with RW26898 resin bow decorations. The visible forms have broad folded lobes, a gathered center and scalloped trim in contrasting colors. The listed size is approximately 17 x 26 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; ask about the current assortment rather than assuming an exact pictured set. Confirm a fixing method for your chosen craft base, as no adhesive, hair clip, hole or included attachment is promised. Generated scene and close-up views are illustrative references, and styling props are excluded.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "polka-dot-resin-bow-decorations",
+      "haibuMetaTitle": "Polka-Dot Resin Bow Decorations for DIY Projects",
+      "haibuDescription": "Add a contrasting dotted accent to an adult scrapbook layout with RW26898 resin bow decorations. The visible forms have broad folded lobes, a gathered cent",
+      "metaTitle": "Polka-Dot Resin Bow Decorations for DIY Projects",
+      "description": "Add a contrasting dotted accent to an adult scrapbook layout with RW26898 resin bow decorations. The visible forms have broad folded lobes, a.",
+      "factNote": "Add a contrasting dotted accent to an adult scrapbook layout with RW26898 resin bow decorations. The visible forms have broad folded lobes, a gathered center and scalloped trim in contrasting colors. The listed size is approximately 17 x 26 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; ask about the current assortment rather than assuming an exact pictured set. Confirm a fixing method for your chosen craft base, as no adhesive, hair clip, hole or included attachment is promised. Generated scene and close-up views are illustrative references, and styling props are excluded.",
+      "sourceFields": {
+        "title": "Polka-Dot Resin Bow Decorations",
+        "material": "Resin",
+        "size": "Approx. 17 x 26 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26898/rw26898-1.jpg",
+        "assets/images/pdp/rw26898/rw26898-2.jpg",
+        "assets/images/pdp/rw26898/rw26898-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26898/rw26898-1.jpg",
+          "sha256": "86c3499af497f74d4f9f8514814703baf83265b4cb88fc3dcef7c335ac2b42ca",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26898/rw26898-2.jpg",
+          "sha256": "3f01f28d426261788dabbdb56863880c8876896a378e781bc9ad1e53499c79b2",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26898/rw26898-3.jpg",
+          "sha256": "b011a018cce0c4edf781c5058a18a65b75d54baefff6a1c874f644989f116197",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26894",
+      "key": "rw26894",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Miniature Suitcase Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 23 x 19 x 9 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Plan a miniature travel-themed craft layout with RW26894 resin suitcase decorations. The original photograph shows beige luggage forms with dark straps, handle detail, colored accents and a small cat-face emblem. The listed size is approximately 23 x 19 x 9 mm and the owner reference bag contains 100 pieces. No working clasp, opening lid, drilled hole or included attachment is promised. Generated scene and detail views are illustrative references; all display props are excluded.",
+      "caption": "Plan a miniature travel-themed craft layout with RW26894 resin suitcase decorations. The original photograph shows beige luggage forms with dark straps, handle detail, colored accents and a small cat-face emblem. The listed size is approximately 23 x 19 x 9 mm and the owner reference bag contains 100 pieces. No working clasp, opening lid, drilled hole or included attachment is promised. Generated scene and detail views are illustrative references; all display props are excluded.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "miniature-suitcase-resin-decorations",
+      "haibuMetaTitle": "Miniature Suitcase Resin Decorations for DIY Projects",
+      "haibuDescription": "Plan a miniature travel-themed craft layout with RW26894 resin suitcase decorations. The original photograph shows beige luggage forms with dark straps, ha",
+      "metaTitle": "Miniature Suitcase Resin Decorations for DIY Projects",
+      "description": "Plan a miniature travel-themed craft layout with RW26894 resin suitcase decorations. The original photograph shows beige luggage forms with dark.",
+      "factNote": "Plan a miniature travel-themed craft layout with RW26894 resin suitcase decorations. The original photograph shows beige luggage forms with dark straps, handle detail, colored accents and a small cat-face emblem. The listed size is approximately 23 x 19 x 9 mm and the owner reference bag contains 100 pieces. No working clasp, opening lid, drilled hole or included attachment is promised. Generated scene and detail views are illustrative references; all display props are excluded.",
+      "sourceFields": {
+        "title": "Miniature Suitcase Resin Decorations",
+        "material": "Resin",
+        "size": "Approx. 23 x 19 x 9 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26894/rw26894-1.jpg",
+        "assets/images/pdp/rw26894/rw26894-2.jpg",
+        "assets/images/pdp/rw26894/rw26894-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26894/rw26894-1.jpg",
+          "sha256": "98667152347e0a9c02eda7c118d4ca03f263a95fe7208dc491615de986b301c5",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26894/rw26894-2.jpg",
+          "sha256": "c279302f200ec8f87d435873011a2c1633593cf8a87f807e3dbf846158d071ec",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26894/rw26894-3.jpg",
+          "sha256": "c1f36b193a42466c229bce75e8a655ab51929e8bced55a253bdb39142f9c09a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26754",
+      "key": "rw26754",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Fruit and Flower Ring Dessert Resin Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "21 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Use RW26754 resin ring-dessert decorations as small accents in an adult craft layout or miniature dessert display. Compare the original photo for colored bases, wavy white bands and fruit and flower details. The owner lists a size of 21 mm and a reference bag of 100 pieces. Confirm the current assortment rather than assuming an exact pictured set or equal color quantities. The visible central opening does not establish a bead hole or a particular attachment method. Generated scene and close-up views are illustrative references; tags, ribbon and other display props are excluded. These are resin craft models, not edible sweets.",
+      "caption": "Use RW26754 resin ring-dessert decorations as small accents in an adult craft layout or miniature dessert display. Compare the original photo for colored bases, wavy white bands and fruit and flower details. The owner lists a size of 21 mm and a reference bag of 100 pieces. Confirm the current assortment rather than assuming an exact pictured set or equal color quantities. The visible central opening does not establish a bead hole or a particular attachment method. Generated scene and close-up views are illustrative references; tags, ribbon and other display props are excluded. These are resin craft models, not edible sweets.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "fruit-and-flower-ring-dessert-resin-decorations",
+      "haibuMetaTitle": "Fruit and Flower Ring Dessert Resin Decorations for DIY Projects",
+      "haibuDescription": "Use RW26754 resin ring-dessert decorations as small accents in an adult craft layout or miniature dessert display. Compare the original photo for colored b",
+      "metaTitle": "Fruit and Flower Ring Dessert Resin Decorations for DIY Projects",
+      "description": "Use RW26754 resin ring-dessert decorations as small accents in an adult craft layout or miniature dessert display. Compare the original photo.",
+      "factNote": "Use RW26754 resin ring-dessert decorations as small accents in an adult craft layout or miniature dessert display. Compare the original photo for colored bases, wavy white bands and fruit and flower details. The owner lists a size of 21 mm and a reference bag of 100 pieces. Confirm the current assortment rather than assuming an exact pictured set or equal color quantities. The visible central opening does not establish a bead hole or a particular attachment method. Generated scene and close-up views are illustrative references; tags, ribbon and other display props are excluded. These are resin craft models, not edible sweets.",
+      "sourceFields": {
+        "title": "Fruit and Flower Ring Dessert Resin Decorations",
+        "material": "Resin",
+        "size": "21 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26754/rw26754-1.jpg",
+        "assets/images/pdp/rw26754/rw26754-2.jpg",
+        "assets/images/pdp/rw26754/rw26754-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26754/rw26754-1.jpg",
+          "sha256": "fd39b6ea45eecebbec24727b8fc0ebe4c2d7d2a6c6af752897aad9382e839773",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26754/rw26754-2.jpg",
+          "sha256": "cdafd99b0e3a1e296ca84316835e9e30ab3c81d48b2e6d730dfe748f38108d6c",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26754/rw26754-3.jpg",
+          "sha256": "c2dcef2e162f2620c88f7359ea40e462dd3a9a715e8a505b09963c990aa59207",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26866",
+      "key": "rw26866",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Christmas Motif Resin Craft Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 25 mm (source assortment reference)",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Build an adult holiday craft layout around the Christmas motifs in RW26866 resin decorations. Compare the original photograph for the small faces, seasonal colors and molded details. The owner lists approximately 25 mm for the assortment reference and 100 pieces per bag; ask about individual design sizes and the current mix. No exact pictured set or equal design distribution is promised. Generated scene and close-up images illustrate the yellow star visible in the original and are reference illustrations, with gift-wrapping props excluded. No drilled attachment hole, adhesive backing or fastening component is promised.",
+      "caption": "Build an adult holiday craft layout around the Christmas motifs in RW26866 resin decorations. Compare the original photograph for the small faces, seasonal colors and molded details. The owner lists approximately 25 mm for the assortment reference and 100 pieces per bag; ask about individual design sizes and the current mix. No exact pictured set or equal design distribution is promised. Generated scene and close-up images illustrate the yellow star visible in the original and are reference illustrations, with gift-wrapping props excluded. No drilled attachment hole, adhesive backing or fastening component is promised.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "christmas-motif-resin-craft-decorations",
+      "haibuMetaTitle": "Christmas Motif Resin Craft Decorations for DIY Projects",
+      "haibuDescription": "Build an adult holiday craft layout around the Christmas motifs in RW26866 resin decorations. Compare the original photograph for the small faces, seasonal",
+      "metaTitle": "Christmas Motif Resin Craft Decorations for DIY Projects",
+      "description": "Build an adult holiday craft layout around the Christmas motifs in RW26866 resin decorations. Compare the original photograph for the small.",
+      "factNote": "Build an adult holiday craft layout around the Christmas motifs in RW26866 resin decorations. Compare the original photograph for the small faces, seasonal colors and molded details. The owner lists approximately 25 mm for the assortment reference and 100 pieces per bag; ask about individual design sizes and the current mix. No exact pictured set or equal design distribution is promised. Generated scene and close-up images illustrate the yellow star visible in the original and are reference illustrations, with gift-wrapping props excluded. No drilled attachment hole, adhesive backing or fastening component is promised.",
+      "sourceFields": {
+        "title": "Christmas Motif Resin Craft Decorations",
+        "material": "Resin",
+        "size": "Approx. 25 mm (source assortment reference)",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26866/rw26866-1.jpg",
+        "assets/images/pdp/rw26866/rw26866-2.jpg",
+        "assets/images/pdp/rw26866/rw26866-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26866/rw26866-1.jpg",
+          "sha256": "81cf1318c0f5dc323d5665ada7e7caa0dcf605756c542e5fd1f1f86698887150",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26866/rw26866-2.jpg",
+          "sha256": "56cd464fe09f64afdf778644cfe4f9a1dbf49e71aefe36c65307f98b5fb242b7",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26866/rw26866-3.jpg",
+          "sha256": "c38dede3eee914b68878e27c0428f384f325099e988a81812c7ed58621b45fc7",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26760",
+      "key": "rw26760",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Fruit-Topped Triangular Resin Cake Miniatures for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 22 x 19 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Plan an adult miniature bakery display or craft layout with RW26760 fruit-topped resin cake slices. Compare the original photo for the rounded triangular forms, colored glossy tops and small fruit and flower motifs. The owner lists approximately 22 x 19 mm and 100 pieces per reference bag. Confirm the available mix rather than assuming an exact pictured set or equal color quantities. Generated scene and close-up views illustrate the green design from the source photograph and are reference illustrations; the miniature counter, paper bag and other props are excluded. No bead hole, adhesive backing or included fastening component is promised. These are decorative resin miniatures, not edible sweets.",
+      "caption": "Plan an adult miniature bakery display or craft layout with RW26760 fruit-topped resin cake slices. Compare the original photo for the rounded triangular forms, colored glossy tops and small fruit and flower motifs. The owner lists approximately 22 x 19 mm and 100 pieces per reference bag. Confirm the available mix rather than assuming an exact pictured set or equal color quantities. Generated scene and close-up views illustrate the green design from the source photograph and are reference illustrations; the miniature counter, paper bag and other props are excluded. No bead hole, adhesive backing or included fastening component is promised. These are decorative resin miniatures, not edible sweets.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "fruit-topped-triangular-resin-cake-miniatures",
+      "haibuMetaTitle": "Fruit-Topped Triangular Resin Cake Miniatures for DIY Projects",
+      "haibuDescription": "Plan an adult miniature bakery display or craft layout with RW26760 fruit-topped resin cake slices. Compare the original photo for the rounded triangular f",
+      "metaTitle": "Fruit-Topped Triangular Resin Cake Miniatures for DIY Projects",
+      "description": "Plan an adult miniature bakery display or craft layout with RW26760 fruit-topped resin cake slices. Compare the original photo for the rounded.",
+      "factNote": "Plan an adult miniature bakery display or craft layout with RW26760 fruit-topped resin cake slices. Compare the original photo for the rounded triangular forms, colored glossy tops and small fruit and flower motifs. The owner lists approximately 22 x 19 mm and 100 pieces per reference bag. Confirm the available mix rather than assuming an exact pictured set or equal color quantities. Generated scene and close-up views illustrate the green design from the source photograph and are reference illustrations; the miniature counter, paper bag and other props are excluded. No bead hole, adhesive backing or included fastening component is promised. These are decorative resin miniatures, not edible sweets.",
+      "sourceFields": {
+        "title": "Fruit-Topped Triangular Resin Cake Miniatures",
+        "material": "Resin",
+        "size": "Approx. 22 x 19 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26760/rw26760-1.jpg",
+        "assets/images/pdp/rw26760/rw26760-2.jpg",
+        "assets/images/pdp/rw26760/rw26760-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26760/rw26760-1.jpg",
+          "sha256": "6082b16e3c30ca86dd903f2dc29be3aaff144b022dd1087c0278cf7ef5e8b8d3",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26760/rw26760-2.jpg",
+          "sha256": "74c6ece23979823487a970095d8f97d854d00ff87210fe99ae6413e844bb3366",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26760/rw26760-3.jpg",
+          "sha256": "67a1134b4a852c511d793417c9c63f66b3aefd9de4c98b03520be7909812499a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26761",
+      "key": "rw26761",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Pastel Five-Petal Resin Flower Decorations for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "11 mm and 19 mm size options; confirm selected option",
+      "packing": "100 pieces/bag for each listed size option",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Use RW26761 resin flower decorations as pastel accents in an adult frame-decorating layout or other craft project. The original photo shows five curled overlapping petals with glossy peach, pink, purple, yellow or green gradients and milky white edges. The owner lists 11 mm and 19 mm size options, with 100 pieces per reference bag for each listed size. Confirm size, current colors and a fixing method for your craft base; no adhesive, drilled hole or included fastening is promised. No exact pictured set or equal color distribution is specified. Generated scene and close-up views use the large peach-pink flower as an illustrative reference, with the frame, fabric, paper and other props excluded.",
+      "caption": "Use RW26761 resin flower decorations as pastel accents in an adult frame-decorating layout or other craft project. The original photo shows five curled overlapping petals with glossy peach, pink, purple, yellow or green gradients and milky white edges. The owner lists 11 mm and 19 mm size options, with 100 pieces per reference bag for each listed size. Confirm size, current colors and a fixing method for your craft base; no adhesive, drilled hole or included fastening is promised. No exact pictured set or equal color distribution is specified. Generated scene and close-up views use the large peach-pink flower as an illustrative reference, with the frame, fabric, paper and other props excluded.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "pastel-five-petal-resin-flower-decorations",
+      "haibuMetaTitle": "Pastel Five-Petal Resin Flower Decorations for DIY Projects",
+      "haibuDescription": "Use RW26761 resin flower decorations as pastel accents in an adult frame-decorating layout or other craft project. The original photo shows five curled ove",
+      "metaTitle": "Pastel Five-Petal Resin Flower Decorations for DIY Projects",
+      "description": "Use RW26761 resin flower decorations as pastel accents in an adult frame-decorating layout or other craft project. The original photo shows five.",
+      "factNote": "Use RW26761 resin flower decorations as pastel accents in an adult frame-decorating layout or other craft project. The original photo shows five curled overlapping petals with glossy peach, pink, purple, yellow or green gradients and milky white edges. The owner lists 11 mm and 19 mm size options, with 100 pieces per reference bag for each listed size. Confirm size, current colors and a fixing method for your craft base; no adhesive, drilled hole or included fastening is promised. No exact pictured set or equal color distribution is specified. Generated scene and close-up views use the large peach-pink flower as an illustrative reference, with the frame, fabric, paper and other props excluded.",
+      "sourceFields": {
+        "title": "Pastel Five-Petal Resin Flower Decorations",
+        "material": "Resin",
+        "size": "11 mm and 19 mm size options; confirm selected option",
+        "packaging": "100 pieces/bag for each listed size option",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26761/rw26761-1.jpg",
+        "assets/images/pdp/rw26761/rw26761-2.jpg",
+        "assets/images/pdp/rw26761/rw26761-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26761/rw26761-1.jpg",
+          "sha256": "d3517646f330b34f14d9e59ee0babbc8419cb190c0c38825d746e46909ab503c",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26761/rw26761-2.jpg",
+          "sha256": "22b7080ee8cf8552c68b9e68c4755c87da302238033cab440208ceb1199212bf",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26761/rw26761-3.jpg",
+          "sha256": "8e61ecf0482bc16341fade853bd736841d1529572ca7ecb42e9145f6fa44e9dc",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26864",
+      "key": "rw26864",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Glazed Bread-Style Resin Doughnut Miniatures for DIY Projects",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 19 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Add a small bakery motif to an adult scrapbook layout or miniature display with RW26864 resin doughnut decorations. Compare the original photograph for the golden scalloped edges and varied painted glaze and drizzle patterns. The listed size is approximately 19 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; confirm the current mix rather than assuming an exact pictured set. No extra bead hole, fastening or adhesive backing is promised. Generated scene and close-up views are illustrative references, and all styling props are excluded. These are decorative resin models, not edible sweets.",
+      "caption": "Add a small bakery motif to an adult scrapbook layout or miniature display with RW26864 resin doughnut decorations. Compare the original photograph for the golden scalloped edges and varied painted glaze and drizzle patterns. The listed size is approximately 19 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; confirm the current mix rather than assuming an exact pictured set. No extra bead hole, fastening or adhesive backing is promised. Generated scene and close-up views are illustrative references, and all styling props are excluded. These are decorative resin models, not edible sweets.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "glazed-bread-style-resin-doughnut-miniatures",
+      "haibuMetaTitle": "Glazed Bread-Style Resin Doughnut Miniatures for DIY Projects",
+      "haibuDescription": "Add a small bakery motif to an adult scrapbook layout or miniature display with RW26864 resin doughnut decorations. Compare the original photograph for the",
+      "metaTitle": "Glazed Bread-Style Resin Doughnut Miniatures for DIY Projects",
+      "description": "Add a small bakery motif to an adult scrapbook layout or miniature display with RW26864 resin doughnut decorations. Compare the original.",
+      "factNote": "Add a small bakery motif to an adult scrapbook layout or miniature display with RW26864 resin doughnut decorations. Compare the original photograph for the golden scalloped edges and varied painted glaze and drizzle patterns. The listed size is approximately 19 mm, with 100 pieces per reference bag. Mixed styles are supplied according to the owner source; confirm the current mix rather than assuming an exact pictured set. No extra bead hole, fastening or adhesive backing is promised. Generated scene and close-up views are illustrative references, and all styling props are excluded. These are decorative resin models, not edible sweets.",
+      "sourceFields": {
+        "title": "Glazed Bread-Style Resin Doughnut Miniatures",
+        "material": "Resin",
+        "size": "Approx. 19 mm",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 225,
+          "height": 225
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original same-SKU product photograph. Generated application and detail views are reference illustrations; styling props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26864/rw26864-1.jpg",
+        "assets/images/pdp/rw26864/rw26864-2.jpg",
+        "assets/images/pdp/rw26864/rw26864-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26864/rw26864-1.jpg",
+          "sha256": "c57fb819c25abbb1ed95f45a5a0613896c2fd3ecc7ab20052fe0e6f90b8aa75d",
+          "width": 225,
+          "height": 225,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26864/rw26864-2.jpg",
+          "sha256": "f07574936375f14d49bb260e1e9e6ebbbfba3c3f9adaa9299e7ad50ae2b0d9b9",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26864/rw26864-3.jpg",
+          "sha256": "b28e6f4cb5845c503ec636777ba29407b13d332d06bba3b611ca8841ba5740a4",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26753",
+      "key": "rw26753",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Purple, Orange & Black Resin Motif Mix for DIY — RW26753",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "12–30 mm source assortment range",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Explore a purple, orange and black resin motif assortment for adult paper crafts, collage layouts and decorative DIY arrangements. The original photo shows varied molded shapes, including stars, hearts, bows and shells; select a color accent for your design without assuming a fixed set. Source size range: 12–30 mm across the assortment. Reference packing: 100 pieces per bag, supplied in mixed styles only. Confirm the available mix before ordering. The listed bag count is packing information, not a minimum order. No hole, fitting or reverse-side construction is specified.",
+      "caption": "Explore a purple, orange and black resin motif assortment for adult paper crafts, collage layouts and decorative DIY arrangements. The original photo shows varied molded shapes, including stars, hearts, bows and shells; select a color accent for your design without assuming a fixed set. Source size range: 12–30 mm across the assortment. Reference packing: 100 pieces per bag, supplied in mixed styles only. Confirm the available mix before ordering. The listed bag count is packing information, not a minimum order. No hole, fitting or reverse-side construction is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "purple-orange-black-resin-motif-mix-for-diy",
+      "haibuMetaTitle": "Purple, Orange & Black Resin Motif Mix for DIY — RW26753",
+      "haibuDescription": "Explore a purple, orange and black resin motif assortment for adult paper crafts, collage layouts and decorative DIY arrangements. The original photo shows",
+      "metaTitle": "Purple, Orange & Black Resin Motif Mix for DIY — RW26753",
+      "description": "Explore a purple, orange and black resin motif assortment for adult paper crafts, collage layouts and decorative DIY arrangements. The original.",
+      "factNote": "Explore a purple, orange and black resin motif assortment for adult paper crafts, collage layouts and decorative DIY arrangements. The original photo shows varied molded shapes, including stars, hearts, bows and shells; select a color accent for your design without assuming a fixed set. Source size range: 12–30 mm across the assortment. Reference packing: 100 pieces per bag, supplied in mixed styles only. Confirm the available mix before ordering. The listed bag count is packing information, not a minimum order. No hole, fitting or reverse-side construction is specified.",
+      "sourceFields": {
+        "title": "Purple, Orange & Black Resin Motif Mix for DIY — RW26753",
+        "material": "Resin",
+        "size": "12–30 mm source assortment range",
+        "packaging": "100 pieces/bag",
+        "source_kind": "owner_uploaded_supplement_NOT_MONICA_EXPORT"
+      },
+      "sourceProductId": "",
+      "sourceUrl": "",
+      "sourceType": "owner_uploaded_supplement_NOT_MONICA_EXPORT",
+      "sourceFileSha256": "",
+      "materialBasis": "Owner-supplied original specification and photograph",
+      "sourceImageUrl": "",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original product photo plus generated application and detail references. Illustrations show selected motifs from the mix. Cards, cutting mat, scissors and other props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/rw26753/rw26753-1.jpg",
+        "assets/images/pdp/rw26753/rw26753-2.jpg",
+        "assets/images/pdp/rw26753/rw26753-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26753/rw26753-1.jpg",
+          "sha256": "98df8289d51940a2a56463f4863e21fb412e16149e3cfbe9856cfb02dae80ce4",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26753/rw26753-2.jpg",
+          "sha256": "2ca81862eb2a247c7b1a0d8b4d8e3e452288f1ece0081b2ae77fb98495bb3584",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26753/rw26753-3.jpg",
+          "sha256": "5bdec9c72cadb83add25cdf29e407bb85470dd7177885d5a96de2380422b3e7a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX053",
+      "key": "yx053",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Dragon Fruit Polymer Clay Slices for DIY Projects — YX053",
+      "type": "Decorative",
+      "category": "polymer-clay-slices",
+      "haibuCategory": "polymer-clay-slices",
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "packing": "500 g/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Build decorative DIY layouts with YX053, featuring circular dragon-fruit motifs in pink rind, pale centers and black seed-like dots. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "caption": "Build decorative DIY layouts with YX053, featuring circular dragon-fruit motifs in pink rind, pale centers and black seed-like dots. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "dragon-fruit-polymer-clay-slices-for-diy-projects",
+      "haibuMetaTitle": "Dragon Fruit Polymer Clay Slices for DIY Projects — YX053",
+      "haibuDescription": "Build decorative DIY layouts with YX053, featuring circular dragon-fruit motifs in pink rind, pale centers and black seed-like dots. Source material: polym",
+      "metaTitle": "Dragon Fruit Polymer Clay Slices for DIY Projects — YX053",
+      "description": "Build decorative DIY layouts with YX053, featuring circular dragon-fruit motifs in pink rind, pale centers and black seed-like dots. Source.",
+      "factNote": "Build decorative DIY layouts with YX053, featuring circular dragon-fruit motifs in pink rind, pale centers and black seed-like dots. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "sourceFields": {
+        "title": "Dragon Fruit Polymer Clay Slices for DIY Projects — YX053",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "source_kind": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE"
+      },
+      "sourceProductId": "1600462506236",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Dragon-Fruit-Polymer-Clay-Slices_1600462506236.html",
+      "sourceType": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "materialBasis": "Monica source record and fresh same-seller product specification",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8fc63c051f7241c19d8d7d0379b8e06dn/5mm-Dragon-Fruit-Polymer-Clay-Slices.jpg_100x100.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main photograph is the original product image. Generated application and macro-detail references illustrate possible arrangements. Cards, tools, containers and other props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/yx053/yx053-1.jpg",
+        "assets/images/pdp/yx053/yx053-2.jpg",
+        "assets/images/pdp/yx053/yx053-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/yx053/yx053-1.jpg",
+          "sha256": "a8581f6db4b06e74b86266ca6112a2718d7f3d0067130b6ca8f58c03bc2cb167",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx053/yx053-2.jpg",
+          "sha256": "389bc1b6c001594e1d7db15292c3fcf183013cc496692cc0fdcfd5265f09914a",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx053/yx053-3.jpg",
+          "sha256": "9d1f03fb410e4fd3ac02b72b6ec4797331bc2606a9e526d75fe1216a5ef2ef28",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX329",
+      "key": "yx329",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Green Leaf Polymer Clay Slices for DIY Projects — YX329",
+      "type": "Decorative",
+      "category": "polymer-clay-slices",
+      "haibuCategory": "polymer-clay-slices",
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "packing": "500 g/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Build decorative DIY layouts with YX329, featuring elongated rounded leaf motifs in light green with pale branching veins. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "caption": "Build decorative DIY layouts with YX329, featuring elongated rounded leaf motifs in light green with pale branching veins. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "green-leaf-polymer-clay-slices-for-diy-projects",
+      "haibuMetaTitle": "Green Leaf Polymer Clay Slices for DIY Projects — YX329",
+      "haibuDescription": "Build decorative DIY layouts with YX329, featuring elongated rounded leaf motifs in light green with pale branching veins. Source material: polymer clay. S",
+      "metaTitle": "Green Leaf Polymer Clay Slices for DIY Projects — YX329",
+      "description": "Build decorative DIY layouts with YX329, featuring elongated rounded leaf motifs in light green with pale branching veins. Source material:.",
+      "factNote": "Build decorative DIY layouts with YX329, featuring elongated rounded leaf motifs in light green with pale branching veins. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "sourceFields": {
+        "title": "Green Leaf Polymer Clay Slices for DIY Projects — YX329",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "source_kind": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE"
+      },
+      "sourceProductId": "1600324742593",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Soft-Polymer-Clay-Green-Leaf_1600324742593.html",
+      "sourceType": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "materialBasis": "Monica source record and fresh same-seller product specification",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Ha6c9406188c849489488c1b1a03c6bce7/5mm-Soft-Polymer-Clay-Green-Leaf.jpg_100x100.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main photograph is the original product image. Generated application and macro-detail references illustrate possible arrangements. Cards, tools, containers and other props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/yx329/yx329-1.jpg",
+        "assets/images/pdp/yx329/yx329-2.jpg",
+        "assets/images/pdp/yx329/yx329-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/yx329/yx329-1.jpg",
+          "sha256": "cd181524426169a8316c4196bd1b5d8c6719583e60ddbbee1a227afb7b7e1dc0",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx329/yx329-2.jpg",
+          "sha256": "6ab59807ea65a15c241aace3b09c4f68bf95a1ef2b77674b158620bd85bfeff9",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx329/yx329-3.jpg",
+          "sha256": "79e4f18bb14322cde228c5676f4d506d95ef2c90041eec1ad17458b58c9e8fd7",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX625",
+      "key": "yx625",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Red Heart Polymer Clay Slices for DIY Projects — YX625",
+      "type": "Decorative",
+      "category": "polymer-clay-slices",
+      "haibuCategory": "polymer-clay-slices",
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "packing": "500 g/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Build decorative DIY layouts with YX625, featuring red heart silhouettes and white inner heart outlines in red with white heart outlines. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "caption": "Build decorative DIY layouts with YX625, featuring red heart silhouettes and white inner heart outlines in red with white heart outlines. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "red-heart-polymer-clay-slices-for-diy-projects",
+      "haibuMetaTitle": "Red Heart Polymer Clay Slices for DIY Projects — YX625",
+      "haibuDescription": "Build decorative DIY layouts with YX625, featuring red heart silhouettes and white inner heart outlines in red with white heart outlines. Source material: ",
+      "metaTitle": "Red Heart Polymer Clay Slices for DIY Projects — YX625",
+      "description": "Build decorative DIY layouts with YX625, featuring red heart silhouettes and white inner heart outlines in red with white heart outlines. Source.",
+      "factNote": "Build decorative DIY layouts with YX625, featuring red heart silhouettes and white inner heart outlines in red with white heart outlines. Source material: polymer clay. Source size: 5 mm. Reference packing: 500 g/bag. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "sourceFields": {
+        "title": "Red Heart Polymer Clay Slices for DIY Projects — YX625",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "source_kind": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE"
+      },
+      "sourceProductId": "1601612317078",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Red-Hearts-Polymer-Clay-Slices_1601612317078.html",
+      "sourceType": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "materialBasis": "Monica source record and fresh same-seller product specification",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H6b9c58e9b65a4faf975028a2414a2f0ai.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main photograph is the original product image. Generated application and macro-detail references illustrate possible arrangements. Cards, tools, containers and other props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/yx625/yx625-1.jpg",
+        "assets/images/pdp/yx625/yx625-2.jpg",
+        "assets/images/pdp/yx625/yx625-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/yx625/yx625-1.jpg",
+          "sha256": "d2c09a1606f871a773d85f2135ec4005f20d834160b22e8883b06e0d1c8bc411",
+          "width": 350,
+          "height": 350,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx625/yx625-2.jpg",
+          "sha256": "48e0fa2c04bd25e56b19232affafcdb0917ec406ec57494adc9f011d7a95e0b7",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx625/yx625-3.jpg",
+          "sha256": "e241b08b03d8412e0c2e5142e3d73bf3a26d83e9c60fbb2ad39e054b0b19fbc9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX710",
+      "key": "yx710",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Cake Pudding Polymer Clay Cubes for DIY Projects — YX710",
+      "type": "Decorative",
+      "category": "slime-charms",
+      "haibuCategory": "slime-charms",
+      "material": "Polymer Clay",
+      "dimensions": "6 mm",
+      "packing": "500 g source size/weight option",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Build decorative DIY layouts with YX710, featuring small cube-shaped pudding motifs in yellow, cream and dark brown layered blocks. Source material: polymer clay. Source size: 6 mm. Reference packing: 500 g source size/weight option. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "caption": "Build decorative DIY layouts with YX710, featuring small cube-shaped pudding motifs in yellow, cream and dark brown layered blocks. Source material: polymer clay. Source size: 6 mm. Reference packing: 500 g source size/weight option. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "cake-pudding-polymer-clay-cubes-for-diy-projects",
+      "haibuMetaTitle": "Cake Pudding Polymer Clay Cubes for DIY Projects — YX710",
+      "haibuDescription": "Build decorative DIY layouts with YX710, featuring small cube-shaped pudding motifs in yellow, cream and dark brown layered blocks. Source material: polyme",
+      "metaTitle": "Cake Pudding Polymer Clay Cubes for DIY Projects — YX710",
+      "description": "Build decorative DIY layouts with YX710, featuring small cube-shaped pudding motifs in yellow, cream and dark brown layered blocks. Source.",
+      "factNote": "Build decorative DIY layouts with YX710, featuring small cube-shaped pudding motifs in yellow, cream and dark brown layered blocks. Source material: polymer clay. Source size: 6 mm. Reference packing: 500 g source size/weight option. The photograph shows the source product appearance; a fixed color ratio or counted set is not promised. Explore small paper-craft accents and decorative arrangements. Confirm your required packing before ordering. These are non-edible craft pieces; no hole or adhesive is specified.",
+      "sourceFields": {
+        "title": "Cake Pudding Polymer Clay Cubes for DIY Projects — YX710",
+        "material": "Polymer Clay",
+        "size": "6 mm",
+        "packaging": "500 g source size/weight option",
+        "source_kind": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE"
+      },
+      "sourceProductId": "1601564876742",
+      "sourceUrl": "https://www.alibaba.com/product-detail/6mm-500g-Cake-Pudding-Polymer-Clay_1601564876742.html",
+      "sourceType": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "materialBasis": "Monica source record and fresh same-seller product specification",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hab09f2cd0b54499eafda4e754cb34634V.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main photograph is the original product image. Generated application and macro-detail references illustrate possible arrangements. Cards, tools, containers and other props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/yx710/yx710-1.jpg",
+        "assets/images/pdp/yx710/yx710-2.jpg",
+        "assets/images/pdp/yx710/yx710-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/yx710/yx710-1.jpg",
+          "sha256": "fa690695dc33d8d6e374ad0d2cfdcb32cce71c310858f866d87924f4722200f6",
+          "width": 350,
+          "height": 350,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx710/yx710-2.jpg",
+          "sha256": "95662475c473f08b8a81fcf714081df8c17e34c588ab969d1c0bfcc3ac590017",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx710/yx710-3.jpg",
+          "sha256": "37788ec2da30792cc5f34d5284d1167c2fe834faa4e606b1fcdd34176bb6664a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX490",
+      "key": "yx490",
+      "batchNumber": 36,
+      "batchId": "20261102-monica-36",
+      "title": "Blueberry and Green Leaf Polymer Clay Mix for DIY — YX490",
+      "type": "Decorative",
+      "category": "polymer-clay-slices",
+      "haibuCategory": "polymer-clay-slices",
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "packing": "500 g/bag",
+      "attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "variantSizeNotes": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+      "procurementAdvice": "Bring blue and green accents to decorative DIY layouts with YX490 polymer clay sprinkles. The original mix shows blueberry cross-section slices and veined green leaves. Source size: 5 mm; reference packing: 500 g per bag. Try small paper-craft arrangements and slime decoration, as described by the supplier. The assortment photo is a visual reference, not a fixed counted set or promised ratio. Confirm the available mix and your packing needs before ordering. Non-edible craft material; no hole or adhesive is specified.",
+      "caption": "Bring blue and green accents to decorative DIY layouts with YX490 polymer clay sprinkles. The original mix shows blueberry cross-section slices and veined green leaves. Source size: 5 mm; reference packing: 500 g per bag. Try small paper-craft arrangements and slime decoration, as described by the supplier. The assortment photo is a visual reference, not a fixed counted set or promised ratio. Confirm the available mix and your packing needs before ordering. Non-edible craft material; no hole or adhesive is specified.",
+      "uses": "Decorative DIY craft arrangements; confirm any fixing method before use.",
+      "keywords": "blueberry-and-green-leaf-polymer-clay-mix-for-diy",
+      "haibuMetaTitle": "Blueberry and Green Leaf Polymer Clay Mix for DIY — YX490",
+      "haibuDescription": "Bring blue and green accents to decorative DIY layouts with YX490 polymer clay sprinkles. The original mix shows blueberry cross-section slices and veined ",
+      "metaTitle": "Blueberry and Green Leaf Polymer Clay Mix for DIY — YX490",
+      "description": "Bring blue and green accents to decorative DIY layouts with YX490 polymer clay sprinkles. The original mix shows blueberry cross-section slices.",
+      "factNote": "Bring blue and green accents to decorative DIY layouts with YX490 polymer clay sprinkles. The original mix shows blueberry cross-section slices and veined green leaves. Source size: 5 mm; reference packing: 500 g per bag. Try small paper-craft arrangements and slime decoration, as described by the supplier. The assortment photo is a visual reference, not a fixed counted set or promised ratio. Confirm the available mix and your packing needs before ordering. Non-edible craft material; no hole or adhesive is specified.",
+      "sourceFields": {
+        "title": "Blueberry and Green Leaf Polymer Clay Mix for DIY — YX490",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "source_kind": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE"
+      },
+      "sourceProductId": "1600322246096",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Blueberry-Fruit-Slices-Polymer-Hot-Clay_1600322246096.html",
+      "sourceType": "MONICA_EXPORT_WITH_FRESH_SAME_SELLER_PRODUCT_PAGE",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "materialBasis": "Monica source record and fresh same-seller product specification",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H313fd5a8732549f680ab9a8e9e98e456E.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Main image: original product photo. Generated scene and macro-detail references illustrate selected motifs and possible arrangements. Props are not included.",
+      "haibuImages": [],
+      "haibuImageInfo": [],
+      "qulaImages": [
+        "assets/images/pdp/yx490/yx490-1.jpg",
+        "assets/images/pdp/yx490/yx490-2.jpg",
+        "assets/images/pdp/yx490/yx490-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/yx490/yx490-1.jpg",
+          "sha256": "0313f40fb0fc5326f547f47e15a9faf483e43a5003379f891bb172572939733b",
+          "width": 1000,
+          "height": 1000,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx490/yx490-2.jpg",
+          "sha256": "e692abe3b9be8d67011c3a49136c2623046ed962ef269665b040d000f3fca3b5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx490/yx490-3.jpg",
+          "sha256": "ad81009054e33c653797ef606a2261b4521ae1a9f392fb9dbc12a8cfabf69b73",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    }
+  ]
+}
