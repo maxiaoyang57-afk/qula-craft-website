@@ -450,3 +450,30 @@ for (const width of [375, 1440]) {
     });
   }
 }
+
+for (const width of [360, 1440]) {
+  test(`keychain sourcing references keep exact inquiry context at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (!request.url().startsWith(baseURL + '/') || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+      return route.continue();
+    });
+    const products = require('../assets/data/product-catalog.json').categories
+      .find(category => category.slug === 'keychain').products;
+    for (const sku of ['CDK070', 'CDK5001-2', 'CDK26017']) {
+      const product = products.find(item => item.sku === sku);
+      await page.goto(baseURL + '/keychain.html');
+      const guide = page.locator('#keychain-sourcing');
+      await expect(guide).toHaveCount(1);
+      await expectNoHorizontalOverflow(page);
+      await guide.locator(`a[href="${product.pdp}"]`).click();
+      await expect(page.locator('h1')).toHaveText(product.title);
+      await page.locator('.pdp-cta .btn-primary').click();
+      await expect(page.locator('[name="selected_sku"]')).toHaveValue(product.sku);
+      await expect(page.locator('#pPreviewTitle')).toHaveText(product.sku + ' ' + product.title);
+      await expect(page.locator('select[name="product"]')).toHaveValue('Keychains');
+      await expectNoHorizontalOverflow(page);
+    }
+  });
+}
