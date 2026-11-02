@@ -9,6 +9,7 @@ const catalog = JSON.parse(read('assets/data/product-catalog.json'));
 assert.deepEqual(catalog.categories.map(c => c.slug), policy.activeCategories, 'Only the original nine categories may be public');
 const active = catalog.categories.flatMap(c => c.products);
 const archived = catalog.archivedProducts || [];
+assert.equal(catalog.totalCategories, catalog.categories.length, 'Published category summary must match the active category array');
 assert.equal(catalog.totalProducts, active.length);
 assert.deepEqual(archived.map(p => p.sku).sort(), policy.products.map(p => p.sku).sort());
 const sitemap = read('sitemap.xml');

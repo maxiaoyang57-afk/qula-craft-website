@@ -28,7 +28,7 @@ def apply_scope():
     if any(p['sku'] in ARCHIVED_SKUS for p in active):
         raise ValueError('Archived SKU remains in public catalog')
     cat['archivedProducts'] = archived
-    cat.update(totalProducts=len(active), totalImages=len(active))
+    cat.update(totalCategories=len(cat['categories']), totalProducts=len(active), totalImages=len(active))
     cp.write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding='utf-8')
     archived_files = {p['pdp'] for p in archived}
     old_category = 'decorative-craft-accessories.html'
