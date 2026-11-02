@@ -477,3 +477,43 @@ for (const width of [360, 1440]) {
     }
   });
 }
+
+for (const width of [360, 1440]) {
+  test(`acrylic procurement comparison preserves source facts and inquiry context at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.route('**/*', route => {
+      const request = route.request();
+      if (!request.url().startsWith(baseURL + '/') || !['GET', 'HEAD'].includes(request.method())) return route.abort();
+      return route.continue();
+    });
+    const catalog = require('../assets/data/product-catalog.json').categories.flatMap(category => category.products);
+    const sources = require('../assets/data/pdp-data.json');
+    for (const sku of ['YA855', 'YA234', 'YA446/YA447']) {
+      const product = catalog.find(item => item.sku === sku);
+      const source = sources.find(item => item.sku === sku);
+      await page.goto(baseURL + '/acrylic-beads.html');
+      const comparison = page.locator('section[aria-labelledby="acrylic-pack-comparison"]');
+      await expect(comparison.locator('tbody tr')).toHaveCount(3);
+      const row = comparison.locator('tbody tr').filter({ has: page.locator(`a[href="${product.pdp}"]`) });
+      await expect(row).toContainText(source.titleFull);
+      await expect(row).toContainText('100 pieces per bag');
+      await expect(row).toContainText('Diameter, direction and fit require confirmation.');
+      const image = row.locator('img');
+      await image.scrollIntoViewIfNeeded();
+      await expect.poll(() => image.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+      await expect(image).toHaveAttribute('src', source.imagesLocal[0]);
+      await expectNoHorizontalOverflow(page);
+      await row.getByRole('link', { name: `Ask about ${sku}`, exact: true }).click();
+      await expect(page.locator('[name="selected_sku"]')).toHaveValue(sku);
+      await expect(page.locator('#pPreviewTitle')).toHaveText(sku + ' ' + source.titleFull);
+      await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', '/' + source.imagesLocal[0]);
+      await expect(page.locator('select[name="product"]')).toHaveValue('Acrylic Beads');
+      await expectNoHorizontalOverflow(page);
+      await page.goto(baseURL + '/acrylic-beads.html');
+      await page.locator('section[aria-labelledby="acrylic-pack-comparison"]').locator(`a[href="${product.pdp}"]`).click();
+      await expect(page.locator('h1')).toHaveText(product.title);
+      await expect(page.locator('.pdp-cta .btn-primary')).toHaveAttribute('href', new RegExp('sku=' + encodeURIComponent(sku)));
+    }
+  });
+}
