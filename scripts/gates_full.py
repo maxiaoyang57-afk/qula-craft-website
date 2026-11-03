@@ -3,6 +3,7 @@
 import json, re, sys
 from pathlib import Path
 from collections import Counter
+from inquiry_schema import INQUIRY_COPY
 
 SITE = Path(__file__).resolve().parents[1]
 fails = []
@@ -75,8 +76,14 @@ for p in pdps:
         except Exception:
             # Invalid JSON-LD is already reported by the page-level gate above.
             pass
-    if not product_schema:
+    quote_only = bool(INQUIRY_COPY.search(h))
+    if quote_only and product_schema:
+        fails.append(f"询价PDP不得输出Product schema {p.name}")
+    if not quote_only and not product_schema:
         fails.append(f"PDP缺Product schema {p.name}")
+    if not any(schema_contains_type(json.loads(raw), "BreadcrumbList") for raw in
+               re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)):
+        fails.append(f"PDP缺BreadcrumbList {p.name}")
     if "gallery-main" not in h:
         fails.append(f"PDP缺主图 {p.name}")
 print(f"PDP 标题 >72字符: {long_t}")

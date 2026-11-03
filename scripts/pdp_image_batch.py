@@ -127,7 +127,7 @@ def update_product_schema(html, image_urls):
         )
 
     updated = SCHEMA_RE.sub(replace, html)
-    if not changed:
+    if not changed and not re.search(r'<b>(?:Quoted by pack and quantity|Wholesale pricing by quotation|Packaging &amp; MOQ)</b>', html):
         raise ValueError("Product schema block not found")
     return updated
 

@@ -36,10 +36,14 @@ class PublicPackSpecsTests(unittest.TestCase):
         for key, value in (("yx3531", "500 g/bag"), ("yx3400", "500 g/bag"), ("ma225", "5 g × 100bag/Parcel")):
             with self.subTest(key=key):
                 html = (ROOT / f"p-{key}.html").read_text(encoding="utf-8")
-                product = next(json.loads(s) for s in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
-                               if json.loads(s).get("@type") == "Product")
-                self.assertNotIn("size", product)
-                self.assertIn({"@type": "PropertyValue", "name": "Reference packing", "value": value}, product["additionalProperty"])
+                schemas = [json.loads(s) for s in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)]
+                product = next((s for s in schemas if s.get("@type") == "Product"), None)
+                if product:
+                    self.assertNotIn("size", product)
+                    self.assertIn({"@type": "PropertyValue", "name": "Reference packing", "value": value}, product["additionalProperty"])
+                else:
+                    self.assertTrue(any(s.get("@type") == "BreadcrumbList" for s in schemas))
+                    self.assertNotRegex(html, r'"size"\s*:')
                 self.assertIn(f"<b>Reference packing</b></td><td>{value}</td>", html)
         for key in ("yx3400", "ma225", "rx823", "czb26022", "cdk003767"):
             with self.subTest(key=key):
