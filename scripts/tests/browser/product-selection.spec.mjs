@@ -1,3 +1,4 @@
+const inquiryParams = url => new URLSearchParams([url.search.slice(1), url.hash.startsWith('#rfq:') ? url.hash.slice(5) : ''].filter(Boolean).join('&'));
 import { test, expect } from '@playwright/test';
 
 // Exercise the added buyer path and the original primary CTA independently.
@@ -30,8 +31,8 @@ for (const sku of ['YX043', 'YX3194', 'YX3301', 'YA425', 'YA382', 'CZB26353', 'Y
     const category = sku.startsWith('YX') ? 'Polymer Clay Sprinkles' : sku.startsWith('YA') ? 'Acrylic Beads' : 'Beads for Pens';
     await expect(page.locator('select[name="product"]')).toHaveValue(category);
     const destination = new URL(page.url());
-    const image = destination.searchParams.get('image');
-    await expect(page.locator('#pPreviewTitle')).toHaveText(destination.searchParams.get('product'));
+    const image = inquiryParams(destination).get('image');
+    await expect(page.locator('#pPreviewTitle')).toHaveText(inquiryParams(destination).get('product'));
     const normalizedImage = new URL(image, page.url());
     await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', normalizedImage.pathname + normalizedImage.search);
     await page.locator('[name="quantity"]').fill('500 pieces; sample fit review requested');

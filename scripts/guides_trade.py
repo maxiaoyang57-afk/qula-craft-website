@@ -116,7 +116,7 @@ GUIDES = [
 # ─────────────────────────────────────────────────────────────
 {
  "slug": "guide-importing-craft-supplies.html",
- "title": "Importing Craft Supplies: HS Codes, Duty and Landed Cost",
+ "title": "Importing Craft Supplies: HS Codes & Landed Cost | Qula Craft",
  "desc": "How to work out what a craft supply order really costs to land: how HS classification works, where to look up your own duty rate, why volumetric weight matters more than actual weight, and who clears the goods.",
  "crumb": "Importing Craft Supplies",
  "eyebrow": "Trade Guide",
@@ -220,7 +220,7 @@ GUIDES = [
 # ─────────────────────────────────────────────────────────────
 {
  "slug": "guide-samples-and-inspection.html",
- "title": "Samples and Inspection: What to Check Before You Pay the Balance",
+ "title": "Samples & Inspection Before Final Payment | Qula Craft",
  "desc": "The three kinds of sample, what each one proves, a five-point inspection list for craft supplies, and why batch variation on detailed resin pieces is physics rather than carelessness.",
  "crumb": "Samples &amp; Inspection",
  "eyebrow": "Trade Guide",

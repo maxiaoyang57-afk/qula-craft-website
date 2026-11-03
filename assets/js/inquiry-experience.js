@@ -21,7 +21,16 @@
     general: ['Tell us what you need', 'Looking for prices, samples, a custom design or help choosing? Start with what matters to you.']
   };
   const tidy = (s, n = 180) => String(s || '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
-  const params = new URLSearchParams(location.search);
+  function inquiryParams(url) {
+    const values = new URLSearchParams(url.search);
+    if (url.hash?.startsWith('#rfq:')) {
+      new URLSearchParams(url.hash.slice(5)).forEach((value, key) => {
+        if (!values.has(key)) values.set(key, value);
+      });
+    }
+    return values;
+  }
+  const params = inquiryParams(location);
   const path = location.pathname;
   const isContactPage = /\/(?:request-quote\/|quote(?:\.html|\/)|contact(?:\.html|\/))$/.test(path);
   const pageTitle = tidy(params.get('entry_title') || (isContactPage ? 'craft supplies' : document.querySelector('h1')?.textContent) || config.brand);
@@ -56,33 +65,39 @@
     const pageProductLink = isProductPage
       ? document.querySelector('.pdp-cta a[href*="sku="]') : null;
     const productLink = scope?.querySelector('a[href*="sku="], a[href*="product_code="]') || (!scope ? pageProductLink : null);
-    const hasExplicitProduct = target.searchParams.has('sku') || target.searchParams.has('product_code');
+    const targetParams = inquiryParams(target);
+    const hasExplicitProduct = targetParams.has('sku') || targetParams.has('product_code');
     const productParams = !hasExplicitProduct && productLink
-      ? new URL(productLink.href, location.href).searchParams : target.searchParams;
+      ? inquiryParams(new URL(productLink.href, location.href)) : targetParams;
     const sku = tidy(productParams.get('sku') || productParams.get('product_code') || scope?.querySelector('[data-sku]')?.dataset.sku, 100);
     const kind = infer(path, sku);
     const productTitle = tidy(productParams.get('product') || scope?.querySelector('h3')?.textContent || pageTitle);
     const title = sku && productTitle.startsWith(sku + ' ') ? productTitle.slice(sku.length).trim() : productTitle;
-    return { target, sku, kind, productParams, title };
+    return { target, targetParams, sku, kind, productParams, title };
   }
   function decorate(link) {
     if (!link || link.dataset.inquiryDirect || link.getAttribute('href')?.startsWith('#')) return;
     const ctx = contextFor(link);
     if (!ctx) return;
-    const { target, sku, kind, title, productParams } = ctx;
+    const { target, targetParams, sku, kind, title, productParams } = ctx;
     const quoteLink = target.origin === location.origin && /\/(?:request-quote\/|quote(?:\.html|\/))$/.test(target.pathname);
     if (quoteLink) {
       // The basket link represents several products and keeps its own context.
-      if (sku && !link.classList.contains('basket-chip') && !target.searchParams.has('items') && !target.searchParams.has('quote_list')) {
+      if (sku && !link.classList.contains('basket-chip') && !targetParams.has('items') && !targetParams.has('quote_list')) {
         for (const key of ['sku', 'product', 'category', 'image']) {
-          if (!target.searchParams.has(key) && productParams.has(key)) {
-            target.searchParams.set(key, productParams.get(key));
+          if (!targetParams.has(key) && productParams.has(key)) {
+            targetParams.set(key, productParams.get(key));
           }
         }
       }
-      if (!target.searchParams.has('entry_context')) target.searchParams.set('entry_context', kind);
-      if (!target.searchParams.has('entry_page')) target.searchParams.set('entry_page', canonicalPath);
-      if (!target.searchParams.has('entry_title')) target.searchParams.set('entry_title', title);
+      if (!targetParams.has('entry_context')) targetParams.set('entry_context', kind);
+      if (!targetParams.has('entry_page')) targetParams.set('entry_page', canonicalPath);
+      if (!targetParams.has('entry_title')) targetParams.set('entry_title', title);
+      target.hash = 'rfq:' + targetParams.toString();
+      // Acquisition parameters (utm_*, click IDs) stay in the query string.
+      for (const key of ['product', 'sku', 'product_code', 'image', 'application', 'category', 'items', 'quote_list', 'source', 'entry_context', 'entry_page', 'entry_title']) {
+        target.searchParams.delete(key);
+      }
       link.href = target.href;
       if (link.closest('main') && /^(?:Get Quote|Request Quote|Send Inquiry|Request a Quote|Request a B2B Quote)(?:\s*[→›])?$/i.test(link.textContent.trim())) {
         const isProductCard = link.closest('.product-card, .product-card-v2, [data-product-card]');

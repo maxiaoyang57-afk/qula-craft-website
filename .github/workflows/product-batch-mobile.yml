@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - 'assets/data/**'
+      - 'assets/js/**'
+      - 'scripts/build-static.mjs'
+      - 'package*.json'
       - 'p-*.html'
       - 'scripts/tests/browser/**'
       - 'playwright.products.config.mjs'
@@ -34,6 +37,7 @@ jobs:
         run: |
           npm install --no-save --package-lock=false @playwright/test@1.58.2
           npx playwright install --with-deps chromium
+          npm run build
       - name: Test catalog, galleries and exact inquiry context
         run: npx playwright test --config playwright.products.config.mjs --project width-${{ matrix.width }}
       - uses: actions/upload-artifact@v4

@@ -1,3 +1,4 @@
+const inquiryParams = url => new URLSearchParams([url.search.slice(1), url.hash.startsWith('#rfq:') ? url.hash.slice(5) : ''].filter(Boolean).join('&'));
 const { test, expect } = require('@playwright/test');
 
 test.use({
@@ -38,16 +39,16 @@ for (const width of [360, 390, 768]) {
       const direct = new URL(await page.locator('.pdp-cta .btn-primary').getAttribute('href'), page.url());
       for (const selector of ['.site-header .main-nav > .btn', '.footer-actions .btn-primary', '.mobile-cta-bar .mcb-quote']) {
         const link = page.locator(selector);
-        await expect(link).toHaveAttribute('href', /[?&]sku=/);
+        await expect(link).toHaveAttribute('href', /[?&:]sku=/);
         const target = new URL(await link.getAttribute('href'), page.url());
-        for (const key of ['sku', 'product', 'category', 'image']) expect(target.searchParams.get(key)).toBe(direct.searchParams.get(key));
+        for (const key of ['sku', 'product', 'category', 'image']) expect(inquiryParams(target).get(key)).toBe(inquiryParams(direct).get(key));
       }
       const basket = new URL(await page.locator('.basket-chip').getAttribute('href'), page.url());
-      expect(basket.searchParams.has('sku')).toBe(false);
+      expect(inquiryParams(basket).has('sku')).toBe(false);
       await page.locator('.pdp-cta .btn-primary').click();
       await expect(page.locator('#hiddenSku')).toHaveValue(record.sku);
       await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', '/' + record.imageOutputs[0].path);
-      await expect(page.locator('select[name="product"]')).toHaveValue(direct.searchParams.get('category'));
+      await expect(page.locator('select[name="product"]')).toHaveValue(inquiryParams(direct).get('category'));
       await expectNoHorizontalOverflow(page);
     }
   });
@@ -59,7 +60,7 @@ test('generic PDP quote selects its own product while a related card keeps its e
   const relatedSku = await related.locator('.pill').textContent();
   await related.locator('a').first().click();
   const own = new URL(await page.locator('.pdp-cta .btn-primary').getAttribute('href'), page.url());
-  expect(own.searchParams.get('sku')).toBe(relatedSku.trim());
+  expect(inquiryParams(own).get('sku')).toBe(relatedSku.trim());
   const footer = page.locator('.footer-actions .btn-primary');
   await footer.click();
   await expect(page.locator('#hiddenSku')).toHaveValue(relatedSku.trim());
@@ -212,8 +213,8 @@ test('Bag Charms applications update fits the current mobile layout', async ({ p
   const inquiryUrl = new URL(await bag.locator('a.btn').getAttribute('href'), page.url());
   expect(inquiryUrl.origin).toBe(new URL(page.url()).origin);
   expect(inquiryUrl.pathname).toBe('/quote.html');
-  expect(inquiryUrl.searchParams.get('application')).toBe('Bag Charms');
-  expect(inquiryUrl.searchParams.get('entry_page')).toBe('/applications.html');
+  expect(inquiryParams(inquiryUrl).get('application')).toBe('Bag Charms');
+  expect(inquiryParams(inquiryUrl).get('entry_page')).toBe('/applications.html');
 
   const fixedBar = page.locator('.mobile-cta-bar');
   await expect(fixedBar).toBeVisible();
@@ -287,9 +288,9 @@ for (const width of [375, 1440]) {
       await page.goto(baseURL + '/' + path);
       const cta = page.locator('.hero-actions a').filter({ hasText: 'Request Bulk Quote' });
       const target = new URL(await cta.getAttribute('href'), page.url());
-      expect(target.searchParams.get('product')).toBe(title);
-      expect(target.searchParams.get('entry_title')).toBe(title);
-      expect(target.searchParams.get('entry_page')).toBe('/' + path);
+      expect(inquiryParams(target).get('product')).toBe(title);
+      expect(inquiryParams(target).get('entry_title')).toBe(title);
+      expect(inquiryParams(target).get('entry_page')).toBe('/' + path);
       await cta.click();
       await expect(page.locator('#pPreviewTitle')).toHaveText(title);
       await expect(page.locator('select[name="product"]')).toHaveValue(category);

@@ -1,3 +1,4 @@
+const inquiryParams = url => new URLSearchParams([url.search.slice(1), url.hash.startsWith('#rfq:') ? url.hash.slice(5) : ''].filter(Boolean).join('&'));
 import { test, expect } from '@playwright/test';
 
 // Two catalog references share YM109: check the image, title and reference URL,
@@ -21,12 +22,12 @@ for (const [guide, pdp, sku, image, category] of cases) {
     const action = page.locator(`[data-guide-product-inquiry="${pdp}"]`);
     await expect(action).toBeVisible();
     const destination = new URL(await action.getAttribute('href'), page.url());
-    expect(destination.searchParams.get('sku')).toBe(sku);
-    expect(destination.searchParams.get('image')).toBe(image);
+    expect(inquiryParams(destination).get('sku')).toBe(sku);
+    expect(inquiryParams(destination).get('image')).toBe(image);
     await action.click();
     await expect(page.locator('#hiddenSku')).toHaveValue(sku);
     await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', '/' + image);
-    await expect(page.locator('#pPreviewTitle')).toHaveText(destination.searchParams.get('product'));
+    await expect(page.locator('#pPreviewTitle')).toHaveText(inquiryParams(destination).get('product'));
     await expect(page.locator('select[name="product"]')).toHaveValue(category);
     await expect(page.locator('[name="entry_page"]')).toHaveValue('https://www.qulacrafts.com/' + guide);
     await expect(page.locator('#hiddenUrl')).toHaveValue('https://www.qulacrafts.com/' + guide);

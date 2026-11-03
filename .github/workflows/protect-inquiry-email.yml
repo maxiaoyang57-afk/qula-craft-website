@@ -37,6 +37,11 @@ jobs:
         run: |
           node --test scripts/tests/seo-url-guards.test.mjs
           node scripts/check-seo.mjs
+      - name: Verify published static output and inquiry context
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm run build
+          node --test scripts/tests/static-build.test.mjs
 
 
   mobile-layout:
@@ -54,7 +59,8 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Start static preview server
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/qula-http.log 2>&1 &
+          npm run build
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/qula-http.log 2>&1 &
           echo $! > /tmp/qula-http.pid
           for i in {1..20}; do
             if curl --fail --silent http://127.0.0.1:4173/polymer-clay-sprinkles.html > /dev/null; then exit 0; fi

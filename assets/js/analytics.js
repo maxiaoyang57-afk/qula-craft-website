@@ -78,14 +78,19 @@
     }
   });
   function mountConsent(){
-    if(document.getElementById('qula-analytics-consent'))return;
-    var css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/analytics-consent.css?v=20261029-mobile-consent';document.head.appendChild(css);
-    var panel=document.createElement('section');panel.id='qula-analytics-consent';panel.className='qc-consent';
+    var panel=document.getElementById('qula-analytics-consent');
+    if(panel && panel.dataset.consentMounted)return;
+    if(!document.querySelector('link[data-consent-style]')){
+      var css=document.createElement('link');css.rel='stylesheet';css.href='/assets/css/analytics-consent.css?v=20261029-mobile-consent';css.dataset.consentStyle='';document.head.appendChild(css);
+    }
+    var existingPanel=Boolean(panel);
+    if(!panel){panel=document.createElement('section');panel.id='qula-analytics-consent';panel.className='qc-consent';}
     panel.setAttribute('role','region');panel.setAttribute('aria-labelledby','qc-consent-title');panel.setAttribute('aria-describedby','qc-consent-description');
     panel.innerHTML='<div class="qc-consent-copy"><strong id="qc-consent-title">Optional analytics</strong><p id="qc-consent-description">Allow website statistics and session recordings?</p><details class="qc-consent-details"><summary>Analytics details</summary><p>We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies and Clarity recordings are enabled only if you accept. Inquiry form content is masked. <a href="/privacy-policy.html">Privacy policy</a></p></details></div><div class="qc-consent-actions"><button type="button" data-analytics-decline>Decline analytics</button><button type="button" data-analytics-accept>Accept analytics</button></div>';
     panel.hidden=readConsent()!==null;
     var main=document.querySelector('main');
-    if(main)main.before(panel);else document.body.prepend(panel);
+    if(!existingPanel){if(main)main.before(panel);else document.body.prepend(panel);}
+    panel.dataset.consentMounted='true';
     var reopen=document.createElement('button');reopen.type='button';reopen.className='qc-cookie-settings';reopen.textContent='Cookie choices';
     var footer=document.querySelector('footer .container')||document.querySelector('footer')||document.body;footer.appendChild(reopen);
     reopen.addEventListener('click',function(){panel.hidden=false;panel.querySelector('[data-analytics-decline]').focus();});
