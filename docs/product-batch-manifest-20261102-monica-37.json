@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-02",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 968,
+  "catalogCountAfter": 988,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "YX076",
+      "pdp": "p-yx076.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Polymer-Clay-Fruit-Sprinkle-Apple_62363253747.html",
+      "sourceFields": {
+        "title": "Cute Polymer Clay Fruit Sprinkle Apple Slices for Crafts, Phone Deco, DIY Scrapbooking",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX076"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx076/yx076-1.jpg",
+          "sha256": "ef7ffcbb95562dd81b72e8338c54ef3f4a55472eeee25f291aa7eb0b53027051",
+          "width": 800,
+          "height": 800,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx076/yx076-2.jpg",
+          "sha256": "65ffe204935c27be3d3334db0ba0cfd6228a5d84d5df64456fecc7302a2ca914",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx076/yx076-3.jpg",
+          "sha256": "fc4afb2da67604bf18bd70448a5d1545e2880c077e529956586d14f1507b36cc",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX165",
+      "pdp": "p-yx165.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Arrive-Multi-Type-Ladybug-Shape_62338683169.html",
+      "sourceFields": {
+        "title": "New Arrive Multi Type Ladybug Shape Polymer Clay Sprinkle for Phone Decoration Scrapbook Shaker Card DIY Slime Filler Filli",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX165"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx165/yx165-1.jpg",
+          "sha256": "e119a3ee3ae59e6818203d35deb5e19325c71803e7a200a21477bf4e83edad2f",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx165/yx165-2.jpg",
+          "sha256": "3e491766bd4e969a40238c210d10bacea561a99bae67f0fe46200204a7f87741",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx165/yx165-3.jpg",
+          "sha256": "1ce67f3df84d63e6527c75c81d853c23e73dce376a8bd08a32d565a007e12518",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX100",
+      "pdp": "p-yx100.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Nice-Cute-Nail-Art-Polymer-Clay_60863164100.html",
+      "sourceFields": {
+        "title": "Nice Cute Nail Art Polymer Clay Fruit Shaped Slice Fashion DIY Cute Decor Decals Clay Scrapbook Decoration",
+        "material": "Polymer Clay",
+        "size": "approximately 10–12 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX100"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx100/yx100-1.jpg",
+          "sha256": "7397916144535d67ad7c134defbf5fa6743d8a9496acdf28cda1f87c305bf921",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx100/yx100-2.jpg",
+          "sha256": "d15913e630ce90c3f138b8c563b9fb4d97ae0faf7fbfe122368c1d1543b5773c",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx100/yx100-3.jpg",
+          "sha256": "65b8e4dc9794ac380ea470553c17866875d376119a4ec3903dc58ac3913e25ec",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX006",
+      "pdp": "p-yx006.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Polymer-Hot-Clay-Sprinkles-Valentines-Heart_62054834965.html",
+      "sourceFields": {
+        "title": "Polymer Hot Clay Sprinkles Valentines Heart Clay Slices for Crafts Making DIY Slime Filler Accessories",
+        "material": "Polymer Clay",
+        "size": "6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX006"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx006/yx006-1.jpg",
+          "sha256": "c1a4b9fd73027abc8878bd3f7bff230434362ab31b25df74cce092417761771c",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx006/yx006-2.jpg",
+          "sha256": "7e7ea6259c545bb90a9e55a8da061b850f82a68edfc1f6e938d512c3f9e18f45",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx006/yx006-3.jpg",
+          "sha256": "c8b01fe5d8d6baa04f00e427c101ee03d8b4653881c4b818f58a6befc0cc2ed9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX3392",
+      "pdp": "p-yx3392.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Green-Lemon-Lime-Polymer-Clays_1600922814470.html",
+      "sourceFields": {
+        "title": "5mm Green Lemon Lime Polymer Clays for DIY Crafts Fruit Plastic Klei Mud Particles Slime Filler Sprinkles",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX3392"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx3392/yx3392-1.jpg",
+          "sha256": "e041e84e72f89f285dfa07b9723d0baa3a3cc0373e8c9f2d2f4e77c2e0f2fa4d",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx3392/yx3392-2.jpg",
+          "sha256": "7a45d1c88fd2599f83097243ee27b2d7bd4c0ddd9beea1776b4c583b17b7b6c4",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx3392/yx3392-3.jpg",
+          "sha256": "0f8abc7f2fb762a6da710ab46c6f11505692c6a132ce556ab81a7c3e95b87f35",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX693",
+      "pdp": "p-yx693.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Pink-Strawberry-Clay-Slice-Fruits_1601297600390.html",
+      "sourceFields": {
+        "title": "5mm Pink Strawberry Clay Slice Fruits Sprinkles for DIY Crafts Slime Shaker Filling",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX693"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx693/yx693-1.jpg",
+          "sha256": "3e0cc22f79a7608f91a99654e3497dc3abe825f9c4a1f01d517089cc2201c3e6",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx693/yx693-2.jpg",
+          "sha256": "d3af3aee386f2696838621c7f724ab0649071a696ab828ae1f9aedfc57f00c23",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx693/yx693-3.jpg",
+          "sha256": "42b84124d3245baac647dd9f1148a37d333655cc09e2556884ef87c8f8a062cd",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX318",
+      "pdp": "p-yx318.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Strawberry-Polymer-Hot-Soft-Clay_1600249384797.html",
+      "sourceFields": {
+        "title": "5mm Strawberry Polymer Hot Soft Clay Sprinkles for DIY Crafts Slime Filling Plastic Klei Tiny Cute Mud Particles Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX318"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx318/yx318-1.jpg",
+          "sha256": "a646174ef2f177901e2fcdb259a082f2acdf55dfb1f45a8b8729067b752e0687",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx318/yx318-2.jpg",
+          "sha256": "9acde54835140624d71a2d4bfc8937929bf9d558a28cd7f0bcb72e86a9c7e9a9",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx318/yx318-3.jpg",
+          "sha256": "2493441dff57f3f285ff30d4d14bde7b1837b04495c88cdf94dc608a8930d6bf",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX124",
+      "pdp": "p-yx124.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/20-20-2mm-Polymer-Clay-Fruit_62260378134.html",
+      "sourceFields": {
+        "title": "20*20*2mm Polymer Clay Fruit Slice Strawberry Kiwifruit Flat Back Slices for Earrings Charms Paste Hairpin DIY",
+        "material": "Polymer Clay",
+        "size": "approximately 20 × 20 × 2 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX124"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx124/yx124-1.jpg",
+          "sha256": "a92346df773477a29bf454f636a1dea54504aceeac270f2780162e78b5de06ef",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx124/yx124-2.jpg",
+          "sha256": "ff3e0b2ecd9592b4887a50d93689f287d01c2a8a7b1cab1d5770b627aa0026f4",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx124/yx124-3.jpg",
+          "sha256": "f905bfb9f92ead1446722acc34bfca201937ea0464587561c12467439e9346a5",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX231",
+      "pdp": "p-yx231.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Coconut-Slices-Polymer-Clay-Sprinkles_1600721851374.html",
+      "sourceFields": {
+        "title": "5mm Coconut Slices Polymer Clay Sprinkles for Crafts Making Kawaii Fruits Cake Decoration DIY Nail Art Slimes Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX231"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx231/yx231-1.jpg",
+          "sha256": "9696e6e813440ca99bc499a65f3f2bae08a7d910a858c073efee53e3202194ad",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx231/yx231-2.jpg",
+          "sha256": "8598981207a1bc5d442beedd4dbaafd4140f9cb2dd3c5cb516d0040ea033931a",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx231/yx231-3.jpg",
+          "sha256": "f2bd6c70110a2e1e5a2eab7da79be6f08486b6bfee00d094e3989d13a0c2aaf3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX320",
+      "pdp": "p-yx320.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Colorful-Leaves-Clay-Slices-Sprinkles_1600846322055.html",
+      "sourceFields": {
+        "title": "5mm Colorful Leaves Clay Slices Sprinkles Soft Pottery for DIY Crafts Decoration Filling Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX320"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx320/yx320-1.jpg",
+          "sha256": "cb19fa26920fec8bf9378079853278043603304a92a39b5e2ace72b827ef001e",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx320/yx320-2.jpg",
+          "sha256": "38d9cc87ed1cfb31b45f6af359583cccc7b5283a14c05d9cbd789a90569050d6",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx320/yx320-3.jpg",
+          "sha256": "4152b6e695326e1813fd861fd331d1426ed84a1d460b6499b58729a874ede5d5",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX241",
+      "pdp": "p-yx241.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5MM-Daisy-Flower-Slices-Polymer-Clay_1600061114827.html",
+      "sourceFields": {
+        "title": "5MM Daisy Flower Slices Polymer Clay Sprinkles for Slime Crafts DIY Nail Art Decoration Scrapbooking Accessories",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX241"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx241/yx241-1.jpg",
+          "sha256": "2efd69b5db7bdf1cf688adb935aec1f427f8cb75158384c781b55b40f16dadaa",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx241/yx241-2.jpg",
+          "sha256": "2d7a0358df6fa98f31ab7a5b0813128252ba66ef73f2a88f7b83a322a16dfa72",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx241/yx241-3.jpg",
+          "sha256": "ba486540b4d4007e75589964939b3af1bf7bbf4955fc7391033fb9896c780469",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX219",
+      "pdp": "p-yx219.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Arrive-5mm-Kawaii-Watermelon-Polymer_62489172438.html",
+      "sourceFields": {
+        "title": "New Arrive 5mm Kawaii Watermelon Polymer Clay Slices Sprinkles for Crafts DIY Making Nail Art Decorations Phone Decor",
+        "material": "Polymer Clay",
+        "size": "5 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX219"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx219/yx219-1.jpg",
+          "sha256": "9cd8c3bbebebc5ac2e5ddaead904df84f72da0dc3a3f7d39bf1676a0dd9dbbd4",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx219/yx219-2.jpg",
+          "sha256": "e0f9abfa196579bc6d05664a6f5cb92f372f5563a8915eb359d87773abd6f229",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx219/yx219-3.jpg",
+          "sha256": "bf351ee34551e94a6f17e48034452bcbc42e70f7ce237f7fdd19abc614f2cd82",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX264",
+      "pdp": "p-yx264.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Mini-Pearl-Milk-Tea-Cup_62585604622.html",
+      "sourceFields": {
+        "title": "5mm Mini Pearl Milk Tea Cup Slice Polymer Hot Clay Sprinkles for Crafts Plastic Klei Tiny Cute Mud Particles DIY Accessories",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX264"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx264/yx264-1.jpg",
+          "sha256": "452864365290d2bcc86fe1fbdb025594a62b73ba46dbfa9622e55103ab904e9b",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx264/yx264-2.jpg",
+          "sha256": "71d70dd15821f91fc0a8bfc3c30e548e4b52c4703f2f93f0968a420b54bf42c5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx264/yx264-3.jpg",
+          "sha256": "d5606c134230a6e4c5367406962ea9598758500dd601fb96d32f40a0f48e7e46",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX198",
+      "pdp": "p-yx198.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Red-Pink-Flower-Slice-Hot-Clay_62405839927.html",
+      "sourceFields": {
+        "title": "Red Pink Flower Slice Hot Clay Sprinkles for Slime Material Accessories Polymer Clay Crafts DIY Nail Arts Decoration 5mm",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX198"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx198/yx198-1.jpg",
+          "sha256": "bbefd0f986b6a9a4b01ed90f0104c1aa02b1e016be80a4fd8c47d433346c13b9",
+          "width": 800,
+          "height": 800,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx198/yx198-2.jpg",
+          "sha256": "2bb171aa06bffe4bc069ec2d049a296cbad2c73535ec017ceeea8ad482faee43",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx198/yx198-3.jpg",
+          "sha256": "8b8125917e4ad620226baf216fef7b4b64297731ec89b786bd638d9425c329f3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX252",
+      "pdp": "p-yx252.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/4-5mm-MIni-Heart-Polymer-Soft_62407207304.html",
+      "sourceFields": {
+        "title": "4*5mm MIni Heart Polymer Soft Clay Sprinkles for Kids Diy Scrapbook Decoration Slime Filler Diy Making",
+        "material": "Polymer Clay",
+        "size": "4 × 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX252"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx252/yx252-1.jpg",
+          "sha256": "d3e68cdb7a0ad34892f584266ae3c69084778cbae711bee4ca91ff1f5e82494f",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx252/yx252-2.jpg",
+          "sha256": "6a1af8679b1a6f0988dfda55ce062af29522cd222f3afdc61e94aae04bf751ea",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx252/yx252-3.jpg",
+          "sha256": "ab856052974673514cdcb2ab5207f7921cd0b8a3c3e9f09e749cb2d2c5e141ae",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX265",
+      "pdp": "p-yx265.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/500g-White-Halloween-Bones-Polymer-Hot_1600127349391.html",
+      "sourceFields": {
+        "title": "500g White Halloween Bones Polymer Hot Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Cake Partic",
+        "material": "Polymer Clay",
+        "size": "1 × 4 × 8 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX265"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx265/yx265-1.jpg",
+          "sha256": "7c2334a1c37c4cb0d9540b3d5e3b489484755f1ace77107cc413732b110c09f9",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx265/yx265-2.jpg",
+          "sha256": "02abd01b45f7457c42d8485e3372c235ec103389e1dc230748770e2ab1c65b96",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx265/yx265-3.jpg",
+          "sha256": "6d0bbc5bc40d8bc43e00b235488bcdc4c7eb63447957a0acbeb127cab941bb7b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX247",
+      "pdp": "p-yx247.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Hot-Selling-Polymer-Clay-White-Envelope_1600055454865.html",
+      "sourceFields": {
+        "title": "Hot Selling Polymer Clay White Envelope Slice Sprinkles for Crafts Making Accessories Nail Arts Decoration DIY Phone Decor",
+        "material": "Polymer Clay",
+        "size": "5 mm or 10 mm source options",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX247"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx247/yx247-1.jpg",
+          "sha256": "39ff09c8e91248dd2ecf32338e1094730ad60369e9fc14f84a490e2bf8945950",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx247/yx247-2.jpg",
+          "sha256": "61d5b2e09b7b988ca0a30076f6a9e5602c9c7fbfc99e349f3a587ad0bf701b07",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx247/yx247-3.jpg",
+          "sha256": "f387e2e194cbea98ca8632f4c7026654f1027f3961a2f173b13a3d5354d733bb",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX251",
+      "pdp": "p-yx251.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cloud-Slices-Polymer-Clay_1600060985105.html",
+      "sourceFields": {
+        "title": "Mini Kawaii Cloud Slices Polymer Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Phone Decor",
+        "material": "Polymer Clay",
+        "size": "1 × 3 × 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX251"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx251/yx251-1.jpg",
+          "sha256": "662d47bd689883b947737a99e0eb565a7a43acb867a248244c53640fe35ff9c8",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx251/yx251-2.jpg",
+          "sha256": "3d1bf0ab24ea95bc55d104d0702f0b03151d8ce7270d05c3df8da31f70541a61",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx251/yx251-3.jpg",
+          "sha256": "82d7ad052ba3347ededdcd71ed2dd046ee66c9260f280a4c0318638aef4650d4",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX273",
+      "pdp": "p-yx273.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Christmas-Hat-Clay-Slices-Polymer_1600136228143.html",
+      "sourceFields": {
+        "title": "Cute Christmas Hat Clay Slices Polymer Hot Clay Sprinkles for Craft DIY Making Phone Case Nails Art Decoration Accessories",
+        "material": "Polymer Clay",
+        "size": "4 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX273"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx273/yx273-1.jpg",
+          "sha256": "7872b3f9613df39098ef1a8f457c8c30b7c6f10056ffc1a2b55a0f50ca92321d",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx273/yx273-2.jpg",
+          "sha256": "69cd45d4e123ac350b92b7b7452230e8c741615158634c1df2c4890cba7c89c9",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx273/yx273-3.jpg",
+          "sha256": "a1c2d325662556d65003397b955d20848c0f764f40ecd9f8e58f6b85b15782c1",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "YX130",
+      "pdp": "p-yx130.html",
+      "batchNumber": 37,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulation-Sesame-Seeds-Slices-Polymer-Clay_1601376984915.html",
+      "sourceFields": {
+        "title": "Simulation Sesame Seeds Slices Polymer Clay Sprinkles for Crafts DIY Miniature Cake Decoration Slime Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 2 × 1 × 0.5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX130"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/yx130/yx130-1.jpg",
+          "sha256": "c0e63d00c7ddcc8b691bd17281024111279251ded58c61d6b61668d61fecf265",
+          "width": 960,
+          "height": 960,
+          "role": "original",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/yx130/yx130-2.jpg",
+          "sha256": "e3a4c7b880e7ebdd83f9917429404f79cbf94ace2b9de1131c882b742b03c621",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/yx130/yx130-3.jpg",
+          "sha256": "f98ead45d78a98e0e79d4bf619361415019e4cdba976bbddf3e1268018b552ce",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    }
+  ]
+}
