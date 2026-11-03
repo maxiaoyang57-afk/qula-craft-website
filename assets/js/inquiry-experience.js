@@ -30,7 +30,9 @@
     catch { return path; }
   })();
   const publicPage = config.origin + canonicalPath;
-  const isProductPage = [...document.querySelectorAll('script[type="application/ld+json"]')].some(script => {
+  // Inquiry-only PDPs intentionally omit Product rich-result markup. Their
+  // explicit product CTA still supplies the SKU, image and category context.
+  const isProductPage = Boolean(document.querySelector('.pdp-cta a[href*="sku="]')) || [...document.querySelectorAll('script[type="application/ld+json"]')].some(script => {
     try {
       const data = JSON.parse(script.textContent);
       const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);

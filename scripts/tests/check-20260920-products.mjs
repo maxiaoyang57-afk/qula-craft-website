@@ -49,15 +49,11 @@ for (const [sku, categorySlug] of expected) {
 
   const schemas = [...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/gi)]
     .map(match => JSON.parse(match[1]));
-  const productSchema = schemas.find(item => item['@type'] === 'Product');
-  if (!productSchema) throw new Error(`${sku}: Product JSON-LD missing`);
-  if (productSchema.sku !== sku || productSchema.url !== `https://www.qulacrafts.com/p-${sku.toLowerCase()}.html`) {
-    throw new Error(`${sku}: Product JSON-LD identity mismatch`);
+  if (schemas.some(item => item['@type'] === 'Product')) throw new Error(`${sku}: inquiry-only batch must not publish Product markup`);
+  const last = schemas.find(item => item['@type'] === 'BreadcrumbList')?.itemListElement?.at(-1);
+  if (last?.name !== sku || last?.item !== `https://www.qulacrafts.com/p-${sku.toLowerCase()}.html`) {
+    throw new Error(`${sku}: breadcrumb identity mismatch`);
   }
-  if (!productSchema.brand || !productSchema.manufacturer || !Array.isArray(productSchema.image) || productSchema.image.length !== 3) {
-    throw new Error(`${sku}: Product JSON-LD required fields missing`);
-  }
-  if (productSchema.offers) throw new Error(`${sku}: quote-only batch must not publish an Offer`);
 
   for (const image of pdpRows[0].imagesLocal) {
     if (!page.includes(image)) throw new Error(`${sku}: PDP does not reference ${image}`);

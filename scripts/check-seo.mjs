@@ -77,6 +77,9 @@ function validateCatalogSchema(value, file) {
   }
   if (!value || typeof value !== 'object') return;
   const types = [].concat(value['@type'] || []);
+  if (types.includes('Product') && !value.offers && !value.review && !value.aggregateRating) {
+    failures.push(`${file}: inquiry-only Product must not claim product rich-result eligibility`);
+  }
   // These catalog exports contain price tiers, not a live inventory feed or
   // individually published offers. Do not infer either from the tier count.
   if (file.startsWith('p-') && types.includes('AggregateOffer')) {
@@ -162,7 +165,7 @@ for (const file of files) {
   const canonical = pageCanonicals[0] || '';
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
-  const quoteOnly = /<b>Quoted by pack and quantity<\/b>/i.test(html);
+  const quoteOnly = /<b>(?:Quoted by pack and quantity|Wholesale pricing by quotation|Packaging &amp; MOQ)<\/b>/i.test(html);
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
@@ -217,8 +220,8 @@ for (const file of files) {
       collectSchemaNodes(data, schemaNodes);
       validateOrganizationLogos(data, file);
       validateCatalogSchema(data, file);
-      if (quoteOnly && data['@type'] === 'Product' && data.offers) {
-        failures.push(`${file}: quote-only product must not publish an Offer`);
+      if (quoteOnly && schemaNodes.some(node => [].concat(node['@type'] || []).includes('Product'))) {
+        failures.push(`${file}: quote-only page must not publish Product markup`);
       }
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
@@ -228,9 +231,14 @@ for (const file of files) {
   if (pdpCopyByFile.has(file)) {
     const expected = pdpCopyByFile.get(file);
     const product = schemaNodes.find((node) => node['@type'] === 'Product');
-    if (!product || product.name !== expected.displayTitle || product.description !== expected.metaDescription ||
-        product.isFamilyFriendly !== expected.isFamilyFriendly) {
+    if (!quoteOnly && (!product || product.name !== expected.displayTitle || product.description !== expected.metaDescription ||
+        product.isFamilyFriendly !== expected.isFamilyFriendly)) {
       failures.push(`${file}: Product schema differs from public copy data`);
+    }
+    const crumb = schemaNodes.find(node => node['@type'] === 'BreadcrumbList');
+    const last = crumb?.itemListElement?.at(-1);
+    if (!last || last.name !== expected.sku || last.item !== base + file) {
+      failures.push(`${file}: breadcrumb must retain the exact SKU and canonical product URL`);
     }
   }
 
