@@ -11,7 +11,10 @@ metadata, canonical URLs, robots directives and BreadcrumbList byte-for-byte.
 859 of these pages are public; two archived references remain excluded from the
 sitemap. Update lastmod only for the 859 changed public URLs. The other 109
 pages' existing pricing and Product blocks are outside this targeted change.
-No source commercial data, categories, images, analytics or inquiry routing changes.
+No source commercial data, categories, images, analytics or inquiry destinations change.
+Generic header/footer inquiry links identify the current product from its explicit
+PDP inquiry CTA, so SKU/image/category context no longer depends on Product markup.
+Existing mobile integration checks caught this dependency and cover the fix.
 
 The generator uses the same eligibility decision, and SEO checks reject a new
 inquiry-only Product even when nested. Existing product identity, packing and
