@@ -124,7 +124,9 @@
     // Child-list observation also keeps dynamically inserted cards available.
     if (typeof MutationObserver === 'function') {
       new MutationObserver(records => {
-        if (!records.some(record => record.type === 'childList' || cards.includes(record.target))) return;
+        if (!records.some(record => record.type === 'childList'
+          ? record.target === grid
+          : record.target.parentElement === grid)) return;
         if (scheduled) return;
         scheduled = true;
         queueMicrotask(() => { scheduled = false; refresh(); });

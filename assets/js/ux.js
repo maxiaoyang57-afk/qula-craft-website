@@ -24,18 +24,27 @@
       'section [class*="card"], section [class*="-grid"] > *, .faq-list > .faq-item, ' +
       'article > h2, article > p, article > table, article > ul, article > img'
     );
-    var pool = [];
+    var pool = new Set();
     candidates.forEach(function (el) {
-      if (pool.indexOf(el) !== -1) return;
+      if (pool.has(el)) return;
       if (el.classList.contains('reveal')) return; // 页面自带体系,让位
       if (el.closest('.reveal, nav, footer, header, .page-hero, [class*="hero"]')) return;
       var tag = el.tagName;
       if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'LINK' || tag === 'NAV' || tag === 'H1') return;
-      pool.push(el);
+      pool.add(el);
     });
-    // 只保留最内层候选:容器让位给自己的候选子元素(卡片逐个入场比整块淡入细腻)
-    var targets = pool.filter(function (el) {
-      return !pool.some(function (other) { return other !== el && el.contains(other); });
+    // Mark candidate ancestors once, rather than comparing every pair of cards.
+    var containers = new Set();
+    pool.forEach(function (el) {
+      for (var parent = el.parentElement; parent; parent = parent.parentElement) {
+        if (pool.has(parent)) containers.add(parent);
+      }
+    });
+    // First-screen content stays visible from its first paint. Reveal is only
+    // an enhancement for content the visitor has not reached yet.
+    var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    var targets = Array.from(pool).filter(function (el) {
+      return !containers.has(el) && el.getBoundingClientRect().top >= viewportHeight;
     });
     targets.forEach(function (el) { el.classList.add('ux-reveal'); });
     var counters = new (window.WeakMap ? WeakMap : function () { this.get = this.set = function () {}; })();

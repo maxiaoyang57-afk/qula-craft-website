@@ -102,9 +102,12 @@ for (const entry of entries.filter(e => e.isFile() && e.name.endsWith('.html')))
   if (entry.name === 'guide-seasonal-craft-calendar.html') {
     // The complete repository graph confirmed this SKU really had only one
     // incoming page; most other sampled warnings were a 100-page crawl artifact.
-    const product = catalog.categories.flatMap(c => c.products).find(p => p.pdp === 'p-yx4102.html');
-    if (!product) throw new Error('Missing published seasonal comparison product');
-    html = html.replace('</main>', '<aside class="container guide-note">Compare a current seasonal product: <a href="' + product.pdp + '">' + htmlEscape(product.titleFull || product.title) + '</a>.</aside></main>');
+    const products = ['p-yx4102.html', 'p-yx163.html', 'p-yx4057.html', 'p-yx421.html'].map(pdp => {
+      const product = catalog.categories.flatMap(c => c.products).find(p => p.pdp === pdp);
+      if (!product) throw new Error('Missing published seasonal comparison product: ' + pdp);
+      return '<a href="' + product.pdp + '">' + htmlEscape(product.titleFull || product.title) + '</a>';
+    });
+    html = html.replace('</main>', '<aside class="container guide-note">Compare current seasonal products: ' + products.join(' · ') + '.</aside></main>');
   }
   if (html.includes('assets/js/analytics.js')) {
     // Parse-time markup and its CSS reserve space before the first paint. The
@@ -115,7 +118,9 @@ for (const entry of entries.filter(e => e.isFile() && e.name.endsWith('.html')))
   const preloads = imagePreloads(html);
   if (preloads) {
     html = html.replace(/<link\b(?=[^>]*\brel=["']preload["'])(?=[^>]*\bas=["']image["'])[^>]*>/gi, '');
-    html = html.replace('</head>', preloads + '</head>');
+    // Discover hero images before the inlined CSS, while keeping charset first.
+    const marker = html.match(/<meta\b(?=[^>]*\bname=["']viewport["'])[^>]*>/i)?.[0] || '<head>';
+    html = html.replace(marker, marker + preloads);
   }
   html = html.replace(/\b(href|src)=(["'])(\/?assets\/[^"'?#]+)(?:\?[^"']*)?\2/g, (all, key, quote, asset) => {
     const version = fingerprints.get(asset.replace(/^\//, ''));
