@@ -319,7 +319,7 @@ for e in pdp:
 
     main_img = imgs[0] if imgs else catrow["image"]
     q_url = f"quote.html?product={esc(cut_words(title_full, 50)).replace(' ', '%20')}&sku={esc(sku)}&image={esc(main_img)}"
-    if public_copy.get("selectionAdvice") and catrow.get("inquiryUrl"):
+    if (public_copy.get("selectionAdvice") or key == "czb26337") and catrow.get("inquiryUrl"):
         q_url = esc(catrow["inquiryUrl"])
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")

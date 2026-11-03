@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 GUIDES = json.loads((ROOT / "assets/data/product-selection-guides.json").read_text(encoding="utf-8"))
-CATEGORIES = {"czb26337": "Beads for Pens", "yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens"}
+CATEGORIES = {"czb26337": "Resin Charms", "yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens"}
 
 
 def selection_quote_url(key: str, quote_url: str) -> str:
@@ -82,7 +82,7 @@ def update_existing_pages() -> None:
         path.write_text(after, encoding="utf-8")
         print(f"Updated selection guide: {guide['sku']}")
         if guide.get("catalogNote"):
-            category_path = ROOT / "beads-for-pens.html"
+            category_path = ROOT / ("resin-charms.html" if CATEGORIES[key] == "Resin Charms" else "beads-for-pens.html")
             category_html = category_path.read_text(encoding="utf-8")
             def annotate_card(match):
                 card = match.group(0)

@@ -4361,7 +4361,7 @@
    "name": "Resin Charms",
    "slug": "resin-charms",
    "sourceSheet": "Resin Charms",
-   "productCount": 626,
+   "productCount": 627,
    "noteCount": 0,
    "notes": [],
    "products": [
@@ -19470,6 +19470,29 @@
      "titleFull": "Wholesale Christmas Snowman and Tree Resin Flatback Cabochons for Hair Accessories, Bags and Cards",
      "pdp": "p-rw26819.html",
      "inquiryUrl": "quote.html?product=RW26819%20Wholesale%20Christmas%20Snowman%20and%20Tree%20Resin%20Flatback%20Cabochons%20for%20Hair%20Accessories%2C%20Bags%20and%20Cards&sku=RW26819&image=assets/images/pdp/rw26819/rw26819-1-christmas-snowman-tree-resin-flatbacks.png&category=Resin%20Charms"
+    },
+    {
+     "category": "Resin Charms",
+     "categorySlug": "resin-charms",
+     "sourceSheet": "Beads for Pens",
+     "sourceRow": 4,
+     "sortOrder": 627,
+     "sku": "CZB26337",
+     "title": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
+     "alibabaUrl": "https://www.alibaba.com/product-detail/100PCS-Cute-Pig-Resin-Slime-Charms_1601844326800.html?spm=a2747.product_manager.0.0.7b1371d2bQ8v9m",
+     "cleanAlibabaUrl": "https://www.alibaba.com/product-detail/100PCS-Cute-Pig-Resin-Slime-Charms_1601844326800.html",
+     "alibabaProductId": "1601844326800",
+     "image": "assets/images/catalog/beads-for-pens/004-czb26337.webp",
+     "imageAlt": "CZB26337 100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
+     "imageWidth": 239,
+     "imageHeight": 240,
+     "imageHash": "efa654858cff342f31fab5ee41ca36e5",
+     "status": "ok",
+     "anchorNote": "",
+     "titleShort": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
+     "titleFull": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
+     "pdp": "p-czb26337.html",
+     "inquiryUrl": "quote.html?product=CZB26337%20100%20pcs%20Cute%20Pig%20Resin%20Slime%20Charms%20Flatback%20Decoration%20DIY%20Hair%20Accessories%20Phone%20Case%20Scarf%20Craft%20Supplies%20Desktop%20Ornament&sku=CZB26337&image=assets/images/catalog/beads-for-pens/004-czb26337.webp&category=Resin%20Charms"
     }
    ]
   },
@@ -20765,7 +20788,7 @@
    "name": "Beads for Pens",
    "slug": "beads-for-pens",
    "sourceSheet": "Beads for Pens",
-   "productCount": 28,
+   "productCount": 27,
    "noteCount": 0,
    "notes": [],
    "products": [
@@ -20984,28 +21007,6 @@
      "titleShort": "100 pcs Creative Cartoon Dog Pet Beads DIY Beaded Loose Beads Making for Jewelry Ornaments Key Chain Beaded Pens DIY",
      "titleFull": "100 pcs Creative Cartoon Dog Pet Beads DIY Beaded Loose Beads Making for Jewelry Ornaments Key Chain Beaded Pens DIY",
      "pdp": "p-czb26323.html"
-    },
-    {
-     "category": "Beads for Pens",
-     "categorySlug": "beads-for-pens",
-     "sourceSheet": "Beads for Pens",
-     "sourceRow": 4,
-     "sortOrder": 10,
-     "sku": "CZB26337",
-     "title": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
-     "alibabaUrl": "https://www.alibaba.com/product-detail/100PCS-Cute-Pig-Resin-Slime-Charms_1601844326800.html?spm=a2747.product_manager.0.0.7b1371d2bQ8v9m",
-     "cleanAlibabaUrl": "https://www.alibaba.com/product-detail/100PCS-Cute-Pig-Resin-Slime-Charms_1601844326800.html",
-     "alibabaProductId": "1601844326800",
-     "image": "assets/images/catalog/beads-for-pens/004-czb26337.webp",
-     "imageAlt": "CZB26337 100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
-     "imageWidth": 239,
-     "imageHeight": 240,
-     "imageHash": "efa654858cff342f31fab5ee41ca36e5",
-     "status": "ok",
-     "anchorNote": "",
-     "titleShort": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
-     "titleFull": "100 pcs Cute Pig Resin Slime Charms Flatback Decoration DIY Hair Accessories Phone Case Scarf Craft Supplies Desktop Ornament",
-     "pdp": "p-czb26337.html"
     },
     {
      "category": "Beads for Pens",
