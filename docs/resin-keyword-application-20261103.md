@@ -16,7 +16,7 @@ The first two queries share many results in the saved SERP snapshots. Treat them
 - Keep the established URL, title, H1 and metadata during the existing observation window.
 - Use wholesale wording naturally in the existing catalog introduction and shortcut. Bring a compact purchasing summary directly above the product grid while keeping the full specification section below it.
 - Cover the buyer's actual checks: selected SKU, dimensions, back style, assortment, pieces per bag, availability, MOQ and dispatch date. Pack quantity is not MOQ. Unconfirmed commercial terms remain subject to quotation.
-- Reuse the existing category inquiry context in the new inline quote link, so the form retains product, category, entry title and referring page.
+- Reuse the existing category inquiry context in the new inline quote link, so the form retains product, category, entry title, referring page and the category cover image.
 - Update one existing contextual link from the decoden guide to make its wholesale destination clear. Preserve all existing products and inquiry routes.
 
 ## Measurement
