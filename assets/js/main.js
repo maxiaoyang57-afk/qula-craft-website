@@ -246,9 +246,11 @@
     renderChip();
   });
   // 已在篮中的按钮标记
+  const savedBasketSkus=new Set(load().map(item=>item.sku));
   document.querySelectorAll('.basket-add').forEach(a=>{
-    a.setAttribute('aria-pressed',String(load().some(x=>x.sku===a.dataset.sku)));
-    if(load().some(x=>x.sku===a.dataset.sku)){a.classList.add('added');a.textContent='✓ In list';}
+    const added=savedBasketSkus.has(a.dataset.sku);
+    a.setAttribute('aria-pressed',String(added));
+    if(added){a.classList.add('added');a.textContent='✓ In list';}
   });
   // quote 页:渲染篮面板 + 预填 textarea
   if(/quote\.html$/.test(location.pathname)){

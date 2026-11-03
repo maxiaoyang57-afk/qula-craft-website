@@ -124,15 +124,39 @@
     }
   }
   function init() {
-    document.querySelectorAll('a[href]').forEach(decorate);
+    // Large categories can contain thousands of links. Yield between batches;
+    // interaction still decorates the selected link synchronously below.
+    const pendingLinks = new Set();
+    let decorationScheduled = false;
+    function drainLinks() {
+      decorationScheduled = false;
+      let count = 0;
+      for (const link of pendingLinks) {
+        pendingLinks.delete(link);
+        if (link.isConnected) decorate(link);
+        if (++count >= 40) break;
+      }
+      if (pendingLinks.size) scheduleDecoration();
+    }
+    function scheduleDecoration() {
+      if (decorationScheduled) return;
+      decorationScheduled = true;
+      setTimeout(drainLinks, 0);
+    }
+    function queueLinks(root) {
+      if (root.matches?.('a[href]')) pendingLinks.add(root);
+      root.querySelectorAll('a[href]').forEach(link => pendingLinks.add(link));
+      scheduleDecoration();
+    }
+    queueLinks(document);
     // Also covers search results and product cards inserted after page load.
     document.addEventListener('click', event => decorate(event.target.closest?.('a[href]')), true);
+    document.addEventListener('focusin', event => decorate(event.target.closest?.('a[href]')));
     // Keep newly rendered search cards and navigation consistent before a click.
     new MutationObserver(records => {
       for (const record of records) for (const node of record.addedNodes) {
         if (node.nodeType !== 1) continue;
-        if (node.matches('a[href]')) decorate(node);
-        node.querySelectorAll('a[href]').forEach(decorate);
+        queueLinks(node);
       }
     }).observe(document.body, { childList: true, subtree: true });
     const forms = [...document.querySelectorAll(config.formSelector)];
