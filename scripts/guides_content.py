@@ -266,7 +266,7 @@ GUIDES = [
 # ─────────────────────────────────────────────────────────────
 {
  "slug": "guide-decoden-supplies.html",
- "title": "Decoden Supplies: What Actually Goes on a Phone Case",
+ "title": "Decoden Supplies and Phone Case Charms Guide | Qula Craft",
  "desc": "A sourcing guide to decoden charms: confirm flatback style, plan focal and filler sizes, review current-batch samples, and quote pack counts and MOQ by SKU.",
  "crumb": "Decoden Supplies",
  "eyebrow": "Sourcing Guide",

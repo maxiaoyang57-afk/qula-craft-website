@@ -50,7 +50,14 @@
 
     // --- URL Parameters Auto-fill (Only for specific forms if needed) ---
     if (config.isDedicatedPage) {
+      // The fragment holds form state, not another indexable document. Keep
+      // accepting previously shared query links, with query values taking priority.
       const params = new URLSearchParams(window.location.search);
+      if (window.location.hash?.startsWith('#rfq:')) {
+        new URLSearchParams(window.location.hash.slice(5)).forEach((value, key) => {
+          if (!params.has(key)) params.set(key, value);
+        });
+      }
       const pName = params.get('product');
       const pSku = params.get('sku');
       const pImg = params.get('image');
