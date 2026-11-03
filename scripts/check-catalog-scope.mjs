@@ -22,7 +22,9 @@ for (const source of policy.products) {
   assert.match(page, /data-catalog-archive/);
   assert.match(page, /<meta name="robots" content="noindex,follow">/);
   const schemas = [...page.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
-  assert.ok(schemas.some(node => node['@type'] === 'Product' && node.sku === source.sku), 'Original Product identity remains available');
+  assert.ok(schemas.some(node => node['@type'] === 'BreadcrumbList' &&
+    node.itemListElement?.at(-1)?.name === source.sku &&
+    node.itemListElement?.at(-1)?.item === `https://www.qulacrafts.com/${item.pdp}`), 'Original SKU and page identity remain available');
   assert.ok(page.includes(source.image), 'Original catalog photo remains available');
   assert.ok(!sitemap.includes(`<loc>https://www.qulacrafts.com/${item.pdp}</loc>`));
   assert.ok(!read('llms-full.txt').includes(`](https://www.qulacrafts.com/${item.pdp})`));

@@ -8,6 +8,7 @@ from PIL import Image
 from sc048_customization import apply_sc048_customization
 from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, public_specs
 from pdp_selection_guides import render_selection_guide, selection_jump, selection_quote_url
+from inquiry_schema import pdp_schemas
 
 SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
@@ -255,7 +256,7 @@ for e in pdp:
         {"@type": "ListItem", "position": 3, "name": cname, "item": BASE + catpage(cslug)},
         {"@type": "ListItem", "position": 4, "name": sku, "item": url}]}
     sc = "".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False, separators=(", ", ": "))}</script>\n'
-                 for o in [product, crumb])
+                 for o in pdp_schemas(product, crumb))
     h = h.replace("</head>", sc + "</head>")
     if '/' in sku:
         h = re.sub(r'style\.css\?v=[^"\s]+', 'style.css?v=20261018-grouped-sku', h)
