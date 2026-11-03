@@ -17854,13 +17854,14 @@
     "stockStatus": "In stock; confirm the available quantity with your quote",
     "specs": {
       "Material": "resin",
-      "Size": "20 × 22 mm",
-      "Hole": "Stringing hole present; diameter not supplied. Confirm fit with a sample.",
+      "Size": "Sleeping fox: 18 × 20 × 25 mm; winking fox: 21 × 23 × 16 mm (L × W × H).",
+      "Hole": "Approx. 2 mm. Confirm tolerance and fit with a sample.",
       "Assortment": "Mixed assortment; confirm the exact selection by inquiry",
       "Standard pack": "100 pieces per bag; custom packing by inquiry",
       "Customization": "Available; details confirmed by inquiry",
-      "Compatibility": "Confirm the measured hole diameter against the intended cord or pen rod before ordering.",
-      "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry."
+      "Compatibility": "Confirm the hole direction and height along the hole axis against your intended cord or pen rod. Test a sample before ordering.",
+      "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry.",
+      "Reference unit weight": "4 g per piece for either design. This is not packed shipping weight."
     },
     "images": [],
     "sourceWorkbook": "10.11(5).xlsx",
@@ -17879,13 +17880,25 @@
     },
     "importedAt": "2026-10-16T01:09:17.682223+00:00",
     "metaTitle": "3D Fox Resin Beads with Hole | Qula Craft",
-    "metaDescription": "Orange fox resin beads in sitting and curled designs, listed at 20 × 22 mm. 100 pieces per bag. Stringing holes present; confirm the diameter.",
-    "shortProductDescription": "Orange fox resin beads in sitting and curled designs, listed at 20 × 22 mm. 100 pieces per bag. Stringing holes present; confirm the diameter.",
+    "metaDescription": "CZB26846 sleeping and winking fox resin beads with approx. 2 mm holes. Compare design-specific dimensions and 100-piece packing; confirm fit with a sample.",
+    "shortProductDescription": "CZB26846 sleeping and winking fox resin beads with approx. 2 mm holes. Compare design-specific dimensions and 100-piece packing; confirm fit with a sample.",
     "imagesLocal": [
       "assets/images/pdp/czb26846/czb26846-1-orange-fox-resin-craft-beads.png",
       "assets/images/pdp/czb26846/czb26846-2-orange-fox-resin-craft-beads-scene.jpg",
       "assets/images/pdp/czb26846/czb26846-3-orange-fox-resin-craft-beads-detail.jpg"
-    ]
+    ],
+    "verifiedSpecificationUpdate": {
+      "date": "2026-11-02",
+      "basis": "Owner-approved parameter table takes precedence over image annotations; approximate hole diameter reported separately by the owner.",
+      "sizeAxisOrder": "L × W × H",
+      "parameterTableSha256": "b46101322c45aff1505a32b5e284a5e93ce665637e9a52ddbe6ad14d95560a0b",
+      "previousPublishedSpecs": {
+        "Size": "20 × 22 mm",
+        "Hole": "Stringing hole present; diameter not supplied. Confirm fit with a sample.",
+        "Compatibility": "Confirm the measured hole diameter against the intended cord or pen rod before ordering."
+      },
+      "sampleFitVerified": false
+    }
   },
   {
     "catalogIndex": 726,
