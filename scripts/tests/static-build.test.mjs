@@ -49,3 +49,20 @@ test('consent is present at parse time and all local scripts and styles use buil
   }
   assert(!read('dist/quote.html').includes('hreflang='));
 });
+
+test('inquiry-only catalog has no public product prices or historical data backups', () => {
+  const data = JSON.parse(read('dist/assets/data/pdp-data.json'));
+  for (const entry of data) {
+    assert.equal(entry.pricingMode, 'quote_only', entry.assetKey);
+    assert.deepEqual(entry.priceTiers, [], entry.assetKey);
+    const html = read(`dist/p-${entry.assetKey}.html`);
+    assert(!/From\s*\$|itemprop=["'](?:price|lowPrice|highPrice)["']/i.test(html), entry.assetKey);
+    const nodes = metadata(html);
+    assert(!nodes.some(node => ['Product', 'Offer', 'AggregateOffer'].includes(node['@type'])), entry.assetKey);
+  }
+  assert(!/ · from \$/i.test(read('dist/llms-full.txt')));
+  for (const name of fs.readdirSync('assets/data').filter(name => /\.backup[-.]/.test(name))) {
+    assert(!fs.existsSync('dist/assets/data/' + name), name);
+    assert(fs.existsSync('assets/data/' + name), name + ' history retained');
+  }
+});

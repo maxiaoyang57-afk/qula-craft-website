@@ -27,3 +27,11 @@ class VerifiedProductSpecsTests(unittest.TestCase):
             self.assertIn(f"<b>Size</b></td><td>{size}</td>", page)
             self.assertIn("<b>Source packing</b></td><td>100 pieces per bag</td>", page)
         self.assertIn("12 × 22 mm", (ROOT / "guide-decoden-supplies.html").read_text())
+
+    def test_flatback_type_survives_corrected_resin_category(self):
+        rows = json.loads((ROOT / "assets/data/pdp-data.json").read_text())
+        entry = next(row for row in rows if row["sku"] == "CZB26337")
+        original = copy.deepcopy(entry)
+        self.assertEqual(entry["categorySlug"], "resin-charms")
+        self.assertEqual(public_specs(entry)["Product Type"], "Resin flatback charm")
+        self.assertEqual(entry, original)

@@ -191,8 +191,7 @@ def public_specs(entry: dict) -> dict:
     if ("Reference packing" not in specs and isinstance(size, str)
             and re.fullmatch(r"\d+(?:\.\d+)?\s*(?:g|kg)\s*(?:/\s*bags?|×\s*\d+\s*bags?\s*/\s*parcel)", size, re.I)):
         specs["Reference packing"] = specs.pop("Size")
-    if (entry.get("categorySlug") == "beads-for-pens"
-            and specs.get("Product Type") == "Painting"
+    if (specs.get("Product Type") == "Painting"
             and specs.get("Material") == "Resin"):
         title = entry.get("titleFull", "")
         if re.search(r"\bflatback\b", title, re.I) and re.search(r"\bcharms?\b", title, re.I) and not re.search(r"\bbeads?\b", title, re.I):

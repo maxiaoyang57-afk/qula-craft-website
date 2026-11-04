@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
-"""Suppress product prices when the displayed unit conflicts with the MOQ unit.
+"""Apply QULA's inquiry-only pricing policy to every public product surface.
 
-The source catalog occasionally exposes a per-piece price beside a bag MOQ (or
-the reverse).  There is no verified conversion between those units, so the
-only truthful public representation is a quantity-based quote.
+Historical listing tiers are not current quotations. Keep product facts, MOQ,
+images and inquiry links intact while removing those tiers and public offers.
+Run after a legacy import; the build guard also rejects any price regression.
 """
 
 from __future__ import annotations
 
+import argparse
+import datetime
 import json
 import re
 from pathlib import Path
-
+from inquiry_schema import remove_inquiry_product_schema
 
 SITE = Path(__file__).resolve().parents[1]
 PRICE_BLOCK = re.compile(
@@ -19,111 +21,63 @@ PRICE_BLOCK = re.compile(
     r'(?P<unit>[^<]+)</b> · MOQ (?P<moq>[^—<]+) — tiered pricing by quantity; '
     r'the full tier table comes back with your quote within 12&#8211;24 hours\.</div>'
 )
-PRICE_CLAUSE = re.compile(
-    r'\. from \$[\d,.]+/(?:pieces|piece|pcs|pc|pairs|pair|bags|bag|boxes|box|sets|set|rolls|roll)\b',
-    re.I,
-)
 LLMS_PRICE = re.compile(
     r' · from \$[\d,.]+/(?:pieces|piece|pcs|pc|pairs|pair|bags|bag|boxes|box|sets|set|rolls|roll)\b',
     re.I,
 )
-QUOTED_BLOCK = re.compile(
-    r'<b>Quoted by pack and quantity</b> · MOQ (?P<moq>[^—<]+) — '
-)
-MOQ_SENTENCE = re.compile(r'MOQ [^.]+\. From Yiwu')
 
 
-def family(text: str) -> str | None:
-    text = text.lower()
-    if re.search(r"\b(?:bag|bags|box|boxes|set|sets|roll|rolls)\b", text):
-        return "pack"
-    if re.search(r"\b(?:pc|pcs|piece|pieces|pair|pairs)\b", text):
-        return "piece"
-    return None
+def inquiry_source(entry: dict) -> dict:
+    return {**entry, "priceTiers": [], "pricingMode": "quote_only"}
 
 
-def clean_price_clause(text: str) -> str:
-    return PRICE_CLAUSE.sub("", text)
+def inquiry_page(page: str) -> str:
+    def quote(match: re.Match[str]) -> str:
+        return (
+            '<div class="answer-box" style="margin:14px 0"><b>Quoted by pack and quantity</b>'
+            f' · MOQ {match["moq"].strip()} — full pricing comes back with your quote '
+            'within 12&#8211;24 hours.</div>'
+        )
 
-
-def repair_moq_sentence(text: str, moq: str) -> str:
-    """Keep metadata MOQ wording aligned with the verified visible MOQ."""
-    return MOQ_SENTENCE.sub(f"MOQ {moq}. From Yiwu", text)
-
-
-def patch_json_ld(match: re.Match[str]) -> str:
-    raw = match.group(1)
-    try:
-        data = json.loads(raw)
-    except json.JSONDecodeError:
-        return match.group(0)
-    if data.get("@type") != "Product":
-        return match.group(0)
-    data.pop("offers", None)
-    if isinstance(data.get("description"), str):
-        data["description"] = clean_price_clause(data["description"])
-    compact = json.dumps(data, ensure_ascii=False, separators=(", ", ": "))
-    return f'<script type="application/ld+json">{compact}</script>'
+    return remove_inquiry_product_schema(PRICE_BLOCK.sub(quote, page))
 
 
 def main() -> None:
-    hardened: list[str] = []
-    changed: list[str] = []
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--date", type=datetime.date.fromisoformat, default=datetime.date.today())
+    args = parser.parse_args()
+    source = SITE / "assets/data/pdp-data.json"
+    entries = json.loads(source.read_text(encoding="utf-8"))
+    updated = [inquiry_source(entry) for entry in entries]
+    source_changes = sum(old != new for old, new in zip(entries, updated))
+    if source_changes:
+        source.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    changed = []
     for path in sorted(SITE.glob("p-*.html")):
-        html = path.read_text(encoding="utf-8")
-        original = html
-        match = PRICE_BLOCK.search(html)
-        if match:
-            unit_family = family(match.group("unit"))
-            moq = match.group("moq").strip()
-            moq_unit_family = family(moq)
-            if unit_family and moq_unit_family and unit_family != moq_unit_family:
-                replacement = (
-                    '<div class="answer-box" style="margin:14px 0"><b>Quoted by pack and quantity</b>'
-                    f' · MOQ {moq} — the sales unit and full tier pricing are confirmed in your quote '
-                    'within 12&#8211;24 hours.</div>'
-                )
-                html = PRICE_BLOCK.sub(replacement, html, count=1)
-                html = clean_price_clause(html)
-                html = re.sub(
-                    r'<script type="application/ld\+json">(.*?)</script>',
-                    patch_json_ld,
-                    html,
-                    flags=re.S,
-                )
-                hardened.append(path.name)
+        old = path.read_text(encoding="utf-8")
+        new = inquiry_page(old)
+        if new != old:
+            path.write_text(new, encoding="utf-8")
+            changed.append(path)
 
-        quoted = QUOTED_BLOCK.search(html)
-        if quoted:
-            html = repair_moq_sentence(html, quoted.group("moq").strip())
+    llms = SITE / "llms-full.txt"
+    old = llms.read_text(encoding="utf-8")
+    new, llms_changes = LLMS_PRICE.subn("", old)
+    if new != old:
+        llms.write_text(new, encoding="utf-8")
 
-        if html != original:
-            path.write_text(html, encoding="utf-8")
-            changed.append(path.name)
-
-    if changed or "quantitys" in (SITE / "llms-full.txt").read_text(encoding="utf-8"):
-        llms_path = SITE / "llms-full.txt"
-        llms = llms_path.read_text(encoding="utf-8")
-        for filename in hardened:
-            slug = filename.removesuffix(".html")
-            llms = re.sub(
-                rf'(^- \[[^\n]+\]\(https://www\.qulacrafts\.com/{re.escape(slug)}\.html\):[^\n]+?)'
-                r' · from \$[\d,.]+/(?:bag|pc|pcs|piece|pieces|pair|set|box|roll)',
-                r'\1 · price confirmed by sales unit and quantity',
-                llms,
-                flags=re.I | re.M,
-            )
-        llms = re.sub(
-            r'price confirmed by sales unit and quantitys\b',
-            'price confirmed by sales unit and quantity',
-            llms,
-        )
-        llms_path.write_text(llms, encoding="utf-8")
-
-    print(f"Suppressed conflicting price/MOQ units on {len(hardened)} product pages.")
-    print(f"Updated or repaired {len(changed)} product pages.")
-    for filename in hardened:
-        print(f"  {filename}")
+    sitemap = SITE / "sitemap.xml"
+    old = sitemap.read_text(encoding="utf-8")
+    new = old
+    for path in changed:
+        pattern = r'(<loc>https://www\.qulacrafts\.com/' + re.escape(path.name) + r'</loc>\s*<lastmod>)[^<]+(</lastmod>)'
+        new, count = re.subn(pattern, lambda match: match[1] + str(args.date) + match[2], new)
+        if count != (0 if re.search(r'<meta[^>]+name="robots"[^>]+noindex', path.read_text(), re.I) else 1):
+            raise ValueError(f"Unexpected sitemap coverage: {path.name}")
+    if new != old:
+        sitemap.write_text(new, encoding="utf-8")
+    print(json.dumps({"source_records_updated": source_changes, "pages_updated": len(changed), "llms_prices_removed": llms_changes}))
 
 
 if __name__ == "__main__":

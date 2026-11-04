@@ -1,3 +1,8 @@
+## 当前价格口径（2026-11-04，全站修复授权）
+- QULA 全站为询价模式。历史阿里 listing 的价格档不是当前报价，不得发布起步价、固定价、零元占位价、Offer/AggregateOffer，或为富结果补造评价与评分。下文7月的“From $”规则仅作历史，已被本口径替代。
+- `pdp-data.json` 的 `priceTiers` 保持空数组，`pricingMode` 使用 `quote_only`；新增导入若未写模式也按询价处理。正文、Google结构化数据、llms索引和生成器必须一致。旧导入后可运行 `python scripts/harden-product-pricing.py`，构建检查必须阻断价格回归。
+- 保留真实MOQ、包装、材质、尺寸、货号、图片和询价入口。缺乏可靠原始资料的字段保留待核，不能推测补写。本次没有授权改变商业承诺或分类范围。
+
 ## 用户确认的固定分类范围（2026-10-31）
 - 仅保留原有9类：Slime Charms、Polymer Clay Slices、Plastic Sequins、Resin Charms、PVC Plastic Charms、Plastic/Acrylic Beads、Beads for Pens、Keychain、Jewelry Accessories。不得新增分类。
 - 用户已确认额外商品从公开目录下架，保留原资料和旧商品页。公开分类仅9类；archivedProducts保留旧产品身份，必须从搜索、sitemap、llms和分类入口排除。旧页用noindex,follow及参考说明，不称停售或无库存。生成后运行 scripts/apply_catalog_scope.py；导入更新catalogIndex时需包含archivedProducts。

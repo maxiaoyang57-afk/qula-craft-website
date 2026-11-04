@@ -16,7 +16,11 @@ const htmlEscape = value => String(value).replace(/&/g, '&amp;').replace(/</g, '
 for (const entry of entries) {
   if (entry.isFile() && /\.(?:html|txt|xml|ico)$/.test(entry.name) ||
       entry.isDirectory() && ['assets', 'images', 'docs'].includes(entry.name)) {
-    await fs.cp(path.join(root, entry.name), path.join(out, entry.name), { recursive: true });
+    await fs.cp(path.join(root, entry.name), path.join(out, entry.name), {
+      recursive: true,
+      // Source snapshots keep historical tiers for provenance, not publication.
+      filter: source => !/^assets\/data\/[^/]*\.backup[-.]/.test(path.relative(root, source).split(path.sep).join('/')),
+    });
   }
 }
 

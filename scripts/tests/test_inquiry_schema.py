@@ -23,11 +23,13 @@ class InquirySchemaTests(unittest.TestCase):
         self.product.update(offers={}, review=None, aggregateRating={})
         self.assertEqual(pdp_schemas(self.product, self.crumb), [self.crumb])
 
-    def test_existing_offer_or_review_is_not_changed(self):
+    def test_legacy_offer_or_review_cannot_override_inquiry_policy(self):
         for field, value in (("offers", {"@type": "Offer", "price": "2.50", "priceCurrency": "USD"}),
                              ("review", {"@type": "Review", "name": "A supplied review"})):
             product = dict(self.product, **{field: value})
-            self.assertEqual(pdp_schemas(product, self.crumb), [product, self.crumb])
+            original = copy.deepcopy(product)
+            self.assertEqual(pdp_schemas(product, self.crumb), [self.crumb])
+            self.assertEqual(product, original)
 
     def test_removal_preserves_body_other_jsonld_and_is_idempotent(self):
         for heading in ("Quoted by pack and quantity", "Wholesale pricing by quotation", "Packaging &amp; MOQ"):

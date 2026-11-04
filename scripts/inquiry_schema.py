@@ -1,4 +1,4 @@
-"""Inquiry-only pages do not claim Google's Product rich-result eligibility.
+"""QULA's inquiry-only catalog does not publish Product offers or rich results.
 
 Keep the visible product facts and BreadcrumbList; never invent an offer/review.
 """
@@ -9,18 +9,15 @@ JSONLD = re.compile(r'<script type="application/ld\+json">(.*?)</script>\n?', re
 INQUIRY_COPY = re.compile(r'<b>(?:Quoted by pack and quantity|Wholesale pricing by quotation|Packaging &amp; MOQ)</b>')
 
 
-def has_product_basis(product):
-    return any(product.get(field) for field in ("offers", "review", "aggregateRating"))
-
-
 def pdp_schemas(product, breadcrumb):
-    return ([product] if has_product_basis(product) else []) + [breadcrumb]
+    # Old imported offers or review fields do not override the site's policy.
+    return [breadcrumb]
 
 
 def remove_inquiry_product_schema(page):
     def replace(match):
         data = json.loads(match.group(1))
-        if data.get("@type") == "Product" and not has_product_basis(data):
+        if data.get("@type") == "Product":
             if not INQUIRY_COPY.search(page):
                 raise ValueError("Unqualified Product without the expected inquiry-only copy")
             return ""
