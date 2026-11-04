@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""PDP 生成器(价格口径=只上 From $ 起步价,Jacken 07-24 拍板)
+"""PDP 生成器(明确标记 quote_only 的商品仅询价，其余沿用既有起步价规则)
 产出:p-<assetKey>.html + 分类/季节页卡接链 + main.js 搜索卡接链 + sitemap + llms-full.txt
 铁律:零编造——每个字段都来自 pdp-data.json(阿里实抓)或 catalog.json(客户Excel)"""
 import json, re, statistics
@@ -88,6 +88,10 @@ def moq_family(moq):
 def price_min(e):
     """起步价=与 MOQ 匹配的档,否则首档(listing 门面价)。部分 listing 阶梯混入噪声行
     (如 50 bags $0.04),取 min 会把假价上站,故不取最小值。单位仅白名单展示。"""
+    # A reviewed inquiry-only policy takes precedence even if a later import
+    # restores historical listing tiers. This also protects schema and llms output.
+    if e.get("pricingMode") == "quote_only":
+        return None
     tiers = []
     for t in e.get("priceTiers") or []:
         try:

@@ -19,7 +19,11 @@ const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-
 const pdpData = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-data.json'), 'utf8'));
 const pdpCopy = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-copy.json'), 'utf8'));
 const pdpCopyByFile = new Map();
+const quoteOnlyFiles = new Set(pdpData.filter(entry => entry.pricingMode === 'quote_only').map(entry => `p-${entry.assetKey}.html`));
 for (const entry of pdpData) {
+  if (entry.pricingMode === 'quote_only' && entry.priceTiers?.length) {
+    failures.push(`pdp-data.json: ${entry.assetKey} must not publish unconfirmed price tiers`);
+  }
   const copy = pdpCopy[entry.assetKey];
   if (!copy || copy.sku !== entry.sku) {
     failures.push(`pdp-copy.json: missing or mismatched copy for ${entry.assetKey}`);
@@ -166,6 +170,9 @@ for (const file of files) {
   const analyticsTags = html.match(/<script\s+src="assets\/js\/analytics\.js\?v=[^"]+"\s+defer><\/script>/gi) || [];
   const h1Count = (html.match(/<h1\b/gi) || []).length;
   const quoteOnly = /<b>(?:Quoted by pack and quantity|Wholesale pricing by quotation|Packaging &amp; MOQ)<\/b>/i.test(html);
+  if (quoteOnlyFiles.has(file) && !quoteOnly) {
+    failures.push(`${file}: source pricing policy requires inquiry-only copy`);
+  }
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
