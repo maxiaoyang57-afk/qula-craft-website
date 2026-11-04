@@ -1834,38 +1834,8 @@
     "reason": "",
     "titleFull": "Easter Colorful Egg Rabbit Slices Polymer Clay Sprinkles for Crafts DIY Slime Filling Accessories Nail Art Decoration",
     "moq": "1 bag",
-    "priceTiers": [
-      {
-        "qty": "",
-        "unit": "",
-        "price": "20",
-        "currency": "USD"
-      },
-      {
-        "qty": "1",
-        "unit": "bag",
-        "price": "6.08",
-        "currency": "USD"
-      },
-      {
-        "qty": "1",
-        "unit": "bag",
-        "price": "10",
-        "currency": "USD"
-      },
-      {
-        "qty": "1",
-        "unit": "bag",
-        "price": "5.83",
-        "currency": "USD"
-      },
-      {
-        "qty": "",
-        "unit": "",
-        "price": "5.47",
-        "currency": "USD"
-      }
-    ],
+    "pricingMode": "quote_only",
+    "priceTiers": [],
     "specs": {
       "Material": "Clay",
       "Product Type": "Figurine",
