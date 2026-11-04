@@ -19,6 +19,10 @@ PRODUCT_DETAILS = json.loads(
 )
 
 
+VERIFIED_SPECS = json.loads(
+    (Path(__file__).resolve().parents[1] / "assets/data/verified-product-specs.json").read_text(encoding="utf-8")
+)
+
 PUBLIC_TITLE_OVERRIDES = {
     "YX048": "Pink Strawberry Polymer Clay Slices",
     "RX399": "Mini Dinosaur Figures",
@@ -181,7 +185,7 @@ def public_specs(entry: dict) -> dict:
     # Imported field labels are not product facts. Keep the captured record
     # untouched, but do not publish a column heading as a color or describe
     # an explicit bag/parcel packing statement as a physical product size.
-    if str(specs.get("Color", "")).strip().lower() == "size":
+    if str(specs.get("Color", "")).strip().lower() in {"size", "item diameter"}:
         specs.pop("Color")
     size = specs.get("Size", "")
     if ("Reference packing" not in specs and isinstance(size, str)
@@ -195,4 +199,9 @@ def public_specs(entry: dict) -> dict:
             specs["Product Type"] = "Resin flatback charm"
         elif re.search(r"\bbeads?\b", title, re.I):
             specs["Product Type"] = "Resin bead"
+    if str(specs.get("Pattern", "")).strip().lower() == "model":
+        specs.pop("Pattern")
+    if str(specs.get("Size", "")).strip().lower() in {"mm", "cm"}:
+        specs.pop("Size")
+    specs.update(VERIFIED_SPECS.get(entry.get("sku"), {}))
     return specs
