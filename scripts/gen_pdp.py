@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""PDP 生成器(明确标记 quote_only 的商品仅询价，其余沿用既有起步价规则)
+"""PDP 生成器(QULA 全站仅询价，不发布历史 listing 价格)
 产出:p-<assetKey>.html + 分类/季节页卡接链 + main.js 搜索卡接链 + sitemap + llms-full.txt
 铁律:零编造——每个字段都来自 pdp-data.json(阿里实抓)或 catalog.json(客户Excel)"""
-import json, re, statistics
+import json, re
 from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
@@ -63,93 +63,6 @@ def cut_words(s, n):
         out = (out + " " + w).strip()
     return out or s[:n]
 
-UNIT_OK = {"bag": "bag", "bags": "bag", "pc": "pc", "pcs": "pcs", "piece": "piece",
-           "pieces": "pieces", "pair": "pair", "pairs": "pair", "set": "set", "sets": "set",
-           "box": "box", "boxes": "box", "roll": "roll", "rolls": "roll"}
-NOISE_CONST = {10.0, 20.0}          # 实测跨 60 个不相关 SKU 反复出现的页面固定元素值,非单价
-BULK_UNITS = {"bag", "box", "set", "roll"}   # 整包单位,单价下限更高
-
-def unit_family(unit):
-    normalized = UNIT_OK.get((unit or "").lower())
-    if normalized in BULK_UNITS:
-        return "pack"
-    if normalized in {"pc", "pcs", "piece", "pieces", "pair"}:
-        return "piece"
-    return None
-
-def moq_family(moq):
-    text = (moq or "").lower()
-    if re.search(r"\b(?:bag|bags|box|boxes|set|sets|roll|rolls)\b", text):
-        return "pack"
-    if re.search(r"\b(?:pc|pcs|piece|pieces|pair|pairs)\b", text):
-        return "piece"
-    return None
-
-def price_min(e):
-    """起步价=与 MOQ 匹配的档,否则首档(listing 门面价)。部分 listing 阶梯混入噪声行
-    (如 50 bags $0.04),取 min 会把假价上站,故不取最小值。单位仅白名单展示。"""
-    # A reviewed inquiry-only policy takes precedence even if a later import
-    # restores historical listing tiers. This also protects schema and llms output.
-    if e.get("pricingMode") == "quote_only":
-        return None
-    tiers = []
-    for t in e.get("priceTiers") or []:
-        try:
-            v = float(str(t.get("price", "")).replace(",", ""))
-        except ValueError:
-            continue
-        tiers.append((v, (t.get("unit") or "").strip(), str(t.get("qty") or "").strip()))
-    if not tiers:
-        return None
-    # 只留白名单单位
-    tiers = [t for t in tiers if UNIT_OK.get(t[1].lower()) and 0 < t[0] <= 5000]
-    if not tiers:
-        return None
-    # ① 剔除系统噪声常量。实测 $10/$20 跨 60 个互不相关的 SKU 反复出现在价格档里
-    #    (阿里页面的固定元素被误抓,非单价) —— 必须**先于**下限过滤,否则低价档被滤掉会
-    #    抬高中位数,让噪声判据失效(实测 YM228 因此反被判成 $10)。
-    others = [t[0] for t in tiers if t[0] not in NOISE_CONST]
-    if not others:
-        # 白名单档【全部】是噪声常量(实测 10 个 SKU,含 CDK199/MSB164 这两个连主图都抓成
-        # 平台徽标的 listing)→ 该 listing 价格整体不可信,直接降级
-        return None
-    med = statistics.median(others)
-    # 两条剔除判据(任一命中即剔):
-    #   a) 位置判据 —— 实测 CDK 全系是固定序列 "$20 → $10 → 真实价"($20/$10 是页面促销元素),
-    #      故噪声常量若落在前两档且存在真实替代档,判为噪声;
-    #   b) 倍数判据 —— 噪声常量出现在靠后位置时(如 SLM693 [0.78,0.57,0.5,10.0])靠倍数抓。
-    tiers = [t for i, t in enumerate(tiers)
-             if not (t[0] in NOISE_CONST and (i < 2 or t[0] > med * 2.5))]
-    if not tiers:
-        return None
-    # ② 单位敏感下限:整包单位低于 $0.30 不合理(一整包货不可能 3 毛),单件保留 $0.03
-    tiers = [t for t in tiers if (0.30 if UNIT_OK[t[1].lower()] in BULK_UNITS else 0.03) <= t[0]]
-    if not tiers:
-        return None
-    # ③ 清洗后极差仍 >5 倍 = 该 listing 价格数据不可信 → 降级「按量报价」,绝不显示假价
-    vals = [t[0] for t in tiers]
-    if len(vals) >= 2 and max(vals) / min(vals) > 5:
-        return None
-    # ④ 取与 MOQ 匹配的档,否则首档(listing 门面价,非 min)
-    moq = (e.get("moq") or "").lower()
-    chosen = None
-    for v, u, q in tiers:
-        if u and q and (q + " " + u).lower() in moq:
-            chosen = (v, u)
-            break
-    if chosen is None:
-        chosen = (tiers[0][0], tiers[0][1])
-    # ⑤ Price and MOQ must describe the same sales-unit family. Alibaba source
-    #    pages sometimes expose a per-piece tier beside a bag MOQ (or vice versa).
-    #    Publishing that combination creates a misleading offer, so suppress the
-    #    price until the sales unit is confirmed instead of guessing a conversion.
-    if moq_family(moq) and unit_family(chosen[1]) != moq_family(moq):
-        return None
-    return (chosen[0], UNIT_OK[chosen[1].lower()])
-
-def fmt_price(v):
-    return f"{v:.2f}".rstrip("0").rstrip(".") if v < 100 else f"{v:.0f}"
-
 def img_dim(rel):
     with Image.open(SITE / rel) as im:
         return im.size
@@ -196,7 +109,6 @@ for e in pdp:
     public_copy = pdp_copy[key]
     title_full = public_copy["displayTitle"]
     page_title = public_copy["metaTitle"]
-    pm = price_min(e)
     moq = normalize_moq(e.get("moq") or "")
     desc = public_copy["metaDescription"]
     assert 80 <= len(desc) <= 160, f"{sku}: meta description length {len(desc)}"
@@ -245,9 +157,6 @@ for e in pdp:
             and k not in ("Material", "Color", "Pattern", "Size", "Model Number", "Brand Name")]
     if addl:
         product["additionalProperty"] = addl
-    if pm:
-        product["offers"] = {"@type": "AggregateOffer", "lowPrice": fmt_price(pm[0]), "priceCurrency": "USD",
-                             "url": url, "seller": ORG_REF}
     # Reviewed batches provide known facts explicitly; inquiry instructions are
     # customer guidance, not material, size or other machine-readable facts.
     if "verifiedStructuredSpecifications" in e:
@@ -283,15 +192,9 @@ for e in pdp:
     if not has_material:
         spec_html += '<tr><td><b>Material</b></td><td>Not published on this listing — confirmed at quotation</td></tr>'
 
-    # 价格块(只上 From $)
-    if pm:
-        unit_txt = f" / {esc(pm[1])}" if pm[1] else ""
-        price_html = (f'<div class="answer-box" style="margin:14px 0"><b>From ${fmt_price(pm[0])}{unit_txt}</b>'
-                      + (f" · MOQ {esc(moq)}" if moq else " · MOQ confirmed in quote")
-                      + " — tiered pricing by quantity; the full tier table comes back with your quote within 12&#8211;24 hours.</div>")
-    else:
-        price_html = ('<div class="answer-box" style="margin:14px 0"><b>Quoted by pack and quantity</b>'
-                      + (f" · MOQ {esc(moq)}" if moq else "") + " — full pricing comes back with your quote within 12&#8211;24 hours.</div>")
+    # Historical listing prices never become public quotations.
+    price_html = ('<div class="answer-box" style="margin:14px 0"><b>Quoted by pack and quantity</b>'
+                  + (f" · MOQ {esc(moq)}" if moq else "") + " — full pricing comes back with your quote within 12&#8211;24 hours.</div>")
 
     # 图库
     if imgs:
@@ -449,12 +352,9 @@ for c in cat["categories"]:
         ee = next((x for x in pdp if x["ci"] == flat.index(prow)), None)
         if not ee:
             continue
-        pm = price_min(ee)
         seg = [pdp_copy[ee["assetKey"]]["displayTitle"], f"SKU {ee['sku']}"]
         if ee.get("moq"):
             seg.append(f"MOQ {ee['moq']}")
-        if pm:
-            seg.append(f"from ${fmt_price(pm[0])}" + (f"/{pm[1]}" if pm[1] else ""))
         lines.append(f"- [{seg[0]}]({BASE}p-{ee['assetKey']}.html): " + " · ".join(seg[1:]))
     lines.append("")
 (SITE / "llms-full.txt").write_text("\n".join(lines), encoding="utf-8")
@@ -464,7 +364,7 @@ product_heading = f"## Products ({len(cat['categories'])} categories, {len(pdp)}
 t = re.sub(r"## Products \(\d+ categories, \d+ live stock items\)", product_heading, t, count=1)
 if "llms-full.txt" not in t:
     t = t.replace(product_heading,
-                  f"Full per-item index with prices and MOQ: {BASE}llms-full.txt\n\n{product_heading}")
+                  f"Full per-item inquiry index with MOQ: {BASE}llms-full.txt\n\n{product_heading}")
 lt.write_text(t, encoding="utf-8")
 print("llms-full.txt ✓ +", len(lines), "行; llms.txt 引用 ✓")
 

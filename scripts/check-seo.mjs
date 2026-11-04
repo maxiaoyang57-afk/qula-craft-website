@@ -19,9 +19,13 @@ const catalog = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/product-
 const pdpData = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-data.json'), 'utf8'));
 const pdpCopy = JSON.parse(fs.readFileSync(path.join(root, 'assets/data/pdp-copy.json'), 'utf8'));
 const pdpCopyByFile = new Map();
-const quoteOnlyFiles = new Set(pdpData.filter(entry => entry.pricingMode === 'quote_only').map(entry => `p-${entry.assetKey}.html`));
+// QULA is an inquiry catalog. Historical source tiers are never current offers.
+const quoteOnlyFiles = new Set(pdpData.map(entry => `p-${entry.assetKey}.html`));
 for (const entry of pdpData) {
-  if (entry.pricingMode === 'quote_only' && entry.priceTiers?.length) {
+  if (entry.pricingMode && entry.pricingMode !== 'quote_only') {
+    failures.push(`pdp-data.json: ${entry.assetKey} must use inquiry-only pricing`);
+  }
+  if (entry.priceTiers?.length) {
     failures.push(`pdp-data.json: ${entry.assetKey} must not publish unconfirmed price tiers`);
   }
   const copy = pdpCopy[entry.assetKey];
@@ -173,6 +177,9 @@ for (const file of files) {
   if (quoteOnlyFiles.has(file) && !quoteOnly) {
     failures.push(`${file}: source pricing policy requires inquiry-only copy`);
   }
+  if (quoteOnlyFiles.has(file) && /From\s*\$|itemprop=["'](?:price|lowPrice|highPrice)["']/i.test(html)) {
+    failures.push(`${file}: unconfirmed public product price remains`);
+  }
   const schemaNodes = [];
 
   if (!title) failures.push(`${file}: missing title`);
@@ -233,6 +240,12 @@ for (const file of files) {
     } catch (error) {
       failures.push(`${file}: invalid JSON-LD (${error.message})`);
     }
+  }
+
+  if (quoteOnlyFiles.has(file) && schemaNodes.some(node =>
+    [].concat(node['@type'] || []).some(type => ['Product', 'Offer', 'AggregateOffer', 'PriceSpecification'].includes(type)) ||
+    ['price', 'lowPrice', 'highPrice', 'priceCurrency'].some(key => key in node))) {
+    failures.push(`${file}: inquiry-only product must not publish offer or price data`);
   }
 
   if (pdpCopyByFile.has(file)) {
