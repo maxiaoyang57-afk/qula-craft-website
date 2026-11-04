@@ -271,8 +271,8 @@ GUIDES = [
  "crumb": "Decoden Supplies",
  "eyebrow": "Sourcing Guide",
  "h1": "Decoden Supplies: What Actually Goes on a Phone Case",
- "updated": "8 October 2026",
- "dateModified": "2026-10-08",
+ "updated": "4 November 2026",
+ "dateModified": "2026-11-04",
  "hero": "assets/images/real-life-scenes-v1/real-life-decoden-collection.webp",
  "heroW": 1200, "heroH": 1200,
  "heroAlt": "Decoden phone cases decorated with resin flatback charms, bows and cabochons",
@@ -299,6 +299,7 @@ GUIDES = [
     <tr><td><b>Mid</b></td><td>~18&ndash;25&nbsp;mm</td><td>5&ndash;10</td><td>Carries the theme around the focal piece</td></tr>
     <tr><td><b>Filler</b></td><td>~12&nbsp;mm and under</td><td>20&ndash;40</td><td>Closes gaps so no base shows through</td></tr>
   </table>
+  <p>The <a href="p-rw4252.html">RW4252 jelly bean resin cabochon</a> measures 12 × 22 mm. Check its thickness and reverse side when planning adhesive contact.</p>
   <p>Filler pieces are where most of the count goes. Pack counts and minimum orders vary by SKU; use the confirmed
   pieces per pack and your trial layout to calculate quantities rather than assuming every bag contains 100 pieces.</p>
 

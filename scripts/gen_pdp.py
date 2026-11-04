@@ -6,7 +6,7 @@ import json, re, statistics
 from pathlib import Path
 from PIL import Image
 from sc048_customization import apply_sc048_customization
-from pdp_public_copy import PRODUCT_DETAILS, normalize_moq, public_specs
+from pdp_public_copy import PRODUCT_DETAILS, VERIFIED_SPECS, normalize_moq, public_specs
 from pdp_selection_guides import render_selection_guide, selection_jump, selection_quote_url
 from inquiry_schema import pdp_schemas
 
@@ -273,7 +273,9 @@ for e in pdp:
         if k == "Material" or is_noise(v) or k in HIDE_SPEC_KEYS:  # 占位行/不展示键不上表
             continue
         rows.append((k, str(v).strip()))
-    spec_html = "".join(f"<tr><td><b>{esc(k)}</b></td><td>{esc(v)}</td></tr>" for k, v in rows[:12])
+    verified = VERIFIED_SPECS.get(sku, {})
+    visible_rows = rows[:12] + [(k, v) for k, v in rows[12:] if k in verified]
+    spec_html = "".join(f"<tr><td><b>{esc(k)}</b></td><td>{esc(v)}</td></tr>" for k, v in visible_rows)
     if not has_material:
         spec_html += '<tr><td><b>Material</b></td><td>Not published on this listing — confirmed at quotation</td></tr>'
 
