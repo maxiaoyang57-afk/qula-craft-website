@@ -7,7 +7,7 @@ function cardSize(specs) {
   const value = [specs.Size, specs.Dimensions, specs['Reference size'], specs['Size reference']]
     .find(text => typeof text === 'string' && /\d\s*(?:mm|cm)\b/i.test(text));
   // Keep approximation, ranges and design-specific qualifications from the source.
-  return value?.replace(/(?<=\d)\s*[x×]\s*(?=\d)/gi, ' × ')
+  return value?.replace(/(?<=\d)\s*[x×*]\s*(?=\d)/gi, ' × ')
     .replace(/(approximately|approx\.)(?=\d)/gi, '$1 ')
     .replace(/(\d)(mm|cm)\b/gi, '$1 $2').trim() || '';
 }
