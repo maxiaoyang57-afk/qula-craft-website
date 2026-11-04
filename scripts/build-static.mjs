@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { transform } from 'esbuild';
+import { renderResinCardSpecs } from './resin-card-specs.mjs';
 import { minify } from 'html-minifier-terser';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -83,6 +84,7 @@ for (const entry of entries.filter(e => e.isFile() && e.name.endsWith('.html')))
   const file = path.join(out, entry.name);
   let html = await fs.readFile(file, 'utf8');
   const before = Buffer.byteLength(html);
+  if (entry.name === 'resin-charms.html') html = await renderResinCardSpecs(root, html);
   html = html.replace(/\bhref=(["'])([^"']+)\1/gi, (all, quote, url) => {
     if (/^\/?index\.html(?:#.*)?$/.test(url)) return 'href=' + quote + url.replace(/^\/?index\.html/, '/') + quote;
     if (!/^(?:https:\/\/www\.qulacrafts\.com\/)?\/?quote\.html\?/.test(url)) return all;
