@@ -176,6 +176,9 @@ def public_specs(entry: dict) -> dict:
     the category. The same public specs feed the visible table and Product schema.
     """
     specs = sanitize_schema_value(entry.get("specs") or {})
+    # A repeated model identifier is an import label error, not a product type.
+    if specs.get("Product Type") and specs.get("Product Type") == specs.get("Model Number"):
+        specs.pop("Product Type")
     # Owner confirmed YX048 is pink strawberry polymer clay; 500 g/bag is packing.
     if entry.get("sku") == "YX048":
         specs["Material"] = "Polymer clay"

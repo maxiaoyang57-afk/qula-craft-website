@@ -35,3 +35,13 @@ class VerifiedProductSpecsTests(unittest.TestCase):
         self.assertEqual(entry["categorySlug"], "resin-charms")
         self.assertEqual(public_specs(entry)["Product Type"], "Resin flatback charm")
         self.assertEqual(entry, original)
+
+    def test_model_number_is_not_published_as_a_product_type(self):
+        rows = json.loads((ROOT / "assets/data/pdp-data.json").read_text())
+        entry = next(row for row in rows if row["sku"] == "RW5306")
+        original = copy.deepcopy(entry)
+        published = public_specs(entry)
+        self.assertNotIn("Product Type", published)
+        self.assertEqual(published["Model Number"], "SS-RW5306")
+        self.assertEqual(entry, original)
+        self.assertNotIn('<b>Product Type</b></td><td>SS-RW5306', (ROOT / "p-rw5306.html").read_text())
