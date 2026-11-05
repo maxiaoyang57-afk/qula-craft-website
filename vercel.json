@@ -6,6 +6,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/theme-holiday-craft-supplies.html",
+      "destination": "https://www.qulacrafts.com/seasonal-collections.html",
+      "statusCode": 301
+    },
+    {
       "source": "/p-rw26808.html",
       "destination": "https://www.qulacrafts.com/p-rw20809.html",
       "permanent": true
