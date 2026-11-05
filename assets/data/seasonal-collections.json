@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "featuredPerSeason": 4,
+  "groups": [
+    {
+      "key": "Christmas",
+      "id": "christmas-products",
+      "label": "Christmas",
+      "products": [
+        "p-rw26746.html",
+        "p-rw26800.html",
+        "p-yx4109.html",
+        "p-cdk26773.html",
+        "p-slm10130.html",
+        "p-slm10129.html",
+        "p-yx4108.html",
+        "p-rw26768.html",
+        "p-rw26814.html",
+        "p-ma175.html",
+        "p-czb26813.html",
+        "p-cdk26367.html"
+      ]
+    },
+    {
+      "key": "Halloween",
+      "id": "halloween-products",
+      "label": "Halloween",
+      "products": [
+        "p-slm10094.html",
+        "p-rw26826.html",
+        "p-yx3318.html",
+        "p-rx311-313.html",
+        "p-slm10021.html",
+        "p-yx3400.html",
+        "p-yx421.html",
+        "p-rw26820.html",
+        "p-rw26218.html",
+        "p-rw26590.html",
+        "p-rw21805.html",
+        "p-rw001844.html"
+      ]
+    },
+    {
+      "key": "Valentine",
+      "id": "valentine-products",
+      "label": "Valentine",
+      "products": [
+        "p-ma127.html",
+        "p-slm10060.html",
+        "p-rw001744.html",
+        "p-ya425.html",
+        "p-ma131.html",
+        "p-ma302.html",
+        "p-yx006.html",
+        "p-yx3906.html",
+        "p-rw706.html",
+        "p-rw26375.html",
+        "p-ya459.html",
+        "p-cdk003767.html"
+      ]
+    },
+    {
+      "key": "Spring",
+      "id": "spring-products",
+      "label": "Spring & Easter",
+      "products": [
+        "p-yx605.html",
+        "p-rw26147.html",
+        "p-yx241.html",
+        "p-cdk26657.html",
+        "p-slm707.html",
+        "p-yx4075.html",
+        "p-yx4157.html",
+        "p-rw26317.html",
+        "p-rw26520.html",
+        "p-yq039.html",
+        "p-cdk23884.html",
+        "p-yz26165.html"
+      ]
+    },
+    {
+      "key": "Summer",
+      "id": "summer-products",
+      "label": "Summer",
+      "products": [
+        "p-slm715.html",
+        "p-rw26875.html",
+        "p-yx479.html",
+        "p-cdk002925-1.html",
+        "p-ma109.html",
+        "p-rw26439.html",
+        "p-slm10058.html",
+        "p-yx002.html",
+        "p-rw26345.html",
+        "p-rw26795.html",
+        "p-rx028.html",
+        "p-cdk182.html"
+      ]
+    }
+  ]
+}

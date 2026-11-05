@@ -21,4 +21,12 @@
 .seasonal-shop .seasonal-details{color:#11624f;background:#eaf8f3;border:1px solid #127a63;box-shadow:none}
 .seasonal-shop .seasonal-details:hover{background:#d4f0e5}
 .seasonal-shop .seasonal-guide-link{display:inline-block;color:#11624f;font-weight:750;text-decoration:underline;text-underline-offset:4px;padding:8px 0}
+.seasonal-shop .seasonal-card-specs{display:grid;gap:9px;margin:0 0 18px;font-size:14px;line-height:1.5}
+.seasonal-shop .seasonal-card-specs div{padding:8px 10px;border-radius:8px;background:#f0f8f5}
+.seasonal-shop .seasonal-card-specs dt{font-size:12px;font-weight:750;color:#11624f}
+.seasonal-shop .seasonal-card-specs dd{margin:2px 0 0;overflow-wrap:anywhere}
+.seasonal-shop .seasonal-more{margin-top:24px}
+.seasonal-shop .seasonal-more summary{cursor:pointer;min-height:48px;border:2px solid #127a63;border-radius:12px;padding:12px 18px;color:#11624f;font-weight:750;background:#fff}
+.seasonal-shop .seasonal-more[open] summary{margin-bottom:22px;background:#eaf8f3}
+.seasonal-shop .seasonal-more summary:focus-visible{outline:3px solid #192f45;outline-offset:4px}
 @media(max-width:720px){.seasonal-shop .page-hero{padding-top:20px}.seasonal-shop .page-hero h1{font-size:30px;margin-bottom:14px}.seasonal-shop .page-hero p{font-size:15px}.seasonal-shop .seasonal-quicklinks{gap:7px}.seasonal-shop .seasonal-quicklinks a{font-size:13px;padding:8px 10px}.seasonal-shop .seasonal-product-group{scroll-margin-top:110px}.seasonal-shop .product-grid{grid-template-columns:minmax(0,1fr)}}

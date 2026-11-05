@@ -2,7 +2,7 @@
   "name": "qula-craft-static-site",
   "private": true,
   "scripts": {
-    "build": "node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs && node scripts/check-seo.mjs && node scripts/check-indexnow.mjs && node scripts/build-static.mjs"
+    "build": "node scripts/sync-seasonal-collections.mjs && node scripts/check-inquiry-email.mjs && node scripts/check-required-products.mjs && node scripts/check-seo.mjs && node scripts/check-indexnow.mjs && node scripts/build-static.mjs"
   },
   "devDependencies": {
     "esbuild": "0.28.2",
