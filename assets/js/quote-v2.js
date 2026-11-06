@@ -142,7 +142,17 @@
         }
         const messageEl = form.querySelector('textarea[name="message"]');
         if (messageEl) {
-          const productNote = `I am interested in ${pName || pSku}. My question or request:\n\n`;
+          const productNote = entryPage === '/blog-beadable-pen-bead-size-guide.html'
+            ? [
+              `I'd like help checking a bead and pen combination${pSku ? ` for ${pSku}` : ''}.`,
+              ...(pSku ? [] : ['Bead SKU or style:']),
+              'Pen blank model or reference:',
+              'Largest rod diameter (mm):',
+              'Usable beading length (mm):',
+              'Other beads or spacers:',
+              'Sample or order quantity:',
+            ].join('\n') + '\n'
+            : `I am interested in ${pName || pSku}. My question or request:\n\n`;
           messageEl.value = messageEl.value ? (messageEl.value + '\n' + productNote) : productNote;
         }
       }
