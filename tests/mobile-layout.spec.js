@@ -10,6 +10,36 @@ test.use({
 
 const baseURL = 'http://127.0.0.1:4173';
 
+test('pen fit inquiries carry the selected bead and measurement checklist', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.route('**/*', route => {
+    const request = route.request();
+    if (!request.url().startsWith(baseURL + '/') || request.method() !== 'GET') return route.abort();
+    return route.continue();
+  });
+  const guide = '/blog-beadable-pen-bead-size-guide.html';
+  const cases = [
+    { width: 375, link: 'Check pen fit for YA425', sku: 'YA425', category: 'Acrylic Beads' },
+    { width: 1440, link: 'Check pen fit for YA893', sku: 'YA893', category: 'Acrylic Beads' },
+    { width: 375, link: 'Ask about your bead combination', sku: '', category: 'Beads for Pens' },
+  ];
+  for (const { width, link, sku, category } of cases) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto(baseURL + guide);
+    await page.getByRole('link', { name: new RegExp(link) }).click();
+    await expect(page.locator('#hiddenSku')).toHaveValue(sku);
+    await expect(page.locator('select[name="product"]')).toHaveValue(category);
+    await expect(page.locator('#hiddenUrl')).toHaveValue('https://www.qulacrafts.com' + guide);
+    await expect(page.locator('[name="application"]')).toHaveValue('Beadable pen fit check');
+    if (sku) {
+      await expect(page.locator('#pPreviewTitle')).toContainText(sku);
+      await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', new RegExp('/pdp/' + sku.toLowerCase() + '/'));
+    }
+    await expect(page.locator('textarea[name="message"]')).toHaveValue(/Largest rod diameter \(mm\):\nUsable beading length \(mm\):\nOther beads or spacers:\nSample or order quantity:/);
+    await expectNoHorizontalOverflow(page);
+  }
+});
+
 const supplement = require('../docs/product-batch-manifest-20261016-supplement.json');
 const currentBatch = require('../docs/product-batch-manifest-20261021.json');
 const currentUpdates = new Map(currentBatch.products.filter(item => item.operation === 'update').map(item => [item.sku, item]));
