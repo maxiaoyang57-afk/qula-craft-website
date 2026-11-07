@@ -108,13 +108,19 @@
     "Size": "38 or 58 mm"
   },
   "SLM10012": {
-    "Material": "Polymer clay and resin"
+    "Material": "Polymer clay and resin",
+    "Reference pack weight": "500 g in the source listing; confirm current packing by quotation.",
+    "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
   },
   "SLM10093": {
-    "Material": "Polymer clay and resin"
+    "Material": "Polymer clay and resin",
+    "Reference pack weight": "500 g in the source listing; confirm current packing by quotation.",
+    "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
   },
   "SLM10094": {
-    "Material": "Polymer clay and resin"
+    "Material": "Polymer clay and resin",
+    "Reference pack weight": "30 g in the source listing; confirm current packing by quotation.",
+    "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
   },
   "SLM10123": {
     "Material": "Polymer clay and resin"
@@ -173,5 +179,18 @@
   },
   "YX778": {
     "Material": "Polymer clay"
+  },
+  "YA855": {
+    "Size": "14 mm bead diameter",
+    "Hole": "Approx. 2 mm; confirm tolerance, hole direction and fit with a sample.",
+    "Selection note": "The approx. 2 mm hole is a supplier reference. Compare the selected sample with your cord or pen rod and confirm the occupied length before ordering."
+  },
+  "RW22372": {
+    "Size": "21 mm",
+    "Back type": "Flatback, as described in the source title; confirm the reverse-side profile and thickness on a sample."
+  },
+  "CDK001208": {
+    "Application": "Bag and keychain decoration",
+    "Material scope": "The source material field lists alloy. Confirm the decorative body composition and included fittings for the selected design."
   }
 }

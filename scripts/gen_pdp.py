@@ -4,6 +4,7 @@
 铁律:零编造——每个字段都来自 pdp-data.json(阿里实抓)或 catalog.json(客户Excel)"""
 import json, re
 from pathlib import Path
+from urllib.parse import quote as url_quote
 from PIL import Image
 from sc048_customization import apply_sc048_customization
 from pdp_public_copy import PRODUCT_DETAILS, VERIFIED_SPECS, normalize_moq, public_specs
@@ -227,8 +228,9 @@ for e in pdp:
                       f'<a class="btn btn-card" href="p-{s["assetKey"]}.html">View details <span>→</span></a></div></article>')
 
     main_img = imgs[0] if imgs else catrow["image"]
-    q_url = f"quote.html?product={esc(cut_words(title_full, 50)).replace(' ', '%20')}&sku={esc(sku)}&image={esc(main_img)}"
-    if (public_copy.get("selectionAdvice") or key == "czb26337") and catrow.get("inquiryUrl"):
+    # Preserve full product identity; a short card title must not truncate an inquiry.
+    q_url = f"quote.html?product={url_quote(title_full)}&sku={url_quote(sku)}&image={url_quote(main_img, safe='/')}"
+    if catrow.get("inquiryUrl"):
         q_url = esc(catrow["inquiryUrl"])
     wa = ("https://wa.me/8618632026595?text=" +
           f"Hello%20Qula%20Craft%2C%20I%20just%20viewed%20SKU%20{sku}%20and%20would%20like%20to%20discuss%20a%20custom%20quote.%20Can%20we%20chat%3F")

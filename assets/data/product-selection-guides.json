@@ -8,8 +8,14 @@
       "Ask for the width and thickness of each selected component. Compare them with your shaker opening or decoration area.",
       "For slime or a liquid-filled project, describe your base and evaluate a sample in that formulation. Confirm the mix, required weight and packing before approving the bulk order."
     ],
-    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Compare polymer clay shapes and packing"},
-    "related": {"url": "p-yx043.html", "label": "Compare with the YX043 candy sprinkle mix"}
+    "guide": {
+      "url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist",
+      "label": "Compare polymer clay shapes and packing"
+    },
+    "related": {
+      "url": "p-yx043.html",
+      "label": "Compare with the YX043 candy sprinkle mix"
+    }
   },
   "czb25840": {
     "sku": "CZB25840",
@@ -20,8 +26,14 @@
       "Provide the diameter of your cord or rod and the available assembly space. Ask for a sample fit before committing to a bracelet, necklace or beadable-pen layout.",
       "Mark your preferred colors or assortment and required piece count. Confirm pack contents, sales unit and minimum order separately from the source's 100-piece lot reference."
     ],
-    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Check bead and rod dimensions before assembly"},
-    "related": {"url": "guide-beadable-pen-beads.html", "label": "Review focal-bead selection and sourcing"}
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "Check bead and rod dimensions before assembly"
+    },
+    "related": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Review focal-bead selection and sourcing"
+    }
   },
   "yx043": {
     "sku": "YX043",
@@ -32,8 +44,14 @@
       "State your total required weight and preferred packing. Confirm the sales unit and mix before comparing quotations.",
       "For a shaker, slime or liquid-filled project, describe the exact base and opening size. Evaluate a sample in your own formulation before approving bulk use."
     ],
-    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Compare polymer clay shapes and packing"},
-    "related": {"url": "p-yx3194.html", "label": "Compare with the YX3194 rainbow-and-cloud mix"}
+    "guide": {
+      "url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist",
+      "label": "Compare polymer clay shapes and packing"
+    },
+    "related": {
+      "url": "p-yx3194.html",
+      "label": "Compare with the YX3194 rainbow-and-cloud mix"
+    }
   },
   "yx3194": {
     "sku": "YX3194",
@@ -44,8 +62,14 @@
       "Request measurements for each selected component, rather than one size for the whole mix.",
       "Tell us the project, required weight and any smaller-pack request. Confirm mix proportions, packing and minimum quantity separately; test a sample with your chosen base or container."
     ],
-    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Review the polymer clay selection guide"},
-    "related": {"url": "p-yx3301.html", "label": "Compare with the YX3301 monkey-and-banana mix"}
+    "guide": {
+      "url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist",
+      "label": "Review the polymer clay selection guide"
+    },
+    "related": {
+      "url": "p-yx3301.html",
+      "label": "Compare with the YX3301 monkey-and-banana mix"
+    }
   },
   "yx3301": {
     "sku": "YX3301",
@@ -56,8 +80,14 @@
       "Request the width and thickness of both motifs. Check them against the opening, surface or compartment in your project.",
       "State the number of reference bags or total weight you need, plus any repacking request. Confirm the minimum order separately and evaluate the proposed sample before bulk use."
     ],
-    "guide": {"url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist", "label": "Review polymer clay mix and pack selection"},
-    "related": {"url": "p-yx043.html", "label": "Compare with the YX043 round candy shapes"}
+    "guide": {
+      "url": "guide-polymer-clay-sprinkles-bulk.html#polymer-design-shortlist",
+      "label": "Review polymer clay mix and pack selection"
+    },
+    "related": {
+      "url": "p-yx043.html",
+      "label": "Compare with the YX043 round candy shapes"
+    }
   },
   "ya425": {
     "sku": "YA425",
@@ -68,8 +98,14 @@
       "For a pen layout, measure the usable rod length and allow for spacers and the end fitting. Ask for the occupied length of the selected bead along its hole.",
       "Specify the colors or assortment you want and the required weight. Confirm sample assembly, packing and minimum quantity before ordering a production lot."
     ],
-    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "See how to measure a pen rod and bead layout"},
-    "related": {"url": "p-ya382.html", "label": "Compare with the YA382 cupcake shape"}
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "See how to measure a pen rod and bead layout"
+    },
+    "related": {
+      "url": "p-ya382.html",
+      "label": "Compare with the YA382 cupcake shape"
+    }
   },
   "ya382": {
     "sku": "YA382",
@@ -80,8 +116,14 @@
       "If you intend to use a beadable pen, provide its rod diameter and usable length. Ask for an actual sample fit and the bead's occupied length along the rod.",
       "Identify the desired colors or mix and say how many pieces you need. Confirm assortment, sample arrangements and MOQ separately from the 100-piece bag reference."
     ],
-    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Check bead dimensions and pen-rod measurements"},
-    "related": {"url": "p-ya425.html", "label": "Compare with YA425 and its listed 2.5 mm hole"}
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "Check bead dimensions and pen-rod measurements"
+    },
+    "related": {
+      "url": "p-ya425.html",
+      "label": "Compare with YA425 and its listed 2.5 mm hole"
+    }
   },
   "czb26353": {
     "sku": "CZB26353",
@@ -92,8 +134,14 @@
       "Provide your rod diameter and usable length, including the space reserved for spacers and fittings. Ask for a sample assembly; do not infer fit from another bead's measurements.",
       "Mark the desired puppy designs or colors and state the required piece count. Confirm the assortment and pack contents, then review sample and bulk quantities in the quotation."
     ],
-    "guide": {"url": "blog-beadable-pen-bead-size-guide.html", "label": "Measure your pen before choosing focal beads"},
-    "related": {"url": "guide-beadable-pen-beads.html", "label": "Read the focal-bead and sourcing guide"}
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "Measure your pen before choosing focal beads"
+    },
+    "related": {
+      "url": "guide-beadable-pen-beads.html",
+      "label": "Read the focal-bead and sourcing guide"
+    }
   },
   "czb26337": {
     "sku": "CZB26337",
@@ -113,5 +161,119 @@
       "label": "Compare resin flatbacks for decorative projects"
     },
     "catalogNote": "Flatback listing: a through-hole and pen-rod fit are not confirmed. Review the backing and hole checks before ordering."
+  },
+  "ya855": {
+    "sku": "YA855",
+    "heading": "Choose a cord or rod for the approx. 2 mm hole",
+    "project": "YA855 is an acrylic round bead with an AB finish and heart details. The listed bead diameter is 14 mm, and the supplier confirmed an approx. 2 mm hole on November 7, 2026. Reference packing is 100 pieces per bag. The approximate hole value is not a fit test.",
+    "checks": [
+      "Give the measured diameter of your cord or pen rod, and request a check of the minimum clear hole on the selected sample.",
+      "For a pen layout, include usable rod length and the bead length occupied along the hole axis. Confirm hole direction and sample assembly.",
+      "Mark the required colors or assortment and quantity. Confirm MOQ separately from the 100-piece reference bag."
+    ],
+    "guide": {
+      "url": "blog-beadable-pen-bead-size-guide.html",
+      "label": "Check rod diameter and usable length"
+    },
+    "related": {
+      "url": "p-ya425.html",
+      "label": "Compare YA425: 16 × 18 mm and a listed 2.5 mm hole"
+    },
+    "inquiryBrief": "YA855: 14 mm acrylic bead; approx. 2 mm supplier-reference hole; 100 pieces per reference bag. Please review my cord/rod diameter, usable length, selected colors, quantity and sample fit."
+  },
+  "rw22372": {
+    "sku": "RW22372",
+    "heading": "Check the cookie flatback against your decoration area",
+    "project": "RW22372 is the chocolate chip cookie resin cabochon listed with a 21 mm reference size and a flatback description. The size does not state the measurement axis or thickness. Use the source photo to choose the design and request a reverse-side view before planning adhesive assembly.",
+    "checks": [
+      "Give the available width and height on your phone case, clip or other base. Request the measured width and thickness of the selected cookie sample.",
+      "Ask for a reverse-side close-up and test your intended adhesive on a sample before approving the assembly.",
+      "Specify the required pieces, assortment and packing. The source MOQ is one bag; confirm how many pieces the current bag contains."
+    ],
+    "guide": {
+      "url": "guide-decoden-supplies.html",
+      "label": "Plan a decoden material selection"
+    },
+    "related": {
+      "url": "p-rw4252.html",
+      "label": "Compare RW4252 jelly bean charms: 12 × 22 mm"
+    },
+    "inquiryBrief": "RW22372: resin cookie flatback; 21 mm source reference. Please confirm measured width/thickness, reverse side, adhesive sample check, pieces per bag and my required quantity."
+  },
+  "slm10094": {
+    "sku": "SLM10094",
+    "heading": "Plan a Halloween topping mix from a 30 g reference",
+    "project": "The source lists SLM10094 as a Halloween tombstone-and-knife decoration mix with a 30 g reference pack. Treat the clay and resin components as separate shapes when choosing their visual scale; the pack weight does not establish piece count or a fixed ratio.",
+    "checks": [
+      "Mark the tombstone and knife components you want included and request the proposed assortment and dimensions of each.",
+      "Identify your slime base or shaker medium and container opening. Evaluate color transfer, texture and clearance using a sample.",
+      "State the total weight you need, the amount planned per finished jar and any repacking request. Confirm current bag weight, mix and MOQ."
+    ],
+    "guide": {
+      "url": "guide-slime-business-supply-checklist.html",
+      "label": "Plan decorative slime supplies"
+    },
+    "related": {
+      "url": "p-slm10093.html",
+      "label": "Compare a moon-and-star theme with a 500 g reference"
+    },
+    "inquiryBrief": "SLM10094: Halloween decorative mix; 30 g source pack reference. Please confirm component sizes and proportions, sample performance in my base, packing and total required weight."
+  },
+  "slm10093": {
+    "sku": "SLM10093",
+    "heading": "Choose a moon, star and mermaid assortment",
+    "project": "SLM10093 combines moon and star clay slices with resin mermaid charms in a 500 g source pack reference. Individual component dimensions and the ratio between slices and focal charms are not listed.",
+    "checks": [
+      "Identify the moon, star and mermaid pieces you want and request measurements for each selected component.",
+      "Describe the base and container used for your finished product. Trial the assortment and record the amount used per jar.",
+      "Confirm the proposed component proportions, current 500 g packing reference and any smaller-pack request before comparing a quotation."
+    ],
+    "guide": {
+      "url": "guide-clay-slices-vs-resin-charms-slime.html",
+      "label": "Compare slices and focal resin charms"
+    },
+    "related": {
+      "url": "p-slm10012.html",
+      "label": "Compare the strawberry-themed 500 g reference"
+    },
+    "inquiryBrief": "SLM10093: moon/star slices and mermaid charm mix; 500 g source pack reference. Please confirm component dimensions, mix proportions, sample suitability for my base and required packing."
+  },
+  "slm10012": {
+    "sku": "SLM10012",
+    "heading": "Build a strawberry-themed decorative assortment",
+    "project": "Use SLM10012 as a strawberry-themed decorative component mix for slime or craft projects. The 500 g source reference is packing weight. It does not establish a ready-made slime formulation, a piece count or fixed proportions.",
+    "checks": [
+      "Request the current component list and close-ups, then identify the strawberry pieces you want included.",
+      "Ask for component dimensions and test the selected sample in your own base or adhesive system.",
+      "State total required weight, amount per finished item and desired pack format. Agree on mix proportions and current packing before ordering."
+    ],
+    "guide": {
+      "url": "guide-slime-business-supply-checklist.html",
+      "label": "Review a slime supply trial order"
+    },
+    "related": {
+      "url": "p-yx053.html",
+      "label": "Compare YX053 dragon-fruit slices: 5 mm"
+    },
+    "inquiryBrief": "SLM10012: strawberry-themed decorative mix; 500 g source pack reference. Please confirm the component list, dimensions, mix proportions, sample performance in my base and required packing."
+  },
+  "cdk001208": {
+    "sku": "CDK001208",
+    "heading": "Check the clasp and body for your bag project",
+    "project": "CDK001208 is the slipper-themed keychain reference with a lobster clasp. The source material field lists alloy, while the title also describes a decorative charm body. Confirm the body composition and attachment measurements for the chosen design.",
+    "checks": [
+      "Provide the width of your bag attachment point and request the clasp opening, ring dimensions and overall assembly size.",
+      "Ask which decorative body material and fittings are included. Confirm this against a sample rather than assuming every component is alloy.",
+      "Mark the desired slipper designs or colors and required pieces. Confirm pieces per bag separately from the listed one-bag MOQ."
+    ],
+    "guide": {
+      "url": "customization.html#finished-accessories",
+      "label": "Discuss an assembled bag accessory"
+    },
+    "related": {
+      "url": "p-cdk26017.html",
+      "label": "Compare tree charms with lobster clasps"
+    },
+    "inquiryBrief": "CDK001208: slipper-themed lobster-clasp accessory. Please confirm decorative body material, clasp opening, overall size, included fittings, pieces per bag and my selected designs."
   }
 }
