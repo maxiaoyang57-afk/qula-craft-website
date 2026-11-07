@@ -529,7 +529,14 @@ for (const width of [360, 1440]) {
       const row = comparison.locator('tbody tr').filter({ has: page.locator(`a[href="${product.pdp}"]`) });
       await expect(row).toContainText(source.titleFull);
       await expect(row).toContainText('100 pieces per bag');
-      await expect(row).toContainText('Diameter, direction and fit require confirmation.');
+      if (sku === 'YA855') {
+        // Owner confirmed an approximate value; it is still not a fit test.
+        await expect(row).toContainText('Approx. 2 mm supplier reference.');
+        await expect(row).toContainText('Confirm tolerance, hole direction and fit on a sample.');
+        await expect(row).not.toContainText('hole diameter not supplied');
+      } else {
+        await expect(row).toContainText('Diameter, direction and fit require confirmation.');
+      }
       const image = row.locator('img');
       await image.scrollIntoViewIfNeeded();
       await expect.poll(() => image.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
