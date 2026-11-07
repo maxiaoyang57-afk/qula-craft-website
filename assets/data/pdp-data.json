@@ -3178,7 +3178,7 @@
     "status": "ok",
     "reason": "",
     "titleFull": "21mm Kawaii Chocolate Chip Cookie Resin Cabochon Mini Food Flatback Cabochons Slime Charms DIY Crafts Accessories",
-    "moq": "1 bag",
+    "moq": "1 bag when in stock; 10 bags when not in stock",
     "priceTiers": [],
     "specs": {
       "Material": "Resin",
@@ -3198,15 +3198,96 @@
       "https://s.alicdn.com/@sc04/kf/Hc8c3505ec5ca40a491d368073240567bW.jpg_960x960q80.jpg"
     ],
     "imagesLocal": [
-      "assets/images/pdp/rw22372/01.webp",
-      "assets/images/pdp/rw22372/02.webp",
-      "assets/images/pdp/rw22372/03.webp"
+      "assets/images/pdp/rw22372/rw22372-random-mix-front-back-20261107.png",
+      "assets/images/pdp/rw22372/rw22372-ruler-reference-20261107.png",
+      "assets/images/pdp/rw22372/02.webp"
     ],
     "fetchedAt": "2026-07-24T10:26:19Z",
     "pageTitle": "21mm Kawaii Chocolate Chip Cookie Resin Cabochon Mini Food Flatback Cabochons Slime Charms Diy Crafts Accessories - Buy Product on Alibaba.com",
     "pageUrl": "https://www.alibaba.com/product-detail/21mm-Kawaii-Chocolate-Chip-Cookie-Resin_1601740882475.html",
     "pricingMode": "quote_only",
-    "metaTitle": "Chocolate Chip Cookie Resin Cabochons for Slime | RW22372"
+    "metaTitle": "Chocolate Chip Cookie Resin Cabochons for Slime | RW22372",
+    "galleryLabels": [
+      "owner-supplied random mixed cookie assortment with front and reverse sides",
+      "owner-supplied ruler photograph for visual scale; 21 mm source reference",
+      "reference cookie designs and colors; random assortment varies"
+    ],
+    "specificationUpdates": [
+      {
+        "date": "2026-11-07",
+        "source": "Owner confirmation in this conversation: RW22372 饼干饰件，随机混款， plus four owner-supplied images",
+        "assortment": "random mixed designs and colors",
+        "packing": {
+          "piecesPerBag": 100
+        },
+        "minimumOrder": {
+          "inStockBags": 1,
+          "notInStockBags": 10,
+          "currentStockStatusVerified": false
+        },
+        "intendedDecorativeUses": [
+          "handbag",
+          "keychain",
+          "bracelet",
+          "necklace",
+          "earring"
+        ],
+        "sizeEvidence": {
+          "referenceSizeMm": 21,
+          "basis": "previous source-title specification; supplied ruler photo provides visual scale only",
+          "instrumentMeasurementAdded": false,
+          "thicknessMm": null,
+          "holeDiameterMm": null,
+          "toleranceMm": null
+        },
+        "previousPublishedReferences": {
+          "moq": "1 bag",
+          "imagesLocal": [
+            "assets/images/pdp/rw22372/01.webp",
+            "assets/images/pdp/rw22372/02.webp",
+            "assets/images/pdp/rw22372/03.webp"
+          ]
+        },
+        "sourceEvidence": [
+          {
+            "uploadedName": "QQ_1794056260782.png",
+            "path": "assets/images/pdp/rw22372/rw22372-random-mix-front-back-20261107.png",
+            "sha256": "1e9618010cb785aa2e50c65812684c82c28ecbd94ed36d359415395840bd180a",
+            "width": 437,
+            "height": 484,
+            "meaning": "Owner-supplied random assortment with front and reverse sides",
+            "pixelTransformation": "none; original uploaded bytes preserved"
+          },
+          {
+            "uploadedName": "QQ_1794056655158.png",
+            "path": "assets/images/pdp/rw22372/rw22372-ruler-reference-20261107.png",
+            "sha256": "0592a3d374e9b14a0219c8b0ff913e4c6dddbb10ad47070aee81c2102c71a42e",
+            "width": 384,
+            "height": 378,
+            "meaning": "Owner-supplied ruler photograph; visual scale reference",
+            "pixelTransformation": "none; original uploaded bytes preserved"
+          },
+          {
+            "uploadedName": "QQ_1794056367130.png",
+            "path": "docs/product-evidence/rw22372-20261107/packing-moq-source.png",
+            "sha256": "1c4ed5e3e33301a07221b7b3ac457181e747ec8289ec8d88a1313c6db4c31af0",
+            "width": 794,
+            "height": 115,
+            "meaning": "100 pcs/bag; MOQ 1 bag if in stock, 10 bags if not",
+            "pixelTransformation": "none; original uploaded bytes preserved"
+          },
+          {
+            "uploadedName": "QQ_1794056830450.png",
+            "path": "docs/product-evidence/rw22372-20261107/usage-packing-source.png",
+            "sha256": "02d9506f55b932a9dfd7ec9c73d1ee32bd9c9c7490611caebfc82f14db9e2db8",
+            "width": 1087,
+            "height": 70,
+            "meaning": "Decorative uses and corroborating 100 pcs/bag",
+            "pixelTransformation": "none; original uploaded bytes preserved"
+          }
+        ]
+      }
+    ]
   },
   {
     "catalogIndex": 767,

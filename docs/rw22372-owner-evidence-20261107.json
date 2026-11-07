@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-07",
+  "sku": "RW22372",
+  "base": "6a5b9b5434df3cd9a4caec0c128e6111df90e994",
+  "ownerConfirmation": "RW22372 饼干饰件，随机混款，",
+  "sources": [
+    {
+      "uploadedName": "QQ_1794056260782.png",
+      "path": "assets/images/pdp/rw22372/rw22372-random-mix-front-back-20261107.png",
+      "sha256": "1e9618010cb785aa2e50c65812684c82c28ecbd94ed36d359415395840bd180a",
+      "width": 437,
+      "height": 484,
+      "meaning": "Owner-supplied random assortment with front and reverse sides",
+      "pixelTransformation": "none; original uploaded bytes preserved"
+    },
+    {
+      "uploadedName": "QQ_1794056655158.png",
+      "path": "assets/images/pdp/rw22372/rw22372-ruler-reference-20261107.png",
+      "sha256": "0592a3d374e9b14a0219c8b0ff913e4c6dddbb10ad47070aee81c2102c71a42e",
+      "width": 384,
+      "height": 378,
+      "meaning": "Owner-supplied ruler photograph; visual scale reference",
+      "pixelTransformation": "none; original uploaded bytes preserved"
+    },
+    {
+      "uploadedName": "QQ_1794056367130.png",
+      "path": "docs/product-evidence/rw22372-20261107/packing-moq-source.png",
+      "sha256": "1c4ed5e3e33301a07221b7b3ac457181e747ec8289ec8d88a1313c6db4c31af0",
+      "width": 794,
+      "height": 115,
+      "meaning": "100 pcs/bag; MOQ 1 bag if in stock, 10 bags if not",
+      "pixelTransformation": "none; original uploaded bytes preserved"
+    },
+    {
+      "uploadedName": "QQ_1794056830450.png",
+      "path": "docs/product-evidence/rw22372-20261107/usage-packing-source.png",
+      "sha256": "02d9506f55b932a9dfd7ec9c73d1ee32bd9c9c7490611caebfc82f14db9e2db8",
+      "width": 1087,
+      "height": 70,
+      "meaning": "Decorative uses and corroborating 100 pcs/bag",
+      "pixelTransformation": "none; original uploaded bytes preserved"
+    }
+  ],
+  "currentFacts": {
+    "material": "Resin; retained explicit original material field",
+    "assortment": "Random mixed designs and colors",
+    "piecesPerBag": 100,
+    "minimumOrder": {
+      "inStockBags": 1,
+      "notInStockBags": 10,
+      "stockStatus": "confirm by quotation"
+    },
+    "size": "21 mm original source reference, supported by supplied scale photo without a new precision claim",
+    "decorativeUses": [
+      "handbag",
+      "keychain",
+      "bracelet",
+      "necklace",
+      "earring"
+    ]
+  },
+  "currentGallery": [
+    {
+      "path": "assets/images/pdp/rw22372/rw22372-random-mix-front-back-20261107.png",
+      "sha256": "1e9618010cb785aa2e50c65812684c82c28ecbd94ed36d359415395840bd180a",
+      "width": 437,
+      "height": 484
+    },
+    {
+      "path": "assets/images/pdp/rw22372/rw22372-ruler-reference-20261107.png",
+      "sha256": "0592a3d374e9b14a0219c8b0ff913e4c6dddbb10ad47070aee81c2102c71a42e",
+      "width": 384,
+      "height": 378
+    },
+    {
+      "path": "assets/images/pdp/rw22372/02.webp",
+      "sha256": "063d9802caa99e5c885d957015fcaba4335792b00c41e9e9eeac5e206aebe0ab",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "previousPublishedReferences": {
+    "moq": "1 bag",
+    "imagesLocal": [
+      "assets/images/pdp/rw22372/01.webp",
+      "assets/images/pdp/rw22372/02.webp",
+      "assets/images/pdp/rw22372/03.webp"
+    ]
+  },
+  "retainedOriginalCatalogThumbnail": "assets/images/catalog/resin-charms/012-rw22372.webp",
+  "relatedReferencePages": [
+    "p-rw21072.html",
+    "p-rw26412.html",
+    "resin-charms.html",
+    "p-rw26051.html",
+    "p-rw1711.html"
+  ],
+  "unverified": [
+    "current stock availability",
+    "precise dimensions of each mixed design",
+    "thickness",
+    "hole diameter or hanging loop",
+    "individual-piece net weight",
+    "adhesive or fitting compatibility",
+    "fixed assortment ratios"
+  ],
+  "scope": "One existing product; Q9/988 public products, titles/H1/URLs and quote-only pricing remain unchanged."
+}
