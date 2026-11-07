@@ -10,6 +10,9 @@ for(const [key,sku,category,fact]of cases)test(`${sku} keeps facts and project b
  const cta=section.locator('[data-selection-inquiry]');await cta.scrollIntoViewIfNeeded();await cta.press('Enter');
  await expect(page.locator('#hiddenSku')).toHaveValue(sku);await expect(page.locator('select[name="product"]')).toHaveValue(category);
  await expect(page.locator('[name="application"]')).toHaveValue(guides[key].inquiryBrief);
- await expect(page.locator('#inquiryForm [name="message"]')).toHaveValue(new RegExp(sku));
+ const selectedName=await page.locator('#pPreviewTitle').innerText();
+ expect(await page.locator('#inquiryForm [name="message"]').inputValue()).toContain(selectedName);
+ const contactDraft=new URL(await page.locator('#inquiryForm [data-inquiry-whatsapp]').getAttribute('href')).searchParams.get('text');
+ expect(contactDraft).toContain(sku);expect(contactDraft).toContain(guides[key].inquiryBrief);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });
