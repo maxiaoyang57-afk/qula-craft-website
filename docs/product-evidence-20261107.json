@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-07",
+  "base": "c7ad4e362026ffbc6da38c97a250ac9e30ea15fc",
+  "scope": "17 existing shortlisted products; no new listings",
+  "owner_confirmation": {
+    "date": "2026-11-07",
+    "source": "Owner confirmation in this conversation: YA855孔径2mm左右",
+    "holeDiameter": {
+      "value": 2,
+      "unit": "mm",
+      "qualifier": "approximately",
+      "evidenceType": "owner_reported_approximate",
+      "instrumentMeasurementVerified": false,
+      "tolerance": null
+    },
+    "supersedes": "Hole present; numeric diameter not supplied",
+    "originalWorkbookFieldsPreserved": true,
+    "previousSpecificationGraphic": "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg"
+  },
+  "facts_added": {
+    "YA855": "Approx. 2 mm hole, owner-reported",
+    "RW22372": "21 mm source-title reference and flatback description",
+    "SLM10094": "30 g source-title packing reference",
+    "SLM10093": "500 g source-title packing reference",
+    "SLM10012": "500 g source-title packing reference; decorative component wording",
+    "CDK001208": "Remove unrelated imported fireproof/protection application wording; retain original capture"
+  },
+  "audited": [
+    {
+      "sku": "YA855",
+      "pdp": "p-ya855.html",
+      "source_title": "100pcs 14mm AB Love Heart Round Beads UV Acrylic Loose Spacer Beads for Jewelry Making Bracelet Necklace DIY Accessories",
+      "public_specs": {
+        "Material": "Acrylic",
+        "Size": "14 mm bead diameter",
+        "Hole": "Approx. 2 mm; confirm tolerance, hole direction and fit with a sample.",
+        "Standard pack": "100 pieces per bag; custom packing by inquiry",
+        "Selection note": "The approx. 2 mm hole is a supplier reference. Compare the selected sample with your cord or pen rod and confirm the occupied length before ordering.",
+        "Assortment": "Mixed assortment; selected designs by inquiry",
+        "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "YA425",
+      "pdp": "p-ya425.html",
+      "source_title": "16 × 18mm AB Heart Acrylic Beads with 2.5mm Hole",
+      "public_specs": {
+        "Material": "Acrylic",
+        "Shape": "Heart",
+        "Pack reference": "500 g per bag",
+        "Size": "16 × 18 mm",
+        "Hole diameter": "2.5 mm",
+        "Customization": "Available; project details confirmed by quotation",
+        "Order details": "Confirm minimum order quantity, sample timing and dispatch date by email"
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "YA234",
+      "pdp": "p-ya234.html",
+      "source_title": "Transparent Color Football Beads AB Round Acrylic Beads Straight Hole Loose Beads  DIY Bracelet Jewelry Making",
+      "public_specs": {
+        "Material": "Acrylic Beads",
+        "Hole": "Stringing hole present; confirm diameter and intended fit",
+        "Standard pack": "100 pieces per bag; custom packing by inquiry",
+        "Customization": "Available; details confirmed by inquiry",
+        "Size": "16 mm",
+        "Selection note": "Round beads with a straight stringing channel for jewelry, phone chains and beading projects. Confirm hole diameter and the selected color finish.",
+        "Assortment": "Mixed or single-color selection; confirm the selected colors and sizes",
+        "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "CDK26017",
+      "pdp": "p-cdk26017.html",
+      "source_title": "Cute Cartoon Tree Pendant Charms Keychain Accessories with Lobster Clasp for DIY  Purse Backpack Decoration Jewelry Making",
+      "public_specs": {
+        "Material": "Resin, clay and alloy",
+        "Size": "25 × 38 mm",
+        "Attachment": "Lobster clasp",
+        "Standard pack": "10 pieces per bag; custom packing by inquiry",
+        "Selection note": "Assorted tree designs with metal lobster clasps. Confirm selected designs and current assortment.",
+        "Assortment": "Mixed assortment; selected designs by inquiry",
+        "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "CDK001208",
+      "pdp": "p-cdk001208.html",
+      "source_title": "Cute Cartoon Summer Slippers Keychain Resin Charms with Alloy Lobster Clasp Decorative for Bags Keychains",
+      "public_specs": {
+        "Material": "Alloy",
+        "Place of Origin": "Zhejiang, China",
+        "Product Type": "Keychain",
+        "Feature": "Slippers",
+        "Shape": "Slippers",
+        "Application": "Bag and keychain decoration",
+        "Pattern": "Slippers",
+        "Model Number": "HE-CDK001208",
+        "Brand Name": "None",
+        "Material scope": "The source material field lists alloy. Confirm the decorative body composition and included fittings for the selected design."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "CDK001890",
+      "pdp": "p-cdk001890.html",
+      "source_title": "10pcs Creative Simulation Resin Fruit Keychain Bag Pendant Couple Car Key Chains Jewelry Gift Decoration Accessories",
+      "public_specs": {
+        "Material": "Resin",
+        "Size": "about 35 × 78 mm",
+        "Standard pack": "10 pcs/bag",
+        "Attachment": "Confirm selected hardware, dimensions and packing against the original product reference; no additional fittings or performance claims are specified.",
+        "Selection": "Source size reference: about 35 × 78 mm. No fixed style or color mixture is specified.",
+        "Packing and MOQ": "The reference pack quantity is not the MOQ. Confirm minimum quantity and dispatch timing in your quotation."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "MA012",
+      "pdp": "p-ma012.html",
+      "source_title": "5mm Hollow Star Loose Sequins Glitter Paillettes for Nail Art Manicure/Sewing/Wedding Decoration Confetti Ornament",
+      "public_specs": {
+        "Application": "all",
+        "Material": "PVC",
+        "Feature": "Waterproof",
+        "Style": "ROMANCE",
+        "Product Type": "Decorations",
+        "Model Number": "HE-MA012",
+        "Place of Origin": "Zhejiang, China",
+        "Brand Name": "none",
+        "Color": "Mixed colors",
+        "Size": "5mm diameter",
+        "Shape": "Hollow star",
+        "Usage": "Nail art,wedding,sew-on decoration"
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "MA087",
+      "pdp": "p-ma087.html",
+      "source_title": "Mixed Colorful Hollow Flowers Daisy Shape 5MM Sequin Glitter Paillettes for Nail Art Manual DIY Crafts Decoration",
+      "public_specs": {
+        "Application": "all",
+        "Material": "Plastic",
+        "Feature": "Durable",
+        "Style": "ROMANCE",
+        "Product Type": "Decorations",
+        "Model Number": "MO-MA087",
+        "Place of Origin": "Zhejiang, China",
+        "Brand Name": "none",
+        "Color": "Mixed colors",
+        "Size": "5mm",
+        "Shape": "flower shape",
+        "Usage": "balloon ,Nail art,wedding,sew-on decoration"
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "MA175",
+      "pdp": "p-ma175.html",
+      "source_title": "Wholesale 500 g Christmas Candy Cane Sequin Confetti Mix in Red, Green, Silver and Gold",
+      "public_specs": {
+        "Material": "Plastic/PET sequins; final composition to be confirmed",
+        "Product type": "Christmas sequin and confetti mix",
+        "Motif": "candy cane and coordinating Christmas confetti shapes",
+        "Color": "red, green, silver and gold; custom color ratios available",
+        "Finish": "metallic reflective sparkle",
+        "Reference specification": "Reference pack: 500 g; sequin size, shape ratio and color ratio are customizable",
+        "Supply format": "single design or assorted mix",
+        "Tolerance": "according to approved sample and confirmed order specification"
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "RW22372",
+      "pdp": "p-rw22372.html",
+      "source_title": "21mm Kawaii Chocolate Chip Cookie Resin Cabochon Mini Food Flatback Cabochons Slime Charms DIY Crafts Accessories",
+      "public_specs": {
+        "Material": "Resin",
+        "Application": "Holiday Decoration & Gift, Home Decoration",
+        "Feature": "Handmade",
+        "Pattern": "Chocolate Chips Cookie",
+        "Product Type": "Figurine",
+        "Size": "21 mm",
+        "Back type": "Flatback, as described in the source title; confirm the reverse-side profile and thickness on a sample."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "RW4252",
+      "pdp": "p-rw4252.html",
+      "source_title": "Simulation Resin Jelly Beans Candy Earring Food Charms Cute Mini Sugar Candy Cabochon for DIY Jewelry Bracelet Making",
+      "public_specs": {
+        "Model Number": "MO-RW4252",
+        "Material": "Resin",
+        "Size": "12 × 22 mm",
+        "Source packing": "100 pieces per bag",
+        "Reference pack weight": "180 g per 100 pieces",
+        "Color": "Assorted candy colors"
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "SLM10094",
+      "pdp": "p-slm10094.html",
+      "source_title": "30g Halloween Tombstone Polymer Clay Sprinkles Resin Knife Crafts Embellishment for Nail Art Slime Snow Globe Resin Shakers",
+      "public_specs": {
+        "Material": "Polymer clay and resin",
+        "Product Type": "Decoration",
+        "Style": "Artificial",
+        "Application": "Home Decoration",
+        "Feature": "Handmade",
+        "Pattern": "Knife",
+        "Place of Origin": "Zhejiang, China",
+        "Brand Name": "NONE",
+        "Model Number": "SS-SLM10094",
+        "Reference pack weight": "30 g in the source listing; confirm current packing by quotation.",
+        "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "SLM10093",
+      "pdp": "p-slm10093.html",
+      "source_title": "500g Mixed Moon Star Polymer Clay Slices Resin Mermaid Resin Charms for Nail Art Supplies Slime Filling Crystal Mud Crafts",
+      "public_specs": {
+        "Material": "Polymer clay and resin",
+        "Product Type": "Decoration",
+        "Style": "Artificial",
+        "Application": "Home Decoration",
+        "Feature": "Handmade",
+        "Pattern": "Mermaid",
+        "Place of Origin": "Zhejiang, China",
+        "Brand Name": "NONE",
+        "Model Number": "SS-SLM10093",
+        "Reference pack weight": "500 g in the source listing; confirm current packing by quotation.",
+        "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "SLM10012",
+      "pdp": "p-slm10012.html",
+      "source_title": "500g Strawberry Fruit Slime and Resin Mix for DIY Crafts Slime Decorations Perfect for Scrapbooking and Phone Stickers",
+      "public_specs": {
+        "Material": "Polymer clay and resin",
+        "Brand Name": "none",
+        "Place of Origin": "Zhejiang, China",
+        "Model Number": "HE-SLM10012",
+        "Reference pack weight": "500 g in the source listing; confirm current packing by quotation.",
+        "Mix specification": "Component dimensions, piece counts and fixed mixing proportions are not stated; agree on the selected assortment before ordering."
+      },
+      "new_fact_or_correction": true,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "YX006",
+      "pdp": "p-yx006.html",
+      "source_title": "Polymer Hot Clay Sprinkles Valentines Heart Clay Slices for Crafts Making DIY Slime Filler Accessories",
+      "public_specs": {
+        "Material": "Polymer Clay",
+        "Size": "6 mm",
+        "Standard pack": "500 g/bag",
+        "Attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection": "Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "Packing and MOQ": "The reference pack quantity is not the MOQ. Confirm minimum quantity and dispatch timing in your quotation."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "YX053",
+      "pdp": "p-yx053.html",
+      "source_title": "Dragon Fruit Polymer Clay Slices for DIY Projects — YX053",
+      "public_specs": {
+        "Material": "Polymer Clay",
+        "Size": "5 mm",
+        "Standard pack": "500 g/bag",
+        "Attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection": "Confirm the available assortment and selected packing. Photos do not establish fixed mix ratios or a counted set.",
+        "Packing and MOQ": "The reference pack quantity is not the MOQ. Confirm minimum quantity and dispatch timing in your quotation."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    },
+    {
+      "sku": "YX273",
+      "pdp": "p-yx273.html",
+      "source_title": "Cute Christmas Hat Clay Slices Polymer Hot Clay Sprinkles for Craft DIY Making Phone Case Nails Art Decoration Accessories",
+      "public_specs": {
+        "Material": "Polymer Clay",
+        "Size": "4 × 6 mm",
+        "Standard pack": "500 g/bag",
+        "Attachment": "No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection": "Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "Packing and MOQ": "The reference pack quantity is not the MOQ. Confirm minimum quantity and dispatch timing in your quotation."
+      },
+      "new_fact_or_correction": false,
+      "measurement_claim": "Supplier/source references only; no new instrument or fit-test evidence created"
+    }
+  ],
+  "images": {
+    "YA855": {
+      "original_photo_unchanged": "assets/images/pdp/ya855/ya855-1-ab-heart-acrylic-round-beads-20261018c.jpg",
+      "previous_specification_graphic_retained": "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg",
+      "new_fact_card": "assets/images/pdp/ya855/ya855-2-reference-specifications-20261107.png",
+      "measurement_evidence": false
+    }
+  },
+  "limits": "Hole direction, tolerance, occupied rod length, missing pack counts, component dimensions and physical sample tests require evidence; values are not inferred from photographs."
+}

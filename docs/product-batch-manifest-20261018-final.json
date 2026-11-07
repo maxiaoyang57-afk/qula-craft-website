@@ -127,13 +127,13 @@
           "origin": "owner-supplied product reference"
         },
         {
-          "path": "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg",
-          "role": "source specification summary",
+          "path": "assets/images/pdp/ya855/ya855-2-reference-specifications-20261107.png",
+          "role": "updated supplier-reference specification card",
           "width": 1000,
           "height": 1000,
-          "sha256": "2977855da36c4d18e9c3cbfc447c8608f20e438173f1fe93710507587ad39f5b",
-          "bytes": 98810,
-          "origin": "source specification graphic"
+          "sha256": "0d3600f1574d44739b4057df5469aa5bce9bf603b4cedf471ab87a2d261957be",
+          "bytes": 55649,
+          "origin": "code-rendered factual card from verified source fields and supplier confirmation; not a measurement photo"
         },
         {
           "path": "assets/images/pdp/ya855/ya855-3-ab-heart-acrylic-round-beads-20261018c.jpg",
@@ -143,6 +143,22 @@
           "sha256": "a68bc3996c0d337e054a252b1a1e0a70ecdbea50663a08910b0602a216a3bc60",
           "bytes": 108137,
           "origin": "packing and order graphic"
+        }
+      ],
+      "imageRevisions": [
+        {
+          "date": "2026-11-07",
+          "reason": "Supplier confirmed hole diameter is approximately 2 mm; replace outdated not-supplied specification graphic. Original product photo and original source files retained.",
+          "previousOutput": {
+            "path": "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg",
+            "role": "source specification summary",
+            "width": 1000,
+            "height": 1000,
+            "sha256": "2977855da36c4d18e9c3cbfc447c8608f20e438173f1fe93710507587ad39f5b",
+            "bytes": 98810,
+            "origin": "source specification graphic"
+          },
+          "evidence": "docs/product-evidence-20261107.json"
         }
       ]
     },

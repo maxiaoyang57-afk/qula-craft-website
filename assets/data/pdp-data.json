@@ -18027,10 +18027,10 @@
     "stockStatus": "In stock; confirm the available quantity with your quote",
     "specs": {
       "Material": "Acrylic",
-      "Size": "14 mm bead diameter; hole diameter not supplied",
-      "Hole": "Stringing hole present; confirm hole diameter before choosing cord",
+      "Size": "14 mm bead diameter",
+      "Hole": "Approx. 2 mm; confirm tolerance, hole direction and fit with a sample.",
       "Standard pack": "100 pieces per bag; custom packing by inquiry",
-      "Selection note": "Hole diameter is not supplied; bead diameter does not establish stringing fit.",
+      "Selection note": "The approx. 2 mm hole is a supplier reference. Compare the selected sample with your cord or pen rod and confirm the occupied length before ordering.",
       "Assortment": "Mixed assortment; selected designs by inquiry",
       "Packing and MOQ": "Packing quantity is not the minimum order quantity. Confirm MOQ and dispatch date by inquiry."
     },
@@ -18052,14 +18052,47 @@
     "sourceSkuCorrection": null,
     "importedAt": "2026-10-18T12:08:57.220785+00:00",
     "metaTitle": "14 mm AB Heart Acrylic Round Beads for Jewelry | YA855",
-    "metaDescription": "Round acrylic beads with an AB finish and heart details for bracelets, necklaces and craft kits. Confirm hole diameter and selected colors by sample.",
-    "shortProductDescription": "Round acrylic beads with an AB finish and heart details for bracelets, necklaces and craft kits. Confirm hole diameter and selected colors by sample.",
+    "metaDescription": "14 mm AB heart-pattern acrylic round beads with an approx. 2 mm hole. Reference pack: 100 pieces per bag; confirm cord fit with a sample.",
+    "shortProductDescription": "14 mm AB heart-pattern acrylic round beads with an approx. 2 mm hole. Reference pack: 100 pieces per bag; confirm cord fit with a sample.",
     "imagesLocal": [
       "assets/images/pdp/ya855/ya855-1-ab-heart-acrylic-round-beads-20261018c.jpg",
-      "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg",
+      "assets/images/pdp/ya855/ya855-2-reference-specifications-20261107.png",
       "assets/images/pdp/ya855/ya855-3-ab-heart-acrylic-round-beads-20261018c.jpg"
     ],
-    "pricingMode": "quote_only"
+    "pricingMode": "quote_only",
+    "specificationUpdates": [
+      {
+        "date": "2026-11-07",
+        "source": "Owner confirmation in this conversation: YA855孔径2mm左右",
+        "holeDiameter": {
+          "value": 2,
+          "unit": "mm",
+          "qualifier": "approximately",
+          "evidenceType": "owner_reported_approximate",
+          "instrumentMeasurementVerified": false,
+          "tolerance": null
+        },
+        "supersedes": "Hole present; numeric diameter not supplied",
+        "originalWorkbookFieldsPreserved": true,
+        "previousSpecificationGraphic": "assets/images/pdp/ya855/ya855-2-ab-heart-acrylic-round-beads-20261018c.jpg"
+      }
+    ],
+    "verifiedStructuredSpecifications": {
+      "material": "Acrylic",
+      "size": "14 mm bead diameter",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Hole diameter",
+          "value": "Approximately 2 mm; supplier reference, tolerance not specified"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Standard pack",
+          "value": "100 pieces per bag"
+        }
+      ]
+    }
   },
   {
     "catalogIndex": 101,
