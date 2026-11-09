@@ -3,6 +3,7 @@ import html
 import json
 import re
 from pathlib import Path
+from urllib.parse import urlencode
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -63,6 +64,18 @@ def cards(keys):
         chunks.append(f'<article style="min-width:0;border:1px solid #eadde3;border-radius:16px;padding:16px;background:#fff"><a href="p-{key}.html"><img loading="lazy" src="{esc(src)}" alt="{esc(p["sku"] + ": " + alt)}" width="{w}" height="{h}" style="display:block;width:100%;height:220px;object-fit:contain;background:#fff;border-radius:10px"></a><h3><a href="p-{key}.html">{esc(p["sku"])} · {esc(title)}</a></h3><dl>' + "".join(f'<dt><b>{esc(k)}</b></dt><dd style="margin:0 0 8px">{esc(v)}</dd>' for k,v in facts(key)) + f'</dl><p>{esc(note)}</p><a class="text-link" href="p-{key}.html">View product and request a quote →</a></article>')
     return '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:18px">' + "".join(chunks) + '</div>'
 
+def inquiry_references(page):
+    if page != "guide-bingsu-beads-slime-fillers.html":
+        return ""
+    copy = json.loads((ROOT / "assets/data/pdp-copy.json").read_text())
+    links = []
+    for key, label in [("ym109", "YM109 straw-style listing"), ("ym109-2", "YM109 second catalog listing")]:
+        p = PRODUCTS[key]
+        title = copy[key]["displayTitle"]
+        url = "quote.html?" + urlencode({"product":title,"sku":p["sku"],"image":p["imagesLocal"][0],"category":"Glitter & Fillers","entry_context":"product","entry_page":"/"+page,"entry_title":title,"application":"Slime add-in selection; catalog reference: "+BASE+"p-"+key+".html"})
+        links.append(f'<li><a class="text-link" data-guide-product-inquiry="p-{key}.html" href="{esc(url)}">Request the {esc(label)} →</a></li>')
+    return '<section data-guide-inquiry-references="20261109"><h2>Request the exact YM109 reference</h2><p>Each link keeps its own product title, image and catalog URL in your enquiry.</p><ul>' + ''.join(links) + '</ul></section>'
+
 def apply(page):
     """Patch only the curated guide images and evidence section; keep its shell."""
     hero, keys, heading, intro = GUIDES[page]
@@ -74,9 +87,10 @@ def apply(page):
     photo = f'<figure style="margin:26px 0"><a href="p-{hero}.html"><img loading="eager" fetchpriority="high" src="{esc(src)}" alt="{esc(p["sku"] + ": " + PHOTOS[hero][0])}" width="{w}" height="{h}" style="width:100%;height:auto;object-fit:contain;background:#fff;border-radius:18px;max-width:520px;display:block;margin:0 auto"></a><figcaption class="small-note" style="text-align:center;margin-top:8px">{esc(p["sku"])} catalog photograph. <a href="p-{hero}.html">See the supplied component and listed specifications</a>.</figcaption></figure>'
     evidence = f'<section data-guide-product-evidence="20261109"><h2>{heading}</h2><p>{intro}</p>{cards(keys)}<p class="small-note">Pack references describe the listed unit, not a minimum order or a counted yield. Confirm current MOQ, samples, assortment and dispatch date in your quotation.</p></section>'
     s = re.sub(r'<section data-guide-product-evidence="20261109">.*?</section>', '', s, flags=re.S)
+    s = re.sub(r'<section data-guide-inquiry-references="20261109">.*?</section>', '', s, flags=re.S)
     main = s.index('<main')
     before, body = s[:main], s[main:]
-    body, n = re.subn(r'<figure\b[^>]*>.*?</figure>', lambda _: photo + evidence, body, count=1, flags=re.S)
+    body, n = re.subn(r'<figure\b[^>]*>.*?</figure>', lambda _: photo + evidence + inquiry_references(page), body, count=1, flags=re.S)
     assert n == 1, page
     before = re.sub(r'(<meta (?:property|name)="(?:og:image|twitter:image)" content=")[^"]+', lambda m:m[1]+BASE+src, before)
     def schema(m):
