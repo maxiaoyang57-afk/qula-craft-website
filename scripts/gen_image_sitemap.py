@@ -51,6 +51,21 @@ for c in cat["categories"]:
             rows.append((BASE + rel, clip_words(f"{p['sku']} — {clean_title(p.get('name') or c.get('name',''))}")))
     if rows: imgs_by_url.setdefault(page, []).extend(rows)
 
+# Reviewed guide photographs are discoverable at the same canonical page.
+from guide_product_evidence import GUIDES
+for page in GUIDES:
+    text = (SITE / page).read_text(encoding="utf-8")
+    main = text.split('<main', 1)[1].split('</main>', 1)[0]
+    rows = []
+    for tag in re.findall(r'<img\b[^>]*>', main):
+        src = re.search(r'\bsrc="([^"]+)"', tag)
+        alt = re.search(r'\balt="([^"]+)"', tag)
+        if src:
+            rel = html.unescape(src[1]).split('?', 1)[0]
+            if (SITE / rel).is_file():
+                rows.append((BASE + rel, html.unescape(alt[1]) if alt else page))
+    imgs_by_url[BASE + page] = rows
+
 # ---- 3) 注入 sitemap(先剥旧 image 节点,保证幂等) ----
 sm = SM.read_text(encoding="utf-8")
 _url_count_before = sm.count("<url>")      # 注入前基准,用于校验只加 image 节点不动 URL
