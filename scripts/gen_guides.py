@@ -8,8 +8,9 @@
 """
 import json, re
 from pathlib import Path
+from PIL import Image
 
-SITE = Path(r"E:\Claude\solacraft-site")
+SITE = Path(__file__).resolve().parents[1]
 BASE = "https://www.qulacrafts.com/"
 TODAY = "2026-07-25"
 V = "20260725f"
@@ -42,6 +43,9 @@ PRE = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', "", PRE, fl
 
 
 def build(g):
+    g = dict(g)
+    # Intrinsic dimensions describe the selected asset, including wide scenes.
+    g["heroW"], g["heroH"] = Image.open(SITE / g["hero"]).size
     slug, title, desc = g["slug"], g["title"], g["desc"]
     url = BASE + slug
     h = PRE
@@ -123,3 +127,7 @@ if __name__ == "__main__":
         ext = len(re.findall(r'href="https?://(?!www\.qulacrafts)', g["bodyHtml"] + g["note"]))
         flag = "" if w >= 800 else "  ⚠ <800词"
         print(f"  {g['slug']:52} {w:>5} 词{flag}")
+    # Preserve the reviewed source photographs, SKU comparisons and current
+    # buyer copy after older guide definitions are regenerated.
+    from guide_product_evidence import apply_all
+    apply_all()

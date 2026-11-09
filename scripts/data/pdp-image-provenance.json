@@ -1,0 +1,29 @@
+{
+  "ya893": {
+    "galleryLabels": [
+      "Source product photograph",
+      "AI-assisted application reference",
+      "AI-assisted detail reference"
+    ],
+    "galleryNote": "The main image is the source product photograph. The two supporting images are AI-assisted presentation references. They do not verify dimensions, hole direction or pen fit; styling props are included only if listed in the quotation.",
+    "sourceBasis": "Source main photo plus two AI-assisted presentation images; confirm dimensions and hole fit by quotation."
+  },
+  "ya425": {
+    "galleryLabels": [
+      "Source product photograph",
+      "AI-assisted application reference",
+      "AI-assisted detail reference"
+    ],
+    "galleryNote": "The main image is the source product photograph. The two supporting images are AI-assisted presentation references. They do not verify dimensions, hole direction or pen fit; styling props are included only if listed in the quotation.",
+    "sourceBasis": "Source main photo plus two AI-assisted presentation images; confirm dimensions and hole fit by quotation."
+  },
+  "ya382": {
+    "galleryLabels": [
+      "Source product photograph",
+      "AI-assisted application reference",
+      "AI-assisted detail reference"
+    ],
+    "galleryNote": "The main image is the source product photograph. The two supporting images are AI-assisted presentation references. They do not verify dimensions, hole direction or pen fit; styling props are included only if listed in the quotation.",
+    "sourceBasis": "Source main photo plus two AI-assisted presentation images; confirm dimensions and hole fit by quotation."
+  }
+}

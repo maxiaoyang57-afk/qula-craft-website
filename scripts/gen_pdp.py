@@ -15,6 +15,12 @@ SITE = Path(__file__).resolve().parents[1]
 TODAY = "2026-09-06"
 BASE = "https://www.qulacrafts.com/"
 pdp = json.loads((SITE / "assets/data/pdp-data.json").read_text(encoding="utf-8"))
+image_provenance = json.loads((SITE / "scripts/data/pdp-image-provenance.json").read_text(encoding="utf-8"))
+for _product in pdp:
+    if _product["assetKey"] in image_provenance:
+        _note = image_provenance[_product["assetKey"]]
+        assert _product.get("publishingCheck") == _note["sourceBasis"], "Image provenance needs source review"
+        _product.update({k: _note[k] for k in ("galleryLabels", "galleryNote")})
 pdp_copy = json.loads((SITE / "assets/data/pdp-copy.json").read_text(encoding="utf-8"))
 for _e in pdp:
     _e["ci"] = _e["catalogIndex"] - 1  # Codex 台账是 1-based
@@ -244,8 +250,8 @@ for e in pdp:
         compliance_copy = "Decorative model or craft component — non-edible. Ask about the applicable testing scope for your selected product and destination."
         variant_html = ('<p>' + esc(public_copy["variantSizeNotes"]) + '</p>') if public_copy.get("variantSizeNotes") else ""
         editorial_html = ('<section class="section" data-product-buying-guide="' + esc(sku) + '"><div class="container"><div class="section-head"><span class="eyebrow">Choose Your Reference</span><h2>Plan your project with ' + esc(sku) + '</h2></div><div class="detail-grid"><div><h3>Project ideas</h3><p>' + esc(public_copy.get("projectUse", "")) + '</p></div><div><h3>Before you choose</h3><p>' + esc(public_copy["selectionAdvice"]) + '</p>' + variant_html + '</div></div></div></section>')
-        if e.get("galleryNote"):
-            gal += '<p class="pdp-image-note" style="font-size:.85rem;color:#667085">' + esc(e["galleryNote"]) + '</p>'
+    if e.get("galleryNote"):
+        gal += '<p class="pdp-image-note" style="font-size:.85rem;color:#667085">' + esc(e["galleryNote"]) + '</p>'
 
     body = f"""
 <section class="page-hero pdp-hero"><div class="container">
