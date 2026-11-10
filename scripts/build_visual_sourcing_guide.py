@@ -82,6 +82,12 @@ def main():
     pos=text.index('<section class="buyer-questions"');text=text[:pos]+'<!-- quick-buying-answer:start -->'+entry+'<!-- quick-buying-answer:end -->'+text[pos:];path.write_text(text)
     sitemap=ROOT/'sitemap.xml';text=sitemap.read_text();url=BASE+SLUG
     text=re.sub(r'\n?<url>\s*<loc>'+re.escape(url)+r'</loc>.*?</url>\n?','',text,flags=re.S)
+    for changed in ['', 'resources.html', 'resin-charms.html', 'polymer-clay-sprinkles.html', 'keychain.html', 'applications.html']:
+        def update_date(match):
+            block=match[0]
+            if '<lastmod>' in block: return re.sub(r'<lastmod>.*?</lastmod>', '<lastmod>2026-11-10</lastmod>', block)
+            return block.replace('</loc>', '</loc><lastmod>2026-11-10</lastmod>', 1)
+        text=re.sub(r'<url>\s*<loc>'+re.escape(BASE+changed)+r'</loc>.*?</url>', update_date, text, flags=re.S)
     text=re.sub(r'\s*</urlset>\s*$', '\n</urlset>\n', text)
     images=''.join(f'<image:image><image:loc>{BASE+PRODUCTS[k]["imagesLocal"][0]}</image:loc></image:image>' for k,*_ in SELECTION)
     text=text.replace('</urlset>',f'<url><loc>{url}</loc><lastmod>2026-11-10</lastmod>{images}</url>\n</urlset>');sitemap.write_text(text)
