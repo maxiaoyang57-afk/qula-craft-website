@@ -13,7 +13,13 @@ test('resin cards show confirmed dimensions and packing before the inquiry link'
   // Reveal it through the buyer's normal paging control before asking about it.
   if (!(await card('RW26883').isVisible())) {
     await expect(card('RW26883')).toHaveAttribute('data-mobile-browse-hidden', '');
-    await page.locator('.mobile-browse-more:visible').click();
+    // Each new batch can add another page before this protected older SKU.
+    const more = page.locator('.mobile-browse-more:visible');
+    const cardCount = await page.locator('.product-card').count();
+    for (let pageNumber = 0; pageNumber < cardCount && !(await card('RW26883').isVisible()); pageNumber += 1) {
+      await expect(more).toBeVisible();
+      await more.click();
+    }
     await expect(card('RW26883')).toBeVisible();
   }
   await card('RW26883').locator('a.btn-card').click();
