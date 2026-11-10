@@ -13,10 +13,11 @@ test('reference-photo sourcing preserves each component through inquiry',async({
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
   if(sku==='RW26801')await page.screenshot({path:testInfo.outputPath('photo-guide.png'),fullPage:true});
   const href=new URL(await action.getAttribute('href'),page.url());
+  const params=new URLSearchParams([href.search.slice(1),href.hash.startsWith('#rfq:')?href.hash.slice(5):''].filter(Boolean).join('&'));
   await action.click();
   await expect(page.locator('#hiddenSku')).toHaveValue(sku);
-  await expect(page.locator('#pPreviewTitle')).toHaveText(href.searchParams.get('product'));
-  await expect(page.locator('#pPreviewImg')).toHaveAttribute('src','/'+href.searchParams.get('image'));
+  await expect(page.locator('#pPreviewTitle')).toHaveText(params.get('product'));
+  await expect(page.locator('#pPreviewImg')).toHaveAttribute('src','/'+params.get('image'));
   await expect(page.locator('select[name="product"]')).toHaveValue(category);
   await expect(page.locator('[name="entry_page"]')).toHaveValue('https://www.qulacrafts.com/'+guide);
  }
