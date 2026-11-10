@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from pdp_public_copy import PRODUCT_DETAILS, meta_description, meta_title, normalize_moq, public_title, sanitize_schema_value
+from pdp_content import product_summary
 
 
 SITE = Path(__file__).resolve().parents[1]
@@ -22,6 +23,7 @@ def esc(value: str) -> str:
     return html.escape(value, quote=True)
 
 
+existing_copy = json.loads((DATA / "pdp-copy.json").read_text(encoding="utf-8"))
 copy_rows = {}
 for entry in PDP:
     display = public_title(entry)
@@ -30,6 +32,7 @@ for entry in PDP:
     assert display, f"{entry['sku']}: missing display title"
     assert 80 <= len(description) <= 160, f"{entry['sku']}: description length {len(description)}"
     copy_rows[entry["assetKey"]] = {
+        **existing_copy.get(entry["assetKey"], {}),
         "sku": entry["sku"],
         "displayTitle": display,
         "metaTitle": title,
@@ -131,11 +134,12 @@ for entry in PDP:
     if raw_moq and raw_moq != clean_moq:
         content = content.replace(esc(raw_moq), esc(clean_moq))
     content = update_product_jsonld(content, row)
-    if entry["assetKey"] in PRODUCT_DETAILS:
+    summary = product_summary(entry, row)
+    if summary:
         content = re.sub(r'\s*<p class="pdp-summary">.*?</p>', '', content, flags=re.S)
         content = re.sub(
             r'(<h1[^>]*>.*?</h1>)',
-            lambda m: m.group(1) + '\n  <p class="pdp-summary">' + esc(PRODUCT_DETAILS[entry["assetKey"]]) + '</p>',
+            lambda m: m.group(1) + '\n  <p class="pdp-summary">' + esc(summary) + '</p>',
             content, count=1, flags=re.S,
         )
     page.write_text(content, encoding="utf-8")
