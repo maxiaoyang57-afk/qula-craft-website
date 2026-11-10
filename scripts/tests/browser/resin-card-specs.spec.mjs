@@ -9,6 +9,13 @@ test('resin cards show confirmed dimensions and packing before the inquiry link'
   await expect(card('RW1959').locator('.card-specs')).toHaveText('100 pcs/bag');
   await expect(card('RW24466').locator('.card-specs')).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  // New arrivals can move this older SKU beyond the phone's initial 12 cards.
+  // Reveal it through the buyer's normal paging control before asking about it.
+  if (!(await card('RW26883').isVisible())) {
+    await expect(card('RW26883')).toHaveAttribute('data-mobile-browse-hidden', '');
+    await page.locator('.mobile-browse-more:visible').click();
+    await expect(card('RW26883')).toBeVisible();
+  }
   await card('RW26883').locator('a.btn-card').click();
   await expect(page.locator('#hiddenSku')).toHaveValue('RW26883');
 });
