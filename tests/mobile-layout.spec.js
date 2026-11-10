@@ -10,6 +10,39 @@ test.use({
 
 const baseURL = 'http://127.0.0.1:4173';
 
+test('bulk keychain guide compares finished items and components with exact inquiry selections', async ({ page }) => {
+  await page.route('**/*', route => {
+    const r = route.request();
+    return r.url().startsWith(baseURL + '/') && ['GET','HEAD'].includes(r.method()) ? route.continue() : route.abort();
+  });
+  const errors = [];
+  page.on('pageerror', e => errors.push(e.message));
+  const guide = '/guide-buy-keychains-in-bulk.html';
+  const guideProducts = JSON.parse(require('node:fs').readFileSync('assets/data/product-catalog.json', 'utf8')).categories.flatMap(c => c.products);
+  for (const width of [375,1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto(baseURL + '/resources.html');
+    await page.locator(`a[href="${guide.slice(1)}"]`).click();
+    await expect(page.locator('h1')).toHaveText('Where to Buy Keychains in Bulk: Finished Styles & DIY Supplies');
+    await expect(page.locator('[data-guide-sku]')).toHaveCount(4);
+    for (const sku of ['CDK001890','CDK26017','CDK070','YA425']) {
+      const card = page.locator(`[data-guide-sku="${sku}"]`);
+      const image = card.locator('img');
+      await image.scrollIntoViewIfNeeded();
+      await expect.poll(() => image.evaluate(i => i.complete && i.naturalWidth > 0)).toBe(true);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+      await card.locator(`[data-guide-quote="${sku}"]`).click();
+      await expect(page.locator('[name="selected_sku"]')).toHaveValue(sku);
+      await expect(page.locator('#pPreviewTitle')).toHaveText(guideProducts.find(p => p.sku === sku).title);
+      await expect(page.locator('#pPreviewImg')).toBeVisible();
+      await expect(page.locator('select[name="product"]')).toHaveValue(sku === 'YA425' ? 'Acrylic Beads' : 'Keychains');
+      await page.goto(baseURL + guide);
+    }
+    await page.locator('.keychain-guide-products').screenshot({path:`test-results/keychain-guide-${width}.png`});
+  }
+  expect(errors).toEqual([]);
+});
+
 test('pen fit inquiries carry the selected bead and measurement checklist', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.route('**/*', route => {
@@ -32,7 +65,7 @@ test('pen fit inquiries carry the selected bead and measurement checklist', asyn
     await expect(page.locator('#hiddenUrl')).toHaveValue('https://www.qulacrafts.com' + guide);
     await expect(page.locator('[name="application"]')).toHaveValue('Beadable pen fit check');
     if (sku) {
-      await expect(page.locator('#pPreviewTitle')).toContainText(sku);
+      await expect(page.locator('#pPreviewTitle')).toHaveText(guideProducts.find(p => p.sku === sku).title);
       await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', new RegExp('/pdp/' + sku.toLowerCase() + '/'));
     }
     await expect(page.locator('textarea[name="message"]')).toHaveValue(/Largest rod diameter \(mm\):\nUsable beading length \(mm\):\nOther beads or spacers:\nSample or order quantity:/);
