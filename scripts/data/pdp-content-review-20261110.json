@@ -1,0 +1,51 @@
+{
+  "yx605": {
+    "sourceBasis": "Captured YX605 title, Shape and Usage fields in assets/data/pdp-data.json; Alibaba product 1601660279890. No dimensions or bag weight supplied.",
+    "summary": "Easter-themed clay slices with rabbit, carrot and egg motifs for slime decoration, nail art and decorative craft layouts.",
+    "projectUse": "Use the rabbit, carrot and egg motifs to plan an Easter-themed slime topping or nail-art layout. The source also lists decorative phone-case projects.",
+    "selectionAdvice": "Request the dimensions and thickness of each motif before choosing YX605 for a small nail surface or a layered craft design. Confirm whether the quotation covers a mixed assortment or selected colors, and ask for the bag weight or piece count. Test the selected sample in your own slime base or fixing system. These are decorative imitation pieces, not food."
+  },
+  "cdk3075": {
+    "sourceBasis": "Captured CDK3075 title, Material, Shape and Product Type in assets/data/pdp-data.json; Alibaba product 1601517539451. Dimensions, weight and pack count not supplied.",
+    "summary": "Tulip-and-fence resin keychains for keys and decorative accessory collections. Confirm the supplied ring and attachment assembly when choosing your reference.",
+    "projectUse": "Build a floral keychain selection around the tulip-and-fence design. The source lists a resin key ring for keys and accessory projects.",
+    "selectionAdvice": "Ask for the overall length, resin decoration dimensions, weight and a clear photo of the supplied ring and connector. Confirm the available colors and the number of keychains per pack. For a custom version, provide the design and packaging brief so the sample and quotation cover the exact assembly you intend to order."
+  },
+  "rw001884": {
+    "sourceBasis": "Imported owner workbook 上架9.8_B2B产品内容完成版.xlsx, row 7; existing title and specifications. Material remains provisional; no numeric dimensions or pack count supplied.",
+    "summary": "Gingerbread-character miniature decorations for Christmas display arrangements. Choose the character assortment and confirm the material, dimensions and mounting method before ordering.",
+    "projectUse": "Arrange the gingerbread-character designs in a small Christmas display or a decorative gift presentation.",
+    "selectionAdvice": "Request individual character measurements, the proposed set contents and photos of the base or reverse. The current material record requires confirmation. State whether the pieces will sit in a display or be fixed to another surface; agree the mounting method and review a sample for that use. Confirm the pack count separately from the minimum order."
+  },
+  "rw22754": {
+    "sourceBasis": "Imported owner workbook 上架9.8_B2B产品内容完成版.xlsx, row 13; existing Material and Reference specification fields: resin, 20 × 55 mm, 100 pieces per lot.",
+    "summary": "Glitter-finish resin angel-wing decorations with a 20 × 55 mm reference size and a reference pack of 100 pieces per lot.",
+    "projectUse": "Plan a Christmas ornament or decorative craft layout around the miniature wing shape and glitter finish.",
+    "selectionAdvice": "Use the 20 × 55 mm reference to check the space in your design, then request thickness and reverse-side photos if attachment clearance matters. Confirm the selected glitter color and whether the lot contains one design or an assortment. The 100-piece reference pack does not establish the minimum order; agree packing, sample and delivery details in the quotation."
+  },
+  "yx162": {
+    "sourceBasis": "Owner sourceFields in assets/data/pdp-data.json; workbook 10.11(20261018-071932).xlsx, row 149: polymer clay, 3 × 3 × 23 mm, 3 mm thick, 100pcs/bag, mixed or single color by inquiry.",
+    "summary": "Candy-cane polymer clay components for Christmas crafts and miniature displays. The listed size is 3 × 3 × 23 mm, with a 100-piece reference bag.",
+    "projectUse": "Use the miniature candy-cane shape in a Christmas craft arrangement or dollhouse display. Slime decoration is also listed in the source description.",
+    "selectionAdvice": "Allow for the listed 23 mm length and 3 mm thickness when planning placement. Confirm mixed or single-color selection and the fixing method for your craft base. Request a sample check for your intended slime formula or assembly. These are non-edible imitation candy components; pack quantity and minimum order are confirmed separately."
+  },
+  "rw927": {
+    "sourceBasis": "Owner workbook 9.12上品(1).xlsx, row 6; existing specifications: resin, sunflower design, orange/dark brown, 24 mm, 100 pieces per bag.",
+    "summary": "24 mm resin sunflower cabochons with orange petals and a dark brown center. The reference pack contains 100 pieces per bag.",
+    "projectUse": "Plan a sunflower accent for a hair accessory, bag decoration or jewelry project, as listed in the source description.",
+    "selectionAdvice": "Check the 24 mm size against your intended craft base. Ask for thickness and a rear view before deciding how to attach the piece; the source does not establish a drilled hole or included fitting. Review a sample with your chosen fixing method and confirm standard or custom pack quantities in the quotation."
+  },
+  "yx4138": {
+    "sourceBasis": "Owner workbook 9.12上品(1).xlsx, row 7; existing specifications: polymer clay, strawberry-themed sprinkle mix, pink/clear/white design, 500 g per bag. No component dimensions supplied.",
+    "summary": "Strawberry-themed polymer clay sprinkle mix for slime and decorative shaker or craft layouts, with a 500 g reference bag.",
+    "projectUse": "Use the strawberry theme to plan a coordinated slime topping or decorative shaker layout. The listed mix combines mini white strawberry slices with pink and clear decorative pieces.",
+    "selectionAdvice": "Request the dimensions and material details of the individual mix components when your design has limited clearance. Confirm the available assortment and color balance against a sample. The 500 g pack is a weight reference, not a piece count or minimum order; test the selected mix in your actual slime base or shaker construction before bulk ordering."
+  },
+  "cdk199": {
+    "sourceBasis": "User instruction on 2026-11-10: mark CDK199 material according to the captured title. Alibaba product 1600793401939 title explicitly identifies silicone; the original imported resin field is retained only as source history.",
+    "summary": "Gradient-color silicone ties for DIY keychain and accessory projects. Confirm the selected design, fastening dimensions and pack count for your order.",
+    "projectUse": "Use the gradient-color tie design as an accessory reference when preparing your enquiry.",
+    "selectionAdvice": "Request the total length, usable fastening length and closure details for the selected silicone tie. Ask for the exact model and pack count: the captured model field groups several references. Review a sample in your planned accessory assembly before ordering; the source does not provide a load rating or quantified stretch specification.",
+    "specOverrides": {"Material": "Silicone"}
+  }
+}

@@ -33,6 +33,8 @@ jobs:
           node scripts/tests/check-inquiry-basket-sync.mjs
       - name: Verify protected products
         run: node scripts/check-required-products.mjs
+      - name: Verify product paragraph uniqueness and reviewed facts
+        run: python3 -m unittest discover -s scripts/tests -p test_pdp_content.py
       - name: Verify SEO and batch image integrity
         run: |
           node --test scripts/tests/seo-url-guards.test.mjs

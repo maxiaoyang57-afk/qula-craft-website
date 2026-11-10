@@ -23,6 +23,18 @@ VERIFIED_SPECS = json.loads(
     (Path(__file__).resolve().parents[1] / "assets/data/verified-product-specs.json").read_text(encoding="utf-8")
 )
 
+CONTENT_REVIEWS = json.loads(
+    (Path(__file__).resolve().parent / "data/pdp-content-review-20261110.json").read_text(encoding="utf-8")
+)
+
+
+def is_generic_occasion_list(value):
+    """A marketplace-wide holiday list does not establish this SKU's uses."""
+    occasions = ("christmas", "easter", "halloween", "thanksgiving", "valentine",
+                 "new year", "mother's", "father's", "earth day", "back to school",
+                 "graduation", "april fool")
+    return sum(term in str(value).lower() for term in occasions) >= 6
+
 PUBLIC_TITLE_OVERRIDES = {
     "YX048": "Pink Strawberry Polymer Clay Slices",
     "RX399": "Mini Dinosaur Figures",
@@ -206,4 +218,7 @@ def public_specs(entry: dict) -> dict:
     if str(specs.get("Size", "")).strip().lower() in {"mm", "cm"}:
         specs.pop("Size")
     specs.update(VERIFIED_SPECS.get(entry.get("sku"), {}))
+    if is_generic_occasion_list(specs.get("Application", "")):
+        specs.pop("Application")
+    specs.update(CONTENT_REVIEWS.get(entry.get("assetKey"), {}).get("specOverrides", {}))
     return specs

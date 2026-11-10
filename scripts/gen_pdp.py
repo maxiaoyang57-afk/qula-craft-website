@@ -8,6 +8,7 @@ from urllib.parse import quote as url_quote
 from PIL import Image
 from sc048_customization import apply_sc048_customization
 from pdp_public_copy import PRODUCT_DETAILS, VERIFIED_SPECS, normalize_moq, public_specs
+from pdp_content import product_summary, render_buying_guide
 from pdp_selection_guides import render_selection_guide, selection_jump, selection_quote_url
 from inquiry_schema import pdp_schemas
 
@@ -244,12 +245,10 @@ for e in pdp:
     q_url = selection_quote_url(key, q_url)
     buying_guide = public_copy.get("buyingGuide")
     buying_guide_html = (f'<p class="small-note"><a href="{esc(buying_guide["url"])}">{esc(buying_guide["label"])} →</a></p>' if buying_guide else "")
-    editorial_html = ""
+    editorial_html = render_buying_guide(e, public_copy)
     compliance_copy = "Decorative craft material — non-edible. Batch test reports (EN 71, ASTM F963, CPC, REACH) available on request."
     if public_copy.get("selectionAdvice"):
         compliance_copy = "Decorative model or craft component — non-edible. Ask about the applicable testing scope for your selected product and destination."
-        variant_html = ('<p>' + esc(public_copy["variantSizeNotes"]) + '</p>') if public_copy.get("variantSizeNotes") else ""
-        editorial_html = ('<section class="section" data-product-buying-guide="' + esc(sku) + '"><div class="container"><div class="section-head"><span class="eyebrow">Choose Your Reference</span><h2>Plan your project with ' + esc(sku) + '</h2></div><div class="detail-grid"><div><h3>Project ideas</h3><p>' + esc(public_copy.get("projectUse", "")) + '</p></div><div><h3>Before you choose</h3><p>' + esc(public_copy["selectionAdvice"]) + '</p>' + variant_html + '</div></div></div></section>')
     if e.get("galleryNote"):
         gal += '<p class="pdp-image-note" style="font-size:.85rem;color:#667085">' + esc(e["galleryNote"]) + '</p>'
 
@@ -258,7 +257,7 @@ for e in pdp:
   <nav class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / <a href="{catpage(cslug)}">{esc(cname)}</a> / <span>{esc(sku)}</span></nav>
   <span class="eyebrow">{esc(cname)} · SKU {esc(sku)}</span>
   <h1>{esc(title_full)}</h1>
-  {('<p class="pdp-summary">' + esc(PRODUCT_DETAILS[key]) + '</p>') if key in PRODUCT_DETAILS else ''}
+  {('<p class="pdp-summary">' + esc(product_summary(e, public_copy)) + '</p>') if product_summary(e, public_copy) else ''}
 </div></section>
 <section class="section" style="padding-top:26px"><div class="container detail-grid"><div>{gal}</div>
 <div>

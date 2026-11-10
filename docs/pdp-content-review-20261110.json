@@ -1,0 +1,1462 @@
+{
+  "date": "2026-11-10",
+  "issue": "QULA-PDP-CONTENT-DUPLICATION-20261110",
+  "base": "db0eb2191745ba653feb916f0ec52b286505f919",
+  "scope": {
+    "public_products_reviewed": 988,
+    "public_product_pages_changed": 422,
+    "intro_deduplication_pages": 229,
+    "buying_advice_deduplication_pages": 268,
+    "generic_occasion_lists_removed": 57,
+    "individually_reviewed_pages": [
+      "yx605",
+      "cdk3075",
+      "rw001884",
+      "rw22754",
+      "yx162",
+      "rw927",
+      "yx4138",
+      "cdk199"
+    ]
+  },
+  "material_instruction": {
+    "sku": "CDK199",
+    "value": "Silicone",
+    "basis": "User 2026-11-10 instruction to use the material explicitly named in the original title",
+    "source_capture_preserved": true
+  },
+  "invariants": [
+    "9 public categories, 988 public products, 2 preserved archived references",
+    "Original product capture, catalog, dimensions, packs, MOQ and quotation-only pricing preserved",
+    "H1, titles, canonical URLs, image files and inquiry links preserved",
+    "Unique original buying paragraphs remain in the rendered guide",
+    "Sitemap dates changed only for the 422 edited public product pages"
+  ],
+  "validation": {
+    "new_content_regressions": "4 passed, all 988 public PDPs checked",
+    "verified_product_specs": "4 passed",
+    "public_pack_specs": "3 passed",
+    "static_build": "4 passed",
+    "npm_build": "passed",
+    "full_pdp_gates": "passed",
+    "second_normalization_run_changes": 0
+  },
+  "next": "CI, browser preview and production verification required before release",
+  "changed_pages": {
+    "p-cdk001890.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-cdk003235.html": [
+      "remove_generic_occasions"
+    ],
+    "p-cdk003767.html": [
+      "remove_generic_occasions"
+    ],
+    "p-cdk199.html": [
+      "deduplicate_or_review_advice",
+      "owner_confirmed_material",
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-cdk25378.html": [
+      "remove_generic_occasions"
+    ],
+    "p-cdk2694.html": [
+      "remove_generic_occasions"
+    ],
+    "p-cdk3075.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-cdk3080.html": [
+      "remove_generic_occasions"
+    ],
+    "p-cdk5001-2.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-cdk792.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb001023.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb001070.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb001890.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb23047.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb23106.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb25131.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb25840.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb25847.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb25849.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb25897.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26022.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26127.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26272.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26274.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26286.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26323.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26337.html": [
+      "remove_generic_occasions"
+    ],
+    "p-czb26353.html": [
+      "remove_generic_occasions"
+    ],
+    "p-ma225.html": [
+      "remove_generic_occasions"
+    ],
+    "p-monica-ym109-2.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw001413.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw001548.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw001884.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-rw001911.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw001953.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw0020647.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw0020648.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002096.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002103.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw002226.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002227.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002271.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw0022961.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002405.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw0024318.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002494.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002502.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002548.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw002922.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003152.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003309.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003319.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003475.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw003577.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003653.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw003838.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw004039.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw004103.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw004514.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw004628.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw004682.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw00524.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1104.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1120.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1138.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1148.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1334.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1371.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1615.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw162.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1620.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw188.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1913.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1931.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw1975.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw20635.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw20781.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw21072.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw2137.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw21432.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw21578.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw21838.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw22225.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw22576.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw2265.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw22702.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw22741.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw22754.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-rw2294.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw2304-d.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw2304.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23101.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw23182.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23219.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23283.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23535.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23542.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23594.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23792.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23799.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23874.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23905.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23930.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23940.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23944.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23948.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23952.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw23959.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw24360.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw24490.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw24607.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw247.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw24850.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25009.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25222.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25308.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25415.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25476.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25551.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25575.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25640.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25644.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25647.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25778.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25784.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25789.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25891.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25901.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25907.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw25939.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw25990.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26021.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26034.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26049.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26051.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw26052.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26053.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26068.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26089.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26092.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26107.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26110-1.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26110.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26115.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26125.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26159.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26161.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26163.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26164.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26165.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26167.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26169.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26210.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26211.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26212.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26220.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26221.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26222.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26223.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26225.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26226.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26227.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26228.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26229.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26232.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26234.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26256.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26280.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26281.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26297.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26300.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26306.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26307.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26309.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26313.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26314.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26316.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26317.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26318.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26321.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26322.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26323.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26325.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26330.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26331.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26335.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26336.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26337.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26339.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26341.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26342.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26344.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26345.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26348.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26349.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26350.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26351.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26352.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26353.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26355.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26361.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26362.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26363.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26364.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26365.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26366.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26367.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26369.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26371.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26372.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26375.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26376.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26377.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26378.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26381.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26382.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26384.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26385.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26387.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26388.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26389.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26390.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26393.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26398.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26400.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26401.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26408.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26411.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26412.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw26414.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26416.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26417.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26420.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26421.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26422.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26423.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26424.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26425.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26427.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26428.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26429.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26430.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26431.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26433.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26434.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26439.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw26446.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26447.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26448.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26450.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26454.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26455.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26458.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26461.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26475.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26477.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26478.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26479.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26480.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26505.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26506.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26512.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26516.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26517-1.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26518-1.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26519-1.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26520.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26521-1.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26523.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26529.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26555.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26556.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26558.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26559.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26560.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26588.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26590.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26591.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26612.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26613.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26614.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26615.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26616.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26617.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26619.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26620.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26621.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26622.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26623.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26625.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26627.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26629.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26630.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26631.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26633.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26634.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26636.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26638.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26639.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26640.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26642.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26643.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26644.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26645.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26646.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26647.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26648.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26649.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26651.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26652.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26653.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26654.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26656.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26657.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26658.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26659.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26660.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26661.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26662.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26663.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26665.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26666.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26667.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26669.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26670.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26672.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26673.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw26753.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26754.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26760.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26761.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26864.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26866.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26880.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26883.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26884.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26886.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26890.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26894.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26896.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26898.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw26901.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw2694.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw333.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rw3417.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw344.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw372.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw375.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw3936.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw4287.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw4552.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw4827.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw527.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw5551.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw5673.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw5808.html": [
+      "deduplicate_intro"
+    ],
+    "p-rw5816.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw6014.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw756.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw763.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw890.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw914.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw927.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-rw940.html": [
+      "deduplicate_or_review_advice"
+    ],
+    "p-rw994.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rx056.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rx100.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rx228.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rx477.html": [
+      "remove_generic_occasions"
+    ],
+    "p-rx823.html": [
+      "remove_generic_occasions"
+    ],
+    "p-sg011.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm10123.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm10130.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm26521.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm671.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm684.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm690.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm693.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm707.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm709.html": [
+      "remove_generic_occasions"
+    ],
+    "p-slm712.html": [
+      "remove_generic_occasions"
+    ],
+    "p-ym104.html": [
+      "remove_generic_occasions"
+    ],
+    "p-ym115.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-ym118.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-ym172.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-ym358.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-yx006.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx048.html": [
+      "remove_generic_occasions"
+    ],
+    "p-yx053.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx076.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx089.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-yx100.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx124.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx130.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx162.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-yx165.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx198.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx219.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx231.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx241.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx247.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx251.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx252.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx264.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx265.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx273.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx3130.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-yx318.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx320.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx329.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx3392.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx4047.html": [
+      "remove_generic_occasions"
+    ],
+    "p-yx4075.html": [
+      "remove_generic_occasions"
+    ],
+    "p-yx4108.html": [
+      "remove_generic_occasions"
+    ],
+    "p-yx4138.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-yx490.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx527.html": [
+      "deduplicate_intro",
+      "deduplicate_or_review_advice"
+    ],
+    "p-yx577.html": [
+      "remove_generic_occasions"
+    ],
+    "p-yx605.html": [
+      "reviewed_buying_advice",
+      "unique_intro"
+    ],
+    "p-yx625.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx693.html": [
+      "deduplicate_intro"
+    ],
+    "p-yx710.html": [
+      "deduplicate_intro"
+    ]
+  }
+}
