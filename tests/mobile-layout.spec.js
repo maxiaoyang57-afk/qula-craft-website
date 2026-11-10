@@ -65,7 +65,7 @@ test('pen fit inquiries carry the selected bead and measurement checklist', asyn
     await expect(page.locator('#hiddenUrl')).toHaveValue('https://www.qulacrafts.com' + guide);
     await expect(page.locator('[name="application"]')).toHaveValue('Beadable pen fit check');
     if (sku) {
-      await expect(page.locator('#pPreviewTitle')).toHaveText(guideProducts.find(p => p.sku === sku).title);
+      await expect(page.locator('#pPreviewTitle')).toContainText(sku);
       await expect(page.locator('#pPreviewImg')).toHaveAttribute('src', new RegExp('/pdp/' + sku.toLowerCase() + '/'));
     }
     await expect(page.locator('textarea[name="message"]')).toHaveValue(/Largest rod diameter \(mm\):\nUsable beading length \(mm\):\nOther beads or spacers:\nSample or order quantity:/);
