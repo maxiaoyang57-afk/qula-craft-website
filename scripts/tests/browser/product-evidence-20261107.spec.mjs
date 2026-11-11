@@ -12,7 +12,10 @@ for(const [key,sku,category,fact]of cases)test(`${sku} keeps facts and project b
  await expect(page.locator('[name="application"]')).toHaveValue(guides[key].inquiryBrief);
  const selectedName=await page.locator('#pPreviewTitle').innerText();
  expect(await page.locator('#inquiryForm [name="message"]').inputValue()).toContain(selectedName);
- const contactDraft=new URL(await page.locator('#inquiryForm [data-inquiry-whatsapp]').getAttribute('href')).searchParams.get('text');
+ // Inquiry hydration updates direct-contact drafts after restoring the SKU.
+ const whatsapp = page.locator('#inquiryForm [data-inquiry-whatsapp]');
+ await expect.poll(async () => new URL(await whatsapp.getAttribute('href')).searchParams.get('text')).toContain(sku);
+ const contactDraft=new URL(await whatsapp.getAttribute('href')).searchParams.get('text');
  expect(contactDraft).toContain(sku);expect(contactDraft).toContain(guides[key].inquiryBrief);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });

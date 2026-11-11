@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-11",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 1008,
+  "catalogCountAfter": 1028,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW001902",
+      "pdp": "p-rw001902.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cherry-Blossom-Scrapbook-Embellishment-Cabochons_1600553993669.html",
+      "sourceFields": {
+        "title": "Resin Cherry Blossom Scrapbook Embellishment Cabochons DIY Crafts Materials Party Decorating Flower Hair Clip Supplies",
+        "material": "Resin",
+        "size": "about 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW001902"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-1.jpg",
+          "sha256": "925c7999e8bd320ccd9d4d8f7c509a1c0f45edba970a22f8749b37d6604ddd57",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-2.jpg",
+          "sha256": "80578dfe638dcb066f08ea092643195c7016158a6fb79f1b54bad5ff0386085c",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-3.jpg",
+          "sha256": "13914b29903a9c8f392731d0310a01eb79585b4d83918a91e3d9cfcd507ea163",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW002659",
+      "pdp": "p-rw002659.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Simulation-Fruit-Ice-Cream_1601702358687.html",
+      "sourceFields": {
+        "title": "100Pcs Resin Simulation Fruit Ice Cream Flatbacks Cabochon Popsicle for DIY Dollhouse Craft Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about 26mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002659"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-1.jpg",
+          "sha256": "3b6c6a7749f3d359621214f55b69e96ff1a0f045df7072269b01d3ca1f23b3e3",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-2.jpg",
+          "sha256": "3556b5a4cf5689f83c2caf40af61af7abca1aa4aedda654ccce4f7a95b05a802",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-3.jpg",
+          "sha256": "d588d8602fa0c56bd55a79adfc72d88969377f9210490cba9ab0cc3288c9d456",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW002789",
+      "pdp": "p-rw002789.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Ice-Cream-Resin-Flatback-Cabochon_1601689606317.html",
+      "sourceFields": {
+        "title": "Kawaii Ice Cream Resin Flatback Cabochon Popsicle Miniature Food Decoration Charm Crafts",
+        "material": "Resin",
+        "size": "20*34mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002789"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-1.jpg",
+          "sha256": "73affe178b5b09650c684f78adbc4f2514db72dcc14c34ef32b4ffa2148940a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-2.jpg",
+          "sha256": "2ff6ada0e642936f7bfe212354383f6e014032f4eab8ef27cbb764a4a9e42f18",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-3.jpg",
+          "sha256": "b1b37f682b081996f743caff7ec364ad9b84e672a6f206c94ac77e9a843f7d63",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003381",
+      "pdp": "p-rw003381.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/3D-Resin-Artificial-Pig-Cupcake-Dessert_1601691349395.html",
+      "sourceFields": {
+        "title": "3D Resin Artificial Pig Cupcake Dessert Charms No Hole Embellishments for DIY Scrapbooking Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about 20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003381"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-1.jpg",
+          "sha256": "a094881f346997f6fac2a552e8d89708f5188b0d50221365a5f9bfe85bad0e0e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-2.jpg",
+          "sha256": "3817bb9734b7b30bfec36475e06b185d11c16109c0712ee7b2451d89166efa3b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-3.jpg",
+          "sha256": "ff69ac7c68a3a25b9127b4e4384c58919d5401082335e23a8ee3603c8b19899a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003477",
+      "pdp": "p-rw003477.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Chocolate-Flatback-Resin-Cabochon-Kawaii-Miniature_1600918778912.html",
+      "sourceFields": {
+        "title": "Chocolate Flatback Resin Cabochon Kawaii Miniature Food for Phone Decoration DIY Scrapbook Craft",
+        "material": "Resin",
+        "size": "about 20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003477"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-1.jpg",
+          "sha256": "0c8580b4475ed2bcb0a5612deaf9d62d4035379d21a0caf565b72eec9ddcbd9e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-2.jpg",
+          "sha256": "9f188d08a94c6778363db303c922fffb6d063ecb907420eab50ee292b0268e0f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-3.jpg",
+          "sha256": "4abef5e334c935c9dfe3adfd7da1ffe4fd957e56911ba893761a6fe8883ef41d",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003522",
+      "pdp": "p-rw003522.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Star-Magic-Stick-Resin-Charms_1601702039061.html",
+      "sourceFields": {
+        "title": "Cute Star Magic Stick Resin Charms for Jewelry Making Girl Earrings Necklace Pendant Decor DIY Keychain Accessories",
+        "material": "Resin",
+        "size": "21*37mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003522"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-1.jpg",
+          "sha256": "fefe41b40feaca78d655fb967cb0b0abc97fd611afd5a8b90aa29723f328bacd",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-2.jpg",
+          "sha256": "1f65bc3150c1b77da310d8ddbc8f7fe1c83771ca9ac03e56e292eddcadac4d4b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-3.jpg",
+          "sha256": "0618b478fd87ddfaa17543bd2f1089822c7f55d4e147a98523d97ce403336a7b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003659",
+      "pdp": "p-rw003659.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Flower-Shape-Lollipop-Flat_1601691365269.html",
+      "sourceFields": {
+        "title": "New Cute Flower Shape Lollipop Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Access",
+        "material": "Resin",
+        "size": "20*30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003659"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-1.jpg",
+          "sha256": "d506426724e20c7d2523b3db8d2a66eaf709bafbdca55765c3a58bc31b75f10d",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-2.jpg",
+          "sha256": "ba71aeb02e16bab61a256560914a54b3580a9b9384db3ca4afaa235e939d651d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-3.jpg",
+          "sha256": "5416c44917e767ca4214479c82b5fc73d388d3d57a8b71c08dc863e87efdd7b0",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003724",
+      "pdp": "p-rw003724.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cute-Mini-Camellia-Flower-Resin_1601702105199.html",
+      "sourceFields": {
+        "title": "100pcs Cute Mini Camellia Flower Resin Series Flat Back Cabochon Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "23*31mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003724"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-1.jpg",
+          "sha256": "f039c3947f1b683a44e39a3b15dfc939dcc3cc8cd0062b1d4aa052cb8e14fc44",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-2.jpg",
+          "sha256": "70112f4c77ecdb2f018aa15c19d5fa43be603233bc40d4582124a3c6bb7b44b5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-3.jpg",
+          "sha256": "5687b91f609552ce9d4692370db5c077448785203fd9d0ce4b3e89b063b5dba9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW003820",
+      "pdp": "p-rw003820.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-house-Miniature-Supermarket-Eat-And_1601702110047.html",
+      "sourceFields": {
+        "title": "Doll house Miniature Supermarket Eat And Play Delicious Ice Cream Balls Sweet Cake Food diy Model Accessories",
+        "material": "Resin",
+        "size": "21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003820"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-1.jpg",
+          "sha256": "6e52d03c0e6e6f8621407c855fb37907f0bf4d28220473514657782b16cda2db",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-2.jpg",
+          "sha256": "3db97b2e496b1c688f8df3c1b19e0d108b58f6a41eecce6169cafb8142b35a4e",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-3.jpg",
+          "sha256": "32526ae414fb8060e05de07506b718a86928d00e4c5d313b7479e7cae14235a1",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW23314",
+      "pdp": "p-rw23314.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Simulation-Ice-Cream-Cookies-Flat_1601677962938.html",
+      "sourceFields": {
+        "title": "Mini Simulation Ice Cream Cookies Flat Back Resin Cabochons Scrapbook Kawaii Simulation Food DIY Jewelry Craft Decor Accessories",
+        "material": "Resin",
+        "size": "about 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW23314"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-1.jpg",
+          "sha256": "218fee3de294c1df67cede6149e5d1810233dc24c96089ddd6f2d48239377080",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-2.jpg",
+          "sha256": "751eb1c62b278369d7c0f8a391505df51d60c0a7f121f413dc78c94bc0b578e4",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-3.jpg",
+          "sha256": "505eb25eb49751b019157aab65d9f1bba3fe45620fb902a9fe492ff70bb2ac95",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW25002",
+      "pdp": "p-rw25002.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Resin-Ice-Cream-Mini-Cupcake_1601285576656.html",
+      "sourceFields": {
+        "title": "100pcs Resin Ice Cream Mini Cupcake 3D Food Simulation Cake Cabochon DIY Scrapbook Doll House Decor Accessories",
+        "material": "Resin",
+        "size": "about 20*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25002"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-1.jpg",
+          "sha256": "ad5658961a8a13bd0e8b94d31c506816ad75c3c22c8cce74565221f5039cd289",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-2.jpg",
+          "sha256": "8c9d975ebcb61f9e6642d6568a81b31a97b7aab3b78e40aa2f631fcab710c70f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-3.jpg",
+          "sha256": "7aa87e26da5e42039c60a5601a4c4791cc9e28af71f69ba606f67766cd8ddaa3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW25607",
+      "pdp": "p-rw25607.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Simulation-Love-Me-Heart-Cake_1601455153588.html",
+      "sourceFields": {
+        "title": "100Pcs Simulation Love Me Heart Cake Resin Cabochon Flatbacks Scrapbook Crafts For Phone Decoration DIY Dollhouse Accessories",
+        "material": "Resin",
+        "size": "20*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25607"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-1.jpg",
+          "sha256": "71d4e254757107ca4c77d3ecd33fcf13ea5d85e00950357a158243f235f0a0e2",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-2.jpg",
+          "sha256": "4eba1a639fc3dca12b8ce1aa7f38dad4995dcb824a97e306e631900bd3223489",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-3.jpg",
+          "sha256": "c82d02c3b36f108bef8bd1e9499f51b350b15874dde287a5af06cdd9b94e64e9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW25623",
+      "pdp": "p-rw25623.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Chocolate-Ice-Cream-Flatback_1601449163829.html",
+      "sourceFields": {
+        "title": "100pcs Kawaii Chocolate Ice Cream Flatback Resin Cabochon Scrapbooking Decor DIY Doll House Embellishments Center",
+        "material": "Resin",
+        "size": "about25*55mm- / 16*34mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25623"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-1.jpg",
+          "sha256": "4cbeb6fb28e4fac5fa76ac1797ed9334a365984d8f9ebe3f39cbf5bba43cc81f",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-2.jpg",
+          "sha256": "adbdbede879b642639371e67c68708d8db8254f072becd9872b919394d7c3500",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-3.jpg",
+          "sha256": "367340a446e3c19767d5d1f53ec164d073cec261dad8cae3ac9514c781b85042",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW25963",
+      "pdp": "p-rw25963.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Relief-Colorful-Resin-Handdrawn-Cupcake-Cake_1601600411170.html",
+      "sourceFields": {
+        "title": "Relief Colorful Resin Handdrawn Cupcake Cake Ice Cream Tank Jar Tin Cake Tableware Kitchen Household Dinnerware Kids Gifts",
+        "material": "Resin",
+        "size": "25*16mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25963"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-1.jpg",
+          "sha256": "825e559b424d465cbc320f1bd4e2eedfa7651b26df35e506ef023e7fbd81b7fc",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-2.jpg",
+          "sha256": "e4e001cd17d0f3c3411b2a542dac05151f81eada89d15988024009aa13d0eb95",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-3.jpg",
+          "sha256": "11a52454f2670ab80173475a5d470d1369ae9498c71e7b83d318c6385ac20fe2",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26097",
+      "pdp": "p-rw26097.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Strawberry-Cake-Bread-Snack_1601669812121.html",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Strawberry Cake Bread Snack Resin Cabochons Scrapbook Crafts Phone Decoration DIY Food Dollhouse Accessories",
+        "material": "Resin",
+        "size": "23*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26097"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-1.jpg",
+          "sha256": "f30789de8aa77736f5a716bc025f8858f403bf97bc0931531f1d9019149fdb80",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-2.jpg",
+          "sha256": "1cd54dd3aeb3831e9e62711b37fa4c40ba5fa27ab5ba5c40149695d85e0a4d2a",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-3.jpg",
+          "sha256": "7ab24d4fcf0ce2c4f322b2d7fea1e29b875838f05cab37bca85366f5ebca1f37",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26134",
+      "pdp": "p-rw26134.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Sweet-Strawberry-Blueberry-Cream-Triangle-Cake_1601702018597.html",
+      "sourceFields": {
+        "title": "Sweet Strawberry Blueberry Cream Triangle Cake Resin Figurines DIY Creative Doll House Resin Decoration",
+        "material": "Resin",
+        "size": "about18mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26134"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-1.jpg",
+          "sha256": "f759fa59761f55d00630678e4cc6ecb8e0fbd141e5d6153f9b91034528fb7801",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-2.jpg",
+          "sha256": "86a8372015b0e1c5885f4febb7cd1bd352344cab6f67f05ca2fba01164203ae7",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-3.jpg",
+          "sha256": "569a332cfb44fbafbc84d296b40f0e17a1f173cab9cba8d00edb3c35272ed5f5",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26141",
+      "pdp": "p-rw26141.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-3D-Simulation-Cute-Fruit-Avocado_1601361690863.html",
+      "sourceFields": {
+        "title": "100pcs 3D Simulation Cute Fruit Avocado Orange Decoration Resin Charms Supplies for Making DIY Accessories Dollhouse",
+        "material": "Resin",
+        "size": "26*21*16MM-",
+        "packaging": "100PCS/BAG",
+        "sku_raw": "MO-RW26141"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-1.jpg",
+          "sha256": "14f983197c3dbe79ac2109decd7420302f60b623f9a9963bf6346fea06a2ba1a",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-2.jpg",
+          "sha256": "c7ecc10f81f465a45f9299d45264b936806b4e9d9fd35df6561bed19a930f5e5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-3.jpg",
+          "sha256": "65d4284e9f895bfc96dc780e2100a1d6e052041b59b67944c2cb2a6a9d0cdb1f",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26145",
+      "pdp": "p-rw26145.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Fruit-Biscuits-Basket-Resin_1601694139544.html",
+      "sourceFields": {
+        "title": "100Pcs New Fruit Biscuits Basket Resin Cabochon Simulation Food DIY Craft Phone Decoration Doll House Accessories",
+        "material": "Resin",
+        "size": "28*15*12mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26145"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-1.jpg",
+          "sha256": "a078d0d6510907093ebb0d6990cb0936145f104293be1b6b8885e6dccc732eed",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-2.jpg",
+          "sha256": "f347efc971b91170dbfd85b55ab174fbfde0221c4d3db53a8a6490657e7abdaa",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-3.jpg",
+          "sha256": "4714e2c384cab48dd2d9dbc0f99b0bfe881b3afee9390f7fe671f0609e22ac8c",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26149",
+      "pdp": "p-rw26149.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Transparent-Glitter-Colors-Flower-Shape-Resin_1601694005566.html",
+      "sourceFields": {
+        "title": "Transparent Glitter Colors Flower Shape Resin Flatback Cabochon for DIY Handmade Crafts Decor Hair Accessories Making",
+        "material": "Resin",
+        "size": "21*20mm- / about29mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26149"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-1.jpg",
+          "sha256": "869a192780b096a3a35f00226a8bb3684b5cf1543f25d88477e9bbb78e51e7d4",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-2.jpg",
+          "sha256": "bb2215ab54c687a004e04f961a84334db5e45b8678f5dce658c2c6345bded301",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-3.jpg",
+          "sha256": "5bfa31a8212519ee730de69caa620cac44d2bb158c1e9ac48eac9c9aab78728b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    },
+    {
+      "sku": "RW26150",
+      "pdp": "p-rw26150.html",
+      "batchNumber": 39,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Shiny-Cherry-Blossom-Cake-Series-Resin_60746028275.html",
+      "sourceFields": {
+        "title": "Shiny Cherry Blossom Cake Series Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "22*23mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26150"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-1.jpg",
+          "sha256": "6f43ee4791dca3dd5cb837e9c6599d84a67b13b6a0fbae63a23e0ecf8d3d7661",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-2.jpg",
+          "sha256": "f08c1eac7a3f1427227ff8246f1b57f41f847788b3daf12320c6679e88d1655d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-3.jpg",
+          "sha256": "b28bd68921aa9f5688e8ac97b7ba401885ec1684e1afdc951e8c41587b8124a9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ]
+    }
+  ]
+}
