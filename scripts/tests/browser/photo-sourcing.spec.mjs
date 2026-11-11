@@ -4,7 +4,17 @@ test('reference-photo sourcing preserves each component through inquiry',async({
  await page.route(/formsubmit\.co|google-analytics\.com|googletagmanager\.com|clarity\.ms/,route=>route.abort());
  await page.route('**/api/inquiry',route=>route.abort());
  for(const [sku,category] of [['RW26801','Resin Charms'],['YX693','Polymer Clay Sprinkles'],['YX329','Polymer Clay Sprinkles'],['YA425','Acrylic Beads'],['CDK070','Keychains']]){
+  if(sku==='RW26801'){
+   await page.goto('/products.html',{waitUntil:'domcontentloaded'});
+   const entry=page.locator('main a[href="guide-find-craft-supplies-from-photo.html"]');
+   await entry.scrollIntoViewIfNeeded();
+   await expect(entry).toBeVisible();
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+   await page.screenshot({path:testInfo.outputPath('photo-directory-'+(testInfo.project.use.viewport.width)+'.png'),fullPage:true});
+   await entry.click();
+  }else{
   await page.goto('/'+guide,{waitUntil:'domcontentloaded'});
+  }
   const action=page.locator(`[data-photo-product-inquiry="${sku}"]`);
   await action.scrollIntoViewIfNeeded();
   const image=action.locator('xpath=..').locator('img');
