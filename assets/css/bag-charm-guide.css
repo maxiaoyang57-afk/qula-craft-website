@@ -1,0 +1,39 @@
+.bag-charm-feature { margin-block: 24px 0; }
+.bag-charm-feature__link {
+  display: grid; grid-template-columns: 1.08fr 1fr; align-items: center;
+  gap: clamp(16px, 3vw, 34px); padding: clamp(12px, 2vw, 20px);
+  border: 1px solid #e5d0bd; border-radius: 18px; background: #fdf8f1;
+  color: #2c2530; text-decoration: none;
+}
+.bag-charm-feature__link:hover { border-color: #a56e59; color: #2c2530; }
+.bag-charm-feature__link:focus-visible { outline: 3px solid #a23c64; outline-offset: 3px; }
+.bag-charm-feature__cover { position: relative; display: block; }
+.bag-charm-feature__cover img { display: block; width: 100%; height: auto; border-radius: 11px; }
+.bag-charm-feature__play {
+  position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%);
+  display: grid; place-items: center; width: 49px; height: 49px; border: 2px solid #fff;
+  border-radius: 50%; background: #302431; color: #fff;
+}
+.bag-charm-feature__play::after {
+  content: ""; margin-inline-start: 3px; border-inline-start: 13px solid currentColor;
+  border-block: 8px solid transparent;
+}
+.bag-charm-feature__duration {
+  position: absolute; inset: 9px 9px auto auto; padding: 3px 7px;
+  border-radius: 5px; background: #302431; color: #fff; font-size: .78rem;
+}
+.bag-charm-feature__link h2 { margin: 0 0 8px; font-size: clamp(1.4rem, 3vw, 2.35rem); line-height: 1.15; }
+.bag-charm-feature__link p { margin: 0 0 12px; }
+.bag-charm-video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #29212b; border-radius: 14px; }
+.bag-charm-watch { padding-block: clamp(20px, 4vw, 38px); }
+.bag-charm-watch h1 { max-width: 25ch; }
+.bag-charm-watch figure { margin: 18px 0 0; }
+.bag-charm-watch figcaption { margin-top: 9px; }
+.bag-charm-size-table { overflow-wrap: anywhere; }
+.bag-charm-size-table table { width: 100%; }
+.bag-charm-size-table :is(th, td) { vertical-align: top; padding: .55rem .45rem; }
+@media (max-width: 720px) {
+  .bag-charm-feature__link { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .bag-charm-feature__play { width: 41px; height: 41px; }
+  .bag-charm-size-table { font-size: .85rem; }
+}
