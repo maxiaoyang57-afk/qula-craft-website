@@ -67,7 +67,7 @@ def main():
     marker='<!-- photo-sourcing:start -->'; end='<!-- photo-sourcing:end -->'
     card=marker+f'<article class="article-card"><span>Photo to Components</span><h3>Find Craft Supplies from a Reference Photo</h3><p>Identify pictured parts, compare real product photos and build a quantity-by-SKU inquiry.</p><a href="{SLUG}">Find the components →</a></article>'+end
     resources=ROOT/'resources.html'; text=resources.read_text(); text=re.sub(re.escape(marker)+'.*?'+re.escape(end),'',text,flags=re.S);text=text.replace('<div class="article-grid">','<div class="article-grid">'+card,1);text=text.replace('16 sourcing guides written from the questions buyers actually send us','Practical sourcing guides covering buyer questions');resources.write_text(text)
-    for name in ['index.html','resin-charms.html','polymer-clay-sprinkles.html','keychain.html','applications.html']:
+    for name in ['index.html','products.html','resin-charms.html','polymer-clay-sprinkles.html','keychain.html','applications.html']:
         path=ROOT/name;text=path.read_text();text=re.sub(r'<!-- photo-entry:start -->.*?<!-- photo-entry:end -->','',text,flags=re.S)
         entry=f'<!-- photo-entry:start --><div class="container" style="padding:16px 20px"><p><strong>Have a photo instead of a product name?</strong> <a href="{SLUG}">Identify the parts and compare actual products →</a></p></div><!-- photo-entry:end -->'
         if 'class="buyer-questions"' in text:
@@ -82,15 +82,23 @@ def main():
     pos=text.index('<section class="buyer-questions"');text=text[:pos]+'<!-- quick-buying-answer:start -->'+entry+'<!-- quick-buying-answer:end -->'+text[pos:];path.write_text(text)
     sitemap=ROOT/'sitemap.xml';text=sitemap.read_text();url=BASE+SLUG
     text=re.sub(r'\n?<url>\s*<loc>'+re.escape(url)+r'</loc>.*?</url>\n?','',text,flags=re.S)
-    for changed in ['', 'resources.html', 'resin-charms.html', 'polymer-clay-sprinkles.html', 'keychain.html', 'applications.html']:
+    for changed in ['', 'products.html', 'resources.html', 'resin-charms.html', 'polymer-clay-sprinkles.html', 'keychain.html', 'applications.html']:
         def update_date(match):
             block=match[0]
-            if '<lastmod>' in block: return re.sub(r'<lastmod>.*?</lastmod>', '<lastmod>2026-11-10</lastmod>', block)
+            if '<lastmod>' in block:
+                current = re.search(r'<lastmod>(.*?)</lastmod>', block)[1]
+                reviewed = '2026-11-11' if changed in ('products.html', 'resources.html') else '2026-11-10'
+                return re.sub(r'<lastmod>.*?</lastmod>', '<lastmod>'+max(current, reviewed)+'</lastmod>', block)
             return block.replace('</loc>', '</loc><lastmod>2026-11-10</lastmod>', 1)
         text=re.sub(r'<url>\s*<loc>'+re.escape(BASE+changed)+r'</loc>.*?</url>', update_date, text, flags=re.S)
     text=re.sub(r'\s*</urlset>\s*$', '\n</urlset>\n', text)
     images=''.join(f'<image:image><image:loc>{BASE+PRODUCTS[k]["imagesLocal"][0]}</image:loc></image:image>' for k,*_ in SELECTION)
     text=text.replace('</urlset>',f'<url><loc>{url}</loc><lastmod>2026-11-10</lastmod>{images}</url>\n</urlset>');sitemap.write_text(text)
+    llms = ROOT/'llms.txt'
+    text = llms.read_text()
+    if BASE+SLUG not in text:
+        text = text.replace('## Buyer Guides\n', '## Buyer Guides\n- [Find craft supplies from a reference photo]('+BASE+SLUG+'): Identify components, compare original SKU photos and listed dimensions, then prepare a quantity-by-SKU inquiry.\n', 1)
+        llms.write_text(text)
     print('Built photo sourcing guide, source-photo references and discovery links')
 
 if __name__=='__main__': main()

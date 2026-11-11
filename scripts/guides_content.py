@@ -258,7 +258,7 @@ GUIDES = [
  ],
  "related": [
    ("glitter-sequins-fillers.html", "Glitter, sequins &amp; fillers", "The full stock range including bingsu, hollow stars and holographic paillettes."),
-   ("guide-clay-slices-vs-resin-charms-slime.html", "Clay slices vs resin charms", "Which topping to use where, and the 70/30 sourcing split."),
+   ("guide-clay-slices-vs-resin-charms-slime.html", "Clay slices vs resin charms", "Compare listed materials, dimensions and packing; test the selected components in your own formula."),
    ("guide-slime-business-supply-checklist.html", "Slime business supply checklist", "The full add-in list a new slime shop actually needs."),
  ],
 },
