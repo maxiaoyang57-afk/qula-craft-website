@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-12",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 1048,
+  "catalogCountAfter": 1068,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW25465",
+      "pdp": "p-rw25465.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-37mm-Colorful-Daisy-Flower-Flatback_1601420700031.html",
+      "sourceFields": {
+        "title": "Resin 37mm Colorful Daisy Flower Flatback Stone Buttons Scrapbooks Wedding Embellishments for Clothing Decoration DIY",
+        "material": "Resin",
+        "size": "37mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25465"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25465/rw25465-1.jpg",
+          "sha256": "f825b905abab244c7729a9e68b3a6916ecf3282e57835a252a6ca2b4d86783d2",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25465/rw25465-2.jpg",
+          "sha256": "d04f313b25d8e82a5b0c53daf2b5ccf74e3daead4b1f21d2eed053a74da15f35",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25465/rw25465-3.jpg",
+          "sha256": "f2eafc6d1225e6082000469747f89c09774cf0584b94b68acd490f0f9081e80a",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW001547",
+      "pdp": "p-rw001547.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Flat-Back-Resin-Cartoon-Kawaii-Flower_1601493799058.html",
+      "sourceFields": {
+        "title": "Flat Back Resin Cartoon Kawaii Flower Guitar Series Cabochon DIY Scrapbooking Cabochons Embellishment Decoration Accessories",
+        "material": "Resin",
+        "size": "30*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW001547"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw001547/rw001547-1.jpg",
+          "sha256": "7b05a3ac4618c31269e2e75932d3866cc9f4b501b2650c7f730288cebedb0c76",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw001547/rw001547-2.jpg",
+          "sha256": "9b4c9c3a60621784ced5ade1289e1e6185ee7f163ed3dbfbd52b38f69c4067f3",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw001547/rw001547-3.jpg",
+          "sha256": "35932f62e86007ee71f24de78e98d3dc8dd2c7105e4d73f51f29f246bc984c2a",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW002162",
+      "pdp": "p-rw002162.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cartoon-Kawaii-Hairpin-Watercup-Sticker-Phone_1601397404081.html",
+      "sourceFields": {
+        "title": "Cartoon Kawaii Hairpin Watercup Sticker Phone Case Decoration Resin Charms Flower Mushroom Flatback Cabochon",
+        "material": "Resin",
+        "size": "55mm-",
+        "packaging": "100PCS/BAG",
+        "sku_raw": "MO-RW002162"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw002162/rw002162-1.jpg",
+          "sha256": "d759e23bbffd6b52f57e521ae077ad0c10a43341b9eb1080cdd56ae55c54ad9b",
+          "width": 350,
+          "height": 304
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw002162/rw002162-2.jpg",
+          "sha256": "f7a7483a84a06776deea94bd0b037ebb1cfcd4dc4e9471aabb1170761f242a8e",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw002162/rw002162-3.jpg",
+          "sha256": "ecc8a2f411bddd8f11ba1b722b9ef682a3528a0dc073328f7bb010678def5499",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW003463",
+      "pdp": "p-rw003463.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Love-Me-Heart-Lollipop_1601460514198.html",
+      "sourceFields": {
+        "title": "Resin Kawaii Love Me Heart Lollipop Flatback Cabochon for Crafts Making Scrapbooking Jewelry Accessory DIY",
+        "material": "Resin",
+        "size": "24mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003463"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw003463/rw003463-1.jpg",
+          "sha256": "45f47ab09e6113649ac28654d11e37dd05fa4e2bc1ffe2e46f5ad653d0bfa050",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw003463/rw003463-2.jpg",
+          "sha256": "248ff3632a1832f9accf7c6735ac3f006c10cf0e96ae5414a9cab0dd303cf31f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw003463/rw003463-3.jpg",
+          "sha256": "269fa4141a5959a32ee04fdfe23da341d714be55ecd27e191ee1202541d73657",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25677",
+      "pdp": "p-rw25677.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/1000pcs-Resin-Mini-Colorful-Flower-Nail_1601460003697.html",
+      "sourceFields": {
+        "title": "1000pcs Resin Mini Colorful Flower Nail Art Flatback Stone DIY Bow Scrapbook Christmas Decor Accessories Crafts",
+        "material": "Resin",
+        "size": "7mm-",
+        "packaging": "1000pcs/bag",
+        "sku_raw": "MO-RW25677"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25677/rw25677-1.jpg",
+          "sha256": "c87453ba1e57a4a2d1a2d07ba6f825dcfb548b348a94388f8bb0ad0df05e1a65",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25677/rw25677-2.jpg",
+          "sha256": "a98e7112b1c641952bbdc004843a208d5cff2cab1c9459d1964190e0e09bee47",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25677/rw25677-3.jpg",
+          "sha256": "92ee0432a46cff713b7468d6569c57e8572125db03519165a84288c76cc06026",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW20793",
+      "pdp": "p-rw20793.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Valentines-Day-Gift-2025-Rhinestone-Embellishments_1601311228102.html",
+      "sourceFields": {
+        "title": "Valentines Day Gift 2025 Rhinestone Embellishments Heart Shapes 6mm Sizes Transparent Purple Jelly Non Hotfix Resin Rhinestones",
+        "material": "Resin",
+        "size": "about6MM-",
+        "packaging": "1000PCS/BAG",
+        "sku_raw": "MO-RW20793"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw20793/rw20793-1.jpg",
+          "sha256": "d6ee1e4e56010b9a4d9cc436a1b6e48de52fcaa635a7c96b9cfdb98e3c2c7e5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw20793/rw20793-2.jpg",
+          "sha256": "d968c8ef61fc4b35e7b242047edf0507ec816ac7bde80e7b9013bc3618b2d399",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw20793/rw20793-3.jpg",
+          "sha256": "077f7710dc39195b1e1d20eda3e5055f939c04a367011941b4a3204c1a178311",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25420",
+      "pdp": "p-rw25420.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Colorful-Lily-Flowers-Resin-Lucky_1601403542550.html",
+      "sourceFields": {
+        "title": "100pcs Colorful Lily Flowers Resin Lucky Charm Cabochon Flatback for DIY Decoration Accessories Wholesale Ornament Bulk Supplier",
+        "material": "Resin",
+        "size": "25*35MM-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25420"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25420/rw25420-1.jpg",
+          "sha256": "3922dcbd2779f739303cc9e3c76333290f98fcf71de02ea86ba0dc3ced3c6bee",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25420/rw25420-2.jpg",
+          "sha256": "b3b40d77c0c59c0d5540e24a5255e22974ada763780dea9e209446d869b392a2",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25420/rw25420-3.jpg",
+          "sha256": "817d5d1244191ee8286d3c9e0582c477d44adb5840f4cf767e02373d940f50cc",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25918",
+      "pdp": "p-rw25918.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Christmas-Decorations-Cute-Wreath-Donuts_1601601731659.html",
+      "sourceFields": {
+        "title": "100Pcs Christmas Decorations Cute Wreath Donuts Flat Back Resin Cabochon Scrapbook Crafts DIY Doll House Accessories",
+        "material": "Resin",
+        "size": "30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25918"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25918/rw25918-1.jpg",
+          "sha256": "fbc2e4a0a338ec96fa996161b1b21006619b9b178c2da48e8eb7694e8ccc5e1d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25918/rw25918-2.jpg",
+          "sha256": "64704af6ff938116c58ebf600ceb9dcc2b5a1eda798c4d88dda543fe8134cbc0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25918/rw25918-3.jpg",
+          "sha256": "9cc825bbd98120e885838a7f3c0668385e010cd34fb1430a4a4969e52f1e3ce3",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25933",
+      "pdp": "p-rw25933.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mix-Designs-Christmas-Santa-Resin-Flatback_1601596206345.html",
+      "sourceFields": {
+        "title": "Mix Designs Christmas Santa Resin Flatback Cabochon Scrapbook Kawaii Embellishments Accessories",
+        "material": "Resin",
+        "size": "35*50mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25933"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25933/rw25933-1.jpg",
+          "sha256": "8cc1814aed4441cbe963026814b4d022e4fee6ebbd77485f89f62d5aee2f8793",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25933/rw25933-2.jpg",
+          "sha256": "990500705ff0e17bdcc93d44641a3ada491199f9cd619bc56337cb86add89a34",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25933/rw25933-3.jpg",
+          "sha256": "f7f36bd260aee97397214c65c08ebf1e0add704f7edc22636534c288e134357e",
+          "width": 700,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW759",
+      "pdp": "p-rw759.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mixed-Heart-Sun-Glasses-Resin_62011949557.html",
+      "sourceFields": {
+        "title": "100pcs Mixed Heart Sun Glasses Resin Decoration Crafts Kawaii Flatback Cabochons Scrapbook DIY Accessories Buttons",
+        "material": "Resin",
+        "size": "42*16mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW759"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw759/rw759-1.jpg",
+          "sha256": "2849e282ef13236e40f9804cced3b10df7e6737848345dff05c66b8f3ccebdd7",
+          "width": 350,
+          "height": 272
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw759/rw759-2.jpg",
+          "sha256": "d544000530a227ef0b58fd282b458e063d6698e5ce6ae45e1ec0fac123743001",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw759/rw759-3.jpg",
+          "sha256": "682b9514b15fbc65edd367ef12bb0d941f9244c97366ea3e82b907132ca9e80f",
+          "width": 1000,
+          "height": 667
+        }
+      ]
+    },
+    {
+      "sku": "RW955",
+      "pdp": "p-rw955.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Painted-Yellow-Sunflower-Flat_1601460404289.html",
+      "sourceFields": {
+        "title": "Resin Kawaii Painted Yellow Sunflower Flat Back Stones Scrapbook 3D Garden Figurines 100PCS DIY Bow Decor Accessories Crafts",
+        "material": "Resin",
+        "size": "18*18*6mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW955"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw955/rw955-1.jpg",
+          "sha256": "84b9bc595f7322f86fbd5f13872429bd76c656b187ac29dd37187c95e1e2e80a",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw955/rw955-2.jpg",
+          "sha256": "83ace96e312a061a86766b3423413d433a41d263751e411a15f971cfb8c7bcd8",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw955/rw955-3.jpg",
+          "sha256": "c68d2bcedbf182b5169d62350e34e1d9e9d9da6c2f0613cf358be1c6a8ae34e2",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW001553",
+      "pdp": "p-rw001553.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Simulation-3D-Coffee-Cup-Resin_1601600363578.html",
+      "sourceFields": {
+        "title": "100Pcs Simulation 3D Coffee Cup Resin Cabochons Scrapbooking Crafts for Phone Deco Parts DIY Doll House Accessories",
+        "material": "Resin",
+        "size": "10*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW001553"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw001553/rw001553-1.jpg",
+          "sha256": "dc6a0538643b37353ccc273f5359e547c2ba1465d640af862926f9a6c7d89a15",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw001553/rw001553-2.jpg",
+          "sha256": "daa03ad687a13d09313abc5bcd5aafecb2d9f23374cb1b940c6b8cd7e46f2d81",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw001553/rw001553-3.jpg",
+          "sha256": "212c44643843941e324f727e313a664e5a906b29cf15a5b9be82a4c5bf0a30f3",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25952",
+      "pdp": "p-rw25952.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Clear-Sunflower-With-Bow-Series-Resin_1601601854061.html",
+      "sourceFields": {
+        "title": "Clear Sunflower With Bow Series Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "27*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25952"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25952/rw25952-1.jpg",
+          "sha256": "4b3fe71146e2a190d8b2f97769c5d392fed58c64877aade7b3563dd849779487",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25952/rw25952-2.jpg",
+          "sha256": "17f6b1db2adfbf92555f850ff39af345da9818d1d2a48f3c742ebaefaef303c5",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25952/rw25952-3.jpg",
+          "sha256": "0ed0f9e56dfe54f3852bfae27eda0f62c6104e3c7f6633788cd8efd0bb81e2b0",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26074",
+      "pdp": "p-rw26074.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cartoon-Pink-Lotus-Flowers-Resin-Miniature_1601663530121.html",
+      "sourceFields": {
+        "title": "Cartoon Pink Lotus Flowers Resin Miniature Figurines for DIY Home Landscaping, Decorative Gifts",
+        "material": "Resin",
+        "size": "about 33*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26074"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26074/rw26074-1.jpg",
+          "sha256": "938a47df3d019430bd34043b4fd1c68146dc2090b4688cbb2058865e6ea37f37",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26074/rw26074-2.jpg",
+          "sha256": "4a5c658f1924bb200a894f24b3d1a91a1a5065c4e8e958478712ffff116bfb31",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26074/rw26074-3.jpg",
+          "sha256": "f558de46b87b020f477d2338ce0f8c8e4df1980c49baf97bf602ee32b9cfeae6",
+          "width": 1000,
+          "height": 500
+        }
+      ]
+    },
+    {
+      "sku": "RW2316",
+      "pdp": "p-rw2316.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Cute-Bowknot-Resin-Decoration-Crafts_1601359571042.html",
+      "sourceFields": {
+        "title": "Colorful Cute Bowknot Resin Decoration Crafts Flatback Cabochon Scrapbooking Fit Phone Decor Embellishments DIY Deco Parts",
+        "material": "Resin",
+        "size": "8*21*35mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW2316"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw2316/rw2316-1.jpg",
+          "sha256": "e2e8b2499cf88f516724d3907eaf9380ad381c9cc3bf082b3a8a31873fb037f0",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw2316/rw2316-2.jpg",
+          "sha256": "0eb222344ed81dc9f9a40773ca2bc12a16ac5379353d8f7a840e92ead61cd05b",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw2316/rw2316-3.jpg",
+          "sha256": "d9ad78a5353faad106e28a4224105f0869278256ecc4c2e07827922e8805a194",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26122",
+      "pdp": "p-rw26122.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Resin-Strawberry-Fruit-Figurine-Diy_11000031632315.html",
+      "sourceFields": {
+        "title": "Colorful Resin Strawberry Fruit Figurine Diy Miniature Fairy Garden Decoration Accessories",
+        "material": "Resin",
+        "size": "16*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26122"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26122/rw26122-1.jpg",
+          "sha256": "ae3b75f7d9037155c2038af839294021db1a7eae29dffa752a3af2825adb046d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26122/rw26122-2.jpg",
+          "sha256": "49d75d4988412f4d67dbea2b4a3ad95a88f3ec95e812eacd37e10a03539e4bc7",
+          "width": 800,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26122/rw26122-3.jpg",
+          "sha256": "4c2381540901fb37ff85c477be7e03522b65e6a9d8854f47e7b6b1422f717acc",
+          "width": 800,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26101",
+      "pdp": "p-rw26101.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Fruits-Banana-Blueberry-Apple-Strawberry-Flat_1601669711815.html",
+      "sourceFields": {
+        "title": "Fruits Banana Blueberry Apple Strawberry Flat Back Resin Cabochon Accessories DIY Scrapbooking Bowknot Decor Craft Supplies",
+        "material": "Resin",
+        "size": "25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26101"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26101/rw26101-1.jpg",
+          "sha256": "ca232922bc743b28acaeb38d1e13878e132b8709b3946d60765a9798d31ed138",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26101/rw26101-2.jpg",
+          "sha256": "9f8887a05f287675db804a37aad1903be41bba159e90a4da007f3f46fe3a45a1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26101/rw26101-3.jpg",
+          "sha256": "afc607a14e18e2f2ad91b9490f332ab1866ba768aa5812d410c2f6589f9403dd",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW20673",
+      "pdp": "p-rw20673.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Glitter-Round-Smile-Flat_1601679687635.html",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Glitter Round Smile Flat Back Resin Cabochon Scrapbooking Crafts Hair Bows Accessories DIY Phone Case Decoration",
+        "material": "Resin",
+        "size": "19mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW20673"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw20673/rw20673-1.jpg",
+          "sha256": "3ffe97b744a68585538b6bde271398eed79f5b439e7f63e42a07d2bc9c203d7e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw20673/rw20673-2.jpg",
+          "sha256": "7ade1d80b85864d1f5cbdb4952862473adb51ee6eacac055abfda5602e6afd59",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw20673/rw20673-3.jpg",
+          "sha256": "dddb83985106fa6745a8f5c8755f00b5e186964a3a2a48613837611860850458",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26082",
+      "pdp": "p-rw26082.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Simulation-Fruit-Cabochon-Resin_1601663414683.html",
+      "sourceFields": {
+        "title": "100pcs Kawaii Simulation Fruit Cabochon Resin Charms for Jewelry DIY Accessories Dollhouse Craft Deco Parts",
+        "material": "Resin",
+        "size": "12*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26082"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26082/rw26082-1.jpg",
+          "sha256": "af02f0a6786cceca83f0baac2844f9e7afdf3baa1af5fc20b77f6a0fd61f41fe",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26082/rw26082-2.jpg",
+          "sha256": "69305719e6c8254c5ab05350fe2023fbc13f54f4067bb4fea3fbd1165c1f0c01",
+          "width": 800,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26082/rw26082-3.jpg",
+          "sha256": "53890c8f34f80f7dc83943564c1d5ff20be9283bb844ccd6c205854eca1b24c9",
+          "width": 857,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW3081",
+      "pdp": "p-rw3081.html",
+      "batchNumber": 41,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Colorful-Heart-Star-Half-Round_1601460588499.html",
+      "sourceFields": {
+        "title": "100Pcs Colorful Heart Star Half Round Flat Back Resin Cabochon Scrapbooking Accessories Nail Parts",
+        "material": "Resin",
+        "size": "9mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW3081"
+      },
+      "imageOutputs": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw3081/rw3081-1.jpg",
+          "sha256": "a49e7ddb67a1c6890f301dcadab1275a3e61a0981e30623653538d649d6f358b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw3081/rw3081-2.jpg",
+          "sha256": "8bdd0b2617457cc54bd6ce6d90747c2c9b88cd0b50472d10ba9d4c70ff17671b",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw3081/rw3081-3.jpg",
+          "sha256": "b0d20d0d7dbc5e2bcbacec4ccd425b6920af30f13cc1552e12fb0a272e1663b5",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}
