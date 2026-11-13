@@ -71,6 +71,9 @@ def main():
             is_icon = source.endswith("whatsapp-3d.png")
             is_product = "/pdp/" in source or "/catalog/" in source
             desired = (128, 256) if is_icon else (360, 640) if is_product else (360, 640, 960)
+            is_mobile_hero = source.endswith("/flatlay-craft-range-hero-mobile.webp")
+            if is_mobile_hero:
+                desired = (360, 640, 800)
             if source.endswith("flatlay-craft-range-hero.webp"):
                 desired += (1280,)
             widths = sorted({min(width, candidate) for candidate in desired})
@@ -80,8 +83,12 @@ def main():
             for target_width in widths:
                 target_height = max(1, round(height * target_width / width))
                 resized = image.resize((target_width, target_height), Image.Resampling.LANCZOS)
-                output = OUTPUT / f"{stem}-{target_width}w.webp"
-                resized.save(output, "WEBP", quality=88, method=6,
+                if is_mobile_hero:
+                    resized = resized.filter(ImageFilter.GaussianBlur(0.65))
+                quality = 72 if is_mobile_hero else 88
+                variant_stem = f"{stem}-soft-q{quality}" if is_mobile_hero else stem
+                output = OUTPUT / f"{variant_stem}-{target_width}w.webp"
+                resized.save(output, "WEBP", quality=quality, method=6,
                              lossless=is_icon, exact=True, alpha_quality=100,
                              icc_profile=original.info.get("icc_profile", b""))
                 with Image.open(output) as check:
@@ -103,7 +110,7 @@ def main():
                             "sourceSha256": sha, "sourceWidth": width,
                             "sourceHeight": height, "pages": sorted(set(pages)),
                             "variants": variants})
-    manifest = {"version": "20261029", "method": "Lanczos resize, WebP quality 88; icon lossless",
+    manifest = {"version": "20261029", "method": "Lanczos resize, WebP quality 88; mobile hero softening and quality 72; icon lossless",
                 "originalFilesPreserved": True, "images": records}
     (ROOT / "docs/responsive-image-manifest-20261029.json").write_text(
         json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
