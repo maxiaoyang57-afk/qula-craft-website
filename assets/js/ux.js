@@ -28,7 +28,7 @@
     candidates.forEach(function (el) {
       if (pool.has(el)) return;
       if (el.classList.contains('reveal')) return; // 页面自带体系,让位
-      if (el.closest('.reveal, nav, footer, header, .page-hero, [class*="hero"]')) return;
+      if (el.closest('.reveal, [data-ux-no-reveal], nav, footer, header, .page-hero, [class*="hero"]')) return;
       var tag = el.tagName;
       if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'LINK' || tag === 'NAV' || tag === 'H1') return;
       pool.add(el);
