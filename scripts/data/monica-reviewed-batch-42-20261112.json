@@ -1,0 +1,2449 @@
+{
+  "sourceFile": "Private Monica 2353 owner detail export",
+  "sourceSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+  "batchCount": 1,
+  "batchSize": 20,
+  "newProductCount": 20,
+  "products": [
+    {
+      "sku": "RW25635",
+      "key": "rw25635",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "Mini Resin Pretzels for Recipe Journals and Bakery-Themed Crafts — RW25635",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "21 × 19 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Plan a bakery-inspired journal cover or handmade card with the small RW25635 pretzel accent. Its reddish-brown crossed shape adds a distinct focal motif beside cream paper and gingham ribbon. This is a resin craft decoration, not food. Source-listed size is 21 × 19 mm and reference packing is 100 pieces per bag; confirm your preferred selection and test a suitable attachment method. No supplied fastening or drilled attachment hole is confirmed. Generated application and detail references are illustrative, and scene props are not included.",
+      "caption": "Plan a bakery-inspired journal cover or handmade card with the small RW25635 pretzel accent. Its reddish-brown crossed shape adds a distinct focal motif beside cream paper and gingham ribbon. This is a resin craft decoration, not food. Source-listed size is 21 × 19 mm and reference packing is 100 pieces per bag; confirm your preferred selection and test a suitable attachment method. No supplied fastening or drilled attachment hole is confirmed. Generated application and detail references are illustrative, and scene props are not included.",
+      "uses": "Plan a bakery-inspired journal cover or handmade card with the small RW25635 pretzel accent. Its reddish-brown crossed shape adds a distinct focal motif beside cream paper and gingham ribbon. This is a resin craft decoration, not food. Source-listed size is 21 × 19 mm and reference packing is 100 pieces per bag; confirm your preferred selection and test a suitable attachment method. No supplied fastening or drilled attachment hole is confirmed. Generated application and detail references are illustrative, and scene props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "Mini Resin Pretzels | RW25635",
+      "metaTitle": "Mini Resin Pretzels | RW25635",
+      "haibuDescription": "RW25635: Resin craft decorations, 21 × 19 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "description": "RW25635: Resin decorations, 21 × 19 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Bread Flatback Resin Cabochon Scrapbooking For DIY Crafts Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "21*19mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25635"
+      },
+      "sourceProductId": "1601449384230",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Bread-Flatback-Resin-Cabochon_1601449384230.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H97925c1bdba94f85869158fa2629f09cE.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "Mini Resin Pretzels for Recipe Journals and Bakery-Themed Crafts — RW25635",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-01.jpg",
+          "sha256": "bba094ec37f9a6ca239c26048bf0fc434b5fc1114937bcdedafc9c2c3bd24ed9",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-02.jpg",
+          "sha256": "522346734096010025aac2618c250bc9321f6b0571a9f5044f838a37d746c62f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25635/rw25635-resin-craft-charms-03.jpg",
+          "sha256": "ccad3b6d09aa4a52902c9f40245dfeff8f012d54c3c3d6ce32a18d8ccd0de324",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25635/rw25635-1.jpg",
+        "assets/images/pdp/rw25635/rw25635-2.jpg",
+        "assets/images/pdp/rw25635/rw25635-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25635/rw25635-1.jpg",
+          "sha256": "bba094ec37f9a6ca239c26048bf0fc434b5fc1114937bcdedafc9c2c3bd24ed9",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25635/rw25635-2.jpg",
+          "sha256": "522346734096010025aac2618c250bc9321f6b0571a9f5044f838a37d746c62f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25635/rw25635-3.jpg",
+          "sha256": "ccad3b6d09aa4a52902c9f40245dfeff8f012d54c3c3d6ce32a18d8ccd0de324",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW1812",
+      "key": "rw1812",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "Pastel Resin Macarons for Gift Boxes and Sweet-Themed DIY — RW1812",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "13 × 25 × 26 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Plan a sweet-themed gift-box lid or handmade card using RW1812 resin macaron decorations. Their smooth domed shells and contrasting narrow seam create a different look from flat candy motifs. Pair a photographed pastel shade with paper and ribbon in your layout, then test a suitable attachment method. The source lists 13 × 25 × 26 mm and a 100-piece reference bag; confirm current selections and order requirements. These decorations are not edible. Generated scenes and detail views are references; props and fastening materials are not included.",
+      "caption": "Plan a sweet-themed gift-box lid or handmade card using RW1812 resin macaron decorations. Their smooth domed shells and contrasting narrow seam create a different look from flat candy motifs. Pair a photographed pastel shade with paper and ribbon in your layout, then test a suitable attachment method. The source lists 13 × 25 × 26 mm and a 100-piece reference bag; confirm current selections and order requirements. These decorations are not edible. Generated scenes and detail views are references; props and fastening materials are not included.",
+      "uses": "Plan a sweet-themed gift-box lid or handmade card using RW1812 resin macaron decorations. Their smooth domed shells and contrasting narrow seam create a different look from flat candy motifs. Pair a photographed pastel shade with paper and ribbon in your layout, then test a suitable attachment method. The source lists 13 × 25 × 26 mm and a 100-piece reference bag; confirm current selections and order requirements. These decorations are not edible. Generated scenes and detail views are references; props and fastening materials are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "Pastel Resin Macarons for Gift Boxes and Sweet-Themed DIY — RW1812",
+      "metaTitle": "Pastel Resin Macarons | RW1812",
+      "haibuDescription": "RW1812: Resin craft decorations, 13 × 25 × 26 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "description": "RW1812: Resin decorations, 13 × 25 × 26 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Kawaii Resin Macaroon Miniature Flatback Cabochon Art Supply DIY Craft Decoration Homemade Gift Phone Deco",
+        "material": "Resin",
+        "size": "13*25*26mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW1812"
+      },
+      "sourceProductId": "1601678067442",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Macaroon-Miniature-Flatback-Cabochon_1601678067442.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5be48c25374745f3ac7a9e67e8c51beej.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "Pastel Resin Macarons for Gift Boxes and Sweet-Themed DIY — RW1812",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-01.jpg",
+          "sha256": "e99ea26948e533c2acd8922cdde21192eca3330655518a7cceea9117a5682522",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-02.jpg",
+          "sha256": "fdb368026edd464c583bf49041872af724fd90d8543fcfafced8381c0bf71c33",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw1812/rw1812-resin-craft-charms-03.jpg",
+          "sha256": "7c45fa3b859294ad95e7578bc4a4b43f91f26726ea64f43e7a6e5d7c7ae90f4c",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw1812/rw1812-1.jpg",
+        "assets/images/pdp/rw1812/rw1812-2.jpg",
+        "assets/images/pdp/rw1812/rw1812-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw1812/rw1812-1.jpg",
+          "sha256": "e99ea26948e533c2acd8922cdde21192eca3330655518a7cceea9117a5682522",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw1812/rw1812-2.jpg",
+          "sha256": "fdb368026edd464c583bf49041872af724fd90d8543fcfafced8381c0bf71c33",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw1812/rw1812-3.jpg",
+          "sha256": "7c45fa3b859294ad95e7578bc4a4b43f91f26726ea64f43e7a6e5d7c7ae90f4c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW2304-B",
+      "key": "rw2304-b",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "Colorful Round Resin Candy Accents for Handmade Cards — RW2304-B",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "5 × 14 × 14 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Use the simple round shape of RW2304-B to plan bright accents around a handmade birthday card, paper frame or scrapbook layout. The original photo shows glossy yellow, orange, red, green and blue references without printed motifs. The source identifies resin and a size of 5 × 14 × 14 mm, with a 100-piece reference bag; ask about current selection and packing before ordering. Test a suitable attachment method for your project. These are decorative models, not sweets. Generated scenes and detail images are references, and paper props are not included.",
+      "caption": "Use the simple round shape of RW2304-B to plan bright accents around a handmade birthday card, paper frame or scrapbook layout. The original photo shows glossy yellow, orange, red, green and blue references without printed motifs. The source identifies resin and a size of 5 × 14 × 14 mm, with a 100-piece reference bag; ask about current selection and packing before ordering. Test a suitable attachment method for your project. These are decorative models, not sweets. Generated scenes and detail images are references, and paper props are not included.",
+      "uses": "Use the simple round shape of RW2304-B to plan bright accents around a handmade birthday card, paper frame or scrapbook layout. The original photo shows glossy yellow, orange, red, green and blue references without printed motifs. The source identifies resin and a size of 5 × 14 × 14 mm, with a 100-piece reference bag; ask about current selection and packing before ordering. Test a suitable attachment method for your project. These are decorative models, not sweets. Generated scenes and detail images are references, and paper props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "Colorful Round Resin Candy Accents for Handmade Cards — RW2304-B",
+      "metaTitle": "Colorful Round Resin Candy Accents for Handmade Cards — RW2304-B",
+      "haibuDescription": "RW2304-B: Resin craft decorations, 5 × 14 × 14 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "description": "RW2304-B: Resin decorations, 5 × 14 × 14 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Factory Directly Supply Food Cooking Play DIY Miniature Accessories Chocolate Resin Candy Sweet",
+        "material": "Resin",
+        "size": "5*14*14mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW2304-B"
+      },
+      "sourceProductId": "1601284729138",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Factory-Directly-Supply-Food-Cooking-Play_1601284729138.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Ha52820d05fee44c98a5e2551805f36dba.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "Colorful Round Resin Candy Accents for Handmade Cards — RW2304-B",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-01.jpg",
+          "sha256": "237061fdfa22858f3d284a5fc54e21566fd4962fac7e019d0fec202cd8faa054",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-02.jpg",
+          "sha256": "d0506b9272ecfacb53f9b8ae7fc86ca4ecdca583dc8d82db95101cc70a650849",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw2304-b/rw2304-b-resin-craft-charms-03.jpg",
+          "sha256": "2b00f9bbd2c05fcf0e2c4352a6e2dfba4487db35bc28686f6ad0a6663c5f34e2",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw2304-b/rw2304-b-1.jpg",
+        "assets/images/pdp/rw2304-b/rw2304-b-2.jpg",
+        "assets/images/pdp/rw2304-b/rw2304-b-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw2304-b/rw2304-b-1.jpg",
+          "sha256": "237061fdfa22858f3d284a5fc54e21566fd4962fac7e019d0fec202cd8faa054",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw2304-b/rw2304-b-2.jpg",
+          "sha256": "d0506b9272ecfacb53f9b8ae7fc86ca4ecdca583dc8d82db95101cc70a650849",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw2304-b/rw2304-b-3.jpg",
+          "sha256": "2b00f9bbd2c05fcf0e2c4352a6e2dfba4487db35bc28686f6ad0a6663c5f34e2",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25257",
+      "key": "rw25257",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25257 20 mm Resin Rose Embellishments for Gift Tags and Journals",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Plan a floral accent with RW25257 resin roses: curled inner petals sit within scalloped outer petals, with glossy color highlights visible in the source photo. Use the gift-tag scene as a layout idea for paper craft or journal decoration, checking surface suitability and attachment separately. The listed size is 20 mm and the source reference packaging is 100 pieces per bag; this does not establish MOQ or a fixed color assortment. Ask about color availability, packing and price. Generated scenes and details are references only, and styling props are not included. Glow performance is not verified.",
+      "caption": "Plan a floral accent with RW25257 resin roses: curled inner petals sit within scalloped outer petals, with glossy color highlights visible in the source photo. Use the gift-tag scene as a layout idea for paper craft or journal decoration, checking surface suitability and attachment separately. The listed size is 20 mm and the source reference packaging is 100 pieces per bag; this does not establish MOQ or a fixed color assortment. Ask about color availability, packing and price. Generated scenes and details are references only, and styling props are not included. Glow performance is not verified.",
+      "uses": "Plan a floral accent with RW25257 resin roses: curled inner petals sit within scalloped outer petals, with glossy color highlights visible in the source photo. Use the gift-tag scene as a layout idea for paper craft or journal decoration, checking surface suitability and attachment separately. The listed size is 20 mm and the source reference packaging is 100 pieces per bag; this does not establish MOQ or a fixed color assortment. Ask about color availability, packing and price. Generated scenes and details are references only, and styling props are not included. Glow performance is not verified.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25257 20 mm Resin Rose Embellishments for Gift Tags and Journals",
+      "metaTitle": "RW25257 20 mm Resin Rose Embellishments",
+      "haibuDescription": "RW25257: Resin craft decorations, 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25257: Resin decorations, 20 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "20mm Resin Luminous Colorful Rose Crafts Supplies Handicraft DIY Scrapbooking Jewelry Mobile Phone Case Ornament Materials",
+        "material": "Resin",
+        "size": "20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25257"
+      },
+      "sourceProductId": "1601375385173",
+      "sourceUrl": "https://www.alibaba.com/product-detail/20mm-Resin-Luminous-Colorful-Rose-Crafts_1601375385173.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8a275a32b44c438e9054da1b7538febdf.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25257 20 mm Resin Rose Embellishments for Gift Tags and Journals",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-01.jpg",
+          "sha256": "93969c1cfcc11dd69f7f77220e391226d6dfa372b4b2840171a761683ebf8c18",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-02.jpg",
+          "sha256": "cf4f3b78560473abbf64033bb3cf36f0e4e6d9932645cd8ef40360bfbd5dd030",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25257/rw25257-resin-craft-charms-03.jpg",
+          "sha256": "5d6a543e0cc875387f5bbaf4a6411f177e6cc2e8fc7f32a6355d9f172400c1b1",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25257/rw25257-1.jpg",
+        "assets/images/pdp/rw25257/rw25257-2.jpg",
+        "assets/images/pdp/rw25257/rw25257-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25257/rw25257-1.jpg",
+          "sha256": "93969c1cfcc11dd69f7f77220e391226d6dfa372b4b2840171a761683ebf8c18",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25257/rw25257-2.jpg",
+          "sha256": "cf4f3b78560473abbf64033bb3cf36f0e4e6d9932645cd8ef40360bfbd5dd030",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25257/rw25257-3.jpg",
+          "sha256": "5d6a543e0cc875387f5bbaf4a6411f177e6cc2e8fc7f32a6355d9f172400c1b1",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW4523",
+      "key": "rw4523",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW4523 Blue Resin Eyes for Paper Characters and Decorative Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "10 mm / 14 mm (source-listed options)",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Give a handmade paper character a bright-eyed expression with the blue oval motif of RW4523. The example card pairs two resin eye fronts with a cut-paper mouth; test a suitable attachment method for your surface. The source lists 10 mm / 14 mm options, resin material and a 100-piece reference bag, without specifying how sizes are allocated. Ask which size and packing are available. These are decorative craft components; no toy-safety or fastening claim is made. Generated scene and detail views are illustrative references, and the paper, scissors and other props are not included.",
+      "caption": "Give a handmade paper character a bright-eyed expression with the blue oval motif of RW4523. The example card pairs two resin eye fronts with a cut-paper mouth; test a suitable attachment method for your surface. The source lists 10 mm / 14 mm options, resin material and a 100-piece reference bag, without specifying how sizes are allocated. Ask which size and packing are available. These are decorative craft components; no toy-safety or fastening claim is made. Generated scene and detail views are illustrative references, and the paper, scissors and other props are not included.",
+      "uses": "Give a handmade paper character a bright-eyed expression with the blue oval motif of RW4523. The example card pairs two resin eye fronts with a cut-paper mouth; test a suitable attachment method for your surface. The source lists 10 mm / 14 mm options, resin material and a 100-piece reference bag, without specifying how sizes are allocated. Ask which size and packing are available. These are decorative craft components; no toy-safety or fastening claim is made. Generated scene and detail views are illustrative references, and the paper, scissors and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW4523 Blue Resin Eyes for Paper Characters and Decorative Crafts",
+      "metaTitle": "RW4523 Blue Resin Eyes for Paper Characters and Decorative Crafts",
+      "haibuDescription": "RW4523: Resin craft decorations, 10 mm / 14 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW4523: Resin decorations, 10 mm / 14 mm (source-listed options). Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Realistic Resin Animal Eyes Buttons for Dolls, DIY Craft Buttons",
+        "material": "Resin",
+        "size": "10mm- / 14mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW4523"
+      },
+      "sourceProductId": "1601588173325",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Realistic-Resin-Animal-Eyes-Buttons_1601588173325.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hbdd4ea39a1cc4d65ac7e4adf84a99b5d0.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW4523 Blue Resin Eyes for Paper Characters and Decorative Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-01.jpg",
+          "sha256": "e17c2cf535be6a5b743297795729fde91ae5442dd5757b871d20646777dba75c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-02.jpg",
+          "sha256": "1ab7eec4983c444eade0862110bb96a3410f2e9288fe04f71c721c6be005cd3f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw4523/rw4523-resin-craft-charms-03.jpg",
+          "sha256": "d1c91ada883c11b07c13f35c25f8842d33289b55c38b7931d5da19bc0ec0e20f",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw4523/rw4523-1.jpg",
+        "assets/images/pdp/rw4523/rw4523-2.jpg",
+        "assets/images/pdp/rw4523/rw4523-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw4523/rw4523-1.jpg",
+          "sha256": "e17c2cf535be6a5b743297795729fde91ae5442dd5757b871d20646777dba75c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw4523/rw4523-2.jpg",
+          "sha256": "1ab7eec4983c444eade0862110bb96a3410f2e9288fe04f71c721c6be005cd3f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw4523/rw4523-3.jpg",
+          "sha256": "d1c91ada883c11b07c13f35c25f8842d33289b55c38b7931d5da19bc0ec0e20f",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW002211",
+      "key": "rw002211",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW002211 Colorful Resin Fish for Ocean Scrapbooks and Handmade Cards",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 × 22 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Build a playful ocean page around the round-eyed RW002211 resin fish. The application reference combines a coral-colored fish with paper waves and a blank journaling area, while the detail reference shows the molded face and forked tail. Try the arrangement before selecting a suitable attachment method. Source-listed size is 20 × 22 mm and reference packaging is 100 pieces per bag; ask about current colors and packing rather than assuming a set assortment. Generated scenes and detail views are illustrative, with paper and other styling props excluded.",
+      "caption": "Build a playful ocean page around the round-eyed RW002211 resin fish. The application reference combines a coral-colored fish with paper waves and a blank journaling area, while the detail reference shows the molded face and forked tail. Try the arrangement before selecting a suitable attachment method. Source-listed size is 20 × 22 mm and reference packaging is 100 pieces per bag; ask about current colors and packing rather than assuming a set assortment. Generated scenes and detail views are illustrative, with paper and other styling props excluded.",
+      "uses": "Build a playful ocean page around the round-eyed RW002211 resin fish. The application reference combines a coral-colored fish with paper waves and a blank journaling area, while the detail reference shows the molded face and forked tail. Try the arrangement before selecting a suitable attachment method. Source-listed size is 20 × 22 mm and reference packaging is 100 pieces per bag; ask about current colors and packing rather than assuming a set assortment. Generated scenes and detail views are illustrative, with paper and other styling props excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW002211 Colorful Resin Fish for Ocean Scrapbooks and Handmade Cards",
+      "metaTitle": "RW002211 Colorful Resin Fish",
+      "haibuDescription": "RW002211: Resin craft decorations, 20 × 22 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW002211: Resin decorations, 20 × 22 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Mini Luminous Fish Home Decor Landscaping Resin Crafts Glowing Fish Garden Miniatures Ornaments Decoration",
+        "material": "Resin",
+        "size": "20*22mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002211"
+      },
+      "sourceProductId": "1601678145009",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Luminous-Fish-Home-Decor-Landscaping_1601678145009.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd576465708fd456ea60645d2a2da342aq.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW002211 Colorful Resin Fish for Ocean Scrapbooks and Handmade Cards",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-01.jpg",
+          "sha256": "60482b47c4996ff988ec81af80497772a48ade9af53d7953e8b8a567a55deaa1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-02.jpg",
+          "sha256": "95acadc8460a0bfb639fcd2db56ef6ef4670f8d5e1ba4c38e422719ff6d14249",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw002211/rw002211-resin-craft-charms-03.jpg",
+          "sha256": "eb5e0fda6641af85f56a969c259e636b67dcfac8d3f96ba942bf2118603adc21",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002211/rw002211-1.jpg",
+        "assets/images/pdp/rw002211/rw002211-2.jpg",
+        "assets/images/pdp/rw002211/rw002211-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw002211/rw002211-1.jpg",
+          "sha256": "60482b47c4996ff988ec81af80497772a48ade9af53d7953e8b8a567a55deaa1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw002211/rw002211-2.jpg",
+          "sha256": "95acadc8460a0bfb639fcd2db56ef6ef4670f8d5e1ba4c38e422719ff6d14249",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw002211/rw002211-3.jpg",
+          "sha256": "eb5e0fda6641af85f56a969c259e636b67dcfac8d3f96ba942bf2118603adc21",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25570",
+      "key": "rw25570",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25570 Star-Faced Resin Octopus for Ocean-Themed Gift Boxes",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "30 × 25 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Pair the aqua RW25570 octopus with paper waves for a small keepsake-box or ocean-themed craft layout. Its yellow forehead stars, pink cheeks and rounded scalloped base give the motif a distinct face. The source specifies resin, 30 × 25 mm and 100 pieces per reference bag. Choose a suitable attachment method for your surface and confirm ordering details; no supplied fastening or aquarium suitability is claimed. Application and detail images are generated references only. The box, ribbon, paper and other styling props are not included.",
+      "caption": "Pair the aqua RW25570 octopus with paper waves for a small keepsake-box or ocean-themed craft layout. Its yellow forehead stars, pink cheeks and rounded scalloped base give the motif a distinct face. The source specifies resin, 30 × 25 mm and 100 pieces per reference bag. Choose a suitable attachment method for your surface and confirm ordering details; no supplied fastening or aquarium suitability is claimed. Application and detail images are generated references only. The box, ribbon, paper and other styling props are not included.",
+      "uses": "Pair the aqua RW25570 octopus with paper waves for a small keepsake-box or ocean-themed craft layout. Its yellow forehead stars, pink cheeks and rounded scalloped base give the motif a distinct face. The source specifies resin, 30 × 25 mm and 100 pieces per reference bag. Choose a suitable attachment method for your surface and confirm ordering details; no supplied fastening or aquarium suitability is claimed. Application and detail images are generated references only. The box, ribbon, paper and other styling props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25570 Star-Faced Resin Octopus for Ocean-Themed Gift Boxes",
+      "metaTitle": "RW25570 Star-Faced Resin Octopus for Ocean-Themed Gift Boxes",
+      "haibuDescription": "RW25570: Resin craft decorations, 30 × 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25570: Resin decorations, 30 × 25 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Cartoon Cute Colorful Octopus Miniature Fish Tank Ornament Creative Fashion Kawaii Aquarium Decoration Accessories",
+        "material": "Resin",
+        "size": "30*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25570"
+      },
+      "sourceProductId": "1601432559036",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Cartoon-Cute-Colorful-Octopus_1601432559036.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7eb04454e95746ee92345191c2a69124x.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25570 Star-Faced Resin Octopus for Ocean-Themed Gift Boxes",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-01.jpg",
+          "sha256": "e609b97c9203b89977bef47dd418cf3d4a79759ae4624b9dc14838a94c5e51ea",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-02.jpg",
+          "sha256": "669cb71288cb74caeea72a743cd5975531e458005a303a757af1d9b841707dc1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25570/rw25570-resin-craft-charms-03.jpg",
+          "sha256": "f7f70133e9580f2ac378f201a188f67f721c3f68c2f0671c2afa731a68803512",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25570/rw25570-1.jpg",
+        "assets/images/pdp/rw25570/rw25570-2.jpg",
+        "assets/images/pdp/rw25570/rw25570-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25570/rw25570-1.jpg",
+          "sha256": "e609b97c9203b89977bef47dd418cf3d4a79759ae4624b9dc14838a94c5e51ea",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25570/rw25570-2.jpg",
+          "sha256": "669cb71288cb74caeea72a743cd5975531e458005a303a757af1d9b841707dc1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25570/rw25570-3.jpg",
+          "sha256": "f7f70133e9580f2ac378f201a188f67f721c3f68c2f0671c2afa731a68803512",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25706",
+      "key": "rw25706",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25706 Tiny Resin Cats for Miniature Desk Displays and Craft Scenes",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "15 × 13 × 21 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Plan a small desk-display scene with the seated RW25706 resin cat, using blank paper props or miniature books around its rounded head and pointed ears. The black cat pictured in the generated references is one example visible in the original photo, not a promised color mix. The source lists 15 × 13 × 21 mm and a 100-piece reference bag. Check the available selection and choose a suitable way to position or attach the decoration. Generated application and detail references are illustrative; the platform, books and other props are not included.",
+      "caption": "Plan a small desk-display scene with the seated RW25706 resin cat, using blank paper props or miniature books around its rounded head and pointed ears. The black cat pictured in the generated references is one example visible in the original photo, not a promised color mix. The source lists 15 × 13 × 21 mm and a 100-piece reference bag. Check the available selection and choose a suitable way to position or attach the decoration. Generated application and detail references are illustrative; the platform, books and other props are not included.",
+      "uses": "Plan a small desk-display scene with the seated RW25706 resin cat, using blank paper props or miniature books around its rounded head and pointed ears. The black cat pictured in the generated references is one example visible in the original photo, not a promised color mix. The source lists 15 × 13 × 21 mm and a 100-piece reference bag. Check the available selection and choose a suitable way to position or attach the decoration. Generated application and detail references are illustrative; the platform, books and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25706 Tiny Resin Cats for Miniature Desk Displays and Craft Scenes",
+      "metaTitle": "RW25706 Tiny Resin Cats",
+      "haibuDescription": "RW25706: Resin craft decorations, 15 × 13 × 21 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25706: Resin decorations, 15 × 13 × 21 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Miniature Ornament Figurines Kawaii Cartoon Cat 3D Resin Cabochon Animal DIY Dollhouse Home Decoration Accessories Craft",
+        "material": "Resin",
+        "size": "15*13*21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25706"
+      },
+      "sourceProductId": "1601670780116",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Ornament-Figurines-Kawaii-Cartoon_1601670780116.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hae6161c39dbb49c4a5eddece58c1ffd62.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25706 Tiny Resin Cats for Miniature Desk Displays and Craft Scenes",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-01.jpg",
+          "sha256": "9f611140da8a81d978c877c20264a35b4706adb29b40fd6916cc4975a061d1fb",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-02.jpg",
+          "sha256": "92271a74677daf2d697dfcddc85524bf4a2454de790a191f65e42a3abe3e643f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25706/rw25706-resin-craft-charms-03.jpg",
+          "sha256": "937f48d561d2bcfd9edd968f9efce9cd6231bb79a64fae755a70183b31613893",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25706/rw25706-1.jpg",
+        "assets/images/pdp/rw25706/rw25706-2.jpg",
+        "assets/images/pdp/rw25706/rw25706-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25706/rw25706-1.jpg",
+          "sha256": "9f611140da8a81d978c877c20264a35b4706adb29b40fd6916cc4975a061d1fb",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25706/rw25706-2.jpg",
+          "sha256": "92271a74677daf2d697dfcddc85524bf4a2454de790a191f65e42a3abe3e643f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25706/rw25706-3.jpg",
+          "sha256": "937f48d561d2bcfd9edd968f9efce9cd6231bb79a64fae755a70183b31613893",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW22901",
+      "key": "rw22901",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW22901 Smiling Resin Bees for Journals and Nature-Inspired Paper Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "19 × 28 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Bring a small bee motif into a handmade journal layout with RW22901. Yellow gingham and paper hexagons in the application reference echo its striped body while leaving the smiling face visible. The decoration is resin, with source-listed size 19 × 28 mm and reference packing of 100 pieces per bag. Check the intended surface and use a suitable attachment method; no fastener or food-contact use is confirmed. Ask about current packing, price and order quantity. Generated scene and detail references are illustrative; the journal, ribbon, scissors and paper props are excluded.",
+      "caption": "Bring a small bee motif into a handmade journal layout with RW22901. Yellow gingham and paper hexagons in the application reference echo its striped body while leaving the smiling face visible. The decoration is resin, with source-listed size 19 × 28 mm and reference packing of 100 pieces per bag. Check the intended surface and use a suitable attachment method; no fastener or food-contact use is confirmed. Ask about current packing, price and order quantity. Generated scene and detail references are illustrative; the journal, ribbon, scissors and paper props are excluded.",
+      "uses": "Bring a small bee motif into a handmade journal layout with RW22901. Yellow gingham and paper hexagons in the application reference echo its striped body while leaving the smiling face visible. The decoration is resin, with source-listed size 19 × 28 mm and reference packing of 100 pieces per bag. Check the intended surface and use a suitable attachment method; no fastener or food-contact use is confirmed. Ask about current packing, price and order quantity. Generated scene and detail references are illustrative; the journal, ribbon, scissors and paper props are excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW22901 Smiling Resin Bees | RW22901",
+      "metaTitle": "RW22901 Smiling Resin Bees",
+      "haibuDescription": "RW22901: Resin craft decorations, 19 × 28 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW22901: Resin decorations, 19 × 28 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Flatback Resin Cartoon Bee Cabochon for Scrapbooking DIY Cake Decor Crafts Accessories",
+        "material": "Resin",
+        "size": "19*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW22901"
+      },
+      "sourceProductId": "1600996294368",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Flatback-Resin-Cartoon-Bee-Cabochon-for_1600996294368.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0d135c75e3d4477283adbc362987dfbak.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW22901 Smiling Resin Bees for Journals and Nature-Inspired Paper Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-01.jpg",
+          "sha256": "76772a4601376f1bc947df471f1e45c08ed2ac1455d3f61a2e8bc5b3db70a54c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-02.jpg",
+          "sha256": "a44fe31b2f36aed6702c9c67bb51bff644463372fa5c32a1aab0e9e0ece193cc",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw22901/rw22901-resin-craft-charms-03.jpg",
+          "sha256": "5b92983a321402c1c574c329875f523e2228378dc358994c69d6bb1ee5924ab1",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw22901/rw22901-1.jpg",
+        "assets/images/pdp/rw22901/rw22901-2.jpg",
+        "assets/images/pdp/rw22901/rw22901-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw22901/rw22901-1.jpg",
+          "sha256": "76772a4601376f1bc947df471f1e45c08ed2ac1455d3f61a2e8bc5b3db70a54c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw22901/rw22901-2.jpg",
+          "sha256": "a44fe31b2f36aed6702c9c67bb51bff644463372fa5c32a1aab0e9e0ece193cc",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw22901/rw22901-3.jpg",
+          "sha256": "5b92983a321402c1c574c329875f523e2228378dc358994c69d6bb1ee5924ab1",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW23934",
+      "key": "rw23934",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW23934 Round Resin Frogs for Paper Gardens and Miniature Craft Scenes",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "18 × 19 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Plan a tiny paper garden around the mint-green RW23934 frog shown in the references. Its round shape, pink cheeks and gold-colored head detail pair with cut-paper leaves and flowers without requiring an imagined hanging loop. Source-listed material is resin, size 18 × 19 mm and reference packing 100 pieces per bag. Confirm the current colors and packing, then check the chosen display or attachment method. Glow performance is not verified. Generated application and detail views are illustrative references; paper scenery and other props are not included.",
+      "caption": "Plan a tiny paper garden around the mint-green RW23934 frog shown in the references. Its round shape, pink cheeks and gold-colored head detail pair with cut-paper leaves and flowers without requiring an imagined hanging loop. Source-listed material is resin, size 18 × 19 mm and reference packing 100 pieces per bag. Confirm the current colors and packing, then check the chosen display or attachment method. Glow performance is not verified. Generated application and detail views are illustrative references; paper scenery and other props are not included.",
+      "uses": "Plan a tiny paper garden around the mint-green RW23934 frog shown in the references. Its round shape, pink cheeks and gold-colored head detail pair with cut-paper leaves and flowers without requiring an imagined hanging loop. Source-listed material is resin, size 18 × 19 mm and reference packing 100 pieces per bag. Confirm the current colors and packing, then check the chosen display or attachment method. Glow performance is not verified. Generated application and detail views are illustrative references; paper scenery and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW23934 Round Resin Frogs for Paper Gardens and Miniature Craft Scenes",
+      "metaTitle": "RW23934 Round Resin Frogs",
+      "haibuDescription": "RW23934: Resin craft decorations, 18 × 19 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW23934: Resin decorations, 18 × 19 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Luminous Mini Crown Frogs Fairy Garden Decoration Miniature Frog Figurines Glow at Night Home Decor Kawaii Accessories",
+        "material": "Resin",
+        "size": "18*19mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW23934"
+      },
+      "sourceProductId": "1601651327986",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Luminous-Mini-Crown-Frogs-Fairy-Garden_1601651327986.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H58b0683e8f0f4500a601485f82bc7ed5V.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW23934 Round Resin Frogs for Paper Gardens and Miniature Craft Scenes",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-01.jpg",
+          "sha256": "e9feed55a12d4a8f79a094e8b08be6b04f26005f18b35679375a9e827b72534b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-02.jpg",
+          "sha256": "8c2a685d15fd76212dd57b2a21b0e7dd1ad5434e59d5a0d8ac0a6f6270bf1523",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw23934/rw23934-resin-craft-charms-03.jpg",
+          "sha256": "c12a6ad32c507d44b58b667d46c88cc1cd9186eeead70a24ce4fd39fa2656b1b",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw23934/rw23934-1.jpg",
+        "assets/images/pdp/rw23934/rw23934-2.jpg",
+        "assets/images/pdp/rw23934/rw23934-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw23934/rw23934-1.jpg",
+          "sha256": "e9feed55a12d4a8f79a094e8b08be6b04f26005f18b35679375a9e827b72534b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw23934/rw23934-2.jpg",
+          "sha256": "8c2a685d15fd76212dd57b2a21b0e7dd1ad5434e59d5a0d8ac0a6f6270bf1523",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw23934/rw23934-3.jpg",
+          "sha256": "c12a6ad32c507d44b58b667d46c88cc1cd9186eeead70a24ce4fd39fa2656b1b",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25629",
+      "key": "rw25629",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25629 Translucent Resin Bears for Greeting Cards and Colorful DIY",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "25 × 38 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "The green RW25629 bear in the application reference adds a rounded focal shape to cream paper, mint ribbon and geometric cutouts. Its translucent resin surface and broad paws give a different look from printed bear shapes. Source-listed size is 25 × 38 mm and reference packing is 100 pieces per bag. These are craft decorations, not sweets. Confirm available colors and packing, and test your selected attachment method. Generated scene and detail images are references only; paper, ribbon, scissors and other props are not included.",
+      "caption": "The green RW25629 bear in the application reference adds a rounded focal shape to cream paper, mint ribbon and geometric cutouts. Its translucent resin surface and broad paws give a different look from printed bear shapes. Source-listed size is 25 × 38 mm and reference packing is 100 pieces per bag. These are craft decorations, not sweets. Confirm available colors and packing, and test your selected attachment method. Generated scene and detail images are references only; paper, ribbon, scissors and other props are not included.",
+      "uses": "The green RW25629 bear in the application reference adds a rounded focal shape to cream paper, mint ribbon and geometric cutouts. Its translucent resin surface and broad paws give a different look from printed bear shapes. Source-listed size is 25 × 38 mm and reference packing is 100 pieces per bag. These are craft decorations, not sweets. Confirm available colors and packing, and test your selected attachment method. Generated scene and detail images are references only; paper, ribbon, scissors and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25629 Translucent Resin Bears for Greeting Cards and Colorful DIY",
+      "metaTitle": "RW25629 Translucent Resin Bears",
+      "haibuDescription": "RW25629: Resin craft decorations, 25 × 38 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25629: Resin decorations, 25 × 38 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "25*38mm Cute Jelly Bear Flat Back Resin Cabochons Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+        "material": "Resin",
+        "size": "25*38mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW25629"
+      },
+      "sourceProductId": "1601678055587",
+      "sourceUrl": "https://www.alibaba.com/product-detail/25-38mm-Cute-Jelly-Bear-Flat_1601678055587.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H2866a9029ba44658b55daaff4229e7f9V.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25629 Translucent Resin Bears for Greeting Cards and Colorful DIY",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-01.jpg",
+          "sha256": "b246caac787ea883220bb3bdc30d3733385e489dadfd0ff4cbeed028efdc17f7",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-02.jpg",
+          "sha256": "5081e61bfc8948149efa19a9abf3094a260cfc58982847c3582be5b76638861a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25629/rw25629-resin-craft-charms-03.jpg",
+          "sha256": "b266ce86bada180b666a2aec56ab96de53525577c3b64d98e026421f50eeee79",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25629/rw25629-1.jpg",
+        "assets/images/pdp/rw25629/rw25629-2.jpg",
+        "assets/images/pdp/rw25629/rw25629-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25629/rw25629-1.jpg",
+          "sha256": "b246caac787ea883220bb3bdc30d3733385e489dadfd0ff4cbeed028efdc17f7",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25629/rw25629-2.jpg",
+          "sha256": "5081e61bfc8948149efa19a9abf3094a260cfc58982847c3582be5b76638861a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25629/rw25629-3.jpg",
+          "sha256": "b266ce86bada180b666a2aec56ab96de53525577c3b64d98e026421f50eeee79",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26032",
+      "key": "rw26032",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW26032 Pink Resin Citrus Slices for Summer Cards and Journals",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "9 × 15 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Arrange the little RW26032 citrus half-slices along the corner of a summer journal card or stationery layout. The pale rind and coral segments coordinate with cream paper and a narrow pink strip in the example scene. Source-listed material is resin, size 9 × 15 mm and reference packaging 100 pieces per bag. These are decorative components, not fruit; confirm current selection and choose an attachment suitable for the surface. Generated application and detail views are visual references only, and the card, envelope and other props are excluded.",
+      "caption": "Arrange the little RW26032 citrus half-slices along the corner of a summer journal card or stationery layout. The pale rind and coral segments coordinate with cream paper and a narrow pink strip in the example scene. Source-listed material is resin, size 9 × 15 mm and reference packaging 100 pieces per bag. These are decorative components, not fruit; confirm current selection and choose an attachment suitable for the surface. Generated application and detail views are visual references only, and the card, envelope and other props are excluded.",
+      "uses": "Arrange the little RW26032 citrus half-slices along the corner of a summer journal card or stationery layout. The pale rind and coral segments coordinate with cream paper and a narrow pink strip in the example scene. Source-listed material is resin, size 9 × 15 mm and reference packaging 100 pieces per bag. These are decorative components, not fruit; confirm current selection and choose an attachment suitable for the surface. Generated application and detail views are visual references only, and the card, envelope and other props are excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW26032 Pink Resin Citrus Slices for Summer Cards and Journals",
+      "metaTitle": "RW26032 Pink Resin Citrus Slices for Summer Cards and Journals",
+      "haibuDescription": "RW26032: Resin craft decorations, 9 × 15 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26032: Resin decorations, 9 × 15 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Cute Cartoon Mini Colorful Orange Slices Nail Art Resin Designer Charms DIY Craft for Nail 3D Decorations Jewelry",
+        "material": "Resin",
+        "size": "9*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26032"
+      },
+      "sourceProductId": "1601629445693",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Cartoon-Mini-Colorful-Orange-Slices_1601629445693.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hb9962dd6e33145cda1875faa322d7987q.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW26032 Pink Resin Citrus Slices for Summer Cards and Journals",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-01.jpg",
+          "sha256": "33f2624451dd7b34d5ea1781d5d002e1d874d0223dad9c302db335b1517594c1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-02.jpg",
+          "sha256": "01ef815850f75b451a5449152081f04579dcdbfb8e61edcfe684bea659666257",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26032/rw26032-resin-craft-charms-03.jpg",
+          "sha256": "b9bf972dd4a154e04fde29eb0f57a923f67733a5cb0d75103b317404f6eb08c6",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26032/rw26032-1.jpg",
+        "assets/images/pdp/rw26032/rw26032-2.jpg",
+        "assets/images/pdp/rw26032/rw26032-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26032/rw26032-1.jpg",
+          "sha256": "33f2624451dd7b34d5ea1781d5d002e1d874d0223dad9c302db335b1517594c1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26032/rw26032-2.jpg",
+          "sha256": "01ef815850f75b451a5449152081f04579dcdbfb8e61edcfe684bea659666257",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26032/rw26032-3.jpg",
+          "sha256": "b9bf972dd4a154e04fde29eb0f57a923f67733a5cb0d75103b317404f6eb08c6",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25899",
+      "key": "rw25899",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25899 Glossy Resin Stars for Journal Covers and Handmade Labels",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "21 × 20 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Use the sage-green RW25899 star as a small focal shape beside a blank kraft label or contrasting paper band. Its rounded five-point outline and molded dashed rim give a journal layout a distinct border detail without real stitching. Source-listed size is 21 × 20 mm, material resin and reference packing 100 pieces per bag. Confirm available colors and choose an attachment appropriate for the surface. Generated scene and detail views are references only; the notebook, paper, scissors and other props are not included.",
+      "caption": "Use the sage-green RW25899 star as a small focal shape beside a blank kraft label or contrasting paper band. Its rounded five-point outline and molded dashed rim give a journal layout a distinct border detail without real stitching. Source-listed size is 21 × 20 mm, material resin and reference packing 100 pieces per bag. Confirm available colors and choose an attachment appropriate for the surface. Generated scene and detail views are references only; the notebook, paper, scissors and other props are not included.",
+      "uses": "Use the sage-green RW25899 star as a small focal shape beside a blank kraft label or contrasting paper band. Its rounded five-point outline and molded dashed rim give a journal layout a distinct border detail without real stitching. Source-listed size is 21 × 20 mm, material resin and reference packing 100 pieces per bag. Confirm available colors and choose an attachment appropriate for the surface. Generated scene and detail views are references only; the notebook, paper, scissors and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25899 Glossy Resin Stars for Journal Covers and Handmade Labels",
+      "metaTitle": "RW25899 Glossy Resin Stars for Journal Covers and Handmade Labels",
+      "haibuDescription": "RW25899: Resin craft decorations, 21 × 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25899: Resin decorations, 21 × 20 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Mini Star Resin Craft Patch Flatback DIY for Children Handmade Materials Material Scrapbooking Cup Jewellery",
+        "material": "Resin",
+        "size": "21*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25899"
+      },
+      "sourceProductId": "1601601432267",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Star-Resin-Craft-Patch_1601601432267.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7542aea9b8434bc483f9cd66889805a2R.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25899 Glossy Resin Stars for Journal Covers and Handmade Labels",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-01.jpg",
+          "sha256": "da207ef64d6da81a2c4fc61622c7900fbe81bd53e5ad3c0854447c10c0af9f5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-02.jpg",
+          "sha256": "06b193b721d7d942c2264987969f7f5809fd90de7f9488fba4243c5b3783c945",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25899/rw25899-resin-craft-charms-03.jpg",
+          "sha256": "d32c6512c81365e50e332cfa2db336be03c54cdfba1a191dec03d70a6ee67ecc",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25899/rw25899-1.jpg",
+        "assets/images/pdp/rw25899/rw25899-2.jpg",
+        "assets/images/pdp/rw25899/rw25899-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25899/rw25899-1.jpg",
+          "sha256": "da207ef64d6da81a2c4fc61622c7900fbe81bd53e5ad3c0854447c10c0af9f5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25899/rw25899-2.jpg",
+          "sha256": "06b193b721d7d942c2264987969f7f5809fd90de7f9488fba4243c5b3783c945",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25899/rw25899-3.jpg",
+          "sha256": "d32c6512c81365e50e332cfa2db336be03c54cdfba1a191dec03d70a6ee67ecc",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW21127",
+      "key": "rw21127",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW21127 Pink Resin Blossoms for Spring Cards and Floral Journals",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "19 mm / 30 mm (source-listed options)",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Use the pink RW21127 blossom as a corner accent on a handmade card or floral journal layout. Its notched petals, subtle pink marks and yellow center pair with lavender paper and plain ribbon in the example. The source identifies resin, lists 19 mm / 30 mm size options and gives a reference pack of 100 pieces per bag. Ask which size and packing are available, and test a suitable attachment for your surface. Generated scene and detail references are illustrative; paper, ribbon and other props are excluded.",
+      "caption": "Use the pink RW21127 blossom as a corner accent on a handmade card or floral journal layout. Its notched petals, subtle pink marks and yellow center pair with lavender paper and plain ribbon in the example. The source identifies resin, lists 19 mm / 30 mm size options and gives a reference pack of 100 pieces per bag. Ask which size and packing are available, and test a suitable attachment for your surface. Generated scene and detail references are illustrative; paper, ribbon and other props are excluded.",
+      "uses": "Use the pink RW21127 blossom as a corner accent on a handmade card or floral journal layout. Its notched petals, subtle pink marks and yellow center pair with lavender paper and plain ribbon in the example. The source identifies resin, lists 19 mm / 30 mm size options and gives a reference pack of 100 pieces per bag. Ask which size and packing are available, and test a suitable attachment for your surface. Generated scene and detail references are illustrative; paper, ribbon and other props are excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW21127 Pink Resin Blossoms for Spring Cards and Floral Journals",
+      "metaTitle": "RW21127 Pink Resin Blossoms for Spring Cards and Floral Journals",
+      "haibuDescription": "RW21127: Resin craft decorations, 19 mm / 30 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW21127: Resin decorations, 19 mm / 30 mm (source-listed options). Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Pink Cherry Blossoms Flower Resin Patch Scrapbook DIY Resin Craft Handicraft Material Hairpin Accessories Decoration",
+        "material": "Resin",
+        "size": "19mm- / 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW21127"
+      },
+      "sourceProductId": "1601679714758",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Pink-Cherry-Blossoms-Flower-Resin_1601679714758.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0129d17291c446caa0c1783f0597d63at.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW21127 Pink Resin Blossoms for Spring Cards and Floral Journals",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-01.jpg",
+          "sha256": "3032d019b9039784efbbfdf7e9f13b156be464e028181a5ac647f67a03cf1f1a",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-02.jpg",
+          "sha256": "f9dc10456f679316dde55390fcfd25f96af03a835dee4519c36c2782600bd2c0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw21127/rw21127-resin-craft-charms-03.jpg",
+          "sha256": "48958e7092d22e0a7e69a63814a77d85194960e2a71caff372dd3e8d811a0eb3",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw21127/rw21127-1.jpg",
+        "assets/images/pdp/rw21127/rw21127-2.jpg",
+        "assets/images/pdp/rw21127/rw21127-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw21127/rw21127-1.jpg",
+          "sha256": "3032d019b9039784efbbfdf7e9f13b156be464e028181a5ac647f67a03cf1f1a",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw21127/rw21127-2.jpg",
+          "sha256": "f9dc10456f679316dde55390fcfd25f96af03a835dee4519c36c2782600bd2c0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw21127/rw21127-3.jpg",
+          "sha256": "48958e7092d22e0a7e69a63814a77d85194960e2a71caff372dd3e8d811a0eb3",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25900",
+      "key": "rw25900",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW25900 Rounded Epoxy Resin Bows for Gift Boxes and Paper Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Epoxy Resin",
+      "dimensions": "25 × 15 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Add a compact bow motif to a gift-box band or paper craft layout with RW25900. The example uses a sage-green bow with two rounded lobes and a raised center, keeping the glossy molded edging visible. The source specifies epoxy resin, 25 × 15 mm and a 100-piece reference bag. Confirm available colors and packing, and select a suitable attachment for the intended surface. No ribbon tails, sewing holes or supplied fastener are promised. Generated scene and detail views are references only; the box, tag, paper and other props are not included.",
+      "caption": "Add a compact bow motif to a gift-box band or paper craft layout with RW25900. The example uses a sage-green bow with two rounded lobes and a raised center, keeping the glossy molded edging visible. The source specifies epoxy resin, 25 × 15 mm and a 100-piece reference bag. Confirm available colors and packing, and select a suitable attachment for the intended surface. No ribbon tails, sewing holes or supplied fastener are promised. Generated scene and detail views are references only; the box, tag, paper and other props are not included.",
+      "uses": "Add a compact bow motif to a gift-box band or paper craft layout with RW25900. The example uses a sage-green bow with two rounded lobes and a raised center, keeping the glossy molded edging visible. The source specifies epoxy resin, 25 × 15 mm and a 100-piece reference bag. Confirm available colors and packing, and select a suitable attachment for the intended surface. No ribbon tails, sewing holes or supplied fastener are promised. Generated scene and detail views are references only; the box, tag, paper and other props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW25900 Rounded Epoxy Resin Bows for Gift Boxes and Paper Crafts",
+      "metaTitle": "RW25900 Rounded Epoxy Resin Bows for Gift Boxes and Paper Crafts",
+      "haibuDescription": "RW25900: Epoxy Resin craft decorations, 25 × 15 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25900: Epoxy Resin decorations, 25 × 15 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Mini Kawaii Resin Butterfly Bow FlatBack Cabochons Scrapbook Diy Nail Party Hairpin Accessories Home Decoration Craft",
+        "material": "Epoxy Resin",
+        "size": "25*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25900"
+      },
+      "sourceProductId": "1601601447192",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Butterfly-Bow_1601601447192.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Epoxy Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H97f596286cfb4cae87016f65b26edee0J.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW25900 Rounded Epoxy Resin Bows for Gift Boxes and Paper Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-01.jpg",
+          "sha256": "2248732421cd431d3f722c670ac5b1c40db8fc799d24a409e98906a1681345dc",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-02.jpg",
+          "sha256": "7314729ea0287a720621a6b11af8371b9bcdb5bf36fe8c2d07728b38e784cd46",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw25900/rw25900-resin-craft-charms-03.jpg",
+          "sha256": "85fa15dbe4f36752e9f1dcaeb85d1a2f8292b38e83956eeb85b8a008778b39a1",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25900/rw25900-1.jpg",
+        "assets/images/pdp/rw25900/rw25900-2.jpg",
+        "assets/images/pdp/rw25900/rw25900-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw25900/rw25900-1.jpg",
+          "sha256": "2248732421cd431d3f722c670ac5b1c40db8fc799d24a409e98906a1681345dc",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25900/rw25900-2.jpg",
+          "sha256": "7314729ea0287a720621a6b11af8371b9bcdb5bf36fe8c2d07728b38e784cd46",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw25900/rw25900-3.jpg",
+          "sha256": "85fa15dbe4f36752e9f1dcaeb85d1a2f8292b38e83956eeb85b8a008778b39a1",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26040",
+      "key": "rw26040",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW26040 Blue-and-Red Resin Flowers for Color-Block Paper Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about 28 mm / about 21 mm (source-listed options)",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Pair a blue RW26040 flower with a red paper accent for a simple notebook or card layout. Its five rounded petals and contrasting red center create a clear focal shape in the application reference. The material is source-listed resin, with approximately 28 mm / 21 mm size options and reference packing of 100 pieces per bag. Confirm the available size and color arrangement and choose a suitable attachment for your surface. Generated scene and detail images are visual references only; the notebook, paper, scissors and other props are excluded.",
+      "caption": "Pair a blue RW26040 flower with a red paper accent for a simple notebook or card layout. Its five rounded petals and contrasting red center create a clear focal shape in the application reference. The material is source-listed resin, with approximately 28 mm / 21 mm size options and reference packing of 100 pieces per bag. Confirm the available size and color arrangement and choose a suitable attachment for your surface. Generated scene and detail images are visual references only; the notebook, paper, scissors and other props are excluded.",
+      "uses": "Pair a blue RW26040 flower with a red paper accent for a simple notebook or card layout. Its five rounded petals and contrasting red center create a clear focal shape in the application reference. The material is source-listed resin, with approximately 28 mm / 21 mm size options and reference packing of 100 pieces per bag. Confirm the available size and color arrangement and choose a suitable attachment for your surface. Generated scene and detail images are visual references only; the notebook, paper, scissors and other props are excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW26040 Blue-and-Red Resin Flowers for Color-Block Paper Crafts",
+      "metaTitle": "RW26040 Blue-and-Red Resin Flowers for Color-Block Paper Crafts",
+      "haibuDescription": "RW26040: Resin craft decorations, about 28 mm / about 21 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26040: Resin decorations, about 28 mm / about 21 mm (source-listed options). Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Cute Transparent Crystal Red Blue Flowers Resin Flat Back Cabochon Scrapbook DIY Embellishments Accessories",
+        "material": "Resin",
+        "size": "about28mm- / about21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26040"
+      },
+      "sourceProductId": "1601631981411",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Transparent-Crystal-Red-Blue-Flowers_1601631981411.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H9e5cf5d254e1400484c961faa86062a4q.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW26040 Blue-and-Red Resin Flowers for Color-Block Paper Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-01.jpg",
+          "sha256": "f6c52449bf4af2654e6b1ae7fcdd171bcf5b54e82310e005204b5effa852759e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-02.jpg",
+          "sha256": "85bda2a77e5b3c97f4b5110b8bbead861647705e9986d18473423cc66d89fb25",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26040/rw26040-resin-craft-charms-03.jpg",
+          "sha256": "d52cff3565765e47ad2bbae19f80a94f5be1ff2f2c15ebcebd7e12b64c20390c",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26040/rw26040-1.jpg",
+        "assets/images/pdp/rw26040/rw26040-2.jpg",
+        "assets/images/pdp/rw26040/rw26040-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26040/rw26040-1.jpg",
+          "sha256": "f6c52449bf4af2654e6b1ae7fcdd171bcf5b54e82310e005204b5effa852759e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26040/rw26040-2.jpg",
+          "sha256": "85bda2a77e5b3c97f4b5110b8bbead861647705e9986d18473423cc66d89fb25",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26040/rw26040-3.jpg",
+          "sha256": "d52cff3565765e47ad2bbae19f80a94f5be1ff2f2c15ebcebd7e12b64c20390c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26098",
+      "key": "rw26098",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW26098 Iridescent Resin Snowflakes for Winter Cards and Paper Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "26 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Place a blue RW26098 snowflake against cream paper and a pale blue ribbon strip for a winter-card layout. Its six-point shape and faceted front catch light differently from a printed snowflake. Source-listed material is resin, size 26 mm and reference packing 100 pieces per bag. Confirm available colors and choose an attachment suitable for your craft surface; no hanging loop is promised. Generated scene and detail images are visual references only, with card, ribbon, envelope and other props excluded.",
+      "caption": "Place a blue RW26098 snowflake against cream paper and a pale blue ribbon strip for a winter-card layout. Its six-point shape and faceted front catch light differently from a printed snowflake. Source-listed material is resin, size 26 mm and reference packing 100 pieces per bag. Confirm available colors and choose an attachment suitable for your craft surface; no hanging loop is promised. Generated scene and detail images are visual references only, with card, ribbon, envelope and other props excluded.",
+      "uses": "Place a blue RW26098 snowflake against cream paper and a pale blue ribbon strip for a winter-card layout. Its six-point shape and faceted front catch light differently from a printed snowflake. Source-listed material is resin, size 26 mm and reference packing 100 pieces per bag. Confirm available colors and choose an attachment suitable for your craft surface; no hanging loop is promised. Generated scene and detail images are visual references only, with card, ribbon, envelope and other props excluded.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW26098 Iridescent Resin Snowflakes for Winter Cards and Paper Crafts",
+      "metaTitle": "RW26098 Iridescent Resin Snowflakes",
+      "haibuDescription": "RW26098: Resin craft decorations, 26 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26098: Resin decorations, 26 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Transparent Christmas Snowflake Flatback Resin Cabochon for Hair Bow Center for Phone Decoration DIY Hair Accessories",
+        "material": "Resin",
+        "size": "26mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26098"
+      },
+      "sourceProductId": "1601669834644",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Transparent-Christmas-Snowflake-Flatback-Resin_1601669834644.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hbbb8ec694a514eff98a92deda4fd8642m.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW26098 Iridescent Resin Snowflakes for Winter Cards and Paper Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-01.jpg",
+          "sha256": "b41f821d4a5cb79891bc2c11a65a1667ae1a03fe659bb6f1ac70cbdbd92c7a88",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-02.jpg",
+          "sha256": "d381df0e91c70db1cc6dbf826314eddb5adc2a04517dc932e8a11923cacc15f4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26098/rw26098-resin-craft-charms-03.jpg",
+          "sha256": "95bb772ff5fac1cb8edd5ca9e0fdd27f7d28e829937bbf53762b53542ccf2241",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26098/rw26098-1.jpg",
+        "assets/images/pdp/rw26098/rw26098-2.jpg",
+        "assets/images/pdp/rw26098/rw26098-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26098/rw26098-1.jpg",
+          "sha256": "b41f821d4a5cb79891bc2c11a65a1667ae1a03fe659bb6f1ac70cbdbd92c7a88",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26098/rw26098-2.jpg",
+          "sha256": "d381df0e91c70db1cc6dbf826314eddb5adc2a04517dc932e8a11923cacc15f4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26098/rw26098-3.jpg",
+          "sha256": "95bb772ff5fac1cb8edd5ca9e0fdd27f7d28e829937bbf53762b53542ccf2241",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26108",
+      "key": "rw26108",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW26108 Mini Resin Croissants for Recipe Journals and Bakery-Themed DIY",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "18 × 25 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Create a bakery-inspired journal cover with the small RW26108 croissant motif, cream paper and checked ribbon. Its curved segmented shape offers a different focal point from a flat bread illustration. Source-listed material is resin, size 18 × 25 mm and reference packing 100 pieces per bag. The decoration is not edible. Confirm packing and choose an attachment suitable for the surface. Generated scene and detail images are references only; the journal, ribbon, paper and other styling props are not included.",
+      "caption": "Create a bakery-inspired journal cover with the small RW26108 croissant motif, cream paper and checked ribbon. Its curved segmented shape offers a different focal point from a flat bread illustration. Source-listed material is resin, size 18 × 25 mm and reference packing 100 pieces per bag. The decoration is not edible. Confirm packing and choose an attachment suitable for the surface. Generated scene and detail images are references only; the journal, ribbon, paper and other styling props are not included.",
+      "uses": "Create a bakery-inspired journal cover with the small RW26108 croissant motif, cream paper and checked ribbon. Its curved segmented shape offers a different focal point from a flat bread illustration. Source-listed material is resin, size 18 × 25 mm and reference packing 100 pieces per bag. The decoration is not edible. Confirm packing and choose an attachment suitable for the surface. Generated scene and detail images are references only; the journal, ribbon, paper and other styling props are not included.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW26108 Mini Resin Croissants | RW26108",
+      "metaTitle": "RW26108 Mini Resin Croissants",
+      "haibuDescription": "RW26108: Resin craft decorations, 18 × 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26108: Resin decorations, 18 × 25 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Resin Kawaii Croissant Bread Scrapbook Flatback 3D Food Figurine DIY Doll House Kitchen Decor Accessory",
+        "material": "Resin",
+        "size": "18*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26108"
+      },
+      "sourceProductId": "1601671140136",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Croissant-Bread-Scrapbook-Flatback_1601671140136.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hf0d362e61e044df18ead001a9fc892dcp.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW26108 Mini Resin Croissants for Recipe Journals and Bakery-Themed DIY",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-01.jpg",
+          "sha256": "724a7e65bbabe5a267749d8591b11198314450a03b53577ffe9dacc654309ee6",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-02.jpg",
+          "sha256": "974118bfb12d91281f4dc84cb9cdb6762d70a27160ae8316734d4444977d6669",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26108/rw26108-resin-craft-charms-03.jpg",
+          "sha256": "fe5e156846d4ace99543baaae0d652ba9df7db9491a3f143d22c2b89dc8548c3",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26108/rw26108-1.jpg",
+        "assets/images/pdp/rw26108/rw26108-2.jpg",
+        "assets/images/pdp/rw26108/rw26108-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26108/rw26108-1.jpg",
+          "sha256": "724a7e65bbabe5a267749d8591b11198314450a03b53577ffe9dacc654309ee6",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26108/rw26108-2.jpg",
+          "sha256": "974118bfb12d91281f4dc84cb9cdb6762d70a27160ae8316734d4444977d6669",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26108/rw26108-3.jpg",
+          "sha256": "fe5e156846d4ace99543baaae0d652ba9df7db9491a3f143d22c2b89dc8548c3",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW004553",
+      "key": "rw004553",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW004553 Seated Unicorn Resin Charms for Fantasy Craft Styling",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "18 × 28 mm",
+      "packing": "100 pcs per reference pack",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "Pair the translucent unicorn shape with pastel paper stars for a fantasy-themed craft display. The closed eyelash eye and gold-tone horn provide the visible focal details. Source specifications: resin, 18 × 28 mm, reference packing of 100 pieces. Confirm available colors and suitable attachment methods before planning a project. Generated styling references do not include the paper props.",
+      "caption": "Pair the translucent unicorn shape with pastel paper stars for a fantasy-themed craft display. The closed eyelash eye and gold-tone horn provide the visible focal details. Source specifications: resin, 18 × 28 mm, reference packing of 100 pieces. Confirm available colors and suitable attachment methods before planning a project. Generated styling references do not include the paper props.",
+      "uses": "Pair the translucent unicorn shape with pastel paper stars for a fantasy-themed craft display. The closed eyelash eye and gold-tone horn provide the visible focal details. Source specifications: resin, 18 × 28 mm, reference packing of 100 pieces. Confirm available colors and suitable attachment methods before planning a project. Generated styling references do not include the paper props.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW004553 Seated Unicorn Resin Charms for Fantasy Craft Styling",
+      "metaTitle": "RW004553 Seated Unicorn Resin Charms for Fantasy Craft Styling",
+      "haibuDescription": "RW004553: Resin craft decorations, 18 × 28 mm. Reference pack: 100 pcs per reference pack. Request selection and packing details.",
+      "description": "RW004553: Resin decorations, 18 × 28 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Cute Luminous 3D Unicorn Horse Charms Animal Pendants for Jewelry Making DIY Earrings Keychain Findings Toys",
+        "material": "Resin",
+        "size": "18*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW004553"
+      },
+      "sourceProductId": "1601651443131",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Cute-Luminous-3D-Unicorn_1601651443131.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H10b1f11e48ac4cdb9dc6090c687a144eK.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW004553 Seated Unicorn Resin Charms for Fantasy Craft Styling",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-01.jpg",
+          "sha256": "7c2a50bb9e8ee46b2def4e6227ca32d5bf6d72bcb40ca1fd5b4a05da385b9fe5",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-02.jpg",
+          "sha256": "c83724cde607df738ac096b9fb137a64f2bc3a9fecf8967493cae564ec9e9714",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw004553/rw004553-resin-craft-charms-03.jpg",
+          "sha256": "d2242fb8922a52343486c47c988d3779c9409aaef8355bc50b6cd10dd44754a2",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw004553/rw004553-1.jpg",
+        "assets/images/pdp/rw004553/rw004553-2.jpg",
+        "assets/images/pdp/rw004553/rw004553-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw004553/rw004553-1.jpg",
+          "sha256": "7c2a50bb9e8ee46b2def4e6227ca32d5bf6d72bcb40ca1fd5b4a05da385b9fe5",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw004553/rw004553-2.jpg",
+          "sha256": "c83724cde607df738ac096b9fb137a64f2bc3a9fecf8967493cae564ec9e9714",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw004553/rw004553-3.jpg",
+          "sha256": "d2242fb8922a52343486c47c988d3779c9409aaef8355bc50b6cd10dd44754a2",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26153",
+      "key": "rw26153",
+      "batchNumber": 42,
+      "batchId": "20261112-monica-42",
+      "title": "RW26153 Golden Toast Resin Charms for Bakery-Themed Crafts",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Approx. 16 × 14 × 13 mm",
+      "packing": "100 pcs per reference pack",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "A golden toast face adds a bakery motif to gift-tag layouts and miniature craft displays. The plain-toast example has a recessed textured center and a raised golden border. Source specifications are resin, approximately 16 × 14 × 13 mm and 100 pieces per reference pack. Confirm design selection and attachment suitability for your project. This is a non-food craft decoration; generated references show styling only and exclude the props.",
+      "caption": "A golden toast face adds a bakery motif to gift-tag layouts and miniature craft displays. The plain-toast example has a recessed textured center and a raised golden border. Source specifications are resin, approximately 16 × 14 × 13 mm and 100 pieces per reference pack. Confirm design selection and attachment suitability for your project. This is a non-food craft decoration; generated references show styling only and exclude the props.",
+      "uses": "A golden toast face adds a bakery motif to gift-tag layouts and miniature craft displays. The plain-toast example has a recessed textured center and a raised golden border. Source specifications are resin, approximately 16 × 14 × 13 mm and 100 pieces per reference pack. Confirm design selection and attachment suitability for your project. This is a non-food craft decoration; generated references show styling only and exclude the props.",
+      "keywords": "resin-craft-charms",
+      "haibuMetaTitle": "RW26153 Golden Toast Resin Charms for Bakery-Themed Crafts",
+      "metaTitle": "RW26153 Golden Toast Resin Charms for Bakery-Themed Crafts",
+      "haibuDescription": "RW26153: Resin craft decorations, Approx. 16 × 14 × 13 mm. Reference pack: 100 pcs per reference pack. Request selection and packing details.",
+      "description": "RW26153: Resin decorations, Approx. 16 × 14 × 13 mm. Compare original photos and plan your craft layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Kawaii DIY Simulation Food Toast Burger Resin Ornament Crafts Play Doll House Accessories",
+        "material": "Resin",
+        "size": "about16*14*13mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26153"
+      },
+      "sourceProductId": "1601694116366",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-DIY-Simulation-Food-Toast_1601694116366.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Haff78914320b4ccb9e7e25d2dbe7ff28C.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "RW26153 Golden Toast Resin Charms for Bakery-Themed Crafts",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-01.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-02.jpg",
+        "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-01.jpg",
+          "sha256": "b22252011fe0f1eadbe3ca96e5948fb2bb0bca7100f874b32c34ef6d75fc145b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-02.jpg",
+          "sha256": "980e70ee40439f9dc3ae450800a208478c4645538292030ccc30502d98406d5d",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/products/batch-20261112-monica-42/rw26153/rw26153-resin-craft-charms-03.jpg",
+          "sha256": "66e7804974368548d8c6b065ae2142a2e2beb3fe85d796c964d3dcde45aec117",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26153/rw26153-1.jpg",
+        "assets/images/pdp/rw26153/rw26153-2.jpg",
+        "assets/images/pdp/rw26153/rw26153-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "role": "main",
+          "generated": false,
+          "path": "assets/images/pdp/rw26153/rw26153-1.jpg",
+          "sha256": "b22252011fe0f1eadbe3ca96e5948fb2bb0bca7100f874b32c34ef6d75fc145b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "role": "application_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26153/rw26153-2.jpg",
+          "sha256": "980e70ee40439f9dc3ae450800a208478c4645538292030ccc30502d98406d5d",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "role": "detail_reference",
+          "generated": true,
+          "path": "assets/images/pdp/rw26153/rw26153-3.jpg",
+          "sha256": "66e7804974368548d8c6b065ae2142a2e2beb3fe85d796c964d3dcde45aec117",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}
