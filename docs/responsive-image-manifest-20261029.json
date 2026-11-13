@@ -1,6 +1,6 @@
 {
   "version": "20261029",
-  "method": "Lanczos resize, WebP quality 88; icon lossless",
+  "method": "Lanczos resize, WebP quality 88; mobile hero softening and quality 72; icon lossless",
   "originalFilesPreserved": true,
   "images": [
     {
@@ -797,16 +797,22 @@
       ],
       "variants": [
         {
-          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-mobile-48ffc111-360w.webp",
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-mobile-48ffc111-soft-q72-360w.webp",
           "width": 360,
           "height": 540,
-          "bytes": 76172
+          "bytes": 30206
         },
         {
-          "url": "assets/images/flatlay-craft-range-hero-mobile.webp",
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-mobile-48ffc111-soft-q72-640w.webp",
+          "width": 640,
+          "height": 960,
+          "bytes": 83186
+        },
+        {
+          "url": "assets/images/responsive-20261029/flatlay-craft-range-hero-mobile-48ffc111-soft-q72-800w.webp",
           "width": 800,
           "height": 1200,
-          "bytes": 194166
+          "bytes": 122592
         }
       ]
     },
