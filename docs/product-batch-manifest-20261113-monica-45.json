@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-13",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 1128,
+  "catalogCountAfter": 1148,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW26409",
+      "pdp": "p-rw26409.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Fried-Egg-Toast-Bread_1601808059330.html",
+      "sourceFields": {
+        "title": "100pcs Mini Fried Egg Toast Bread Miniature Food Breakfast Model DIY Handmade Resin Craft Decoration Accessory",
+        "material": "Resin",
+        "size": "16 x 17mm",
+        "packaging": "200pcs/bag",
+        "sku_raw": "RW26409"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3b8f53b1b2249d31f3a064ec6c02d99f96d443a224778e2e749955a8e18d9d77",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "899f59de39f03bc0a1e368e497a7f295dfb32ed4db1f7c003e1836ee72d9fa67",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "c02fb6a88ef9d5d647497d7fda2f37509a21b6ca71cfc97aeac5a903e1f28199",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW24926",
+      "pdp": "p-rw24926.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Donut-Resin-Charms-DIY_1601446761841.html",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Donut Resin Charms DIY Jewelry Earrings Necklace Decor Pendant Making Children Supplies",
+        "material": "Resin",
+        "size": "26 x 22mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW24926"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "f616602a0baf9f5cbd0a45c11eb5511540df39b32def93a5d5bc6d4641ca8122",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "8c3976c0032c6d45ce675ec29f5d03baf3f9bd951d292edf296a13f548a6fece",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "ae6e63a97a1e11e15f8bf9c05f1760a3cf91235fcfa2539338bbfb3c1ca6c954",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW002571",
+      "pdp": "p-rw002571.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wishing-Bottle-Star-Flatback-Resin-Cabochon_1601808309286.html",
+      "sourceFields": {
+        "title": "Wishing Bottle Star Flatback Resin Cabochon Fit Phone Decoration DIY Jewelry Making Accessories Scrapbooking Crafts",
+        "material": "Resin",
+        "size": "about12 x 17mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW002571"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "055c05c0f4473e238e4e82c96abea0472d5d00fa683db0b5412e86983c6d7a0b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "734c6ad9c386439d272fb72cacac99b1750902dafd6e6df11b5f84e7b5340634",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0731ab3587d45e5df56ae820cfd583ab9b8232695c87caeac593ca2e7450aafc",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25634",
+      "pdp": "p-rw25634.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Cartoon-Fairies-Girl-Series_1601446774903.html",
+      "sourceFields": {
+        "title": "Resin Cute Cartoon Fairies Girl Series Flat Back Cabochon Scrapbooking Diy Accessories",
+        "material": "Resin",
+        "size": "18 x 24mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25634"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "1a75e314db8d101f9cc87606e9084d5fcd90073b8bcefb2a46e3b7bc00191ebf",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f3d7e6983fe9818cb6e5c532bd468cdacd294347d49e1646b5b749d561187b03",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "4782ec3778d10226866f292ccd0e50eb6849e37a00b6ceffc0ed0a69a2099480",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW23463",
+      "pdp": "p-rw23463.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Resin-French-Fries-Simulation_1601446464787.html",
+      "sourceFields": {
+        "title": "100Pcs Mini Resin French Fries Simulation Food Ornaments Lovely Sweet Doll House Food Crafts for Phone Case Kitchen Room Decor",
+        "material": "Resin",
+        "size": "20 x 27mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW23463"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "986d760902540937837e76fa7e2a069e9093f096a1f7762bec8d6190464fbd3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f1af9e34c3f39aa2ade0891682952e1dc8ff56f2354528d7e4e1eff45be06247",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "1c0bf03b900593c1a34a8494c37ff7cf540232d85cd8ad205d7bdd9d0ab93eb8",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25456",
+      "pdp": "p-rw25456.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cartoon-Resin-Game-Controller-Flat-Back_1601404666839.html",
+      "sourceFields": {
+        "title": "Cartoon Resin Game Controller Flat Back Cabochon Phone Case Deco Parts Character DIY Hair Bows Accessories",
+        "material": "Resin",
+        "size": "20 x 16mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25456"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "52d39f190f6b3cf9591f78d1152e4f4bf07c2cf77144320a61c9f6817b3feb5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cce74e22ed4f9215db9aedb5ee4995eca25ac859c4775718261cb9932cc8b55f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "6ce1d3ba6fda57e9215e5087a452b8a518ac7b9139deac44002a7621b60b0976",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW169",
+      "pdp": "p-rw169.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Slime-Charms-Mermaid-Tail-For_1601447923730.html",
+      "sourceFields": {
+        "title": "100pcs Slime Charms Mermaid Tail For DIY Cake Phone Decoration Sprinkles Toys Mud Polymer Clay Slime Supplies",
+        "material": "Resin",
+        "size": "31 x 44mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW169"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw169/rw169-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "82acf48cd5d70f33e32e137fb525459c900f6f0bf3c08df267307de555a84860",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw169/rw169-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1ee02a79884f7c7c51c950c13c3c45390d267aac666289a464fab8104613d433",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw169/rw169-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "05b50f53fad815480b2580438056a1f3478caa26ab3a89dd79c978434a1c4f2d",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25293",
+      "pdp": "p-rw25293.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Hot-Selling-DIY-Cream-Glue-Dachshund_1601357961204.html",
+      "sourceFields": {
+        "title": "Hot Selling DIY Cream Glue Dachshund Resin Accessories Kawaii Jewelries Charms Cartoon Resin Crafts for Decoration",
+        "material": "Resin",
+        "size": "about28 x 20mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25293"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8e08431b5b11773f4298a075561e85caa96907bb37316e9fca4917ab99561620",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1d7a85249cd2a52a34b9970b99351a330f1d8e4a2cd4b7cb233639623d70f3e0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "7129457a0c4f5d8d776067af95da1c1c8c5dec6eb35bc37d4f0ab8fb3af21f7a",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW004107",
+      "pdp": "p-rw004107.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Cake-Bear-Biscuit-Flatback-Resin_1601689506877.html",
+      "sourceFields": {
+        "title": "Cute Cake Bear Biscuit Flatback Resin Cabochon Scrapbooking Accessories DIY Phone Case Decor Patch Kawaii Hairpin Applique",
+        "material": "Resin",
+        "size": "15 x 18mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW004107"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "e88989d02d7500004b040bbdd7d42076e34dd00256566d4c9b97705a75701d24",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4d198e95932930262f90f696d0868e3b27081b676935a398eb9397e708be1e1b",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b56843143d85c403bcd7e08ea014e6f7fe3deec66234690b9ad14902b0275859",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW22818",
+      "pdp": "p-rw22818.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Luminous-Duck-Rabbit-Eggshell_1601660183947.html",
+      "sourceFields": {
+        "title": "Resin Kawaii Luminous Duck Rabbit Eggshell Colorful Candy 3D Fairy Garden Scrapbook DIY Micro Landscape Home Decor Crafts",
+        "material": "Resin",
+        "size": "18 x 28mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW22818"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "938c660b489d862870f88801bd7b1b6bba18e60bbb2e5d3b6d24f4a9d092877f",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f95e48f22f83e498ae41b93feaade8de93b3992def86bae8d0ef71e4bc527b64",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "fa725d1bcb3a558ed0665cfbc65e2767c8b3acb6baa7232caf7da5ca9e95fbe0",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26123",
+      "pdp": "p-rw26123.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Resin-Animal-Bread-Flat_11000031650172.html",
+      "sourceFields": {
+        "title": "New Cute Resin Animal Bread Flat Back Cabochon Scrapbooking Hair Bow Center Embellishments DIY Accessories",
+        "material": "Resin",
+        "size": "26-34mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26123"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3eddcff4207d9b100e01de07ff879e9876d5db545f4b2cb0bb8961dc7cec83af",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ac18ffee85047fe3dc033c93c8faf17dab643ed0fd1c7e5e0a34fb967b7ae8d0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "659648d5b468dc096dfd7de3b05699a528ff878970b83da9f6e3931ff0b6bc4d",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26128",
+      "pdp": "p-rw26128.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Flower-Book-Series-Miniature-Flat-Back_1601681399337.html",
+      "sourceFields": {
+        "title": "Flower Book Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "30 x 20 x 10mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26128"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7f6ad345c7fb127ebdec647a2dcdd6fdafeb33d5f305d9220a35966e015dc7ed",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a197e844710881da8d32252eaa035f976b84215c19ef61005c777ca984af9dd4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0b7f9b16996e10d29d7adab583d63104c3a830d2e3eaf4af70c2b0fd93d8f7c5",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4663",
+      "pdp": "p-rw4663.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Diy-Kawaii-3D-Ham_1601679152864.html",
+      "sourceFields": {
+        "title": "Mini Resin Diy Kawaii 3D Ham Sausage Miniature Flatback Charms Scrapbooking Accessories Cabochon Embellishments Decoration",
+        "material": "Resin",
+        "size": "11 x 23mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4663"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c07a83253985db932a9ee5aac0b2c2eaf63b27285b62aaba2f0e358b5b28c932",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3ee2dd5bf2cc8e9a4322156db09aedfeffbc0cb1bab57beb48e4f7c6d987b9ed",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "d0c0285f2c08d2eef4ab86abe28e3727445bb450e106107948fadef07fbbe1e9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4616",
+      "pdp": "p-rw4616.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Lovely-Animals-Bread-Pizza-Resin_1601679250251.html",
+      "sourceFields": {
+        "title": "100pcs Lovely Animals Bread Pizza Resin Charms Pendant Flatback Keychain DIY Jewelry Making Findings",
+        "material": "Resin",
+        "size": "about20-25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4616"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c44e50c9c670a4b76ab56d06e83181a3701296b93d5e0525bc0349bfc0eec17e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cf2fbe0151d33ed55118f5f528f1085f1fe2c43c9d07c5ecc147ed53abe1ad0a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b10546aec7beb0b14b0ba8c4ffc0eb2d7498e7ebd5e3f55079905ebb8d54f7a9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW21138",
+      "pdp": "p-rw21138.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Tulips-Rabbit-Flatback-Resin_1601679043745.html",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Tulips Rabbit Flatback Resin Cabochons for Phone Decoration DIY Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about28 x 31mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW21138"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "51c338a5c2af74de8450d2c869cdc95650adb6746f759030f6601e30c762ed3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ea4a652e9724105117a0b614c0e0db5a994417dee9d20a73b5bf2e0d7bb0dbad",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0612c96e5700cad74b08bbc8834aaaa15d94926a982bf73e8c246882bcbeb0c9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4172",
+      "pdp": "p-rw4172.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Candy-Sugar-Miniature-Cabochon_1601678998845.html",
+      "sourceFields": {
+        "title": "Resin 3D Candy Sugar Miniature Cabochon Art Supply DIY Craft Decoration Homemade Gift Phone Deco",
+        "material": "Resin",
+        "size": "12 x 15mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4172"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a34820d1379418d0e67ddd166ef3f603b8d6fbdf10fedaa8afb9d058dc525f8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a4584355de9fa9adf811bd7f8d65f0aa649559b55f996927259fa7eaef9c8de4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0230bec270f7b3474bc46386046b7324176bf3d57f993a10cb8a690dc8d03327",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4043",
+      "pdp": "p-rw4043.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Plaid-Love-Heart-Planar-Flatback_1601678789245.html",
+      "sourceFields": {
+        "title": "100Pcs Plaid Love Heart Planar Flatback Resin Cabochon Earrings Jewelry Making Accessories DIY Patch Crafts Material",
+        "material": "Resin",
+        "size": "20 x 25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4043"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2204546fb818bfc8cd7d3efa506e61fedf9ca51a348ab3593941bbc863510d81",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5ecca4fcb9def78ef45943a039cc9aa4179b39e18f0c9303d4915392a8baae70",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "77fb467628fe42e861e7fe21a267916b8c0d4898e805123d0217f87cf1827df5",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW1742",
+      "pdp": "p-rw1742.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Jelly-Colors-Resin-Cartoon-Fish_1600075287846.html",
+      "sourceFields": {
+        "title": "Kawaii Jelly Colors Resin Cartoon Fish Miniature Figure Flatback Cabochons DIY Home Decoration Craft Scrapbook",
+        "material": "Resin",
+        "size": "4 x 11 x 24mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW1742"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "852d8a42135db7480499f0c512110ebb23387424a8c15d6898ca906c5d9b631b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9d171e163bf33cef96a41a9a6779deeee4aa7d30cab3508de27a239ea2110934",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "51f3824259591983881f4f69d2b16639568f6aa8f48f1c87ca077fe6b7239407",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26111",
+      "pdp": "p-rw26111.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Cream-Cartoon-Dog-Chocolate_1601673360931.html",
+      "sourceFields": {
+        "title": "Resin Kawaii Cream Cartoon Dog Chocolate Flatback Figurine Scrapbook DIY Decor Home Accessories Crafts",
+        "material": "Resin",
+        "size": "32 x 32mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26111"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a3cf3aced25de389a51d3326dc363d96799d04042a3ad64cb91d92c1d2fb6a8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9aa41fc27db183510b41d5e01327499f84bdfd41aa92ee18f07d36ff4402c93e",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "82de25176c2fb172dec749a7e976018d939e4f75a0a388b03f4613775003b5e8",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26154",
+      "pdp": "p-rw26154.html",
+      "batchNumber": 45,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Resin-Cartoon-Easter-Chicks-Eggs_1600482626115.html",
+      "sourceFields": {
+        "title": "100PCS Resin Cartoon Easter Chicks Eggs Rabbit Flatback Cabochon for DIY Hair Bow Scrapbook Crafts Decorative Figurines",
+        "material": "Resin",
+        "size": "25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26154"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "4d5dcedd87646331dd042c531d3f81cfc3735156732609497bf83958e7075ff7",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3d8cd135142aeba3033f5896a1a71c25ac08f8db4d4fabbd4441e79d764dc0ae",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "f2d49c11452010f8e14b3074ac62bd5c6ba6e1baaf2318144a42932df875f2cc",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    }
+  ]
+}
