@@ -4,6 +4,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { transform } from 'esbuild';
 import { renderResinCardSpecs } from './resin-card-specs.mjs';
+import { buildResinPages } from './resin-pagination.mjs';
 import { minify } from 'html-minifier-terser';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -84,28 +85,35 @@ function imagePreloads(html) {
   return source ? link(source, attr(source, 'media')) + link(hero, '(min-width: 721px)') : link(hero);
 }
 
-for (const entry of entries.filter(e => e.isFile() && e.name.endsWith('.html'))) {
-  const file = path.join(out, entry.name);
-  let html = await fs.readFile(file, 'utf8');
+const htmlFiles = entries.filter(e => e.isFile() && e.name.endsWith('.html')).map(e => e.name);
+const resinSource = await fs.readFile(path.join(out, 'resin-charms.html'), 'utf8');
+const resinPages = buildResinPages(await renderResinCardSpecs(root, resinSource));
+for (const name of resinPages.keys()) {
+  if (name === 'resin-charms.html') continue;
+  if (htmlFiles.includes(name)) throw new Error('Resin pagination would overwrite ' + name);
+  htmlFiles.push(name);
+}
+for (const name of htmlFiles) {
+  const file = path.join(out, name);
+  let html = resinPages.get(name) ?? await fs.readFile(file, 'utf8');
   const before = Buffer.byteLength(html);
-  if (entry.name === 'resin-charms.html') html = await renderResinCardSpecs(root, html);
   html = html.replace(/\bhref=(["'])([^"']+)\1/gi, (all, quote, url) => {
     if (/^\/?index\.html(?:#.*)?$/.test(url)) return 'href=' + quote + url.replace(/^\/?index\.html/, '/') + quote;
     if (!/^(?:https:\/\/www\.qulacrafts\.com\/)?\/?quote\.html\?/.test(url)) return all;
     return 'href=' + quote + formStateLinks(url) + quote;
   });
-  if (['seasonal-collections.html', 'guide-polymer-clay-sprinkles-bulk.html'].includes(entry.name)) {
+  if (['seasonal-collections.html', 'guide-polymer-clay-sprinkles-bulk.html'].includes(name)) {
     // These above-the-fold images were lazy-loaded in the Lighthouse sample.
     html = html.replace(/(<main\b[\s\S]*?<img\b)([^>]*>)/i, (all, prefix, attrs) => {
       attrs = attrs.replace(/\sloading=["']lazy["']/i, ' loading="eager"');
       if (!/\bfetchpriority=/.test(attrs)) attrs = ' fetchpriority="high"' + attrs;
-      if (entry.name.startsWith('guide-') && !/\bsrcset=/.test(attrs)) {
+      if (name.startsWith('guide-') && !/\bsrcset=/.test(attrs)) {
         attrs = ' srcset="assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-360w.webp 360w, assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-640w.webp 640w, assets/images/responsive-20261029/polymer-clay-slices-cover-v2-680f8f51-960w.webp 960w" sizes="(max-width: 900px) calc(100vw - 48px), 860px"' + attrs;
       }
       return prefix + attrs;
     });
   }
-  if (entry.name === 'guide-seasonal-craft-calendar.html') {
+  if (name === 'guide-seasonal-craft-calendar.html') {
     // The complete repository graph confirmed this SKU really had only one
     // incoming page; most other sampled warnings were a 100-page crawl artifact.
     const products = ['p-yx4102.html', 'p-yx163.html', 'p-yx4057.html', 'p-yx421.html'].map(pdp => {

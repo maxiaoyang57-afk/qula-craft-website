@@ -1,5 +1,6 @@
 import {test,expect} from '@playwright/test';
 import {readFileSync} from 'node:fs';
+import {resinPageForSku} from './resin-catalog-pages.mjs';
 const entry=JSON.parse(readFileSync('assets/data/pdp-data.json','utf8')).find(p=>p.sku==='RW22372');
 const product=JSON.parse(readFileSync('assets/data/product-catalog.json','utf8')).categories.flatMap(c=>c.products).find(p=>p.sku==='RW22372');
 const brief=JSON.parse(readFileSync('assets/data/product-selection-guides.json','utf8')).rw22372.inquiryBrief;
@@ -7,12 +8,12 @@ test('RW22372 random mix keeps real images, packing, conditional MOQ and exact i
  await context.route(/formsubmit\.co|google-analytics\.com|googletagmanager\.com|clarity\.ms|\/api\/inquiry/,r=>r.abort());
  await page.emulateMedia({reducedMotion:'reduce'});
  const noOverflow=async()=>expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
- await page.goto('/resin-charms.html',{waitUntil:'domcontentloaded'});
+ await page.goto(resinPageForSku('RW22372'),{waitUntil:'domcontentloaded'});
  const card=page.locator('article.product-card').filter({has:page.locator('[data-sku="RW22372"]')});
  await expect(card).toHaveCount(1);await expect(card).toContainText('100 pieces/bag');await expect(card).toContainText('10 bags when not in stock');
  await expect(card.locator('img')).toHaveAttribute('src',entry.imagesLocal[0]);await noOverflow();
- // The full catalog progressively reveals cards. Use the visible curated
- // shortcut for this legacy SKU, then separately exercise exact-SKU search.
+ // The buying guide shortcut remains on the main category page.
+ await page.goto('/resin-charms.html');
  await page.getByRole('link',{name:'RW22372 chocolate chip cookie flatback cabochons',exact:true}).press('Enter');
  await expect(page.locator('h1')).toHaveText(product.titleFull);
  const images=page.locator('.gallery-main img,.gallery-row img');await expect(images).toHaveCount(3);

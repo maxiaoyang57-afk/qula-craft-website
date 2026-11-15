@@ -46,7 +46,22 @@ if (liveIndex !== -1) {
   if (!liveFile || !fs.existsSync(liveFile)) {
     fail('live category snapshot is missing');
   } else {
-    verifyCategoryHtml(fs.readFileSync(liveFile, 'utf8'), 'production resin category');
+    try {
+      const firstPage = fs.readFileSync(liveFile, 'utf8');
+      const pageLinks = new Set([...firstPage.matchAll(/href="(resin-charms-page-(?:[2-9]|[1-9]\d+)\.html)"/g)]
+        .map(([, name]) => name));
+      const continuationPages = await Promise.all([...pageLinks].map(async name => {
+        const response = await fetch('https://www.qulacrafts.com/' + name, {
+          redirect: 'error',
+          signal: AbortSignal.timeout(15_000),
+        });
+        if (!response.ok) throw new Error(name + ' returned HTTP ' + response.status);
+        return response.text();
+      }));
+      verifyCategoryHtml([firstPage, ...continuationPages].join(''), 'production resin category');
+    } catch (error) {
+      fail(error.message);
+    }
   }
 } else {
   const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets/data/product-catalog.json'), 'utf8'));
