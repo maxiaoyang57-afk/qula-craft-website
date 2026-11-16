@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "batchCount": 1,
+  "batchSize": 1,
+  "finalTail": true,
+  "catalogCountBefore": 1408,
+  "catalogCountAfter": 1409,
+  "newProductCount": 1,
+  "imageCount": 3,
+  "products": [
+    {
+      "sku": "RW5800",
+      "pdp": "p-rw5800.html",
+      "batchNumber": 59,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Figurines-Miniatures-Simulated-Bamboo-Woven-Baskets_1601404649753.html",
+      "sourceFields": {
+        "title": "Figurines Miniatures Simulated Bamboo Woven Baskets Micro Landscape Ornaments for Home Decorations DIY Accessories",
+        "material": "Resin",
+        "size": "approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW5800"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw5800/rw5800-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "b6bf5046c50b6ef9966bcc705a8b4e7577d3843ab0116c4029c3c11737940b18",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw5800/rw5800-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "80a84c8dbc885e3a522cb0224d1d6afd4bae0f9019d558a3f0eec6ad28da517c",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw5800/rw5800-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "32247e247aff75026fd7c212723f8733567e0996106a951eb6b0d7061172f7ab",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}
