@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-16",
+  "batchCount": 1,
+  "batchSize": 20,
+  "catalogCountBefore": 1308,
+  "catalogCountAfter": 1328,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW001759",
+      "pdp": "p-rw001759.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Flatback-Resin-Biscuits-Popcorn_1601489440934.html",
+      "sourceFields": {
+        "title": "100pcs Cartoon Flatback Resin Biscuits Popcorn Ice Cream Food Cabochons Craft Embellishments DIY Hair Bows Decor Accessory",
+        "material": "Resin",
+        "size": "approx. 22 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW001759"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw001759/rw001759-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "f23f252da219dd995ae1201496097932b2b98d94a2f7f05bbd98bc2c514d89be",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw001759/rw001759-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "973c094172ec7c6e8358e06a1231af5d58b216a77e51ea9f8ae1928d8132ed2a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw001759/rw001759-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "951dac45db9a61d4153ebeec7347b6a42943451665deee40d9e180558a0ad119",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW002276",
+      "pdp": "p-rw002276.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Sweet-Cream-Cake-Resin_1601521859938.html",
+      "sourceFields": {
+        "title": "100Pcs Miniature Sweet Cream Cake Resin Cabochon Scrapbooking for Phone Decoration Jewelry Crafts DIY Doll House Accessor",
+        "material": "Resin",
+        "size": "approx. 21 × 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW002276"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002276/rw002276-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "1f5d1089f4c73049fa8fab9d340e9beaae68119280a9ce09bd9056229a7e896f",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002276/rw002276-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a05fa0bd3fd141990ebc4e24b87483b88bc643a9c5a97ef124d0220e39f28680",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw002276/rw002276-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "0dfa61df8e013ea78445199691b0856d0b8be679ec2b9f4462bc467220f3d37e",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW002804",
+      "pdp": "p-rw002804.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Resin-Transparent-Strawberry-Flatback-Cabochon_1601462252709.html",
+      "sourceFields": {
+        "title": "100PCS Resin Transparent Strawberry Flatback Cabochon Scrapbooking for DIY Crafts Shoe Charms",
+        "material": "Resin",
+        "size": "approx. 25 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW002804"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw002804/rw002804-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "23ca88cd80a2a739d26caea2020b0e000aceccaa1763a90dfd49832164acad0d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002804/rw002804-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "6d161f2a7613c168dc13c6db00e95de6c5a12679cc1711b22a1e8e1512f24973",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw002804/rw002804-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "a790b5922d73f7824143e09ea8ac3d115e41b684dfbef88f2e031ca3412961ca",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW004274",
+      "pdp": "p-rw004274.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Lying-Cartoon-Rabbit_1601557290806.html",
+      "sourceFields": {
+        "title": "100Pcs New Cute Lying Cartoon Rabbit Bear Resin Flatback Cabochon Scrapbook Diy Jewelry Children Gift Hairpin Accessories",
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW004274"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw004274/rw004274-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c5288adfc481a436116d4ca0bd302bec2e6b902bd80d18a809d39d58799b454d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw004274/rw004274-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f2bb582b039b1298b0c290c0e1167d3ca50b2a2e211ce9e817d5eda5bcda8eca",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw004274/rw004274-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "871419e5dc4f3063537a587049bd6efd43e62ff31f218a1351e64d38ea899648",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW22940",
+      "pdp": "p-rw22940.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Garden-Creative-Cartoon-Night-Light-Ornament_1601660751565.html",
+      "sourceFields": {
+        "title": "Garden Creative Cartoon Night Light Ornament Cartoon Castle Small Ornament Star Shell Grassland Castle DIY Resin Small Ornament",
+        "material": "Resin",
+        "size": "approx. 33 × 48 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW22940"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw22940/rw22940-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c2adf4de99c09da1b3defaff8ca9094dc047e04e9ec9601798978b3656a23f83",
+          "width": 350,
+          "height": 263
+        },
+        {
+          "path": "assets/images/pdp/rw22940/rw22940-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "e12584fdb3ae822e81622af24bcc69f77c59d5348a78377af7e7b76acd6819e5",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw22940/rw22940-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "73db7b860fc433cbbd57489350d39e9db1af0a38c569c82f8593e006c038971b",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW234976",
+      "pdp": "p-rw234976.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-House-Trash-Can-Fairy-Garden_1601666891033.html",
+      "sourceFields": {
+        "title": "100Pcs House Trash Can Fairy Garden Garbage Bin Dollhouse Toy Scene Ornament Resin Creative Landscape",
+        "material": "Resin",
+        "size": "approx. 15 × 25 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW234976"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw234976/rw234976-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3153255648653696973e738be426b09ea802f6c67ef8d5b53fefd4c92c0dc014",
+          "width": 263,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw234976/rw234976-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "142bcf6c5719f14baf0577765b296b0c2d33778b0e9593f3c1686a473626a266",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw234976/rw234976-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "c3e42858a4fb698a8fbacf9986a9c16e2b06c452bbefc13eff9cb53d08e6c1c4",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25219",
+      "pdp": "p-rw25219.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Fashion-3D-Kawaii-Mini-Resin_1601300351597.html",
+      "sourceFields": {
+        "title": "New Fashion 3D Kawaii Mini Resin Cat Wishing Bottle Charms for Jewelry Making DIY Crafting Dollhouse Decorations",
+        "material": "Resin",
+        "size": "approx. 23 × 22 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25219"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25219/rw25219-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "622e25e338b9cb4d4ba5714752024caaf56e1325b43e65e8426c9b427812496b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25219/rw25219-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "e0a84d214d9470fe944bdda0506768477b1644e929e6ec1d7ea94c5c2a3e2139",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25219/rw25219-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "e64e2cb6c5a215b1e33ddf63fd760bd6ecffbeffeafc69d178bdc342cb5bda32",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25727",
+      "pdp": "p-rw25727.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/1-12-Doll-House-Miniature-Food_1601517641046.html",
+      "sourceFields": {
+        "title": "1/12 Doll House Miniature Food DIY Bakeware Mini Pastry Biscuit Cookie Cake Bread Mold for Doll Accessories",
+        "material": "Resin",
+        "size": "approx. 15 × 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25727"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25727/rw25727-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "6a55be64f9d114f3b053408a25fe8b586435cc484ef561c936b331ab217fbef4",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25727/rw25727-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "407bffb013d20da9742917ed39c05f6490e842b8c217bb142ca2d1c545d16425",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25727/rw25727-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "be44e94a853a5fd65d2b9e243c0c3edc2358eb1fca1da0d48bf27ef2472e6c0c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25913",
+      "pdp": "p-rw25913.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Monster-Rabbit-Flatback-Resin_1601589742852.html",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Monster Rabbit Flatback Resin Cabochon for Phone Case Decoration DIY Scrapbooking Hair Accessories",
+        "material": "Resin",
+        "size": "approx. 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25913"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25913/rw25913-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "37b47b4885b480b591a2459904a7ddf5966ec35fdeffd17529dbf1b19ecac444",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25913/rw25913-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "571f65da980b703a5fd8cd7f668385c7e1d424b23b439a7fc0e423220355135f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25913/rw25913-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "143f416579864aee2c8a87f0906ecab36cc42fb93391907ca95b32d543f80c4b",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25926",
+      "pdp": "p-rw25926.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-3D-Banana-Cake-Resin_1601601327301.html",
+      "sourceFields": {
+        "title": "100pcs Kawaii 3D Banana Cake Resin Cabochon DIY Craft Doll House Accessories Home Decoration",
+        "material": "Resin",
+        "size": "approx. 31 × 17 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25926"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25926/rw25926-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3a2d55e6f8caf735625a983c32ba7b1539bc3728d1db6f08d6d46c01142418b6",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25926/rw25926-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "61b47d952169373045adba6ea9199b76bbf14b269239b46cef621ed5b5495c94",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25926/rw25926-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "351f5b6fca78db7b1b9cdc9aa15fc5c92178fdc63e6cb09665d760a64ba823f5",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25941",
+      "pdp": "p-rw25941.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-House-Miniature-Star-Candle-Model_1601601527160.html",
+      "sourceFields": {
+        "title": "Doll House Miniature Star Candle Model for Christmas Scene Home Decoration Accessories Toy Doll House Accessories",
+        "material": "Resin",
+        "size": "approx. 24 × 41 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25941"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25941/rw25941-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "284b0bd4321f9b6ee0fe8291c98beadac34510d8b96fb25223cfe893d6dfa6d1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25941/rw25941-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4c1536227d46faed54be85d703ee67129c54cb69429f10860a7a9ded1856d8c2",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25941/rw25941-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "74c899339e445365069b034acc6216ed13ae174b0448b30d19ed2f154dbfb728",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25944",
+      "pdp": "p-rw25944.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Resin-Cartoon-Bear-Rabbit_1601601520346.html",
+      "sourceFields": {
+        "title": "100Pcs Mini Resin Cartoon Bear Rabbit Toast Bread Cabochons Flat Back Diy Deco Parts for Hair Bows Jewelry Accessories",
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25944"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25944/rw25944-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "f2acb73a95fdaf018aa62f2c2c19fc44f28eedd94d9552d3391444d7ed46ae27",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25944/rw25944-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cc21e5fa8bc3981df4ba7eb9275be6fb59a2739deca86eb2de3d3c87409eec86",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25944/rw25944-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "eb15549b5fc2f6efd473bd2b5136f323b0a5758a7ef72aad562eecc820c7e00c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25966",
+      "pdp": "p-rw25966.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-House-Kitchen-Accessories-Miniature-Cake_1601601098557.html",
+      "sourceFields": {
+        "title": "Doll House Kitchen Accessories Miniature Cake Bread Simulated Dessert Kid Play Toy",
+        "material": "Resin",
+        "size": "approx. 15 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25966"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw25966/rw25966-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "b34d0f19fb49ee08396140c773097fd51cab6cf4295fb6fc88d46c9df436c54b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25966/rw25966-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a1e297585769c71d65c8ccebf4aecadf4f38eff2dd6defd1d83445a51b537218",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25966/rw25966-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "206ef7a95c5b1af1ab88cc60b27e19381a49c40df8658ef73014045543b01b4a",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26035",
+      "pdp": "p-rw26035.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Mini-Road-Traffic-Signs_1601629517667.html",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Mini Road Traffic Signs Resin Flatback Cabochon for DIY Phone Case Slime Charms Decor",
+        "material": "Resin",
+        "size": "approx. 10–23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26035"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26035/rw26035-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "a2ec1a3c688a9ae02a1a9c8a194fda51494f0a01bc2e26dce96b9d86a0ebc805",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26035/rw26035-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1ff03e43f7a178378f9ecae2d48212d9081307bec6926cc7c221fdc9e17cfb86",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26035/rw26035-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "70dba411b0f1e93404f2f573536dcde96cecb79e421db58b6ba0d7c27b111c31",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26133",
+      "pdp": "p-rw26133.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Doll-House-Food-Toys-Realistic_1601701974650.html",
+      "sourceFields": {
+        "title": "Miniature Doll House Food Toys Realistic Mini Potato Tower Sweet Dessert Crafts for Kitchen Accessories",
+        "material": "Resin",
+        "size": "approx. 17 × 28 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26133"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26133/rw26133-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "12e3731b741664ae4e4851c2a5c2ac6d5a419b9b2e90092bc27965d71141ba1f",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26133/rw26133-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "61d3dcce9463600cd178933e80851e0b545fee6e52d0eb2d47389f1ac73295a9",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26133/rw26133-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "55fc8a4839c83362a3ceb7d483a722f5c4e8e0751261e6a56d2f7fa8eff94c47",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26305",
+      "pdp": "p-rw26305.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulated-Food-Play-Resin-Cabochon-Crafts_1601832227716.html",
+      "sourceFields": {
+        "title": "Simulated Food Play Resin Cabochon Crafts for DIY Jewelry Making 100pcs Wholesale Decoration Accessory",
+        "material": "Resin",
+        "size": "approx. 39 × 19 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26305"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26305/rw26305-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "e89d68c332a0583d4f0474df0ee70c384154ce2dd2fe23d754d075205cf70831",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26305/rw26305-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "35f235561a6c11a704806eab204c7496a82574700bbe7a2b2eab6ebddbd4be66",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26305/rw26305-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "8c065ca7f3d53a8104582803f0704a066fda0da85febc7c483b81feadcca5a37",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26332",
+      "pdp": "p-rw26332.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cute-Fast-Food-Menu-Cabochons_1601295838173.html",
+      "sourceFields": {
+        "title": "100pcs Cute Fast Food Menu Cabochons Multicolor Mini Books Scrapbooking DIY Stickers Children Kids Toys",
+        "material": "Resin",
+        "size": "approx. 20 × 30 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26332"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26332/rw26332-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "181fafcd93915ed67dfedef15e08689aa1c4b1cf1934e2a89a13b31d7e451038",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26332/rw26332-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a7bddb55e2fbb0da344f8d70b9b00afe20a6d97b9775958b3723dde05542b6a3",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26332/rw26332-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "362118cfdc4b6b2810224bd6e3c5faa5b827b4c7058f3c915bbbd227ac4113f6",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26343",
+      "pdp": "p-rw26343.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Space-Rocket-Figure-Ornament-Miniature_1601806568741.html",
+      "sourceFields": {
+        "title": "100Pcs Space Rocket Figure Ornament Miniature Resin Craft DIY Accessories Decoration",
+        "material": "Resin",
+        "size": "approx. 50 × 30 × 20 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26343"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26343/rw26343-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "b92b7a234fe61801eb1b0079025d108d8167305a00db56cd1aeb5ffbb9aa0e95",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26343/rw26343-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "7a03b1d6a79c8afeca9e435229aaedbdbe3480819c9741195e2a5b751956fab0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26343/rw26343-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "a6ece712cfe10dbc4d7bb83f5286ee2c0574bdca084a8de77e502badfb70e22d",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26397",
+      "pdp": "p-rw26397.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Strawberry-Bear-Egg-Tart-Miniature_1601394261255.html",
+      "sourceFields": {
+        "title": "Kawaii Strawberry Bear Egg Tart Miniature Sweet Food Play Resin Cabochon DIY Dollhouse Kichen Play Decor Making Accessory",
+        "material": "Resin",
+        "size": "approx. 25 × 28 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26397"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26397/rw26397-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5fc420efd98542f6ee84936f0aad4559be0f81ae14564dd25c1152965c00f5d3",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26397/rw26397-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "b0c33e23c7613ec5ae34346a03eff8667c304fe89fa46b5ae119480b9a9979e3",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26397/rw26397-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "dbeba948a6b146da5ffe5ab4cbdf89c91d6b1431ba376989e46c8fc007210859",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26451",
+      "pdp": "p-rw26451.html",
+      "batchNumber": 54,
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Shiny-Cat-Biscuits-Series-Flat_1601043768360.html",
+      "sourceFields": {
+        "title": "100Pcs Shiny Cat Biscuits Series Flat Back Charms for Earrings Bracelet Hairpin DIY Jewelry Pendants Decoration Accessories",
+        "material": "Resin",
+        "size": "approx. 18 × 23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26451"
+      },
+      "imageOutputs": [
+        {
+          "path": "assets/images/pdp/rw26451/rw26451-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "520b4ca5e3f9f46339b943d284326327b43c3a668b1120f872afc1c4cf3662f0",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26451/rw26451-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cf34e0c4a9b79364b4f6f0db35d7c19b01a4667fc027a74d1806408532591148",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26451/rw26451-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "5d0e85110028f3315172b5d0aacce6038593b30e40d7968aaadce4aa5f6d22e5",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}
