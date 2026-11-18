@@ -125,7 +125,12 @@
       const response=await fetch('assets/data/product-catalog.json?v=20261018-extension');
       if(!response.ok)throw new Error('Catalog unavailable');
       const j=await response.json();
-      const loaded=[];j.categories.forEach(c=>c.products.forEach(p=>loaded.push(p)));
+      let specs={};
+      try {
+        const specResponse=await fetch('assets/data/catalog-search-specs.json?v=20261118');
+        if(specResponse.ok)specs=await specResponse.json();
+      } catch (_) { /* Names and SKUs remain searchable if specifications fail to load. */ }
+      const loaded=[];j.categories.forEach(c=>c.products.forEach(p=>loaded.push({...p,searchSpecs:specs[p.pdp]||''})));
       items=loaded;return items;
     })().finally(()=>{loading=null;});
     return loading;
@@ -148,7 +153,8 @@
       // A shorthand group such as RW337/285 must also be found as RW285.
       const prefix=(p.sku.match(/^[a-z]+/i)||[''])[0];
       const codes=p.sku.split('/').map(code=>/^\d+$/.test(code)?prefix+code:code).join(' ');
-      return (p.sku+' '+codes+' '+p.title+' '+p.category).toLowerCase().indexOf(q)>-1;
+      const hay=(p.sku+' '+codes+' '+p.title+' '+p.category+' '+p.searchSpecs).toLowerCase();
+      return q.split(/\s+/).every(term=>hay.includes(term));
     }).sort((a,b)=>Number(b.sku.toLowerCase()===q)-Number(a.sku.toLowerCase()===q));
     matches=list;shown=0;results.innerHTML='';
     show(paging?24:matches.length);
