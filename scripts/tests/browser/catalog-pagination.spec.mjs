@@ -2,7 +2,8 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 const catalog=JSON.parse(readFileSync(new URL('../../../assets/data/product-catalog.json',import.meta.url),'utf8'));
-const matches=catalog.categories.flatMap(c=>c.products).filter(p=>(p.sku+' '+p.title+' '+p.category).toLowerCase().includes('resin'));
+const specs=JSON.parse(readFileSync(new URL('../../../assets/data/catalog-search-specs.json',import.meta.url),'utf8'));
+const matches=catalog.categories.flatMap(c=>c.products).filter(p=>(p.sku+' '+p.title+' '+p.category+' '+(specs[p.pdp]||'')).toLowerCase().includes('resin'));
 
 test('broad catalog searches reach every result, retain inquiry context and clear cleanly',async({page,context,baseURL})=>{
  await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(baseURL).origin&&route.request().method()==='GET'?route.continue():route.abort());

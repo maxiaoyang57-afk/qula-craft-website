@@ -14,7 +14,7 @@ const product = (sku, title) => ({ sku, title, category: 'Resin Charms', image: 
 const catalog = { categories: [{ products: [product('RW26808', 'First resin product'),
   product('RW20809', 'Second resin product'), product('RW337/285', 'Grouped resin products')] }] };
 
-function fixture(search = '', paged = false) {
+function fixture(search = '', paged = false, specs = {}) {
   const listeners = new Map(), timers = new Map(), requests = [];
   let timerId = 0;
   const paging = { hidden: true }, more = { addEventListener: (name, fn) => more.click = fn }, all = { addEventListener: (name, fn) => all.click = fn };
@@ -24,7 +24,7 @@ function fixture(search = '', paged = false) {
     URLSearchParams, location: { search },
     document: { querySelector: selector => ({ '[data-search-controls]': paged ? paging : null, '[data-search-more]': paged ? more : null, '[data-search-all]': paged ? all : null, '[data-catalog-search]': input,
       '[data-search-results]': results, '[data-search-count]': count, '.category-grid': grid }[selector] || null) },
-    fetch: () => new Promise((resolve, reject) => requests.push({
+    fetch: (url) => url.includes('catalog-search-specs.json') ? Promise.resolve({ ok: true, json: async () => specs }) : new Promise((resolve, reject) => requests.push({
       resolve: (data = catalog, ok = true) => resolve({ ok, json: async () => data }), reject,
     })),
     setTimeout: fn => { timers.set(++timerId, fn); return timerId; },
@@ -133,4 +133,12 @@ test('broad searches expose every match beyond sixty without duplicates or lost 
  f.type('rw10100');assert.equal(f.paging.hidden,true);await f.debounce();
  assert.match(f.count.textContent,/1 of 1/);assert.equal((f.results.innerHTML.match(/<article/g)||[]).length,1);
  f.type('');assert.equal(f.results.hidden,true);assert.equal(f.paging.hidden,true);
+});
+
+
+test('material and application terms are searchable from product specifications', async () => {
+  const f = fixture('', false, { 'p-rw20809.html': 'polymer clay phone case' });
+  f.type('polymer phone'); await f.debounce(); f.requests[0].resolve(); await f.settle();
+  assert.match(f.results.innerHTML, /RW20809/);
+  assert.doesNotMatch(f.results.innerHTML, /RW26808/);
 });
