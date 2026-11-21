@@ -268,13 +268,21 @@
       const line=x=>'- '+x.sku+(x.title?' — '+x.title:'')+(x.productPath?' | '+location.origin+x.productPath:'')+(x.category?' | '+x.category:'');
       const known=previousSkus.slice().sort((a,b)=>b.line.length-a.line.length),edited=new Map();let rest=ta.value;
       const old=rest.match(/^Inquiry list:\r?\n((?:- [^\r\n]*(?:\r?\n|$))*)(?:\r?\n)?/);
-      if(old){
+      if(old&&known.length){
         const notes=[];
-        old[1].split(/\r?\n/).filter(Boolean).forEach(text=>{const item=known.find(x=>text===x.line||text.startsWith(x.line+' ')||text.startsWith(x.line+':')||text.startsWith(x.line+'\t'));if(item)edited.set(item.key,text);else notes.push(text);});
-        if(edited.size)rest=(notes.length?notes.join('\n')+'\n\n':'')+rest.slice(old[0].length);
+        old[1].split(/\r?\n/).filter(Boolean).forEach(text=>{
+          let item=known.find(x=>text===x.line||text.startsWith(x.line+' ')||text.startsWith(x.line+':')||text.startsWith(x.line+'\t'));
+          if(!item){
+            const matches=known.filter(x=>text==='- '+x.sku||text.startsWith('- '+x.sku+':')||text.startsWith('- '+x.sku+'\t'));
+            // A shortened SKU quantity line is identifiable only for a unique selection.
+            if(matches.length===1)item=matches[0];
+          }
+          if(item)edited.set(item.key,text);else notes.push(text);
+        });
+        rest=(notes.length?notes.join('\n')+'\n\n':'')+rest.slice(old[0].length);
       }
       const block=list.length?'Inquiry list:\n'+list.map(x=>edited.get(key(x))||line(x)).join('\n')+'\n\n':'';
-      previousSkus=list.map(x=>({key:key(x),line:line(x)}));
+      previousSkus=list.map(x=>({key:key(x),sku:x.sku,line:line(x)}));
       if(ta.value!==block+rest)ta.value=block+rest;
       ta.dispatchEvent(new Event('input',{bubbles:true}));
     }
@@ -283,7 +291,7 @@
       if(!list.length){if(p)p.remove();syncTa();renderChip();return;}
       if(!p){p=document.createElement('div');p.className='basket-panel';form.insertBefore(p,form.firstChild);}
       const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-      p.innerHTML='<h3>Your inquiry list ('+list.length+') <button type="button" class="bp-clear" data-clear aria-label="Clear inquiry list">clear all</button></h3><ul>'+list.map(x=>'<li><span class="bp-item"><img src="'+esc(safeLocalImage(x.image)||'/assets/images/favicon.png')+'" alt="'+esc(x.title||x.sku)+'" loading="lazy"><span><b>'+esc(x.sku)+'</b>'+(x.title?' — '+esc(x.title):'')+(x.productPath?' <a href="'+esc(x.productPath)+'">View selected product</a>':' — confirm the exact product reference')+(x.category?' · '+esc(x.category):'')+'</span></span><button type="button" class="bp-remove" data-key="'+esc(itemKey(x))+'" data-sku="'+esc(x.sku)+'" aria-label="Remove '+esc(x.title||x.sku)+' from inquiry list">×</button></li>').join('')+'</ul>';
+      p.innerHTML='<h3>Your inquiry list ('+list.length+') <button type="button" class="bp-clear" data-clear aria-label="Clear inquiry list">clear all</button></h3><ul>'+list.map(x=>'<li><span class="bp-item"><img src="'+esc(safeLocalImage(x.image)||'/assets/images/favicon.png')+'" alt="'+esc(x.title||x.sku)+'" loading="lazy"><span><b>'+esc(x.sku)+'</b>'+(x.title?' — '+esc(x.title):'')+(x.productPath?' <a href="'+esc(x.productPath)+'">View selected product</a>':' — confirm the exact product reference')+(x.category?' · '+esc(x.category):'')+'</span></span><button type="button" class="bp-remove" data-key="'+esc(itemKey(x))+'" data-sku="'+esc(x.sku)+'" aria-label="Remove '+esc(x.sku)+(x.title?' — '+esc(x.title):'')+' from inquiry list">×</button></li>').join('')+'</ul>';
       syncTa();renderChip();
     }
     document.addEventListener('click',async e=>{
