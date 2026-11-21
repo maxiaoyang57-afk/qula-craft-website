@@ -2,7 +2,8 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 const catalog=JSON.parse(readFileSync(new URL('../../../assets/data/product-catalog.json',import.meta.url),'utf8'));
-const matches=catalog.categories.flatMap(c=>c.products).filter(p=>(p.sku+' '+p.title+' '+p.category).toLowerCase().includes('resin'));
+const specs=JSON.parse(readFileSync(new URL('../../../assets/data/catalog-search-specs.json',import.meta.url),'utf8'));
+const matches=catalog.categories.flatMap(c=>c.products).filter(p=>(p.sku+' '+p.title+' '+p.category+' '+(specs[p.pdp]||'')).toLowerCase().includes('resin'));
 
 test('broad catalog searches reach every result, retain inquiry context and clear cleanly',async({page,context,baseURL})=>{
  await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(baseURL).origin&&route.request().method()==='GET'?route.continue():route.abort());
@@ -29,3 +30,27 @@ test('broad catalog searches reach every result, retain inquiry context and clea
  await expect(page.locator('.category-grid')).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });
+
+test('same SKU references remain separate in the inquiry list and removing one preserves the other',async({page,context,baseURL})=>{
+ await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(baseURL).origin&&route.request().method()==='GET'?route.continue():route.abort());
+ await page.goto('/products.html?search=YM109');
+ const cards=page.locator('[data-search-results] .product-card');
+ const first=cards.filter({has:page.locator('h3 a[href="p-ym109.html"]')});
+ const second=cards.filter({has:page.locator('h3 a[href="p-ym109-2.html"]')});
+ await first.locator('.basket-add').press('Enter');
+ await second.locator('.basket-add').press('Enter');
+ await expect.poll(()=>page.evaluate(()=>JSON.parse(localStorage.getItem('qcBasket')||'[]').length)).toBe(2);
+ await page.locator('.basket-chip').press('Enter');
+ const panel=page.locator('.basket-panel');
+ await expect(panel.locator('li')).toHaveCount(2);
+ await expect(panel.locator('a[href="/p-ym109.html"]')).toBeVisible();
+ await expect(panel.locator('a[href="/p-ym109-2.html"]')).toBeVisible();
+ const message=page.locator('textarea[name="message"]');
+ await expect(message).toHaveValue(/p-ym109\.html/);
+ await expect(message).toHaveValue(/p-ym109-2\.html/);
+ await panel.locator('.bp-remove[data-key="/p-ym109.html"]').press('Enter');
+ await expect(panel.locator('li')).toHaveCount(1);
+ await expect(message).not.toHaveValue(/\/p-ym109\.html/);
+ await expect(message).toHaveValue(/\/p-ym109-2\.html/);
+});
+

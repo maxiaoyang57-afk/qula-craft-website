@@ -12,6 +12,7 @@ const context = vm.createContext({
   load: () => state.items,
   normalizeList: list => list,
   Event,
+  location:{origin:'https://www.qulacrafts.com'},
 });
 vm.runInContext(source.slice(start, end), context);
 const sync = () => vm.runInContext('syncTa()', context);
@@ -61,3 +62,21 @@ state.items = [];
 sync();
 assert.equal(state.ta.value, '- Keep my bullet-point request.', 'Customer bullet points are separate from generated SKU lines');
 console.log('Inquiry basket synchronization passed: add, repeated render, remove, clear, notes, and CRLF.');
+
+state.ta.value='Please pack the two references separately.';
+state.items=[
+  {sku:'YM109',productPath:'/p-ym109.html',title:'First PET tube reference',category:'Plastic Sequins'},
+  {sku:'YM109',productPath:'/p-ym109-2.html',title:'Second PET tube reference',category:'Plastic Sequins'}
+];
+sync();
+assert.ok(state.ta.value.includes('First PET tube reference | https://www.qulacrafts.com/p-ym109.html'));
+assert.ok(state.ta.value.includes('Second PET tube reference | https://www.qulacrafts.com/p-ym109-2.html'));
+state.ta.value=state.ta.value.replace('p-ym109-2.html | Plastic Sequins','p-ym109-2.html | Plastic Sequins: 2 bags');
+sync();
+state.items=state.items.slice(1);
+sync();
+assert.ok(!state.ta.value.includes('First PET tube reference'),'Removing one reference does not remove or retain the wrong same-SKU line');
+assert.ok(state.ta.value.includes('Second PET tube reference')&&state.ta.value.includes('2 bags'),'The other reference and edited quantity survive');
+state.items=[];sync();
+assert.equal(state.ta.value,'Please pack the two references separately.','Clearing both variants preserves the buyer requirements');
+

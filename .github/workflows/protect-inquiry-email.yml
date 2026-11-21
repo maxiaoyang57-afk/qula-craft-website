@@ -31,6 +31,7 @@ jobs:
         run: |
           node scripts/tests/check-inquiry-basket-storage.mjs
           node scripts/tests/check-inquiry-basket-sync.mjs
+          node --test scripts/tests/inquiry-variant-identity.test.mjs
       - name: Verify protected products
         run: node scripts/check-required-products.mjs
       - name: Verify product paragraph uniqueness and reviewed facts
@@ -58,7 +59,7 @@ jobs:
       - name: Install mobile browser test runtime
         run: |
           npm install --no-save --package-lock=false @playwright/test@1.55.0
-          npx playwright install --with-deps chromium
+          npx playwright install --with-deps chromium || npx playwright install chromium
       - name: Start static preview server
         run: |
           npm run build
@@ -109,3 +110,4 @@ jobs:
           echo "Protected production content drift was detected. No automatic commit, merge or production deployment was performed." >> "$GITHUB_STEP_SUMMARY"
           echo "Manual review and explicit approval are required before any production change." >> "$GITHUB_STEP_SUMMARY"
           exit 1
+
