@@ -209,7 +209,13 @@
   function renderChip(){const n=load().length;chip.querySelector('b').textContent=n;chip.classList.toggle('on',n>0);}
   renderChip();
   function safeLocalImage(src){
-    try{const u=new URL(String(src||''),location.origin);return u.origin===location.origin&&u.pathname.startsWith('/assets/')?u.pathname+u.search:'';}catch(_){return '';}
+    const value=String(src||'').trim();
+    if(!value)return '';
+    try{
+      const url=new URL(value,location.origin);
+      if(url.origin!==location.origin||!url.pathname.startsWith('/assets/'))return '';
+      return url.pathname+url.search;
+    }catch(e){return '';}
   }
   function imageFromButton(a){
     const scopes=[a.closest('.product-card'),a.closest('.detail-grid'),a.closest('.product-info'),document];
