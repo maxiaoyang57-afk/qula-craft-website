@@ -142,3 +142,19 @@ test('material and application terms are searchable from product specifications'
   assert.match(f.results.innerHTML, /RW20809/);
   assert.doesNotMatch(f.results.innerHTML, /RW26808/);
 });
+
+test('measured-unit searches accept spacing while excluding a different numeric measurement', async () => {
+ const f=fixture('',false,{'p-rw26808.html':'Acrylic; Hole: Approx. 2 mm; sample fit required','p-rw20809.html':'Acrylic; Size: 12 mm'});
+ f.type('2mm');await f.debounce();f.requests[0].resolve();await f.settle();
+ assert.match(f.results.innerHTML,/RW26808/);assert.doesNotMatch(f.results.innerHTML,/RW20809/);
+ f.type('2 mm');await f.debounce();assert.match(f.results.innerHTML,/RW26808/);assert.doesNotMatch(f.results.innerHTML,/RW20809/);
+});
+
+test('search result inquiries retain the full title, image and product URL',async()=>{
+ const f=fixture();const p=product('YM109','A long PET tube reference title that must stay complete beyond forty-two characters');
+ f.type('YM109');await f.debounce();f.requests[0].resolve({categories:[{products:[p]}]});await f.settle();
+ const href=f.results.innerHTML.match(/class="btn btn-card" href="([^"]+)"/)[1];
+ const params=new URLSearchParams(href.split('#rfq:')[1]);
+ assert.equal(params.get('product'),p.title);assert.equal(params.get('image'),p.image);assert.equal(params.get('entry_page'),'/'+p.pdp);
+});
+
