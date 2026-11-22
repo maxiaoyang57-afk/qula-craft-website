@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 GUIDES = json.loads((ROOT / "assets/data/product-selection-guides.json").read_text(encoding="utf-8"))
-CATEGORIES = {"czb26337": "Resin Charms", "yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens", "ya855": "Acrylic Beads", "rw22372": "Resin Charms", "slm10094": "Slime Charms", "slm10093": "Slime Charms", "slm10012": "Slime Charms", "cdk001208": "Keychains"}
+CATEGORIES = {"rw4252": "Resin Charms", "czb26337": "Resin Charms", "yx043": "Polymer Clay Sprinkles", "yx3194": "Polymer Clay Sprinkles", "yx3301": "Polymer Clay Sprinkles", "ya425": "Acrylic Beads", "ya382": "Acrylic Beads", "czb26353": "Beads for Pens", "yx3531": "Polymer Clay Sprinkles", "czb25840": "Beads for Pens", "ya855": "Acrylic Beads", "rw22372": "Resin Charms", "slm10094": "Slime Charms", "slm10093": "Slime Charms", "slm10012": "Slime Charms", "cdk001208": "Keychains"}
 
 
 def selection_quote_url(key: str, quote_url: str) -> str:
@@ -106,3 +106,4 @@ def update_existing_pages() -> None:
 
 if __name__ == "__main__":
     update_existing_pages()
+
