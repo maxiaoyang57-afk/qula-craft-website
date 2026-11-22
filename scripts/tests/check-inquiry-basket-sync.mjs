@@ -12,6 +12,7 @@ const context = vm.createContext({
   load: () => state.items,
   normalizeList: list => list,
   Event,
+  location:{origin:'https://www.qulacrafts.com'},
 });
 vm.runInContext(source.slice(start, end), context);
 const sync = () => vm.runInContext('syncTa()', context);
@@ -61,3 +62,35 @@ state.items = [];
 sync();
 assert.equal(state.ta.value, '- Keep my bullet-point request.', 'Customer bullet points are separate from generated SKU lines');
 console.log('Inquiry basket synchronization passed: add, repeated render, remove, clear, notes, and CRLF.');
+
+state.ta.value='Please pack the two references separately.';
+state.items=[
+  {sku:'YM109',productPath:'/p-ym109.html',title:'First PET tube reference',category:'Plastic Sequins'},
+  {sku:'YM109',productPath:'/p-ym109-2.html',title:'Second PET tube reference',category:'Plastic Sequins'}
+];
+sync();
+assert.ok(state.ta.value.includes('First PET tube reference | https://www.qulacrafts.com/p-ym109.html'));
+assert.ok(state.ta.value.includes('Second PET tube reference | https://www.qulacrafts.com/p-ym109-2.html'));
+state.ta.value=state.ta.value.replace('p-ym109-2.html | Plastic Sequins','p-ym109-2.html | Plastic Sequins: 2 bags');
+sync();
+state.items=state.items.slice(1);
+sync();
+assert.ok(!state.ta.value.includes('First PET tube reference'),'Removing one reference does not remove or retain the wrong same-SKU line');
+assert.ok(state.ta.value.includes('Second PET tube reference')&&state.ta.value.includes('2 bags'),'The other reference and edited quantity survive');
+state.items=[];sync();
+assert.equal(state.ta.value,'Please pack the two references separately.','Clearing both variants preserves the buyer requirements');
+
+
+state.ta.value='Please pack separately.\n- My own packaging request.';
+const packing=state.ta.value;
+state.items=[{sku:'RW26808',productPath:'/p-rw26808-acorn.html',title:'Smiling Acorn Resin Flatback Charms',category:'Resin Charms'},{sku:'RW20809',productPath:'/p-rw20809.html',title:'Pig and Cabbage Resin Flatback Charms',category:'Resin Charms'}];
+sync();
+state.ta.value='Inquiry list:\r\n- RW26808: 700 pcs\r\n- RW20809: 200 packs\r\n- Keep my custom mix: 雪 & stars\r\n\r\n'+packing;
+sync();
+assert.equal((state.ta.value.match(/Inquiry list:/g)||[]).length,1,'Replacing full lines with unique SKU quantities does not duplicate the list');
+assert.ok(state.ta.value.includes('RW26808: 700 pcs')&&state.ta.value.includes('RW20809: 200 packs'));
+state.items=state.items.slice(1);sync();
+assert.ok(!state.ta.value.includes('RW26808'),'Removed product does not remain in a buyer-edited quantity line');
+assert.ok(state.ta.value.includes('RW20809: 200 packs')&&state.ta.value.includes('Keep my custom mix: 雪 & stars'));
+state.items=[];sync();
+assert.equal(state.ta.value,'- Keep my custom mix: 雪 & stars\n\n'+packing,'Clear removes remaining quantity and preserves buyer notes');
