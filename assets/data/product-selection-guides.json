@@ -275,5 +275,24 @@
       "label": "Compare tree charms with lobster clasps"
     },
     "inquiryBrief": "CDK001208: slipper-themed lobster-clasp accessory. Please confirm decorative body material, clasp opening, overall size, included fittings, pieces per bag and my selected designs."
+  },
+  "rw4252": {
+    "sku": "RW4252",
+    "heading": "Plan a candy decoration layout with the listed size",
+    "project": "RW4252 is a jelly bean-shaped resin decoration listed at 12 × 22 mm and 100 pieces per reference bag. Use those figures to compare a layout, then confirm the selected colors and the actual attachment surface with a sample.",
+    "checks": [
+      "State the intended craft surface, layout area and quantity, and include a reference photo if useful.",
+      "Request thickness, reverse-side and any hole or fitting details before choosing an attachment method. Trial the selected sample with your own adhesive and surface.",
+      "Confirm the selected colors, assortment and required bag count. This page lists a one-bag MOQ and 100 pieces per reference bag; final availability and quotation are confirmed for the selected order."
+    ],
+    "guide": {
+      "url": "guide-decoden-supplies.html",
+      "label": "Compare decorative components for a decoden layout"
+    },
+    "related": {
+      "url": "guide-ready-made-resin-charms-diy-projects.html",
+      "label": "Plan a DIY project with ready-made resin decorations"
+    }
   }
 }
+
