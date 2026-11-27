@@ -135,7 +135,12 @@
     })().finally(()=>{loading=null;});
     return loading;
   }
-  const normalizeSearch=value=>String(value).toLowerCase().replace(/(\d)\s+(mm|cm|kg|g)\b/g,'$1$2');
+  const normalizeSearch=value=>String(value).toLowerCase()
+    .replace(/\bphone[\s-]*cases?\b/g, 'phone case')
+    .replace(/\bflat[\s-]*backs?\b/g, 'flatback')
+    .replace(/\bcabochons\b/g, 'cabochon')
+    .replace(/\bkey[\s-]*chains?\b/g, 'keychain')
+    .replace(/(\d)\s+(mm|cm|kg|g)\b/g,'$1$2');
   async function run(revision){
     if(revision!==searchRevision)return;
     const q=normalizeSearch(sInput.value.trim());
