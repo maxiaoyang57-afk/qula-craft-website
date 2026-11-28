@@ -1,4 +1,30 @@
 {
+  "rw1917": {
+    "summary": "Ice cream, donuts and ice pops give this pastel mix several distinct silhouettes. Pick the dessert you want to draw the eye, then arrange the other shapes around it.",
+    "selectionAdvice": "Compare the actual mix with your layout before deciding how many pieces of each dessert a kit needs."
+  },
+  "rw2304-c": {
+    "summary": "These candy discs add a repeatable round shape to dollhouse displays and craft layouts. Use their listed 14 mm footprint to space an even row or border.",
+    "selectionAdvice": "Lay out one sample row before ordering, especially if the colors need to alternate in a set sequence."
+  },
+  "rw1112": {
+    "summary": "A narrow pastel spiral candy can sit along a scrapbook edge or on the diagonal of a decoden layout. Allow for the listed 28 mm long dimension before adding surrounding accents.",
+    "selectionAdvice": "Check the angle and clearance on a full-size sketch, then review the selected colors against a sample."
+  },
+  "rw26812": {
+    "summary": "Set small Christmas candy and dessert motifs around a larger centerpiece on a holiday craft. The listed size is approximately 10 mm, with variation by design.",
+    "selectionAdvice": "If a particular motif is needed in every kit, identify it from the catalog images and confirm the mix by sample."
+  },
+  "rw474": {
+    "summary": "The wrapper outline gives these candy charms a clear silhouette in a slime or decoden layout. Allow for the listed 24 × 15 mm size when spacing adjacent pieces.",
+    "selectionAdvice": "Check which wrapper colors are included if the rest of the kit is built around a specific palette."
+  },
+  "rw819": {
+    "summary": "A glittered watermelon wedge adds a fruit accent to a summer layout. Place it where the slice outline stays visible alongside the other pieces.",
+    "projectUse": "",
+    "selectionAdvice": "For a phone case or scrapbook, try the listed 21 × 12 mm footprint on your layout before selecting the remaining pieces.",
+    "variantSizeNotes": ""
+  },
   "yx605": {
     "sourceBasis": "Captured YX605 title, Shape and Usage fields in assets/data/pdp-data.json; Alibaba product 1601660279890. No dimensions or bag weight supplied.",
     "summary": "Easter-themed clay slices with rabbit, carrot and egg motifs for slime decoration, nail art and decorative craft layouts.",
