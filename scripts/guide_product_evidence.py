@@ -3,6 +3,7 @@ import html
 import json
 import re
 from pathlib import Path
+from datetime import date
 from urllib.parse import urlencode
 from PIL import Image
 
@@ -79,6 +80,7 @@ def inquiry_references(page):
 def apply(page):
     """Patch only the curated guide images and evidence section; keep its shell."""
     hero, keys, heading, intro = GUIDES[page]
+    modified = CONTENT.get(page, {}).get("dateModified", DATE)
     path = ROOT / page
     s = path.read_text()
     p = PRODUCTS[hero]
@@ -97,10 +99,10 @@ def apply(page):
         data = json.loads(m[1])
         if data.get('@type') == 'Article':
             data['image'] = BASE + src
-            data['dateModified'] = DATE
+            data['dateModified'] = modified
         return '<script type="application/ld+json">' + json.dumps(data,ensure_ascii=False) + '</script>'
     before = re.sub(r'<script type="application/ld\+json">(.*?)</script>', schema, before, flags=re.S)
-    body = re.sub(r'Updated (?:[A-Za-z]+ \d{1,2}, \d{4}|\d{1,2} [A-Za-z]+ \d{4})', 'Updated November 9, 2026', body, count=1)
+    body = re.sub(r'Updated (?:[A-Za-z]+ \d{1,2}, \d{4}|\d{1,2} [A-Za-z]+ \d{4})', date.fromisoformat(modified).strftime("Updated %B %-d, %Y"), body, count=1)
     path.write_text(before + body)
 
 CONTENT = {
@@ -112,7 +114,8 @@ CONTENT = {
     },
     "guide-decoden-supplies.html": {
         "file": "decoden-buyer-body.html",
-        "answer": "Build a decoden shortlist around the usable case area, actual component dimensions and reverse-side shape. Compare catalog photographs by SKU, request backing details and test the selected decoration with your case and adhesive. Use an approved layout to calculate quantities, then confirm pack counts, MOQ and samples in the quotation.",
+        "dateModified": "2026-11-28",
+        "answer": "For a glue-on decoden phone case, choose resin decorations with a flat contact area and enough clearance around the camera and edges. Compare RW474 candy decorations (24 × 15 mm) and RW26460 fruit decorations (14 × 13 × 9 mm) as size references. Request rear-view photos and test a sample on your actual case before ordering.",
         "faq": [("Does a charm photograph establish a flat backing?", "No. Request a reverse-side photograph and the relevant thickness or dimensions for each selected SKU."), ("How many decorations does one phone case need?", "Count each SKU in your actual trial layout. The usable case area, camera clearance and selected component sizes determine the quantity."), ("Does a 100-piece bag mean the MOQ is 100 pieces?", "A reference pack count and minimum order are different facts. Confirm the MOQ and available assortment for each selected SKU in the quotation."), ("Can I choose an adhesive from the decoration photo?", "The photo does not establish adhesive compatibility. Follow the adhesive supplier's instructions and trial the selected decoration, case surface and any base material together.")],
         "quote": "quote.html?product=Decoden%20Resin%20Charms",
     },
